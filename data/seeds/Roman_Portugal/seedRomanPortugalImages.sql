@@ -61,7 +61,7 @@ INSERT INTO images (
 ('/saints/pt/blessed-inacio-de-azevedo_3.webp', 'Blessed Inácio de Azevedo & his companions', 'painting', 'Blessed Inácio de Azevedo & Companions Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 
 -- Blessed Bartholomew of the Martyrs
-('/saints/pt/blessed-bartholomew-of-the-martyrs_andre.webp', 'Blessed Bartholomew of the Martyrs', 'painting', 'Blessed Bartholomew of the Martyrs Painting', 'António André', '1618-1625', 'Museu de Aveiro', NULL, 'Public Domain', NULL),
+('/saints/pt/blessed-bartholomew-of-the-martyrs_andre.webp', 'Blessed Bartholomew of the Martyrs', 'painting', 'Blessed Bartholomew of the Martyrs Painting', 'António André', '1618-1625', 'Museu de Aveiro (Portugal)', NULL, 'Public Domain', NULL),
 ('/saints/pt/blessed-bartholomew-of-the-martyrs.webp', 'Blessed Bartholomew of the Martyrs', 'painting', 'Blessed Bartholomew of the Martyrs Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 ('/saints/pt/blessed-bartholomew-of-the-martyrs_2.webp', 'Blessed Bartholomew of the Martyrs', 'engraving', 'Blessed Bartholomew of the Martyrs Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 
@@ -71,16 +71,19 @@ INSERT INTO images (
 ('/saints/pt/saint-beatrice-of-silva_3.webp', 'Saint Beatrice of Silva', 'painting', 'Saint Beatrice of Silva Painting', NULL, '19th Century', NULL, NULL, 'Public Domain', NULL),
 
 -- Blessed Gonçalo de Lagos
-('/saints/pt/blessed-goncalo-de-lagos_andre.webp', 'Blessed Gonçalo de Lagos', 'painting', 'Blessed Gonçalo de Lagos Painting', 'António André', '1618-1625', NULL, NULL, 'Public Domain', NULL),
-('/saints/pt/blessed-goncalo-de-lagos.webp', 'Blessed Gonçalo de Lagos', 'painting', 'Blessed Gonçalo de Lagos Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pt/blessed-goncalo-de-lagos.webp', 'Blessed Gonçalo de Lagos', 'illustration', 'Blessed Gonçalo de Lagos Illustration', NULL, '19th Century', NULL, NULL, 'Public Domain', NULL),
 
 -- Saint Nuno of Saint Mary
-('/saints/pt/saint-nuno-of-saint-mary.webp', 'Saint Nuno of Saint Mary', 'painting', 'Saint Nuno of Saint Mary Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pt/saint-nuno-of-saint-mary.webp', 'Saint Nuno of Saint Mary', 'painting', 'Saint Nuno of Saint Mary Painting', NULL, '1850', NULL, NULL, 'Public Domain', NULL),
+('/saints/pt/saint-nuno-of-saint-mary_2.webp', 'Saint Nuno of Saint Mary', 'painting', 'Saint Nuno of Saint Mary Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 
 -- Saint Martin of Dume
-('/saints/pt/saint-martin-of-dume.webp', 'Saint Martin of Dume', 'painting', 'Saint Martin of Dume Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pt/saint-martin-of-dume.webp', 'Saint Martin of Dume', 'painting', 'Saint Martin of Dume Painting', NULL, NULL, NULL, NULL, 'Attribution-ShareAlike 4.0 International', NULL),
+('/saints/pt/saint-martin-of-dume_2.webp', 'Saint Martin of Dume', 'illustration', 'Saint Martin of Dume Illustration', NULL, '10th Century', 'Códex Albeldensis - Biblioteca del Monasterio de San Lorenzo de El Escorial (Madrid)', NULL, 'Public Domain', NULL),
+('/saints/pt/saint-martin-of-dume_3.webp', 'Saint Martin of Dume', 'icon', 'Saint Martin of Dume Icon', NULL, NULL, NULL, NULL, 'CC0 1.0 Universal', NULL),
 
 -- Saint Gerald of Braga
-('/saints/pt/saint-gerald-of-braga.webp', 'Saint Gerald of Braga', 'painting', 'Saint Gerald of Braga Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL);
+('/saints/pt/saint-gerald-of-braga.webp', 'Saint Gerald of Braga', 'painting', 'Saint Gerald of Braga Painting', NULL, NULL, NULL, NULL, 'Attribution-ShareAlike 4.0 International', NULL),
+('/saints/pt/saint-gerald-of-braga_2.webp', 'Saint Gerald of Braga', 'painting', 'Saint Gerald of Braga Painting', NULL, '17th Century', 'Museu de Aveiro (Portugal)', NULL, 'Attribution-ShareAlike 4.0 International', NULL);
 
 COMMIT;
