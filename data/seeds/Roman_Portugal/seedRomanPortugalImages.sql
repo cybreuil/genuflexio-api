@@ -29,7 +29,7 @@ INSERT INTO images (
 
 -- Saint Theotonius
 ('/saints/pt/saint-theotonius_goncalves.webp', 'Saint Theotonius', 'painting', 'Saint Theotonius Painting', 'Nuno Gonçalves', '15th Century', 'National Museum of Ancient Art (Lisbon)', NULL, 'Public Domain', NULL),
-('/saints/pt/saint-theotonius_goncalves_2.webp', 'aint Theotonius at the feet of Our Lady of the Immaculate Conception', 'painting', 'Saint Theotonius Painting', 'André Gonçalves', '18th Century', 'Santa Casa da Misericórdia (Coimbra)', NULL, 'Public Domain', NULL),
+('/saints/pt/saint-theotonius_goncalves_2.webp', 'Saint Theotonius at the feet of Our Lady of the Immaculate Conception', 'painting', 'Saint Theotonius Painting', 'André Gonçalves', '18th Century', 'Santa Casa da Misericórdia (Coimbra)', NULL, 'Public Domain', NULL),
 
 -- Saint Jacinta Marto
 ('/saints/pt/saint-jacinta-marto.webp', 'Saint Jacinta Marto', 'painting', 'Saint Jacinta Marto Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),

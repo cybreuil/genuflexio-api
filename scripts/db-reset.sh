@@ -133,6 +133,12 @@ echo "✅ Roman Portugal saints seeded."
 run_sql "$ROOT_DIR/data/seeds/Roman_Portugal/seedRomanPortugalFeastSaints.sql"
 echo "✅ Roman Portugal Feast Saints links seeded."
 
+run_sql "$ROOT_DIR/data/seeds/Roman_Portugal/seedRomanPortugalImages.sql"
+echo "✅ Roman Portugal images seeded."
+
+run_sql "$ROOT_DIR/data/seeds/Roman_Portugal/seedRomanPortugalSaintImages.sql"
+echo "✅ Roman Portugal saint images seeded."
+
 # Poland Calendar seeding (!! Need to be after Spain cause we seed a feast we need for Poland)
 run_sql "$ROOT_DIR/data/seeds/Roman_Poland/seedRomanPoland.sql"
 echo "✅ Roman Poland seeded."
