@@ -4,7 +4,6 @@ BEGIN;
 -- Roman PORTUGAL saints images
 -- =====
 --
--- FULL WIP
 
 INSERT INTO images (
   image_url,
