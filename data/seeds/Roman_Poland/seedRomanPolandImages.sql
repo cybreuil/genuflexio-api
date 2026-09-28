@@ -40,4 +40,27 @@ INSERT INTO images (
 ('/saints/pl/saint-andrew-bobola.webp', 'Saint Andrew Bobola', 'painting', 'Saint Andrew Bobola Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 ('/saints/pl/saint-andrew-bobola_2.webp', 'Saint Andrew Bobola', 'painting', 'Saint Andrew Bobola Painting', 'Brother Bronisław Podsiadły SJ', '21th Century', NULL, NULL, 'Public Domain', NULL),
 
---WIP
+-- Saint Ursula Ledóchowska
+('/saints/pl/saint-ursula-ledochowska.webp', 'Saint Ursula Ledóchowska', 'painting', 'Saint Ursula Ledóchowska Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/saint-ursula-ledochowska_2.webp', 'Saint Ursula Ledóchowska in Saint Petersburg', 'photograph', 'Saint Ursula Ledóchowska Photograph', NULL, '1907', NULL, NULL, 'Public Domain', NULL),
+
+-- Saint John Sarkander
+('/saints/pl/saint-john-sarkander.webp', 'Saint John Sarkander', 'painting', 'Saint John Sarkander Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/saint-john-sarkander_2.webp', 'Saint John Sarkander', 'illustration', 'Saint John Sarkander Illustration', NULL, '1855', NULL, NULL, 'Public Domain', NULL),
+
+-- Saint Zdzislawa
+('/saints/pl/saint-zdzislawa.webp', 'Saint Zdzislawa', 'painting', 'Saint Zdzislawa Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/saint-zdzislawa_2.webp', 'Saint Zdzislawa', 'stained_glass', 'Saint Zdzislawa Stained Glass', NULL, NULL, 'Sts. Cyril and Methodius''s church in Olomouc (Czech Republic)', NULL, 'Attribution 4.0 International', NULL),
+
+-- Saint Hedwig the Queen
+('/saints/pl/saint-hedwig-the-queen_simmler.webp', 'Queen Jadwiga''s oath', 'painting', 'Saint Hedwig the Queen Painting', 'Józef Simmler', '1867', 'National Museum in Warsaw', NULL, 'Public Domain', NULL),
+('/saints/pl/saint-hedwig-the-queen_bacciarelli.webp', 'Saint Hedwig the Queen', 'painting', 'Saint Hedwig the Queen Painting', 'Marcello Bacciarelli', '1768-1771', 'Royal Castle (Warsaw)', NULL, 'Public Domain', NULL),
+('/saints/pl/saint-hedwig-the-queen.webp', 'Saint Hedwig the Queen', 'painting', 'Saint Hedwig the Queen Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+
+-- Blessed Antoni Nowowiejski
+('/saints/pl/blessed-antoni-nowowiejski.webp', 'Blessed Antoni Nowowiejski', 'painting', 'Blessed Antoni Nowowiejski Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/blessed-antoni-nowowiejski_2.webp', 'Blessed Antoni Nowowiejski', 'photograph', 'Blessed Antoni Nowowiejski Photograph', NULL, '1921', NULL, NULL, 'Public Domain', NULL),
+
+-- Blessed Michael Kozal
+('/saints/pl/blessed-michael-kozal.webp', 'Blessed Michael Kozal', 'painting', 'Blessed Michael Kozal Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/blessed-michael-kozal_2.webp', 'Blessed Michael Kozal', 'photograph', 'Blessed Michael Kozal Photograph', NULL, NULL, NULL, NULL, 'Public Domain', NULL);
