@@ -177,9 +177,9 @@ INSERT INTO saints (
   (SELECT id FROM places WHERE code='NITRA')
 ),
 (
-  'saint-benedict-the-hermit', 'Saint Benedict',
+  'saint-benedict-the-hermit', 'Saint Benedict the Hermit',
   980, NULL, NULL, TRUE,
-  1033, NULL, NULL, TRUE,
+  1012, NULL, NULL, TRUE,
   11,
   NULL,
   (SELECT id FROM places WHERE code='NITRA'),
@@ -196,7 +196,7 @@ INSERT INTO saints (
 ),
 (
   'blessed-czeslaw', 'Blessed Czesław',
-  1180, NULL, NULL, TRUE,
+  1184, NULL, NULL, TRUE,
   1242, 7, 15, FALSE,
   13,
   (SELECT id FROM places WHERE code='SILESIA'),
@@ -205,7 +205,7 @@ INSERT INTO saints (
 ),
 (
   'saint-kinga', 'Saint Kinga',
-  1234, 3, 5, FALSE,
+  1224, 3, 5, FALSE,
   1292, 7, 24, FALSE,
   13,
   (SELECT id FROM places WHERE code='ESZTERGOM'),

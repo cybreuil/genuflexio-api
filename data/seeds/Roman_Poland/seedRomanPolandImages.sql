@@ -91,4 +91,27 @@ INSERT INTO images (
 
 -- Saint Andrzej Świerad
 ('/saints/pl/saint-andrzej-swierad_hadziewicz.webp', 'Saint Andrzej Świerad', 'painting', 'Saint Andrzej Świerad Painting', 'Rafał Hadziewicz', '1834-1839', 'National Museum in Kraków', NULL, 'Public Domain', NULL),
-('/saints/pl/saint-andrzej-swierad.webp', 'Saint Andrzej Świerad', 'painting', 'Saint Andrzej Świerad Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL);
+('/saints/pl/saint-andrzej-swierad-&-saint-benedict-the-hermit.webp', 'Saint Andrzej Świerad & Saint Benedict the Hermit', 'painting', 'Saint Andrzej Świerad & Saint Benedict the Hermit Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+
+-- Saint Benedict the Hermit
+('/saints/pl/saint-benedict-the-hermit.webp', 'Saint Benedict the Hermit', 'painting', 'Saint Benedict the Hermit Painting', NULL, '18th Century', 'Rozalia Cemetery (Kosice)', NULL, 'Public Domain', NULL),
+
+-- Saint Simon of Lipnica
+('/saints/pl/saint-simon-of-lipnica.webp', 'Saint Simon of Lipnica', 'painting', 'Saint Simon of Lipnica Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/saint-simon-of-lipnica_2.webp', 'Saint Simon of Lipnica', 'painting', 'Saint Simon of Lipnica Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+
+-- Blessed Czesław
+('/saints/pl/blessed-czeslaw_muszynski.webp', 'Blessed Czesław', 'painting', 'Blessed Czesław Painting', 'Tomasz Muszyński', '1665', 'Dominican Monastery in Lublin', NULL, 'Public Domain', NULL),
+('/saints/pl/blessed-czeslaw.webp', 'Blessed Czesław', 'painting', 'Blessed Czesław Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+
+-- Saint Kinga
+('/saints/pl/saint-kinga_matejko.webp', 'Saint Kinga', 'painting', 'Saint Kinga Painting', 'Jan Alojzy Matejko', '1892', NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/saint-kinga_czarnic.webp', 'Saint Kinga', 'painting', 'Saint Kinga Painting', 'Grzegorza Czarnic', '1686', NULL, NULL, 'Public Domain', NULL),
+
+-- Saint Hyacinth
+('/saints/pl/saint-hyacinth_carracci.webp', 'Madonna and Child Appearing to Saint Hyacinth', 'painting', 'Saint Hyacinth Painting', 'Ludovico Carracci', '1594', 'Musée du Louvre', NULL, 'Public Domain', NULL),
+('/saints/pl/saint-hyacinth.webp', 'Saint Hyacinth', 'painting', 'Saint Hyacinth Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/saint-hyacinth_serre.webp', 'Miracle of Saint Hyacinth', 'painting', 'Saint Hyacinth Painting', 'Michel Serre', '1799', NULL, NULL, 'Public Domain', NULL),
+
+-- Blessed Maria Stella
+-- WIP
