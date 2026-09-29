@@ -63,4 +63,16 @@ INSERT INTO images (
 
 -- Blessed Michael Kozal
 ('/saints/pl/blessed-michael-kozal.webp', 'Blessed Michael Kozal', 'painting', 'Blessed Michael Kozal Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
-('/saints/pl/blessed-michael-kozal_2.webp', 'Blessed Michael Kozal', 'photograph', 'Blessed Michael Kozal Photograph', NULL, NULL, NULL, NULL, 'Public Domain', NULL);
+('/saints/pl/blessed-michael-kozal_2.webp', 'Blessed Michael Kozal', 'photograph', 'Blessed Michael Kozal Photograph', NULL, '20th Century', NULL, NULL, 'Public Domain', NULL),
+
+-- Saint Albert Chmielowski
+('/saints/pl/saint-albert-chmielowski.webp', 'Saint Albert Chmielowski', 'painting', 'Saint Albert Chmielowski Painting', 'Sr. Lydia Pawełczak', NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/saint-albert-chmielowski_2.webp', 'Saint Albert Chmielowski', 'photograph', 'Saint Albert Chmielowski Photograph', NULL, '1900-1916', NULL, NULL, 'Public Domain', NULL),
+
+-- Saint Zygmunt Gorazdowski
+('/saints/pl/saint-zygmunt-gorazdowski.webp', 'Saint Zygmunt Gorazdowski', 'painting', 'Saint Zygmunt Gorazdowski Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/saint-zygmunt-gorazdowski_2.webp', 'Saint Zygmunt Gorazdowski', 'photograph', 'Saint Zygmunt Gorazdowski Photograph', NULL, '20th Century', 'Franciscan Monastery in Sanok', NULL, 'Public Domain', NULL),
+
+-- Saint Otto of Bamberg
+('/saints/pl/saint-otto-of-bamberg.webp', 'Saint Otto of Bamberg', 'fresco', 'Saint Otto of Bamberg Fresco', NULL, '1130', 'Prüfening Abbey', NULL, 'Public Domain', NULL),
+('/saints/pl/saint-otto-of-bamberg_2.webp', 'Saint Otto of Bamberg', 'painting', 'Saint Otto of Bamberg Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL);
