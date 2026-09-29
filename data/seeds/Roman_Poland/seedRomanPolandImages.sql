@@ -78,5 +78,5 @@ INSERT INTO images (
 ('/saints/pl/saint-otto-of-bamberg_2.webp', 'Saint Otto of Bamberg', 'painting', 'Saint Otto of Bamberg Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 
 -- Blessed Maria Teresia Ledóchowska
--- WIP
-('/saints/pl/blessed-maria-teresia-ledochowska.webp', 'Blessed Maria Teresia Ledóchowska', 'painting', 'Blessed Maria Teresia Ledóchowska Painting', NULL, NULL
+('/saints/pl/blessed-maria-teresia-ledochowska.webp', 'Blessed Maria Teresia Ledóchowska', 'painting', 'Blessed Maria Teresia Ledóchowska Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/blessed-maria-teresia-ledochowska_2.webp', 'Blessed Maria Teresia Ledóchowska', 'photograph', 'Blessed Maria Teresia Ledóchowska Photograph', NULL, '1902', NULL, NULL, 'Public Domain', NULL);
