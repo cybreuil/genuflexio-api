@@ -79,4 +79,16 @@ INSERT INTO images (
 
 -- Blessed Maria Teresia Ledóchowska
 ('/saints/pl/blessed-maria-teresia-ledochowska.webp', 'Blessed Maria Teresia Ledóchowska', 'painting', 'Blessed Maria Teresia Ledóchowska Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
-('/saints/pl/blessed-maria-teresia-ledochowska_2.webp', 'Blessed Maria Teresia Ledóchowska', 'photograph', 'Blessed Maria Teresia Ledóchowska Photograph', NULL, '1902', NULL, NULL, 'Public Domain', NULL);
+('/saints/pl/blessed-maria-teresia-ledochowska_2.webp', 'Blessed Maria Teresia Ledóchowska', 'photograph', 'Blessed Maria Teresia Ledóchowska Photograph', NULL, '1902', NULL, NULL, 'Public Domain', NULL),
+
+-- Saint John of Dukla
+('/saints/pl/saint-john-of-dukla_matejko.webp', 'Saint John of Dukla', 'painting', 'Saint John of Dukla Painting', 'Jan Matejko', '19th Century', NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/saint-john-of-dukla.webp', 'Saint John of Dukla', 'painting', 'Saint John of Dukla Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+
+-- Saint Bruno Boniface of Querfurt
+('/saints/pl/saint-bruno-boniface-of-querfurt.webp', 'Saint Bruno Boniface of Querfurt', 'fresco', 'Saint Bruno Boniface of Querfurt Fresco', NULL, NULL, NULL, NULL, 'Attribution-ShareAlike 3.0 Unported', NULL),
+('/saints/pl/saint-bruno-boniface-of-querfurt_2.webp', 'Saint Bruno Boniface of Querfurt', 'painting', 'Saint Bruno Boniface of Querfurt Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+
+-- Saint Andrzej Świerad
+('/saints/pl/saint-andrzej-swierad_hadziewicz.webp', 'Saint Andrzej Świerad', 'painting', 'Saint Andrzej Świerad Painting', 'Rafał Hadziewicz', '1834-1839', 'National Museum in Kraków', NULL, 'Public Domain', NULL),
+('/saints/pl/saint-andrzej-swierad.webp', 'Saint Andrzej Świerad', 'painting', 'Saint Andrzej Świerad Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL);
