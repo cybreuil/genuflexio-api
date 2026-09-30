@@ -114,4 +114,9 @@ INSERT INTO images (
 ('/saints/pl/saint-hyacinth_serre.webp', 'Miracle of Saint Hyacinth', 'painting', 'Saint Hyacinth Painting', 'Michel Serre', '1799', NULL, NULL, 'Public Domain', NULL),
 
 -- Blessed Maria Stella
--- WIP
+('/saints/pl/blessed-maria-stella-&-her-ten-companions.webp', 'Eleven Nuns of Nowogrodek', 'painting', 'Blessed Maria Stella Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/blessed-maria-stella-&-her-ten-companions_2.webp', 'Eleven Nuns of Nowogrodek', 'painting', 'Blessed Maria Stella Painting', 'Adam Styka', '20th Century', NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/blessed-maria-stella.webp', 'Blessed Maria Stella', 'photograph', 'Blessed Maria Stella Photograph', NULL, '20th Century', NULL, NULL, 'Public Domain', NULL),
+
+
+-- 
