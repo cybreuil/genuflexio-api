@@ -1,0 +1,6135 @@
+-- Roman saint biographies, associated with existing saints by slug.
+-- Prerequisite: seedRomanSaints.sql, including its existing en/fr/la rows.
+-- Names, life_label, saint metadata, patronages and attributes are not updated.
+-- English is the canonical editorial text; French and Latin follow its sections
+-- and paragraphs. Historical evidence, scriptural narratives, Catholic doctrine,
+-- and hagiographic traditions are distinguished where relevant.
+-- Sources below link to the consulted digital editions.
+
+BEGIN;
+
+UPDATE saint_translations AS st
+SET short_description = x.short_description,
+    full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+(
+  'saint-mary',
+  'en',
+  'Mary of Nazareth, mother of Jesus and spouse of Joseph, receives God''s word in faith. Scripture presents her at the beginnings of Jesus'' life, at his cross, and among the praying disciples; Catholic faith venerates her as Mother of God.',
+  $desc$## Identity and sources
+
+Mary of Nazareth is known above all through the New Testament as the mother of Jesus. Matthew and Luke place her within the Jewish people and identify Joseph as her spouse; Luke locates the annunciation of Jesus' birth at Nazareth in Galilee. These writings proclaim the meaning of Jesus' coming rather than offer a continuous biography of his mother. They do not establish her date of birth, describe her childhood, or give a chronology of her final years. A responsible account therefore distinguishes what the biblical narratives say from the Church's later doctrinal formulations and from details the sources leave unknown.
+
+## The annunciation and the birth of Jesus
+
+In Luke 1, the angel Gabriel announces that Mary will bear a son whose kingdom will have no end. When she asks how this will happen, the angel attributes the conception to the Holy Spirit. Mary freely accepts the word addressed to her. The narrative presents neither a self-appointed mission nor an understanding of everything to come, but a response of trust to God's initiative. Matthew 1 tells the beginning from Joseph's perspective: he is instructed in a dream to receive Mary and to name the child Jesus.
+
+Luke then recounts Mary's visit to Elizabeth in the hill country of Judaea. Elizabeth welcomes her as the mother of her Lord and blesses her faith; the child in Elizabeth's womb leaps at Mary's greeting. The Magnificat places Mary's thanksgiving within the promises made to Israel. Its praise concerns God's mercy, the raising of the lowly and the feeding of the hungry, not an achievement Mary claims for herself. Luke says that she remains with Elizabeth for about three months before returning home.
+
+In Luke 2, Mary travels with Joseph to Bethlehem and gives birth to Jesus, whom she lays in a manger. Shepherds find the child with Mary and Joseph and report what they have heard about him. The evangelist repeatedly describes Mary as preserving and pondering these events. At the presentation in the Temple, Simeon associates the child with salvation and opposition and tells Mary of sorrow that will pierce her own soul. Matthew 2 adds a different sequence: the visit of the magi, Joseph's flight with the child and his mother into Egypt, and their settlement at Nazareth after Herod's death.
+
+## Following her son
+
+The account of the twelve-year-old Jesus in the Temple is Luke's final childhood episode. Mary and Joseph search anxiously before finding him among the teachers. His answer directs them to his Father, but Luke expressly says that they do not understand it. Jesus returns with them to Nazareth, and Mary continues to keep these matters in her heart. The passage leaves room for the growth and difficulty of faith; it does not portray motherhood as complete foreknowledge of Jesus' mission.
+
+John's Gospel places Jesus' mother at the wedding at Cana, where she notices the lack of wine and directs the servants to follow his instructions. The sign that follows manifests Jesus' glory. Later, she stands near his cross with other women and the disciple whom Jesus loves. Jesus entrusts mother and disciple to one another, and the disciple receives her into his care. Acts 1 subsequently names Mary among those persevering in prayer with the apostles. These are distinct scriptural scenes, not evidence for a detailed itinerary of all her movements during or after Jesus' ministry.
+
+## Catholic faith and the limits of biography
+
+Catholic teaching calls Mary Mother of God because the son she bore is the incarnate Son of God; the title concerns Christ's identity and does not make Mary the origin of his divinity. The Second Vatican Council's Lumen gentium presents her as both uniquely associated with Christ and a member and model of the Church. Her consent, charity and perseverance are understood in dependence on divine grace. The Council describes her life as a pilgrimage of faith and insists that her maternal role neither replaces nor diminishes Christ's unique mediation.
+
+The same teaching affirms her virginal motherhood, her preservation from original sin and her assumption, body and soul, into heavenly glory at the completion of her earthly life. These are statements of Catholic faith, not dates or circumstances supplied by a surviving eyewitness biography. The New Testament passages cited here do not narrate her final days. Lumen gentium also distinguishes the veneration given to Mary from the adoration owed to God and warns against exaggeration and credulity. Thus her enduring place in Catholic life rests on her relationship to Christ and on the discipleship witnessed in Scripture, without requiring invented details to fill the silences.
+
+## Sources
+
+- Scripture: Matthew 1–2; Luke 1–2; John 2:1–12 and 19:25–27; Acts 1:12–14. [Douay-Rheims text consulted, digital mirror](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
+- Second Vatican Council, Lumen gentium, especially §§53–60, 66–67. [Vatican edition](https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_en.html); [text consulted, chapter VIII in digital mirror](https://github.com/BenjaminPoole/Ecumenical-Christian-Library-Obsidian-Vault/blob/71c1582adc8ceca8f0ee35b41d4e9ddb0a493d49/03%20Councils%2C%20Creeds%20%26%20Confessions%20%28325%E2%80%93present%29/Vatican%20II%20%281962%29/Vatican%20II%20%E2%80%94%20Lumen%20Gentium%20II.md).
+$desc$
+),
+(
+  'saint-mary',
+  'fr',
+  'Marie de Nazareth, mère de Jésus et épouse de Joseph, accueille avec foi la parole de Dieu. L''Écriture la présente aux débuts de la vie de Jésus, auprès de sa croix et parmi les disciples en prière ; la foi catholique la vénère comme Mère de Dieu.',
+  $desc$## Identité et sources
+
+Marie de Nazareth est connue avant tout par le Nouveau Testament comme la mère de Jésus. Matthieu et Luc la situent au sein du peuple juif et désignent Joseph comme son époux ; Luc place l'annonce de la naissance de Jésus à Nazareth, en Galilée. Ces écrits proclament le sens de la venue de Jésus plutôt qu'ils ne donnent une biographie continue de sa mère. Ils n'établissent pas sa date de naissance, ne décrivent pas son enfance et ne fournissent aucune chronologie de ses dernières années. Un récit rigoureux distingue donc ce que disent les récits bibliques, les formulations doctrinales ultérieures de l'Église et les détails que les sources laissent inconnus.
+
+## L'annonciation et la naissance de Jésus
+
+En Luc 1, l'ange Gabriel annonce à Marie qu'elle enfantera un fils dont le règne n'aura pas de fin. Lorsqu'elle demande comment cela se fera, l'ange attribue la conception à l'Esprit Saint. Marie accueille librement la parole qui lui est adressée. Le récit ne présente ni une mission qu'elle se serait donnée elle-même ni une compréhension de tout l'avenir, mais une réponse confiante à l'initiative de Dieu. Matthieu 1 raconte ce commencement du point de vue de Joseph : un songe lui enjoint d'accueillir Marie et de donner à l'enfant le nom de Jésus.
+
+Luc raconte ensuite la visite de Marie à Élisabeth dans la région montagneuse de Judée. Élisabeth l'accueille comme la mère de son Seigneur et bénit sa foi ; l'enfant qu'elle porte tressaille à la salutation de Marie. Le Magnificat inscrit l'action de grâce de Marie dans les promesses faites à Israël. Sa louange célèbre la miséricorde de Dieu, le relèvement des humbles et la nourriture donnée aux affamés, non un accomplissement qu'elle s'attribuerait. Luc précise qu'elle demeure environ trois mois auprès d'Élisabeth avant de rentrer chez elle.
+
+En Luc 2, Marie se rend avec Joseph à Bethléem et donne naissance à Jésus, qu'elle couche dans une mangeoire. Des bergers trouvent l'enfant avec Marie et Joseph et rapportent ce qu'ils ont entendu à son sujet. À plusieurs reprises, l'évangéliste décrit Marie gardant et méditant ces événements. Lors de la présentation au Temple, Syméon associe l'enfant au salut et à la contradiction, et annonce à Marie une douleur qui transpercera son âme. Matthieu 2 ajoute une autre séquence : la visite des mages, la fuite de Joseph en Égypte avec l'enfant et sa mère, puis leur installation à Nazareth après la mort d'Hérode.
+
+## À la suite de son fils
+
+Le récit de Jésus au Temple à douze ans est le dernier épisode de l'enfance chez Luc. Marie et Joseph le cherchent avec angoisse avant de le retrouver parmi les docteurs. Sa réponse les renvoie à son Père, mais Luc précise qu'ils ne la comprennent pas. Jésus retourne avec eux à Nazareth, et Marie continue de garder ces choses dans son cœur. Le passage laisse place à la croissance et aux difficultés de la foi ; il ne présente pas la maternité comme une connaissance anticipée et complète de la mission de Jésus.
+
+L'Évangile selon Jean situe la mère de Jésus aux noces de Cana, où elle remarque le manque de vin et invite les serviteurs à suivre ses instructions. Le signe qui suit manifeste la gloire de Jésus. Plus tard, elle se tient près de sa croix avec d'autres femmes et le disciple que Jésus aime. Jésus confie sa mère et le disciple l'un à l'autre, et le disciple la prend auprès de lui. Actes 1 nomme ensuite Marie parmi ceux qui persévèrent dans la prière avec les apôtres. Il s'agit de scènes scripturaires distinctes, non de preuves permettant de reconstituer un itinéraire détaillé de tous ses déplacements pendant ou après le ministère de Jésus.
+
+## La foi catholique et les limites de la biographie
+
+L'enseignement catholique appelle Marie Mère de Dieu parce que le fils qu'elle a enfanté est le Fils de Dieu incarné ; ce titre concerne l'identité du Christ et ne fait pas de Marie l'origine de sa divinité. Lumen gentium, du concile Vatican II, la présente à la fois comme associée au Christ d'une manière unique et comme membre et modèle de l'Église. Son consentement, sa charité et sa persévérance sont compris dans leur dépendance envers la grâce divine. Le Concile décrit sa vie comme un pèlerinage de foi et souligne que son rôle maternel ne remplace ni ne diminue l'unique médiation du Christ.
+
+Ce même enseignement affirme sa maternité virginale, sa préservation du péché originel et son assomption, corps et âme, dans la gloire céleste au terme de sa vie terrestre. Ce sont des affirmations de la foi catholique, non des dates ou des circonstances fournies par une biographie conservée qui serait due à un témoin oculaire. Les passages du Nouveau Testament cités ici ne racontent pas ses derniers jours. Lumen gentium distingue également la vénération accordée à Marie de l'adoration due à Dieu et met en garde contre l'exagération et la crédulité. Ainsi, sa place durable dans la vie catholique repose sur sa relation au Christ et sur la fidélité du disciple dont témoigne l'Écriture, sans qu'il faille inventer des détails pour combler les silences.
+
+## Sources
+
+- Écriture : Matthieu 1–2 ; Luc 1–2 ; Jean 2, 1–12 et 19, 25–27 ; Actes 1, 12–14. [Texte de la Bible Douay-Rheims consulté, copie numérique](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
+- Concile Vatican II, Lumen gentium, notamment nos 53–60, 66–67. [Édition du Vatican](https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_en.html) ; [texte consulté, chapitre VIII dans une copie numérique](https://github.com/BenjaminPoole/Ecumenical-Christian-Library-Obsidian-Vault/blob/71c1582adc8ceca8f0ee35b41d4e9ddb0a493d49/03%20Councils%2C%20Creeds%20%26%20Confessions%20%28325%E2%80%93present%29/Vatican%20II%20%281962%29/Vatican%20II%20%E2%80%94%20Lumen%20Gentium%20II.md).
+$desc$
+),
+(
+  'saint-mary',
+  'la',
+  'Maria Nazarethana, mater Iesu et sponsa Ioseph, verbum Dei fide suscipit. Scriptura eam in initiis vitae Iesu, iuxta eius crucem et inter discipulos orantes exhibet; fides catholica eam ut Dei Genetricem veneratur.',
+  $desc$## Persona et fontes
+
+Maria Nazarethana praesertim ex Novo Testamento ut mater Iesu cognoscitur. Matthaeus et Lucas eam in populo Iudaico collocant atque Ioseph eius sponsum appellant; Lucas annuntiationem nativitatis Iesu Nazareth in Galilaea factam esse narrat. Haec scripta sensum adventus Iesu proclamant potius quam continuam vitae matris eius narrationem praebent. Neque diem eius natalem definiunt, neque infantiam describunt, neque ordinem temporum ultimorum eius annorum tradunt. Recta igitur narratio distinguit quae relationes biblicae dicant, quae Ecclesia postea doctrinaliter definiverit, et quae ex fontibus cognosci nequeant.
+
+## Annuntiatio et nativitas Iesu
+
+In primo Lucae capite angelus Gabriel Mariae annuntiat eam filium parituram esse, cuius regni non erit finis. Quaerenti quomodo hoc fiat angelus conceptionem Spiritui Sancto tribuit. Maria verbum sibi dictum libere accipit. Narratio neque missionem ab ipsa sibi assumptam neque omnium futurorum intellegentiam exhibet, sed responsum fiduciae Deo primum agenti datum. Matthaeus in primo capite initium ex parte Ioseph narrat: is in somnis iubetur Mariam accipere et puero nomen Iesu imponere.
+
+Lucas deinde visitationem Mariae ad Elisabeth in montana Iudaeae narrat. Elisabeth eam ut matrem Domini sui excipit eiusque fidem beatam praedicat; infans in utero Elisabeth ad salutationem Mariae exsultat. Magnificat gratiarum actionem Mariae cum promissionibus Israeli factis coniungit. Laus eius misericordiam Dei, exaltationem humilium et esurientium refectionem celebrat, non opus quod Maria sibi tribuat. Lucas eam circiter tres menses apud Elisabeth mansisse antequam domum rediret refert.
+
+In secundo Lucae capite Maria cum Ioseph Bethlehem proficiscitur et Iesum parit, quem in praesepio reclinat. Pastores puerum cum Maria et Ioseph inveniunt atque quae de eo audierunt narrant. Evangelista saepius Mariam haec conservantem et meditantem describit. In praesentatione in Templo Simeon puerum cum salute et contradictione coniungit Mariaeque dolorem praedicit qui ipsius animam pertransibit. Matthaeus in secundo capite aliam rerum seriem addit: magorum visitationem, fugam Ioseph cum puero et matre eius in Aegyptum, atque habitationem eorum Nazareth post mortem Herodis.
+
+## Filium sequens
+
+Narratio de Iesu duodecim annos nato in Templo ultima est infantiae narratio apud Lucam. Maria et Ioseph eum anxie quaerunt antequam inter doctores inveniant. Responsum eius eos ad Patrem suum dirigit; Lucas tamen expresse dicit eos illud non intellexisse. Iesus cum eis Nazareth redit, Maria vero haec in corde suo servare pergit. Locus incremento et difficultatibus fidei spatium relinquit; maternitatem non exhibet tamquam plenam praescientiam missionis Iesu.
+
+Evangelium secundum Ioannem matrem Iesu in nuptiis Canae collocat, ubi vinum deficere animadvertit et ministros ad eius mandata servanda dirigit. Signum quod sequitur gloriam Iesu manifestat. Postea iuxta crucem eius stat cum aliis mulieribus et discipulo quem Iesus diligit. Iesus matrem et discipulum alterum alteri commendat, atque discipulus eam in curam suam recipit. Actus Apostolorum in primo capite Mariam deinde inter eos nominant qui cum apostolis in oratione perseverant. Hae sunt distinctae scaenae scripturales, non testimonia quibus singula itinera eius durante vel post ministerium Iesu describi possint.
+
+## Fides catholica et limites narrationis vitae
+
+Doctrina catholica Mariam Dei Genetricem appellat, quia filius quem peperit est Filius Dei incarnatus; titulus ad personam Christi pertinet nec Mariam originem divinitatis eius facit. Lumen gentium Concilii Vaticani II eam exhibet et singulariter Christo sociatam et membrum exemplarque Ecclesiae. Eius consensus, caritas et perseverantia ex divina gratia pendere intelleguntur. Concilium vitam eius tamquam peregrinationem fidei describit atque affirmat munus eius maternum unicam Christi mediationem neque supplere neque minuere.
+
+Eadem doctrina affirmat maternitatem eius virginalem, praeservationem a peccato originali atque assumptionem corpore et anima in gloriam caelestem, expleto terrestris vitae cursu. Haec sunt fidei catholicae affirmata, non tempora aut adiuncta quae in servata vitae narratione ab oculato teste conscripta tradantur. Loci Novi Testamenti hic citati ultimos eius dies non narrant. Lumen gentium etiam venerationem Mariae exhibitam ab adoratione Deo debita distinguit atque ab exaggeratione et credulitate monet. Ita perennis eius locus in vita catholica in coniunctione cum Christo et in discipulatu quem Scriptura testatur fundatur, neque commenticia requirit quibus silentia impleantur.
+
+## Fontes
+
+- Scriptura: Matthaeus 1–2; Lucas 1–2; Ioannes 2, 1–12 et 19, 25–27; Actus Apostolorum 1, 12–14. [Textus Bibliorum Duacensium consultus, exemplar digitale](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
+- Concilium Vaticanum II, Lumen gentium, praesertim nn. 53–60, 66–67. [Editio Vaticana](https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_en.html); [textus consultus, caput VIII in exemplari digitali](https://github.com/BenjaminPoole/Ecumenical-Christian-Library-Obsidian-Vault/blob/71c1582adc8ceca8f0ee35b41d4e9ddb0a493d49/03%20Councils%2C%20Creeds%20%26%20Confessions%20%28325%E2%80%93present%29/Vatican%20II%20%281962%29/Vatican%20II%20%E2%80%94%20Lumen%20Gentium%20II.md).
+$desc$
+),
+(
+  'saint-joseph',
+  'en',
+  'Joseph, spouse of Mary, receives and protects Jesus in the Gospel infancy narratives. Remembered for righteousness and obedience, he cares for the child without being his biological father; his birth, later years and death remain undocumented in those accounts.',
+  $desc$## Identity and sources
+
+Joseph is known principally from the infancy narratives in Matthew 1–2 and Luke 1–2. Both associate him with the house of David and with Mary, the mother of Jesus. Their purpose is to tell the beginnings of Jesus' life, so Joseph appears through his relationship to the child and his mother rather than in a complete personal biography. Neither narrative supplies his age, a description of his childhood or the date of his death. These limits matter: a devotional interpretation of his character should not be mistaken for additional historical documentation.
+
+## Receiving Mary and protecting Jesus
+
+Matthew introduces Joseph as a righteous man confronted with Mary's pregnancy before they have begun living together. Unwilling to expose her publicly, he considers separating from her privately. An angel then tells him in a dream that the child has been conceived through the Holy Spirit and instructs him to receive Mary and name her son Jesus. Joseph acts on the message. The evangelist thus connects his righteousness with a concrete decision to protect Mary and accept responsibility for the child, while expressly attributing the conception to divine action rather than to Joseph.
+
+In Matthew 2, danger again requires a response. After the magi's departure, Joseph is warned that Herod intends to kill the child. He takes Jesus and Mary to Egypt by night and remains there until Herod's death. A further message calls him back to the land of Israel. Learning that Archelaus rules in Judaea, he is afraid to settle there; another warning leads him to Galilee, where the family lives at Nazareth. Matthew records these movements without specifying how long the family spent in Egypt or describing its daily circumstances there.
+
+## Family life in Luke
+
+Luke tells of Joseph's journey from Nazareth to Bethlehem with Mary, the birth of Jesus and the shepherds' visit. Joseph participates in the child's presentation in Jerusalem, where the family observes the requirements of the Law. The account places him within the worship and hopes of Israel, not outside them. Later, when Jesus is twelve, Joseph and Mary search for him after the Passover pilgrimage and find him among the teachers in the Temple. Mary speaks of their shared distress. Neither parent understands Jesus' answer about his Father, and Jesus returns with them to Nazareth.
+
+Matthew 13:55 identifies Jesus as the carpenter's son, the scriptural basis for remembering Joseph as a working craftsman. The sources do not describe his workshop or preserve a record of his teaching Jesus a trade. Nor do the infancy accounts report words spoken by Joseph himself. His narrative role is expressed through receiving, travelling, protecting and seeking. Silence in the written sources, however, is not proof that he never spoke, nor does it authorize an invented account of his inner thoughts.
+
+## Catholic remembrance and historical limits
+
+In Redemptoris Custos, John Paul II reflects on Joseph's acceptance of Mary and his service to Jesus as an obedience of faith. This Catholic reading recognizes a genuine paternal responsibility without attributing biological paternity to him. It draws a spiritual meaning from the Gospel actions rather than supplying a lost record of his private life. Joseph's example is consequently one of faithful responsibility within circumstances he does not fully control. The Gospel episodes do not tell how or when his life ended; no precise age or death scene can be established from them.
+
+## Sources
+
+- Scripture: Matthew 1–2 and 13:55; Luke 1:26–27 and 2. [Douay-Rheims text consulted, digital mirror](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
+- John Paul II, Redemptoris Custos, especially §§1–5. [Vatican edition](https://www.vatican.va/content/john-paul-ii/en/apost_exhortations/documents/hf_jp-ii_exh_15081989_redemptoris-custos.html); [French text consulted, digital mirror](https://github.com/lologhi/vatican/blob/9e65068eb2bf7f09153f893950dd3058c4e78fee/john-paul-ii/apost_exhortations/1989-08-15-redemptoris-custos.md).
+$desc$
+),
+(
+  'saint-joseph',
+  'fr',
+  'Joseph, époux de Marie, accueille et protège Jésus dans les récits évangéliques de l''enfance. Sa justice et son obéissance sont commémorées ; il prend soin de l''enfant sans être son père biologique. Ces récits ne documentent ni sa naissance, ni ses dernières années, ni sa mort.',
+  $desc$## Identité et sources
+
+Joseph est connu principalement par les récits de l'enfance en Matthieu 1–2 et Luc 1–2. Tous deux le rattachent à la maison de David et à Marie, la mère de Jésus. Leur propos est de raconter les débuts de la vie de Jésus : Joseph apparaît donc par sa relation à l'enfant et à sa mère, plutôt que dans une biographie personnelle complète. Aucun de ces récits ne fournit son âge, une description de son enfance ou la date de sa mort. Ces limites sont importantes : une interprétation spirituelle de sa personne ne doit pas être confondue avec une documentation historique supplémentaire.
+
+## Accueillir Marie et protéger Jésus
+
+Matthieu présente Joseph comme un homme juste confronté à la grossesse de Marie avant qu'ils aient commencé à vivre ensemble. Ne voulant pas l'exposer publiquement, il envisage de se séparer d'elle en secret. Un ange lui annonce alors en songe que l'enfant a été conçu par l'Esprit Saint et lui ordonne d'accueillir Marie et de donner à son fils le nom de Jésus. Joseph agit selon ce message. L'évangéliste relie ainsi sa justice à une décision concrète : protéger Marie et assumer la responsabilité de l'enfant, tout en attribuant expressément la conception à l'action divine et non à Joseph.
+
+En Matthieu 2, le danger appelle de nouveau une réponse. Après le départ des mages, Joseph est averti qu'Hérode veut tuer l'enfant. Il emmène Jésus et Marie en Égypte, de nuit, et y demeure jusqu'à la mort d'Hérode. Un autre message le rappelle au pays d'Israël. Apprenant qu'Archélaüs règne en Judée, il craint de s'y établir ; un nouvel avertissement le conduit en Galilée, où la famille vit à Nazareth. Matthieu rapporte ces déplacements sans préciser la durée du séjour en Égypte ni les conditions de la vie quotidienne de la famille dans ce pays.
+
+## La vie familiale chez Luc
+
+Luc raconte le voyage de Joseph de Nazareth à Bethléem avec Marie, la naissance de Jésus et la visite des bergers. Joseph participe à la présentation de l'enfant à Jérusalem, où la famille observe les prescriptions de la Loi. Le récit le situe au sein du culte et des espérances d'Israël, non en dehors d'eux. Plus tard, lorsque Jésus a douze ans, Joseph et Marie le cherchent après le pèlerinage pascal et le trouvent parmi les docteurs du Temple. Marie exprime leur angoisse commune. Aucun des deux parents ne comprend la réponse de Jésus au sujet de son Père, et Jésus retourne avec eux à Nazareth.
+
+Matthieu 13, 55 désigne Jésus comme le fils du charpentier : c'est le fondement scripturaire du souvenir de Joseph comme artisan. Les sources ne décrivent pas son atelier et ne conservent aucun récit de l'enseignement d'un métier à Jésus par Joseph. Les récits de l'enfance ne rapportent pas non plus de paroles prononcées par Joseph lui-même. Son rôle narratif s'exprime dans l'accueil, les voyages, la protection et la recherche de l'enfant. Le silence des sources écrites ne prouve cependant pas qu'il n'ait jamais parlé et n'autorise pas davantage à inventer le récit de ses pensées intérieures.
+
+## La mémoire catholique et les limites historiques
+
+Dans Redemptoris Custos, Jean-Paul II médite l'accueil de Marie par Joseph et son service de Jésus comme une obéissance de la foi. Cette lecture catholique reconnaît une véritable responsabilité paternelle sans lui attribuer une paternité biologique. Elle dégage un sens spirituel des actes rapportés dans l'Évangile plutôt qu'elle ne fournit des archives perdues de sa vie privée. Joseph offre donc l'exemple d'une responsabilité fidèle dans des circonstances qu'il ne maîtrise pas entièrement. Les épisodes évangéliques ne disent ni comment ni quand sa vie s'est achevée ; ils ne permettent d'établir ni un âge précis ni une scène de mort.
+
+## Sources
+
+- Écriture : Matthieu 1–2 et 13, 55 ; Luc 1, 26–27 et 2. [Texte de la Bible Douay-Rheims consulté, copie numérique](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
+- Jean-Paul II, Redemptoris Custos, notamment nos 1–5. [Édition du Vatican](https://www.vatican.va/content/john-paul-ii/en/apost_exhortations/documents/hf_jp-ii_exh_15081989_redemptoris-custos.html) ; [texte français consulté, copie numérique](https://github.com/lologhi/vatican/blob/9e65068eb2bf7f09153f893950dd3058c4e78fee/john-paul-ii/apost_exhortations/1989-08-15-redemptoris-custos.md).
+$desc$
+),
+(
+  'saint-joseph',
+  'la',
+  'Ioseph, sponsus Mariae, Iesum in narrationibus evangelicis infantiae suscipit ac tuetur. Ob iustitiam et oboedientiam memoratur atque puerum curat, quamvis pater eius naturalis non sit; ortus, ultimi anni et mors eius in his narrationibus non traduntur.',
+  $desc$## Persona et fontes
+
+Ioseph praecipue ex narrationibus infantiae apud Matthaeum 1–2 et Lucam 1–2 cognoscitur. Uterque eum cum domo David et cum Maria, matre Iesu, coniungit. Propositum eorum est initia vitae Iesu narrare; itaque Ioseph per coniunctionem suam cum puero eiusque matre apparet, non in plena propriae vitae narratione. Neutra narratio aetatem eius, infantiae descriptionem aut tempus mortis praebet. Hi limites magni momenti sunt: pia interpretatio personae eius cum additis testimoniis historicis confundi non debet.
+
+## Mariam suscipere et Iesum tueri
+
+Matthaeus Ioseph ut virum iustum exhibet qui, antequam cum Maria habitare coeperit, eam gravidam esse cognoscit. Cum eam publice exponere nolit, occulte ab ea discedere cogitat. Angelus deinde in somnis eum docet puerum de Spiritu Sancto conceptum esse atque iubet Mariam accipere et filio eius nomen Iesu imponere. Ioseph secundum nuntium agit. Evangelista ita iustitiam eius cum certo consilio Mariam tuendi et curam pueri suscipiendi coniungit, conceptionem tamen expresse actioni divinae, non Ioseph, tribuens.
+
+In secundo Matthaei capite periculum iterum responsum postulat. Magis profectis, Ioseph monetur Herodem puerum occidere velle. Iesum et Mariam noctu in Aegyptum ducit ibique usque ad mortem Herodis manet. Alius nuntius eum in terram Israel revocat. Audiens autem Archelaum in Iudaea regnare, timet ibi habitare; alia admonitio eum in Galilaeam ducit, ubi familia Nazareth habitat. Matthaeus haec itinera refert neque definit quamdiu familia in Aegypto manserit neque condiciones cotidianae vitae eius ibi describit.
+
+## Vita familiaris apud Lucam
+
+Lucas iter Ioseph cum Maria a Nazareth in Bethlehem, nativitatem Iesu atque visitationem pastorum narrat. Ioseph praesentationis pueri Hierosolymis particeps est, ubi familia praecepta Legis servat. Narratio eum intra cultum et spem Israel collocat, non extra ea. Postea, cum Iesus duodecim annos natus sit, Ioseph et Maria eum post peregrinationem paschalem quaerunt et inter doctores in Templo inveniunt. Maria communem eorum dolorem exprimit. Neuter parens responsum Iesu de Patre suo intellegit, atque Iesus cum eis Nazareth redit.
+
+Matthaeus 13, 55 Iesum fabri filium appellat: hoc est fundamentum scripturale memoriae Ioseph ut artificis laborantis. Fontes officinam eius non describunt neque narrationem servant qua Iesum artem docuisse referatur. Narrationes infantiae verba ab ipso Ioseph dicta quoque non tradunt. Munus eius in narratione accipiendo, peregrinando, tuendo et quaerendo exprimitur. Silentium autem fontium scriptorum non probat eum numquam locutum esse, neque licentiam praebet fingendi quid animo cogitaverit.
+
+## Memoria catholica et limites historici
+
+In Redemptoris Custos Ioannes Paulus II receptionem Mariae a Ioseph factam eiusque servitium Iesu praestitum ut oboedientiam fidei considerat. Haec interpretatio catholica verum munus paternum agnoscit, quin ei paternitatem naturalem tribuat. Sensum spiritualem ex actibus evangelicis elicit potius quam amissam vitae privatae eius memoriam restituit. Ioseph igitur exemplum praebet fidelis officii in condicionibus quae non omnino in eius potestate sunt. Narrationes evangelicae neque quomodo neque quando vita eius finita sit tradunt; ex eis neque certa aetas neque mortis adiuncta definiri possunt.
+
+## Fontes
+
+- Scriptura: Matthaeus 1–2 et 13, 55; Lucas 1, 26–27 et 2. [Textus Bibliorum Duacensium consultus, exemplar digitale](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
+- Ioannes Paulus II, Redemptoris Custos, praesertim nn. 1–5. [Editio Vaticana](https://www.vatican.va/content/john-paul-ii/en/apost_exhortations/documents/hf_jp-ii_exh_15081989_redemptoris-custos.html); [textus Gallicus consultus, exemplar digitale](https://github.com/lologhi/vatican/blob/9e65068eb2bf7f09153f893950dd3058c4e78fee/john-paul-ii/apost_exhortations/1989-08-15-redemptoris-custos.md).
+$desc$
+),
+(
+  'saint-john-the-baptist',
+  'en',
+  'John the Baptist preached repentance and baptized in the Jordan region. The Gospels present him as the forerunner who directs others to Jesus; Josephus independently records his influence and execution under Herod Antipas, while important details of his chronology remain uncertain.',
+  $desc$## Identity and sources
+
+John the Baptist was a Jewish preacher associated with baptism and a call to moral renewal. His ministry belongs to the setting of Roman rule and the Herodian rulers in the first century. The Gospels interpret his vocation in relation to Jesus, while the Jewish historian Flavius Josephus describes his preaching and death in Antiquities of the Jews. These sources have different purposes and emphases. Their agreement on John's influence and execution does not remove every difficulty in reconstructing the order of events, and they do not provide secure dates for his birth and death.
+
+## Birth and prophetic calling
+
+Luke 1 presents John as the son of Zechariah, a priest, and Elizabeth, who also belongs to a priestly family. Both are elderly and childless when an angel announces John's birth during Zechariah's service in the Temple. The announcement describes a vocation to turn people towards God and prepare them for the Lord. Zechariah's inability to speak, the child's naming and the restoration of his speech form part of this scriptural account. They should be identified as Luke's narrative, not as details independently recorded by Josephus.
+
+Luke connects John's beginnings with those of Jesus through Mary's visit to Elizabeth. The unborn John leaps when Elizabeth hears Mary's greeting. After the birth, Zechariah's song speaks of his son as a prophet who will prepare the Lord's ways. Luke closes this childhood account by saying that John grew in spirit and lived in the wilderness until his public appearance to Israel. The text does not describe his education or establish membership in a particular religious community; such a biography cannot be supplied from its brief notice about the wilderness.
+
+## Preaching and baptism
+
+Luke 3 places John's public call in the fifteenth year of Tiberius and names contemporary rulers and priestly authorities. John preaches around the Jordan, calling for repentance and baptism. Matthew describes his austere clothing and food and relates his warning that descent from Abraham cannot substitute for a changed life. Luke gives the moral demand practical form: those with clothing and food should share, tax collectors should not exact more than authorized, and soldiers should not extort or make false accusations. Conversion is presented as conduct as well as a public religious act.
+
+John also announces someone more powerful than himself, contrasting his baptism with water with the coming baptism in the Holy Spirit. Matthew narrates Jesus' arrival at the Jordan and John's initial reluctance to baptize him, followed by his acceptance of Jesus' response. The descent of the Spirit and the heavenly declaration identify Jesus within the Gospel's proclamation. John's Gospel emphasizes the Baptist's testimony: he denies that he is the Messiah, identifies Jesus as the Lamb of God and directs his disciples' attention away from himself. It also reports his joy at Jesus' growing prominence rather than treating that prominence simply as a rivalry.
+
+## Imprisonment and death
+
+The Gospel accounts connect John's imprisonment with his criticism of Herod Antipas over Herodias. Matthew 11 shows him still communicating through disciples from prison: he asks whether Jesus is the one expected, and Jesus answers by pointing to works of healing and the good news brought to the poor. Jesus then praises John's prophetic role. The scene preserves a question and a response; it does not provide a complete account of John's private state of mind or license a confident reconstruction of all his expectations.
+
+Mark 6 recounts John's death through a banquet narrative. Herodias' daughter dances, Herod promises her a reward, and, prompted by her mother, she requests John's head. Herod orders the execution despite his distress, and John's disciples take his body for burial. Josephus gives another emphasis: he portrays John as a good man whose large following made Herod fear political unrest. He says that Herod had him imprisoned and killed at Machaerus. Josephus also describes John's washing as bodily purification following moral righteousness, rather than a substitute for it. This account supplies an important non-Christian witness without repeating the banquet scene.
+
+## Christian remembrance and historical caution
+
+The political motive described by Josephus and the moral confrontation narrated in the Gospels should remain distinguishable rather than being joined into an undocumented sequence. Neither account justifies inventing a precise execution date. Christian remembrance sees John as the forerunner whose preaching prepared for Christ and whose fidelity endured confrontation with a ruler. His significance rests on that demanding call to conversion and on the Gospel witness that directs attention to Jesus. Recognizing the distinct voices of the sources preserves both the historical person and the particular meaning given to his life in Christian faith.
+
+## Sources
+
+- Scripture: Luke 1 and 3; Matthew 3 and 11:2–15; Mark 6:17–29; John 1:19–37 and 3:22–30. [Douay-Rheims text consulted, digital mirror](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
+- Flavius Josephus, Antiquities of the Jews, book XVIII, chapter 5, §2 (18.116–119), William Whiston's translation. [Text consulted in Sefaria's source collection](https://github.com/Sefaria/Sefaria-Data/blob/c3cba315dc4f4ba25c5f10bb1201094f1424ac04/sources/Josephus/Antiquities_Book_18).
+$desc$
+),
+(
+  'saint-john-the-baptist',
+  'fr',
+  'Jean-Baptiste prêchait la conversion et baptisait dans la région du Jourdain. Les Évangiles le présentent comme le précurseur qui oriente vers Jésus ; Josèphe atteste indépendamment son influence et son exécution sous Hérode Antipas, tandis que des éléments importants de sa chronologie demeurent incertains.',
+  $desc$## Identité et sources
+
+Jean-Baptiste était un prédicateur juif associé au baptême et à un appel au renouvellement moral. Son ministère s'inscrit au premier siècle, dans le contexte de la domination romaine et des souverains hérodiens. Les Évangiles interprètent sa vocation dans sa relation à Jésus, tandis que l'historien juif Flavius Josèphe décrit sa prédication et sa mort dans les Antiquités judaïques. Ces sources ont des intentions et des accents différents. Leur accord sur l'influence et l'exécution de Jean ne supprime pas toutes les difficultés de reconstitution de l'ordre des événements, et elles ne fournissent pas de dates assurées pour sa naissance et sa mort.
+
+## Naissance et vocation prophétique
+
+Luc 1 présente Jean comme le fils de Zacharie, un prêtre, et d'Élisabeth, elle aussi issue d'une famille sacerdotale. Tous deux sont âgés et sans enfant lorsqu'un ange annonce la naissance de Jean pendant le service de Zacharie au Temple. L'annonce décrit une vocation à tourner les hommes vers Dieu et à les préparer pour le Seigneur. L'impossibilité pour Zacharie de parler, le nom donné à l'enfant et le retour de la parole appartiennent à ce récit scripturaire. Il convient de les désigner comme des éléments du récit de Luc, non comme des détails attestés indépendamment par Josèphe.
+
+Luc relie les commencements de Jean à ceux de Jésus par la visite de Marie à Élisabeth. Jean, encore dans le sein de sa mère, tressaille lorsqu'Élisabeth entend la salutation de Marie. Après la naissance, le cantique de Zacharie présente son fils comme un prophète qui préparera les chemins du Seigneur. Luc termine ce récit de l'enfance en disant que Jean grandissait en esprit et vivait au désert jusqu'à sa manifestation publique à Israël. Le texte ne décrit pas son éducation et n'établit pas son appartenance à une communauté religieuse particulière ; sa brève mention du désert ne permet pas de construire une telle biographie.
+
+## Prédication et baptême
+
+Luc 3 situe l'appel public de Jean dans la quinzième année de Tibère et nomme les souverains et les autorités sacerdotales de l'époque. Jean prêche aux alentours du Jourdain, appelant à la conversion et au baptême. Matthieu décrit l'austérité de ses vêtements et de sa nourriture et rapporte son avertissement : descendre d'Abraham ne saurait remplacer une vie transformée. Luc donne à l'exigence morale une forme concrète : ceux qui ont des vêtements et de la nourriture doivent partager, les collecteurs d'impôts ne doivent rien exiger au-delà de ce qui est autorisé, et les soldats ne doivent pratiquer ni extorsion ni fausse accusation. La conversion est présentée comme une conduite autant qu'un acte religieux public.
+
+Jean annonce aussi quelqu'un de plus puissant que lui, distinguant son baptême dans l'eau du baptême à venir dans l'Esprit Saint. Matthieu raconte l'arrivée de Jésus au Jourdain, la réticence initiale de Jean à le baptiser, puis son acceptation de la réponse de Jésus. La descente de l'Esprit et la déclaration céleste manifestent l'identité de Jésus dans la proclamation évangélique. L'Évangile selon Jean souligne le témoignage du Baptiste : il nie être le Messie, désigne Jésus comme l'Agneau de Dieu et détourne de lui-même l'attention de ses disciples. Il rapporte aussi sa joie devant la place croissante de Jésus, plutôt que de présenter simplement cette évolution comme une rivalité.
+
+## Emprisonnement et mort
+
+Les récits évangéliques relient l'emprisonnement de Jean à sa critique d'Hérode Antipas au sujet d'Hérodiade. Matthieu 11 le montre communiquant encore par ses disciples depuis la prison : il demande si Jésus est celui qui est attendu, et Jésus répond en évoquant les guérisons et la Bonne Nouvelle apportée aux pauvres. Jésus loue ensuite le rôle prophétique de Jean. La scène conserve une question et une réponse ; elle ne fournit pas un exposé complet de l'état intérieur de Jean et ne permet pas de reconstituer avec certitude toutes ses attentes.
+
+Marc 6 raconte la mort de Jean à travers le récit d'un banquet. La fille d'Hérodiade danse, Hérode lui promet une récompense et, poussée par sa mère, elle demande la tête de Jean. Hérode ordonne l'exécution malgré sa tristesse, et les disciples de Jean prennent son corps pour l'ensevelir. Josèphe met l'accent ailleurs : il dépeint Jean comme un homme de bien dont les nombreux auditeurs faisaient craindre à Hérode des troubles politiques. Il affirme qu'Hérode le fit emprisonner et tuer à Machéronte. Josèphe décrit également son baptême comme une purification du corps faisant suite à la rectitude morale, et non comme son substitut. Ce récit apporte un important témoignage non chrétien sans reprendre la scène du banquet.
+
+## La mémoire chrétienne et la prudence historique
+
+Le motif politique décrit par Josèphe et la confrontation morale racontée dans les Évangiles doivent rester distincts, plutôt que d'être réunis dans une suite d'événements non documentée. Aucun des récits ne justifie l'invention d'une date précise d'exécution. La mémoire chrétienne voit en Jean le précurseur dont la prédication préparait au Christ et dont la fidélité a résisté à la confrontation avec un souverain. Son importance repose sur cet appel exigeant à la conversion et sur le témoignage évangélique qui dirige l'attention vers Jésus. Reconnaître les voix distinctes des sources préserve à la fois le personnage historique et le sens particulier donné à sa vie dans la foi chrétienne.
+
+## Sources
+
+- Écriture : Luc 1 et 3 ; Matthieu 3 et 11, 2–15 ; Marc 6, 17–29 ; Jean 1, 19–37 et 3, 22–30. [Texte de la Bible Douay-Rheims consulté, copie numérique](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
+- Flavius Josèphe, Antiquités judaïques, livre XVIII, chapitre 5, §2 (18.116–119), traduction de William Whiston. [Texte consulté dans la collection de sources de Sefaria](https://github.com/Sefaria/Sefaria-Data/blob/c3cba315dc4f4ba25c5f10bb1201094f1424ac04/sources/Josephus/Antiquities_Book_18).
+$desc$
+),
+(
+  'saint-john-the-baptist',
+  'la',
+  'Ioannes Baptista paenitentiam praedicabat et in regione Iordanis baptizabat. Evangelia eum praecursorem exhibent qui alios ad Iesum dirigit; Iosephus quoque auctoritatem eius et mortem sub Herode Antipa testatur, quamvis magnae quaestiones de temporibus vitae eius incertae maneant.',
+  $desc$## Persona et fontes
+
+Ioannes Baptista praedicator Iudaeus fuit, baptismate et vocatione ad mores renovandos notus. Ministerium eius ad primum saeculum pertinet, quo Romani et principes ex domo Herodis regionem regebant. Evangelia vocationem eius in coniunctione cum Iesu interpretantur, dum historicus Iudaeus Flavius Iosephus praedicationem eius et mortem in Antiquitatibus Iudaicis describit. Hi fontes diversa proposita et diversos accentus habent. Consensus eorum de auctoritate Ioannis et de supplicio eius non omnes difficultates ordinis rerum gestarum restituendi tollit, neque certa tempora ortus et mortis eius praebent.
+
+## Nativitas et vocatio prophetica
+
+Lucas in primo capite Ioannem filium Zachariae sacerdotis et Elisabeth, quae etiam ex familia sacerdotali orta est, exhibet. Ambo aetate provecti et sine liberis sunt, cum angelus nativitatem Ioannis annuntiat, Zacharia in Templo ministerium exercente. Annuntiatio vocationem describit homines ad Deum convertendi et Domino praeparandi. Impotentia Zachariae loquendi, nomen puero impositum et loquela restituta partes sunt huius narrationis scripturalis. Ut elementa narrationis Lucae agnoscenda sunt, non ut res ab Iosepho quoque separatim traditae.
+
+Lucas initia Ioannis cum initiis Iesu per visitationem Mariae ad Elisabeth coniungit. Ioannes nondum natus exsultat cum Elisabeth salutationem Mariae audit. Post nativitatem canticum Zachariae filium eius prophetam appellat qui vias Domini praeparabit. Lucas narrationem infantiae concludit dicens Ioannem spiritu crevisse et in desertis habitasse usque ad publicam manifestationem suam ad Israel. Textus educationem eius non describit neque eum cuidam communitati religiosae adscriptum esse demonstrat; talis vitae narratio ex brevi illa deserti mentione suppleri non potest.
+
+## Praedicatio et baptismus
+
+Lucas in tertio capite vocationem publicam Ioannis anno quinto decimo Tiberii collocat atque principes et auctoritates sacerdotales illius temporis nominat. Ioannes circa Iordanem praedicat, ad paenitentiam et baptismum vocans. Matthaeus austerum vestitum et victum eius describit atque monitionem refert originem ex Abraham loco vitae mutatae esse non posse. Lucas postulationi morali formam concretam dat: qui vestes et cibum habent cum aliis communicent, publicani non plus quam permissum exigant, milites neque pecuniam vi extorqueant neque falsa crimina inferant. Conversio ut vitae ratio simul atque actus religiosus publicus exhibetur.
+
+Ioannes etiam potentiorem se venturum annuntiat, baptismum suum in aqua a futuro baptismate in Spiritu Sancto distinguens. Matthaeus adventum Iesu ad Iordanem narrat atque Ioannem primo eum baptizare recusantem, deinde responsum Iesu accipientem. Descensus Spiritus et vox caelestis Iesum in proclamatione evangelica manifestant. Evangelium secundum Ioannem testimonium Baptistae extollit: negat se esse Messiam, Iesum Agnum Dei indicat atque discipulorum suorum attentionem a se avertit. Etiam gaudium eius de Iesu magis magisque agnito refert, neque hanc rem tantum ut aemulationem tractat.
+
+## Carcer et mors
+
+Narrationes evangelicae incarcerationem Ioannis cum reprehensione Herodis Antipae propter Herodiadem coniungunt. Matthaeus in undecimo capite eum adhuc e carcere per discipulos nuntios mittentem exhibet: quaerit num Iesus sit qui exspectatur, Iesus autem respondet opera sanationis et bonum nuntium pauperibus allatum ostendens. Iesus deinde munus propheticum Ioannis laudat. Scaena quaestionem et responsum servat; neque plenam interioris animi Ioannis descriptionem praebet neque certam omnium exspectationum eius restitutionem permittit.
+
+Marcus in sexto capite mortem Ioannis per narrationem convivii refert. Filia Herodiadis saltat, Herodes ei praemium promittit, atque illa, matre suadente, caput Ioannis petit. Herodes, quamvis tristis, supplicium imperat, et discipuli Ioannis corpus eius ad sepeliendum tollunt. Iosephus aliam rationem extollit: Ioannem virum bonum describit, cuius frequentissimi auditores Herodi metum tumultus politici iniecerint. Refert Herodem eum Machaerunte incarcerari et occidi iussisse. Iosephus etiam lavacrum Ioannis ut corporis purificationem rectitudinem moralem subsequentem describit, non ut eius vicem gerens. Haec narratio magni momenti testimonium non christianum praebet, quin convivii scaenam repetat.
+
+## Memoria christiana et cautela historica
+
+Ratio politica ab Iosepho descripta et conflictus moralis in Evangeliis narratus distinguendi manent, potius quam in seriem rerum gestarum testimoniis carentem coniungantur. Neutra narratio certum supplicii diem fingere permittit. Memoria christiana Ioannem praecursorem agnoscit, cuius praedicatio ad Christum praeparabat et cuius fidelitas adversus principem constitit. Momentum eius in illa severa vocatione ad conversionem et in testimonio evangelico quod animos ad Iesum dirigit positum est. Distinctas fontium voces agnoscere et personam historicam servat et peculiarem sensum quem fides christiana vitae eius tribuit.
+
+## Fontes
+
+- Scriptura: Lucas 1 et 3; Matthaeus 3 et 11, 2–15; Marcus 6, 17–29; Ioannes 1, 19–37 et 3, 22–30. [Textus Bibliorum Duacensium consultus, exemplar digitale](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
+- Flavius Iosephus, Antiquitates Iudaicae, liber XVIII, caput 5, §2 (18.116–119), translatio Gulielmi Whiston. [Textus consultus in collectione fontium Sefaria](https://github.com/Sefaria/Sefaria-Data/blob/c3cba315dc4f4ba25c5f10bb1201094f1424ac04/sources/Josephus/Antiquities_Book_18).
+$desc$
+)
+) AS x(slug, locale_code, short_description, full_biography)
+ON s.slug = x.slug
+WHERE st.saint_id = s.id
+  AND st.locale_code = x.locale_code;
+
+-- BIOGRAPHIES_JANUARY
+UPDATE saint_translations AS st
+SET short_description=x.short_description, full_biography=x.full_biography
+FROM saints s JOIN (VALUES
+('saint-basil-the-great','en','Basil of Caesarea united the defence of Nicene faith with monastic formation and practical care for people in need. His teaching on the Holy Spirit, Christian community, and the responsibilities of wealth made him a foundational teacher of the Church.',$desc$## Family and formation
+
+Basil was born around 330 into a Christian family associated with Caesarea in Cappadocia and the province of Pontus. His relatives included several important figures in early Christian asceticism: his sister Macrina, his brother Gregory of Nyssa, and his grandmother Macrina the Elder. The family preserved memories of persecution and of the teaching of Gregory Thaumaturgus. This inheritance joined intellectual education to a demanding understanding of Christian discipleship.
+
+He studied at Caesarea, Constantinople, and Athens, acquiring the rhetorical and philosophical training expected of an educated man in the late Roman world. At Athens he developed his enduring friendship with Gregory of Nazianzus. Gregory later remembered their shared studies as a collaboration rather than a competition for distinction. Basil initially pursued a public teaching career, but the influence of his sister and his own reading of the Gospel led him toward a different life.
+
+## Ascetic life and community
+
+After baptism, Basil travelled to observe ascetics in Egypt and the eastern provinces. He then established a community near the family property on the river Iris in Pontus. His purpose was not simply to escape society. He sought a setting in which prayer, work, obedience, and the sharing of possessions could make the Gospel concrete. Gregory joined him for a time, and their intellectual collaboration included work on selections from Origen.
+
+The ascetical instructions associated with Basil developed through questions and answers about Christian conduct. They are not best understood as a single rule written at one sitting for a modern religious order. Their central reference is Scripture, interpreted within a community accountable to God and to one another. Common life offered opportunities to practise charity that complete isolation could not provide. Basil became a decisive influence on Eastern monasticism, although he did not invent Christian asceticism or organize all Eastern monks into one institution.
+
+## Bishop in a divided Church
+
+Ordained a priest, Basil assisted Bishop Eusebius of Caesarea and succeeded him in 370. His episcopate unfolded amid disputes over the relationship of the Father and the Son and over the divinity of the Holy Spirit. Imperial support for opponents of Nicene teaching made these controversies matters of ecclesiastical government as well as theological argument. Basil defended the faith of Nicaea while seeking cooperation among bishops whose terminology and personal loyalties differed.
+
+His correspondence reveals the practical burden of this work. He dealt with clerical discipline, unsuitable candidates for ministry, reconciliation, church appointments, and appeals for help across regional boundaries. His firmness did not make every initiative successful, and his relationships with fellow churchmen could be strained. The portrait that emerges is not of a solitary thinker detached from events, but of a bishop attempting to preserve communion under considerable political and personal pressure.
+
+## Theology and social responsibility
+
+In his writings against Eunomius and in his treatise on the Holy Spirit, Basil rejected accounts that reduced the Son or the Spirit to the level of creatures. Christian baptism and worship were central to his reasoning: the Spirit who sanctifies and is glorified with the Father and the Son cannot be treated as merely a created servant. His careful language contributed to the Church’s confession of one divine nature in three distinct persons, without confusing their personal distinctions.
+
+The same theological outlook informed his preaching about poverty. Human dignity depended on creation by God and redemption in Christ, not on social rank. Wealth was therefore a responsibility rather than an unlimited private entitlement. During famine Basil urged the wealthy to share accumulated supplies. The charitable complex later called the Basileiad provided hospitality and care for sick and impoverished people. His concern for their needs was an integral part of episcopal ministry, not an appendix to his doctrinal teaching.
+
+## Writings and enduring influence
+
+Basil’s sermons on creation, moral instructions, letters, and advice to young readers show the breadth of his concerns. He encouraged a discerning use of classical literature: Christians could learn from examples of virtue without accepting every belief of pagan authors. He also stressed the Eucharist as nourishment for the baptized and supported frequent communion. Learning, sacramental life, and service belonged within a single Christian vocation.
+
+He died in 379, traditionally on 1 January, before the Council of Constantinople of 381. His writings and ecclesiastical work helped prepare the theological settlement associated with that council. Honoured as a Doctor of the Church, he remains a major witness shared by Catholic and Orthodox Christians. The liturgy bearing his name belongs to a developing liturgical tradition; its present form should not simply be equated with a text written entirely by his hand.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. Basil the Great” (retrieved mirror)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/02330b.htm).
+- [Benedict XVI, general audience, 1 August 2007 (retrieved Vatican-text mirror)](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-08-01.md).
+$desc$),
+('saint-basil-the-great','fr','Basile de Césarée unit la défense de la foi nicéenne à la formation monastique et au secours concret des personnes démunies. Son enseignement sur le Saint-Esprit, la communauté chrétienne et les responsabilités de la richesse fait de lui un maître fondamental de l’Église.',$desc$## Famille et formation
+
+Basile naquit vers 330 dans une famille chrétienne liée à Césarée de Cappadoce et à la province du Pont. Sa parenté comptait plusieurs figures importantes de l’ascétisme chrétien ancien : sa sœur Macrine, son frère Grégoire de Nysse et sa grand-mère Macrine l’Ancienne. La famille conservait le souvenir des persécutions et de l’enseignement de Grégoire le Thaumaturge. Cet héritage associait la formation intellectuelle à une compréhension exigeante de la vie chrétienne.
+
+Il étudia à Césarée, Constantinople et Athènes, acquérant la formation rhétorique et philosophique attendue d’un homme cultivé dans le monde romain tardif. À Athènes se développa son amitié durable avec Grégoire de Nazianze. Celui-ci se rappela leurs études communes comme une collaboration plutôt qu’une compétition pour les honneurs. Basile entreprit d’abord une carrière publique d’enseignement, mais l’influence de sa sœur et sa lecture personnelle de l’Évangile l’orientèrent vers une autre existence.
+
+## Vie ascétique et communauté
+
+Après son baptême, Basile voyagea pour observer les ascètes d’Égypte et des provinces orientales. Il établit ensuite une communauté près de la propriété familiale, sur l’Iris, dans le Pont. Son objectif n’était pas simplement de fuir la société. Il cherchait un cadre où la prière, le travail, l’obéissance et le partage des biens rendraient l’Évangile concret. Grégoire le rejoignit un temps, et leur collaboration intellectuelle comprit un travail sur des extraits d’Origène.
+
+Les instructions ascétiques associées à Basile se développèrent sous forme de questions et réponses sur la conduite chrétienne. Elles ne constituent pas simplement une règle unique rédigée d’un seul mouvement pour un ordre religieux moderne. Leur référence centrale est l’Écriture, interprétée au sein d’une communauté responsable devant Dieu et dans les relations mutuelles. La vie commune permettait de pratiquer une charité que l’isolement complet ne pouvait exercer. Basile influença profondément le monachisme oriental, sans inventer l’ascétisme chrétien ni réunir tous les moines d’Orient dans une seule institution.
+
+## Évêque dans une Église divisée
+
+Ordonné prêtre, Basile seconda l’évêque Eusèbe de Césarée et lui succéda en 370. Son épiscopat se déroula au milieu des controverses sur la relation du Père et du Fils et sur la divinité du Saint-Esprit. Le soutien impérial aux adversaires de l’enseignement nicéen en faisait des questions de gouvernement ecclésiastique autant que de discussion théologique. Basile défendit la foi de Nicée tout en recherchant la coopération entre des évêques dont les vocabulaires et les fidélités personnelles différaient.
+
+Sa correspondance révèle la charge pratique de cette œuvre. Il traitait de discipline cléricale, de candidats inaptes au ministère, de réconciliation, de nominations ecclésiastiques et d’appels à l’aide au-delà des frontières régionales. Sa fermeté ne garantissait pas le succès de chaque initiative, et ses relations avec d’autres hommes d’Église pouvaient être tendues. Il apparaît non comme un penseur solitaire détaché des événements, mais comme un évêque cherchant à préserver la communion sous de fortes pressions politiques et personnelles.
+
+## Théologie et responsabilité sociale
+
+Dans ses écrits contre Eunome et dans son traité sur le Saint-Esprit, Basile rejeta les conceptions qui abaissaient le Fils ou l’Esprit au rang des créatures. Le baptême et le culte chrétiens étaient au cœur de son raisonnement : l’Esprit qui sanctifie et reçoit la gloire avec le Père et le Fils ne peut être considéré comme un simple serviteur créé. Son langage précis contribua à la confession ecclésiale d’une unique nature divine en trois personnes distinctes, sans confusion de leurs distinctions personnelles.
+
+La même perspective théologique animait sa prédication sur la pauvreté. La dignité humaine dépendait de la création par Dieu et de la rédemption dans le Christ, non du rang social. La richesse constituait donc une responsabilité plutôt qu’un droit privé illimité. En temps de famine, Basile exhorta les riches à partager leurs réserves. L’ensemble charitable appelé ensuite Basiliade accueillait et soignait les malades et les pauvres. Cette sollicitude appartenait pleinement au ministère épiscopal et n’était pas un supplément à son enseignement doctrinal.
+
+## Écrits et influence durable
+
+Les homélies de Basile sur la création, ses instructions morales, ses lettres et ses conseils aux jeunes lecteurs manifestent l’étendue de ses préoccupations. Il encourageait un usage discerné de la littérature classique : les chrétiens pouvaient apprendre d’exemples de vertu sans accepter toutes les croyances des auteurs païens. Il présentait également l’Eucharistie comme la nourriture des baptisés et favorisait la communion fréquente. L’étude, la vie sacramentelle et le service appartenaient à une même vocation chrétienne.
+
+Il mourut en 379, traditionnellement le 1er janvier, avant le concile de Constantinople de 381. Ses écrits et son action ecclésiastique contribuèrent à préparer l’accord théologique associé à ce concile. Honoré comme docteur de l’Église, il demeure un témoin majeur commun aux catholiques et aux orthodoxes. La liturgie qui porte son nom appartient à une tradition liturgique en développement ; sa forme actuelle ne doit pas être simplement identifiée à un texte entièrement écrit de sa main.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. Basil the Great » (miroir consulté)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/02330b.htm).
+- [Benoît XVI, audience générale du 1er août 2007 (miroir du texte du Vatican consulté)](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-08-01.md).
+$desc$),
+('saint-basil-the-great','la','Basilius Caesariensis defensionem fidei Nicaenae cum institutione monastica et auxilio egentibus praestando coniunxit. Doctrina eius de Spiritu Sancto, communitate christiana atque divitiarum officiis eum inter praecipuos Ecclesiae magistros constituit, cuius opera adhuc leguntur.',$desc$## Familia et institutio
+
+Basilius circa annum 330 natus est e familia christiana Caesareae Cappadociae et provinciae Ponti coniuncta. Inter propinquos eius eminuerunt Macrina soror, Gregorius Nyssenus frater et Macrina Maior avia, personae in historia asceseos christianae antiquae insignes. Familia memoriam persecutionum et doctrinae Gregorii Thaumaturgi servabat. Haec hereditas institutionem intellectualem cum severa vitae christianae ratione coniungebat.
+
+Caesareae, Constantinopoli et Athenis studuit, disciplinis rhetoricis et philosophicis excultus quae hominem doctum aetatis Romanae posterioris decebant. Athenis firma amicitia cum Gregorio Nazianzeno coaluit. Gregorius postea studia communia ut mutuum auxilium potius quam certamen honorum recordatus est. Basilius primum munus publicum docendi suscepit; auctoritas tamen sororis et propria Evangelii lectio eum ad aliam vitae viam duxerunt.
+
+## Vita ascetica et communitas
+
+Post baptismum Basilius ad ascetas Aegypti et provinciarum orientalium cognoscendos peregrinatus est. Deinde prope praedium familiae ad flumen Irim in Ponto communitatem constituit. Non tantum societatem fugere volebat. Locum quaerebat ubi precatio, labor, oboedientia et bonorum communicatio Evangelium in actus converterent. Gregorius aliquamdiu ei adhaesit; communis quoque labor intellectualis excerpta ex Origene complectebatur.
+
+Institutiones asceticae Basilio coniunctae per quaestiones et responsiones de moribus christianis creverunt. Non recte intelleguntur quasi unica regula uno tempore ad ordinem religiosum recentiorem conscripta. Praecipua norma est Scriptura, in communitate coram Deo et inter membra sua responsabili interpretata. Vita communis caritatem exercendi facultates praebebat quas perfecta solitudo non praestabat. Basilius monachismum orientalem penitus informavit, quamvis neque ascesim christianam invenerit neque omnes monachos orientales in unum institutum redegerit.
+
+## Episcopus in Ecclesia divisa
+
+Presbyter ordinatus, Basilius Eusebium episcopum Caesariensem adiuvit eique anno 370 successit. Episcopatum gessit inter controversias de relatione Patris et Filii atque de divinitate Spiritus Sancti. Imperatores adversariis doctrinae Nicaenae faventes effecerunt ut hae controversiae ad regimen ecclesiasticum aeque ac ad disputationem theologicam pertinerent. Basilius fidem Nicaenam defendit, simul cooperationem quaerens inter episcopos quorum vocabula et necessitudines personales differebant.
+
+Epistulae eius onus practicum huius operis ostendunt. De disciplina clericorum, candidatis ad ministerium ineptis, reconciliatione, nominationibus ecclesiasticis et auxilio ultra fines regionum petendo agebat. Constantia eius non omnem rem prospere perfecit, et relationes cum aliis viris ecclesiasticis interdum difficiles erant. Non cogitator solitarius ab eventibus seiunctus apparet, sed episcopus communionem sub gravi pressione politica et personali servare conans.
+
+## Theologia et officium sociale
+
+In scriptis contra Eunomium et in tractatu de Spiritu Sancto Basilius sententias reiecit quibus Filius aut Spiritus ad creaturarum ordinem redigebatur. Baptismus et cultus christianus in argumentatione eius locum praecipuum obtinebant: Spiritus qui sanctificat et cum Patre et Filio glorificatur non est mere servus creatus. Accuratus eius sermo confessioni Ecclesiae unius naturae divinae in tribus personis distinctis profuit, distinctionibus personalibus non confusis.
+
+Eadem ratio theologica praedicationem eius de paupertate informabat. Dignitas humana a creatione divina et redemptione in Christo, non a gradu sociali pendebat. Divitiae igitur officium potius quam ius privatum infinitum constituunt. Tempore famis Basilius divites hortatus est ut copias congestas communicarent. Institutum caritatis postea Basiliadis nomine notum hospitium et curam infirmis pauperibusque praestabat. Haec sollicitudo pars integra ministerii episcopalis erat, non appendix doctrinae theologicae.
+
+## Scripta et perennis auctoritas
+
+Homiliae Basilii de creatione, praecepta moralia, epistulae et consilia iuvenibus lectoribus data amplitudinem curarum eius demonstrant. Auctores classicos cum discretione legendos docebat: christiani exemplis virtutis proficere poterant quin omnes opiniones scriptorum gentilium reciperent. Eucharistiam quoque alimentum baptizatorum esse inculcabat et frequentem communionem commendabat. Doctrina, vita sacramentalis et servitium ad unam vocationem christianam pertinebant.
+
+Anno 379 mortuus est, die primo Ianuarii secundum traditionem, ante Concilium Constantinopolitanum anni 381. Scripta et opera ecclesiastica eius concordiam doctrinalem illi concilio coniunctam praeparaverunt. Doctor Ecclesiae honoratus, insignis testis catholicis et orthodoxis communis manet. Liturgia eius nomine appellata ad traditionem liturgicam crescentem pertinet; forma hodierna non simpliciter habenda est tamquam textus totus ab ipso conscriptus.
+
+## Fontes
+
+- [Catholic Encyclopedia, «St. Basil the Great» (exemplar interretiale consultum)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/02330b.htm).
+- [Benedictus XVI, audientia generalis diei 1 Augusti 2007 (exemplar textus Vaticani consultum)](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-08-01.md).
+$desc$),
+('saint-gregory-nazianzen','en','Gregory of Nazianzus was a Cappadocian bishop, poet, and defender of the Trinity. His theological orations and teaching on Christ’s complete humanity made him a Doctor of the Church, while his autobiographical writings reveal a pastor drawn to contemplation.',$desc$## Formation and friendship
+
+Gregory was born around 330 in Cappadocia, into a family closely connected with the Church at Nazianzus. His mother dedicated him to God from infancy. His education took him from his homeland to major intellectual centres, including Alexandria and Athens. At Caesarea he met Basil, and at Athens their friendship matured through shared study and a common desire to live as Christians within the world of classical learning.
+
+His later account of this friendship is one of the most personal descriptions of student life preserved from Christian antiquity. It presents learning not as the pursuit of superiority but as mutual encouragement toward wisdom and virtue. Gregory’s eloquence was therefore no accidental ornament added to his theology. Rhetoric, literary sensitivity, and knowledge of inherited culture became instruments through which he explained Christian belief and examined his own experience.
+
+## A reluctant pastor
+
+After returning home and receiving baptism, Gregory was attracted to ascetic withdrawal. Silence, prayer, and contemplation promised a freedom that public responsibilities seemed to threaten. His ordination to the priesthood came with considerable reluctance. Nevertheless, he accepted pastoral service rather than treating his preference for solitude as an exemption from the needs of others. His writings about priesthood retain the tension between the seriousness of spiritual leadership and a sense of personal inadequacy.
+
+Basil later consecrated him for Sasima, a small but strategically significant see in Cappadocia. Gregory never established effective possession of it and continued his connection with Nazianzus. This episode strained the friendship between the two men and illustrates the human cost of fourth-century ecclesiastical disputes. Gregory could be firm in doctrine while finding administrative conflict and the manoeuvring surrounding episcopal appointments deeply painful.
+
+## Constantinople and the council
+
+Around 379 he was invited to guide the small Nicene community in Constantinople. Many of the city’s churches were then controlled by opponents of Nicene belief. From the community associated with the Anastasis church he preached the five theological orations that became his best-known works. Their purpose was to defend the confession of the Father, Son, and Holy Spirit as divine without turning Christianity into belief in three gods.
+
+In 381 Gregory was recognized as bishop of Constantinople and presided for a time over the council later acknowledged as the second ecumenical council. Opposition to his position, including objections connected with his earlier episcopal appointment, made his situation increasingly difficult. He resigned and delivered a farewell address rather than prolong a struggle he believed was damaging the Church. His withdrawal was not a rejection of the faith he had defended, but a decision made within a bitter conflict over its ecclesiastical guardianship.
+
+## The Trinity and the Incarnation
+
+Gregory’s title “the Theologian” reflects the lasting authority of his treatment of God. He confessed one divinity in three equal and distinct persons. The Father is not the Son, and the Spirit is not merely an impersonal power; yet their distinction does not divide the divine nature. Gregory also insisted that theology requires prayer and purification. Speech about God must acknowledge both revelation’s real gift and the limits of human comprehension.
+
+His defence of the Incarnation was equally significant. Against Apollinarius, who denied that Christ possessed a complete human rational soul, Gregory argued that the whole human being needed salvation. What the Word did not assume could not be healed through that assumption. Christ therefore possesses genuine and complete humanity, not merely a human body directed by divinity in place of a human mind. Gregory’s recognition of Mary as Theotokos, Mother of God, follows from the identity of her Son: the one born from her is truly the divine Word made man.
+
+## Poetry, charity, and final years
+
+After leaving Constantinople, Gregory again served the community at Nazianzus before retiring to nearby Arianzus. There he devoted himself to ascetic life, study, and writing. His poetry includes an autobiographical account that records disappointment, vulnerability, and hope with unusual directness. These works complement the public orations by showing how his theological convictions were lived amid frailty rather than beyond it.
+
+Gregory also preached concrete responsibility for sick and poor people. Since Christians are members of one body in Christ, differences of wealth, freedom, and health cannot justify indifference. Care for the afflicted is part of participation in divine mercy. He died around 390. Honoured as a Doctor of the Church, he left a legacy in which exact doctrine, literary achievement, interior struggle, and practical charity remain inseparable.
+
+## Sources
+
+- [Benedict XVI, general audience, 8 August 2007 (retrieved Vatican-text mirror)](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-08-08.md).
+- [Benedict XVI, general audience, 22 August 2007 (retrieved Vatican-text mirror)](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-08-22.md).
+$desc$),
+('saint-gregory-nazianzen','fr','Grégoire de Nazianze fut un évêque cappadocien, poète et défenseur de la Trinité. Ses discours théologiques et son enseignement sur l’humanité complète du Christ en font un docteur de l’Église, tandis que ses écrits autobiographiques révèlent un pasteur attiré par la contemplation.',$desc$## Formation et amitié
+
+Grégoire naquit vers 330 en Cappadoce, dans une famille étroitement liée à l’Église de Nazianze. Sa mère le consacra à Dieu dès son enfance. Sa formation le conduisit de sa patrie vers de grands centres intellectuels, notamment Alexandrie et Athènes. À Césarée, il rencontra Basile ; à Athènes, leur amitié mûrit dans les études communes et le désir partagé de vivre en chrétiens au sein du monde de la culture classique.
+
+Son récit ultérieur de cette amitié compte parmi les descriptions les plus personnelles de la vie étudiante conservées de l’Antiquité chrétienne. Il présente l’étude non comme une recherche de supériorité, mais comme un encouragement mutuel à la sagesse et à la vertu. L’éloquence de Grégoire n’était donc pas un simple ornement de sa théologie. La rhétorique, la sensibilité littéraire et la connaissance de la culture héritée devinrent les instruments par lesquels il expliqua la foi chrétienne et examina sa propre expérience.
+
+## Un pasteur réticent
+
+Revenu chez lui et baptisé, Grégoire fut attiré par le retrait ascétique. Le silence, la prière et la contemplation promettaient une liberté que les responsabilités publiques semblaient menacer. Il reçut l’ordination sacerdotale avec une grande réticence. Il accepta néanmoins le service pastoral, sans considérer sa préférence pour la solitude comme une dispense des besoins d’autrui. Ses écrits sur le sacerdoce gardent la tension entre la gravité de la direction spirituelle et le sentiment d’une insuffisance personnelle.
+
+Basile le consacra ensuite pour Sasimes, siège modeste mais stratégiquement important de Cappadoce. Grégoire n’en prit jamais effectivement possession et conserva ses liens avec Nazianze. Cet épisode éprouva l’amitié des deux hommes et illustre le coût humain des conflits ecclésiastiques du IVe siècle. Ferme dans la doctrine, Grégoire souffrait profondément des conflits administratifs et des manœuvres entourant les nominations épiscopales.
+
+## Constantinople et le concile
+
+Vers 379, il fut invité à guider la petite communauté nicéenne de Constantinople. Beaucoup d’églises de la ville étaient alors contrôlées par des adversaires de la foi nicéenne. Auprès de la communauté de l’Anastasis, il prononça les cinq discours théologiques devenus ses œuvres les plus connues. Ils défendaient la confession de la divinité du Père, du Fils et du Saint-Esprit sans transformer le christianisme en croyance en trois dieux.
+
+En 381, Grégoire fut reconnu comme évêque de Constantinople et présida quelque temps le concile reconnu ensuite comme le deuxième concile œcuménique. L’opposition à sa position, notamment des objections liées à sa nomination épiscopale antérieure, rendit sa situation toujours plus difficile. Il démissionna et prononça un discours d’adieu plutôt que de prolonger un combat qu’il jugeait nuisible à l’Église. Son départ ne rejetait pas la foi défendue, mais constituait une décision prise au sein d’un conflit amer sur sa garde ecclésiastique.
+
+## La Trinité et l’Incarnation
+
+Le titre de « Théologien » donné à Grégoire reflète l’autorité durable de son enseignement sur Dieu. Il confessait une seule divinité en trois personnes égales et distinctes. Le Père n’est pas le Fils, et l’Esprit n’est pas une simple puissance impersonnelle ; cependant, leur distinction ne divise pas la nature divine. Grégoire insistait également sur la prière et la purification nécessaires à la théologie. Parler de Dieu implique de reconnaître le don réel de la Révélation et les limites de la compréhension humaine.
+
+Sa défense de l’Incarnation fut tout aussi importante. Contre Apollinaire, qui refusait au Christ une âme humaine rationnelle complète, Grégoire soutint que l’être humain tout entier avait besoin du salut. Ce que le Verbe n’avait pas assumé ne pouvait être guéri par cette assomption. Le Christ possède donc une humanité réelle et complète, et non simplement un corps humain dirigé par la divinité à la place d’un esprit humain. La reconnaissance de Marie comme Theotokos, Mère de Dieu, découle de l’identité de son Fils : celui qui naît d’elle est véritablement le Verbe divin fait homme.
+
+## Poésie, charité et dernières années
+
+Après Constantinople, Grégoire servit de nouveau la communauté de Nazianze avant de se retirer à Arianzus, tout près. Il s’y consacra à l’ascèse, à l’étude et à l’écriture. Sa poésie comprend un récit autobiographique exprimant déception, vulnérabilité et espérance avec une franchise peu commune. Ces œuvres complètent les discours publics en montrant comment ses convictions théologiques furent vécues au milieu de la fragilité, et non en dehors d’elle.
+
+Grégoire prêcha également une responsabilité concrète envers les malades et les pauvres. Puisque les chrétiens sont membres d’un seul corps dans le Christ, les différences de fortune, de liberté et de santé ne peuvent justifier l’indifférence. Prendre soin des affligés participe à la miséricorde divine. Il mourut vers 390. Honoré comme docteur de l’Église, il laissa un héritage où doctrine précise, accomplissement littéraire, combat intérieur et charité pratique demeurent inséparables.
+
+## Sources
+
+- [Benoît XVI, audience générale du 8 août 2007 (miroir du texte du Vatican consulté)](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-08-08.md).
+- [Benoît XVI, audience générale du 22 août 2007 (miroir du texte du Vatican consulté)](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-08-22.md).
+$desc$),
+('saint-gregory-nazianzen','la','Gregorius Nazianzenus episcopus Cappadox, poeta et defensor Trinitatis fuit. Orationes theologicae et doctrina de plena Christi humanitate eum inter Ecclesiae doctores collocaverunt; scripta autem autobiographica pastorem contemplationis avidum atque fragilitatis suae conscium ostendunt.',$desc$## Institutio et amicitia
+
+Gregorius circa annum 330 in Cappadocia natus est e familia Ecclesiae Nazianzenae arcte coniuncta. Mater eum ab infantia Deo dedicavit. Studiorum causa e patria ad magna doctrinae loca, inter quae Alexandriam et Athenas, profectus est. Caesareae Basilium cognovit; Athenis eorum amicitia per studia communia et idem desiderium christiane inter disciplinas classicas vivendi maturuit.
+
+Narratio huius amicitiae quam postea scripsit inter maxime personales vitae studiosorum descriptiones ex antiquitate christiana servatas numeratur. Studia non ut superioritatis cupiditatem, sed ut mutuam ad sapientiam et virtutem exhortationem proponit. Eloquentia igitur Gregorii non erat ornamentum fortuitum theologiae additum. Rhetorica, subtilitas litteraria et culturae traditae cognitio instrumenta facta sunt quibus fidem christianam explanaret et propriam experientiam examinaret.
+
+## Pastor invitus
+
+Domum reversus et baptizatus, Gregorius secessu ascetico trahebatur. Silentium, precatio et contemplatio libertatem promittebant cui munera publica minari videbantur. Ordinationem presbyteralem magna cum difficultate suscepit. Ministerium tamen pastorale accepit, neque amorem solitudinis excusationem a necessitatibus aliorum esse putavit. Scripta de sacerdotio tensionem servant inter gravitatem regiminis spiritualis et sensum propriae insufficientiae.
+
+Basilius eum postea Sasimis consecravit, sedi parvae sed ad res Cappadociae magni momenti. Gregorius possessionem eius efficaciter numquam obtinuit et Nazianzo coniunctus mansit. Hoc factum amicitiam duorum virorum vulneravit et pretium humanum controversiarum ecclesiasticarum saeculi quarti ostendit. Gregorius in doctrina firmus esse poterat, dum contentiones administrativas et consilia circa nominationes episcopales graviter patiebatur.
+
+## Constantinopolis et concilium
+
+Circa annum 379 vocatus est ut parvam communitatem Nicaenam Constantinopoli regeret. Multae ecclesiae urbis tunc ab adversariis fidei Nicaenae tenebantur. Apud communitatem ecclesiae Anastasis quinque orationes theologicas habuit, quae inter opera eius celeberrima factae sunt. Confessionem Patris, Filii et Spiritus Sancti divinorum defendebant, quin fides christiana in trium deorum cultum mutaretur.
+
+Anno 381 Gregorius episcopus Constantinopolitanus agnitus est et aliquamdiu concilio praefuit quod postea secundum oecumenicum agnitum est. Oppositio contra eius statum, etiam obiectiones ad priorem nominationem episcopalem pertinentes, condicionem eius difficiliorem reddidit. Abdicavit et orationem valedictoriam habuit potius quam certamen Ecclesiae nocivum prolongaret. Recessus eius non fuit reiectio fidei quam defenderat, sed consilium intra acrem controversiam de eius custodia ecclesiastica captum.
+
+## Trinitas et Incarnatio
+
+Titulus Gregorii «Theologi» auctoritatem perennem doctrinae eius de Deo significat. Unam divinitatem in tribus personis aequalibus et distinctis confitebatur. Pater non est Filius, neque Spiritus mera vis impersonalis; distinctio tamen eorum naturam divinam non dividit. Gregorius etiam theologiam precationem et purificationem postulare affirmabat. Sermo de Deo et verum revelationis donum et limites intellectus humani agnoscere debet.
+
+Defensio Incarnationis eius aeque gravis fuit. Contra Apollinarem, qui Christo animam humanam rationalem plenam denegabat, Gregorius totum hominem salute egere docuit. Quod Verbum non assumpsisset per illam assumptionem sanari non posset. Christus igitur veram et integram humanitatem possidet, non corpus tantum humanum a divinitate loco mentis humanae directum. Agnitio Mariae ut Theotokos, Dei Genetricis, ex identitate Filii eius sequitur: qui ex ea nascitur vere est Verbum divinum homo factum.
+
+## Poesis, caritas et ultimi anni
+
+Constantinopoli relicta, Gregorius communitati Nazianzenae iterum ministravit antequam in vicinum Arianzum secederet. Ibi vitae asceticae, studio et scriptis incubuit. Poesis eius narrationem autobiographicam continet quae frustrationem, fragilitatem et spem singulari sinceritate exprimit. Haec opera orationes publicas complent, ostendendo quomodo persuasiones theologicae inter infirmitates, non extra eas, viverentur.
+
+Gregorius etiam officium concretum erga infirmos et pauperes praedicavit. Quoniam christiani membra unius corporis in Christo sunt, diversitates divitiarum, libertatis et valetudinis indifferentiam iustificare nequeunt. Cura afflictorum pars participationis misericordiae divinae est. Circa annum 390 mortuus est. Doctor Ecclesiae honoratus, hereditatem reliquit in qua doctrina accurata, ars litteraria, certamen interius et caritas practica inseparabilia manent.
+
+## Fontes
+
+- [Benedictus XVI, audientia generalis diei 8 Augusti 2007 (exemplar textus Vaticani consultum)](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-08-08.md).
+- [Benedictus XVI, audientia generalis diei 22 Augusti 2007 (exemplar textus Vaticani consultum)](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-08-22.md).
+$desc$)
+) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
+WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
+UPDATE saint_translations AS st
+SET short_description=x.short_description, full_biography=x.full_biography
+FROM saints s JOIN (VALUES
+('saint-raymond-of-penyafort','en','Raymond of Penyafort was a Catalan Dominican priest whose legal scholarship served confession, ecclesiastical government, and preaching. He compiled Gregory IX’s Decretals, led the Order of Preachers, and encouraged the study of languages for missionary work.',$desc$## Learning and religious vocation
+
+Raymond was born in Catalonia, traditionally around 1175, in the region near Barcelona associated with Penyafort. The precise chronology of his earliest teaching is less secure than that of his later public responsibilities. He received a legal education and pursued further study at Bologna, one of medieval Europe’s principal centres for canon law. There he also taught, gaining the reputation for juridical learning that would shape his subsequent service to the Church.
+
+Canon law governed far more than clerical procedure. Questions of marriage, religious obligations, ecclesiastical office, property, and reconciliation required both knowledge of authoritative texts and judgment about particular circumstances. Raymond’s expertise developed within this world of university teaching and pastoral administration. His later work would address the difficulty of using a large body of legislation accumulated over centuries, rather than attempting to replace the Christian tradition with an entirely new legal system.
+
+## Dominican life and care of consciences
+
+Raymond entered the Order of Preachers at Barcelona in 1222 after encountering Dominican life and preaching in Bologna. The order was still young. Its combination of disciplined community, study, and public proclamation provided a setting in which his previous learning could serve an explicitly evangelical purpose. His legal competence was not left behind when he became a friar; it became part of his religious ministry.
+
+At the request of his superiors, he composed a practical work on cases of conscience, commonly associated with the title Summa de paenitentia. It was intended to assist confessors confronting concrete moral and canonical questions. Material concerning marriage became an important part of this tradition. Such writing belongs to the history of pastoral theology as well as jurisprudence: the confessor needed to understand both the demands of justice and the means by which a penitent could be reconciled.
+
+## The Decretals of Gregory IX
+
+In 1230 Pope Gregory IX brought Raymond to Rome and employed him as a chaplain and penitentiary. The pope also entrusted him with preparing an authoritative collection of papal decretals. Earlier collections contained repetitions, uncertainties, and apparent contradictions; some decisions remained outside the standard compilations. Raymond’s task was to select, arrange, and reconcile this material so that it could be used consistently in teaching and ecclesiastical courts.
+
+The resulting collection was promulgated in 1234 by the bull Rex pacificus. Often called the Liber Extra, it was divided into five books and became a fundamental component of the medieval Corpus iuris canonici. Raymond worked under papal authority rather than issuing laws on his own initiative. Its historical importance lies both in the contents preserved and in the establishment of a common authoritative reference. It should not be confused with the substantially different codified systems adopted by the Catholic Church in modern times.
+
+## Government and missionary study
+
+Raymond declined appointment to the archbishopric of Tarragona and returned to Spain. In 1238 he was elected master of the Dominican Order. During a brief tenure he revised the order’s constitutions, bringing his concern for clarity and coherent organization into the governance of religious life. He resigned in 1240, but withdrawal from general government did not mean withdrawal from the order’s wider work.
+
+He encouraged the study of languages needed for engagement with Muslim and Jewish communities, in the setting of medieval Iberia and the Mediterranean. These initiatives belonged to an explicitly missionary project and should be understood within their historical religious and political circumstances. Later tradition also links him with Thomas Aquinas’s Summa contra gentiles and with the early Mercedarian movement. The exact extent of these connections is less securely documented than his compilation of the Decretals and his Dominican leadership.
+
+## Final years and historical memory
+
+Raymond continued to be remembered as a counsellor whose scholarship was joined to religious discipline. He died at Barcelona on 6 January 1275, at a very advanced age according to the traditional chronology. Pope Clement VIII canonized him in 1601. His reputation rests above all on the integration of learning and service: he helped provide both confessors and ecclesiastical institutions with tools for responsible judgment.
+
+The older sources also transmit devotional narratives that go beyond what can be established from contemporary records. These should not displace the substantial documentary basis of his legal and institutional work. Raymond’s contribution is not that every medieval legal provision remains applicable today, but that the Church’s ministry requires careful reasoning, orderly procedures, and attention to the particular persons affected by its decisions.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. Raymond of Peñafort” (retrieved mirror)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/12671c.htm).
+- [Catholic Encyclopedia, “Papal Decretals,” collection of Gregory IX (retrieved mirror)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/04670b.htm).
+$desc$),
+('saint-raymond-of-penyafort','fr','Raymond de Penyafort fut un prêtre dominicain catalan dont la science juridique servit la confession, le gouvernement ecclésiastique et la prédication. Il compila les Décrétales de Grégoire IX, dirigea l’Ordre des Prêcheurs et encouragea l’étude des langues pour la mission.',$desc$## Études et vocation religieuse
+
+Raymond naquit en Catalogne, traditionnellement vers 1175, dans la région proche de Barcelone associée à Penyafort. La chronologie précise de ses premiers enseignements est moins assurée que celle de ses responsabilités publiques ultérieures. Il reçut une formation juridique et poursuivit ses études à Bologne, l’un des principaux centres européens du droit canonique au Moyen Âge. Il y enseigna également, acquérant la réputation de science juridique qui orienterait ensuite son service de l’Église.
+
+Le droit canonique régissait bien davantage que les procédures cléricales. Les questions de mariage, d’obligations religieuses, de charges ecclésiastiques, de propriété et de réconciliation demandaient une connaissance des textes autorisés et un jugement sur les circonstances particulières. La compétence de Raymond se développa dans ce monde d’enseignement universitaire et d’administration pastorale. Son œuvre ultérieure répondrait à la difficulté d’utiliser une législation accumulée pendant des siècles, plutôt que de remplacer la tradition chrétienne par un système juridique entièrement nouveau.
+
+## Vie dominicaine et soin des consciences
+
+Raymond entra dans l’Ordre des Prêcheurs à Barcelone en 1222, après avoir rencontré la vie et la prédication dominicaines à Bologne. L’ordre était encore jeune. Son association de vie communautaire réglée, d’étude et de proclamation publique offrait un cadre où ses connaissances antérieures pouvaient servir un dessein explicitement évangélique. Sa compétence juridique ne fut pas abandonnée lorsqu’il devint frère ; elle entra dans son ministère religieux.
+
+À la demande de ses supérieurs, il composa un ouvrage pratique sur les cas de conscience, communément associé au titre Summa de paenitentia. Il devait aider les confesseurs confrontés à des questions morales et canoniques concrètes. Le mariage devint une composante importante de cette tradition. De tels écrits appartiennent à l’histoire de la théologie pastorale autant qu’à celle du droit : le confesseur devait comprendre les exigences de la justice et les moyens de réconcilier le pénitent.
+
+## Les Décrétales de Grégoire IX
+
+En 1230, le pape Grégoire IX appela Raymond à Rome et l’employa comme chapelain et pénitencier. Il lui confia également la préparation d’un recueil autorisé de décrétales pontificales. Les collections antérieures contenaient répétitions, incertitudes et contradictions apparentes ; certaines décisions restaient hors des compilations courantes. Raymond devait sélectionner, ordonner et harmoniser ces matériaux afin d’en permettre un usage cohérent dans l’enseignement et les tribunaux ecclésiastiques.
+
+Le recueil fut promulgué en 1234 par la bulle Rex pacificus. Souvent appelé Liber Extra, il était divisé en cinq livres et devint une composante fondamentale du Corpus iuris canonici médiéval. Raymond travaillait sous l’autorité pontificale et ne légiférait pas de sa propre initiative. L’importance historique du recueil tient aux textes conservés et à l’établissement d’une référence commune faisant autorité. Il ne doit pas être confondu avec les systèmes codifiés sensiblement différents adoptés par l’Église catholique à l’époque moderne.
+
+## Gouvernement et études missionnaires
+
+Raymond refusa sa nomination à l’archevêché de Tarragone et retourna en Espagne. En 1238, il fut élu maître de l’Ordre dominicain. Durant ce bref mandat, il révisa les constitutions de l’ordre, appliquant au gouvernement religieux son souci de clarté et d’organisation cohérente. Il démissionna en 1240, mais quitter le gouvernement général ne signifiait pas abandonner les activités plus larges de l’ordre.
+
+Il encouragea l’étude des langues nécessaires aux relations avec les communautés musulmanes et juives, dans l’espace ibérique et méditerranéen médiéval. Ces initiatives appartenaient à un projet explicitement missionnaire et doivent être comprises dans leurs circonstances religieuses et politiques historiques. La tradition ultérieure le relie également à la Summa contra gentiles de Thomas d’Aquin et aux débuts du mouvement mercédaire. L’étendue exacte de ces liens est moins solidement documentée que sa compilation des Décrétales et son gouvernement dominicain.
+
+## Dernières années et mémoire historique
+
+Raymond resta dans les mémoires comme un conseiller unissant science et discipline religieuse. Il mourut à Barcelone le 6 janvier 1275, à un âge très avancé selon la chronologie traditionnelle. Le pape Clément VIII le canonisa en 1601. Sa réputation repose avant tout sur l’union de l’étude et du service : il contribua à fournir aux confesseurs et aux institutions ecclésiastiques des instruments de jugement responsable.
+
+Les sources anciennes transmettent aussi des récits dévotionnels qui dépassent ce que les documents contemporains permettent d’établir. Ils ne doivent pas remplacer la solide documentation de son œuvre juridique et institutionnelle. Sa contribution ne signifie pas que chaque disposition médiévale demeure applicable aujourd’hui, mais rappelle que le ministère de l’Église exige un raisonnement soigneux, des procédures ordonnées et l’attention aux personnes touchées par ses décisions.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. Raymond of Peñafort » (miroir consulté)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/12671c.htm).
+- [Catholic Encyclopedia, « Papal Decretals », collection de Grégoire IX (miroir consulté)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/04670b.htm).
+$desc$),
+('saint-raymond-of-penyafort','la','Raymundus de Penyafort presbyter Catalanus Ordinis Praedicatorum fuit, cuius scientia iuridica confessioni, regimini ecclesiastico et praedicationi servivit. Decretales Gregorii IX collegit, Ordinem Praedicatorum rexit atque studium linguarum ad opus missionarium promovit.',$desc$## Studia et vocatio religiosa
+
+Raymundus in Catalonia natus est, secundum traditionem circa annum 1175, in regione prope Barcinonem cum Penyafort coniuncta. Chronologia exacta primi muneris docendi minus certa est quam posteriorum officiorum publicorum. Iure institutus, Bononiae studia prosecutus est, quae inter praecipuas Europae mediaevalis sedes iuris canonici numerabatur. Ibi quoque docuit, famam scientiae iuridicae adeptus quae subsequenti Ecclesiae ministerio formam daret.
+
+Ius canonicum multo plura quam rationes clericales moderabatur. Quaestiones matrimonii, obligationum religiosarum, officii ecclesiastici, proprietatis et reconciliationis et cognitionem textuum auctoritate praeditorum et iudicium de adiunctis particularibus requirebant. Peritia Raymundi in hoc mundo doctrinae universitatis et administrationis pastoralis crevit. Opus posterius difficultati utendi legislatione per saecula cumulata responderet, potius quam traditionem christianam novo omnino systemate iuridico substitueret.
+
+## Vita Dominicana et cura conscientiarum
+
+Raymundus Ordinem Praedicatorum Barcinone anno 1222 ingressus est, postquam Bononiae vitam et praedicationem Dominicanam cognoverat. Ordo adhuc recens erat. Coniunctio communitatis ordinatae, studii et praedicationis publicae locum praebuit ubi prior doctrina fini expresse evangelico serviret. Peritia iuridica, cum frater fieret, non relicta est, sed pars ministerii religiosi facta.
+
+Superioribus rogantibus opus practicum de casibus conscientiae composuit, titulo Summa de paenitentia plerumque coniunctum. Confessariis quaestiones morales et canonicas concretas tractantibus prodesse debebat. Materia matrimonialis pars gravis huius traditionis facta est. Talia scripta ad historiam theologiae pastoralis aeque ac iuris pertinent: confessarius et postulata iustitiae et media quibus paenitens reconciliaretur intellegere debebat.
+
+## Decretales Gregorii IX
+
+Anno 1230 Gregorius IX papa Raymundum Romam vocavit eumque capellanum et paenitentiarium adhibuit. Ei etiam collectionem decretalium pontificiarum auctoritate praeditam parare commisit. Collectiones anteriores repetitiones, incerta et contradictiones apparentes continebant; quaedam decisiones extra compilationes usitatas manebant. Raymundi erat hanc materiam eligere, ordinare et conciliare, ut constanter in scholis et tribunalibus ecclesiasticis adhiberi posset.
+
+Collectio anno 1234 per bullam Rex pacificus promulgata est. Saepe Liber Extra appellata, quinque libris divisa est et pars fundamentalis Corporis iuris canonici mediaevalis facta. Raymundus sub auctoritate pontificia laborabat, non proprio consilio leges ferens. Momentum historicum et in textibus servatis et in communi fonte auctoritativo constituto consistit. Non confundenda est cum systematibus codificatis multum diversis quae Ecclesia catholica recentioribus temporibus recepit.
+
+## Regimen et studia missionaria
+
+Raymundus nominationem ad archiepiscopatum Tarraconensem recusavit et in Hispaniam rediit. Anno 1238 magister Ordinis Praedicatorum electus est. Brevi munere constitutiones ordinis recognovit, curam claritatis et ordinationis cohaerentis in regimen vitae religiosae inferens. Anno 1240 abdicavit, sed recessus a regimine generali non fuit recessus a latiore opere ordinis.
+
+Studium linguarum ad colloquia cum communitatibus musulmanis et Iudaicis necessarium promovit, in contextu mediaevali Iberico et Mediterraneo. Haec incepta ad propositum expresse missionarium pertinebant et intra adiuncta religiosa et politica sua historica intellegenda sunt. Traditio posterior eum etiam cum Summa contra gentiles Thomae Aquinatis et primordiis Mercedariorum coniungit. Mensura exacta harum necessitudinum minus solide documentis probatur quam compilatio Decretalium et regimen Dominicanum.
+
+## Ultimi anni et memoria historica
+
+Raymundus ut consiliarius memoratus est cuius scientia cum disciplina religiosa coniungebatur. Barcinone die 6 Ianuarii 1275 mortuus est, aetate valde provecta secundum chronologiam traditam. Clemens VIII papa eum anno 1601 canonizavit. Fama eius praesertim in coniunctione doctrinae et servitii nititur: confessariis et institutis ecclesiasticis instrumenta ad responsabile iudicium praebuit.
+
+Fontes antiquiores etiam narrationes pietatis transmittunt quae documenta coaetanea excedunt. Hae fundamentum documentale solidum operis iuridici et institutionalis non excludere debent. Momentum Raymundi non est quod omnis norma mediaevalis hodie applicetur, sed quod ministerium Ecclesiae rationem accuratam, ordinem procedendi et curam personarum decisionibus affectarum requirit.
+
+## Fontes
+
+- [Catholic Encyclopedia, «St. Raymond of Peñafort» (exemplar consultum)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/12671c.htm).
+- [Catholic Encyclopedia, «Papal Decretals», collectio Gregorii IX (exemplar consultum)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/04670b.htm).
+$desc$),
+('saint-hilary-of-poitiers','en','Hilary of Poitiers was a fourth-century bishop and Doctor of the Church who defended the full divinity of Christ. Exile brought him into close contact with Eastern Christianity and strengthened his work for doctrinal clarity and ecclesial reconciliation.',$desc$## Conversion and episcopal ministry
+
+Hilary was born at Poitiers early in the fourth century, probably into a non-Christian family of standing. His education gave him a strong command of literary culture. According to the account preserved in the Catholic Encyclopedia, his search for truth brought him to the study of Scripture and then to baptism. The exact stages of his early life are not documented with the precision available for his later public activity.
+
+Around 350 he became bishop of Poitiers. He is the first bishop of the city for whom substantial historical information survives, although the local Christian community was older. His episcopal responsibilities soon placed him within the controversy commonly called Arian, concerning whether the Son is truly divine or belongs, however exaltedly, to the created order. These disputes involved differing theological formulations, episcopal alliances, and the interventions of emperors.
+
+## Exile and contact with the East
+
+Hilary opposed Saturninus of Arles and other bishops who resisted Nicene doctrine. At the council of Béziers in 356 he attempted to defend his position but was not given an effective hearing. Emperor Constantius II subsequently ordered his exile to Phrygia. Removal from his own church was intended to weaken his influence, but it gave him sustained contact with the theological debates and ecclesiastical divisions of the Greek-speaking East.
+
+During exile he studied, wrote, and continued to concern himself with the churches of Gaul. He did not assume that all opponents of a particular word necessarily denied the same truth. His work On the Synods examined Eastern creeds and attempted to explain their meanings to Western readers. This willingness to distinguish terminology from intention exposed him to criticism from some defenders of Nicaea who considered his approach too accommodating.
+
+## Theological work and mediation
+
+Hilary’s major theological achievement is the work known as De Trinitate, or On the Trinity. Its subject is the Christian confession of the Father and the Son, approached through Scripture and the reality of salvation. If Christ were merely a creature, Christian worship and the promise of union with God would be fundamentally altered. Hilary defended the Son’s true divinity while maintaining the distinction between Father and Son, rather than reducing them to different appearances of a single person.
+
+His concern for doctrinal precision did not exclude efforts at reconciliation. In 359 he attended the council of Seleucia and explained the faith of the Gallic bishops to Eastern participants. Some had suspected that Western theology confused the persons of the Trinity. Hilary worked to remove that misunderstanding while challenging teachings incompatible with the Son’s divine nature. The episode shows the importance of translation and mutual understanding in a dispute often presented as if all parties used identical terms.
+
+## Return and renewed opposition
+
+After further controversy at Constantinople, Hilary was permitted to return to Gaul around 360–361. His presence had proved troublesome to powerful opponents in the East. Back at Poitiers he resumed pastoral government and was associated with Martin, the future bishop of Tours. His return also enabled him to support efforts to restore Nicene teaching among bishops whose positions had been compromised under imperial pressure.
+
+Hilary later went to Italy, where he sought both reconciliation among Christians and a clear rejection of continuing doctrinal error. In Milan he challenged Bishop Auxentius, whom he regarded as an opponent of Nicene faith. Imperial support for Auxentius prevented Hilary from obtaining the outcome he desired, and he was ordered to leave. His career therefore included conspicuous reverses as well as lasting intellectual achievements; fidelity did not guarantee immediate success in ecclesiastical politics.
+
+## Final years and reception
+
+He returned to Poitiers and spent his final years there. His death is usually placed around 367, although older accounts differ over both the year and the day. This uncertainty should not be concealed by assigning the surviving narratives an exactness they do not possess. His writings, rather than a complete personal chronicle, are the strongest basis for understanding the theological importance of his life.
+
+Recognized as a Doctor of the Church by Pope Pius IX, Hilary became one of the principal Latin witnesses to the fourth-century defence of the Trinity. His example joins vigorous conviction to the effort to understand unfamiliar theological language fairly. In Catholic memory, his significance is not simply resistance to an emperor or a party, but service to the confession that Jesus Christ truly reveals and communicates the life of God.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. Hilary of Poitiers” (retrieved mirror)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/07349b.htm).
+$desc$),
+('saint-hilary-of-poitiers','fr','Hilaire de Poitiers fut un évêque du IVe siècle et docteur de l’Église qui défendit la pleine divinité du Christ. Son exil le rapprocha du christianisme oriental et fortifia son travail de clarification doctrinale et de réconciliation ecclésiale.',$desc$## Conversion et ministère épiscopal
+
+Hilaire naquit à Poitiers au début du IVe siècle, probablement dans une famille non chrétienne de condition aisée. Son éducation lui donna une solide maîtrise de la culture littéraire. Selon le récit conservé dans la Catholic Encyclopedia, sa recherche de la vérité le conduisit à l’étude de l’Écriture, puis au baptême. Les étapes précises de sa jeunesse ne sont pas documentées avec la même netteté que ses activités publiques ultérieures.
+
+Vers 350, il devint évêque de Poitiers. Il est le premier évêque de la ville pour lequel subsistent des informations historiques substantielles, bien que la communauté chrétienne locale soit plus ancienne. Ses responsabilités épiscopales le placèrent bientôt au cœur de la controverse dite arienne, qui portait sur la véritable divinité du Fils ou son appartenance, même très élevée, à l’ordre créé. Ces débats mêlaient formulations théologiques diverses, alliances épiscopales et interventions impériales.
+
+## Exil et rencontre de l’Orient
+
+Hilaire s’opposa à Saturnin d’Arles et à d’autres évêques hostiles à la doctrine nicéenne. Au concile de Béziers de 356, il tenta de défendre sa position sans pouvoir réellement se faire entendre. L’empereur Constance II ordonna ensuite son exil en Phrygie. Cet éloignement devait affaiblir son influence, mais il lui donna un contact prolongé avec les discussions théologiques et les divisions ecclésiastiques de l’Orient hellénophone.
+
+Pendant son exil, il étudia, écrivit et continua à se préoccuper des Églises de Gaule. Il ne supposait pas que tous les adversaires d’un mot particulier niaient nécessairement la même vérité. Son ouvrage Sur les synodes examina les symboles orientaux et chercha à en expliquer le sens aux lecteurs occidentaux. Cette volonté de distinguer vocabulaire et intention lui attira les critiques de certains défenseurs de Nicée, qui jugeaient sa démarche trop conciliante.
+
+## Œuvre théologique et médiation
+
+La principale réalisation théologique d’Hilaire est l’ouvrage De Trinitate, ou Sur la Trinité. Il traite de la confession chrétienne du Père et du Fils à partir de l’Écriture et de la réalité du salut. Si le Christ n’était qu’une créature, le culte chrétien et la promesse d’union avec Dieu seraient radicalement transformés. Hilaire défendit la véritable divinité du Fils tout en maintenant la distinction entre Père et Fils, sans les réduire aux apparences différentes d’une seule personne.
+
+Son souci de précision doctrinale n’excluait pas la recherche de réconciliation. En 359, il participa au concile de Séleucie et expliqua aux participants orientaux la foi des évêques gaulois. Certains soupçonnaient la théologie occidentale de confondre les personnes de la Trinité. Hilaire chercha à dissiper ce malentendu tout en combattant les enseignements incompatibles avec la nature divine du Fils. Cet épisode manifeste l’importance de la traduction et de la compréhension mutuelle dans une controverse souvent présentée comme si tous employaient les mêmes termes.
+
+## Retour et nouvelles oppositions
+
+Après de nouvelles controverses à Constantinople, Hilaire fut autorisé à retourner en Gaule vers 360–361. Sa présence s’était révélée gênante pour de puissants adversaires orientaux. Revenu à Poitiers, il reprit son gouvernement pastoral et entretint des liens avec Martin, futur évêque de Tours. Son retour lui permit également de soutenir les efforts de restauration de la doctrine nicéenne parmi les évêques compromis sous la pression impériale.
+
+Hilaire se rendit ensuite en Italie, où il rechercha simultanément la réconciliation entre chrétiens et le rejet clair des erreurs doctrinales persistantes. À Milan, il contesta l’évêque Auxence, qu’il considérait comme un adversaire de la foi nicéenne. Le soutien impérial à Auxence l’empêcha d’obtenir le résultat souhaité, et il reçut l’ordre de partir. Sa carrière comprit donc des revers manifestes et des réussites intellectuelles durables ; la fidélité ne garantissait pas un succès immédiat dans la politique ecclésiastique.
+
+## Dernières années et réception
+
+Il retourna à Poitiers et y passa ses dernières années. Sa mort est généralement placée vers 367, bien que les récits anciens divergent sur l’année comme sur le jour. Cette incertitude ne doit pas être masquée en prêtant aux récits conservés une précision qu’ils n’ont pas. Ses écrits, plutôt qu’une chronique personnelle complète, constituent la base la plus solide pour comprendre l’importance théologique de sa vie.
+
+Reconnu docteur de l’Église par le pape Pie IX, Hilaire devint l’un des principaux témoins latins de la défense de la Trinité au IVe siècle. Son exemple associe une conviction vigoureuse à l’effort de comprendre équitablement un langage théologique inhabituel. Dans la mémoire catholique, son importance ne tient pas simplement à la résistance à un empereur ou à un parti, mais au service de la confession selon laquelle Jésus-Christ révèle et communique véritablement la vie de Dieu.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. Hilary of Poitiers » (miroir consulté)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/07349b.htm).
+$desc$),
+('saint-hilary-of-poitiers','la','Hilarius Pictaviensis episcopus saeculi quarti et Ecclesiae doctor fuit, qui plenam Christi divinitatem defendit. Exsilium eum christianitati orientali arctius coniunxit atque opus eius ad doctrinam illustrandam et communionem ecclesialem reconciliandam corroboravit.',$desc$## Conversio et ministerium episcopale
+
+Hilarius Pictavii ineunte saeculo quarto natus est, probabiliter e familia nobili nondum christiana. Institutio eius solidam culturae litterariae cognitionem praebuit. Secundum narrationem in Catholic Encyclopedia servatam, quaestio veritatis eum ad Scripturam legendam deinde ad baptismum duxit. Gradus exacti primae vitae non eadem perspicuitate documentis comprobantur qua posterior actio publica.
+
+Circa annum 350 episcopus Pictaviensis factus est. Primus urbis episcopus est de quo ampla notitia historica superest, quamvis communitas christiana localis antiquior esset. Officia episcopalia mox eum intra controversiam vulgo Arianam positum habuerunt, utrum Filius vere divinus sit an, quantumvis excelsus, ad ordinem creatum pertineat. Hae disputationes formulas theologicas diversas, foedera episcoporum et interventus imperatorum complectebantur.
+
+## Exsilium et congressus cum Oriente
+
+Hilarius Saturnino Arelatensi aliisque episcopis doctrinae Nicaenae adversantibus restitit. In concilio Biterrensi anni 356 sententiam suam defendere conatus est, sed efficaciter audiri non potuit. Constantius II imperator eum deinde in Phrygiam relegavit. Remotio ab Ecclesia propria auctoritatem eius debilitare debebat, sed diuturnum congressum cum disputationibus theologicis et divisionibus ecclesiasticis Orientis Graeci praebuit.
+
+In exsilio studuit, scripsit et Ecclesiarum Galliae curam servavit. Non putabat omnes qui vocabulum aliquod recusabant eandem necessario veritatem negare. Opus De synodis symbola orientalia examinavit eorumque sensum lectoribus occidentalibus explanare conatum est. Haec voluntas vocabula ab intentione distinguendi reprehensionem quorundam defensorum Nicaenorum movit, qui rationem eius nimis indulgentem iudicabant.
+
+## Opus theologicum et mediatio
+
+Praecipuum opus theologicum Hilarii De Trinitate appellatur. Agit de confessione christiana Patris et Filii, per Scripturam et veritatem salutis considerata. Si Christus mera creatura esset, cultus christianus et promissio unionis cum Deo penitus mutarentur. Hilarius veram Filii divinitatem defendit distinctionem inter Patrem et Filium retinens, neque eos ad diversas unius personae apparentias redigens.
+
+Cura subtilitatis doctrinalis conatus reconciliationis non excludebat. Anno 359 concilio Seleuciensi interfuit et fidem episcoporum Galliae Orientalibus explanavit. Quidam theologiam occidentalem personas Trinitatis confundere suspicabantur. Hilarius hanc suspicionem removere laboravit, simul doctrinas naturae divinae Filii repugnantes impugnans. Res momentum interpretationis et mutuae intellegentiae ostendit in controversia saepe narrata quasi omnes eisdem vocabulis uterentur.
+
+## Reditus et renovata oppositio
+
+Post ulteriores controversias Constantinopoli, Hilario circa annos 360–361 in Galliam redire permissum est. Praesentia eius adversariis potentibus in Oriente molesta evaserat. Pictavii regimen pastorale resumpsit et cum Martino, futuro episcopo Turonensi, coniunctus fuit. Reditus etiam permisit ut conatus restituendae doctrinae Nicaenae inter episcopos sub pressione imperiali labefactatos sustineret.
+
+Hilarius postea Italiam petiit, ubi et reconciliationem christianorum et manifestam erroris doctrinalis persistentis reiectionem quaesivit. Mediolani Auxentium episcopum provocavit, quem adversarium fidei Nicaenae iudicabat. Favor imperialis erga Auxentium exitum desideratum impedivit, et Hilarius discedere iussus est. Vita eius igitur et clades manifestas et opera intellectualia duratura continuit; fidelitas successum statim in negotiis ecclesiasticis non praestabat.
+
+## Ultimi anni et receptio
+
+Pictavium rediit ibique ultimos annos egit. Mors eius plerumque circa annum 367 ponitur, quamvis narrationes antiquiores de anno et die dissentiant. Haec incertitudo non celanda est quasi narrationes servatae exactitudinem quam non habent possiderent. Scripta eius, potius quam integra chronica personalis, firmissimum fundamentum ad momentum theologicum vitae intellegendum praebent.
+
+A Pio IX papa Doctor Ecclesiae agnitus, Hilarius inter praecipuos testes Latinos defensionis Trinitatis saeculo quarto numeratus est. Exemplum eius firmam persuasionem cum studio aeque intellegendi sermonem theologicum insolitum coniungit. In memoria catholica non tantum ob resistentiam imperatori aut factioni gravis est, sed ob servitium confessioni qua Iesus Christus vere vitam Dei revelat et communicat.
+
+## Fontes
+
+- [Catholic Encyclopedia, «St. Hilary of Poitiers» (exemplar consultum)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/07349b.htm).
+$desc$),
+('saint-anthony-abbot','en','Anthony was an Egyptian ascetic whose life of prayer and spiritual guidance profoundly influenced Christian monasticism. Known chiefly through Athanasius’s Life, he became an exemplar of renunciation, discernment, and fidelity to Christ rather than the inventor of all monastic life.',$desc$## Sources and early life
+
+Anthony was born in Egypt around the middle of the third century, traditionally in 251, near Heracleopolis. His principal biography is the Life of Anthony attributed to Athanasius of Alexandria. Other early traditions survive in collections of sayings, in Cassian, and in Palladius. These sources are indispensable, but they belong to religious literature shaped to communicate a model of holiness, not to the genre of a modern documentary biography.
+
+According to the Life, Anthony inherited substantial property after his parents died. Hearing the Gospel invitation to sell possessions and follow Christ, he understood it as a personal summons. He disposed of his property, provided for his younger sister, and committed himself to ascetic life. The narrative presents this decision as a response to Scripture within the Church, not as the discovery of a spiritual technique independent of Christian faith.
+
+## Learning the ascetic life
+
+Anthony first learned from ascetics already living near Egyptian towns and villages. Christian practices of continence, fasting, prayer, and self-denial therefore preceded him. He observed different teachers and tried to learn the particular virtues evident in each. His later importance should not obscure this apprenticeship or turn him into the sole originator of a movement that had several roots.
+
+He gradually withdrew into greater solitude, first near his village and then to an abandoned fort beyond the Nile. The Life describes prolonged struggles with temptation and demons, sometimes expressed through dramatic bodily encounters. These passages reveal the spiritual interpretation of his life offered by the biographer. Their detailed supernatural imagery should be identified as hagiographical testimony, rather than treated as independently established observations.
+
+## Solitude and spiritual fatherhood
+
+After years of seclusion, Anthony emerged to guide the ascetics who had gathered nearby. Around the beginning of the fourth century, communities of disciples looked to him for instruction. His authority arose from experience and spiritual judgment rather than from a programme of institutional expansion. He encouraged perseverance, freedom from attachment to possessions, and confidence in Christ during temptation.
+
+He later moved farther into the desert between the Nile and the Red Sea, while continuing to receive visitors and to assist disciples. Solitude was not an absolute refusal of human relationship. The early accounts portray him as capable of counsel, hospitality, and practical concern. The designation “father of monks” expresses his formative influence, not the claim that every monastery derived from a single organization founded by him.
+
+## Relationship with the Church
+
+The Life connects Anthony closely with the wider Church. It describes his presence in Alexandria during persecution, supporting Christians who faced imprisonment and death, and a later visit in opposition to Arian teaching. His ascetic witness is therefore not presented as a rejection of bishops, sacraments, or the common faith. Withdrawal into the desert remained a vocation within Christian communion.
+
+Athanasius’s portrait also emphasizes discernment. The ascetic should not measure holiness by frightening experiences, visions, or spectacular feats. Perseverance in virtue, sobriety, and trust in Christ are more fundamental. Anthony’s struggle is represented as participation in Christ’s victory rather than a contest between equal divine and demonic powers. In Catholic understanding, spiritual combat does not diminish God’s sovereignty or make the devil a rival creator.
+
+## Death and the transmission of his teaching
+
+Anthony’s death is traditionally placed in 356, at the age of about 105. This chronology depends largely on the figures transmitted in the Life. The same source relates that he asked two disciples to keep his burial place secret. The care taken over his death and burial belongs to the broader portrait of someone resisting possession, prestige, and the temptation to turn personal reputation into spiritual authority.
+
+The attribution of writings to Anthony requires discrimination. Ancient witnesses knew letters associated with him, and portions survive in different languages, but not everything later circulated under his name is authentic. Likewise, a monastic rule bearing his name should not automatically be treated as a document he personally composed. His teaching was transmitted through remembered sayings, literary accounts, translations, and the practices of communities that regarded him as a father.
+
+The rapid circulation of his Life carried the Egyptian ascetic example well beyond its original setting and helped shape Christian ideas of renunciation in both East and West. His enduring significance lies in the combination of radical dedication to God and responsibility for those who sought guidance. The desert, in this tradition, was a place for learning freedom from domination by possessions and passions, so that prayer and love could become more complete.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. Anthony,” including its discussion of the early sources (retrieved mirror)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/01553d.htm).
+$desc$),
+('saint-anthony-abbot','fr','Antoine fut un ascète égyptien dont la prière et la direction spirituelle influencèrent profondément le monachisme chrétien. Connu principalement par la Vie d’Athanase, il devint un modèle de renoncement, de discernement et de fidélité au Christ, sans être l’inventeur de toute vie monastique.',$desc$## Sources et jeunesse
+
+Antoine naquit en Égypte vers le milieu du IIIe siècle, traditionnellement en 251, près d’Héracléopolis. Sa principale biographie est la Vie d’Antoine attribuée à Athanase d’Alexandrie. D’autres traditions anciennes subsistent dans les collections de sentences, chez Cassien et chez Pallade. Indispensables, ces sources appartiennent toutefois à une littérature religieuse destinée à transmettre un modèle de sainteté, non au genre de la biographie documentaire moderne.
+
+Selon la Vie, Antoine hérita de biens importants après la mort de ses parents. Entendant l’invitation évangélique à vendre ses possessions et à suivre le Christ, il y reconnut un appel personnel. Il se défit de ses biens, pourvut aux besoins de sa jeune sœur et s’engagea dans la vie ascétique. Le récit présente cette décision comme une réponse à l’Écriture au sein de l’Église, et non comme la découverte d’une technique spirituelle indépendante de la foi chrétienne.
+
+## Apprentissage de la vie ascétique
+
+Antoine apprit d’abord auprès d’ascètes vivant déjà près des villes et villages égyptiens. Les pratiques chrétiennes de continence, de jeûne, de prière et de renoncement existaient donc avant lui. Il observait différents maîtres et cherchait à apprendre les vertus particulières manifestées par chacun. Son importance ultérieure ne doit ni effacer cet apprentissage ni faire de lui l’unique origine d’un mouvement aux racines multiples.
+
+Il se retira progressivement dans une solitude plus grande, d’abord près de son village, puis dans un fort abandonné au-delà du Nil. La Vie décrit de longs combats contre les tentations et les démons, parfois exprimés par des affrontements corporels dramatiques. Ces passages révèlent l’interprétation spirituelle proposée par le biographe. Leurs images surnaturelles détaillées doivent être reconnues comme un témoignage hagiographique, et non traitées comme des observations établies indépendamment.
+
+## Solitude et paternité spirituelle
+
+Après des années de retrait, Antoine sortit pour guider les ascètes rassemblés à proximité. Vers le début du IVe siècle, des communautés de disciples attendaient son enseignement. Son autorité venait de l’expérience et du jugement spirituel plutôt que d’un programme d’expansion institutionnelle. Il encourageait la persévérance, le détachement des biens et la confiance dans le Christ pendant la tentation.
+
+Il s’installa ensuite plus loin dans le désert entre le Nil et la mer Rouge, tout en continuant à recevoir des visiteurs et à aider ses disciples. La solitude n’était pas un refus absolu des relations humaines. Les récits anciens le montrent capable de conseil, d’hospitalité et de sollicitude pratique. Le titre de « père des moines » exprime son influence formatrice, et non l’idée que chaque monastère proviendrait d’une organisation unique fondée par lui.
+
+## Relations avec l’Église
+
+La Vie relie étroitement Antoine à l’ensemble de l’Église. Elle décrit sa présence à Alexandrie pendant la persécution, pour soutenir les chrétiens exposés à la prison et à la mort, ainsi qu’une visite ultérieure contre l’enseignement arien. Son témoignage ascétique ne se présente donc pas comme un rejet des évêques, des sacrements ou de la foi commune. Le retrait au désert demeurait une vocation dans la communion chrétienne.
+
+Le portrait d’Athanase insiste aussi sur le discernement. L’ascète ne doit pas mesurer la sainteté aux expériences effrayantes, aux visions ou aux exploits spectaculaires. La persévérance dans la vertu, la sobriété et la confiance dans le Christ sont plus fondamentales. Le combat d’Antoine est représenté comme une participation à la victoire du Christ, et non comme un affrontement de puissances divines et démoniaques égales. Dans la compréhension catholique, le combat spirituel ne diminue pas la souveraineté de Dieu et ne fait pas du diable un créateur rival.
+
+## Mort et transmission de son enseignement
+
+La mort d’Antoine est traditionnellement placée en 356, vers l’âge de 105 ans. Cette chronologie dépend largement des chiffres transmis par la Vie. La même source raconte qu’il demanda à deux disciples de garder secret le lieu de sa sépulture. Le soin de sa mort et de son ensevelissement appartient au portrait plus large d’un homme résistant à la possession, au prestige et à la tentation de transformer sa réputation personnelle en autorité spirituelle.
+
+L’attribution d’écrits à Antoine demande du discernement. Des témoins anciens connaissaient des lettres associées à lui, dont certaines parties subsistent en diverses langues, mais tout ce qui circula ensuite sous son nom n’est pas authentique. De même, une règle monastique portant son nom ne doit pas être automatiquement considérée comme un document composé personnellement par lui. Son enseignement fut transmis par des sentences mémorisées, des récits littéraires, des traductions et les pratiques de communautés qui le regardaient comme un père.
+
+La diffusion rapide de sa Vie porta l’exemple ascétique égyptien bien au-delà de son cadre initial et contribua à former les conceptions chrétiennes du renoncement en Orient et en Occident. Son importance durable tient à l’association d’un don radical à Dieu et d’une responsabilité envers ceux qui recherchaient une direction. Dans cette tradition, le désert était un lieu d’apprentissage de la liberté à l’égard des biens et des passions, afin que la prière et l’amour deviennent plus complets.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. Anthony », avec son examen des sources anciennes (miroir consulté)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/01553d.htm).
+$desc$),
+('saint-anthony-abbot','la','Antonius asceta Aegyptius fuit, cuius vita precationis et moderatio spiritualis monachismum christianum penitus informaverunt. Praesertim per Vitam Athanasii notus, exemplar renuntiationis, discretionis et fidelitatis Christo factus est, non inventor totius vitae monasticae.',$desc$## Fontes et prima aetas
+
+Antonius in Aegypto circa medium saeculum tertium natus est, secundum traditionem anno 251, prope Heracleopolim. Praecipua biographia est Vita Antonii Athanasio Alexandrino attributa. Aliae traditiones antiquae in collectionibus dictorum, apud Cassianum et Palladium servantur. Hi fontes necessarii sunt, sed ad litteras religiosas exemplar sanctitatis communicantes pertinent, non ad genus biographiae documentalis recentioris.
+
+Secundum Vitam, Antonius post mortem parentum ampla bona hereditate accepit. Invitationem evangelicam ad possessiones vendendas et Christum sequendum audiens, eam ut vocationem personalem intellexit. Bona disposuit, sorori iuniori providit et vitae asceticae se dedit. Narratio hoc consilium ut responsum Scripturae intra Ecclesiam proponit, non ut inventionem artis spiritualis a fide christiana independentis.
+
+## Disciplina vitae asceticae
+
+Antonius primum ab ascetis didicit qui iam prope oppida et vicos Aegyptios vivebant. Usus christiani continentiae, ieiunii, precationis et abnegationis eum igitur praecesserant. Diversos magistros observabat et virtutes singulares in unoquoque manifestas discere conabatur. Momentum eius posterius hoc tirocinium obscurare non debet neque eum unicum auctorem motus pluribus radicibus orti facere.
+
+Paulatim in maiorem solitudinem secessit, primum prope vicum suum, deinde in castellum desertum trans Nilum. Vita longa certamina cum tentationibus et daemonibus describit, interdum per congressus corporeos vehementes expressa. Haec loca interpretationem spiritualem vitae a biographo propositam revelant. Imagines supernaturales particulares ut testimonium hagiographicum agnoscendae sunt, non quasi observationes independenter comprobatae tractandae.
+
+## Solitudo et paternitas spiritualis
+
+Post annos secessus Antonius exiit ut ascetas prope congregatos regeret. Circa initium saeculi quarti communitates discipulorum instructionem eius quaerebant. Auctoritas ex experientia et iudicio spirituali, non ex consilio expansionis institutionalis, oriebatur. Perseverantiam, libertatem ab affectu possessionum et fiduciam in Christo tempore tentationis commendabat.
+
+Postea longius in desertum inter Nilum et Mare Rubrum migravit, visitatores tamen recipiens et discipulos adiuvans. Solitudo non erat absoluta recusatio necessitudinum humanarum. Narrationes antiquae eum consilii, hospitalitatis et curae practicae capacem ostendunt. Nomen «patris monachorum» auctoritatem eius formatricem exprimit, non sententiam omne monasterium ab una institutione ab eo fundata ortum esse.
+
+## Necessitudo cum Ecclesia
+
+Vita Antonium cum universa Ecclesia arcte coniungit. Praesentiam eius Alexandriae tempore persecutionis describit, ad christianos carceri et morti expositos confirmandos, atque visitationem posteriorem contra doctrinam Arianam. Testimonium asceticum igitur non ut reiectio episcoporum, sacramentorum aut fidei communis proponitur. Secessus in desertum vocatio intra communionem christianam manebat.
+
+Imago Athanasii discretionem quoque inculcat. Asceta sanctitatem experientiis terribilibus, visionibus aut factis spectaculo dignis metiri non debet. Perseverantia in virtute, sobrietas et fiducia in Christo fundamentaliora sunt. Certamen Antonii ut participatio victoriae Christi exprimitur, non ut pugna potestatum divinarum et daemonicarum aequalium. Secundum intellectum catholicum, certamen spirituale supremam Dei potestatem non minuit neque diabolum creatorem aemulum facit.
+
+## Mors et doctrinae transmissio
+
+Mors Antonii tradita anno 356 ponitur, aetate circiter centum quinque annorum. Chronologia magna ex parte a numeris in Vita transmissis pendet. Idem fons narrat eum duobus discipulis mandavisse ut locum sepulturae secretum servarent. Cura mortis et sepulturae ad ampliorem imaginem eius pertinet qui possessioni, honori et tentationi famam personalem in auctoritatem spiritualem convertendi resistit.
+
+Attributio scriptorum Antonio discretionem requirit. Testes antiqui epistulas ei coniunctas noverant, quarum partes diversis linguis supersunt; non tamen omnia postea sub eius nomine tradita authentica sunt. Similiter regula monastica eius nomen ferens non statim documentum ab ipso compositum habenda est. Doctrina eius per dicta memoria servata, narrationes litterarias, versiones et usus communitatum eum patrem habentium transmissa est.
+
+Celer diffusio Vitae exemplum asceticum Aegyptium longe ultra locum originis tulit et notiones christianas renuntiationis in Oriente et Occidente formavit. Momentum eius perenne in coniunctione plenae dedicationis Deo et officii erga eos qui directionem quaerebant consistit. Desertum in hac traditione locus erat discendae libertatis a dominatione possessionum et passionum, ut precatio et amor pleniores fierent.
+
+## Fontes
+
+- [Catholic Encyclopedia, «St. Anthony», cum examine fontium antiquorum (exemplar consultum)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/01553d.htm).
+$desc$)
+) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
+WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
+UPDATE saint_translations AS st
+SET short_description=x.short_description, full_biography=x.full_biography
+FROM saints s JOIN (VALUES
+('saint-fabian-pope','en','Fabian governed the Church of Rome from 236 to 250 and died during the persecution of Decius. Early testimony and his surviving funerary inscription establish his importance as bishop and martyr, while details of his administration depend on later sources.',$desc$## Election and episcopate
+
+Fabian became bishop of Rome in 236, succeeding Anterus. The early historian Eusebius recounts that he had come to the city from the countryside and was not among the prominent candidates being considered. During the gathering, a dove reportedly settled upon his head, and the assembly interpreted the event as a sign directing the election. This is an ancient narrative of providential choice, not independently verifiable evidence of the precise proceedings.
+
+His episcopate lasted about fourteen years, much of it during a period of relative respite from persecution. The interval allowed the Roman Church to develop its administration and charitable responsibilities. Nevertheless, the surviving evidence does not permit a detailed year-by-year account of his government or a reliable reconstruction of his childhood. Precise claims about his birth should therefore be treated cautiously.
+
+## Ministry and surviving evidence
+
+The Liber Pontificalis credits Fabian with dividing Rome into seven districts supervised by deacons and appointing subdeacons to assist in preserving accounts of martyrdom. It also associates his pontificate with work in the cemeteries and the return of Pope Pontian’s remains from Sardinia. These traditions help explain his later reputation as an organizer, but the later compilation must be distinguished from contemporary documentation.
+
+Evidence reported by Cyprian and Eusebius places Fabian within the wider network of Christian churches. Cyprian refers to his condemnation of Privatus, an African bishop, while Eusebius records that Origen addressed a defence of his teaching to him. These notices suggest that the Roman episcopate already received appeals and doctrinal communications extending beyond the city itself. Letters later attributed to Fabian in the Pseudo-Isidorian collection are not authentic writings of his pontificate.
+
+## Martyrdom and memory
+
+Fabian died on 20 January 250 at the beginning of the persecution under Emperor Decius. The circumstances of his final suffering are not preserved in a dependable detailed narrative. He was buried in the papal crypt of the cemetery of Callistus. His Greek funerary inscription, rediscovered in the nineteenth century, identifies him as bishop and martyr and provides an important material witness alongside the literary tradition.
+
+His significance rests on this union of pastoral office and fidelity under persecution. The Church honours him as a martyr because of his witness to Christ, not because every later story about his administration has equal historical authority. His commemoration preserves the memory of a Roman Christian community organized for service and tested by renewed imperial coercion.
+
+## Sources
+
+- [Catholic Encyclopedia, “Pope St. Fabian” (retrieved mirror)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/05742d.htm).
+$desc$),
+('saint-fabian-pope','fr','Fabien gouverna l’Église de Rome de 236 à 250 et mourut pendant la persécution de Dèce. Les témoignages anciens et son inscription funéraire attestent son importance comme évêque et martyr, tandis que les détails de son administration dépendent de sources postérieures.',$desc$## Élection et épiscopat
+
+Fabien devint évêque de Rome en 236, succédant à Antère. L’historien ancien Eusèbe raconte qu’il était venu de la campagne et ne figurait pas parmi les candidats éminents envisagés. Pendant l’assemblée, une colombe se serait posée sur sa tête, événement interprété comme un signe guidant l’élection. Il s’agit d’un récit ancien de choix providentiel, non d’une preuve indépendamment vérifiable du déroulement précis des faits.
+
+Son épiscopat dura environ quatorze ans, en grande partie durant une période d’accalmie relative des persécutions. Cet intervalle permit à l’Église romaine de développer son administration et ses responsabilités charitables. Cependant, les sources conservées ne permettent ni un récit annuel détaillé de son gouvernement ni une reconstitution fiable de son enfance. Les affirmations précises sur sa naissance doivent donc être considérées avec prudence.
+
+## Ministère et témoignages conservés
+
+Le Liber Pontificalis attribue à Fabien la division de Rome en sept quartiers confiés à des diacres et la nomination de sous-diacres chargés d’aider à conserver les récits de martyre. Il associe aussi son pontificat à des travaux dans les cimetières et au retour de Sardaigne des restes du pape Pontien. Ces traditions éclairent sa réputation ultérieure d’organisateur, mais cette compilation tardive doit être distinguée des documents contemporains.
+
+Les témoignages rapportés par Cyprien et Eusèbe placent Fabien dans le réseau plus large des Églises chrétiennes. Cyprien évoque sa condamnation de Privatus, évêque africain, tandis qu’Eusèbe rapporte qu’Origène lui adressa une défense de son enseignement. Ces notices suggèrent que l’épiscopat romain recevait déjà des recours et des communications doctrinales au-delà de la ville. Les lettres attribuées ensuite à Fabien dans la collection pseudo-isidorienne ne sont pas des écrits authentiques de son pontificat.
+
+## Martyre et mémoire
+
+Fabien mourut le 20 janvier 250, au début de la persécution de l’empereur Dèce. Les circonstances de ses dernières souffrances ne subsistent pas dans un récit détaillé digne de confiance. Il fut enseveli dans la crypte des papes du cimetière de Calliste. Son inscription funéraire grecque, redécouverte au XIXe siècle, le désigne comme évêque et martyr et constitue un important témoignage matériel aux côtés de la tradition littéraire.
+
+Son importance repose sur cette union de la charge pastorale et de la fidélité sous la persécution. L’Église l’honore comme martyr pour son témoignage au Christ, non parce que tous les récits ultérieurs de son administration posséderaient la même autorité historique. Sa commémoration conserve la mémoire d’une communauté chrétienne romaine organisée pour servir et éprouvée par la reprise de la coercition impériale.
+
+## Sources
+
+- [Catholic Encyclopedia, « Pope St. Fabian » (miroir consulté)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/05742d.htm).
+$desc$),
+('saint-fabian-pope','la','Fabianus Ecclesiam Romanam ab anno 236 ad annum 250 rexit atque in persecutione Decii mortuus est. Testimonia antiqua et inscriptio sepulcralis momentum eius ut episcopi et martyris confirmant, dum singula administrationis ex fontibus posterioribus pendent.',$desc$## Electio et episcopatus
+
+Fabianus anno 236 episcopus Romanus factus est, Antero succedens. Eusebius historicus antiquus narrat eum ex agris in urbem venisse neque inter candidatos insignes consideratos fuisse. In conventu columba capiti eius insedisse fertur, quod congregati signum electionem dirigens interpretati sunt. Haec est narratio antiqua electionis providentialis, non testimonium singulorum actorum independenter probabile.
+
+Episcopatus eius circiter quattuordecim annos duravit, magna ex parte tempore relativae cessationis persecutionum. Hoc intervallum Ecclesiae Romanae administrationem et officia caritatis augere permisit. Fontes tamen servati neque narrationem annuam exactam regiminis neque certam pueritiae reconstructionem sinunt. Affirmationes igitur exactae de eius nativitate caute accipiendae sunt.
+
+## Ministerium et testimonia servata
+
+Liber Pontificalis Fabiano tribuit divisionem Romae in septem regiones diaconis commissas et nominationem subdiaconorum ad narrationes martyrii servandas adiuvantes. Pontificatum eius etiam cum operibus in coemeteriis et reditu reliquiarum Pontiani papae e Sardinia coniungit. Hae traditiones famam posteriorem ordinatoris explicant, sed compilatio posterior a documentis coaetaneis distinguenda est.
+
+Testimonia a Cypriano et Eusebio relata Fabianum intra ampliorem nexum Ecclesiarum christianarum collocant. Cyprianus condemnationem Privati episcopi Africani commemorat, dum Eusebius Origenem defensionem doctrinae suae ad eum misisse refert. Hae notitiae episcopatum Romanum iam appellationes et communicationes doctrinales ultra urbem recipere suadent. Epistulae postea Fabiano in collectione Pseudo-Isidoriana attributae non sunt authentica scripta pontificatus eius.
+
+## Martyrium et memoria
+
+Fabianus die 20 Ianuarii 250 mortuus est, ineunte persecutione Decii imperatoris. Adiuncta ultimae passionis in narratione particulari fideli non servantur. In crypta pontificum coemeterii Callisti sepultus est. Inscriptio sepulcralis Graeca, saeculo undevicesimo reperta, eum episcopum et martyrem nominat atque grave testimonium materiale iuxta traditionem litterariam praebet.
+
+Momentum eius in hac coniunctione officii pastoralis et fidelitatis sub persecutione consistit. Ecclesia eum martyrem honorat ob testimonium Christo datum, non quia omnes narrationes posteriores administrationis parem auctoritatem historicam habeant. Commemoratio eius memoriam communitatis christianae Romanae ad servitium ordinatae et renovata coercitione imperiali probatae servat.
+
+## Fontes
+
+- [Catholic Encyclopedia, «Pope St. Fabian» (exemplar consultum)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/05742d.htm).
+$desc$),
+('saint-sebastian','en','Sebastian was a Roman martyr whose burial on the Appian Way and early veneration are securely attested. The familiar account of his military service, survival after execution, and final death belongs to a later martyrdom narrative rather than contemporary documentation.',$desc$## The earliest evidence
+
+Sebastian is among the martyrs whose Roman commemoration is recorded in the fourth-century Depositio martyrum, preserved in the Chronography of 354. The notice associates his burial with the Appian Way. This early liturgical evidence provides a firmer historical foundation than the much fuller narrative written about him later. It establishes a recognized martyr and a place of remembrance, but supplies little personal biography.
+
+Ambrose of Milan also refers to Sebastian and associates him with Milan, where he was already venerated in the fourth century. This testimony helps establish the early geographical reach of his memory. It does not provide a dependable birth year, family history, or detailed military career. These limits explain why a responsible account of Sebastian must remain shorter than biographies of saints who left letters or extensive contemporary records.
+
+## The later martyrdom narrative
+
+The developed Acts, probably composed in the early fifth century and once incorrectly attributed to Ambrose, describe Sebastian as an officer in the imperial bodyguard who secretly assisted Christians. According to this account, his faith was discovered, he was condemned to be shot, and Irene cared for him after he survived. He then confronted imperial authority again and was finally beaten to death.
+
+This sequence became central to the later devotional story, but it is not a contemporary trial record. The Catholic Encyclopedia explicitly distinguishes the secure fact of martyrdom from the unhistorical elaborations of the Acts. The familiar details should therefore be introduced as elements of the received narrative, not presented as independently verified episodes. Even the precise emperor and date cannot be established simply by repeating the later story.
+
+## Commemoration and significance
+
+A church developed at the burial place on the Appian Way, and the site became one of Rome’s enduring places of Christian pilgrimage. The movement of relics and the spread of liturgical commemoration extended Sebastian’s memory beyond Italy. Such evidence documents the history of his veneration more securely than it reconstructs the circumstances of his life.
+
+The Church remembers him above all as a witness to Christ under persecution. Distinguishing that ancient memory from later narrative expansion does not deny his martyrdom; it respects the kinds of evidence that survive. His biography is consequently centred on the early testimony, the growth of the martyrdom tradition, and the continuing remembrance of a Christian whose detailed personal history is largely lost.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. Sebastian” (retrieved mirror)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/13668a.htm).
+$desc$),
+('saint-sebastian','fr','Sébastien fut un martyr romain dont la sépulture sur la voie Appienne et la vénération ancienne sont bien attestées. Le récit familier de son service militaire, de sa survie après l’exécution et de sa mort finale appartient à une passion postérieure.',$desc$## Les premiers témoignages
+
+Sébastien figure parmi les martyrs dont la commémoration romaine est mentionnée dans la Depositio martyrum du IVe siècle, conservée dans la Chronographie de 354. La notice situe sa sépulture sur la voie Appienne. Ce témoignage liturgique ancien offre un fondement historique plus solide que le récit beaucoup plus développé écrit ensuite. Il atteste un martyr reconnu et un lieu de mémoire, mais fournit peu de renseignements personnels.
+
+Ambroise de Milan évoque également Sébastien et le rattache à Milan, où il était déjà vénéré au IVe siècle. Ce témoignage aide à établir l’extension géographique précoce de sa mémoire. Il ne donne pas d’année de naissance fiable, d’histoire familiale ni de carrière militaire détaillée. Ces limites expliquent pourquoi un récit responsable sur Sébastien doit rester plus bref que les biographies de saints ayant laissé des lettres ou de nombreux documents contemporains.
+
+## Le récit postérieur du martyre
+
+Les Actes développés, probablement composés au début du Ve siècle et autrefois attribués à tort à Ambroise, présentent Sébastien comme un officier de la garde impériale secourant secrètement les chrétiens. Selon ce récit, sa foi fut découverte, il fut condamné à être percé de flèches, et Irène le soigna après sa survie. Il affronta ensuite de nouveau l’autorité impériale et fut finalement battu à mort.
+
+Cette succession d’événements devint centrale dans le récit dévotionnel ultérieur, mais ne constitue pas un procès-verbal contemporain. La Catholic Encyclopedia distingue explicitement le fait assuré du martyre des développements non historiques des Actes. Les détails familiers doivent donc être introduits comme éléments du récit reçu, non comme des épisodes vérifiés indépendamment. Même l’empereur concerné et la date exacte ne peuvent être établis par la seule répétition de ce récit tardif.
+
+## Commémoration et importance
+
+Une église se développa sur le lieu de sépulture de la voie Appienne, et le site devint un lieu durable de pèlerinage chrétien à Rome. Les déplacements de reliques et la diffusion de la commémoration liturgique étendirent la mémoire de Sébastien au-delà de l’Italie. Ces témoignages documentent plus sûrement l’histoire de sa vénération qu’ils ne reconstituent les circonstances de sa vie.
+
+L’Église se souvient de lui avant tout comme d’un témoin du Christ sous la persécution. Distinguer cette mémoire ancienne des développements narratifs ultérieurs ne nie pas son martyre ; cela respecte la nature des sources conservées. Sa biographie se concentre donc sur les premiers témoignages, le développement de la tradition de sa passion et la mémoire persistante d’un chrétien dont l’histoire personnelle détaillée est largement perdue.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. Sebastian » (miroir consulté)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/13668a.htm).
+$desc$),
+('saint-sebastian','la','Sebastianus martyr Romanus fuit, cuius sepultura via Appia et cultus antiquus firmis testimoniis confirmantur. Narratio nota militiae, salutis post supplicium et mortis ultimae ad passionem posteriorem pertinet, non ad documenta coaetanea eius vitae.',$desc$## Prima testimonia
+
+Sebastianus inter martyres est quorum commemoratio Romana in Depositione martyrum saeculi quarti, in Chronographia anni 354 servata, memoratur. Notitia sepulturam eius viae Appiae coniungit. Hoc testimonium liturgicum antiquum fundamentum historicum firmius praebet quam narratio multo plenior postea conscripta. Martyrem agnitum et locum memoriae confirmat, sed pauca de vita personali suppeditat.
+
+Ambrosius Mediolanensis quoque Sebastianum commemorat eumque Mediolano coniungit, ubi iam saeculo quarto colebatur. Hoc testimonium diffusionem geographicam antiquam memoriae eius comprobare adiuvat. Annum natalem certum, historiam familiae aut curriculum militare distinctum non praebet. Hi limites explicant cur narratio fidelis de Sebastiano brevior esse debeat quam vitae sanctorum qui epistulas aut ampla documenta coaetanea reliquerunt.
+
+## Narratio posterior martyrii
+
+Acta ampliora, probabiliter ineunte saeculo quinto composita et olim falso Ambrosio attributa, Sebastianum praefectum in custodia imperiali describunt, qui christianos occulte adiuvabat. Secundum hanc narrationem, fide eius detecta, sagittis confodi damnatus est, et Irene eum superstitem curavit. Deinde auctoritatem imperialem iterum provocavit et tandem verberibus occisus est.
+
+Haec series eventuum in narratione pietatis posteriori praecipua facta est, sed acta iudicii coaetanea non constituit. Catholic Encyclopedia factum certum martyrii ab amplificationibus Actorum non historicis expresse distinguit. Singula nota igitur ut partes narrationis receptae proponenda sunt, non ut eventus independenter comprobati. Etiam imperator et dies exactus ex sola repetitione narrationis posterioris statui nequeunt.
+
+## Commemoratio et momentum
+
+Ecclesia ad sepulcrum via Appia crevit, et locus inter sedes peregrinationis christianae Romae duraturas factus est. Translatio reliquiarum et diffusio commemorationis liturgicae memoriam Sebastiani ultra Italiam extenderunt. Haec testimonia historiam cultus certius documentant quam adiuncta vitae reconstruunt.
+
+Ecclesia eum ante omnia testem Christi sub persecutione memorat. Hanc memoriam antiquam ab amplificatione narrativa posteriori distinguere martyrium non negat, sed rationes testimoniorum servatorum observat. Biographia eius igitur prima testimonia, incrementum traditionis passionis et memoriam perennem christiani complectitur cuius historia personalis distincta magna ex parte periit.
+
+## Fontes
+
+- [Catholic Encyclopedia, «St. Sebastian» (exemplar consultum)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/13668a.htm).
+$desc$),
+('saint-agnes-of-rome','en','Agnes was a young Roman Christian honoured as a virgin and martyr from the fourth century onward. Early writers agree on her youth and fidelity, but differ over the circumstances of her death, which later narratives expanded considerably.',$desc$## A firmly established ancient memory
+
+Agnes belongs to the best-attested early traditions of Roman martyr veneration. The Depositio martyrum, preserved in the Chronography of 354, records her commemoration on 21 January and associates her grave with the Via Nomentana. The notice is brief, but it establishes that her memory and burial place were recognized long before the elaborate later accounts of her life.
+
+By the late fourth century she was celebrated by Ambrose, Pope Damasus, and Christian poets. Their testimony agrees especially on her extraordinary youth. Ambrose gives an age of about twelve, while Augustine speaks of thirteen. These figures should not be forced into a precise modern chronology, but their agreement in portraying a very young martyr is important. The exact year of her death remains uncertain, despite the traditional association with the early fourth-century persecutions.
+
+## The testimony and its differences
+
+Ambrose presents Agnes as steadfast in faith and virginity and describes execution by the sword. Damasus’s commemorative poem uses different details, including the threat or suffering of fire and concern for her exposed body. Prudentius develops the account further, introducing a threat to her chastity and miraculous protection. The variation shows that no single complete, contemporary account of the proceedings was available to all these writers.
+
+Later passions elaborated the narrative with speeches, named participants, and additional wonders. These texts shaped devotion but cannot automatically supply missing historical facts. The secure core is the ancient remembrance of a young Christian who suffered death and was honoured for fidelity to Christ. An encyclopedic account should retain that core without pretending that every dramatic episode is equally established.
+
+## Virginity, martyrdom, and Christian dignity
+
+In Catholic tradition Agnes’s virginity signifies a freely given dedication to Christ, while her martyrdom signifies fidelity under coercion. The two belong together in the early reception of her story. They do not imply that people subjected to sexual violence lose their dignity or bear guilt for violence committed against them. The wrong belongs to the aggressor; holiness cannot be reduced to physical circumstances imposed by force.
+
+Her enduring place in Roman Christian memory rests on the contrast between youth and courage, not on the glorification of suffering for its own sake. Her burial site became a centre of worship, and her commemoration continued through changing historical circumstances. The surviving evidence supports an account of profound early veneration while also requiring restraint about family details, precise dates, and the sequence of her final ordeal.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. Agnes of Rome,” discussion of the earliest witnesses (retrieved mirror)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/01214a.htm).
+$desc$),
+('saint-agnes-of-rome','fr','Agnès fut une jeune chrétienne romaine honorée comme vierge et martyre dès le IVe siècle. Les premiers auteurs s’accordent sur sa jeunesse et sa fidélité, mais divergent sur les circonstances de sa mort, considérablement développées dans les récits ultérieurs.',$desc$## Une mémoire ancienne solidement attestée
+
+Agnès appartient aux traditions les mieux attestées de la vénération des martyrs romains. La Depositio martyrum, conservée dans la Chronographie de 354, mentionne sa commémoration le 21 janvier et situe sa tombe sur la voie Nomentane. Cette brève notice établit que sa mémoire et sa sépulture étaient reconnues bien avant les récits ultérieurs élaborés de sa vie.
+
+À la fin du IVe siècle, elle était célébrée par Ambroise, le pape Damase et les poètes chrétiens. Leurs témoignages s’accordent surtout sur son extrême jeunesse. Ambroise lui donne environ douze ans, tandis qu’Augustin parle de treize ans. Ces chiffres ne doivent pas être forcés dans une chronologie moderne précise, mais leur accord sur une martyre très jeune est important. L’année exacte de sa mort demeure incertaine, malgré le rapprochement traditionnel avec les persécutions du début du IVe siècle.
+
+## Les témoignages et leurs différences
+
+Ambroise présente Agnès comme ferme dans la foi et la virginité et décrit une exécution par le glaive. Le poème commémoratif de Damase emploie d’autres détails, notamment la menace ou le supplice du feu et le souci de son corps exposé. Prudence développe encore le récit en introduisant une menace contre sa chasteté et une protection miraculeuse. Ces variations montrent qu’aucun récit contemporain complet et unique des événements n’était accessible à tous ces auteurs.
+
+Les passions ultérieures enrichirent la narration de discours, de personnages nommés et de prodiges supplémentaires. Ces textes ont formé la dévotion, mais ne fournissent pas automatiquement les faits historiques manquants. Le noyau assuré reste le souvenir ancien d’une jeune chrétienne mise à mort et honorée pour sa fidélité au Christ. Un récit encyclopédique doit conserver ce noyau sans prétendre que tous les épisodes dramatiques sont également établis.
+
+## Virginité, martyre et dignité chrétienne
+
+Dans la tradition catholique, la virginité d’Agnès signifie une consécration libre au Christ, et son martyre une fidélité sous la contrainte. Les deux sont liés dans la réception ancienne de son histoire. Ils ne signifient pas que les personnes victimes de violences sexuelles perdent leur dignité ou portent la culpabilité des violences subies. La faute appartient à l’agresseur ; la sainteté ne peut être réduite à des circonstances physiques imposées par la force.
+
+Sa place durable dans la mémoire chrétienne romaine repose sur le contraste entre jeunesse et courage, non sur la glorification de la souffrance pour elle-même. Son tombeau devint un centre de culte, et sa commémoration traversa les changements historiques. Les sources conservées permettent de décrire une profonde vénération ancienne, tout en exigeant de la retenue sur sa famille, les dates précises et le déroulement de son épreuve finale.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. Agnes of Rome », examen des premiers témoins (miroir consulté)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/01214a.htm).
+$desc$),
+('saint-agnes-of-rome','la','Agnes iuvenis christiana Romana fuit, a saeculo quarto ut virgo et martyr honorata. Auctores antiqui de iuventute et fidelitate consentiunt, sed de adiunctis mortis differunt, quae narrationes posteriores multis novis rebus amplificaverunt.',$desc$## Memoria antiqua firmiter testata
+
+Agnes ad traditiones optime testatas venerationis martyrum Romanorum pertinet. Depositio martyrum, in Chronographia anni 354 servata, commemorationem eius die 21 Ianuarii memorat et sepulcrum viae Nomentanae coniungit. Notitia brevis est, sed memoriam et sepulturam eius multo ante narrationes posteriores vitae elaboratas agnitas esse confirmat.
+
+Exeunte saeculo quarto ab Ambrosio, Damaso papa et poetis christianis celebrabatur. Testimonia praesertim de singulari iuventute consentiunt. Ambrosius aetatem circiter duodecim annorum dat, Augustinus tredecim. Hi numeri in chronologiam recentiorem exactam cogendi non sunt, sed consensus de martyre valde iuvenili gravis est. Annus exactus mortis incertus manet, quamvis traditio eam persecutionibus ineuntis saeculi quarti coniungat.
+
+## Testimonia et differentiae
+
+Ambrosius Agnetem in fide et virginitate constantem proponit et supplicium gladii describit. Carmen commemorativum Damasi alia singula adhibet, inter quae minas aut passionem ignis et curam corporis expositi. Prudentius narrationem ulterius amplificat, periculum castitatis et protectionem miraculosam introducens. Diversitas ostendit nullam unicam narrationem integram coaetaneam actorum omnibus his auctoribus praesto fuisse.
+
+Passiones posteriores narrationem orationibus, personis nominatis et prodigiis additis auxerunt. Hi textus devotionem formaverunt, sed facta historica deficientia non statim supplent. Nucleus certus est memoria antiqua iuvenis christianae quae mortem passa est et ob fidelitatem Christo honorata. Narratio encyclopedica hunc nucleum retinere debet, neque omnia facta dramatica aeque probata esse simulare.
+
+## Virginitas, martyrium et dignitas christiana
+
+In traditione catholica virginitas Agnetis dedicationem libere Christo factam significat, martyrium autem fidelitatem sub coercitione. Utraque in antiqua receptione historiae eius coniunguntur. Non significant personas violentiae sexuali subiectas dignitatem perdere aut culpam violentiae sibi illatae ferre. Culpa aggressoris est; sanctitas ad adiuncta corporalia vi imposita reduci nequit.
+
+Locus eius perennis in memoria christiana Romana in discrimine iuventutis et fortitudinis nititur, non in glorificatione doloris propter se ipsum. Sepultura centrum cultus facta est, et commemoratio per adiuncta historica mutata perseveravit. Fontes servati profundam venerationem antiquam describere sinunt, simul moderationem de familia, diebus exactis et ordine ultimi certaminis postulantes.
+
+## Fontes
+
+- [Catholic Encyclopedia, «St. Agnes of Rome», examen primorum testium (exemplar consultum)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/01214a.htm).
+$desc$)
+) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
+WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
+UPDATE saint_translations AS st
+SET short_description=x.short_description, full_biography=x.full_biography
+FROM saints s JOIN (VALUES
+('saint-vincent-of-saragossa','en','Vincent was a deacon of Saragossa remembered as a martyr at Valencia during the Diocletianic persecution. His early and widespread veneration is well documented, while the detailed accounts of his suffering and burial contain later hagiographical development.',$desc$## A deacon in Roman Spain
+
+Vincent is remembered as a deacon serving the Church of Saragossa under Bishop Valerius. His martyrdom at Valencia is traditionally dated to 304, during the persecution associated with Diocletian. Sources differ about his birthplace, and the details of his family and early education come through later accounts rather than a surviving contemporary biography.
+
+The received narrative portrays him as a capable preacher who assisted a bishop said to have difficulty speaking. It thereby presents the diaconate as a ministry of service to the Church’s proclamation. Although this detail is less securely established than the existence of his early cult, it explains why later Christians remembered him not simply as a victim of persecution but as an active minister of the Gospel.
+
+## Martyrdom and the literary tradition
+
+According to the passion, Vincent and Valerius were taken to Valencia and imprisoned. Valerius was banished, while Vincent endured repeated torture and died in custody. Later accounts describe attempts to dishonour his body followed by its recovery and burial. The sequence of torments, the speeches, and the miraculous episodes belong to the literary development of the martyrdom tradition and should not be read as a verbatim judicial record.
+
+The distinction matters because the surviving developed Acts are later than the martyr himself. Prudentius celebrated Vincent in poetry, and Augustine’s sermons show that accounts of his suffering were already read among Christians in North Africa by the end of the fourth century. These witnesses demonstrate an early and influential memory, but they do not remove every uncertainty about the original proceedings.
+
+## The spread of his memory
+
+Vincent’s veneration extended from the Iberian Peninsula into Gaul, Italy, and beyond. Churches and inscriptions provide evidence of this geographical diffusion. The later history of relics includes competing claims and several transfers; those traditions document the importance of his memory but should not be treated as a simple, uninterrupted chain established in every detail.
+
+In Catholic remembrance Vincent exemplifies fidelity to Christ in a ministry already devoted to the service of others. His story also illustrates how the early Church preserved martyrdom through worship, preaching, and poetry, not only through archival records. The secure historical outline and the later devotional narrative can be distinguished without either erasing the ancient witness or turning uncertain particulars into established facts.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. Vincent” (retrieved mirror)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/15434b.htm).
+$desc$),
+('saint-vincent-of-saragossa','fr','Vincent fut un diacre de Saragosse, honoré comme martyr à Valence pendant la persécution de Dioclétien. Sa vénération ancienne et largement répandue est bien documentée, tandis que les récits détaillés de ses souffrances et de sa sépulture présentent des développements hagiographiques ultérieurs.',$desc$## Un diacre dans l’Espagne romaine
+
+Vincent est connu comme diacre de l’Église de Saragosse sous l’évêque Valère. Son martyre à Valence est traditionnellement daté de 304, pendant la persécution associée à Dioclétien. Les sources divergent sur son lieu de naissance, et les détails de sa famille et de sa formation proviennent de récits postérieurs, non d’une biographie contemporaine conservée.
+
+Le récit reçu le présente comme un prédicateur capable assistant un évêque auquel on attribue une difficulté d’élocution. Il donne ainsi du diaconat l’image d’un ministère au service de la proclamation ecclésiale. Bien que ce détail soit moins solidement établi que l’existence de son culte ancien, il explique pourquoi les chrétiens ultérieurs se souvinrent de lui non seulement comme d’une victime de persécution, mais comme d’un ministre actif de l’Évangile.
+
+## Martyre et tradition littéraire
+
+Selon la passion, Vincent et Valère furent conduits à Valence et emprisonnés. Valère fut banni, tandis que Vincent subit des tortures répétées et mourut en captivité. Les récits ultérieurs décrivent des tentatives pour déshonorer son corps, puis sa découverte et son ensevelissement. La succession des supplices, les discours et les épisodes miraculeux appartiennent au développement littéraire de la tradition du martyre et ne doivent pas être lus comme un procès-verbal judiciaire.
+
+Cette distinction importe parce que les Actes développés conservés sont postérieurs au martyr. Prudence célébra Vincent dans sa poésie, et les sermons d’Augustin montrent que les récits de sa passion étaient déjà lus parmi les chrétiens d’Afrique du Nord à la fin du IVe siècle. Ces témoins démontrent une mémoire ancienne et influente, mais ne dissipent pas toutes les incertitudes sur le déroulement originel des événements.
+
+## Diffusion de sa mémoire
+
+La vénération de Vincent s’étendit de la péninsule Ibérique à la Gaule, à l’Italie et au-delà. Des églises et des inscriptions attestent cette diffusion géographique. L’histoire ultérieure des reliques comprend des revendications concurrentes et plusieurs transferts ; ces traditions documentent l’importance de sa mémoire, mais ne constituent pas une chaîne simple et ininterrompue établie dans tous ses détails.
+
+Dans la mémoire catholique, Vincent illustre la fidélité au Christ dans un ministère déjà consacré au service d’autrui. Son histoire montre aussi comment l’Église ancienne conserva le souvenir du martyre par le culte, la prédication et la poésie, et pas seulement par les archives. Il est possible de distinguer les contours historiques assurés du récit dévotionnel ultérieur sans effacer le témoignage ancien ni transformer les détails incertains en faits établis.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. Vincent » (miroir consulté)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/15434b.htm).
+$desc$),
+('saint-vincent-of-saragossa','la','Vincentius diaconus Caesaraugustanus fuit, Valentiae in persecutione Diocletiani martyr memoratus. Cultus eius antiquus lateque diffusus bene documentis probatur, dum narrationes particulares passionis et sepulturae amplificationem hagiographicam posteriorem continent et prudenter distinguendae sunt.',$desc$## Diaconus in Hispania Romana
+
+Vincentius diaconus Ecclesiae Caesaraugustanae sub Valerio episcopo memoratur. Martyrium eius Valentiae tradito anno 304 ponitur, in persecutione Diocletiano coniuncta. Fontes de loco nativitatis dissentiunt, et singula familiae atque primae institutionis per narrationes posteriores, non per biographiam coaetaneam servatam, traduntur.
+
+Narratio recepta eum praedicatorem idoneum proponit, episcopo adiuvantem qui difficultate loquendi laborasse dicitur. Diaconatum ita ut ministerium proclamationi Ecclesiae serviens ostendit. Quamvis hoc singulum minus firmiter quam existentia cultus antiqui probetur, explicat cur christiani posteriores eum non tantum victimam persecutionis, sed ministrum Evangelii actuosum recordarentur.
+
+## Martyrium et traditio litteraria
+
+Secundum passionem, Vincentius et Valerius Valentiam ducti et incarcerati sunt. Valerius relegatus est, Vincentius autem tormenta repetita passus in custodia mortuus est. Narrationes posteriores conatus corpus dehonestandi, deinde eius recuperationem et sepulturam describunt. Series tormentorum, orationes et eventus miraculosi ad incrementum litterarium traditionis martyrii pertinent, neque tamquam acta iudicialia ad verbum legenda sunt.
+
+Distinctio gravis est quia Acta ampliora servata ipso martyre posteriora sunt. Prudentius Vincentium carmine celebravit, et sermones Augustini narrationes passionis iam exeunte saeculo quarto inter christianos Africae septentrionalis lectas esse ostendunt. Hi testes memoriam antiquam et efficacem demonstrant, sed non omnem incertitudinem de actis primigeniis tollunt.
+
+## Diffusio memoriae
+
+Cultus Vincentii ab Iberia in Galliam, Italiam et ultra fines illos diffusus est. Ecclesiae et inscriptiones huius diffusionis geographicae testimonia praebent. Historia posterior reliquiarum petitiones inter se diversas et plures translationes continet; hae traditiones momentum memoriae documentant, sed non ut series simplex et continua omnibus in rebus comprobata accipiendae sunt.
+
+In memoria catholica Vincentius fidelitatem Christo in ministerio iam servitio aliorum dedicato exemplificat. Historia eius etiam ostendit quomodo Ecclesia antiqua martyrium per cultum, praedicationem et poesim, non solum per tabularia, servaverit. Lineamenta historica certa et narratio pietatis posterior distingui possunt quin testimonium antiquum deleatur aut singula incerta in facta probata convertantur.
+
+## Fontes
+
+- [Catholic Encyclopedia, «St. Vincent» (exemplar consultum)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/15434b.htm).
+$desc$),
+('saint-francis-de-sales','en','Francis de Sales, bishop of Geneva based at Annecy, taught that holiness is possible in ordinary occupations and family life. His spiritual writings, patient pastoral ministry, and collaboration with Jane Frances de Chantal shaped the Visitation and Catholic spirituality.',$desc$## Education and vocation
+
+Francis was born in 1567 at Thorens in Savoy, into an aristocratic family that expected him to pursue a distinguished public career. He studied first in Savoy, then in Paris under Jesuit teachers, and later at Padua, where he trained in law. His education combined literary culture, legal reasoning, and theological study, providing resources that he would eventually use in preaching, spiritual direction, and episcopal administration.
+
+During his youth he suffered a profound religious crisis connected with discussions of predestination and fear about his own salvation. The traditional account associates his recovery with prayer and renewed trust in God. This experience helps illuminate the emphasis on confidence rather than spiritual anxiety in his later teaching. Against his father’s original plans for marriage and advancement, Francis chose priesthood and was ordained in 1593.
+
+## Mission in the Chablais
+
+The bishops of Geneva resided at Annecy after the Reformation. Francis began his ministry there and in 1594 undertook missionary work in the Chablais, a region recently restored to Savoyard control and strongly influenced by Reformed Christianity. His activity belonged to a contested political and religious setting; it should not be detached from the wider struggle between Catholic and Protestant authorities.
+
+He preached, held conversations, and circulated written explanations of Catholic teaching when audiences were reluctant to attend sermons. These texts later became known as the Controversies. His approach combined doctrinal argument with persistence and personal courtesy. He also met Theodore Beza in Geneva. Catholic tradition particularly remembered his gentleness, although his mission remained an explicit effort to bring people into Catholic communion, not a modern programme of religious neutrality.
+
+## Bishop and spiritual director
+
+Francis became bishop of Geneva in 1602. Based at Annecy, he visited parishes across difficult mountain terrain, instructed children and adults, attended to the formation of clergy, and worked for reform within religious communities. His episcopal life included ordinary administrative duties as well as public preaching and the personal direction of souls. A large correspondence reveals the attention he gave to people living under very different circumstances.
+
+He insisted that devotion must be appropriate to a person’s actual vocation. A parent, artisan, courtier, or religious did not serve God through identical daily practices. The common goal was charity, expressed through the responsibilities belonging to each state of life. This teaching did not lower the call to holiness; it challenged the assumption that serious Christian life required everyone to abandon ordinary social obligations.
+
+## Major writings
+
+The Introduction to the Devout Life guides a reader living in the world through conversion, prayer, sacramental practice, the cultivation of virtues, and perseverance amid temptation. Its practical counsel draws together theological conviction and careful observation of human behaviour. Francis treats growth in holiness as a sustained work of grace and cooperation, not as a search for extraordinary experiences or a reason for contempt toward others.
+
+The Treatise on the Love of God explores the origin, development, and expression of divine love in the soul. It relates prayer and inward affection to conformity with God’s will in action. His spiritual conferences, preserved by the Visitation sisters, likewise show a teacher concerned with daily relationships and the patient formation of character. Across these writings, gentleness is a disciplined expression of charity rather than indifference to truth or moral responsibility.
+
+## The Visitation and final years
+
+His friendship with Jane Frances de Chantal led to the foundation of the Visitation at Annecy. The community’s development made room for women whose age or health could exclude them from more physically demanding forms of religious life. Its history involved adjustment to ecclesiastical requirements, and the mature institution should not be projected unchanged onto every stage of its beginnings. Francis and Jane shared responsibility for shaping a spirituality of humility, simplicity, and love.
+
+Francis continued to preach outside his diocese and maintained relationships with important figures in French Catholic renewal, including Vincent de Paul. He died at Lyon on 28 December 1622 after a sudden illness. His body was subsequently taken to Annecy. He was canonized in 1665 and declared a Doctor of the Church in 1877. His lasting influence comes especially from his insistence that the love of God can transform everyday duties, friendships, disappointments, and decisions without making Christian life less demanding or less humane.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. Francis de Sales” (retrieved mirror)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/06220a.htm).
+$desc$),
+('saint-francis-de-sales','fr','François de Sales, évêque de Genève résidant à Annecy, enseigna que la sainteté est possible dans les occupations ordinaires et la vie familiale. Ses écrits, son ministère patient et sa collaboration avec Jeanne-Françoise de Chantal marquèrent la Visitation et la spiritualité catholique.',$desc$## Formation et vocation
+
+François naquit en 1567 à Thorens, en Savoie, dans une famille aristocratique qui lui destinait une brillante carrière publique. Il étudia d’abord en Savoie, puis à Paris auprès des jésuites, et ensuite à Padoue, où il se forma au droit. Son éducation associait culture littéraire, raisonnement juridique et études théologiques, lui fournissant des ressources pour la prédication, la direction spirituelle et l’administration épiscopale.
+
+Dans sa jeunesse, il traversa une profonde crise religieuse liée aux discussions sur la prédestination et à la crainte pour son salut. Le récit traditionnel associe sa délivrance à la prière et à une confiance renouvelée en Dieu. Cette expérience éclaire l’accent mis ensuite sur la confiance plutôt que sur l’angoisse spirituelle. Contre les premiers projets paternels de mariage et d’avancement, François choisit le sacerdoce et fut ordonné en 1593.
+
+## Mission dans le Chablais
+
+Les évêques de Genève résidaient à Annecy depuis la Réforme. François y commença son ministère et entreprit en 1594 une mission dans le Chablais, région récemment revenue sous l’autorité savoyarde et fortement marquée par le christianisme réformé. Son activité appartenait à un contexte politique et religieux disputé ; elle ne doit pas être séparée de la lutte plus vaste entre autorités catholiques et protestantes.
+
+Il prêcha, dialogua et diffusa des explications écrites de la doctrine catholique lorsque les auditeurs hésitaient à venir écouter ses sermons. Ces textes furent ensuite connus comme les Controverses. Sa démarche associait argumentation doctrinale, persévérance et courtoisie personnelle. Il rencontra également Théodore de Bèze à Genève. La tradition catholique retint particulièrement sa douceur, bien que sa mission visât explicitement l’entrée dans la communion catholique, et non un programme moderne de neutralité religieuse.
+
+## Évêque et directeur spirituel
+
+François devint évêque de Genève en 1602. Résidant à Annecy, il visita les paroisses à travers un relief montagneux difficile, instruisit enfants et adultes, veilla à la formation du clergé et travailla à la réforme des communautés religieuses. Sa vie épiscopale comprenait les tâches administratives ordinaires, la prédication publique et la direction personnelle des âmes. Une abondante correspondance révèle son attention à des personnes vivant dans des situations très diverses.
+
+Il insistait sur l’adaptation de la dévotion à la vocation réelle de chacun. Parents, artisans, courtisans et religieux ne servaient pas Dieu par des pratiques quotidiennes identiques. Le but commun était la charité, exprimée dans les responsabilités propres à chaque état de vie. Cet enseignement n’abaissait pas l’appel à la sainteté ; il contestait l’idée qu’une vie chrétienne sérieuse exigeât de tous l’abandon des obligations sociales ordinaires.
+
+## Principaux écrits
+
+L’Introduction à la vie dévote conduit une personne vivant dans le monde à travers la conversion, la prière, la pratique sacramentelle, la culture des vertus et la persévérance dans la tentation. Ses conseils pratiques unissent conviction théologique et observation attentive du comportement humain. François présente la croissance dans la sainteté comme une œuvre durable de grâce et de coopération, non comme une recherche d’expériences extraordinaires ou une raison de mépriser autrui.
+
+Le Traité de l’amour de Dieu explore l’origine, le développement et les expressions de l’amour divin dans l’âme. Il relie prière et affection intérieure à la conformité active à la volonté de Dieu. Ses entretiens spirituels, conservés par les visitandines, montrent aussi un maître attentif aux relations quotidiennes et à la formation patiente du caractère. Dans ces écrits, la douceur exprime une charité disciplinée, non l’indifférence à la vérité ou à la responsabilité morale.
+
+## La Visitation et les dernières années
+
+Son amitié avec Jeanne-Françoise de Chantal conduisit à la fondation de la Visitation à Annecy. Le développement de la communauté fit place aux femmes que l’âge ou la santé pouvaient exclure de formes de vie religieuse physiquement plus exigeantes. Son histoire comporta des adaptations aux exigences ecclésiastiques, et l’institution achevée ne doit pas être projetée telle quelle sur toutes les étapes de ses débuts. François et Jeanne contribuèrent ensemble à former une spiritualité d’humilité, de simplicité et d’amour.
+
+François continua à prêcher hors de son diocèse et entretint des relations avec d’importantes figures du renouveau catholique français, dont Vincent de Paul. Il mourut à Lyon le 28 décembre 1622 après une maladie soudaine. Son corps fut ensuite transporté à Annecy. Il fut canonisé en 1665 et déclaré docteur de l’Église en 1877. Son influence durable vient surtout de sa conviction que l’amour de Dieu transforme les devoirs, les amitiés, les déceptions et les décisions quotidiennes sans rendre la vie chrétienne moins exigeante ni moins humaine.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. Francis de Sales » (miroir consulté)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/06220a.htm).
+$desc$),
+('saint-francis-de-sales','la','Franciscus Salesius, episcopus Genevensis Annecii commorans, sanctitatem in officiis cotidianis et vita familiari possibilem esse docuit. Scripta spiritualia, ministerium patiens et cooperatio cum Ioanna Francisca de Chantal Visitationem atque spiritualitatem catholicam formaverunt.',$desc$## Institutio et vocatio
+
+Franciscus anno 1567 Thorens in Sabaudia natus est e familia nobili quae insignem cursum publicum ei destinabat. Primum in Sabaudia, deinde Parisiis apud magistros Societatis Iesu, postea Patavii studuit, ubi iure institutus est. Educatio culturam litterariam, rationem iuridicam et studium theologicum coniunxit, facultates praebens quas postea in praedicatione, directione spirituali et administratione episcopali adhiberet.
+
+Iuvenis gravem difficultatem religiosam passus est, disputationibus de praedestinatione et metu propriae salutis coniunctam. Narratio tradita liberationem eius cum precatione et renovata fiducia in Deo coniungit. Haec experientia explicat cur in doctrina posteriori fiduciam potius quam anxietatem spiritualem inculcaret. Contra prima consilia patris de matrimonio et honoribus, Franciscus sacerdotium elegit et anno 1593 ordinatus est.
+
+## Missio in regione Caballica
+
+Episcopi Genevenses post Reformationem Annecii habitabant. Franciscus ibi ministerium incepit et anno 1594 opus missionarium in regione Caballica suscepit, nuper regimini Sabaudico restituta et christianismo reformato valde informata. Actio eius ad contextum politicum et religiosum controversum pertinebat; a latiore certamine inter auctoritates catholicas et protestantes separanda non est.
+
+Praedicavit, colloquia habuit et explicationes scriptas doctrinae catholicae distribuit cum auditores ad sermones accedere dubitarent. Hi textus postea Controversiae appellati sunt. Ratio eius argumentationem doctrinalem cum perseverantia et urbanitate personali coniunxit. Theodorum quoque Bezam Genevae convenit. Traditio catholica mansuetudinem eius praesertim memoravit, quamvis missio expresse ad homines in communionem catholicam adducendos tenderet, non ad propositum recentius neutralitatis religiosae.
+
+## Episcopus et moderator spiritualis
+
+Franciscus anno 1602 episcopus Genevensis factus est. Annecii commorans paroecias per montes difficiles visitavit, pueros et adultos instruxit, formationi cleri attendit et reformationem communitatum religiosarum promovit. Vita episcopalis officia administrativa ordinaria, praedicationem publicam et directionem personalem animarum complectebatur. Ampla epistularum collectio attentionem erga homines in adiunctis valde diversis viventes ostendit.
+
+Devotionem vocationi reali personae accommodandam esse docebat. Parens, artifex, aulicus aut religiosus non iisdem exercitiis cotidianis Deo serviebant. Finis communis caritas erat, per officia cuiusque status vitae expressa. Haec doctrina vocationem ad sanctitatem non minuebat; opinionem impugnabat vitam christianam seriam omnibus derelictionem obligationum socialium ordinariarum exigere.
+
+## Scripta praecipua
+
+Introductio ad vitam devotam lectorem in saeculo viventem per conversionem, precationem, vitam sacramentalem, cultum virtutum et perseverantiam inter tentationes ducit. Consilia practica persuasionem theologicam et accuratam observationem morum humanorum coniungunt. Franciscus incrementum sanctitatis ut opus continuum gratiae et cooperationis tractat, non ut quaestionem experientiarum extraordinariarum aut causam alios contemnendi.
+
+Tractatus de amore Dei originem, incrementum et expressionem amoris divini in anima explorat. Precationem et affectum interiorem cum conformitate voluntati Dei in actione coniungit. Colloquia spiritualia, a sororibus Visitationis servata, magistrum relationibus cotidianis et patienti formationi morum intentum ostendunt. In his scriptis mansuetudo expressio disciplinata caritatis est, non indifferentia erga veritatem aut responsabilitatem moralem.
+
+## Visitatio et ultimi anni
+
+Amicitia cum Ioanna Francisca de Chantal ad fundationem Visitationis Annecii duxit. Incrementum communitatis locum mulieribus dedit quas aetas aut valetudo a formis vitae religiosae corporaliter severioribus excludere poterant. Historia eius accommodationes ad exigentias ecclesiasticas continuit, et institutum maturum non immutatum in omnes gradus primordiorum proiciendum est. Franciscus et Ioanna spiritualitatem humilitatis, simplicitatis et amoris communiter formaverunt.
+
+Franciscus extra dioecesim praedicare perrexit et necessitudines cum viris insignibus renovationis catholicae Gallicae, inter quos Vincentius de Paul, servavit. Lugduni die 28 Decembris 1622 post morbum subitum mortuus est. Corpus deinde Annecium translatum est. Anno 1665 canonizatus et anno 1877 Doctor Ecclesiae declaratus est. Auctoritas eius perennis praesertim ex doctrina manat qua amor Dei officia, amicitias, frustrationes et decisiones cotidianas transformat, quin vita christiana minus exigens aut minus humana fiat.
+
+## Fontes
+
+- [Catholic Encyclopedia, «St. Francis de Sales» (exemplar consultum)](https://github.com/CWilsonTSP/cathen/blob/master/cathen/06220a.htm).
+$desc$)
+) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
+WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
+-- END_BIOGRAPHIES_JANUARY
+
+-- BIOGRAPHIES_FEBRUARY
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s JOIN (VALUES
+('saint-blaise','en','Blaise is venerated as a bishop of Sebaste and an early fourth-century martyr. His widespread remembrance rests on ancient liturgical tradition, while the surviving accounts of his sufferings contain details that cannot be established as contemporary history.',$desc$## Identity and historical limits
+
+Blaise belongs to the ancient Christian memory of Sebaste, in the region historically called Lesser Armenia, now Sivas in Turkey. He is honored as a bishop and martyr in both Eastern and Western Christianity. No securely contemporary biography survives, and his birth, family, education, and episcopal activity cannot be reconstructed. The distinction between the antiquity of his veneration and the date of the narratives about him is essential.
+
+Alban Butler, despite writing within a devotional tradition, explicitly describes the surviving Greek acts as having little authority. His account places the martyrdom under Licinius, conventionally in 316, and names the governor Agricolaus. These particulars belong to the received chronology, not to an independently established contemporary judicial record. A precise year should consequently remain qualified.
+
+## The martyrdom tradition
+
+Later narratives portray Blaise as steadfast under interrogation and bodily torment. The tradition of iron combs used against him became especially memorable. Such details explain how later Christians imagined and represented his ordeal, but their repetition does not supply independent confirmation. The historical claim underlying the commemoration is that a bishop associated with Sebaste died for his Christian allegiance.
+
+Another connection, reported by Butler from the acts of Eustratius, credits Blaise with receiving and preserving that martyr's relics. This is evidence of how separate martyr traditions came to be linked, rather than a secure basis for reconstructing his pastoral calendar. It is preferable to preserve the limited testimony than to create a continuous life from these scattered episodes.
+
+## Remembrance
+
+Western martyrologies and the Byzantine calendar attest a durable remembrance, although their commemorative dates differ. His cult spread widely in the medieval West as relics were circulated. The blessing of throats associated with his feast belongs to this history of devotion and healing prayer; it is not documentation of his medical training or of a modern clinical cure.
+
+Blaise's significance therefore lies chiefly in the Church's memory of a persecuted pastor. The comparatively short surviving historical record should neither be dismissed because it is incomplete nor enlarged by presenting later hagiography as eyewitness testimony.
+
+## Sources
+
+- [Alban Butler, Lives of the Saints, February 3: Saint Blase; consulted public-domain edition](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
+$desc$),
+('saint-blaise','fr','Blaise est vénéré comme évêque de Sébaste et martyr du début du IVe siècle. Son souvenir largement répandu repose sur une ancienne tradition liturgique, tandis que les récits conservés de ses souffrances comportent des détails invérifiables comme histoire contemporaine.',$desc$## Identité et limites historiques
+
+Blaise appartient à l'ancienne mémoire chrétienne de Sébaste, dans la région historiquement appelée Petite Arménie, aujourd'hui Sivas en Turquie. Les chrétientés orientale et occidentale l'honorent comme évêque et martyr. Aucune biographie certainement contemporaine ne subsiste, et sa naissance, sa famille, sa formation et son activité épiscopale ne peuvent être reconstituées. Il importe de distinguer l'ancienneté de sa vénération de la date des récits qui le concernent.
+
+Alban Butler, bien qu'écrivant dans une tradition dévote, reconnaît expressément la faible autorité des actes grecs conservés. Il situe le martyre sous Licinius, traditionnellement en 316, et nomme le gouverneur Agricolaus. Ces précisions appartiennent à la chronologie reçue, non à un procès-verbal judiciaire contemporain établi indépendamment. L'année exacte doit donc rester incertaine.
+
+## La tradition du martyre
+
+Les récits postérieurs présentent Blaise comme constant dans les interrogatoires et les tourments corporels. La tradition des peignes de fer employés contre lui devint particulièrement mémorable. Ces détails expliquent comment les chrétiens ultérieurs imaginèrent et représentèrent son épreuve, mais leur répétition ne fournit pas de confirmation indépendante. L'affirmation historique fondamentale de la commémoration est qu'un évêque associé à Sébaste mourut pour sa fidélité chrétienne.
+
+Un autre rapprochement, rapporté par Butler d'après les actes d'Eustrate, attribue à Blaise l'accueil et la conservation des reliques de ce martyr. Il montre comment différentes traditions martyriales furent liées, plutôt qu'il ne permet de reconstituer sûrement son activité pastorale. Mieux vaut conserver ce témoignage limité que fabriquer une vie continue à partir de ces épisodes épars.
+
+## Mémoire
+
+Les martyrologes occidentaux et le calendrier byzantin attestent une mémoire durable, malgré des dates de commémoration différentes. Son culte se répandit largement dans l'Occident médiéval avec la circulation des reliques. La bénédiction des gorges associée à sa fête appartient à cette histoire de dévotion et de prière pour la guérison ; elle ne documente ni sa formation médicale ni une guérison clinique moderne.
+
+L'importance de Blaise tient donc surtout au souvenir ecclésial d'un pasteur persécuté. Le dossier historique relativement bref ne doit être ni rejeté pour son caractère incomplet ni augmenté en présentant l'hagiographie tardive comme témoignage oculaire.
+
+## Sources
+
+- [Alban Butler, Vies des saints, 3 février : saint Blaise ; édition du domaine public consultée](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
+$desc$),
+('saint-blaise','la','Blasius tamquam episcopus Sebastenus et martyr ineuntis saeculi quarti colitur. Eius memoria late diffusa antiqua traditione liturgica nititur, dum narrationes superstites de passionibus eius singula continent quae ut historia coaetanea comprobari nequeunt.',$desc$## Identitas et limites historiae
+
+Blasius ad antiquam memoriam christianam Sebastes pertinet, in regione olim Armenia Minore appellata, quae urbs hodie Sivas in Turcia est. Episcopus et martyr in christianitate orientali et occidentali honoratur. Nulla vita certo coaetanea superest; nativitas, familia, institutio et actio episcopalis restitui nequeunt. Antiquitas cultus a tempore narrationum de eo diligenter distinguenda est.
+
+Albanus Butler, quamquam secundum traditionem pietatis scribit, acta Graeca superstites parvae auctoritatis esse expresse agnoscit. Martyrium sub Licinio, ex recepta ratione anno 316, ponit, Agricolao praeside nominato. Haec ad chronologiam traditam pertinent, non ad documentum iudiciale coaetaneum aliunde comprobatum. Annus igitur definitus caute proponendus est.
+
+## Traditio martyrii
+
+Narrationes posteriores Blasium constantem in interrogationibus et cruciatibus corporis exhibent. Traditio pectinum ferreorum contra eum adhibitorum praesertim celebrata est. Haec explicant quomodo christiani posteriores eius certamen conceperint et expresserint, sed repetitio confirmationem independentem non praebet. Fundamentum historicum commemorationis est episcopum Sebastae coniunctum ob fidelitatem christianam mortuum esse.
+
+Alius nexus, quem Butler ex actis Eustratii refert, Blasio receptionem et custodiam reliquiarum illius martyris tribuit. Hoc ostendit quomodo diversae traditiones martyrum inter se coniunctae sint, non autem certum fundamentum praebet ad ordinem ministerii eius restituendum. Praestat testimonium limitatum servare quam vitam continuam ex eventibus dispersis componere.
+
+## Memoria
+
+Martyrologia occidentalia et calendarium Byzantinum memoriam diuturnam testantur, quamquam dies celebrationis differunt. Cultus eius in Occidente mediaevali late propagatus est, dum reliquiae distribuebantur. Benedictio gutturum festo eius coniuncta ad historiam devotionis et precationis pro sanitate pertinet; neque institutionem eius medicam neque curationem clinicam recenti sensu documentis probat.
+
+Momentum igitur Blasii praecipue in memoria ecclesiali pastoris persecutionem passi consistit. Testimonium historicum comparate breve neque propter defectus repudiandum neque hagiographia posterior quasi testimonio oculari amplificandum est.
+
+## Fontes
+
+- [Albanus Butler, Vitae sanctorum, die 3 Februarii: sanctus Blasius; editio publici iuris consulta](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
+$desc$),
+('saint-ansgar','en','Ansgar, a Frankish monk and missionary bishop, established Christian communities in Denmark and Sweden and served Hamburg and Bremen. His work survived political reversals and violence, although the lasting Christianization of Scandinavia extended far beyond his lifetime.',$desc$## Formation and sources
+
+Ansgar was born about 801 in the Frankish world, traditionally near Amiens. He received his formation at Corbie, the monastery in Picardy, and subsequently joined its new foundation at Corvey in Saxony. There he taught and preached. His movement from an established western monastery to a recently Christianized frontier supplied the setting for his later work in Scandinavia. Monastic discipline remained central to his identity after he became a bishop.
+
+The principal narrative source is the Life written by Rimbert, his disciple and successor. It is unusually close to its subject, but it is also a work intended to demonstrate sanctity and encourage a precarious mission. Dreams, visions, and providential interpretations are integral to its presentation. Butler's later account draws upon this tradition. The missionary's basic itinerary is better documented than many early medieval saints' lives, while particular conversations and visionary experiences remain dependent on his biographer's testimony.
+
+## First northern missions
+
+In 826 the Danish ruler Harald Klak received baptism at the court of Louis the Pious. Ansgar accompanied him north with the monk Autbert. Political protection made the undertaking possible, but also exposed it to the ruler's instability. Harald's loss of power soon interrupted the work. The establishment of a school and the care of young converts did not create a secure Christian kingdom, and Ansgar returned to the Frankish territories.
+
+A subsequent invitation from Sweden opened another field. Around 829 Ansgar traveled with Witmar to Birka, a trading settlement on Lake Mälaren. The mission established a small Christian community with support from individuals including Hergeir, a royal official. These beginnings mattered precisely because they were modest: a congregation and a place of worship within a predominantly non-Christian society, rather than the conversion of an entire nation. Sustained access depended on local acceptance as well as royal permission.
+
+## Hamburg and the destruction of a center
+
+Around 831–832 Ansgar was appointed to Hamburg and received a papal commission for the northern mission. The dates and institutional descriptions differ in later summaries, and the subsequent union with Bremen should not be projected backward as an already settled arrangement. Hamburg provided a base for education, worship, and the support of missionaries. Ansgar's responsibilities now required both pastoral leadership and negotiations across ecclesiastical and political boundaries.
+
+The death of Louis the Pious in 840 and the division of his dominions weakened the material basis of the enterprise. In 845 raiders destroyed Hamburg, including its ecclesiastical buildings and books. The catastrophe deprived Ansgar of resources and scattered helpers. It demonstrated that missionary institutions remained vulnerable to warfare and changing patronage. His response was not to abandon northern Christianity, but to seek another foundation from which its small communities could be supported.
+
+## Bremen and renewed journeys
+
+Bremen eventually supplied that base. Ansgar took responsibility there in the later 840s, while the union of Hamburg and Bremen required prolonged negotiation because Bremen had belonged to the ecclesiastical province of Cologne. Papal confirmation came under Nicholas I. These administrative difficulties were not separate from evangelization: jurisdiction and income determined whether priests could be sent and communities maintained.
+
+Ansgar cultivated relations with Danish rulers and obtained room for churches, including at Schleswig. He also returned to Sweden, where Christian worship again needed authorization. Rimbert describes the consultation of lots and public deliberation before permission was granted. Whatever the literary shaping of individual scenes, the account makes clear that Ansgar could not simply impose a religion. The mission advanced through preaching, diplomacy, hospitality, and the perseverance of local believers, and it remained exposed to renewed opposition.
+
+## Pastoral character and legacy
+
+Rimbert and the tradition dependent on him emphasize fasting, prayer, and direct service to poor people. Ansgar is described as washing their feet and serving them at table. These practices connect the missionary bishop with the monastic life in which he had been formed. His longing for martyrdom belongs to the same spiritual portrait; he interpreted patient endurance of failure and illness within that aspiration, rather than measuring his vocation solely by visible expansion.
+
+He died at Bremen on 3 February 865, and Rimbert succeeded him. His achievement was neither a completed conversion of Scandinavia nor the establishment of institutions immune to collapse. It was the creation and repeated restoration of links between northern communities and the wider Church. The later endurance of Christian life in Denmark and Sweden should not obscure the fragility of his own beginnings or the indispensable work of unnamed local Christians.
+
+## Sources
+
+- [Alban Butler, Lives of the Saints, February 3: Saint Anscharius; consulted edition](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
+- [Ansgar: consulted Wikipedia text mirror, with references to Rimbert](https://github.com/kirito-0512/data/blob/main/dump/Ansgar.txt).
+$desc$),
+('saint-ansgar','fr','Anschaire, moine franc et évêque missionnaire, établit des communautés chrétiennes au Danemark et en Suède et servit Hambourg et Brême. Son œuvre traversa violences et revers politiques, bien que la christianisation durable de la Scandinavie dépassât largement sa vie.',$desc$## Formation et sources
+
+Anschaire naquit vers 801 dans le monde franc, traditionnellement près d'Amiens. Formé au monastère picard de Corbie, il rejoignit ensuite sa nouvelle fondation de Corvey en Saxe. Il y enseigna et prêcha. Ce passage d'un monastère occidental ancien à une frontière récemment christianisée prépara son travail scandinave. La discipline monastique demeura essentielle à son identité après son accession à l'épiscopat.
+
+La principale source narrative est la Vie écrite par Rimbert, son disciple et successeur. Exceptionnellement proche de son sujet, elle vise aussi à démontrer sa sainteté et à soutenir une mission précaire. Rêves, visions et interprétations providentielles structurent sa présentation. Butler s'appuie ultérieurement sur cette tradition. L'itinéraire général du missionnaire est mieux documenté que celui de nombreux saints du haut Moyen Âge ; les conversations particulières et expériences visionnaires restent cependant tributaires du témoignage de son biographe.
+
+## Premières missions septentrionales
+
+En 826, le souverain danois Harald Klak reçut le baptême à la cour de Louis le Pieux. Anschaire l'accompagna vers le nord avec le moine Autbert. La protection politique permit l'entreprise, mais l'exposa aussi à l'instabilité du souverain. La perte du pouvoir par Harald interrompit bientôt le travail. L'ouverture d'une école et l'accompagnement de jeunes convertis ne constituèrent pas un royaume chrétien assuré ; Anschaire revint dans les territoires francs.
+
+Une invitation suédoise ouvrit ensuite un autre terrain. Vers 829, Anschaire voyagea avec Witmar jusqu'à Birka, établissement commercial du lac Mälar. La mission forma une petite communauté chrétienne avec l'aide notamment d'Hergeir, officier royal. Ces débuts comptaient précisément par leur modestie : une assemblée et un lieu de culte dans une société majoritairement non chrétienne, plutôt que la conversion d'une nation entière. La continuité dépendait de l'acceptation locale autant que de l'autorisation royale.
+
+## Hambourg et la destruction d'un centre
+
+Vers 831–832, Anschaire fut nommé à Hambourg et reçut une mission pontificale pour le Nord. Les dates et descriptions institutionnelles varient dans les résumés postérieurs ; il ne faut pas projeter rétrospectivement l'union ultérieure avec Brême comme un dispositif déjà établi. Hambourg fournissait une base pour l'enseignement, le culte et le soutien des missionnaires. Anschaire devait désormais unir direction pastorale et négociations à travers les frontières politiques et ecclésiastiques.
+
+La mort de Louis le Pieux en 840 et le partage de ses possessions fragilisèrent les ressources de l'entreprise. En 845, des pillards détruisirent Hambourg, ses bâtiments ecclésiastiques et ses livres. La catastrophe priva Anschaire de moyens et dispersa ses auxiliaires. Elle montra la vulnérabilité des institutions missionnaires aux guerres et aux changements de protecteurs. Anschaire n'abandonna pas le christianisme septentrional : il chercha une autre base pour soutenir ses petites communautés.
+
+## Brême et nouveaux voyages
+
+Brême fournit finalement cette base. Anschaire en assuma la responsabilité à la fin des années 840, tandis que l'union avec Hambourg exigeait de longues négociations, Brême ayant appartenu à la province ecclésiastique de Cologne. La confirmation pontificale intervint sous Nicolas Ier. Ces difficultés administratives touchaient directement l'évangélisation : juridiction et revenus déterminaient l'envoi des prêtres et l'entretien des communautés.
+
+Anschaire cultiva les relations avec les souverains danois et obtint la possibilité d'ouvrir des églises, notamment à Schleswig. Il retourna également en Suède, où le culte chrétien demandait une nouvelle autorisation. Rimbert décrit consultation du sort et délibération publique avant l'accord. Quelle que soit l'élaboration littéraire des scènes, son récit montre qu'Anschaire ne pouvait simplement imposer une religion. La mission progressait par prédication, diplomatie, hospitalité et persévérance des croyants locaux, toujours exposée à de nouvelles oppositions.
+
+## Caractère pastoral et héritage
+
+Rimbert et la tradition qui en dépend soulignent le jeûne, la prière et le service direct des pauvres. Anschaire est décrit leur lavant les pieds et les servant à table. Ces pratiques relient l'évêque missionnaire à sa formation monastique. Son désir du martyre appartient au même portrait spirituel : il y rattachait l'endurance patiente de l'échec et de la maladie, plutôt que de mesurer sa vocation à la seule expansion visible.
+
+Il mourut à Brême le 3 février 865 ; Rimbert lui succéda. Il ne laissait ni une Scandinavie entièrement convertie ni des institutions à l'abri de l'effondrement. Son œuvre fut la création et la restauration répétée de liens entre les communautés septentrionales et l'Église universelle. La persistance ultérieure du christianisme au Danemark et en Suède ne doit masquer ni la fragilité de ses débuts ni le travail indispensable de chrétiens locaux anonymes.
+
+## Sources
+
+- [Alban Butler, Vies des saints, 3 février : saint Anschaire ; édition consultée](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
+- [Anschaire : copie consultée du texte de Wikipédia, avec références à Rimbert](https://github.com/kirito-0512/data/blob/main/dump/Ansgar.txt).
+$desc$),
+('saint-ansgar','la','Ansgarius, monachus Francus et episcopus missionarius, communitates christianas in Dania et Suecia instituit atque Hamburgi et Bremae ministravit. Eius opus per discrimina politica et violentiam perseveravit, quamquam stabilis conversio Scandinaviae vitam eius longe superavit.',$desc$## Institutio et fontes
+
+Ansgarius circa annum 801 in regno Francorum natus est, ex traditione prope Ambianum. Corbeiae in Picardia institutus, deinde ad novam eius fundationem Corbeiam Novam in Saxonia transiit. Ibi docuit et praedicavit. Transitus ab antiquo monasterio occidentali ad fines nuper christianizatos opus eius Scandinavicum praeparavit. Disciplina monastica etiam post episcopatum susceptum pars praecipua identitatis eius mansit.
+
+Fons narrationis praecipuus est Vita a Rimberto, discipulo et successore, conscripta. Auctor subiecto suo singulariter proximus erat, sed opus etiam sanctitatem demonstrare atque missionem fragilem confirmare intendit. Somnia, visiones et interpretationes providentiae narrationi insunt. Butler postea hac traditione usus est. Itinerarium generale missionarii melius quam multorum sanctorum primae aetatis mediaevalis documentis constat; colloquia tamen particularia et experientiae visionariae a testimonio biographi pendent.
+
+## Primae missiones septentrionales
+
+Anno 826 Haraldus Klak, princeps Danorum, in aula Ludovici Pii baptizatus est. Ansgarius eum cum Autberto monacho septentrionem versus comitatus est. Tutela politica opus possibile reddidit, sed instabilitati principis etiam subiecit. Haraldus potestate deiectus laborem mox interrupit. Schola instituta et iuvenes conversi curati regnum christianum stabile non effecerunt; Ansgarius in terras Francorum rediit.
+
+Invitatio deinde e Suecia novum campum aperuit. Circa annum 829 Ansgarius cum Witmaro Bircum, emporium ad lacum Mälaren, profectus est. Missio parvam communitatem christianam instituit, adiuvantibus inter alios Hergeiro, ministro regio. Initia eo ipso valuerunt quod modesta erant: congregatio et locus cultus in societate magna ex parte non christiana, non conversio totius gentis. Continuatio ab assensu incolarum aeque ac licentia regia pendebat.
+
+## Hamburgum et destructio sedis
+
+Circa annos 831–832 Ansgarius Hamburgo praepositus mandatum pontificium ad missionem septentrionalem accepit. Dies et descriptiones institutionum in compendiis posterioribus differunt; unio posterior cum Brema non est quasi iam perfecta retro transferenda. Hamburgum sedem institutionis, cultus et auxilii missionariorum praebuit. Ansgarius iam regimen pastorale cum negotiationibus ultra fines ecclesiasticos et politicos coniungere debebat.
+
+Mors Ludovici Pii anno 840 et divisio regni facultates operis debilitaverunt. Anno 845 praedones Hamburgum cum aedificiis ecclesiasticis librisque deleverunt. Clades Ansgarium opibus privavit atque socios dispersit. Ostendit institutiones missionarias bellis et mutationibus patronorum vulnerabiles manere. Ille christianitatem septentrionalem non deseruit, sed aliam sedem qua parvae communitates sustentarentur quaesivit.
+
+## Brema et nova itinera
+
+Brema tandem talem sedem praebuit. Ansgarius posterioribus annis decennii 840 curam eius suscepit; unio autem Hamburgi et Bremae longas negotiationes postulavit, cum Brema ad provinciam ecclesiasticam Coloniensem pertinuisset. Confirmatio pontificia sub Nicolao I data est. Difficultates administrationis ad ipsam evangelizationem pertinebant: iurisdictio et reditus missionem sacerdotum atque sustentationem communitatum determinabant.
+
+Ansgarius relationes cum principibus Danorum coluit et ecclesiis locum, etiam Slesvici, impetravit. In Sueciam quoque rediit, ubi cultus christianus iterum licentiam requirebat. Rimbertus sortes consultatas et deliberationem publicam ante concessionem describit. Quamvis singulae scaenae litterarie compositae sint, narratio ostendit Ansgarium religionem simpliciter imponere non potuisse. Missio praedicatione, prudentia politica, hospitalitate et fidelitate credentium localium procedebat, novae oppositioni semper exposita.
+
+## Indoles pastoralis et hereditas
+
+Rimbertus et traditio ab eo pendens ieiunium, orationem et ministerium pauperum extollunt. Ansgarius pedes eorum lavans et ad mensam ministrans describitur. Haec episcopum missionarium cum vita monastica in qua institutus erat coniungunt. Desiderium martyrii ad eandem imaginem spiritualem pertinet: patientem tolerantiam adversorum et infirmitatis intra hanc aspirationem intellegebat, non solum ex incremento visibili vocationem aestimans.
+
+Bremae die 3 Februarii 865 mortuus est, Rimberto successore. Neque conversionem totius Scandinaviae neque institutiones ab omni ruina tutas perfecit. Opus eius fuit nexus inter communitates septentrionales et Ecclesiam universalem condere atque iterum restituere. Posterior perseverantia vitae christianae in Dania et Suecia neque fragilitatem initiorum neque necessarium laborem christianorum localium innominatorum obscurare debet.
+
+## Fontes
+
+- [Albanus Butler, Vitae sanctorum, die 3 Februarii: sanctus Ansgarius; editio consulta](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
+- [Ansgarius: exemplar textus Vicipaediae consultum, cum relationibus ad Rimbertum](https://github.com/kirito-0512/data/blob/main/dump/Ansgar.txt).
+$desc$),
+('saint-agatha','en','Agatha is an early Sicilian martyr whose ancient veneration centers on Catania. The Church remembers her Christian fidelity and resistance to coercion; later accounts of her trial and sufferings must be distinguished from the firmer evidence of her longstanding cult.',$desc$## An ancient Sicilian martyr
+
+Agatha is remembered as a virgin and martyr of Sicily, especially associated with Catania. Tradition places her death during the persecution of Decius, usually in 251. Her family background and birthplace are not securely established: Palermo and Catania both claimed her birth. The existence of an ancient cult is considerably better attested than the detailed narrative of her life.
+
+Her surviving passion belongs to hagiography rather than to a demonstrably contemporary court transcript. Butler discusses different textual traditions and later praises of the saint. His account is valuable as a witness to the received tradition, but its confidence in individual episodes should not erase the distance between the martyrdom and the surviving literary record. A responsible biography can describe that narrative without treating every speech or miracle as independently documented.
+
+## The received passion
+
+The traditional account makes Agatha a young woman of wealth and standing who had dedicated herself to Christ. Quintianus, exercising public authority at Catania, seeks possession of both her person and her property. The persecution provides him with a means of coercion. The story therefore links the public demand for religious conformity with the misuse of power against a vulnerable Christian woman.
+
+Agatha is placed in the custody of Aphrodisia, whose household is intended to break her resistance. When that attempt fails, interrogation and imprisonment follow. In the speeches attributed to her, Agatha identifies service to Christ as genuine freedom and nobility. These declarations express the theological meaning of the passion: external domination cannot compel an inward abandonment of faith.
+
+The narrative describes severe torture, including mutilation of her breast, followed by a vision in which the apostle Peter brings healing. Further punishment leads to her death in prison. The violence should not be embellished, and the visionary episode should remain identified as part of the religious narrative. No independent medical or judicial documentation establishes these details.
+
+## Evidence of early remembrance
+
+Agatha's name entered the Roman Canon, the central Eucharistic prayer of the Latin liturgical tradition. Butler also notes her presence in the ancient calendar of Carthage and the development of churches dedicated to her at Rome. Such testimony demonstrates that her remembrance spread beyond Sicily at an early date. It does not, by itself, authenticate every episode in the passion.
+
+Roman devotion included the church associated with Gregory the Great, who restored a formerly Arian place of worship to Catholic use. The circulation of relics further extended her remembrance. Medieval accounts relate the removal of her relics to Constantinople and their eventual return to Catania. These episodes belong to the history of the cult, many centuries after her death.
+
+## Catania and enduring significance
+
+At Catania, devotion to Agatha became closely connected with communal prayer during eruptions of Etna. Stories of her veil averting danger express the city's understanding of her intercession. They should be described as devotional traditions, not as a scientific explanation of volcanic events.
+
+The enduring center of her commemoration is fidelity to Christ under coercion. Her ancient liturgical presence supports that remembrance even where the historian must suspend judgment about dates, family circumstances, and narrated miracles. Keeping these distinctions preserves both the gravity of the martyr tradition and the integrity of historical inquiry.
+
+## Sources
+
+- [Alban Butler, Lives of the Saints, February 5: Saint Agatha; consulted edition](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
+$desc$),
+('saint-agatha','fr','Agathe est une martyre ancienne de Sicile dont la vénération se concentre à Catane. L’Église rappelle sa fidélité chrétienne et sa résistance à la contrainte ; les récits tardifs de son procès et de ses souffrances se distinguent des témoignages plus solides de son culte ancien.',$desc$## Une ancienne martyre sicilienne
+
+Agathe est commémorée comme vierge et martyre de Sicile, particulièrement liée à Catane. La tradition situe sa mort pendant la persécution de Dèce, habituellement en 251. Son milieu familial et son lieu de naissance ne sont pas établis avec certitude : Palerme et Catane revendiquèrent toutes deux sa naissance. L'existence d'un culte ancien est beaucoup mieux attestée que le récit détaillé de sa vie.
+
+La passion conservée relève de l'hagiographie plutôt que d'un compte rendu judiciaire certainement contemporain. Butler examine diverses traditions textuelles et des éloges postérieurs. Son récit témoigne utilement de la tradition reçue, mais son assurance concernant certains épisodes ne doit pas effacer la distance entre le martyre et les textes conservés. Une biographie rigoureuse peut décrire cette narration sans tenir chaque discours ou miracle pour un fait indépendamment documenté.
+
+## La passion reçue
+
+Le récit traditionnel présente Agathe comme une jeune femme riche et de haut rang, consacrée au Christ. Quintianus, détenteur de l'autorité publique à Catane, veut s'emparer de sa personne et de ses biens. La persécution lui fournit un instrument de contrainte. L'histoire relie ainsi l'exigence publique de conformité religieuse à l'abus de pouvoir envers une chrétienne vulnérable.
+
+Agathe est confiée à Aphrodisia, dont la maison doit briser sa résistance. Après l'échec de cette tentative viennent interrogatoires et emprisonnement. Dans les discours qui lui sont attribués, Agathe présente le service du Christ comme la véritable liberté et noblesse. Ces déclarations expriment le sens théologique de la passion : la domination extérieure ne peut imposer l'abandon intérieur de la foi.
+
+La narration décrit de graves tortures, notamment la mutilation d'un sein, puis une vision dans laquelle l'apôtre Pierre apporte la guérison. De nouveaux supplices conduisent à sa mort en prison. Il ne faut pas amplifier cette violence, et l'épisode visionnaire doit demeurer identifié comme appartenant au récit religieux. Aucun document médical ou judiciaire indépendant n'établit ces détails.
+
+## Témoignages d'une mémoire ancienne
+
+Le nom d'Agathe entra dans le Canon romain, prière eucharistique centrale de la tradition liturgique latine. Butler relève aussi sa présence dans l'ancien calendrier de Carthage et le développement d'églises romaines qui lui furent consacrées. Ces témoignages montrent que sa mémoire dépassa tôt la Sicile. Ils n'authentifient pas, à eux seuls, tous les épisodes de la passion.
+
+La dévotion romaine comprenait l'église associée à Grégoire le Grand, qui rendit au culte catholique un lieu auparavant arien. La circulation des reliques étendit encore son souvenir. Des récits médiévaux relatent leur transfert à Constantinople puis leur retour à Catane. Ces événements appartiennent à l'histoire du culte, plusieurs siècles après sa mort.
+
+## Catane et signification durable
+
+À Catane, la dévotion envers Agathe s'associa étroitement à la prière collective lors des éruptions de l'Etna. Les histoires de son voile détournant le danger expriment la compréhension locale de son intercession. Elles doivent être décrites comme traditions dévotes, non comme explications scientifiques des phénomènes volcaniques.
+
+Le centre durable de sa commémoration est la fidélité au Christ sous la contrainte. Sa présence liturgique ancienne soutient cette mémoire même lorsque l'historien suspend son jugement sur les dates, les circonstances familiales et les miracles racontés. Ces distinctions préservent à la fois la gravité de la tradition martyriale et l'intégrité de l'enquête historique.
+
+## Sources
+
+- [Alban Butler, Vies des saints, 5 février : sainte Agathe ; édition consultée](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
+$desc$),
+('saint-agatha','la','Agatha antiqua martyr Sicula est, cuius veneratio praecipue Catanae viget. Ecclesia fidelitatem eius christianam et constantiam adversus coercitionem commemorat; narrationes posteriores de iudicio et passionibus ab firmioribus testimoniis antiqui cultus eius distinguendae sunt.',$desc$## Antiqua martyr Sicula
+
+Agatha ut virgo et martyr Siciliae, praesertim Catanae coniuncta, recolitur. Traditio mortem eius in persecutione Decii, plerumque anno 251, ponit. Condicio familiae et locus nativitatis certo non constant: Panormus et Catana utraque nativitatem vindicaverunt. Cultus antiqui exsistentia multo melius quam singula vitae narratio testatur.
+
+Passio superstes ad hagiographiam pertinet, non ad acta iudicialia certo coaetanea. Butler varias traditiones textuum atque laudationes posteriores tractat. Narratio eius utilis est ut testimonium traditionis receptae; fiducia tamen de singulis eventibus distantiam inter martyrium et litteras superstites delere non debet. Vita diligenter composita narrationem describere potest quin omnem orationem vel miraculum aliunde comprobatum habeat.
+
+## Passio tradita
+
+Narratio tradita Agatham iuvenem divitem et nobilem Christo dicatam exhibet. Quintianus, publica auctoritate Catanae fungens, et personam et bona eius occupare cupit. Persecutio instrumentum coercitionis praebet. Historia ita publicam exigentiam conformitatis religiosae cum abusu potestatis adversus mulierem christianam vulnerabilem coniungit.
+
+Agatha Aphrodisiae custodiae traditur, cuius domus constantiam eius frangere debet. Hoc conatu frustrato, interrogationes et carcer sequuntur. In sermonibus ei attributis Agatha servitium Christi veram libertatem et nobilitatem esse declarat. Haec sensum theologicum passionis exprimunt: dominatio externa interiorem fidei desertionem cogere nequit.
+
+Narratio graves cruciatus, etiam mutilationem mammae, describit, deinde visionem in qua Petrus apostolus sanitatem affert. Nova supplicia ad mortem in carcere ducunt. Violentia amplificanda non est, et visio pars narrationis religiosae esse agnoscenda manet. Nullum documentum medicum aut iudiciale independens haec singula confirmat.
+
+## Testimonia memoriae antiquae
+
+Nomen Agathae in Canonem Romanum, praecipuam precem eucharisticam traditionis liturgicae Latinae, receptum est. Butler praesentiam eius in antiquo calendario Carthaginensi atque ecclesias ei Romae dicatas commemorat. Haec ostendunt memoriam eius mature extra Siciliam propagatam esse. Non tamen per se omnes eventus passionis comprobant.
+
+Devotio Romana ecclesiam Gregorio Magno coniunctam comprehendebat, qui locum antea Arianum cultui catholico restituit. Distributio reliquiarum memoriam ampliavit. Narrationes mediaevales translationem reliquiarum Constantinopolim et reditum earum Catanam referunt. Haec ad historiam cultus pertinent, multis saeculis post mortem eius.
+
+## Catana et momentum permanens
+
+Catanae devotio Agathae cum precatione communi in eruptionibus Aetnae arcte coniuncta est. Narrationes de velo eius periculum avertente sensum civitatis de intercessione exprimunt. Ut traditiones pietatis describendae sunt, non ut explicatio scientifica eventuum volcanicorum.
+
+Centrum permanens commemorationis est fidelitas Christo sub coercitione. Antiqua praesentia liturgica hanc memoriam sustentat etiam ubi historicus de diebus, rebus familiaribus et miraculis narratis iudicium suspendere debet. His distinctionibus servatis, et gravitas traditionis martyrialis et integritas investigationis historicae conservantur.
+
+## Fontes
+
+- [Albanus Butler, Vitae sanctorum, die 5 Februarii: sancta Agatha; editio consulta](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
+$desc$)
+) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
+WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
+UPDATE saint_translations AS st
+SET short_description=x.short_description, full_biography=x.full_biography
+FROM saints AS s JOIN (VALUES
+('saint-paul-miki','en','Paul Miki was a Japanese Jesuit preacher executed with twenty-five other Christians at Nagasaki in 1597. His martyrdom belongs to the early history of the Japanese Church and must be distinguished from the larger persecutions of the following century.',$desc$## A Japanese Christian preacher
+
+Paul Miki was born in Japan in the sixteenth century, conventionally around 1564. He became a member of the Society of Jesus and was known for preaching the Christian faith to his compatriots. He was Japanese, not a European missionary, and was not an ordained priest. That distinction matters when describing a group frequently remembered through its European religious leaders: Japanese Christians were active teachers and interpreters of the faith, not merely recipients of foreign instruction.
+
+The surviving account used here is Butler's synthesis of histories of the Japanese mission, drawing on earlier missionary narratives. It preserves important information about the execution but also contains outdated names, imprecise political titles, and hostile generalizations about Japanese religion. Those judgments should not be repeated as neutral historical description. The evidence supports an account of a Christian preacher's persecution without requiring a caricature of the society in which he lived.
+
+## The mission and political suspicion
+
+Christian missionary activity had developed in Japan after Francis Xavier's arrival in 1549. Jesuits and later Franciscans worked within a complicated environment of regional rulers, trade, diplomacy, and changing central authority. Conversions included people from different social backgrounds. The presence of foreign merchants and missionaries, however, meant that religious activity could become entangled with fears of outside intervention.
+
+Under Toyotomi Hideyoshi, restrictions and episodes of persecution reflected this unstable relationship. Butler reports suspicions that missionaries might prepare the way for Portuguese or Spanish conquest. Such suspicions help explain the political context but do not establish that Paul himself served a colonial project. His Japanese identity and preaching vocation should remain distinct from competing European commercial interests and from accusations used against the Christian communities.
+
+## Arrest and public punishment
+
+Paul was included among the Christians condemned in the persecution of 1596–1597. The final group comprised twenty-six people: three associated with the Jesuits, six Franciscans, and seventeen other Christians. The companions included Japanese lay believers and young boys as well as religious. They were not all priests, and their varied positions in the Church are important to understanding the collective witness.
+
+Butler describes mutilation of the prisoners' ears and their display in public places before the journey to Nagasaki. The authorities intended the punishment to warn spectators and discourage adherence to Christianity. The long transfer through towns therefore formed part of the coercion, not merely transportation to a place of execution. Accounts of the prisoners' constancy belong to the missionary testimony through which their deaths became known.
+
+## Execution at Nagasaki
+
+On 5 February 1597 the twenty-six were executed on a hill outside Nagasaki. The account describes crosses fixed in a row, the prisoners secured with cords, chains, and iron collars, and executioners completing the sentence with spears. This Japanese method should not be confused in every detail with Roman crucifixion. The shared term identifies a related form of public execution, not an identical procedure in different historical settings.
+
+The narrative also reports that priests were able to hear the condemned Christians' confessions. Their preparation was understood sacramentally and communally, as a final act of fidelity rather than a military confrontation. Later remembrance emphasizes Paul's continued profession of faith at the place of death. Where exact speeches are transmitted in martyr narratives, their religious meaning can be recognized without assuming the existence of a verbatim official transcript.
+
+## Memory and historical distinctions
+
+The twenty-six became an enduring point of reference for Japanese Catholicism. Their commemoration preserves the names of Japanese Christians alongside those of foreign missionaries. Paul is especially remembered as a preacher whose final witness continued the work of his life. The event belongs to 1597; it must not be merged with the execution of Charles Spinola and many others in 1622, or with subsequent campaigns against the Church.
+
+Butler places these events within a much longer history of persecution and missionary endurance. Reading them separately prevents the details of later imprisonments and tortures from being mistakenly assigned to Paul. It also avoids the impression that the death of the twenty-six immediately ended Christianity in Japan. Christian communities continued, although increasingly severe repression later forced many believers into concealment. Paul's biography ends at Nagasaki, while the history of the Church that remembered him continued through profound change.
+
+## Sources
+
+- [Alban Butler, Lives of the Saints, February 5: The Martyrs of Japan; consulted edition](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
+$desc$),
+('saint-paul-miki','fr','Paul Miki était un prédicateur jésuite japonais exécuté avec vingt-cinq autres chrétiens à Nagasaki en 1597. Son martyre appartient aux débuts de l’Église japonaise et doit être distingué des persécutions plus étendues du siècle suivant.',$desc$## Un prédicateur chrétien japonais
+
+Paul Miki naquit au Japon au XVIe siècle, traditionnellement vers 1564. Il entra dans la Compagnie de Jésus et se distingua par la prédication de la foi chrétienne à ses compatriotes. Japonais et non missionnaire européen, il n'était pas prêtre ordonné. Cette distinction importe pour un groupe souvent évoqué à travers ses responsables religieux européens : les chrétiens japonais enseignaient et interprétaient activement la foi, plutôt que de recevoir seulement une instruction étrangère.
+
+Le récit utilisé ici est la synthèse de Butler sur l'histoire de la mission japonaise, tributaire de narrations missionnaires antérieures. Il conserve des renseignements importants sur l'exécution, mais aussi des noms vieillis, des titres politiques imprécis et des généralisations hostiles envers les religions japonaises. Ces jugements ne doivent pas être reproduits comme descriptions historiques neutres. Le dossier permet de raconter la persécution d'un prédicateur chrétien sans caricaturer sa société.
+
+## Mission et suspicion politique
+
+L'activité missionnaire chrétienne s'était développée au Japon depuis l'arrivée de François Xavier en 1549. Jésuites puis franciscains travaillaient dans un environnement complexe de seigneurs régionaux, de commerce, de diplomatie et d'autorité centrale changeante. Les conversions touchaient différents milieux sociaux. Toutefois, la présence de marchands et de missionnaires étrangers liait parfois l'activité religieuse à la crainte d'une intervention extérieure.
+
+Sous Toyotomi Hideyoshi, restrictions et épisodes de persécution traduisaient cette relation instable. Butler rapporte le soupçon que les missionnaires préparaient une conquête portugaise ou espagnole. Ces soupçons éclairent le contexte politique sans établir que Paul servait lui-même un projet colonial. Son identité japonaise et sa vocation de prédicateur doivent rester distinctes des intérêts commerciaux européens concurrents et des accusations portées contre les communautés chrétiennes.
+
+## Arrestation et châtiment public
+
+Paul figurait parmi les chrétiens condamnés lors de la persécution de 1596–1597. Le groupe final comptait vingt-six personnes : trois liées aux jésuites, six franciscains et dix-sept autres chrétiens. Les compagnons comprenaient des fidèles laïcs japonais et de jeunes garçons autant que des religieux. Tous n'étaient pas prêtres ; leur diversité ecclésiale compte pour comprendre ce témoignage collectif.
+
+Butler décrit la mutilation des oreilles des prisonniers et leur exposition publique avant le trajet vers Nagasaki. Les autorités voulaient avertir les spectateurs et décourager l'adhésion au christianisme. Le long transfert à travers les villes participait donc de la contrainte, plutôt que du seul transport vers l'exécution. Les récits de leur constance appartiennent au témoignage missionnaire qui fit connaître leur mort.
+
+## Exécution à Nagasaki
+
+Le 5 février 1597, les vingt-six furent exécutés sur une colline près de Nagasaki. Le récit décrit des croix alignées, des prisonniers attachés par des cordes, des chaînes et des colliers de fer, puis des bourreaux achevant la sentence à coups de lance. Cette méthode japonaise ne doit pas être confondue en tous points avec la crucifixion romaine. Le terme commun désigne des formes apparentées d'exécution publique, non une procédure identique dans des contextes différents.
+
+La narration rapporte également que des prêtres purent entendre les confessions des condamnés. Leur préparation avait un sens sacramentel et communautaire : dernier acte de fidélité plutôt qu'affrontement militaire. La mémoire ultérieure insiste sur la profession de foi maintenue par Paul au lieu du supplice. Lorsque les récits martyriaux transmettent des discours précis, on peut reconnaître leur signification religieuse sans supposer un procès-verbal officiel littéral.
+
+## Mémoire et distinctions historiques
+
+Les vingt-six devinrent une référence durable du catholicisme japonais. Leur commémoration conserve les noms de chrétiens japonais aux côtés de missionnaires étrangers. Paul demeure particulièrement connu comme prédicateur dont le dernier témoignage prolongea l'œuvre de sa vie. L'événement date de 1597 ; il ne faut le confondre ni avec l'exécution de Charles Spinola et de nombreux autres en 1622 ni avec les campagnes ultérieures contre l'Église.
+
+Butler inscrit ces événements dans une histoire beaucoup plus longue de persécution et de persévérance missionnaire. Les distinguer empêche d'attribuer à Paul des emprisonnements et tortures postérieurs. Cela évite aussi de laisser croire que la mort des vingt-six mit immédiatement fin au christianisme japonais. Les communautés subsistèrent, bien que la répression croissante contraignît ensuite beaucoup de fidèles à la clandestinité. La biographie de Paul s'achève à Nagasaki ; l'histoire de l'Église qui le commémora continua à travers de profondes transformations.
+
+## Sources
+
+- [Alban Butler, Vies des saints, 5 février : les martyrs du Japon ; édition consultée](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
+$desc$),
+('saint-paul-miki','la','Paulus Miki praedicator Iaponicus e Societate Iesu fuit, cum viginti quinque aliis christianis Nagasakii anno 1597 interfectus. Eius martyrium ad primordia Ecclesiae Iaponicae pertinet atque a persecutionibus amplioribus saeculi sequentis distinguendum est.',$desc$## Praedicator christianus Iaponicus
+
+Paulus Miki in Iaponia saeculo sexto decimo, ex recepta ratione circa annum 1564, natus est. Societati Iesu adscriptus, praedicatione fidei christianae inter populares suos notus fuit. Iaponicus erat, non missionarius Europaeus, neque sacerdos ordinatus. Haec distinctio interest cum grex saepe per superiores religiosos Europaeos commemoratur: christiani Iaponici fidei magistri et interpretes actuosi erant, non tantum doctrinae externae auditores.
+
+Narratio hic adhibita est compendium Butler de historia missionis Iaponicae, ex antiquioribus relationibus missionariorum compositum. Notitias graves de supplicio servat, sed etiam nomina obsoleta, titulos politicos minus exactos et iudicia generatim infesta de religionibus Iaponicis continet. Haec iudicia quasi neutra descriptio historica repetenda non sunt. Testimonia persecutionem praedicatoris christiani narrare sinunt sine iniusta societatis eius deformatione.
+
+## Missio et suspicio politica
+
+Actio missionaria christiana in Iaponia post adventum Francisci Xaverii anno 1549 creverat. Iesuitae et postea Franciscani inter principes regionales, commercium, legationes et auctoritatem centralem mutabilem laborabant. Conversi ex variis ordinibus socialibus proveniebant. Praesentia tamen mercatorum et missionariorum externorum actionem religiosam cum timore interventus exteri implicare poterat.
+
+Sub Toyotomi Hideyoshi restrictiones et persecutiones hanc relationem instabilem exprimebant. Butler suspiciones refert missionarios conquestui Lusitanorum vel Hispanorum viam parare. Hae suspiciones rerum politicarum contextum explicant, sed Paulum ipsum consilio coloniali servivisse non probant. Identitas eius Iaponica et vocatio praedicatoris ab utilitatibus commercialibus Europaeorum inter se certantium atque accusationibus contra communitates christianas distinguendae manent.
+
+## Comprehensio et poena publica
+
+Paulus inter christianos persecutione annorum 1596–1597 damnatos fuit. Grex tandem viginti sex personas comprehendit: tres Iesuitis coniunctos, sex Franciscanos et septemdecim alios christianos. Socii fideles laicos Iaponicos et pueros aeque ac religiosos continebant. Non omnes sacerdotes erant; diversae condiciones ecclesiales ad testimonium commune intellegendum valent.
+
+Butler mutilationem aurium captivorum atque exhibitionem eorum in locis publicis ante iter Nagasakium describit. Auctoritates spectatores monere et adhaesionem christianitati impedire volebant. Longa igitur ductio per urbes coercitionis pars erat, non tantum translatio ad locum supplicii. Narrationes constantiae captivorum ad testimonium missionarium pertinent quo mortes eorum innotuerunt.
+
+## Supplicium Nagasakii
+
+Die 5 Februarii 1597 viginti sex in colle prope Nagasakium interfecti sunt. Narratio cruces ordine positas, captivos funibus, catenis et circulis ferreis colla tenentibus ligatos, carnificesque hastis sententiam perficientes describit. Haec ratio Iaponica non omnibus rebus cum crucifixione Romana confundenda est. Commune vocabulum formas supplicii publici cognatas significat, non eandem rationem in diversis condicionibus historicis.
+
+Narratio etiam sacerdotes confessiones damnatorum audire potuisse refert. Praeparatio eorum sacramentaliter et communiter intellegebatur, tamquam ultimus fidelitatis actus, non certamen militare. Memoria posterior professionem fidei a Paulo usque ad mortem continuatam extollit. Ubi sermones definiti in passionibus traduntur, sensus religiosus agnosci potest quin acta publica ad verbum conscripta exstitisse supponantur.
+
+## Memoria et distinctiones historicae
+
+Viginti sex fundamentum memoriae diuturnum catholicismi Iaponici facti sunt. Commemoratio nomina christianorum Iaponicorum una cum missionariis externis servat. Paulus praesertim ut praedicator recolitur cuius ultimum testimonium opus vitae continuavit. Eventus ad annum 1597 pertinet; neque cum supplicio Caroli Spinola et multorum aliorum anno 1622 neque cum persecutionibus posterioribus confundendus est.
+
+Butler hos eventus in multo longiore historia persecutionis et patientiae missionariae collocat. Distincte legere prohibet ne carceres et cruciatus posteriores Paulo perperam attribuantur. Vitatur etiam opinio mortem viginti sex christianitati Iaponicae statim finem imposuisse. Communitates permanserunt, quamquam gravior oppressio postea multos fideles in occultum se recipere coegit. Vita Pauli Nagasakii terminatur; historia autem Ecclesiae eum commemorantis per magnas mutationes continuata est.
+
+## Fontes
+
+- [Albanus Butler, Vitae sanctorum, die 5 Februarii: Martyres Iaponiae; editio consulta](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
+$desc$),
+('saint-jerome-emiliani','en','Jerome Emiliani, a Venetian layman transformed by captivity and conversion, organized care and education for abandoned children in northern Italy. His charitable communities became the Somascan family, whose later clerical organization should not be confused with the founder’s own lay vocation.',$desc$## A Venetian lay vocation
+
+Jerome Emiliani, also called Girolamo Miani, came from a Venetian family and initially pursued public and military responsibilities. His life belongs to the upheavals of early sixteenth-century Italy, when warfare, disease, and poverty left many children without protection. Accounts differ over his birth year and some details of his early career. More importantly, older biographies sometimes describe him as a priest, whereas Benedict XVI's 2011 message explicitly identifies him as a layman.
+
+That correction is essential to understanding the foundation associated with him. Jerome's authority arose from conversion, practical charity, and his capacity to gather collaborators, rather than from priestly ordination. Priests worked beside him, and the community later became an order of clerks regular. Its subsequent institutional identity must not be projected backward onto the founder.
+
+## Captivity and conversion
+
+The decisive event in his spiritual memory was imprisonment during the wars affecting Venetian territory. The Somascan tradition dates his liberation to the night of 27 September 1511. According to that tradition, he promised to change his life and attributed his release to the intercession of the Virgin Mary. He afterward brought his chains to the Marian shrine at Treviso as a sign of thanksgiving.
+
+Benedict XVI recalled this episode on its fifth centenary, interpreting physical release as the beginning of an interior freedom from ambition and self-interest. The miraculous circumstances belong to Jerome's received religious testimony; they should not be presented as independently reconstructed military evidence. What the subsequent career makes clear is a sustained reorientation toward the needs of people whom war and social disruption had left unprotected.
+
+## Responsibility for children
+
+Jerome's care for his orphaned nephews provided a concrete experience of guardianship. It helped connect family responsibility with a wider concern for children lacking stable homes. His charitable work did not consist only of occasional almsgiving. He sought arrangements in which children could receive food, shelter, human formation, and Christian instruction over time.
+
+During the famine and epidemic of 1528, he became deeply involved in relief in Venice. He gathered abandoned children and obtained accommodation for them, assisted by other lay people. He also worked with institutions caring for the sick. These undertakings required organization, money, cooperation, and daily service; the needs were too extensive for a single generous gesture or a merely private religious practice.
+
+## A network in northern Italy
+
+His activity expanded beyond Venice. Accounts associate him with charitable foundations at Verona, Brescia, and Bergamo, including provision for boys and girls. At Bergamo, assistance also extended to women seeking to leave prostitution. These different works responded to related forms of insecurity, although the circumstances and needs of the people concerned were not identical.
+
+Jerome attracted collaborators, including the priests Alessandro Besuzio and Agostino Bariso. A common form of life developed in the early 1530s, with Somasca, between Milan and Bergamo, becoming the community's enduring geographical center. The aim was not to withdraw from vulnerable people but to sustain service through shared prayer, discipline, and responsibility. Simplicity in accommodation, food, and clothing was part of that commitment.
+
+## Service, illness, and death
+
+The spiritual interpretation offered by Benedict XVI places love at the heart of Jerome's educational work. Technical instruction alone could not supply what abandoned children lacked. They needed patient attention and reliable relationships. This is a description of the founder's charitable purpose, not evidence that every later institution always realized it perfectly; the history of an order and the intentions of its founder remain distinguishable.
+
+Jerome continued caring for the sick and contracted the illness from which he died at Somasca on 8 February 1537. Describing him as a martyr of charity expresses the religious meaning of his service, not a judicial execution for the faith. His death also exposed the vulnerability of the young community, whose survival depended upon collaborators able to maintain its work without his personal leadership.
+
+## The community after its founder
+
+The Somascan family acquired ecclesiastical approvals and a more definite religious organization after Jerome's death. Periods of association with other reforming communities preceded its establishment as an order of clerks regular. This development explains both the clerical form known later and the importance of remembering the lay initiative at its origin.
+
+Jerome was canonized in 1767. His historical significance lies in linking conversion with sustained institutions of care, especially for children who had lost family protection. The papal description of him as a layman who animated other lay people offers a precise corrective to accounts that make holiness in this work dependent upon a priesthood he did not possess.
+
+## Sources
+
+- [Benedict XVI, Message to the Somascan order, 20 July 2011; consulted Vatican text mirror](https://raw.githubusercontent.com/lologhi/vatican/master/benedict-xvi/messages/pont-messages/2011/2011-07-20-moscone.md).
+- [Catholic Encyclopedia, Saint Jerome Emiliani; consulted historical article, with its priesthood claim corrected by the papal message](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/08343a.htm).
+$desc$),
+('saint-jerome-emiliani','fr','Jérôme Émilien, laïc vénitien transformé par la captivité et la conversion, organisa l’accueil et l’éducation d’enfants abandonnés en Italie du Nord. Ses communautés charitables devinrent la famille somasque, dont l’organisation cléricale ultérieure ne doit pas être confondue avec sa vocation laïque.',$desc$## Une vocation laïque vénitienne
+
+Jérôme Émilien, également appelé Girolamo Miani, appartenait à une famille vénitienne et exerça d'abord des responsabilités publiques et militaires. Sa vie s'inscrit dans les bouleversements italiens du début du XVIe siècle, lorsque guerre, maladie et pauvreté laissaient beaucoup d'enfants sans protection. Les récits divergent sur son année de naissance et certains détails de sa jeunesse. Surtout, des biographies anciennes le disent prêtre, tandis que le message de Benoît XVI de 2011 le désigne expressément comme laïc.
+
+Cette correction est indispensable pour comprendre sa fondation. L'autorité de Jérôme venait de sa conversion, de sa charité pratique et de son aptitude à réunir des collaborateurs, non d'une ordination sacerdotale. Des prêtres travaillaient avec lui et la communauté devint ensuite un ordre de clercs réguliers. Son identité institutionnelle postérieure ne doit pas être projetée sur le fondateur.
+
+## Captivité et conversion
+
+L'événement décisif de sa mémoire spirituelle fut son emprisonnement pendant les guerres touchant le territoire vénitien. La tradition somasque date sa libération de la nuit du 27 septembre 1511. Selon cette tradition, il promit de changer de vie et attribua sa délivrance à l'intercession de la Vierge Marie. Il porta ensuite ses chaînes au sanctuaire marial de Trévise en action de grâce.
+
+Benoît XVI rappela cet épisode pour son cinquième centenaire, interprétant la délivrance physique comme le commencement d'une libération intérieure de l'ambition et de l'intérêt personnel. Les circonstances miraculeuses appartiennent au témoignage religieux reçu de Jérôme ; elles ne constituent pas une reconstitution militaire indépendante. Son activité ultérieure manifeste cependant une réorientation durable vers les personnes que guerre et désorganisation sociale avaient privées de protection.
+
+## Responsabilité envers les enfants
+
+La garde de ses neveux orphelins donna à Jérôme une expérience concrète de la tutelle. Elle relia ses responsabilités familiales à une préoccupation plus large pour les enfants sans foyer stable. Son action ne consistait pas seulement en aumônes occasionnelles. Il recherchait des dispositions permettant de leur donner durablement nourriture, logement, formation humaine et instruction chrétienne.
+
+Pendant la famine et l'épidémie de 1528, il s'engagea profondément dans les secours à Venise. Il rassembla des enfants abandonnés et leur procura un logement, avec l'aide d'autres laïcs. Il collabora aussi avec des établissements de soins. Ces entreprises demandaient organisation, argent, coopération et service quotidien : des besoins aussi vastes ne pouvaient être satisfaits par un geste isolé ou une pratique religieuse seulement privée.
+
+## Un réseau en Italie du Nord
+
+Son activité dépassa Venise. Les récits le relient à des fondations charitables à Vérone, Brescia et Bergame, notamment pour garçons et filles. À Bergame, l'aide toucha aussi des femmes souhaitant quitter la prostitution. Ces œuvres répondaient à des formes apparentées de précarité, sans que les situations et les besoins des personnes fussent identiques.
+
+Jérôme attira des collaborateurs, notamment les prêtres Alessandro Besuzio et Agostino Bariso. Une vie commune se développa au début des années 1530 ; Somasca, entre Milan et Bergame, devint le centre géographique durable de la communauté. Il ne s'agissait pas de se retirer des personnes vulnérables, mais de soutenir le service par la prière, la discipline et les responsabilités partagées. La simplicité du logement, de la nourriture et des vêtements participait de cet engagement.
+
+## Service, maladie et mort
+
+L'interprétation spirituelle de Benoît XVI place l'amour au cœur du travail éducatif de Jérôme. La seule formation technique ne pouvait combler les manques des enfants abandonnés. Ils avaient besoin d'une attention patiente et de relations fiables. Cela décrit l'intention charitable du fondateur, sans prouver que toute institution ultérieure l'ait toujours parfaitement réalisée ; histoire d'un ordre et dessein du fondateur demeurent distincts.
+
+Jérôme continua à soigner les malades et contracta la maladie qui l'emporta à Somasca le 8 février 1537. Le qualifier de martyr de la charité exprime le sens religieux de son service, non une exécution judiciaire pour la foi. Sa mort révéla aussi la fragilité de la jeune communauté, dont la survie dépendait de collaborateurs capables de poursuivre l'œuvre sans sa direction personnelle.
+
+## La communauté après son fondateur
+
+La famille somasque obtint ses approbations ecclésiastiques et une organisation religieuse plus précise après la mort de Jérôme. Des périodes d'association avec d'autres communautés réformatrices précédèrent son établissement comme ordre de clercs réguliers. Cette évolution explique sa forme cléricale ultérieure et l'importance de rappeler son initiative laïque originelle.
+
+Jérôme fut canonisé en 1767. Son importance historique réside dans le lien entre conversion et institutions durables d'assistance, surtout pour les enfants privés de protection familiale. La description pontificale d'un laïc animateur de laïcs corrige précisément les récits faisant dépendre la sainteté de cette œuvre d'un sacerdoce qu'il ne possédait pas.
+
+## Sources
+
+- [Benoît XVI, Message à l'ordre somasque, 20 juillet 2011 ; copie du texte du Vatican consultée](https://raw.githubusercontent.com/lologhi/vatican/master/benedict-xvi/messages/pont-messages/2011/2011-07-20-moscone.md).
+- [Encyclopédie catholique, Saint Jérôme Émilien ; article historique consulté, dont l'affirmation du sacerdoce est corrigée par le message pontifical](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/08343a.htm).
+$desc$),
+('saint-jerome-emiliani','la','Hieronymus Aemilianus, laicus Venetus captivitate et conversione mutatus, curam atque educationem puerorum derelictorum in Italia septentrionali ordinavit. Communitates eius caritatis familia Somasca factae sunt, cuius posterior ordinatio clericalis cum ipsius fundatoris vocatione laicali confundenda non est.',$desc$## Vocatio laicalis Veneta
+
+Hieronymus Aemilianus, etiam Girolamo Miani appellatus, e familia Veneta ortus officia publica et militaria initio exercuit. Vita eius ad perturbationes Italiae ineuntis saeculi sexti decimi pertinet, cum bellum, morbi et paupertas multos pueros sine tutela relinquerent. Narrationes de anno nativitatis et quibusdam rebus iuventutis discrepant. Maioris momenti est quod vitae antiquiores eum interdum sacerdotem appellant, dum Benedictus XVI in nuntio anni 2011 eum laicum expresse agnoscit.
+
+Haec emendatio ad fundationem eius intellegendam necessaria est. Auctoritas Hieronymi ex conversione, caritate actuosa et facultate socios congregandi proveniebat, non ex ordinatione sacerdotali. Sacerdotes iuxta eum laboraverunt, et communitas postea ordo clericorum regularium facta est. Identitas institutionalis posterior in fundatorem retro transferenda non est.
+
+## Captivitas et conversio
+
+Eventus praecipuus memoriae eius spiritualis fuit captivitas inter bella territorium Venetum afficientia. Traditio Somasca liberationem nocti diei 27 Septembris 1511 attribuit. Secundum hanc traditionem vitam mutare promisit et liberationem intercessioni Virginis Mariae adscripsit. Catenas postea ad sanctuarium Marianum Tarvisinum in gratiarum actionem detulit.
+
+Benedictus XVI hunc eventum quinto centenario commemoravit, liberationem corporalem tamquam initium libertatis interioris ab ambitione et studio sui interpretans. Circumstantiae miraculosae ad testimonium religiosum Hieronymi receptum pertinent; non tamquam res militaris independenter restituta exhibendae sunt. Actio tamen posterior stabilem conversionem ad necessitates hominum ostendit quos bellum et perturbatio socialis sine tutela reliquerant.
+
+## Cura puerorum
+
+Cura nepotum orphanorum Hieronymo concretam tutelae experientiam praebuit. Ea officia familiaria cum ampliore sollicitudine pro pueris domicilio stabili carentibus coniunxit. Eius caritas non tantum eleemosynis interdum datis constabat. Ordinationes quaerebat quibus pueri cibum, tectum, formationem humanam et doctrinam christianam diuturne acciperent.
+
+Tempore famis et pestilentiae anni 1528 Hieronymus subsidiis Venetiis praestandis penitus incubuit. Pueros derelictos congregavit eisque domicilium, aliis laicis adiuvantibus, procuravit. Cum institutis aegrotorum quoque laboravit. Haec opera ordinationem, pecuniam, cooperationem et ministerium cotidianum requirebant; necessitates ampliores erant quam ut unico beneficio vel sola pietate privata satisfacerentur.
+
+## Opera per Italiam septentrionalem
+
+Actio eius Venetias excessit. Narrationes eum cum fundationibus caritatis Veronae, Brixiae et Bergomi coniungunt, etiam pro pueris puellisque. Bergomi auxilium ad mulieres quoque a prostitutione discedere cupientes extendebatur. Diversa opera cognatis formis instabilitatis respondebant, quamquam condiciones et necessitates personarum non eaedem erant.
+
+Hieronymus socios attraxit, inter quos sacerdotes Alexandrum Besuzio et Augustinum Bariso. Forma vitae communis primis annis decennii 1530 crevit; Somascha, inter Mediolanum et Bergomum, centrum geographicum permanens facta est. Propositum non erat ab hominibus vulnerabilibus recedere, sed ministerium oratione, disciplina et communi responsabilitate sustentare. Simplicitas domorum, cibi et vestium pars huius consilii fuit.
+
+## Ministerium, morbus et mors
+
+Interpretatio spiritualis Benedicti XVI amorem in centro educationis Hieronymi ponit. Sola institutio technica ea quae pueris derelictis deerant supplere non poterat. Attentio patiens et relationes fideles eis necessariae erant. Hoc intentionem caritatis fundatoris describit, non probat omne institutum posterius eam semper perfecte implevisse; historia ordinis ab intentionibus fundatoris distinguitur.
+
+Hieronymus aegrotis ministrare perrexit morbumque contraxit quo Somaschae die 8 Februarii 1537 mortuus est. Martyr caritatis appellari sensum religiosum ministerii exprimit, non supplicium iudiciale propter fidem. Mors etiam fragilitatem iuvenis communitatis ostendit, cuius perseverantia a sociis pendebat qui sine personali eius ductu opus continuarent.
+
+## Communitas post fundatorem
+
+Familia Somasca approbationes ecclesiasticas et certiorem ordinationem religiosam post mortem Hieronymi accepit. Tempora consociationis cum aliis communitatibus reformantibus institutionem ordinis clericorum regularium praecesserunt. Haec evolutio formam clericalem posteriorem atque momentum originis laicalis memorandae explicat.
+
+Hieronymus anno 1767 canonizatus est. Momentum eius historicum in conversione cum institutis stabilibus curae coniuncta consistit, praesertim pro pueris tutela familiari privatis. Descriptio pontificia laici alios laicos animantis narrationes emendat quae sanctitatem huius operis a sacerdotio, quod non habuit, pendere faciunt.
+
+## Fontes
+
+- [Benedictus XVI, Nuntius Ordini Somasco, die 20 Iulii 2011; exemplar textus Vaticani consultum](https://raw.githubusercontent.com/lologhi/vatican/master/benedict-xvi/messages/pont-messages/2011/2011-07-20-moscone.md).
+- [Encyclopaedia Catholica, Sanctus Hieronymus Aemilianus; articulus historicus consultus, cuius assertio de sacerdotio nuntio pontificio emendatur](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/08343a.htm).
+$desc$),
+('saint-josephine-bakhita','en','Josephine Bakhita survived enslavement in Sudan before gaining freedom and entering the Canossian religious family in Italy. Her remembered experience of violence, Christian conversion, and freely chosen service became an important Catholic witness to human dignity, forgiveness, and hope.',$desc$## A childhood interrupted by slavery
+
+Josephine Bakhita was born in the Darfur region of Sudan around 1869. Her exact birth date was unknown to her. The remembered story of her childhood was marked by abduction, sale, and the loss of the secure family world in which she had begun life. Her biography therefore cannot be narrated with the ordinary continuity of school records and family papers. Much of the early story comes from recollections preserved after she reached freedom.
+
+Enslavers repeatedly sold her within Sudan. She experienced beatings and other forms of deliberate bodily injury. Benedict XVI's account in Spe salvi recalls the lasting scars of those abuses. Such violence should be described soberly, without turning the suffering of a child into a spectacle. Nor does the later Christian interpretation of her life make the enslavement a good or necessary event.
+
+## From Sudan to Italy
+
+Bakhita eventually came into the household of the Italian consul Callisto Legnani. This change brought relief from the worst treatment she had known, but a less violent household was not equivalent to freedom. She subsequently traveled to Italy, where she learned the Venetian language and encountered people and institutions that opened possibilities previously denied to her.
+
+The distinction between improved conditions and personal liberty is important. Bakhita's life was not simply a succession of owners, ending with a kinder one. Her later refusal to return to Sudan and her decision to remain in Italy expressed her own will. A biography that records only the actions of Europeans around her would miss the agency that became decisive in the direction of her life.
+
+## Encounter with Christianity
+
+In Italy Bakhita came to know the Canossian sisters and received instruction in the Christian faith. Benedict XVI explains her conversion through the contrast between the human masters who had treated her as property and the God whom she understood to know and love her personally. In the Venetian dialect she called this divine Lord her Paron. The word acquired a different meaning from the domination she had suffered.
+
+For her, Christ's suffering also meant that the Lord she encountered was not indifferent to bodily humiliation. The theological interpretation in Spe salvi describes her as recognizing herself as a beloved daughter rather than a disposable possession. This account concerns her understanding of faith; it does not replace the legal and social reality of emancipation with a merely inward freedom, or excuse the institutions that had denied her dignity.
+
+## Baptism and a chosen religious life
+
+When a return to Sudan was proposed, Bakhita refused. Her desire to continue Christian formation and remain close to the community in which she had found support was a personal decision. On 9 January 1890 she received baptism, confirmation, and first Communion from the patriarch of Venice. These events publicly marked her entrance into the Catholic Church.
+
+She subsequently entered the Canossian religious family. On 8 December 1896 she pronounced her vows at Verona. Religious commitment was thus a freely embraced form of belonging after a childhood in which belonging to others had meant coercion. Her profession should not be described as the simple replacement of one dependency with another: its meaning in her own religious testimony rested upon consent, faith, and service.
+
+## Ordinary service and public testimony
+
+Her work included responsibilities in the sacristy and at the convent door. These duties placed her within the ordinary rhythm of a religious household, rather than a succession of dramatic public achievements. Hospitality, worship, and the practical needs of a community gave concrete form to the life she had chosen. The years following her profession were therefore not merely an epilogue to the story of captivity.
+
+Bakhita also traveled in Italy in connection with the missionary work of her congregation. Her experience became a way of communicating the hope she associated with Christian faith. Benedict XVI stresses that she did not regard this hope as a private possession. Her willingness to speak and to serve connected personal liberation with concern for other people, without erasing the historical difference between her circumstances and theirs.
+
+## Remembrance and interpretation
+
+Bakhita died in 1947 and was canonized by John Paul II. Her remembrance has become especially important in Catholic reflection on slavery, the dignity of persons, and Christian hope. The encyclical Spe salvi offers a theological reading rather than a complete critical biography, and its details about the earliest years depend on the transmitted recollections of an experience that slavery itself had disrupted.
+
+Her enduring witness should therefore be expressed without sentimentalizing captivity or minimizing its injuries. The narrative moves toward an adult woman's freedom, convictions, relationships, and work. Forgiveness in that setting is not a declaration that abuse was harmless. It belongs to the way Bakhita understood her life after violence, while the obligation to recognize and resist the degradation of human beings remains intact.
+
+## Sources
+
+- [Benedict XVI, Spe salvi, 30 November 2007, especially section 3; consulted Vatican text mirror](https://raw.githubusercontent.com/lologhi/vatican/master/benedict-xvi/encyclicals/2007-11-30-spe-salvi.md).
+$desc$),
+('saint-josephine-bakhita','fr','Joséphine Bakhita survécut à l’esclavage au Soudan avant de trouver la liberté et d’entrer chez les Canossiennes en Italie. Son expérience de la violence, sa conversion chrétienne et son service librement choisi devinrent un important témoignage catholique de dignité humaine, de pardon et d’espérance.',$desc$## Une enfance interrompue par l'esclavage
+
+Joséphine Bakhita naquit au Darfour, au Soudan, vers 1869. Elle ignorait sa date exacte de naissance. Le souvenir de son enfance était marqué par l'enlèvement, la vente et la perte du monde familial protecteur où sa vie avait commencé. Sa biographie ne possède donc pas la continuité ordinaire des dossiers scolaires et des archives familiales. Une grande partie du début repose sur des souvenirs conservés après sa libération.
+
+Des esclavagistes la vendirent plusieurs fois au Soudan. Elle subit coups et autres blessures corporelles délibérées. Le récit de Benoît XVI dans Spe salvi rappelle les cicatrices durables de ces violences. Il convient de les décrire sobrement, sans transformer la souffrance d'une enfant en spectacle. L'interprétation chrétienne ultérieure de sa vie ne rend pas davantage son asservissement bon ou nécessaire.
+
+## Du Soudan à l'Italie
+
+Bakhita entra finalement dans la maison du consul italien Callisto Legnani. Ce changement mit fin aux traitements les plus cruels qu'elle avait connus, mais une maison moins violente ne signifiait pas la liberté. Elle voyagea ensuite en Italie, apprit le vénitien et rencontra des personnes et des institutions lui ouvrant des possibilités jusque-là refusées.
+
+La distinction entre amélioration des conditions et liberté personnelle importe. Sa vie ne fut pas simplement une succession de propriétaires s'achevant avec un maître plus bienveillant. Son refus ultérieur de retourner au Soudan et sa décision de rester en Italie exprimaient sa propre volonté. Une biographie ne rapportant que les actes des Européens qui l'entouraient manquerait cette capacité d'agir devenue décisive dans son existence.
+
+## Rencontre avec le christianisme
+
+En Italie, Bakhita connut les sœurs canossiennes et reçut une instruction chrétienne. Benoît XVI explique sa conversion par le contraste entre les maîtres humains qui l'avaient traitée comme un bien et le Dieu qu'elle comprenait comme la connaissant et l'aimant personnellement. En dialecte vénitien, elle appelait ce Seigneur divin son Paron. Le mot prit un sens différent de la domination subie.
+
+Pour elle, la souffrance du Christ signifiait aussi que ce Seigneur n'était pas indifférent à l'humiliation corporelle. L'interprétation théologique de Spe salvi la décrit se reconnaissant comme fille aimée plutôt que comme possession jetable. Ce récit concerne sa compréhension de la foi ; il ne remplace pas la réalité juridique et sociale de l'émancipation par une liberté seulement intérieure et n'excuse pas les institutions ayant nié sa dignité.
+
+## Baptême et vie religieuse choisie
+
+Lorsqu'un retour au Soudan fut proposé, Bakhita refusa. Son désir de poursuivre sa formation chrétienne et de rester proche de la communauté qui l'avait soutenue était une décision personnelle. Le 9 janvier 1890, elle reçut baptême, confirmation et première communion du patriarche de Venise. Ces événements marquèrent publiquement son entrée dans l'Église catholique.
+
+Elle entra ensuite dans la famille religieuse canossienne. Le 8 décembre 1896, elle prononça ses vœux à Vérone. L'engagement religieux était ainsi une appartenance librement embrassée après une enfance où appartenir à d'autres signifiait la contrainte. Sa profession ne doit pas être décrite comme le simple remplacement d'une dépendance par une autre : selon son témoignage religieux, elle reposait sur le consentement, la foi et le service.
+
+## Service ordinaire et témoignage public
+
+Son travail comprenait des responsabilités à la sacristie et à la porterie du couvent. Ces fonctions l'inscrivaient dans le rythme ordinaire d'une maison religieuse, plutôt que dans une succession d'exploits publics. L'hospitalité, le culte et les nécessités pratiques de la communauté donnaient une forme concrète à sa vie choisie. Les années suivant sa profession ne furent donc pas un simple épilogue à la captivité.
+
+Bakhita voyagea aussi en Italie en lien avec l'activité missionnaire de sa congrégation. Son expérience devint une manière de communiquer l'espérance associée à sa foi chrétienne. Benoît XVI souligne qu'elle ne regardait pas cette espérance comme un bien privé. Sa disponibilité à parler et à servir reliait libération personnelle et souci des autres, sans effacer la différence historique entre leurs situations et la sienne.
+
+## Mémoire et interprétation
+
+Bakhita mourut en 1947 et fut canonisée par Jean-Paul II. Sa mémoire occupe une place importante dans la réflexion catholique sur l'esclavage, la dignité personnelle et l'espérance chrétienne. L'encyclique Spe salvi propose une lecture théologique plutôt qu'une biographie critique complète ; ses précisions sur la petite enfance dépendent des souvenirs transmis d'une expérience dont l'esclavage avait lui-même brisé la continuité.
+
+Son témoignage durable doit donc être exprimé sans sentimentalisme envers la captivité ni minimisation des blessures. Le récit conduit à la liberté, aux convictions, aux relations et au travail d'une femme adulte. Dans ce contexte, pardonner ne revient pas à déclarer les abus inoffensifs. Le pardon appartient à sa compréhension de sa vie après la violence, tandis que demeure entière l'obligation de reconnaître et de combattre la dégradation des êtres humains.
+
+## Sources
+
+- [Benoît XVI, Spe salvi, 30 novembre 2007, particulièrement le paragraphe 3 ; copie du texte du Vatican consultée](https://raw.githubusercontent.com/lologhi/vatican/master/benedict-xvi/encyclicals/2007-11-30-spe-salvi.md).
+$desc$),
+('saint-josephine-bakhita','la','Iosephina Bakhita servitutem in Sudania passa est antequam libertatem invenit et familiam religiosam Canossianam in Italia ingressa est. Experientia violentiae, conversio christiana et ministerium libere electum testimonium catholicum dignitatis humanae, veniae atque spei praebuerunt.',$desc$## Pueritia servitute interrupta
+
+Iosephina Bakhita in regione Darfur Sudaniae circa annum 1869 nata est. Diem nativitatis exactum ipsa ignorabat. Memoria pueritiae raptu, venditione et amissione familiae tutae in qua vitam inceperat signata est. Vita eius igitur non secundum ordinariam continuationem documentorum scholasticorum et familiarium narrari potest. Multa de primis annis ex recordationibus post libertatem servatis proveniunt.
+
+Mancipiorum mercatores eam saepius intra Sudaniam vendiderunt. Verbera aliasque iniurias corpori consulto illatas passa est. Benedictus XVI in Spe salvi cicatrices perpetuas huius violentiae commemorat. Haec sobrie describenda sunt, ne dolor puellae spectaculum fiat. Neque interpretatio christiana posterior servitutem bonam aut necessariam reddit.
+
+## A Sudania in Italiam
+
+Bakhita tandem in domum consulis Italici Callisti Legnani venit. Haec mutatio eam a crudelissimis condicionibus quas noverat levavit, sed domus minus violenta libertati non aequabatur. Postea in Italiam profecta linguam Venetam didicit atque personas institutaque cognovit quae facultates antea negatas aperuerunt.
+
+Distinctio inter meliores condiciones et libertatem personalem magni momenti est. Vita eius non simpliciter series dominorum fuit, benigniore domino terminata. Posterior recusatio in Sudaniam redeundi et consilium in Italia manendi propriam voluntatem expresserunt. Vita quae tantum acta Europaeorum circa eam narrat propriam agendi facultatem omitteret, quae ad cursum vitae determinandum praecipua facta est.
+
+## Occursus cum christianitate
+
+In Italia Bakhita sorores Canossianas cognovit et doctrinam fidei christianae accepit. Benedictus XVI conversionem explicat per discrimen inter dominos humanos qui eam ut rem tractaverant et Deum quem se personaliter cognoscere atque amare intellegebat. Dialecto Veneta hunc Dominum divinum Paron appellabat. Vocabulum sensum diversum a dominatione passa accepit.
+
+Passio Christi ei etiam significabat Dominum inventum humiliationi corporis non indifferentem esse. Interpretatio theologica in Spe salvi eam ut filiam dilectam, non possessionem abiciendam, se agnoscentem describit. Haec narratio ad intellectum eius fidei pertinet; realitatem iuridicam et socialem emancipationis mera libertate interiori non substituit, neque instituta dignitatem eius negantia excusat.
+
+## Baptismus et vita religiosa electa
+
+Cum reditus in Sudaniam propositus est, Bakhita recusavit. Desiderium formationem christianam continuandi et communitati quae eam sustentaverat propinquam manendi personale consilium erat. Die 9 Ianuarii 1890 baptismum, confirmationem et primam Communionem a patriarcha Venetiarum accepit. Hi eventus ingressum eius in Ecclesiam catholicam publice significaverunt.
+
+Deinde familiam religiosam Canossianam ingressa est. Die 8 Decembris 1896 Veronae vota nuncupavit. Consecratio religiosa ita forma pertinendi libere suscepta fuit post pueritiam in qua aliena possessio coercitionem significaverat. Professio non quasi simplex mutatio unius dependentiae in alteram describenda est: sensus eius in proprio testimonio religioso consensu, fide et ministerio nitebatur.
+
+## Ministerium ordinarium et testimonium publicum
+
+Opus eius officia in sacristia et ad portam conventus comprehendebat. Haec eam intra ordinarium domus religiosae cursum collocabant, non in seriem rerum publice mirabilium. Hospitalitas, cultus et necessitates practicae communitatis vitae electae formam concretam dabant. Anni post professionem igitur non solum epilogus historiae captivitatis fuerunt.
+
+Bakhita etiam in Italia propter opus missionarium congregationis peregrinata est. Experientia eius modus factus est spem fidei christianae coniunctam communicandi. Benedictus XVI eam hanc spem non quasi possessionem privatam aestimavisse inculcat. Voluntas loquendi et serviendi liberationem personalem cum cura aliorum coniunxit, neque discrimen historicum inter eorum condiciones et suas delevit.
+
+## Memoria et interpretatio
+
+Bakhita anno 1947 mortua et a Ioanne Paulo II canonizata est. Memoria eius in meditatione catholica de servitute, dignitate personarum et spe christiana magni momenti facta est. Litterae encyclicae Spe salvi lectionem theologicam potius quam vitam criticam integram praebent; singula primorum annorum a recordationibus traditis experientiae pendent quam ipsa servitus interrupit.
+
+Testimonium eius permanens sine captivitatis ornatu affectivo aut diminutione vulnerum exprimendum est. Narratio ad libertatem, persuasiones, relationes et opus mulieris adultae procedit. Venia hoc in contextu non declarat abusum innoxium fuisse. Pertinet ad modum quo Bakhita vitam post violentiam intellexit, dum officium degradationem hominum agnoscendi eique resistendi integrum manet.
+
+## Fontes
+
+- [Benedictus XVI, Spe salvi, die 30 Novembris 2007, praesertim numerus 3; exemplar textus Vaticani consultum](https://raw.githubusercontent.com/lologhi/vatican/master/benedict-xvi/encyclicals/2007-11-30-spe-salvi.md).
+$desc$)
+) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
+WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
+-- END_BIOGRAPHIES_FEBRUARY
+
+-- BIOGRAPHIES_MARCH
+-- END_BIOGRAPHIES_MARCH
+
+-- BIOGRAPHIES_APRIL
+UPDATE saint_translations AS st
+SET short_description = x.short_description,
+    full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-francis-of-paola', 'en',
+'Francis of Paola was a Calabrian hermit and founder of the Minims. His communities combined poverty, humility and rigorous abstinence; summoned to France, he became a spiritual counsellor at the royal court while preserving his penitential vocation.',
+$desc$## A Calabrian vocation
+
+Francis of Paola founded the Order of Minims, a religious family whose name expressed the desire to be the least among Christ's servants. Born at Paola in Calabria in 1416, according to the commonly accepted chronology, he died at Plessis-les-Tours in France on 2 April 1507. His long life linked a local movement of hermits in southern Italy with the courts and religious institutions of western Europe. The sources combine identifiable foundations and papal approvals with devotional narratives; these different kinds of evidence should not be treated as interchangeable.
+
+His parents' devotion to Francis of Assisi shaped the account of his childhood. According to the early religious tradition, they promised that he would spend a year wearing the Franciscan habit if an illness threatening his eyesight was healed. At about thirteen he fulfilled this promise in a Franciscan house. This temporary residence was not the beginning of a career as a Franciscan friar. Afterward he travelled with his parents to places of pilgrimage, including Assisi and Rome, and returned to Calabria with a strong attraction to solitude.
+
+## Solitude becomes a community
+
+Francis first withdrew on his family's property and later occupied a cave near the coast. Prayer, fasting and a materially austere existence defined this period. The traditional chronology gives approximately six years to his initial solitude and places the arrival of two companions in 1435. Cells and a chapel provided the first common buildings. What became an international order therefore began without an elaborate institutional plan: other people wished to share the life of a hermit whose reputation had spread beyond his retreat.
+
+As the community grew, Francis obtained local ecclesiastical permission to build a larger monastery and church near Paola. The Catholic Encyclopedia places this development about 1454 under the archbishop of Cosenza. Local support was important, with laypeople contributing labour and resources. Francis's withdrawal from society did not make the community indifferent to its neighbours. Those who approached him sought counsel, prayer and help, while the foundation depended on relationships with the surrounding population and with the bishops responsible for its recognition.
+
+## The Minims and their rule
+
+The emerging religious family joined poverty and humility to unusually strict abstinence. The name Minims, from the Latin for “least,” carried a deliberate spiritual meaning rather than a claim to worldly distinction. The brothers were to renounce self-importance as well as possessions. Their superiors were called correctors, terminology consistent with a community devoted to conversion of life. The rule developed over time; recognition of the community and approval of its definitive legislation were separate stages rather than one founding act.
+
+Sixtus IV authorized the community in 1474, and later approvals under Alexander VI and Julius II gave its observance a settled form. The definitive rule received approval in 1506. Its distinctive fourth vow committed the religious to a perpetual Lenten form of abstinence, in addition to poverty, chastity and obedience. This excluded meat and animal products from their ordinary diet. Francis also provided for women religious and for lay followers living in the world. The resulting religious family was related spiritually to the Franciscan tradition without being simply another Franciscan province.
+
+## A hermit at the French court
+
+Louis XI, gravely ill and impressed by reports of Francis's holiness, requested his presence in France. Francis did not readily abandon Calabria; papal intervention finally brought him to the king at Plessis-les-Tours. The encounter illustrates both the reach of his reputation and the difference between royal expectations and religious counsel. He remained with Louis until the king's death. His historical significance at court lay in spiritual assistance and moral authority, not in holding a governmental office or guaranteeing a miraculous cure.
+
+Charles VIII continued to value his advice and supported Minim foundations, including houses at Plessis and in Rome. Louis XII likewise wanted him to remain in France. Francis consequently spent his final years far from the Calabrian solitude where his vocation had begun. His order expanded into several European regions during his lifetime. Accounts of prophecy and wonders, especially the story that he crossed the Strait of Messina on his cloak, belong to the hagiographic tradition; they should be presented as such rather than as independently documented episodes.
+
+## Death and remembrance
+
+In his final illness Francis gathered his community and urged mutual charity and fidelity to its observance. The traditional account describes his reception of the sacraments and the reading of John's Passion as he died on Good Friday 1507. Leo X canonized him in 1519. His tomb was violated and his remains largely destroyed during the French religious conflicts of 1562. The enduring institutional legacy is the Minim family, with its demanding penitential rule and its insistence that humility must shape communal relationships as well as individual prayer.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. Francis of Paula,” consulted digital text](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/06231a.md).
+- [Encyclopaedia Britannica (1911), “Francis of Paola,” consulted digital text](https://github.com/shaqmughal/seekstone/blob/main/packages/harness/fixtures/vault/Encyclopedia/F/Francis%20Of%20Paola.md).
+$desc$),
+('saint-francis-of-paola', 'fr',
+'François de Paule, ermite calabrais, fonda les Minimes. Ses communautés unirent pauvreté, humilité et abstinence rigoureuse ; appelé en France, il devint conseiller spirituel à la cour royale tout en conservant sa vocation pénitentielle et sa fidélité à la prière.',
+$desc$## Une vocation calabraise
+
+François de Paule fonda l'ordre des Minimes, famille religieuse dont le nom exprimait le désir d'être les plus petits parmi les serviteurs du Christ. Né à Paule, en Calabre, en 1416 selon la chronologie généralement admise, il mourut au Plessis-lès-Tours le 2 avril 1507. Sa longue existence relia un mouvement local d'ermites d'Italie méridionale aux cours et aux institutions religieuses de l'Europe occidentale. Les sources associent des fondations et approbations pontificales identifiables à des récits dévotionnels ; ces témoignages de nature différente ne sont pas interchangeables.
+
+La dévotion de ses parents envers François d'Assise marque le récit de son enfance. Selon l'ancienne tradition religieuse, ils promirent qu'il porterait durant un an l'habit franciscain si une maladie menaçant sa vue était guérie. Vers treize ans, il accomplit cette promesse dans une maison franciscaine. Ce séjour temporaire ne constituait pas le début d'une carrière de frère franciscain. Il visita ensuite avec ses parents des lieux de pèlerinage, notamment Assise et Rome, puis revint en Calabre avec un profond attrait pour la solitude.
+
+## La solitude devient communauté
+
+François se retira d'abord sur une propriété familiale, puis dans une grotte proche de la côte. Prière, jeûne et austérité matérielle caractérisaient cette période. La chronologie traditionnelle attribue environ six ans à cette première solitude et situe l'arrivée de deux compagnons en 1435. Des cellules et une chapelle furent les premiers bâtiments communs. Le futur ordre international naquit donc sans vaste plan institutionnel : d'autres désiraient partager la vie d'un ermite dont la réputation dépassait désormais sa retraite.
+
+La communauté grandissant, François obtint l'autorisation ecclésiastique locale de construire près de Paule une église et un monastère plus importants. La Catholic Encyclopedia situe cette étape vers 1454, sous l'archevêque de Cosenza. Le soutien local fut essentiel : des laïcs apportèrent travail et ressources. Le retrait de François ne rendait pas la communauté indifférente à ses voisins. Ceux qui venaient à lui demandaient conseils, prières et aide ; la fondation dépendait aussi de ses relations avec la population et les évêques chargés de sa reconnaissance.
+
+## Les Minimes et leur règle
+
+La famille religieuse naissante associait pauvreté et humilité à une abstinence particulièrement stricte. Le nom de Minimes, tiré du latin signifiant « les plus petits », exprimait une intention spirituelle et non une distinction mondaine. Les frères devaient renoncer à l'importance personnelle comme aux possessions. Leurs supérieurs étaient appelés correcteurs, selon une terminologie adaptée à une communauté vouée à la conversion de vie. La règle se développa progressivement ; reconnaissance de la communauté et approbation de sa législation définitive furent des étapes distinctes.
+
+Sixte IV autorisa la communauté en 1474 ; les approbations ultérieures d'Alexandre VI et de Jules II stabilisèrent son observance. La règle définitive fut approuvée en 1506. Son quatrième vœu particulier engageait les religieux à une abstinence perpétuelle de type quadragésimal, outre la pauvreté, la chasteté et l'obéissance. La viande et les produits animaux étaient exclus de l'alimentation ordinaire. François prévit aussi des religieuses et des fidèles laïcs demeurant dans le monde. Cette famille était spirituellement apparentée à la tradition franciscaine sans constituer simplement une province franciscaine supplémentaire.
+
+## Un ermite à la cour de France
+
+Louis XI, gravement malade et impressionné par la réputation de sainteté de François, demanda sa venue en France. François ne quitta pas volontiers la Calabre ; une intervention pontificale le conduisit finalement auprès du roi au Plessis-lès-Tours. La rencontre montre à la fois l'étendue de sa renommée et la différence entre attentes royales et conseil religieux. Il resta auprès de Louis jusqu'à sa mort. Son importance historique à la cour tenait à son assistance spirituelle et à son autorité morale, non à une charge gouvernementale ou à la garantie d'une guérison miraculeuse.
+
+Charles VIII continua d'apprécier ses conseils et favorisa des fondations minimes, notamment au Plessis et à Rome. Louis XII souhaita également le retenir en France. François passa ainsi ses dernières années loin de la solitude calabraise où sa vocation était née. Son ordre s'étendit dans plusieurs régions européennes de son vivant. Les récits de prophéties et de prodiges, notamment la traversée du détroit de Messine sur son manteau, appartiennent à la tradition hagiographique ; ils ne doivent pas être présentés comme des épisodes indépendamment documentés.
+
+## Mort et mémoire
+
+Durant sa dernière maladie, François réunit sa communauté et recommanda la charité mutuelle et la fidélité à l'observance. Le récit traditionnel décrit la réception des sacrements et la lecture de la Passion selon Jean lorsqu'il mourut le Vendredi saint de 1507. Léon X le canonisa en 1519. Son tombeau fut profané et ses restes en grande partie détruits durant les conflits religieux français de 1562. Son héritage institutionnel durable est la famille minime, avec sa règle pénitentielle exigeante et son insistance sur une humilité façonnant les relations communautaires autant que la prière personnelle.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. Francis of Paula », texte numérique consulté](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/06231a.md).
+- [Encyclopaedia Britannica (1911), « Francis of Paola », texte numérique consulté](https://github.com/shaqmughal/seekstone/blob/main/packages/harness/fixtures/vault/Encyclopedia/F/Francis%20Of%20Paola.md).
+$desc$),
+('saint-francis-of-paola', 'la',
+'Franciscus de Paula, eremita Calaber, Ordinem Minimorum condidit. Communitates eius paupertatem, humilitatem et severam abstinentiam coniungebant; in Galliam vocatus, regibus consilia spiritualia praebuit, vocationem tamen paenitentialem atque studium orationis fideliter servans.',
+$desc$## Vocatio Calabra
+
+Franciscus de Paula Ordinem Minimorum condidit, familiam religiosam cuius nomen desiderium significabat inter Christi servos minimos esse. Paulae in Calabria anno 1416, secundum chronologiam communiter receptam, natus, apud Plessiacum prope Turones in Gallia die 2 Aprilis 1507 mortuus est. Longa eius vita coetum eremitarum Italiae meridionalis cum aulis institutisque religiosis Europae occidentalis coniunxit. Fontes fundationes et approbationes pontificias comprobabiles cum narrationibus pietatis consociant; diversa haec testimoniorum genera confundi non debent.
+
+Pietas parentum erga Franciscum Assisiensem narrationem pueritiae informavit. Secundum antiquam traditionem religiosam, promiserunt filium per annum habitum Franciscanum gestaturum, si morbus visum eius minans sanaretur. Tredecim circiter annos natus promissum in domo Franciscana implevit. Haec commoratio temporaria non initium vitae fratris Franciscani fuit. Postea cum parentibus loca peregrinationis, inter quae Assisium et Romam, visitavit, atque in Calabriam magno solitudinis desiderio rediit.
+
+## Ex solitudine communitas
+
+Franciscus primum in praedio familiae secessit, deinde speluncam prope litus occupavit. Oratio, ieiunium atque vitae materialis austeritas hoc tempus definiebant. Chronologia tradita primae solitudini sex circiter annos tribuit et adventum duorum sociorum anno 1435 ponit. Cellae et sacellum prima aedificia communia praebuerunt. Qui postea ordo internationalis factus est sine amplo consilio institutionali coepit: alii vitam eremitae participare cupiebant, cuius fama fines recessus iam excesserat.
+
+Crescente communitate, Franciscus licentiam ecclesiasticam loci impetravit ut maius monasterium ecclesiamque apud Paulam aedificaret. Catholic Encyclopedia hanc progressionem circa annum 1454 sub archiepiscopo Cosentino collocat. Auxilium vicinorum magni momenti erat, laicis operam opesque conferentibus. Franciscus, quamvis a societate recessisset, communitatem erga proximos indifferentem non fecit. Qui eum adibant consilium, preces et auxilium quaerebant; fundatio autem necessitudinibus cum populo et episcopis ad eius recognitionem pertinentibus sustentabatur.
+
+## Minimi eorumque regula
+
+Nova familia religiosa paupertati et humilitati abstinentiam singulariter strictam adiunxit. Nomen Minimorum propositum spirituale significabat, non dignitatem saecularem. Fratres propriae excellentiae studio sicut possessionibus renuntiare debebant. Superiores correctores appellabantur, vocabulo communitati ad conversionem vitae deditae consentaneo. Regula paulatim crevit; communitatis recognitio et definitivae legislationis approbatio diversi gradus fuerunt, non unus actus fundationis.
+
+Sixtus IV communitatem anno 1474 approbavit; approbationes posteriores Alexandri VI et Iulii II observantiam stabiliverunt. Regula definitiva anno 1506 approbata est. Praeter paupertatem, castitatem et oboedientiam, quartum votum proprium religiosos ad perpetuam abstinentiam quadragesimalem obligabat. Carnes et cibos ex animalibus productos ab ordinario victu excludebat. Franciscus etiam monialibus et laicis in saeculo viventibus providit. Familia inde orta traditioni Franciscanae spiritualiter coniuncta erat, nec tamen simpliciter nova provincia Franciscana.
+
+## Eremita in aula Gallica
+
+Ludovicus XI, graviter aegrotans et fama sanctitatis Franciscianae motus, praesentiam eius in Gallia petivit. Franciscus Calabriam non facile reliquit; pontificia interventio eum tandem ad regem apud Plessiacum duxit. Hic occursus tum famae amplitudinem tum discrimen inter spem regiam et consilium religiosum illustrat. Apud Ludovicum usque ad mortem regis mansit. Momentum eius historicum in aula in auxilio spirituali et auctoritate morali consistebat, non in munere gubernationis aut promissione certae sanationis miraculosae.
+
+Carolus VIII consilia eius magni aestimare perrexit et fundationes Minimorum apud Plessiacum atque Romae adiuvit. Ludovicus XII eum similiter in Gallia retinere voluit. Franciscus igitur ultimos annos longe a solitudine Calabra, ubi vocatio inceperat, egit. Ordo eius in diversas Europae regiones vivente fundatore diffusus est. Narrationes prophetiae et miraculorum, praesertim de freto Messanensi super pallium transito, ad traditionem hagiographicam pertinent, neque tamquam eventus aliis documentis comprobati proponendae sunt.
+
+## Mors et memoria
+
+In ultimo morbo Franciscus communitatem congregavit et caritatem mutuam fidelitatemque observantiae commendavit. Narratio tradita sacramenta recepta et Passionem secundum Ioannem lectam describit, dum Feria Sexta in Passione Domini anno 1507 moriebatur. Leo X eum anno 1519 canonizavit. Sepulcrum violatum est et reliquiae magna ex parte deletae in contentionibus religiosis Gallicis anni 1562. Permanens hereditas institutionalis est familia Minimorum, cum regula paenitentiali exigenti atque persuasione humilitatem necessitudines communes non minus quam orationem singularem conformare debere.
+
+## Fontes
+
+- [Catholic Encyclopedia, “St. Francis of Paula,” textus digitalis consultus](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/06231a.md).
+- [Encyclopaedia Britannica (1911), “Francis of Paola,” textus digitalis consultus](https://github.com/shaqmughal/seekstone/blob/main/packages/harness/fixtures/vault/Encyclopedia/F/Francis%20Of%20Paola.md).
+$desc$),
+('saint-isidore', 'en',
+'Isidore, bishop of Seville, joined pastoral leadership to an ambitious preservation of learning in Visigothic Spain. His Etymologies transmitted ancient knowledge to medieval readers, while his theological writings and conciliar work shaped Christian education and ecclesiastical discipline.',
+$desc$## Bishop in a changing society
+
+Isidore of Seville was a bishop, theologian, historian and compiler whose writings became fundamental resources for medieval education. Born about 560, traditionally at Cartagena, he died on 4 April 636. His family belonged to the Christian society of southern Spain. His elder brother Leander preceded him as bishop of Seville, another brother, Fulgentius, was a bishop, and his sister Florentina was a religious woman. This family setting connected his education and vocation with the development of the Church in the Visigothic kingdom.
+
+The details of his earliest education are less certain than his later literary activity. He was formed in the learned ecclesiastical environment of Seville, where Leander played a decisive role. Whether Isidore himself became a monk remains disputed; his esteem for monastic life does not establish that he made a monastic profession. He succeeded Leander around the end of the sixth century. His episcopate belonged to a period when Roman cultural inheritance, Gothic political power and Catholic institutions were being brought into new relationships.
+
+## Councils and education
+
+Isidore's responsibilities were not confined to writing. He presided at the Second Council of Seville in 619 and played a leading role at the Fourth Council of Toledo in 633. Such assemblies addressed doctrine, clerical discipline, worship and relations between the Church and the kingdom. His work continued the consolidation of Catholic Christianity after the Visigothic monarchy's abandonment of Arianism. This was a religious and political process, not simply an intellectual dispute settled by one scholar's books.
+
+Education was central to his pastoral programme. The council of 633 required episcopal centres to provide instruction for clergy, building on practices represented by Seville. Knowledge of Scripture and ecclesiastical duties needed the support of grammar and the liberal arts. Isidore's educational activity should not be confused with the modern university or the seminaries established many centuries later. Its importance lay in sustaining trained Christian ministry and maintaining access to Latin learning within the institutions available in his own society.
+
+## The Etymologies
+
+His best-known work, the Etymologiae or Origines, assembled a remarkably broad range of knowledge. Prepared late in his life and associated with his friend Braulio of Zaragoza, it circulated in twenty books. It covered language, rhetoric and dialectic, mathematical subjects, medicine, law, Scripture, ecclesiastical life, peoples, geography, animals, agriculture, buildings, clothing and everyday tools. The scope makes clear that his interest in learning extended beyond narrowly theological questions. Knowledge of the created world and human activity belonged within an ordered Christian intellectual life.
+
+The method often approached things through the explanation of their names. Many proposed derivations are not accepted by modern linguistics, and inherited natural history sometimes preserved errors alongside valuable observations. Isidore was primarily a compiler rather than an experimental investigator. He drew on Christian and classical authors, sometimes directly and sometimes through earlier collections. These limitations do not cancel the work's importance: it preserved material that might otherwise have become inaccessible and provided an exceptionally usable framework for subsequent teachers and readers.
+
+The book's success also had an ambiguous consequence. Readers could consult the convenient synthesis instead of returning to the longer works from which it drew. Yet its very accessibility made it one of the most influential educational books of the Middle Ages. Its transmission continued into the age of printing. Understanding that reception requires distinguishing Isidore's actual achievement in selection and organization from the outdated claim that a single author rescued all ancient learning from universal disappearance.
+
+## Theology, worship and history
+
+Isidore wrote much more than an encyclopedia. His Sentences organized moral and doctrinal teaching, drawing particularly on Augustine and Gregory the Great. On Ecclesiastical Offices explained worship, ecclesiastical ministries and states of life, preserving information about the Spanish liturgical tradition. His monastic rule combined practical regulation with an insistence on the shared standing before God of people entering from different social conditions. These writings show an author concerned with the formation and daily responsibilities of Christian communities.
+
+His historical works included a universal chronicle, a history of the Goths with accounts of Vandals and Sueves, and notices of Christian writers. On the Nature of Things, written for King Sisebut, presented inherited accounts of the physical world. His anti-Jewish apologetic belongs to the polemical environment of his time and should not be treated as a neutral description of Judaism. Some works later circulated under his name without secure attribution. A careful account distinguishes those uncertain ascriptions from writings that can confidently be used to understand his thought.
+
+## Death and intellectual legacy
+
+Isidore died after a long episcopate and was praised by Braulio and later Spanish councils. The Church venerates him as a saint and Doctor of the Church. His lasting influence rests on the combination of episcopal service, Christian instruction and the transmission of inherited learning. Neither modern scientific standards nor uncritical admiration adequately describes that work. He made the resources available to him serve a pastoral and educational project whose books continued to shape readers far beyond the political world in which he lived.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. Isidore of Seville,” consulted digital text](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/08186a.md).
+- [Encyclopaedia Britannica (1911), “Isidore of Seville,” consulted digital text](https://github.com/shaqmughal/seekstone/blob/main/packages/harness/fixtures/vault/Encyclopedia/I/Isidore%20Of%20Seville.md).
+$desc$),
+('saint-isidore', 'fr',
+'Isidore, évêque de Séville, unit le gouvernement pastoral à la conservation du savoir dans l’Espagne wisigothique. Ses Étymologies transmirent les connaissances antiques aux lecteurs médiévaux ; ses écrits théologiques et son œuvre conciliaire contribuèrent à l’éducation chrétienne et à la discipline ecclésiastique.',
+$desc$## Évêque dans une société en transformation
+
+Isidore de Séville fut évêque, théologien, historien et compilateur ; ses écrits devinrent des ressources fondamentales pour l'éducation médiévale. Né vers 560, traditionnellement à Carthagène, il mourut le 4 avril 636. Sa famille appartenait à la société chrétienne du sud de l'Espagne. Son frère aîné Léandre le précéda sur le siège de Séville ; un autre frère, Fulgence, fut évêque, et sa sœur Florentine était religieuse. Ce milieu familial relia son éducation et sa vocation au développement de l'Église dans le royaume wisigothique.
+
+Les détails de sa première formation sont moins certains que son activité littéraire ultérieure. Il fut formé dans le milieu ecclésiastique savant de Séville, où Léandre jouait un rôle décisif. La question de savoir s'il fut lui-même moine reste discutée ; son estime pour la vie monastique ne prouve pas une profession religieuse. Il succéda à Léandre vers la fin du VIe siècle. Son épiscopat se situe dans une période où héritage culturel romain, pouvoir politique gothique et institutions catholiques nouaient de nouvelles relations.
+
+## Conciles et éducation
+
+Ses responsabilités ne se limitaient pas à écrire. Il présida le deuxième concile de Séville en 619 et joua un rôle majeur au quatrième concile de Tolède en 633. Ces assemblées traitaient de doctrine, de discipline cléricale, du culte et des rapports entre l'Église et le royaume. Son action poursuivait l'affermissement du catholicisme après l'abandon de l'arianisme par la monarchie wisigothique. Il s'agissait d'un processus religieux et politique, non d'une simple controverse intellectuelle résolue par les livres d'un seul savant.
+
+L'éducation occupait une place centrale dans son programme pastoral. Le concile de 633 prescrivit aux centres épiscopaux d'assurer l'instruction du clergé, en développant des pratiques représentées à Séville. La connaissance des Écritures et des devoirs ecclésiastiques demandait l'appui de la grammaire et des arts libéraux. Cette activité ne doit pas être confondue avec l'université moderne ou les séminaires établis bien plus tard. Elle soutenait un ministère chrétien formé et l'accès à la culture latine dans les institutions de son temps.
+
+## Les Étymologies
+
+Son œuvre la plus connue, les Etymologiae ou Origines, réunissait des connaissances d'une ampleur remarquable. Préparée vers la fin de sa vie et associée à son ami Braulion de Saragosse, elle circula en vingt livres. Elle traitait de langue, rhétorique, dialectique, mathématiques, médecine, droit, Écriture, vie ecclésiastique, peuples, géographie, animaux, agriculture, bâtiments, vêtements et outils quotidiens. Cette étendue montre que son intérêt dépassait les questions strictement théologiques. La connaissance du monde créé et des activités humaines appartenait à une vie intellectuelle chrétienne ordonnée.
+
+Sa méthode abordait souvent les choses par l'explication de leur nom. Nombre de ses dérivations ne sont pas admises par la linguistique moderne, et l'histoire naturelle héritée conservait des erreurs avec des observations utiles. Isidore était surtout compilateur, non expérimentateur. Il puisait chez les auteurs chrétiens et classiques, directement ou à travers des recueils antérieurs. Ces limites n'annulent pas l'importance de l'œuvre : elle conserva des matériaux autrement menacés d'inaccessibilité et offrit un cadre particulièrement pratique aux enseignants et lecteurs postérieurs.
+
+Le succès du livre eut aussi une conséquence ambiguë. Les lecteurs pouvaient consulter cette synthèse commode plutôt que retourner aux œuvres plus longues utilisées. Mais cette accessibilité même en fit l'un des livres pédagogiques les plus influents du Moyen Âge. Sa transmission se poursuivit à l'époque de l'imprimerie. Comprendre cette réception suppose de distinguer son travail réel de sélection et d'organisation de l'affirmation dépassée selon laquelle un auteur unique aurait sauvé tout le savoir antique d'une disparition universelle.
+
+## Théologie, culte et histoire
+
+Isidore écrivit bien davantage qu'une encyclopédie. Ses Sentences organisaient l'enseignement moral et doctrinal en s'appuyant notamment sur Augustin et Grégoire le Grand. Les Offices ecclésiastiques expliquaient le culte, les ministères et les états de vie, conservant des renseignements sur la tradition liturgique espagnole. Sa règle monastique associait réglementation pratique et affirmation de l'égalité devant Dieu des personnes venant de conditions sociales différentes. Ces œuvres montrent son souci de la formation et des responsabilités quotidiennes des communautés chrétiennes.
+
+Ses ouvrages historiques comprenaient une chronique universelle, une histoire des Goths avec des récits concernant Vandales et Suèves, et des notices d'écrivains chrétiens. Le traité De la nature des choses, destiné au roi Sisebut, présentait les explications héritées du monde physique. Son apologétique antijuive appartient au contexte polémique de son époque et ne constitue pas une description neutre du judaïsme. Certains écrits circulèrent ensuite sous son nom sans attribution certaine. Il faut distinguer ces attributions douteuses des œuvres utilisables avec confiance pour comprendre sa pensée.
+
+## Mort et héritage intellectuel
+
+Isidore mourut après un long épiscopat ; Braulion et des conciles espagnols ultérieurs le célébrèrent. L'Église le vénère comme saint et docteur de l'Église. Son influence durable tient à l'association du service épiscopal, de l'instruction chrétienne et de la transmission du savoir reçu. Ni les normes scientifiques modernes ni l'admiration sans critique ne décrivent adéquatement son travail. Il mit les ressources disponibles au service d'un projet pastoral et éducatif dont les livres continuèrent à former les lecteurs bien au-delà de son univers politique.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. Isidore of Seville », texte numérique consulté](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/08186a.md).
+- [Encyclopaedia Britannica (1911), « Isidore of Seville », texte numérique consulté](https://github.com/shaqmughal/seekstone/blob/main/packages/harness/fixtures/vault/Encyclopedia/I/Isidore%20Of%20Seville.md).
+$desc$),
+('saint-isidore', 'la',
+'Isidorus, episcopus Hispalensis, curam pastoralem cum doctrina conservanda in Hispania Visigothica coniunxit. Etymologiae eius scientiam antiquam lectoribus medii aevi tradiderunt; scripta theologica et opera conciliaris institutionem christianam atque disciplinam ecclesiasticam diuturna auctoritate conformaverunt.',
+$desc$## Episcopus in societate mutabili
+
+Isidorus Hispalensis episcopus, theologus, historicus atque compilator fuit, cuius scripta fundamentalia institutionis mediaevalis subsidia facta sunt. Circa annum 560, secundum traditionem Carthagine Nova, natus, die 4 Aprilis 636 mortuus est. Familia eius ad societatem christianam Hispaniae meridionalis pertinebat. Leander frater maior eum in sede Hispalensi praecessit; alter frater Fulgentius episcopus fuit, soror Florentina religiosa. Haec familiae condicio educationem vocationemque eius cum progressu Ecclesiae in regno Visigothico coniunxit.
+
+Primae educationis singula minus certa sunt quam posterior actio litteraria. In docto ambitu ecclesiastico Hispalensi formatus est, ubi Leander primas partes agebat. Utrum ipse monachus fuerit adhuc disputatur; monasticae vitae aestimatio professionem monasticam non demonstrat. Leandro circa finem saeculi sexti successit. Episcopatus eius aetati pertinebat qua hereditas culturalis Romana, potestas Gothica et instituta catholica novas inter se necessitudines formabant.
+
+## Concilia et institutio
+
+Munera Isidori ad scribendum non restringebantur. Concilio Hispalensi secundo anno 619 praefuit et in concilio Toletano quarto anno 633 partes praecipuas egit. Tales conventus doctrinam, disciplinam clericalem, cultum et relationes inter Ecclesiam regnumque tractabant. Eius opera catholicam fidem confirmare perrexit postquam monarchia Visigothica Arianismum reliquerat. Haec progressio religiosa et politica erat, non mera disputatio intellectualis libris unius doctoris soluta.
+
+Institutio centrum propositi pastoralis obtinebat. Concilium anni 633 sedibus episcopalibus institutionem clericorum providere praecepit, usus Hispalenses amplificans. Cognitio Scripturae et officiorum ecclesiasticorum auxilio grammaticae artiumque liberalium indigebat. Haec actio nec cum universitate moderna nec cum seminariis multis saeculis post conditis confundenda est. Eius momentum in ministerio christiano erudito sustentando et accessu ad doctrinam Latinam intra instituta aetatis servando consistebat.
+
+## Etymologiae
+
+Opus eius notissimum, Etymologiae seu Origines, latissimum scientiae ambitum collegit. Extrema vita paratum et cum Braulione Caesaraugustano amico coniunctum, viginti libris divulgatum est. Linguam, rhetoricam, dialecticam, disciplinas mathematicas, medicinam, ius, Scripturam, vitam ecclesiasticam, populos, geographiam, animalia, agriculturam, aedificia, vestes atque instrumenta cotidiana complectebatur. Amplitudo demonstrat studium eius quaestiones stricte theologicas excessisse. Mundi creati et actionis humanae cognitio ad ordinatam vitam intellectualem christianam pertinebat.
+
+Methodus saepe res per nominum expositionem investigabat. Multae derivationes propositae a scientia linguistica hodierna non recipiuntur, et historia naturalis tradita errores cum observationibus utilibus servabat. Isidorus potius compilator quam investigator experimentalis erat. Auctoribus christianis et classicis utebatur, interdum directe, interdum per collectiones anteriores. Hi limites momentum operis non tollunt: materiam servavit quae alioquin inaccessibilis fieri potuisset et ordinem perutilem magistris lectoribusque posterioribus praebuit.
+
+Libri successus etiam ambiguum effectum habuit. Lectores compendium opportunum consulere poterant loco operum ampliorum quibus innitebatur. Ipsa tamen facilitas eum inter libros institutionis mediaevalis potentissimos numeravit. Traditio eius ad aetatem typographicam perduravit. Ad hanc receptionem intellegendam distinguendum est verum opus selectionis et ordinationis ab obsoleta affirmatione unum auctorem totam doctrinam antiquam ab universali interitu servavisse.
+
+## Theologia, cultus et historia
+
+Isidorus multo plura quam encyclopaediam scripsit. Sententiae doctrinam moralem et dogmaticam ordinabant, praesertim ex Augustino et Gregorio Magno haurientes. De ecclesiasticis officiis cultum, ministeria et status vitae explicavit, notitias traditionis liturgicae Hispanicae conservans. Regula monachorum leges practicas cum aequalitate coram Deo hominum ex diversis condicionibus socialibus venientium coniunxit. Haec scripta auctorem institutionis et cotidianorum munerum communitatum christianarum sollicitum ostendunt.
+
+Opera historica chronicon universale, historiam Gothorum cum narrationibus Vandalorum et Suevorum, atque notitias scriptorum christianorum complectebantur. De natura rerum, regi Sisebuto scriptum, doctrinas receptas de mundo physico proposuit. Apologetica eius adversus Iudaeos ad ambitum polemicum temporis pertinet neque descriptio neutra Iudaismi habenda est. Quaedam opera postea sub nomine eius sine certa attributione divulgata sunt. Narratio accurata has attributiones incertas a scriptis secure ad mentem eius intellegendam adhibendis distinguit.
+
+## Mors et hereditas intellectualis
+
+Isidorus post longum episcopatum mortuus est atque a Braulione conciliisque Hispanicis posterioribus laudatus. Ecclesia eum sanctum et Ecclesiae Doctorem veneratur. Diuturna eius auctoritas in ministerio episcopali, institutione christiana et doctrina tradenda simul consistit. Nec normae scientiae hodiernae nec admiratio sine iudicio opus apte describunt. Facultates sibi praesto positas proposito pastorali et educativo servire fecit, cuius libri lectores longe ultra mundum politicum eius conformare perrexerunt.
+
+## Fontes
+
+- [Catholic Encyclopedia, “St. Isidore of Seville,” textus digitalis consultus](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/08186a.md).
+- [Encyclopaedia Britannica (1911), “Isidore of Seville,” textus digitalis consultus](https://github.com/shaqmughal/seekstone/blob/main/packages/harness/fixtures/vault/Encyclopedia/I/Isidore%20Of%20Seville.md).
+$desc$),
+('saint-vincent-ferrer', 'en',
+'Vincent Ferrer was a Dominican preacher whose missions called large audiences to repentance during the Western Schism. Initially a committed supporter of the Avignon obedience, he eventually helped announce its abandonment and spent his final years preaching in France.',
+$desc$## Formation of a Dominican
+
+Vincent Ferrer was born at Valencia in 1350 and died at Vannes in Brittany on 5 April 1419. His public life combined theological teaching, itinerant preaching and involvement in the political and ecclesiastical crises of his age. The Western Schism, during which rival claimants asserted the papal office, was not a distant background to his vocation. It directly shaped his allegiances, employment and eventual decisions. His career therefore cannot be accurately reduced either to a sequence of miracles or to a simple narrative of uninterrupted political foresight.
+
+He entered the Order of Preachers in 1367. His Dominican formation included study at Barcelona and Toulouse and teaching philosophy at Lérida. Later he taught theology at Valencia. The combination of disciplined intellectual formation and public proclamation was characteristic of his order. His surviving or attributed works address logic, spiritual life and the schism, while collections of sermons preserve the broader memory of his preaching. The popular missionary was thus also a trained theologian who had spent substantial years in study and teaching.
+
+## Allegiance during the schism
+
+Vincent became associated with Cardinal Pedro de Luna, an energetic advocate of the Avignon obedience. Convinced that the Avignon claim was legitimate, he defended it publicly. When Pedro became the claimant Benedict XIII, Vincent served at Avignon as confessor and penitentiary. Catholic historical usage calls Benedict an antipope; Vincent's sincere belief at the time must be distinguished from the Church's eventual judgment about the rival successions. Sanctity did not give him immediate exemption from the confusion shared by many contemporaries.
+
+A grave illness in 1398 became an important turning point in the traditional account of his vocation. His biographers describe an apparition of Christ with Dominic and Francis, followed by recovery and a commission to preach repentance. The vision belongs to the religious testimony about his experience, not to independently verifiable medical history. In 1399 he obtained permission to begin the extended missionary journeys that occupied much of the remainder of his life. These journeys carried him away from court service into repeated encounters with large public audiences.
+
+## An itinerant mission
+
+Provence, the Alpine regions, parts of northern Italy and France, and extensive areas of the Iberian Peninsula received his preaching. Crowds could exceed the capacity of churches, requiring sermons in open spaces. Penitents travelled with him, and his influence involved the ordering of this mobile following as well as individual sermons. Traditional descriptions emphasize fasting, prayer, daily Mass and assistance to the sick. These practices linked his public call to conversion with a demanding personal and communal religious discipline.
+
+Judgment, repentance and the need to change one's life gave his preaching its urgency. Reports that listeners of different languages understood him helped create the tradition of a miraculous gift of tongues. The scale of crowds and conversions in early biographies cannot always be verified, and numerical claims should not be repeated as statistical records. What is clear is that his reputation crossed political boundaries and that his sermons reached people well beyond the audiences ordinarily served by a local Dominican convent.
+
+His missions also addressed Jews and Muslims within societies where religious inequality and pressure to convert were real. Older devotional accounts celebrate very large numbers of conversions without adequately separating persuasion from coercive circumstances. Such reports require caution, not repetition of triumphalist language. The Catholic Encyclopedia itself acknowledges an environment in which Jews faced baptism or loss of property. This context matters when assessing claims about missionary success, even where the precise relationship between Vincent's preaching and particular restrictive measures requires further historical investigation.
+
+## Public decisions and church unity
+
+His authority brought responsibilities in temporal affairs. After the death of Martin of Aragon, Vincent was among those charged with judging the disputed succession. He supported the decision known as the Compromise of Caspe, which brought Ferdinand of Castile to the throne. This involvement shows that his counsel was not limited to private spirituality. His standing as a preacher and religious adviser could affect decisions concerning the government and future of an entire kingdom.
+
+For years he remained loyal to Benedict XIII while urging an end to the schism. In January 1416, at Perpignan, he publicly announced the withdrawal of the Aragonese king's territories from Benedict's obedience because Benedict would not resign for the Church's peace. The change was painful and did not simply erase his earlier convictions. Vincent did not attend the Council of Constance. He resumed preaching in France, leaving the formal conciliar settlement to others while contributing to the wider movement away from a divided obedience.
+
+## Final years and reception
+
+Vincent spent his last years in Brittany and died at Vannes, where his memory remained closely associated with the cathedral. Callistus III canonized him in 1455. His enduring place in Catholic history rests on the preaching of conversion and the effort to restore ecclesial unity amid profound uncertainty. A balanced biography retains both his extraordinary pastoral energy and the historical difficulties of his choices, without presenting every later miracle narrative or every reported number of converts as equally secure evidence.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. Vincent Ferrer,” consulted digital text](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/15437a.md).
+- [Roman Breviary lessons for 5 April, consulted English text](https://github.com/DivinumOfficium/divinum-officium/blob/master/web/www/horas/English/Sancti/04-05.txt).
+$desc$),
+('saint-vincent-ferrer', 'fr',
+'Vincent Ferrier, prédicateur dominicain, appela de vastes auditoires à la conversion durant le Grand Schisme d’Occident. D’abord défenseur convaincu de l’obédience avignonnaise, il contribua finalement à annoncer son abandon et consacra ses dernières années à la prédication en France.',
+$desc$## Formation d'un dominicain
+
+Vincent Ferrier naquit à Valence en 1350 et mourut à Vannes, en Bretagne, le 5 avril 1419. Sa vie publique associa enseignement théologique, prédication itinérante et engagement dans les crises politiques et ecclésiastiques de son époque. Le Grand Schisme d'Occident, durant lequel des prétendants rivaux revendiquaient la papauté, n'était pas un simple arrière-plan de sa vocation. Il détermina ses fidélités, ses fonctions et ses décisions ultérieures. Sa carrière ne se réduit donc ni à une succession de miracles ni au récit d'une clairvoyance politique ininterrompue.
+
+Il entra dans l'ordre des Prêcheurs en 1367. Sa formation dominicaine comprit des études à Barcelone et Toulouse et l'enseignement de la philosophie à Lérida. Il enseigna ensuite la théologie à Valence. L'association de formation intellectuelle exigeante et d'annonce publique caractérisait son ordre. Ses œuvres conservées ou attribuées abordent la logique, la vie spirituelle et le schisme ; des recueils de sermons préservent plus largement la mémoire de sa prédication. Le missionnaire populaire était donc aussi un théologien formé par de longues années d'étude et d'enseignement.
+
+## Fidélité durant le schisme
+
+Vincent s'attacha au cardinal Pedro de Luna, ardent défenseur de l'obédience avignonnaise. Persuadé de sa légitimité, il la défendit publiquement. Lorsque Pedro devint le prétendant Benoît XIII, Vincent servit à Avignon comme confesseur et pénitencier. L'usage historique catholique désigne Benoît comme antipape ; la conviction sincère de Vincent doit être distinguée du jugement ultérieur de l'Église sur les successions rivales. Sa sainteté ne le préserva pas immédiatement de la confusion partagée par beaucoup de contemporains.
+
+Une grave maladie en 1398 devint un tournant important dans le récit traditionnel de sa vocation. Ses biographes décrivent une apparition du Christ avec Dominique et François, suivie d'une guérison et d'une mission de prédication pénitentielle. Cette vision appartient au témoignage religieux sur son expérience, non à une histoire médicale indépendamment vérifiable. En 1399, il obtint l'autorisation d'entreprendre les longs voyages missionnaires qui occupèrent une grande partie de sa vie restante. Ils le conduisirent du service de cour à la rencontre répétée de vastes auditoires.
+
+## Une mission itinérante
+
+La Provence, les régions alpines, des parties de l'Italie septentrionale et de la France, ainsi que de vastes territoires ibériques reçurent sa prédication. Les foules dépassaient parfois la capacité des églises, imposant des sermons en plein air. Des pénitents voyageaient avec lui ; son influence concernait l'organisation de ce groupe mobile autant que les sermons. Les descriptions traditionnelles soulignent jeûne, prière, messe quotidienne et assistance aux malades. Ces pratiques reliaient son appel public à la conversion à une discipline personnelle et communautaire exigeante.
+
+Le jugement, la pénitence et la nécessité de changer de vie donnaient à sa prédication son urgence. Les récits d'auditeurs de langues différentes le comprenant favorisèrent la tradition d'un don miraculeux des langues. L'ampleur des foules et des conversions rapportées par les premières biographies n'est pas toujours vérifiable ; leurs chiffres ne sont pas des données statistiques. Sa réputation franchissait cependant les frontières politiques, et ses sermons atteignaient des personnes bien au-delà des auditoires ordinaires d'un couvent dominicain local.
+
+Ses missions s'adressaient aussi aux juifs et aux musulmans dans des sociétés marquées par l'inégalité religieuse et les pressions à la conversion. Les anciens récits dévotionnels célèbrent de très nombreuses conversions sans distinguer suffisamment persuasion et circonstances coercitives. Ils demandent de la prudence, non la répétition d'un langage triomphaliste. La Catholic Encyclopedia reconnaît elle-même un contexte où les juifs pouvaient devoir choisir entre baptême et perte de leurs biens. Ce cadre importe pour évaluer la réussite missionnaire, même si le rapport précis entre sa prédication et certaines restrictions appelle d'autres recherches.
+
+## Décisions publiques et unité ecclésiale
+
+Son autorité lui valut des responsabilités temporelles. Après la mort de Martin d'Aragon, il participa au jugement de la succession contestée. Il soutint le compromis de Caspe, qui porta Ferdinand de Castille sur le trône. Ses conseils dépassaient donc la seule spiritualité privée. Son prestige de prédicateur et de conseiller religieux pouvait influencer des décisions concernant le gouvernement et l'avenir de tout un royaume.
+
+Durant des années, il resta fidèle à Benoît XIII tout en demandant la fin du schisme. En janvier 1416, à Perpignan, il annonça publiquement le retrait des territoires du roi d'Aragon de l'obédience de Benoît, celui-ci refusant de renoncer pour la paix de l'Église. Ce changement douloureux n'effaçait pas simplement ses convictions antérieures. Vincent n'assista pas au concile de Constance. Il reprit sa prédication en France, laissant à d'autres le règlement conciliaire tout en contribuant à l'abandon progressif d'une obédience divisée.
+
+## Dernières années et réception
+
+Vincent passa ses dernières années en Bretagne et mourut à Vannes, où sa mémoire demeura étroitement liée à la cathédrale. Calixte III le canonisa en 1455. Sa place durable dans l'histoire catholique repose sur la prédication de la conversion et l'effort pour restaurer l'unité ecclésiale au milieu de profondes incertitudes. Une biographie équilibrée conserve à la fois son énergie pastorale exceptionnelle et les difficultés historiques de ses choix, sans donner à chaque miracle tardivement raconté ni à chaque nombre de convertis la même valeur documentaire.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. Vincent Ferrer », texte numérique consulté](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/15437a.md).
+- [Leçons du Bréviaire romain pour le 5 avril, texte anglais consulté](https://github.com/DivinumOfficium/divinum-officium/blob/master/web/www/horas/English/Sancti/04-05.txt).
+$desc$),
+('saint-vincent-ferrer', 'la',
+'Vincentius Ferrerius, praedicator Dominicanus, magnas multitudines ad paenitentiam tempore schismatis occidentalis vocavit. Primo oboedientiae Avenionensis defensor firmus, tandem eius desertionem publice annuntiavit atque ultimos vitae annos in Gallia praedicando et fideles instruendo consumpsit.',
+$desc$## Formatio Dominicani
+
+Vincentius Ferrerius Valentiae anno 1350 natus est et Veneti in Britannia Armoricana die 5 Aprilis 1419 mortuus. Vita publica doctrinam theologicam, praedicationem itinerantem atque participationem discriminum politicorum et ecclesiasticorum aetatis coniunxit. Schisma occidentale, quo aemuli pontificatum sibi vindicabant, non remotus tantum vocationis ambitus erat. Fidelitates, munera et decisiones posteriores directe conformavit. Eius curriculum igitur nec ad seriem miraculorum nec ad simplicem narrationem perpetuae prudentiae politicae reduci potest.
+
+Ordinem Praedicatorum anno 1367 ingressus est. Formatio Dominicana studia Barcinone et Tolosae atque philosophiam Ilerdae docendam comprehendit. Postea theologiam Valentiae docuit. Coniunctio disciplinae intellectualis et proclamationis publicae ordini propria erat. Opera servata vel attributa logicam, vitam spiritualem et schisma tractant, dum collectiones sermonum latiorem praedicationis memoriam servant. Missionarius popularis igitur theologus institutus quoque erat, qui complures annos studio et doctrinae impenderat.
+
+## Fidelitas tempore schismatis
+
+Vincentius Petro de Luna cardinali, strenuo oboedientiae Avenionensis fautori, coniunctus est. Huius causam legitimam esse persuasus publice defendit. Petro sub nomine Benedicti XIII pontificatum vindicante, Vincentius Avenione confessor et paenitentiarius ministravit. Usus historicus catholicus Benedictum antipapam appellat; sincera Vincentii persuasio illius temporis ab extremo Ecclesiae iudicio de successionibus aemulis distinguenda est. Sanctitas eum non statim a confusione multorum aequalium liberavit.
+
+Gravis morbus anni 1398 momentum conversionis in narratione vocationis tradita obtinuit. Biographi apparitionem Christi cum Dominico et Francisco describunt, quam sanatio et mandatum paenitentiae praedicandae secuta sunt. Visio ad testimonium religiosum de experientia eius pertinet, non ad historiam medicam separatim comprobabilem. Anno 1399 licentiam accepit longa itinera missionaria incipiendi, quae magnam reliquae vitae partem occupaverunt. Haec itinera eum a ministerio aulico ad magnos auditores saepe conveniendos duxerunt.
+
+## Missio itinerans
+
+Provincia, regiones Alpinae, partes Italiae septentrionalis et Galliae atque amplae regiones paeninsulae Ibericae praedicationem eius audiverunt. Multitudines capacitatem ecclesiarum excedere poterant, ita ut sermones sub divo haberentur. Paenitentes eum sequebantur; auctoritas eius ordinationem huius comitatus mobilis non minus quam singulos sermones complectebatur. Descriptiones traditae ieiunium, orationem, Missam cotidianam et infirmorum auxilium extollunt. Haec exercitia publicam conversionis invitationem cum exigenti disciplina personali et communi coniungebant.
+
+Iudicium, paenitentia et vitae mutandae necessitas praedicationi urgentiam dabant. Narrationes auditores diversarum linguarum eum intellexisse traditionem miraculosi doni linguarum aluerunt. Numeri multitudinum et conversionum in primis biographiis non semper comprobari possunt neque pro tabulis statisticis repetendi sunt. Certum tamen est famam eius fines politicos transisse et sermones homines ultra ordinarios conventus Dominicani loci auditores attigisse.
+
+Missiones etiam Iudaeos et musulmanos alloquebantur in societatibus ubi inaequalitas religiosa et pressio conversionis verae erant. Antiquae narrationes pietatis ingentes conversionum numeros celebrant, persuasione a condicionibus coercitivis non satis distincta. Tales relationes cautelam poscunt, non sermonem triumphantem. Ipsa Catholic Encyclopedia agnoscit condicionem qua Iudaei baptismum aut bonorum iacturam subire poterant. Hic ambitus in successu missionario aestimando interest, etsi necessitudo accurata inter Vincentii praedicationem et singulas restrictiones ulteriorem investigationem historicam requirit.
+
+## Decisiones publicae et unitas Ecclesiae
+
+Auctoritas eius munera temporalia attulit. Post Martini Aragonensis mortem Vincentius inter iudices successionis controversae electus est. Decisionem, Compromissum Caspense appellatam, sustinuit, qua Ferdinandus Castellae ad thronum venit. Consilia igitur non ad spiritualitatem privatam restringebantur. Dignitas praedicatoris et consiliarii religiosi decisiones de gubernatione et futuro totius regni afficere poterat.
+
+Multos annos Benedicto XIII fidelis mansit, finem tamen schismatis urgens. Mense Ianuario 1416 Perpiniani publice annuntiavit terras regis Aragoniae ab oboedientia Benedicti recessisse, quia is pro pace Ecclesiae renuntiare nolebat. Mutatio dolorosa erat nec priores persuasiones simpliciter delevit. Vincentius concilio Constantiensi non interfuit. Praedicationem in Gallia resumpsit, compositione conciliari aliis relicta, dum ad ampliorem recessum ab oboedientia divisa conferebat.
+
+## Ultimi anni et receptio
+
+Vincentius ultimos annos in Britannia Armoricana egit et Veneti mortuus est, ubi memoria eius cum ecclesia cathedrali coniuncta mansit. Callistus III eum anno 1455 canonizavit. Locus eius permanens in historia catholica praedicatione conversionis et conatu unitatis ecclesialis inter graves incertitudines restaurandae nititur. Biographia aequa et singularem industriam pastoralem et difficultates historicas decisionum servat, neque omnibus posterioribus miraculi narrationibus vel conversionum numeris eandem certitudinem tribuit.
+
+## Fontes
+
+- [Catholic Encyclopedia, “St. Vincent Ferrer,” textus digitalis consultus](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/15437a.md).
+- [Lectiones Breviarii Romani diei 5 Aprilis, textus Anglicus consultus](https://github.com/DivinumOfficium/divinum-officium/blob/master/web/www/horas/English/Sancti/04-05.txt).
+$desc$)
+) AS x(slug, locale_code, short_description, full_biography) ON s.slug = x.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-john-baptist-de-la-salle', 'en',
+'John Baptist de La Salle, a priest of Reims, founded the Brothers of the Christian Schools. He devoted his resources and life to educating children, forming teachers and establishing a community of religious brothers whose teaching was a Christian vocation.',
+$desc$## From canon to educator
+
+John Baptist de La Salle was born at Reims on 30 April 1651 and died at Saint-Yon near Rouen on 7 April 1719. A priest from a prosperous family, he became the founder of the Institute of the Brothers of the Christian Schools. His transformation from cathedral canon to companion of poorly supported schoolteachers was gradual. The resulting institute united religious community with the daily work of education, especially for children whose families could not provide the advantages enjoyed by the wealthy.
+
+He received a substantial education at Reims and became a cathedral canon while still young. In 1670 he entered Saint-Sulpice in Paris and studied theology. The deaths of his parents interrupted this formation and required him to return to responsibility for his younger brothers and sisters. He continued preparing for the priesthood while managing family affairs. Ordained in 1678, he subsequently obtained a doctorate in theology. Nicolas Roland, a priest concerned with education and the Sisters of the Child Jesus, was an important spiritual guide.
+
+## A vocation discovered through service
+
+After Roland's death, La Salle helped secure the continuation of the sisters' work. In 1679 he encountered Adrien Nyel, who sought to establish free schools at Reims. La Salle initially offered practical assistance rather than intending to found a new religious congregation. He gradually saw that opening classrooms was insufficient if the teachers lacked formation, stability and support. Visiting them, advising them and helping with their material needs drew him into a commitment much deeper than that of a distant benefactor.
+
+He began to share meals and eventually his home with the teachers. This challenged the expectations of his social position and created tension with his family. He relinquished his canonry and distributed his inherited resources to the poor rather than making personal wealth the permanent security of the enterprise. The decision joined his circumstances to those of the men he was asking to trust in Providence. It also made clear that their common life was becoming a vocation rather than a temporary charitable arrangement.
+
+## A community of teaching brothers
+
+The emerging institute faced deaths, departures, uncertainty and opposition. La Salle sought a stable religious commitment that would sustain the schools through these difficulties. The brothers' identity was not that of priests using classrooms as an additional apostolate. Although the founder himself was a priest, he determined that the institute's members would remain lay religious, devoted to teaching. This choice preserved their particular work and distinguished the community from congregations organized around sacramental ministry and clerical careers.
+
+Shared prayer, obedience, regular observance and mutual responsibility supported the educational mission. The community was intended to be more than a supply of inexpensive labour for separate schools. Teachers needed formation and a way of life that would sustain patient attention to children. La Salle's spiritual writings repeatedly connected classroom responsibility with the service of God. Intellectual instruction and Christian formation belonged together, but the practical demands of organizing lessons and understanding pupils were not thereby made unimportant.
+
+## Educational methods and institutions
+
+His schools developed instruction suited to groups of pupils rather than relying only on individual recitation before a master. Children working at similar levels followed a common lesson, while the teacher corrected errors and monitored attention. Reading in the vernacular made learning more immediately accessible. Preparation, clear explanations, progression from simpler to harder material and attention to less able pupils were important elements. These methods grew through experience and collaboration; calling La Salle the sole inventor of every later classroom practice would exaggerate his achievement.
+
+Teacher formation was equally important. He provided training for men who would not necessarily become brothers, responding to requests for competent teachers in other communities. Educational experiments included Sunday instruction for working people and institutions adapted to more advanced or practical studies. Saint-Yon became an important centre. His Conduct of the Christian Schools brought together detailed guidance on classroom organization and teaching. Other writings addressed Christian duties, civility, prayer and meditation, showing how broadly he understood the formation of teachers and their pupils.
+
+## Trials, succession and legacy
+
+The work encountered opposition from established teaching interests and difficulties with ecclesiastical authorities. La Salle experienced removal from leadership, litigation and periods when the institute's survival appeared uncertain. These conflicts were not merely decorative episodes in an otherwise effortless foundation. They tested whether the brothers could preserve a common mission independently of the founder's personal standing. In 1717 Brother Barthélemy was elected superior, establishing leadership by a brother while La Salle was still alive.
+
+La Salle spent his final years at Saint-Yon, revising texts and supporting the community without retaining its highest office. He died on Good Friday 1719. Papal approval of the institute followed in 1725, and Leo XIII canonized him in 1900. His legacy lies in a durable form of consecrated teaching life and in educational practices attentive to both learning and character. The expansion of Lasallian education after his death should be distinguished from the smaller, frequently precarious network he personally helped build.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. John Baptist de la Salle,” consulted digital text](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/08444a.md).
+$desc$),
+('saint-john-baptist-de-la-salle', 'fr',
+'Jean-Baptiste de La Salle, prêtre de Reims, fonda les Frères des écoles chrétiennes. Il consacra ses ressources et sa vie à l’éducation des enfants, à la formation des maîtres et à une communauté de frères religieux vivant l’enseignement comme vocation chrétienne.',
+$desc$## Du canonicat à l'éducation
+
+Jean-Baptiste de La Salle naquit à Reims le 30 avril 1651 et mourut à Saint-Yon, près de Rouen, le 7 avril 1719. Prêtre issu d'une famille aisée, il fonda l'institut des Frères des écoles chrétiennes. Son passage de chanoine de cathédrale à compagnon de maîtres d'école mal soutenus fut progressif. L'institut associa communauté religieuse et travail quotidien d'éducation, notamment pour les enfants dont les familles ne pouvaient procurer les avantages réservés aux riches.
+
+Il reçut une solide éducation à Reims et devint très jeune chanoine. En 1670, il entra à Saint-Sulpice à Paris et étudia la théologie. La mort de ses parents interrompit cette formation et lui imposa la responsabilité de ses frères et sœurs plus jeunes. Il poursuivit sa préparation au sacerdoce tout en administrant les affaires familiales. Ordonné en 1678, il obtint ensuite un doctorat en théologie. Nicolas Roland, prêtre engagé dans l'éducation et auprès des Sœurs de l'Enfant-Jésus, fut un guide spirituel important.
+
+## Une vocation découverte dans le service
+
+Après la mort de Roland, La Salle contribua à assurer la continuation de l'œuvre des sœurs. En 1679, il rencontra Adrien Nyel, qui voulait établir des écoles gratuites à Reims. Il apporta d'abord une aide pratique sans projeter une nouvelle congrégation. Il comprit peu à peu que l'ouverture de classes ne suffisait pas si les maîtres manquaient de formation, de stabilité et de soutien. Visites, conseils et aide matérielle l'entraînèrent dans un engagement bien plus profond que celui d'un bienfaiteur distant.
+
+Il partagea les repas, puis sa maison, avec les maîtres. Ce choix contredisait les attentes liées à sa condition sociale et provoqua des tensions familiales. Il abandonna son canonicat et distribua son héritage aux pauvres plutôt que de faire de sa fortune la garantie permanente de l'entreprise. Sa décision associait sa condition à celle des hommes auxquels il demandait confiance en la Providence. Elle manifestait aussi que leur vie commune devenait une vocation et non un arrangement charitable provisoire.
+
+## Une communauté de frères enseignants
+
+L'institut naissant connut morts, départs, incertitude et opposition. La Salle cherchait un engagement religieux stable permettant aux écoles de traverser ces difficultés. Les frères ne devaient pas être des prêtres faisant de l'enseignement un apostolat supplémentaire. Bien que lui-même fût prêtre, il décida que les membres resteraient religieux laïcs, consacrés à l'enseignement. Ce choix protégeait leur tâche propre et distinguait la communauté des congrégations organisées autour du ministère sacramentel et des carrières cléricales.
+
+Prière commune, obéissance, observance régulière et responsabilité mutuelle soutenaient la mission éducative. La communauté ne devait pas simplement fournir une main-d'œuvre peu coûteuse à des écoles séparées. Les maîtres avaient besoin d'une formation et d'une vie soutenant leur attention patiente aux enfants. Les écrits spirituels de La Salle reliaient constamment la responsabilité scolaire au service de Dieu. Instruction intellectuelle et formation chrétienne allaient ensemble, sans rendre secondaires l'organisation des leçons ou la compréhension des élèves.
+
+## Méthodes et établissements éducatifs
+
+Ses écoles développèrent un enseignement destiné à des groupes plutôt que fondé uniquement sur la récitation individuelle devant le maître. Des enfants de niveau comparable suivaient une même leçon ; le maître corrigeait les erreurs et surveillait l'attention. L'apprentissage de la lecture en langue vernaculaire facilitait l'accès au savoir. Préparation, explications claires, progression du simple au difficile et attention aux élèves moins habiles étaient essentielles. Ces méthodes mûrirent par l'expérience et la collaboration ; le présenter comme l'inventeur unique de toute pratique scolaire ultérieure exagérerait son œuvre.
+
+La formation des maîtres était tout aussi importante. Il forma des hommes qui ne deviendraient pas nécessairement frères, répondant aux demandes d'autres communautés. Ses expériences comprirent l'instruction dominicale des travailleurs et des établissements adaptés à des études avancées ou pratiques. Saint-Yon devint un centre important. Sa Conduite des écoles chrétiennes rassemblait des indications précises sur l'organisation scolaire et l'enseignement. D'autres écrits traitaient des devoirs chrétiens, de civilité, d'oraison et de méditation, révélant l'ampleur de sa conception de la formation des maîtres et des élèves.
+
+## Épreuves, succession et héritage
+
+L'œuvre rencontra l'opposition de milieux enseignants établis et des difficultés avec des autorités ecclésiastiques. La Salle subit une destitution, des procès et des périodes où la survie de l'institut semblait incertaine. Ces conflits n'étaient pas de simples épisodes décoratifs d'une fondation facile. Ils éprouvaient la capacité des frères à conserver leur mission indépendamment de la position personnelle du fondateur. En 1717, le frère Barthélemy fut élu supérieur, établissant le gouvernement par un frère du vivant de La Salle.
+
+La Salle passa ses dernières années à Saint-Yon, révisant des textes et soutenant la communauté sans conserver sa charge suprême. Il mourut le Vendredi saint de 1719. L'approbation pontificale de l'institut suivit en 1725 ; Léon XIII le canonisa en 1900. Son héritage réside dans une forme durable de vie consacrée enseignante et dans des pratiques attentives au savoir comme au caractère. L'expansion ultérieure de l'éducation lasallienne doit être distinguée du réseau plus restreint et souvent précaire qu'il contribua personnellement à bâtir.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. John Baptist de la Salle », texte numérique consulté](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/08444a.md).
+$desc$),
+('saint-john-baptist-de-la-salle', 'la',
+'Ioannes Baptista de La Salle, presbyter Remensis, Fratres Scholarum Christianarum condidit. Opes vitamque puerorum educationi, magistrorum institutioni et communitati fratrum religiosorum dedicavit, qui munus docendi tamquam vocationem christianam in vita communi exercerent.',
+$desc$## A canonicatu ad educationem
+
+Ioannes Baptista de La Salle Remis die 30 Aprilis 1651 natus est et apud Sanctum Ionem prope Rothomagum die 7 Aprilis 1719 mortuus. Presbyter e familia opulenta ortus, Institutum Fratrum Scholarum Christianarum condidit. Mutatio a canonico cathedrali ad socium magistrorum scholarum parum sustentatorum paulatim facta est. Institutum inde ortum communitatem religiosam cum cotidiano educationis labore coniunxit, praesertim pro pueris quorum familiae commoda divitum praebere non poterant.
+
+Solidam educationem Remis accepit et iuvenis canonicus factus est. Anno 1670 seminarium Sancti Sulpicii Lutetiae ingressus theologiam studuit. Mors parentum formationem interrupit eumque ad curam fratrum sororumque minorum revocavit. Ad sacerdotium se parare perrexit, dum negotia familiarum administrabat. Anno 1678 ordinatus, postea doctoratum theologiae obtinuit. Nicolaus Roland, presbyter educationis et Sororum a Iesu Infante sollicitus, magni momenti moderator spiritualis fuit.
+
+## Vocatio per servitium inventa
+
+Post Roland mortem La Salle continuationem operis sororum adiuvit. Anno 1679 Adrianum Nyel convenit, qui scholas gratuitas Remis instituere volebat. Primo auxilium practicum praebuit, non novam congregationem fundare intendens. Paulatim intellexit classes aperire non sufficere, si magistris formatio, stabilitas et subsidium deessent. Eos visitando, monendo atque necessitates materiales sublevando, ad officium multo altius quam benefactoris remoti deductus est.
+
+Mensam et tandem domum cum magistris communicavit. Hoc consilium exspectationibus condicionis socialis repugnabat et difficultates familiares peperit. Canonicatui renuntiavit et hereditatem pauperibus distribuit, potius quam opes proprias perpetuum operis praesidium faceret. Ita suam condicionem cum viris coniunxit quos Providentiae confidere rogabat. Simul apparuit vitam communem vocationem fieri, non temporarium caritatis institutum.
+
+## Communitas fratrum docentium
+
+Institutum nascens mortes, discessus, incertitudines et oppositionem expertum est. La Salle stabile vinculum religiosum quaerebat quod scholas per difficultates sustentaret. Fratres non futuri erant sacerdotes quibus scholae apostolatus additus essent. Quamvis fundator presbyter esset, sodales religiosos laicos docendi operi deditos manere constituit. Haec electio munus proprium servabat et communitatem a congregationibus circa ministerium sacramentale et curriculum clericale ordinatis distinguebat.
+
+Oratio communis, oboedientia, observantia regularis atque mutua responsabilitas missionem educativam sustentabant. Communitas plus esse debebat quam operariorum vilis copia singulis scholis. Magistri formatione et vitae ratione indigebant quae patientem puerorum curam sustentaret. Scripta spiritualia La Salle munus scholae cum Dei servitio saepe coniungebant. Institutio intellectualis et formatio christiana simul procedebant, sed necessitates practicae lectiones ordinandi discipulosque intellegendi non minuebantur.
+
+## Methodi et instituta educativa
+
+Scholae eius doctrinam coetibus aptam explicaverunt, non tantum recitationi singulari coram magistro innixam. Pueri similis gradus eandem lectionem sequebantur, magistro errores corrigente et attentionem observante. Lectio lingua vernacula doctrinam facilius accessibilem reddebat. Praeparatio, explanationes clarae, progressus a simplicibus ad difficiliora et cura discipulorum minus capacium magni momenti erant. Methodi usu et cooperatione creverunt; eum solum inventorem omnium usuum scholarum posteriorum appellare opus exaggeraret.
+
+Magistrorum formatio aeque magni momenti erat. Viros instituit qui non necessario fratres fierent, petitionibus aliarum communitatum respondens. Experimenta educativa institutionem dominicalem operariorum et domos studiis altioribus vel practicis aptatas comprehenderunt. Sanctus Ion magni momenti centrum factus est. Conduite des écoles chrétiennes accurata monita de ordinatione scholae et doctrina collegit. Alia scripta officia christiana, civilitatem, orationem et meditationem tractabant, amplitudinem formationis magistrorum discipulorumque ostendentia.
+
+## Probationes, successio et hereditas
+
+Opus oppositionem magistrorum iam constitutorum et difficultates cum auctoritatibus ecclesiasticis invenit. La Salle amotionem a regimine, lites et tempora quibus institutum periturum videbatur expertus est. Hae contentiones non mera ornamenta facilis fundationis erant. Probabant num fratres missionem communem independenter a condicione personali fundatoris servare possent. Anno 1717 frater Bartholomaeus superior electus est, ita regimen fratris vivente adhuc La Salle constitutum est.
+
+Ultimos annos apud Sanctum Ionem egit, scripta recognoscens et communitatem adiuvans, summo tamen munere deposito. Feria Sexta in Passione Domini anni 1719 mortuus est. Approbatio pontificia instituti anno 1725 secuta est; Leo XIII eum anno 1900 canonizavit. Hereditas eius in stabili forma vitae consecratae docentis et in methodis doctrinae morumque studiosis consistit. Expansio educationis Lasallianae post mortem ab angustiore saepeque incerto reticulo quod ipse condere adiuvit distinguenda est.
+
+## Fontes
+
+- [Catholic Encyclopedia, “St. John Baptist de la Salle,” textus digitalis consultus](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/08444a.md).
+$desc$),
+('saint-stanislaus', 'en',
+'Stanislaus, bishop of Kraków, was killed in 1079 after conflict with King Bolesław II. Venerated as a martyr, he became an important figure in Polish Christian memory, although surviving narratives do not securely establish every circumstance of his life and death.',
+$desc$## A bishop known through disputed narratives
+
+Stanislaus of Kraków was an eleventh-century Polish bishop whose death in 1079 became central to his veneration as a martyr. He is associated with Szczepanów as his birthplace and with the episcopal church of Kraków as his principal field of service. Precise details of his early life come largely from later tradition. No contemporary biography survives, and the extended life prepared around the period of his canonization contains substantial legendary material. This limits how confidently a continuous personal narrative can be reconstructed.
+
+The traditional account names his parents as members of a devout family and describes his education, ordination and service under Bishop Lambert. Reports that he studied at Paris are uncertain. Stories of distributing his inheritance to the poor portray a pastoral ideal, but they do not have the same evidentiary standing as his historical episcopate. His memory should not be made more definite by assigning secure dates or motives to events for which the surviving witnesses are late.
+
+## Conflict with royal power
+
+As bishop, Stanislaus came into serious conflict with King Bolesław II. The later ecclesiastical narrative presents him as a shepherd who rebuked the ruler's cruelty and sexual misconduct and defended people suffering under royal power. It also describes disputes involving church property and the punishment of nobles. These accounts preserve the Church's interpretation of his resistance, but they cannot by themselves resolve every political question surrounding the confrontation.
+
+According to the developed hagiographic tradition, repeated admonitions failed and Stanislaus excommunicated the king. The bishop then withdrew to the church of Saint Michael, where Bolesław ordered his death. When attendants would not strike him, the king is said to have killed him personally during Mass. The familiar scene expresses the memory of a bishop attacked in the exercise of his sacred ministry. Its detailed staging should nevertheless be identified as later tradition rather than an eyewitness report.
+
+## Death and the growth of veneration
+
+The secure core is the bishop's violent death in the conflict of 1079, not every detail of the subsequent narrative. Even the calendar traditions associated with his death and feast differ. A responsible biography can acknowledge those differences without altering the independent liturgical or chronological data maintained elsewhere in this inventory. Calling him a martyr states the Church's recognition of his witness; it does not remove the need to distinguish that recognition from historical certainty about each accusation exchanged between bishop and king.
+
+His body was first associated with Saint Michael's and was transferred to Kraków's cathedral in 1088 according to the ecclesiastical account. Innocent IV canonized him at Assisi in 1253. The interval between death and canonization was also the period in which his story acquired fuller literary form. Later Polish devotion made him an enduring example of episcopal responsibility and moral opposition to abuses of power.
+
+## Remembering without embellishment
+
+Stanislaus's importance does not depend on inventing a complete childhood, reconstructing private conversations or treating miraculous episodes as documentary evidence. The surviving tradition supports a shorter, qualified biography. It preserves the memory of a real bishop, a lethal confrontation with royal authority and a lasting cult centred on Kraków. Historical restraint allows those elements to remain visible while avoiding the mistaken impression that the richly developed medieval legend is a contemporary record.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. Stanislaus of Cracow,” consulted digital text](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/14246a.md).
+$desc$),
+('saint-stanislaus', 'fr',
+'Stanislas, évêque de Cracovie, fut tué en 1079 après un conflit avec le roi Boleslas II. Vénéré comme martyr, il occupa une place importante dans la mémoire chrétienne polonaise, bien que les récits conservés ne fixent pas sûrement toutes les circonstances.',
+$desc$## Un évêque connu par des récits discutés
+
+Stanislas de Cracovie était un évêque polonais du XIe siècle dont la mort en 1079 devint centrale dans sa vénération comme martyr. Szczepanów est présenté comme son lieu de naissance et l'Église de Cracovie comme son principal champ de service. Les précisions concernant sa jeunesse proviennent surtout de traditions postérieures. Aucune biographie contemporaine ne subsiste ; la vie développée autour de sa canonisation contient beaucoup d'éléments légendaires. Ces limites empêchent de reconstituer avec assurance un récit personnel continu.
+
+Le récit traditionnel présente ses parents comme une famille pieuse et décrit sa formation, son ordination et son service auprès de l'évêque Lambert. Ses études supposées à Paris restent incertaines. Les histoires de distribution de son héritage aux pauvres expriment un idéal pastoral, sans posséder la même valeur documentaire que son épiscopat historique. Sa mémoire ne doit pas être artificiellement précisée par des dates ou des motifs assurés lorsque les témoignages conservés sont tardifs.
+
+## Le conflit avec le pouvoir royal
+
+Stanislas entra comme évêque dans un grave conflit avec le roi Boleslas II. Le récit ecclésiastique postérieur le présente comme un pasteur dénonçant la cruauté et les désordres sexuels du souverain, et défendant les victimes du pouvoir royal. Il évoque aussi des litiges concernant des biens ecclésiastiques et le châtiment de nobles. Ces récits conservent l'interprétation ecclésiale de sa résistance, sans résoudre à eux seuls toutes les questions politiques entourant l'affrontement.
+
+Selon la tradition hagiographique développée, les avertissements répétés demeurèrent vains et Stanislas excommunia le roi. L'évêque se retira ensuite dans l'église Saint-Michel, où Boleslas ordonna sa mort. Les serviteurs refusant de le frapper, le roi l'aurait tué lui-même pendant la messe. Cette scène familière exprime le souvenir d'un évêque attaqué dans l'exercice de son ministère sacré. Sa mise en scène détaillée doit toutefois être identifiée comme tradition postérieure, non comme témoignage oculaire.
+
+## Mort et développement de la vénération
+
+Le noyau assuré est la mort violente de l'évêque dans le conflit de 1079, non chaque détail du récit ultérieur. Même les traditions calendaires concernant sa mort et sa fête diffèrent. Une biographie responsable peut reconnaître ces différences sans modifier les données liturgiques ou chronologiques indépendantes conservées ailleurs dans cet inventaire. Le titre de martyr exprime la reconnaissance ecclésiale de son témoignage ; il ne dispense pas de la distinguer de la certitude historique concernant chaque accusation entre évêque et roi.
+
+Son corps fut d'abord associé à Saint-Michel, puis transféré dans la cathédrale de Cracovie en 1088 selon le récit ecclésiastique. Innocent IV le canonisa à Assise en 1253. L'intervalle entre mort et canonisation fut aussi celui où son histoire acquit une forme littéraire plus développée. La dévotion polonaise ultérieure en fit un exemple durable de responsabilité épiscopale et d'opposition morale aux abus du pouvoir.
+
+## Une mémoire sans embellissement
+
+L'importance de Stanislas n'exige ni enfance entièrement inventée, ni conversations privées reconstituées, ni épisodes miraculeux traités comme preuves documentaires. La tradition conservée justifie une biographie plus courte et nuancée. Elle garde le souvenir d'un évêque réel, d'une confrontation mortelle avec l'autorité royale et d'un culte durable centré sur Cracovie. La retenue historique préserve ces éléments sans donner l'impression trompeuse que la riche légende médiévale constitue un document contemporain.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. Stanislaus of Cracow », texte numérique consulté](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/14246a.md).
+$desc$),
+('saint-stanislaus', 'la',
+'Stanislaus, episcopus Cracoviensis, anno 1079 post contentionem cum Boleslao II rege occisus est. Ut martyr veneratus, in memoria christiana Polonorum claruit, quamvis narrationes servatae omnes vitae mortisque circumstantias certo definire non permittant.',
+$desc$## Episcopus ex narrationibus disputatis cognitus
+
+Stanislaus Cracoviensis episcopus Polonus saeculi undecimi fuit, cuius mors anno 1079 centrum venerationis ut martyris facta est. Szczepanów cum ortu eius et Ecclesia Cracoviensis cum praecipuo ministerio coniunguntur. Primae vitae singula maxime ex traditione posteriori proveniunt. Nulla biographia contemporanea superest, et amplior vita circa canonizationem parata multam materiam fabulosam continet. Hinc limites certae reconstructionis continuae narrationis personalis oriuntur.
+
+Traditio parentes pios fuisse narrat atque educationem, ordinationem et ministerium sub Lamberto episcopo describit. Studia Lutetiae facta incerta sunt. Narrationes hereditatis pauperibus distributae exemplar pastorale exprimunt, sed eandem vim testimonii ac episcopatus historicus non habent. Memoria eius non est certior facienda assignando dies aut proposita certa eventibus quorum testes servati seriores sunt.
+
+## Contentio cum potestate regia
+
+Stanislaus episcopus in gravem contentionem cum Boleslao II rege venit. Narratio ecclesiastica posterior eum pastorem exhibet qui crudelitatem et flagitia sexualia regis reprehendit atque homines sub potestate regia patientes defendit. Etiam lites de bonis Ecclesiae et nobilium suppliciis describit. Hae narrationes interpretationem ecclesialem resistentiae servant, sed omnes quaestiones politicas circa conflictum per se solvere non possunt.
+
+Secundum traditionem hagiographicam explicatam, monitiones repetitae nihil profecerunt et Stanislaus regem excommunicavit. Episcopus ad ecclesiam Sancti Michaelis recessit, ubi Boleslaus mortem eius iussit. Ministris eum ferire recusantibus, rex ipse eum inter Missam occidisse dicitur. Nota haec scaena memoriam episcopi in sacro ministerio aggressi exprimit. Singula tamen eius ordinatio ut traditio posterior, non testimonium oculatum, indicanda est.
+
+## Mors et venerationis progressus
+
+Nucleus certus est mors violenta episcopi in conflictu anni 1079, non omnia narrationis posterioris singula. Etiam traditiones calendarii de morte et festo differunt. Biographia prudens has differentias agnoscere potest sine mutatione datorum liturgicorum vel chronologicorum independenter alibi in hoc inventario servatorum. Martyris titulus recognitionem ecclesialem testimonii significat; non tollit necessitatem hanc recognitionem a certitudine historica de singulis accusationibus inter episcopum et regem distinguendi.
+
+Corpus primo cum Sancto Michaele coniunctum, deinde secundum narrationem ecclesiasticam anno 1088 ad cathedralem Cracoviensem translatum est. Innocentius IV eum Assisii anno 1253 canonizavit. Intervallum inter mortem et canonizationem etiam tempus fuit quo historia ampliorem formam litterariam accepit. Pietas Polona posterior eum permanens exemplum responsabilitatis episcopalis et oppositionis moralis adversus abusus potestatis fecit.
+
+## Memoria sine ornamentis fictis
+
+Momentum Stanislai non postulat pueritiam integram fingere, colloquia privata reconstruere aut miracula pro documentis habere. Traditio servata breviorem et cautam biographiam sustinet. Memoriam veri episcopi, conflictus letalis cum auctoritate regia et cultus duraturi circa Cracoviam servat. Moderatio historica haec elementa visibilia retinet, falsa tamen opinione vitata quasi legenda mediaevalis amplificata documentum contemporaneum sit.
+
+## Fontes
+
+- [Catholic Encyclopedia, “St. Stanislaus of Cracow,” textus digitalis consultus](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/14246a.md).
+$desc$),
+('saint-martin-i', 'en',
+'Martin I, pope and martyr, defended the teaching that Christ has both a divine and a human will. Arrested by imperial authority after the Lateran council of 649, he endured imprisonment, public humiliation and exile, dying at Cherson in 655.',
+$desc$## Pope in a Christological controversy
+
+Martin I was a native of Todi in Italy and became bishop of Rome in 649. He died in exile at Cherson in the Crimea in 655. The exact chronology of some stages of his election, transportation and imprisonment is disputed in the historical literature, but the central sequence is clear. His pontificate brought a direct confrontation between the Roman Church's doctrinal judgment and an imperial policy intended to control a controversy over the person and activity of Jesus Christ.
+
+Before his election Martin had represented Pope Theodore I at Constantinople. That experience acquainted him with the imperial court and the theological disputes troubling the eastern churches. Little securely established information survives about his childhood, and later statements about a particular monastic affiliation are not needed to explain his public career. After succeeding Theodore, he was consecrated without waiting for the customary imperial confirmation. His decision indicated the urgency with which he understood the Church's situation.
+
+## Two wills in the one Christ
+
+The immediate controversy concerned Monothelitism, the teaching that Christ has only one will. The Catholic position defended by Martin affirmed both a divine will and a genuinely human will in the one person of the incarnate Son. This did not mean two competing persons or a sinful opposition within Christ. It safeguarded the completeness of the human nature assumed by the Word. A human nature without its proper willing would not adequately express the humanity confessed by the Church.
+
+Imperial attempts at settlement had included the Ecthesis associated with Heraclius and the Type issued under Constans II. The latter sought to prohibit further public argument about one or two wills and operations. Martin judged that imposing silence could not resolve a doctrinal error. The conflict was therefore not merely a preference for debate over peace. It concerned whether political authority could prevent bishops from teaching what they considered necessary to the faithful confession of Christ.
+
+## The Lateran council
+
+In October 649 Martin assembled a council at the Lateran attended by more than a hundred bishops. Its sessions rejected the disputed imperial measures, condemned prominent representatives of the erroneous teaching and set out the doctrine of Christ's two wills. The decrees were circulated beyond Rome, and the acts were also sent to the emperor. Although later ecumenical teaching confirmed the doctrine, the Lateran gathering should not itself be confused with the subsequent ecumenical Council of Constantinople.
+
+Martin also attempted to uphold ecclesiastical discipline in the East through representatives and correspondence. His position challenged the imperial expectation that the western bishops would accept the Type. The emperor first sent the exarch Olympius to Italy, but that intervention did not secure the desired compliance. Accounts of an attempt to kill the pope during Communion belong to the narrative tradition surrounding this mission. The decisive action came under a later exarch, Theodore Calliopas.
+
+## Arrest and imprisonment
+
+In June 653 imperial forces entered Rome and arrested Martin, who was already ill. He refused to encourage armed resistance and was taken away with only a small following. The journey to Constantinople involved suffering and a stop at Naxos, whose length is one of the disputed chronological points. His removal was not simply a change of papal residence. Imperial officials treated him as deposed and sought the election of another bishop of Rome in his place.
+
+At Constantinople he endured confinement, illness and public degradation. The proceedings against him emphasized political accusations, including rebellion, rather than allowing the theological issue to determine the terms of the hearing. He was exposed before crowds, stripped of much of his clothing and placed in chains. Surviving letters and the early narrative of his suffering give the episode a more substantial documentary basis than the late legends surrounding many early martyrs. Nevertheless, particular dates and interpretations in later histories require comparison rather than automatic harmonization.
+
+## Exile and witness
+
+The sentence became exile rather than immediate execution. Martin was sent to Cherson, where shortages and harsh conditions aggravated his weakened health. His letters express the pain of deprivation and abandonment as well as continued concern for the Church. He died there in 655 and was buried locally. The tradition of later translations of his relics is less secure in its details than the basic fact of his death in exile.
+
+Martin is venerated as a martyr because the suffering imposed for his defence of the faith brought him to death, though he was not killed by a single executioner's stroke. His witness also belongs to the history of relations between church and empire. It shows a pope accepting the personal consequences of a doctrinal judgment that imperial authority would not tolerate. The Catholic remembrance of his courage does not require erasing the political complexity, uncertain chronology or human loneliness preserved in the account of his final years.
+
+## Sources
+
+- [Catholic Encyclopedia, “Pope St. Martin I,” consulted digital text](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/09723c.md).
+$desc$),
+('saint-martin-i', 'fr',
+'Martin Ier, pape et martyr, défendit l’enseignement selon lequel le Christ possède une volonté divine et une volonté humaine. Arrêté sur ordre impérial après le concile du Latran de 649, il subit prison, humiliations publiques et exil, puis mourut à Cherson en 655.',
+$desc$## Un pape dans une controverse christologique
+
+Martin Ier était originaire de Todi, en Italie, et devint évêque de Rome en 649. Il mourut en exil à Cherson, en Crimée, en 655. La chronologie exacte de certaines étapes de son élection, de son transfert et de sa détention est discutée, mais la succession principale des événements est claire. Son pontificat provoqua une confrontation directe entre le jugement doctrinal de l'Église romaine et une politique impériale destinée à contrôler une controverse sur la personne et l'activité de Jésus Christ.
+
+Avant son élection, Martin avait représenté le pape Théodore Ier à Constantinople. Cette expérience l'avait familiarisé avec la cour impériale et les débats théologiques des Églises orientales. Peu d'informations sûres subsistent sur son enfance ; des affirmations tardives sur une affiliation monastique particulière ne sont pas nécessaires pour comprendre sa carrière publique. Après avoir succédé à Théodore, il fut consacré sans attendre la confirmation impériale habituelle. Sa décision manifestait l'urgence qu'il attribuait à la situation ecclésiale.
+
+## Deux volontés dans l'unique Christ
+
+La controverse immédiate concernait le monothélisme, doctrine attribuant une seule volonté au Christ. La position catholique défendue par Martin affirmait une volonté divine et une volonté véritablement humaine dans l'unique personne du Fils incarné. Elle ne signifiait ni deux personnes concurrentes ni une opposition pécheresse dans le Christ. Elle protégeait l'intégrité de la nature humaine assumée par le Verbe. Une nature humaine privée de son vouloir propre n'exprimerait pas pleinement l'humanité confessée par l'Église.
+
+Les tentatives impériales de règlement comprenaient l'Ecthèse associée à Héraclius et le Type promulgué sous Constant II. Ce dernier voulait interdire les débats publics sur une ou deux volontés et opérations. Martin estimait que le silence imposé ne pouvait résoudre une erreur doctrinale. Le conflit n'était donc pas une simple préférence pour la discussion plutôt que pour la paix. Il concernait le pouvoir politique d'empêcher les évêques d'enseigner ce qu'ils jugeaient indispensable à la confession fidèle du Christ.
+
+## Le concile du Latran
+
+En octobre 649, Martin réunit au Latran un concile de plus de cent évêques. Les sessions rejetèrent les mesures impériales contestées, condamnèrent des représentants majeurs de l'enseignement erroné et exposèrent la doctrine des deux volontés du Christ. Les décrets circulèrent au-delà de Rome et les actes furent envoyés à l'empereur. Bien qu'un enseignement œcuménique ultérieur ait confirmé cette doctrine, l'assemblée du Latran ne doit pas être confondue avec le concile œcuménique postérieur de Constantinople.
+
+Martin tenta également de soutenir la discipline ecclésiastique en Orient par ses représentants et sa correspondance. Sa position contrariait l'attente impériale d'une acceptation du Type par les évêques occidentaux. L'empereur envoya d'abord l'exarque Olympius en Italie, sans obtenir l'obéissance souhaitée. Les récits d'une tentative de meurtre du pape pendant la communion appartiennent à la tradition narrative de cette mission. L'action décisive intervint sous un autre exarque, Théodore Calliopas.
+
+## Arrestation et emprisonnement
+
+En juin 653, des forces impériales entrèrent dans Rome et arrêtèrent Martin, déjà malade. Il refusa d'encourager une résistance armée et fut emmené avec une petite suite. Le voyage à Constantinople fut pénible et comporta une escale à Naxos, dont la durée est discutée. Son éloignement n'était pas un simple changement de résidence pontificale. Les fonctionnaires impériaux le considéraient comme déposé et demandaient l'élection d'un autre évêque de Rome.
+
+À Constantinople, il subit détention, maladie et dégradation publique. La procédure privilégiait les accusations politiques, notamment la rébellion, au lieu de laisser la question théologique définir l'audience. Il fut exposé aux foules, dépouillé d'une grande partie de ses vêtements et enchaîné. Ses lettres conservées et l'ancien récit de ses souffrances donnent à cet épisode une base documentaire plus solide que les légendes tardives de nombreux martyrs anciens. Certaines dates et interprétations des histoires postérieures exigent néanmoins une comparaison plutôt qu'une harmonisation automatique.
+
+## Exil et témoignage
+
+La sentence fut l'exil plutôt que l'exécution immédiate. Martin fut envoyé à Cherson, où pénuries et conditions difficiles aggravèrent sa santé affaiblie. Ses lettres expriment la douleur du dénuement et de l'abandon, mais aussi son souci persistant de l'Église. Il y mourut en 655 et fut enterré sur place. La tradition de translations ultérieures de ses reliques est moins sûre dans ses détails que le fait fondamental de sa mort en exil.
+
+Martin est vénéré comme martyr parce que les souffrances imposées pour sa défense de la foi le conduisirent à la mort, bien qu'il ne fût pas tué d'un seul coup de bourreau. Son témoignage appartient aussi à l'histoire des rapports entre Église et empire. Il montre un pape acceptant les conséquences personnelles d'un jugement doctrinal intolérable au pouvoir impérial. La mémoire catholique de son courage n'exige d'effacer ni la complexité politique, ni les incertitudes chronologiques, ni la solitude humaine de ses dernières années.
+
+## Sources
+
+- [Catholic Encyclopedia, « Pope St. Martin I », texte numérique consulté](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/09723c.md).
+$desc$),
+('saint-martin-i', 'la',
+'Martinus I, papa et martyr, doctrinam de divina humanaque Christi voluntate defendit. Post concilium Lateranense anni 649 imperatoria auctoritate captus, carcerem, ignominiam publicam atque exsilium pertulit, donec Chersonae anno 655 mortuus est.',
+$desc$## Papa in controversia christologica
+
+Martinus I Tuderti in Italia ortus episcopus Romanus anno 649 factus est. In exsilio Chersonae in Chersoneso Taurica anno 655 mortuus est. Chronologia accurata quarundam partium electionis, translationis et carceris in studiis historicis disputatur, sed series principalis manifesta est. Pontificatus eius directum conflictum inter iudicium doctrinale Ecclesiae Romanae et consilium imperiale controversiam de persona et actione Iesu Christi regendi attulit.
+
+Ante electionem Martinus Theodorum I papam Constantinopoli repraesentaverat. Haec experientia eum aulae imperiali et controversiis theologicis Ecclesiarum orientalium familiarem fecit. Pauca de pueritia certo cognoscuntur, et posteriores assertiones de certa affiliatione monastica ad publicum curriculum explicandum necessariae non sunt. Theodoro succedens, sine exspectata confirmatione imperiali consueta consecratus est. Decisio urgentiam ostendit qua condicionem Ecclesiae aestimabat.
+
+## Duae voluntates in uno Christo
+
+Controversia immediata Monothelitismum respiciebat, doctrinam unam tantum voluntatem Christo tribuentem. Sententia catholica a Martino defensa divinam et vere humanam voluntatem in unica persona Filii incarnati affirmabat. Non duas personas aemulas nec peccaminosam oppositionem in Christo significabat. Integritatem naturae humanae a Verbo assumptae tutabatur. Natura humana propria voluntate carens humanitatem ab Ecclesia confessam non plene exprimeret.
+
+Tentamina imperialia compositionis Ecthesim Heraclii et Typum sub Constante II editum comprehenderant. Hic disputationem publicam de una vel duabus voluntatibus et operationibus prohibere intendebat. Martinus silentium impositum errorem doctrinalem solvere non posse iudicavit. Conflictus igitur non mera disputationis potius quam pacis electio erat. Quaerebatur num potestas politica episcopos prohibere posset ne docerent quod fideli Christi confessioni necessarium putabant.
+
+## Concilium Lateranense
+
+Mense Octobri 649 Martinus concilium Laterani congregavit cui plus quam centum episcopi interfuerunt. Sessiones controversas mensuras imperiales reiecerunt, praecipuos doctrinae erroneae auctores damnaverunt et duas Christi voluntates exposuerunt. Decreta extra Romam divulgata sunt, acta etiam imperatori missa. Quamvis posterior doctrina oecumenica sententiam confirmaverit, conventus Lateranensis cum posteriore concilio oecumenico Constantinopolitano confundendus non est.
+
+Martinus disciplinam ecclesiasticam in Oriente per legatos et epistulas quoque sustinere conatus est. Sententia eius spei imperiali episcopos occidentales Typum accepturos adversabatur. Imperator primum Olympium exarchum in Italiam misit, sed interventio oboedientiam desideratam non impetravit. Narrationes conatus papam inter Communionem occidendi ad traditionem huius missionis pertinent. Actio decisiva sub posteriore exarcho Theodoro Calliopa venit.
+
+## Captio et carcer
+
+Mense Iunio 653 copiae imperiales Romam ingressae Martinum iam infirmum comprehenderunt. Resistentiam armatam hortari noluit et cum paucis comitibus abductus est. Iter Constantinopolim dolores et moram Naxi comprehendit, cuius longitudo inter quaestiones chronologicas disputatas est. Abductio non simplex residentiae papalis mutatio erat. Officiales imperiales eum depositum habebant atque alterum episcopum Romanum eligi volebant.
+
+Constantinopoli custodiam, morbum et publicam ignominiam pertulit. Iudicium accusationes politicas, etiam rebellionem, extollebat, neque quaestioni theologicae rationem audientiae definire permittebat. Coram multitudinibus expositus, magna vestimentorum parte spoliatus et catenis vinctus est. Epistulae servatae et antiqua narratio passionis eventui firmiora documenta praebent quam legendae posteriores multorum martyrum antiquorum. Singulae tamen dies et interpretationes historiarum posteriorum comparandae sunt, non sponte conciliandae.
+
+## Exsilium et testimonium
+
+Sententia exsilium potius quam immediatum supplicium facta est. Martinus Chersonam missus est, ubi inopiae et asperae condiciones valetudinem infirmam aggravaverunt. Epistulae dolorem egestatis et desertionis una cum perseveranti Ecclesiae cura exprimunt. Ibi anno 655 mortuus et sepultus est. Traditio posteriorum translationum reliquiarum in singulis minus certa est quam factum fundamentale mortis in exsilio.
+
+Martinus martyr veneratur quia passiones ob fidem defensam impositae eum ad mortem duxerunt, quamvis non uno carnificis ictu occisus sit. Testimonium eius etiam ad historiam relationum Ecclesiae et imperii pertinet. Papam ostendit effectus personales iudicii doctrinalis acceptantem quod auctoritas imperialis tolerare nolebat. Memoria catholica fortitudinis eius non requirit complexitatem politicam, chronologiam incertam aut solitudinem humanam ultimorum annorum delere.
+
+## Fontes
+
+- [Catholic Encyclopedia, “Pope St. Martin I,” textus digitalis consultus](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/09723c.md).
+$desc$)
+) AS x(slug, locale_code, short_description, full_biography) ON s.slug = x.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+-- END_BIOGRAPHIES_APRIL
+
+-- BIOGRAPHIES_MAY
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s JOIN (VALUES
+('saint-athanasius','en','Athanasius, bishop of Alexandria, defended the full divinity of Christ amid fourth-century theological and imperial conflicts. Repeated exile shaped his ministry, while his writings on the Incarnation and monastic life influenced Christian teaching across the Mediterranean.',$desc$## Alexandria and the Nicene faith
+
+Athanasius was born about 296, probably at Alexandria. The precise year and his family circumstances remain uncertain. His education gave him a command of Greek argument and biblical interpretation, but picturesque accounts of his childhood belong to later biography rather than secure documentation. He became a deacon and close collaborator of Alexander, bishop of Alexandria. This placed him at the centre of the controversy provoked by Arius, whose teaching distinguished the Son from the eternal, uncreated being of the Father.
+
+In 325 Athanasius accompanied Alexander to the Council of Nicaea. He was not yet a bishop, and later admiration should not obscure that subordinate position. The council confessed the Son as consubstantial with the Father. For Athanasius, the issue was not merely a dispute about terminology: Christian salvation depended on the identity of the one who had become human. A creature could not bestow the divine life that the Church proclaimed as the gift of Christ. His subsequent career made him a principal defender of that conviction.
+
+## Bishop and exile
+
+He succeeded Alexander as bishop in 328. Alongside controversy, his responsibilities included preaching, correspondence, pastoral visits and the ordering of the Egyptian churches. His episcopate also connected Alexandria with the developing Church in Ethiopia through the consecration of Frumentius. Relations with Egyptian ascetics provided spiritual friendship and practical support. Athanasius was therefore more than a controversial writer: he governed an extensive Christian community whose local disputes became entangled with the policies of successive emperors.
+
+Opposition came from several directions, including opponents of Nicene theology and the Meletian schism in Egypt. Accusations concerning his administration and conduct culminated in proceedings at Tyre in 335. Athanasius challenged the fairness of his judges and appealed to Constantine, but the emperor sent him into exile at Trier. His own apologetic writings preserve much of the evidence, and must be read as an interested participant’s defence, not as a neutral court record. After Constantine died in 337, Athanasius returned to Alexandria.
+
+His restoration did not settle the conflict. A rival bishop was imposed, and Athanasius sought support in Rome from Pope Julius. Western bishops defended him, notably at Sardica, while eastern opponents rejected their judgment. He returned again in 346, beginning approximately a decade of relatively stable leadership. The conflict illustrates how episcopal communion, imperial authority and doctrinal formulas interacted. It cannot be reduced to one uniformly organized party confronting another: positions and alliances shifted, even among those dissatisfied with the language of Nicaea.
+
+## Writing amid conflict
+
+In 356 troops interrupted a church service in Alexandria, and Athanasius escaped into hiding. For several years he lived under the protection of supporters, particularly Egyptian monks. This enforced separation from his episcopal city became a productive period of writing. His apologies explained his conduct and defended his refusal to surrender; his theological works argued from Scripture for the Son’s eternal relation to the Father. Polemical severity in these writings reflects real struggles, but also requires readers to distinguish theological argument from judgments on individual adversaries.
+
+Against the Gentiles and On the Incarnation present a connected account of creation, humanity’s estrangement from God and the saving work of the incarnate Word. Their exact dating has been debated. Athanasius argues that the Word who made the world restores humanity through taking human nature, dying and rising. His Life of Antony communicated the example of Egyptian asceticism far beyond Egypt. It is a religious biography shaped to teach, not a modern diary; its narratives of spiritual combat should be understood within that literary and theological purpose.
+
+## Final years and inheritance
+
+The death of Constantius II allowed another return in 362. Athanasius then supported an Alexandrian council that sought agreement among Christians divided partly by differing theological vocabulary. This readiness to clarify meanings qualifies the popular image of an entirely inflexible controversialist. Further expulsions under Julian and Valens followed. His five exiles occupied a substantial portion of his episcopate, but did not erase the durable attachment of his Alexandrian supporters or his influence beyond his own province.
+
+Athanasius died on 2 May 373. His importance rests on the union of sustained pastoral responsibility with a theology centred on Christ’s saving identity. Later Christian tradition honoured him as a Doctor of the Church. That reception does not require treating every accusation against him as independently disproved, every anecdote as literal history or every later work bearing his name as authentic. His surviving career already offers ample evidence of intellectual determination, institutional resilience and the decisive place of the Incarnation in fourth-century Christian reflection.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. Athanasius” (consulted digital mirror)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/02035a.htm)
+$desc$),
+('saint-athanasius','fr','Athanase, évêque d’Alexandrie, défendit la pleine divinité du Christ au milieu des conflits théologiques et impériaux du IVe siècle. Ses exils répétés marquèrent son ministère, tandis que ses écrits sur l’Incarnation et la vie monastique influencèrent durablement l’enseignement chrétien.',$desc$## Alexandrie et la foi de Nicée
+
+Athanase naquit vers 296, probablement à Alexandrie. L’année précise et les circonstances familiales restent incertaines. Sa formation lui donna la maîtrise de l’argumentation grecque et de l’interprétation biblique, mais les récits pittoresques de son enfance relèvent de biographies postérieures plutôt que de documents assurés. Il devint diacre et proche collaborateur d’Alexandre, évêque d’Alexandrie. Il se trouva ainsi au centre de la controverse suscitée par Arius, dont l’enseignement distinguait le Fils de l’être éternel et incréé du Père.
+
+En 325, Athanase accompagna Alexandre au concile de Nicée. Il n’était pas encore évêque, et l’admiration ultérieure ne doit pas effacer cette position subordonnée. Le concile confessa le Fils consubstantiel au Père. Pour Athanase, il ne s’agissait pas simplement de terminologie : le salut chrétien dépendait de l’identité de celui qui s’était fait homme. Une créature ne pouvait donner la vie divine que l’Église annonçait comme le don du Christ. Sa carrière ultérieure fit de lui un défenseur majeur de cette conviction.
+
+## Évêque et exilé
+
+Il succéda à Alexandre en 328. Outre les controverses, ses responsabilités comprenaient la prédication, la correspondance, les visites pastorales et l’organisation des Églises égyptiennes. Son épiscopat relia également Alexandrie à l’Église naissante d’Éthiopie par la consécration de Frumence. Ses relations avec les ascètes égyptiens lui procurèrent amitié spirituelle et soutien pratique. Athanase ne fut donc pas seulement un polémiste : il gouverna une vaste communauté chrétienne dont les différends locaux s’entremêlaient avec la politique des empereurs successifs.
+
+L’opposition venait de plusieurs milieux, notamment des adversaires de la théologie nicéenne et du schisme mélétien d’Égypte. Des accusations concernant son administration et sa conduite aboutirent aux procédures de Tyr en 335. Athanase contesta l’impartialité de ses juges et fit appel à Constantin, mais l’empereur l’exila à Trèves. Ses propres apologies conservent une grande partie du dossier : il faut les lire comme la défense d’un protagoniste, non comme les actes d’un tribunal neutre. Après la mort de Constantin en 337, Athanase revint à Alexandrie.
+
+Son rétablissement ne termina pas le conflit. Un évêque rival fut imposé, et Athanase chercha à Rome l’appui du pape Jules. Les évêques occidentaux le défendirent, notamment à Sardique, tandis que ses adversaires orientaux rejetaient leur jugement. Il revint en 346, inaugurant environ dix années de gouvernement relativement stable. Le conflit montre l’interaction entre communion épiscopale, autorité impériale et formules doctrinales. On ne saurait le réduire à deux partis uniformément organisés : positions et alliances variaient, même chez ceux que le langage de Nicée ne satisfaisait pas.
+
+## Écrire au milieu des conflits
+
+En 356, des soldats interrompirent un office à Alexandrie, et Athanase se cacha. Durant plusieurs années, il vécut protégé par ses partisans, particulièrement les moines égyptiens. Cette séparation forcée de sa ville épiscopale devint une période féconde d’écriture. Ses apologies expliquaient sa conduite et son refus de se livrer ; ses ouvrages théologiques défendaient, à partir de l’Écriture, la relation éternelle du Fils au Père. Leur sévérité polémique reflète des luttes réelles, mais impose de distinguer argument théologique et jugement sur les adversaires.
+
+Contre les païens et Sur l’Incarnation présentent un ensemble cohérent sur la création, l’éloignement de l’humanité et l’œuvre salvifique du Verbe incarné. Leur datation précise fait débat. Athanase soutient que le Verbe créateur restaure l’humanité en assumant la nature humaine, en mourant et en ressuscitant. Sa Vie d’Antoine diffusa l’exemple de l’ascétisme égyptien bien au-delà de l’Égypte. C’est une biographie religieuse destinée à instruire, non un journal moderne ; ses récits de combat spirituel doivent être compris dans cette intention littéraire et théologique.
+
+## Dernières années et héritage
+
+La mort de Constance II permit un nouveau retour en 362. Athanase soutint alors un concile alexandrin recherchant l’accord entre chrétiens divisés en partie par des vocabulaires théologiques différents. Cette volonté de préciser les termes nuance l’image populaire d’un polémiste absolument inflexible. D’autres expulsions suivirent sous Julien et Valens. Ses cinq exils occupèrent une part importante de son épiscopat, sans effacer l’attachement durable de ses partisans alexandrins ni son influence au-delà de sa province.
+
+Athanase mourut le 2 mai 373. Son importance tient à l’union d’une responsabilité pastorale constante et d’une théologie centrée sur l’identité salvifique du Christ. La tradition chrétienne l’honora ensuite comme docteur de l’Église. Cette réception n’exige ni de considérer chaque accusation comme indépendamment réfutée, ni chaque anecdote comme historique, ni chaque œuvre postérieure portant son nom comme authentique. Sa carrière connue atteste suffisamment sa détermination intellectuelle, sa résistance institutionnelle et la place décisive de l’Incarnation dans la réflexion chrétienne du IVe siècle.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. Athanasius » (copie numérique consultée)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/02035a.htm)
+$desc$),
+('saint-athanasius','la','Athanasius, episcopus Alexandrinus, plenam Christi divinitatem inter controversias theologicas et imperiales saeculi quarti defendit. Repetita exilia ministerium eius affecerunt; scripta autem de Incarnatione et vita monastica doctrinam christianam per regiones maris Mediterranei auxerunt.',$desc$## Alexandria et fides Nicaena
+
+Athanasius circa annum 296, probabiliter Alexandriae, natus est. Annus certus et familiae condiciones ignorantur. Institutione sua artem argumentandi Graecam et interpretationem biblicam didicit; narrationes autem mirabiles de pueritia ad posteriores vitas potius quam ad documenta certa pertinent. Diaconus et intimus Alexandri episcopi Alexandrini adiutor factus est. Ita in media controversia ab Ario excitata versabatur, cuius doctrina Filium ab aeterno et increato Patris esse distinguebatur.
+
+Anno 325 Athanasius Alexandrum ad Concilium Nicaenum comitatus est. Nondum episcopus erat, neque posterior admiratio hunc subalternum locum obscurare debet. Concilium Filium Patri consubstantialem confessum est. Athanasio quaestio non de vocabulis tantum agebatur: salus christiana ab identitate eius qui homo factus erat pendebat. Creatura vitam divinam, quam Ecclesia Christi donum praedicabat, conferre non poterat. Vita eius posterior eum huius persuasionis praecipuum defensorem constituit.
+
+## Episcopus et exsul
+
+Alexandro anno 328 successit. Praeter controversias, praedicatio, epistulae, visitationes pastorales atque ordinatio ecclesiarum Aegypti ad munera eius pertinebant. Episcopatus quoque eius Alexandriam cum nascente Ecclesia Aethiopica per Frumentii consecrationem coniunxit. Familiaritas cum ascetis Aegypti amicitiam spiritualem et auxilium praebuit. Athanasius igitur non tantum scriptor polemicus fuit: amplam communitatem christianam regebat, cuius dissensiones locales cum consiliis imperatorum successive regnantium implicabantur.
+
+Adversarii ex variis partibus orti sunt, inter quos doctrinae Nicaenae oppugnatores et schismatis Meletiani fautores in Aegypto. Accusationes de administratione et moribus eius ad iudicia Tyri anno 335 pervenerunt. Athanasius iudicum aequitatem impugnavit et Constantinum appellavit, sed imperator eum Treviros relegavit. Apologiae ipsius magnam testimoniorum partem servant; tamquam defensio causae propriae, non tamquam acta iudicii neutri, legendae sunt. Constantino anno 337 mortuo, Athanasius Alexandriam rediit.
+
+Restitutio certamen non finivit. Episcopo aemulo imposito, Athanasius Romae apud Iulium papam auxilium quaesivit. Episcopi occidentales eum, praesertim Sardicae, defenderunt; adversarii orientales eorum sententiam repudiaverunt. Anno 346 iterum rediit, decennium fere stabilioris regiminis initurus. Certamen ostendit quomodo communio episcopalis, imperialis potestas et formulae doctrinales inter se agerent. Non ad duas partes uniformiter ordinatas redigi potest: sententiae et foedera mutabantur, etiam inter eos quibus vocabula Nicaena displicebant.
+
+## Scripta inter certamina
+
+Anno 356 milites sacrum officium Alexandriae interruperunt, et Athanasius se occultavit. Per aliquot annos fautorum, maxime monachorum Aegypti, tutela vixit. Haec necessaria ab urbe episcopali separatio fecundum scribendi tempus facta est. Apologiae eius mores explicabant et recusationem se tradendi defendebant; opera theologica aeternam Filii ad Patrem relationem ex Scriptura probabant. Severitas polemica vera certamina refert, sed lectores etiam monet ut argumenta theologica a iudiciis de singulis adversariis distinguant.
+
+Contra gentes et De Incarnatione coniunctam doctrinam de creatione, hominum a Deo alienatione et opere salutari Verbi incarnati exhibent. De tempore quo scripta sunt disputatur. Athanasius docet Verbum, quod mundum condidit, humanitatem naturam humanam assumendo, moriendo et resurgendo restituere. Vita Antonii exemplum asceseos Aegypti longe ultra Aegyptum disseminavit. Vita religiosa ad docendum composita est, non commentarium diurnum recentioris generis; narrationes de pugna spirituali intra hunc finem litterarium et theologicum intellegendae sunt.
+
+## Ultimi anni et hereditas
+
+Mors Constantii II alium reditum anno 362 permisit. Athanasius tunc concilium Alexandrinum fovit, quod concordiam inter christianos partim diversis vocabulis theologicis divisos quaerebat. Haec voluntas sensus declarandi imaginem vulgarem polemistae omnino inflexibilis temperat. Expulsiones sub Iuliano et Valente secutae sunt. Quinque exilia magnam episcopatus partem occupaverunt, sed neque stabilem Alexandrinorum fidelitatem neque auctoritatem eius extra propriam provinciam deleverunt.
+
+Athanasius die 2 Maii 373 mortuus est. Momentum eius in coniunctione constantis curae pastoralis cum theologia circa Christi identitatem salvificam consistit. Traditio christiana posterior eum Ecclesiae Doctorem honoravit. Haec receptio non postulat ut omnis accusatio independenter refutata, omnis narratio ad litteram historica, omne opus posterius nomine eius inscriptum authenticum habeatur. Vita satis testata iam ostendit constantiam intellectualem, firmitatem in regimine atque locum praecipuum Incarnationis in cogitatione christiana saeculi quarti.
+
+## Fontes
+
+- [Catholic Encyclopedia, “St. Athanasius” (exemplar digitale consultum)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/02035a.htm)
+$desc$),
+('saint-philip-apostle','en','Philip, one of the Twelve, appears in John’s Gospel as a disciple who brings others to Jesus and asks searching questions. Later traditions describe his missionary work and death, but their details are less secure than the biblical witness.',$desc$## A disciple from Bethsaida
+
+Philip belongs to the Twelve named in the Gospel lists and in Acts. John identifies his home as Bethsaida, also associated with Peter and Andrew. His Greek name reflects the multilingual environment of the region, although it does not establish a detailed biography or prove what languages he spoke. His family, birth date and occupation are not securely recorded. Most of the individual scenes concerning him occur in the Fourth Gospel, whose narrative is concerned with revealing Jesus through encounters with his disciples.
+
+In John 1, Jesus calls Philip, who then approaches Nathanael. Philip interprets his discovery through the Law and the prophets, identifying Jesus of Nazareth as the one to whom they point. When Nathanael objects to Nazareth, Philip invites him to encounter Jesus personally. The scene presents witness as an invitation rather than a complete argument. It also shows Philip already drawing someone else into discipleship, without implying that he yet understands everything about the master whom he follows.
+
+## Questions in the Gospel
+
+Before the feeding of the crowd in John 6, Jesus asks Philip where bread can be obtained. The evangelist explains that the question is a test, since Jesus already knows what he will do. Philip calculates the inadequacy of the available money: even a substantial sum would not provide enough for everyone. His reply gives the narrative its practical starting point. It should not be enlarged into a permanent judgment about his character, for the Gospel preserves only this particular exchange.
+
+In John 12, Greeks who have come to worship at the feast ask Philip for access to Jesus. Philip consults Andrew, and together they present the request. Benedict XVI’s catechesis notes the appropriateness of Philip’s intermediary role while treating his possible knowledge of Greek as a probability, not a demonstrated fact. The encounter introduces Jesus’ teaching about his approaching glorification and death. Philip thus stands at a narrative meeting point between the immediate circle of disciples and people seeking Jesus from outside it.
+
+During the farewell discourse in John 14, Philip asks Jesus to show the Father. The answer directs him from the wish for another revelation to the person already before him: knowledge of Jesus is inseparable from knowledge of the Father. Christian theology has repeatedly returned to this exchange when explaining the revelation of God in Christ. Philip’s incomplete understanding is not hidden. The narrative makes his question the occasion for teaching that reaches beyond him to the whole community of readers.
+
+## Tradition and its limits
+
+The New Testament does not provide a continuous account of Philip’s later mission or his death. Nor should the apostle automatically be identified with Philip the evangelist, one of the Seven in Acts. Later narratives associated with the apostle place preaching in Greece and Phrygia and his death at Hierapolis. They differ over the manner of his death, describing crucifixion or stoning. These are traditions of reception, not contemporary documentation establishing a precise itinerary.
+
+Benedict XVI explicitly distinguishes those later narratives from the Gospel testimony. A responsible biography therefore leaves the gaps open rather than combining every story into a single chronology. Philip’s securely transmitted importance lies in his place among the Twelve and in the Johannine episodes: bringing Nathanael, confronting the crowd’s need, receiving the Greeks and asking about the Father. Together these scenes portray discipleship as proximity to Jesus, questioning and mediation, without requiring invented episodes to make an otherwise fragmentary life appear complete.
+
+## Sources
+
+- [Benedict XVI, general audience, 6 September 2006 (consulted Vatican text mirror)](https://github.com/lologhi/vatican/blob/main/benedict-xvi/audiences/2006/2006-09-06.md)
+$desc$),
+('saint-philip-apostle','fr','Philippe, l’un des Douze, apparaît dans l’Évangile de Jean comme un disciple qui conduit autrui à Jésus et pose des questions décisives. Les traditions postérieures décrivent sa mission et sa mort, mais leurs détails sont moins assurés que le témoignage biblique.',$desc$## Un disciple de Bethsaïde
+
+Philippe appartient aux Douze nommés dans les listes évangéliques et les Actes. Jean situe son origine à Bethsaïde, également associée à Pierre et André. Son nom grec reflète le milieu plurilingue de la région, sans établir une biographie détaillée ni prouver quelles langues il parlait. Sa famille, sa naissance et son métier ne sont pas sûrement connus. La plupart des scènes individuelles le concernant se trouvent dans le quatrième Évangile, qui révèle Jésus à travers ses rencontres avec les disciples.
+
+En Jean 1, Jésus appelle Philippe, qui aborde ensuite Nathanaël. Philippe comprend sa découverte à la lumière de la Loi et des prophètes, reconnaissant en Jésus de Nazareth celui qu’ils annoncent. Devant l’objection de Nathanaël concernant Nazareth, il l’invite à rencontrer personnellement Jésus. La scène présente le témoignage comme une invitation plutôt que comme une argumentation complète. Elle montre aussi Philippe conduisant déjà quelqu’un vers Jésus, sans laisser entendre qu’il comprend encore tout de son maître.
+
+## Les questions dans l’Évangile
+
+Avant la multiplication des pains en Jean 6, Jésus demande à Philippe où acheter du pain. L’évangéliste précise qu’il le met à l’épreuve, sachant déjà ce qu’il va faire. Philippe calcule l’insuffisance de l’argent disponible : même une somme importante ne suffirait pas pour tous. Sa réponse donne au récit son point de départ concret. Il ne faut pas en tirer un jugement permanent sur son caractère, puisque l’Évangile ne conserve que cet échange particulier.
+
+En Jean 12, des Grecs venus adorer pendant la fête demandent à Philippe de voir Jésus. Philippe consulte André, et tous deux transmettent la demande. La catéchèse de Benoît XVI souligne la pertinence de ce rôle d’intermédiaire, tout en présentant sa connaissance possible du grec comme probable et non démontrée. La rencontre introduit l’enseignement de Jésus sur sa glorification et sa mort prochaines. Philippe se trouve ainsi à la jonction narrative entre le cercle des disciples et ceux qui cherchent Jésus de l’extérieur.
+
+Pendant le discours d’adieu de Jean 14, Philippe demande à Jésus de montrer le Père. La réponse le détourne du désir d’une autre révélation vers la personne déjà présente : connaître Jésus est inséparable de connaître le Père. La théologie chrétienne revient souvent à cet échange pour expliquer la révélation de Dieu dans le Christ. L’incompréhension partielle de Philippe n’est pas cachée. Sa question devient l’occasion d’un enseignement destiné, au-delà de lui, à toute la communauté des lecteurs.
+
+## La tradition et ses limites
+
+Le Nouveau Testament ne donne pas de récit continu de la mission ultérieure ni de la mort de Philippe. Il ne faut pas non plus identifier automatiquement l’apôtre avec Philippe l’évangéliste, l’un des Sept des Actes. Des récits postérieurs situent sa prédication en Grèce et en Phrygie, et sa mort à Hiérapolis. Ils divergent sur le supplice, évoquant crucifixion ou lapidation. Ce sont des traditions de réception, non des documents contemporains établissant un itinéraire précis.
+
+Benoît XVI distingue expressément ces récits tardifs du témoignage évangélique. Une biographie responsable laisse donc les lacunes ouvertes plutôt que de réunir toutes les histoires en une chronologie unique. L’importance sûrement transmise de Philippe tient à sa place parmi les Douze et aux épisodes johanniques : conduire Nathanaël, mesurer les besoins de la foule, recevoir les Grecs et questionner sur le Père. Ensemble, ces scènes montrent une vie de disciple faite de proximité avec Jésus, de questions et de médiation, sans épisodes inventés pour compléter une existence fragmentairement connue.
+
+## Sources
+
+- [Benoît XVI, audience générale du 6 septembre 2006 (copie consultée du texte du Vatican)](https://github.com/lologhi/vatican/blob/main/benedict-xvi/audiences/2006/2006-09-06.md)
+$desc$),
+('saint-philip-apostle','la','Philippus, unus ex Duodecim, in Evangelio Ioannis discipulus apparet qui alios ad Iesum ducit et quaestiones graves proponit. Traditiones posteriores missionem mortemque eius narrant, quarum tamen singula minus certa sunt quam testimonium biblicum.',$desc$## Discipulus e Bethsaida
+
+Philippus inter Duodecim in indicibus evangelicis et Actibus nominatur. Ioannes eum e Bethsaida, unde etiam Petrus et Andreas erant, oriundum dicit. Nomen Graecum regionis usum plurium linguarum refert, neque tamen vitam accuratam constituit neque quibus linguis locutus sit demonstrat. Familia, tempus nativitatis et ars eius certo non traduntur. Plurimae narrationes de eo singulatim in quarto Evangelio inveniuntur, quod Iesum per occursus cum discipulis revelare intendit.
+
+In Ioanne 1 Iesus Philippum vocat, qui deinde Nathanaelem adit. In lumine Legis et prophetarum quod invenit interpretatur, Iesum Nazarenum eum esse agnoscens quem illi annuntiant. Nathanaele de Nazareth dubitante, Philippus eum ad Iesum personaliter conveniendum invitat. Testimonium hic invitatio potius quam plena argumentatio exhibetur. Philippus iam alium ad discipulatum ducit, quin omnia de magistro quem sequitur intellegere dicatur.
+
+## Quaestiones in Evangelio
+
+Ante multitudinis refectionem in Ioanne 6 Iesus Philippum interrogat unde panes emi possint. Evangelista quaestionem probationem esse explicat, cum Iesus iam sciat quid facturus sit. Philippus pecuniam supputat: ne magna quidem summa omnibus sufficeret. Responsum narrationi initium concretum praebet. Non tamen in perpetuum de moribus eius iudicium extendendum est, quoniam Evangelium hunc tantum sermonem servat.
+
+In Ioanne 12 Graeci, qui ad adorandum in die festo venerant, a Philippo petunt ut Iesum videant. Philippus Andream consulit, et ambo petitionem deferunt. Benedictus XVI in catechesi aptitudinem huius ministerii medii notat, scientiam autem linguae Graecae possibilem ut probabilem, non ut demonstratam proponit. Occursus doctrinam Iesu de propinqua glorificatione et morte introducit. Philippus ita in narratione inter proximos discipulos et eos qui extrinsecus Iesum quaerunt constituitur.
+
+In sermone valedictorio Ioannis 14 Philippus a Iesu petit ut Patrem ostendat. Responsum eum a desiderio alterius revelationis ad personam iam praesentem convertit: cognitio Iesu a cognitione Patris separari nequit. Theologia christiana hunc sermonem saepe adhibuit ad revelationem Dei in Christo explicandam. Imperfecta Philippi intelligentia non celatur. Quaestio eius occasionem doctrinae praebet, quae ultra ipsum ad universam legentium communitatem pertinet.
+
+## Traditio eiusque fines
+
+Novum Testamentum continuam narrationem de posteriore Philippi missione vel morte non praebet. Neque apostolus statim cum Philippo evangelista, uno ex Septem in Actibus, identificandus est. Posteriora de apostolo scripta praedicationem in Graecia et Phrygia mortemque Hierapoli collocant. De genere supplicii dissentiunt, crucifixionem vel lapidationem describentes. Hae sunt traditiones receptionis, non documenta contemporanea quae certum itinerarium constituant.
+
+Benedictus XVI has posteriores narrationes a testimonio evangelico expresse distinguit. Vita prudenter conscripta igitur lacunas apertas relinquit, neque omnes fabulas in unam chronologiam cogit. Momentum Philippi certo traditum in loco inter Duodecim et in narrationibus Ioanneis consistit: Nathanaelem adducit, necessitatem multitudinis considerat, Graecos recipit et de Patre interrogat. Simul hae narrationes discipulatum ut propinquitatem Iesu, interrogationem et mediationem ostendunt, sine rebus fictis quibus vita fragmentarie nota integra videatur.
+
+## Fontes
+
+- [Benedictus XVI, audientia generalis diei 6 Septembris 2006 (exemplar textus Vaticani consultum)](https://github.com/lologhi/vatican/blob/main/benedict-xvi/audiences/2006/2006-09-06.md)
+$desc$),
+('saint-james-the-less-apostle','en','James the Less is traditionally identified with James son of Alphaeus, one of the Twelve. His further identification with James, the Lord’s brother and Jerusalem church leader, has shaped Western devotion but remains historically disputed.',$desc$## A name requiring distinction
+
+Several men called James appear in the New Testament. The apostolic lists name James son of Alphaeus separately from James son of Zebedee. Mark also names a Mary as mother of James the younger, or less, and of Joses. Western tradition has commonly brought the son of Alphaeus, this James and James the Lord’s brother into one biography. The identification is not demonstrated by an explicit statement in the biblical texts, and a responsible account must preserve that distinction.
+
+The older Catholic Encyclopedia argues in favour of the traditional identification while acknowledging uncertainty and competing interpretations. Its reconstruction is therefore useful evidence for the history of Catholic interpretation, not proof that the question has been settled. If James son of Alphaeus is considered independently, very little can be said beyond his membership in the Twelve. No securely documented childhood, occupation, individual call narrative or missionary itinerary survives for him.
+
+## The Jerusalem James
+
+The following details concern James the Lord’s brother and apply to the son of Alphaeus only if the traditional identification is accepted. Paul records an appearance of the risen Christ to James and describes meeting him in Jerusalem. In Galatians, James appears with Cephas and John among the recognized pillars of the community. These references establish the importance of the Jerusalem leader; they do not by themselves resolve every relationship among the men sharing his name.
+
+In Acts 15, James speaks during the deliberation over Gentile converts and the Mosaic law. He supports their reception without circumcision while proposing requirements intended to make common life possible between believers of different backgrounds. Later, in Acts 21, Paul meets James and the elders, reports his ministry and receives advice intended to address suspicions about his attitude towards Jewish observance. These scenes depict leadership exercised through deliberation, scriptural reasoning and concern for communion, rather than through an isolated authority detached from the community.
+
+The Epistle of James has traditionally been associated with this Jerusalem figure. Its exhortations emphasize integrity between faith and conduct, care for the poor, restraint in speech and perseverance. Attribution of the letter, however, belongs to a distinct literary question and cannot simply establish that its author was the son of Alphaeus. Likewise, the expression “brother of the Lord” has received different interpretations concerning family relationship. Neither issue should be silently converted into an undisputed personal detail.
+
+## Death and remembrance
+
+Ancient accounts of the death of Jerusalem’s James are not identical. Josephus and the Christian tradition transmitted through Hegesippus provide different narratives and emphases; the latter also portrays James as exceptionally ascetical and devoted to prayer. Those traditions help explain his remembrance as the Just, but their details must be evaluated rather than indiscriminately combined. They do not securely supply a separate account of the death of James son of Alphaeus.
+
+The Church’s remembrance of James the Less thus joins an assured apostolic name to a complex interpretive inheritance. It is possible to honour that inheritance while admitting the limits of historical reconstruction. What is certain about the apostle need not be enlarged by invented travel or speeches. What is richly attested about the Jerusalem leader should remain clearly labelled whenever it is associated with the apostle commemorated under the name James the Less.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. James the Less” (consulted digital mirror)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/08280a.htm)
+$desc$),
+('saint-james-the-less-apostle','fr','Jacques le Mineur est traditionnellement identifié à Jacques, fils d’Alphée, l’un des Douze. Son identification supplémentaire avec Jacques, frère du Seigneur et responsable de l’Église de Jérusalem, a marqué la dévotion occidentale, mais demeure historiquement discutée.',$desc$## Un nom à distinguer
+
+Plusieurs hommes nommés Jacques apparaissent dans le Nouveau Testament. Les listes apostoliques distinguent Jacques, fils d’Alphée, de Jacques, fils de Zébédée. Marc nomme aussi une Marie, mère de Jacques le petit, ou mineur, et de José. La tradition occidentale a souvent réuni le fils d’Alphée, ce Jacques et Jacques, frère du Seigneur, dans une même biographie. Aucun énoncé explicite des textes bibliques ne démontre cette identification ; un récit responsable doit maintenir cette distinction.
+
+L’ancienne Catholic Encyclopedia défend l’identification traditionnelle tout en reconnaissant les incertitudes et les interprétations concurrentes. Sa reconstruction renseigne donc utilement sur l’histoire de l’interprétation catholique, sans prouver que la question soit réglée. Si l’on considère indépendamment Jacques, fils d’Alphée, on peut dire très peu de choses au-delà de son appartenance aux Douze. Ni enfance, ni métier, ni récit individuel d’appel, ni itinéraire missionnaire sûrement documentés ne subsistent à son sujet.
+
+## Le Jacques de Jérusalem
+
+Les éléments suivants concernent Jacques, frère du Seigneur, et ne s’appliquent au fils d’Alphée que si l’identification traditionnelle est acceptée. Paul rapporte une apparition du Christ ressuscité à Jacques et raconte l’avoir rencontré à Jérusalem. Dans les Galates, Jacques figure avec Céphas et Jean parmi les colonnes reconnues de la communauté. Ces références établissent l’importance du responsable de Jérusalem ; elles ne résolvent pas à elles seules tous les rapports entre les hommes portant ce nom.
+
+En Actes 15, Jacques intervient dans la délibération sur les convertis païens et la Loi mosaïque. Il soutient leur accueil sans circoncision, tout en proposant des exigences destinées à permettre la vie commune entre croyants d’origines différentes. Plus tard, en Actes 21, Paul rencontre Jacques et les anciens, rapporte son ministère et reçoit un conseil pour répondre aux soupçons sur son attitude envers l’observance juive. Ces scènes présentent une autorité exercée par la délibération, le raisonnement scripturaire et le souci de communion, non de manière isolée.
+
+L’Épître de Jacques a traditionnellement été associée à cette figure de Jérusalem. Ses exhortations insistent sur la cohérence de la foi et de la conduite, l’attention aux pauvres, la maîtrise de la parole et la persévérance. L’attribution de la lettre constitue cependant une question littéraire distincte et ne prouve pas simplement que son auteur serait le fils d’Alphée. De même, l’expression « frère du Seigneur » a reçu diverses interprétations concernant la parenté. Aucune de ces questions ne doit devenir tacitement un détail personnel indiscuté.
+
+## Mort et mémoire
+
+Les récits anciens de la mort du Jacques de Jérusalem ne sont pas identiques. Josèphe et la tradition chrétienne transmise par Hégésippe proposent des narrations et des accents différents ; cette dernière présente aussi Jacques comme particulièrement ascétique et attaché à la prière. Ces traditions éclairent sa mémoire de Juste, mais leurs détails doivent être évalués plutôt qu’assemblés indistinctement. Elles ne fournissent pas sûrement un récit séparé de la mort de Jacques, fils d’Alphée.
+
+La mémoire ecclésiale de Jacques le Mineur associe donc un nom apostolique assuré à un héritage interprétatif complexe. On peut honorer cet héritage tout en reconnaissant les limites de la reconstruction historique. Ce qui est certain sur l’apôtre n’exige aucun voyage ou discours inventé. Ce qui est abondamment attesté sur le responsable de Jérusalem doit rester clairement désigné lorsqu’on l’associe à l’apôtre commémoré sous le nom de Jacques le Mineur.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. James the Less » (copie numérique consultée)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/08280a.htm)
+$desc$),
+('saint-james-the-less-apostle','la','Iacobus Minor tradito more cum Iacobo Alphaei, uno ex Duodecim, identificatur. Ulterior identificatio cum Iacobo, fratre Domini et praeposito Ecclesiae Hierosolymitanae, pietatem occidentalem formavit, sed inter historicos adhuc disputatur nec pro re certa habenda est.',$desc$## Nomen distinguendum
+
+Plures viri nomine Iacobi in Novo Testamento occurrunt. Indices apostolici Iacobum Alphaei a Iacobo Zebedaei distinguunt. Marcus etiam Mariam matrem Iacobi minoris et Iose nominat. Traditio occidentalis filium Alphaei, hunc Iacobum et Iacobum fratrem Domini saepe in unam vitam collegit. Haec identificatio expresso textuum biblicorum enuntiato non demonstratur; narratio prudens distinctionem servare debet.
+
+Vetus Catholic Encyclopedia identificationem traditam defendit, incertitudine tamen et interpretationibus diversis agnitis. Eius reconstructio igitur ad historiam interpretationis catholicae cognoscendam utilis est, non ad quaestionem iam solutam probandam. Si Iacobus Alphaei seorsum consideratur, praeter eius locum inter Duodecim perpauca dici possunt. Nulla pueritia, ars, narratio vocationis singularis vel itinerarium missionarium certo documentis comprobata de eo supersunt.
+
+## Iacobus Hierosolymitanus
+
+Quae sequuntur Iacobum fratrem Domini respiciunt, et filio Alphaei tantum conveniunt si identificatio tradita accipitur. Paulus apparitionem Christi resuscitati Iacobo commemorat atque se eum Hierosolymis convenisse narrat. In epistula ad Galatas Iacobus cum Cepha et Ioanne inter columnas communitatis agnitas apparet. Haec testimonia momentum rectoris Hierosolymitani statuunt; non per se omnes relationes inter homines eiusdem nominis dissolvunt.
+
+In Actibus 15 Iacobus in deliberatione de conversis gentilibus et Lege Mosaica loquitur. Eorum receptionem sine circumcisione sustinet, simul praecepta proponens quibus vita communis fidelium diversae originis fieri possit. Postea, in Actibus 21, Paulus Iacobum et presbyteros convenit, ministerium suum refert et consilium accipit ad suspiciones de observantia Iudaica amovendas. Hae narrationes regimen per deliberationem, argumentum scripturarium et communionis curam exercitum ostendunt, non auctoritatem a communitate separatam.
+
+Epistula Iacobi tradito more cum hoc viro Hierosolymitano coniuncta est. Exhortationes eius concordiam fidei et morum, curam pauperum, moderationem sermonis et perseverantiam urgent. Auctoris tamen identificatio distincta quaestio litteraria est, neque simpliciter probat eum filium Alphaei fuisse. Similiter locutio “frater Domini” varias de cognatione interpretationes accepit. Neutra quaestio tacite in rem personalem indubitatam convertenda est.
+
+## Mors et memoria
+
+Antiquae narrationes de morte Iacobi Hierosolymitani non sunt identicae. Iosephus et traditio christiana per Hegesippum transmissa diversas narrationes et emphasis praebent; posterior etiam Iacobum asceseos et orationis singulariter studiosum describit. Hae traditiones memoriam eius tamquam Iusti explicant, sed singula examinanda, non indiscrete coniungenda sunt. Separatam narrationem certam de morte Iacobi Alphaei non suppeditant.
+
+Memoria igitur ecclesialis Iacobi Minoris nomen apostolicum certum cum hereditate interpretativa multiplici coniungit. Hanc hereditatem honorare licet, limitibus reconstructionis historicae agnitis. Quae de apostolo certa sunt itineribus aut sermonibus fictis augenda non sunt. Quae de rectore Hierosolymitano abundanter testantur clare designata manere debent, quoties apostolo nomine Iacobi Minoris commemorato coniunguntur.
+
+## Fontes
+
+- [Catholic Encyclopedia, “St. James the Less” (exemplar digitale consultum)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/08280a.htm)
+$desc$)
+) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
+WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
+-- END_BIOGRAPHIES_MAY
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s JOIN (VALUES
+('saint-nereus','en','Nereus was a Roman martyr commemorated with Achilleus near the Via Ardeatina. An early inscription remembers their conversion from military service; later stories about imperial household service cannot securely establish the circumstances of their lives.',$desc$## The earliest evidence
+
+Nereus is known principally through a shared commemoration with Achilleus in Rome. Their burial place was venerated in the cemetery of Domitilla near the Via Ardeatina. Ancient calendars and later pilgrim itineraries identify this cult, while the remains of a basilica erected over their burial place provide material evidence of its importance. These witnesses establish a remembered martyr and a place of worship more firmly than they establish the details of his lifetime.
+
+The most important early narrative witness is an inscription composed by Pope Damasus in the fourth century. It describes Nereus and Achilleus as soldiers who had obeyed a tyrant, then embraced Christian faith, abandoned their military service and accepted death. A fragment of the inscription was recovered among the basilica’s remains, and its fuller text was also preserved through an ancient copy. The poem does not name the ruler responsible or supply a year for the martyrdom.
+
+## Later narrative
+
+A much later account presents the two men as eunuchs and chamberlains of Flavia Domitilla, associates them with exile on Pontia and places their execution at Terracina. The Catholic Encyclopedia explains that this narrative links numerous otherwise distinct figures and has the character of a religious romance. Its household setting differs from the military identity given by Damasus. The two accounts should therefore not be merged into a confidently dated career.
+
+Nor is there sufficient evidence to identify this martyr with the Nereus greeted by Paul in Romans, or to establish a family connection between them. Similar names do not demonstrate personal continuity. Birthplace, age, relatives and the precise circumstances of conversion remain unknown. Admitting these limits prevents later narrative detail from displacing the earlier evidence.
+
+## Remembered with Achilleus
+
+Nereus’s surviving historical identity is inseparable from Achilleus’s. Their joint remembrance concerns a change of allegiance expressed through costly Christian confession. The ancient devotion does not require a reconstructed speech, invented journey or exact chronology. The burial tradition, Damasus’s poem and the archaeological remains together preserve the essential outline, while leaving much of the personal story beyond recovery.
+
+## Sources
+
+- [Catholic Encyclopedia, “Sts. Nereus and Achilleus, Domitilla and Pancratius” (consulted digital mirror)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/10751a.htm)
+$desc$),
+('saint-nereus','fr','Nérée était un martyr romain commémoré avec Achillée près de la voie Ardéatine. Une ancienne inscription rappelle leur conversion et leur abandon du service militaire ; les récits postérieurs de service dans une maison impériale ne permettent pas de reconstruire sûrement leur vie.',$desc$## Les premiers témoignages
+
+Nérée est connu principalement par sa commémoration commune avec Achillée à Rome. Leur sépulture était vénérée dans le cimetière de Domitille, près de la voie Ardéatine. Les anciens calendriers et les itinéraires ultérieurs des pèlerins signalent ce culte ; les vestiges d’une basilique élevée au-dessus de leur tombe en attestent matériellement l’importance. Ces témoins établissent plus solidement la mémoire d’un martyr et un lieu de culte que les détails de son existence.
+
+Le principal témoignage narratif ancien est une inscription composée par le pape Damase au IVe siècle. Elle décrit Nérée et Achillée comme des soldats qui avaient obéi à un tyran, puis embrassé la foi chrétienne, abandonné leur service et accepté la mort. Un fragment fut retrouvé parmi les vestiges de la basilique ; le texte plus complet était aussi conservé par une copie ancienne. Le poème ne nomme pas le souverain responsable et ne date pas le martyre.
+
+## Le récit postérieur
+
+Un récit beaucoup plus tardif présente les deux hommes comme des eunuques et chambellans de Flavie Domitille, les associe à un exil sur Pontia et situe leur exécution à Terracine. La Catholic Encyclopedia explique que cette narration rassemble de nombreux personnages distincts et tient du roman religieux. Son cadre domestique diffère de l’identité militaire donnée par Damase. Il ne faut donc pas fondre ces deux récits en une carrière datée avec assurance.
+
+Rien ne permet non plus d’identifier sûrement ce martyr au Nérée salué par Paul dans les Romains, ni d’établir entre eux une parenté. Des noms semblables ne prouvent pas une continuité personnelle. Lieu de naissance, âge, proches et circonstances précises de la conversion restent inconnus. Reconnaître ces limites empêche les détails tardifs de supplanter les premiers témoignages.
+
+## La mémoire avec Achillée
+
+L’identité historique conservée de Nérée est inséparable de celle d’Achillée. Leur mémoire commune concerne un changement d’allégeance exprimé par une confession chrétienne coûteuse. L’ancienne dévotion n’exige ni discours reconstruit, ni voyage inventé, ni chronologie exacte. Tradition funéraire, poème de Damase et vestiges archéologiques préservent ensemble l’essentiel, tout en laissant une grande partie de leur histoire personnelle hors d’atteinte.
+
+## Sources
+
+- [Catholic Encyclopedia, « Sts. Nereus and Achilleus, Domitilla and Pancratius » (copie numérique consultée)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/10751a.htm)
+$desc$),
+('saint-nereus','la','Nereus martyr Romanus cum Achilleo prope viam Ardeatinam commemoratur. Antiquum epigramma conversionem eorum et militiam relictam memorat; posteriores narrationes de servitio in domo imperiali condiciones vitae eorum certo constituere non possunt.',$desc$## Antiquissima testimonia
+
+Nereus praecipue ex communi cum Achilleo commemoratione Romae cognoscitur. Eorum sepultura in coemeterio Domitillae prope viam Ardeatinam colebatur. Calendaria antiqua et posteriora peregrinorum itineraria cultum designant; reliquiae basilicae super sepulcrum erectae eius momentum materialiter testantur. Hi testes memoriam martyris et locum cultus firmius constituunt quam singula vitae eius.
+
+Praecipuum testimonium narrativum antiquum est inscriptio a Damaso papa saeculo quarto composita. Nereum et Achilleum milites describit, qui tyranno paruerant, deinde fidem christianam amplexi militiam reliquerunt et mortem susceperunt. Fragmentum inscriptionis inter basilicae ruinas repertum est, textus autem plenior etiam per exemplar antiquum servatus erat. Poema neque principem responsalem nominat neque annum martyrii praebet.
+
+## Narratio posterior
+
+Narratio multo posterior eos eunuchos et cubicularios Flaviae Domitillae exhibet, cum exilio in Pontia coniungit atque supplicium Tarracinae collocat. Catholic Encyclopedia explicat hanc narrationem multos alioquin distinctos homines conectere et formam fabulae religiosae habere. Condicio domestica ab identitate militari quam Damasus praebet differt. Duae igitur narrationes in vitam confidenter datam confundendae non sunt.
+
+Neque satis testimonii est ut hic martyr cum Nereo a Paulo in epistula ad Romanos salutato identificetur aut cognatio inter eos statuatur. Similitudo nominum continuitatem personalem non probat. Patria, aetas, propinqui et certae conversionis condiciones ignorantur. His limitibus admissis, singula posteriora antiquiora testimonia non depellunt.
+
+## Memoria cum Achilleo
+
+Identitas historica Nerei quae superest ab Achilleo separari nequit. Communis memoria mutationem oboedientiae per confessionem christianam magno pretio exhibitam respicit. Antiqua pietas sermonem restitutum, iter fictum vel chronologiam exactam non requirit. Traditio sepulturae, poema Damasi et reliquiae archaeologicae simul summam servant, magna tamen historiae personalis parte extra cognitionem relicta.
+
+## Fontes
+
+- [Catholic Encyclopedia, “Sts. Nereus and Achilleus, Domitilla and Pancratius” (exemplar digitale consultum)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/10751a.htm)
+$desc$),
+('saint-achilleus','en','Achilleus was a Roman martyr whose remembrance is joined to Nereus. A Damasian inscription and remains of their cemetery basilica preserve early testimony, while later accounts of their household positions, exile and execution are historically uncertain.',$desc$## A martyr at the Via Ardeatina
+
+Achilleus was honoured with Nereus at a burial place in the cemetery of Domitilla outside Rome. The ancient commemoration is supported by calendars, pilgrimage itineraries and a basilica constructed over the graves. His life is not preserved in contemporary personal records. What survives most securely is the existence of a local martyr cult that became part of Rome’s wider liturgical memory.
+
+Archaeological evidence gives Achilleus an unusually concrete presence within that fragmentary record. Among the remains of the basilica were pillars associated with its sanctuary canopy, bearing representations of the martyrs’ execution. One preserved pillar carries the name Achilleus. Such a monument witnesses how the community represented and honoured him; it does not by itself establish the year, legal proceedings or complete sequence of the death it depicts.
+
+## The poem of Damasus
+
+Pope Damasus’s fourth-century inscription presents Achilleus and Nereus as soldiers once obedient to a tyrant. Converted to Christianity, they abandoned that service and accepted martyrdom. Its wording emphasizes the contrast between former obedience and their changed commitment. The poem is the principal early narrative testimony, but it leaves the responsible ruler and exact date unnamed.
+
+Later acts instead make them eunuchs in the household of Flavia Domitilla, exiled with her to Pontia and eventually beheaded at Terracina. The consulted Catholic Encyclopedia treats those acts as legendary, noting their combination of numerous martyrs in an elaborate narrative. Their details cannot simply be added to the poem to produce a fuller, supposedly verified biography. Even an attractive reconciliation of the two versions would remain conjectural.
+
+## A shared remembrance
+
+No reliable separate account supplies Achilleus’s birthplace, family or age. The common celebration of Nereus and Achilleus reflects their shared burial and cult, not proof of every later claim concerning their relationship. Their significance in the earliest commemorative text lies in a conversion expressed by renunciation and endurance.
+
+The historical restraint required here is substantial but not destructive. Achilleus is not known merely from an unattested modern story: ancient worship and material remains support his remembrance. They preserve a meaningful outline without authorizing an invented childhood or a detailed persecution narrative. His biography must remain shorter than those of saints whose letters, writings and contemporary lives survive.
+
+## Sources
+
+- [Catholic Encyclopedia, “Sts. Nereus and Achilleus, Domitilla and Pancratius” (consulted digital mirror)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/10751a.htm)
+$desc$),
+('saint-achilleus','fr','Achillée était un martyr romain dont la mémoire est unie à celle de Nérée. Une inscription damasienne et les vestiges de leur basilique funéraire conservent des témoignages anciens ; les récits postérieurs de service domestique, d’exil et d’exécution restent historiquement incertains.',$desc$## Un martyr de la voie Ardéatine
+
+Achillée était honoré avec Nérée auprès d’une sépulture du cimetière de Domitille, hors de Rome. Cette commémoration ancienne est attestée par des calendriers, des itinéraires de pèlerinage et une basilique construite sur les tombes. Aucun document personnel contemporain ne conserve sa vie. Le fait le plus solide est l’existence d’un culte martyrial local devenu partie de la mémoire liturgique romaine.
+
+L’archéologie donne à Achillée une présence particulièrement concrète dans ce dossier fragmentaire. Parmi les vestiges de la basilique figuraient des piliers liés au baldaquin du sanctuaire, ornés de représentations de l’exécution des martyrs. Un pilier conservé porte le nom d’Achillée. Ce monument témoigne de la manière dont la communauté le représentait et l’honorait ; il ne prouve pas à lui seul l’année, la procédure judiciaire ou le déroulement complet de la mort représentée.
+
+## Le poème de Damase
+
+L’inscription du pape Damase, au IVe siècle, présente Achillée et Nérée comme des soldats autrefois soumis à un tyran. Convertis au christianisme, ils abandonnèrent ce service et acceptèrent le martyre. Le texte souligne le contraste entre leur ancienne obéissance et leur nouvel engagement. Ce poème est le principal témoignage narratif ancien, mais ne nomme ni le souverain responsable ni la date exacte.
+
+Les actes postérieurs en font plutôt des eunuques au service de Flavie Domitille, exilés avec elle sur Pontia et finalement décapités à Terracine. La Catholic Encyclopedia consultée considère ces actes comme légendaires et relève leur réunion de nombreux martyrs dans une narration élaborée. On ne peut simplement ajouter leurs détails au poème pour produire une biographie plus complète prétendument vérifiée. Même une conciliation séduisante des versions resterait conjecturale.
+
+## Une mémoire commune
+
+Aucun récit indépendant fiable ne donne le lieu de naissance, la famille ou l’âge d’Achillée. La célébration commune de Nérée et Achillée reflète leur sépulture et leur culte partagés, sans prouver toutes les affirmations ultérieures sur leur relation. Leur importance dans le premier texte commémoratif tient à une conversion manifestée par le renoncement et la persévérance.
+
+La réserve historique nécessaire est importante, mais non destructrice. Achillée n’est pas connu uniquement par une histoire moderne sans attestation : un culte ancien et des vestiges matériels soutiennent sa mémoire. Ils préservent un cadre significatif, sans autoriser une enfance inventée ni un récit détaillé de persécution. Sa biographie doit rester plus courte que celle des saints dont les lettres, les œuvres et les vies contemporaines subsistent.
+
+## Sources
+
+- [Catholic Encyclopedia, « Sts. Nereus and Achilleus, Domitilla and Pancratius » (copie numérique consultée)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/10751a.htm)
+$desc$),
+('saint-achilleus','la','Achilleus martyr Romanus fuit, cuius memoria cum Nereo coniungitur. Inscriptio Damasiana et reliquiae basilicae coemeterialis antiquum testimonium servant; posteriores narrationes de muneribus domesticis, exilio atque supplicio historice incertae manent neque sine cautione recipiendae sunt.',$desc$## Martyr ad viam Ardeatinam
+
+Achilleus cum Nereo apud sepulcrum in coemeterio Domitillae extra Romam honorabatur. Antiqua commemoratio calendariis, itinerariis peregrinorum et basilica super sepulcra constructa comprobatur. Vita eius documentis personalibus contemporaneis non servatur. Firmissime superest existentia cultus martyrialis localis qui in ampliorem memoriam liturgicam Romanam transiit.
+
+Testimonium archaeologicum Achilleum intra hanc notitiam fragmentariam singulariter concretum reddit. Inter basilicae reliquias columnae ad ciborium sanctuarii pertinentes inventae sunt, imaginibus supplicii martyrum ornatae. Una columna servata nomen Achillei fert. Tale monumentum testatur quomodo communitas eum repraesentaverit et honoraverit; per se annum, acta iudicialia aut integrum mortis depictae ordinem non constituit.
+
+## Poema Damasi
+
+Inscriptio Damasi papae saeculi quarti Achilleum et Nereum milites olim tyranno oboedientes exhibet. Ad christianam fidem conversi illud servitium reliquerunt et martyrium susceperunt. Verba discrimen inter pristinam oboedientiam et novum propositum urgent. Poema praecipuum antiquum testimonium narrativum est, sed principem responsalem et diem certum non nominat.
+
+Posteriora autem acta eos eunuchos in domo Flaviae Domitillae faciunt, cum ea in Pontiam relegatos et tandem Tarracinae decollatos. Catholic Encyclopedia consulta haec acta legendaria habet, multorum martyrum coniunctionem in narratione elaborata notans. Singula eorum poemati simpliciter addi nequeunt ad pleniorem vitam quasi verificatam efficiendam. Etiam conciliatio duarum versionum ingeniosa coniecturalis maneret.
+
+## Memoria communis
+
+Nulla separata narratio fide digna patriam, familiam aut aetatem Achillei praebet. Communis Nerei et Achillei celebratio sepulturam cultumque communem refert, non omnia posteriora de relatione eorum dicta probat. Momentum eorum in antiquissimo textu commemorativo conversione per renuntiationem et patientiam manifestata continetur.
+
+Moderatio historica hic necessaria magna quidem est, non tamen destructiva. Achilleus non ex sola fabula moderna sine testimonio cognoscitur: cultus antiquus et reliquiae materiales memoriam sustinent. Summam significantem servant, neque tamen pueritiam fictam aut accuratam persecutionis narrationem permittunt. Vita eius brevior manere debet quam sanctorum quorum epistulae, scripta et vitae contemporaneae supersunt.
+
+## Fontes
+
+- [Catholic Encyclopedia, “Sts. Nereus and Achilleus, Domitilla and Pancratius” (exemplar digitale consultum)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/10751a.htm)
+$desc$),
+('saint-pancras','en','Pancras was an early Roman martyr venerated at a burial place on the Via Aurelia. His ancient cult is well attested, but the familiar narrative of his youth and trial belongs to a later, historically uncertain tradition.',$desc$## A Roman burial and cult
+
+Pancras, also called Pancratius, was commemorated in Rome at a burial place on the Via Aurelia. Ancient calendars record his remembrance on 12 May, and seventh-century itineraries direct pilgrims to his grave. A church erected over the site became an enduring centre of devotion. These records are evidence for an early and established cult, even though they do not preserve a contemporary narrative of his life.
+
+His commemoration eventually appeared beside those of Nereus and Achilleus, but the burial places were different. Nereus and Achilleus were associated with the Via Ardeatina, whereas Pancras belonged to the Via Aurelia. Their common date does not show that they were companions, were tried together or died in the same persecution. The consulted source explains the separate local celebrations behind their later association in the calendar.
+
+## The limits of biography
+
+The familiar narrative of Pancras’s martyrdom is later than the earliest evidence for his cult. The Catholic Encyclopedia explicitly judges that legend unreliable as historical testimony. Consequently, a precise age, reconstructed dialogue with an emperor and a detailed family story should not be presented here as established facts. They belong to the development of his religious memory rather than to a secure personal record.
+
+Even the persecution in which he died cannot be fixed confidently from the evidence consulted. The source suggests either the persecution under Valerian in the third century or that under Diocletian in the early fourth. These alternatives are historical proposals, not two episodes in one life. Choosing an exact death year merely because later accounts supply one would conceal the uncertainty.
+
+## An enduring remembrance
+
+Pancras’s historical outline is therefore brief: a Roman martyr, an ancient grave, a church and a continuing liturgical remembrance. The absence of a detailed biography does not negate those witnesses. It does, however, require restraint about his personal circumstances and the manner in which later generations imagined his courage. His place among the remembered martyrs can be described faithfully without turning an uncertain legend into contemporary history.
+
+## Sources
+
+- [Catholic Encyclopedia, “Sts. Nereus and Achilleus, Domitilla and Pancratius” (consulted digital mirror)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/10751a.htm)
+$desc$),
+('saint-pancras','fr','Pancrace était un ancien martyr romain vénéré auprès d’une sépulture de la voie Aurélienne. Son culte ancien est bien attesté, mais le récit familier de sa jeunesse et de son procès appartient à une tradition postérieure historiquement incertaine.',$desc$## Une sépulture et un culte romains
+
+Pancrace, également appelé Pancratius, était commémoré à Rome auprès d’une sépulture de la voie Aurélienne. Les anciens calendriers inscrivent sa mémoire au 12 mai, et les itinéraires du VIIe siècle dirigent les pèlerins vers sa tombe. Une église élevée sur le lieu devint un centre durable de dévotion. Ces documents attestent un culte ancien et établi, sans conserver de récit contemporain de sa vie.
+
+Sa commémoration finit par figurer auprès de celles de Nérée et Achillée, mais les lieux de sépulture différaient. Nérée et Achillée étaient associés à la voie Ardéatine ; Pancrace, à la voie Aurélienne. La date commune ne prouve pas qu’ils fussent compagnons, jugés ensemble ou morts dans la même persécution. La source consultée explique les célébrations locales distinctes qui précédèrent leur association dans le calendrier.
+
+## Les limites de la biographie
+
+Le récit familier du martyre de Pancrace est postérieur aux premiers témoignages de son culte. La Catholic Encyclopedia juge expressément cette légende peu fiable historiquement. Un âge précis, un dialogue reconstitué avec l’empereur et une histoire familiale détaillée ne doivent donc pas être présentés ici comme des faits établis. Ils appartiennent au développement de sa mémoire religieuse plutôt qu’à un dossier personnel assuré.
+
+Même la persécution dans laquelle il mourut ne peut être fixée avec assurance à partir des témoignages consultés. La source propose celle de Valérien au IIIe siècle ou celle de Dioclétien au début du IVe. Il s’agit d’hypothèses historiques, non de deux épisodes d’une même vie. Choisir une année exacte simplement parce que des récits tardifs la fournissent dissimulerait l’incertitude.
+
+## Une mémoire durable
+
+Le cadre historique de Pancrace est donc bref : un martyr romain, une tombe ancienne, une église et une mémoire liturgique persistante. L’absence de biographie détaillée n’annule pas ces témoins. Elle exige cependant de la réserve sur sa situation personnelle et sur la manière dont les générations suivantes ont imaginé son courage. Sa place parmi les martyrs peut être fidèlement décrite sans transformer une légende incertaine en histoire contemporaine.
+
+## Sources
+
+- [Catholic Encyclopedia, « Sts. Nereus and Achilleus, Domitilla and Pancratius » (copie numérique consultée)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/10751a.htm)
+$desc$),
+('saint-pancras','la','Pancratius antiquus martyr Romanus apud sepulcrum viae Aureliae colebatur. Cultus eius antiquus bene testatur; nota tamen narratio de iuventute et iudicio ad posteriorem traditionem historice incertam pertinet, non ad certam vitae eius descriptionem.',$desc$## Sepulcrum et cultus Romae
+
+Pancratius, etiam Pancras appellatus, Romae apud sepulcrum viae Aureliae commemorabatur. Antiqua calendaria memoriam eius die 12 Maii referunt, et itineraria saeculi septimi peregrinos ad sepulcrum ducunt. Ecclesia ibi erecta stabile pietatis centrum facta est. Haec documenta cultum antiquum et constitutum testantur, quamquam narrationem contemporaneam vitae eius non servant.
+
+Commemoratio eius tandem iuxta Nerei et Achillei memorias apparuit, sed sepulturae diversae erant. Nereus et Achilleus cum via Ardeatina, Pancratius cum via Aurelia coniungebantur. Dies communis non probat eos socios fuisse, simul iudicatos vel in eadem persecutione mortuos esse. Fons consultus distinctas celebrationes locales explicat, quae posteriorem coniunctionem in calendario praecesserunt.
+
+## Fines biographiae
+
+Nota narratio martyrii Pancratii posterior est antiquissimis cultus testimoniis. Catholic Encyclopedia hanc legendam ad historiam probandam expresse infidam iudicat. Itaque aetas certa, sermo cum imperatore restitutus et accurata historia familiae hic tamquam res constitutae proponenda non sunt. Ad memoriam religiosam evolutam potius quam ad certam notitiam personalem pertinent.
+
+Ne persecutio quidem in qua mortuus est ex testimoniis consultis confidenter definiri potest. Fons vel persecutionem Valeriani saeculo tertio vel Diocletiani ineunte quarto proponit. Hae sunt sententiae historicae, non duo eventus unius vitae. Annum mortis exactum eligere eo solo quod narrationes posteriores eum tradunt incertitudinem celaret.
+
+## Memoria permanens
+
+Summa igitur historica Pancratii brevis est: martyr Romanus, sepulcrum antiquum, ecclesia et continua commemoratio liturgica. Defectus vitae accuratae haec testimonia non tollit. Requirit tamen moderationem circa condiciones personales et modum quo posteriores generationes fortitudinem eius imaginatae sunt. Locus eius inter martyres fideliter describi potest, quin legenda incerta in historiam contemporaneam convertatur.
+
+## Fontes
+
+- [Catholic Encyclopedia, “Sts. Nereus and Achilleus, Domitilla and Pancratius” (exemplar digitale consultum)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/10751a.htm)
+$desc$)
+) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
+WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
+-- END_BIOGRAPHIES_MAY
+
+-- BIOGRAPHIES_JUNE
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-justin-martyr', 'en',
+$desc$Justin was a second-century Christian philosopher and apologist whose writings explain the faith, worship, and moral life of early Christians. His search for truth led to Christian conversion, teaching in Rome, and martyrdom under the prefect Rusticus.$desc$,
+$desc$## Life and evidence
+
+Justin was born around the beginning of the second century at Flavia Neapolis, near ancient Shechem in Roman Palestine. His references to his father Priscus and grandfather Bacchius, together with his own account of being uncircumcised, indicate a non-Jewish background. Neither his exact birth date nor a detailed childhood history is securely known. His surviving works contain autobiographical material, but they are arguments for Christianity rather than neutral memoirs. Their literary arrangement must therefore be distinguished from independently established chronology.
+
+In the opening of the Dialogue with Trypho, Justin describes successive encounters with Stoic, Peripatetic, Pythagorean, and Platonic teachers. Each stage dramatizes the question of whether philosophical study can bring a person to knowledge of God. Platonism attracted him most strongly, but a conversation with an elderly stranger directed him toward the biblical prophets. The account gives a coherent interpretation of his conversion without necessarily reproducing every conversation exactly. His Apologies also attribute importance to Christians who faced execution courageously: their conduct undermined allegations that Christian communities practised shameful crimes.
+
+## A Christian philosopher
+
+His conversion is generally placed around 130, though the evidence does not establish an exact year. He retained the philosopher's vocation after becoming Christian, presenting the new faith as the fulfilment rather than the abandonment of the search for truth. He spent time in the Greek-speaking eastern Mediterranean and eventually taught at Rome. The record of his trial indicates that he had visited Rome twice and received people wishing to hear his teaching. Christianity in this setting spread through personal instruction as well as through established assemblies.
+
+Three substantial works are securely associated with him: the First Apology, the Second Apology, and the Dialogue with Trypho. Other compositions are known through ancient references, while several writings transmitted under his name are not authentic. The surviving textual tradition has gaps and corruptions; consequently, apparent completeness in a modern edition should not conceal the precarious transmission of an important early Christian author. The relationship between the two Apologies, including whether the second functioned as a supplement, has also occasioned scholarly discussion.
+
+## Defence of Christian belief
+
+The First Apology, normally dated to the middle of the second century, appeals to imperial authorities for reasoned judgement. Justin argues that the name Christian should not itself establish guilt. Crimes should be investigated as crimes, while refusal to worship the traditional gods should not be confused with moral corruption. His defence combines criticism of persecution with an account of Christian ethics, divine judgement, and the significance of Jesus. Its setting is an unequal relationship between a vulnerable religious minority and the power that could condemn its members.
+
+Justin interprets Christ as the divine Logos, the Word through whom truth becomes accessible. He can therefore recognize partial insights among Greek philosophers while affirming that their fulfilment is found in Christ. This is not an assertion that all systems teach the same thing. He criticizes philosophical error and insists on revelation through the prophets. His language belongs to a period before the later conciliar definitions of Trinitarian doctrine; its formulations should be read historically rather than treated as if they already used the technical vocabulary of fourth-century theology.
+
+The Dialogue presents an extended Christian reading of Israel's Scriptures in conversation and controversy with a Jewish interlocutor. It argues for Jesus as Messiah and explores prophecy, law, and the identity of God's people. Its polemical claims belong to the developing differentiation of Christian and Jewish communities. The work is a major witness to early Christian interpretation, but its literary dialogue cannot simply be used as a transcript of Jewish teaching or as an impartial description of Judaism.
+
+## Worship and martyrdom
+
+Justin's account of baptism and the Sunday assembly is exceptionally valuable. He describes scriptural readings, instruction, common prayer, the offering of bread and wine, thanksgiving, and distribution by deacons, including to absent members. He connects Eucharistic food with the flesh and blood of the incarnate Jesus and mentions voluntary assistance for people in need. These passages show worship and material solidarity together, without establishing that every second-century congregation everywhere followed an identical arrangement.
+
+Around 165 Justin and six companions were tried before the Roman prefect Rusticus. The martyrdom account records their refusal to sacrifice and their condemnation to scourging and beheading. A hostile philosopher, Crescens, was later associated with Justin's downfall, but his precise responsibility is uncertain. Justin's enduring importance rests on the conjunction of intellectual argument, observation of Christian communal life, and personal fidelity under prosecution. His writings preserve a distinctive stage in the Church's encounter with classical philosophy and Roman public authority.
+
+## Sources
+
+- G. Archambault, “St. Justin Martyr,” Catholic Encyclopedia (1910), consulted digital edition: https://github.com/CWilsonTSP/cathen/blob/master/cathen/08580c.htm.
+$desc$),
+('saint-justin-martyr', 'fr',
+$desc$Justin, philosophe chrétien et apologiste du deuxième siècle, explique dans ses écrits la foi, le culte et la morale des premiers chrétiens. Sa recherche de la vérité le conduisit à la conversion, à l’enseignement à Rome et au martyre sous le préfet Rusticus.$desc$,
+$desc$## Vie et témoignages
+
+Justin naquit vers le début du deuxième siècle à Flavia Neapolis, près de l’ancienne Sichem, en Palestine romaine. Les noms de son père Priscus et de son grand-père Bacchius, ainsi que son affirmation de ne pas être circoncis, indiquent une origine non juive. Sa date exacte de naissance et son enfance restent mal connues. Ses œuvres comportent des éléments autobiographiques, mais défendent le christianisme plutôt qu’elles ne constituent des mémoires neutres. Leur ordonnance littéraire doit donc être distinguée d’une chronologie établie indépendamment.
+
+Au début du Dialogue avec Tryphon, Justin raconte ses rencontres successives avec des maîtres stoïcien, péripatéticien, pythagoricien et platonicien. Chaque étape met en scène la question de savoir si l’étude philosophique permet de connaître Dieu. Le platonisme l’attira particulièrement, mais un entretien avec un vieillard inconnu l’orienta vers les prophètes bibliques. Ce récit propose une interprétation cohérente de sa conversion sans reproduire nécessairement chaque conversation. Dans les Apologies, il souligne aussi le courage de chrétiens menacés de mort : leur conduite contredisait les accusations de crimes honteux portées contre leurs communautés.
+
+## Un philosophe chrétien
+
+Sa conversion est généralement située vers 130, sans qu’une année précise puisse être établie. Devenu chrétien, il conserva sa vocation philosophique, présentant la nouvelle foi comme l’accomplissement, non l’abandon, de la recherche de la vérité. Il séjourna dans l’Orient méditerranéen de langue grecque, puis enseigna à Rome. Le récit de son procès indique deux séjours romains et l’accueil de personnes désireuses de l’entendre. Dans ce milieu, le christianisme se transmettait par l’enseignement personnel autant que par les assemblées constituées.
+
+Trois œuvres importantes lui sont sûrement attribuées : la Première Apologie, la Seconde Apologie et le Dialogue avec Tryphon. D’autres compositions sont connues par des références anciennes, tandis que plusieurs écrits transmis sous son nom sont inauthentiques. La tradition textuelle conservée présente des lacunes et des corruptions ; l’apparente continuité d’une édition moderne ne doit donc pas masquer cette transmission fragile. Les rapports entre les deux Apologies, notamment la possibilité que la seconde ait servi de supplément, ont également suscité des discussions savantes.
+
+## Défendre la foi chrétienne
+
+La Première Apologie, habituellement datée du milieu du deuxième siècle, demande aux autorités impériales un jugement raisonné. Justin soutient que le seul nom de chrétien ne constitue pas une preuve de culpabilité. Il faut rechercher les crimes comme tels, sans confondre refus du culte traditionnel et corruption morale. Sa défense associe critique des persécutions et présentation de l’éthique chrétienne, du jugement divin et de la signification de Jésus. Elle s’inscrit dans une relation inégale entre une minorité religieuse vulnérable et le pouvoir capable de condamner ses membres.
+
+Justin comprend le Christ comme le Logos divin, le Verbe par lequel la vérité devient accessible. Il peut ainsi reconnaître des aperçus partiels chez les philosophes grecs tout en affirmant leur accomplissement dans le Christ. Il ne prétend pas que tous les systèmes enseignent la même chose : il critique leurs erreurs et insiste sur la révélation prophétique. Son langage précède les définitions conciliaires ultérieures concernant la Trinité. Il convient donc de le lire historiquement, sans lui attribuer le vocabulaire technique de la théologie du quatrième siècle.
+
+Le Dialogue développe une lecture chrétienne des Écritures d’Israël dans une conversation polémique avec un interlocuteur juif. Il défend la messianité de Jésus et examine prophétie, Loi et identité du peuple de Dieu. Ses affirmations controversées appartiennent au processus de différenciation des communautés chrétiennes et juives. L’ouvrage est un témoignage majeur de l’interprétation chrétienne ancienne, mais ne saurait être traité simplement comme une transcription de l’enseignement juif ou une description impartiale du judaïsme.
+
+## Culte et martyre
+
+La description du baptême et de l’assemblée dominicale est particulièrement précieuse. Justin mentionne lectures scripturaires, instruction, prière commune, présentation du pain et du vin, action de grâce et distribution par les diacres, y compris aux absents. Il rapporte la nourriture eucharistique à la chair et au sang de Jésus incarné et évoque l’aide volontaire aux personnes dans le besoin. Ces passages montrent l’unité du culte et de la solidarité matérielle, sans prouver que toutes les communautés du deuxième siècle suivaient partout exactement le même ordre.
+
+Vers 165, Justin et six compagnons comparurent devant le préfet romain Rusticus. Le récit du martyre rapporte leur refus de sacrifier et leur condamnation à la flagellation puis à la décapitation. Un philosophe hostile, Crescens, fut ensuite associé à la mort de Justin, mais sa responsabilité précise demeure incertaine. L’importance durable de Justin tient à l’union de l’argumentation intellectuelle, du témoignage sur la vie communautaire et de la fidélité personnelle devant la persécution. Ses écrits éclairent une étape singulière de la rencontre entre l’Église, la philosophie classique et l’autorité romaine.
+
+## Sources
+
+- G. Archambault, « St. Justin Martyr », Catholic Encyclopedia (1910), édition numérique consultée : https://github.com/CWilsonTSP/cathen/blob/master/cathen/08580c.htm.
+$desc$),
+('saint-justin-martyr', 'la',
+$desc$Iustinus, philosophus christianus et apologeta saeculi secundi, fidem, cultum moresque primorum christianorum scriptis exposuit. Veritatem quaerens ad fidem conversus est, Romae docuit atque sub Rustico praefecto martyrium cum sociis consummavit.$desc$,
+$desc$## Vita et testimonia
+
+Iustinus circa initium saeculi secundi Flavia Neapoli, prope antiquam Sichem in Palaestina Romana, natus est. Nomina patris Prisci atque avi Bacchii, una cum testimonio quo se incircumcisum dicit, originem non Iudaicam indicant. Dies natalis et pueritia accurate cognosci nequeunt. Opera eius quaedam de propria vita tradunt, sed christianae religionis defensiones sunt, non commentarii sine partium studio. Ordo igitur litterarius a chronologia aliunde comprobata distinguendus est.
+
+In exordio Dialogi cum Tryphone Iustinus colloquia cum magistris Stoico, Peripatetico, Pythagorico atque Platonico narrat. Singula tempora quaestionem illustrant utrum philosophiae studium ad Dei cognitionem perducat. Platonismus eum maxime allexit; sermo tamen cum sene ignoto ad prophetas biblicos direxit. Narratio conversionis sensum cohaerentem praebet, nec singula colloquia ad verbum necessario reddit. Apologiae etiam constantiam christianorum morti obviam euntium commemorant: eorum mores accusationibus de sceleribus occultis adversabantur.
+
+## Philosophus christianus
+
+Conversio plerumque circa annum 130 collocatur, anno certo non comprobato. Christianus factus munus philosophi retinuit, novam fidem tamquam veritatis quaerendae perfectionem, non desertionem, proponens. In regionibus orientalibus Graece loquentibus commoratus, postea Romae docuit. Acta iudicii eum bis Romam venisse atque discendi cupidos recepisse significant. Ibi fides tam per institutionem personalem quam per conventus iam constitutos propagabatur.
+
+Tria praecipua opera certo ei tribuuntur: Apologia prima, Apologia secunda et Dialogus cum Tryphone. Alia ex veterum testimoniis cognoscuntur; nonnulla autem sub eius nomine tradita genuina non sunt. Textus servati lacunis mendisque laborant: continua igitur species recentis editionis fragilem huius magni auctoris traditionem celare non debet. De mutua quoque Apologiarum ratione, utrum secunda prioris supplementum fuerit, docti disputaverunt.
+
+## Defensio fidei christianae
+
+Apologia prima, plerumque medio saeculo secundo adscripta, ab imperatoribus iudicium ratione temperatum postulat. Nomen christianum per se culpam non probare Iustinus contendit. Scelera tamquam scelera investiganda sunt; recusatio cultus deorum a corruptione morum distinguenda est. Persecutionem reprehendens mores christianos, iudicium divinum et Iesu significationem exponit. Haec defensio in relatione inaequali inter parvam communitatem religiosam et potestatem quae membra eius damnare poterat collocatur.
+
+Christum Logos divinum, Verbum per quod veritas cognoscitur, interpretatur. Quare partes veritatis apud philosophos Graecos agnoscere potest, earum plenitudinem in Christo affirmans. Non tamen omnia systemata idem docere putat: errores reprehendit et revelationem per prophetas necessariam dicit. Sermo eius posteriores definitiones conciliares de Trinitate antecedit; historice legendus est, non quasi iam vocabulis technicis theologiae saeculi quarti uteretur.
+
+Dialogus christianam Scripturarum Israel interpretationem per colloquium et controversiam cum interlocutore Iudaeo explicat. Iesum Messiam defendit atque de prophetia, lege et Dei populo disputat. Sententiae polemicae ad processum quo communitates christianae et Iudaicae distinguebantur pertinent. Opus magni momenti est ad exegesim christianam antiquam cognoscendam; neque tamen simplex doctrinae Iudaicae transcriptio neque aequa totius Iudaismi descriptio habendum est.
+
+## Cultus et martyrium
+
+Descriptio baptismi et conventus dominicalis singularis pretii est. Iustinus lectiones scripturarias, institutionem, preces communes, oblationem panis vinique, gratiarum actionem et distributionem per diaconos, etiam absentibus, commemorat. Cibum eucharisticum cum carne sanguineque Iesu incarnati coniungit atque subsidia voluntaria egentibus data memorat. Cultus et solidarietas materialis ita simul apparent; non tamen omnes communitates saeculi secundi eundem ubique ordinem servavisse probatur.
+
+Circa annum 165 Iustinus cum sex sociis coram Rustico praefecto Romano iudicatus est. Acta martyrii recusationem sacrificandi et sententiam flagellationis decollationisque referunt. Crescens philosophus adversarius postea cum eius interitu coniunctus est, sed quid revera effecerit incertum manet. Momentum Iustini in argumento intellectuali, testimonio vitae communis et fidelitate sub accusatione coniunctis consistit. Scripta eius peculiare tempus congressus Ecclesiae cum philosophia classica et publica Romanorum auctoritate servant.
+
+## Fontes
+
+- G. Archambault, “St. Justin Martyr,” Catholic Encyclopedia (1910), editio digitalis consulta: https://github.com/CWilsonTSP/cathen/blob/master/cathen/08580c.htm.
+$desc$),
+('saint-marcellinus', 'en',
+$desc$Marcellinus was a Roman priest remembered with Peter the exorcist as a martyr of the Diocletianic persecution. Their shared burial and longstanding liturgical commemoration are better established than the detailed conversion and prison stories preserved in later tradition.$desc$,
+$desc$## Identity and historical limits
+
+Marcellinus is venerated as a priest and martyr together with Peter, traditionally described as an exorcist. He should not be confused with Pope Marcellinus, whose life belongs to the same broad period. The tradition places their execution at Rome during Diocletian's persecution, in the early fourth century. A precise birth date, family history, and chronological account of his priestly ministry cannot be reconstructed from the sources consulted. Their shared commemoration on 2 June preserves a relationship in Christian memory rather than two independently documented careers.
+
+## The narrative tradition
+
+The Roman Breviary's historical lesson tells how Peter, imprisoned for confessing Christianity, delivered Paulina, daughter of the prison keeper Artemius, from an evil spirit. Artemius, his household, and other witnesses then sought Christian initiation. Peter brought them to Marcellinus, who baptized them. In this narrative the priest and exorcist exercise complementary ministries: Peter's witness occasions conversion, while Marcellinus receives the converts into the Church.
+
+The same lesson describes their interrogation before a judge named Serenus. Marcellinus answers courageously, is struck, and is confined in harsh conditions apart from Peter. Both refuse to abandon their confession and are eventually beheaded. These episodes belong to the developed hagiographical account transmitted for liturgical reading. They should not be presented as independently verified courtroom proceedings, and the miraculous elements are reported as religious tradition rather than established observations.
+
+## Burial and remembrance
+
+The Roman cemetery associated with Peter and Marcellinus lay on the Via Labicana and also bore the designation ad duas lauros, referring to two laurel trees. The consulted archaeological overview identifies their burial as a focus of the cemetery's Christian identity. Such topographical evidence is important because it anchors their remembrance in a real burial landscape, whereas the later narrative supplies details that the archaeological setting cannot itself prove.
+
+Their cult therefore rests on more than the survival of an edifying story, but the evidence does not justify a lengthy reconstruction of Marcellinus's private life. His historical profile remains that of a Roman martyr remembered as a priest, inseparably associated with Peter. Keeping the distinction between established commemoration and elaborated narrative allows both the antiquity of their remembrance and the limits of surviving knowledge to remain visible.
+
+## Sources
+
+- Roman Breviary, lesson for 2 June, consulted English edition: https://github.com/DivinumOfficium/divinum-officium/blob/master/web/www/horas/English/Sancti/06-02.txt.
+- “Roman Catacombs,” Catholic Encyclopedia, consulted digital edition: https://github.com/CWilsonTSP/cathen/blob/master/cathen/03417b.htm.
+$desc$),
+('saint-marcellinus', 'fr',
+$desc$Marcellin, prêtre romain, est commémoré avec Pierre l’exorciste comme martyr de la persécution de Dioclétien. Leur sépulture commune et leur ancienne mémoire liturgique sont mieux établies que les récits détaillés de conversions et d’emprisonnement transmis par la tradition.$desc$,
+$desc$## Identité et limites historiques
+
+Marcellin est vénéré comme prêtre et martyr avec Pierre, traditionnellement qualifié d’exorciste. Il ne faut pas le confondre avec le pape Marcellin, qui appartient à la même époque générale. La tradition situe leur exécution à Rome, pendant la persécution de Dioclétien, au début du quatrième siècle. Les sources consultées ne permettent de reconstituer ni sa naissance, ni son histoire familiale, ni la chronologie de son ministère sacerdotal. Leur commémoration commune du 2 juin conserve un lien dans la mémoire chrétienne plutôt que deux carrières documentées séparément.
+
+## La tradition narrative
+
+La leçon historique du Bréviaire romain raconte comment Pierre, emprisonné pour sa confession chrétienne, délivra d’un esprit mauvais Paulina, fille du gardien Artemius. Celui-ci, sa maisonnée et d’autres témoins demandèrent alors l’initiation chrétienne. Pierre les conduisit à Marcellin, qui les baptisa. Dans ce récit, prêtre et exorciste exercent des ministères complémentaires : le témoignage de Pierre suscite la conversion, tandis que Marcellin reçoit les convertis dans l’Église.
+
+La même leçon décrit leur interrogatoire devant un juge nommé Serenus. Marcellin répond avec courage, subit des coups et est enfermé dans des conditions pénibles, séparément de Pierre. Tous deux refusent de renier leur confession et sont finalement décapités. Ces épisodes appartiennent au récit hagiographique développé pour la lecture liturgique. Ils ne doivent pas être présentés comme des procès-verbaux judiciaires indépendamment vérifiés ; les éléments miraculeux sont rapportés comme tradition religieuse, non comme observations établies.
+
+## Sépulture et mémoire
+
+Le cimetière romain associé à Pierre et Marcellin se trouvait sur la Via Labicana et portait aussi le nom ad duas lauros, évoquant deux lauriers. La synthèse archéologique consultée présente leur sépulture comme un foyer de son identité chrétienne. Cette donnée topographique importe parce qu’elle inscrit leur mémoire dans un paysage funéraire réel, alors que le récit postérieur fournit des détails que le contexte archéologique ne saurait prouver à lui seul.
+
+Leur culte ne repose donc pas seulement sur une histoire édifiante conservée, mais les témoignages n’autorisent pas une longue reconstruction de la vie privée de Marcellin. Son profil historique demeure celui d’un martyr romain, commémoré comme prêtre et indissociablement lié à Pierre. Distinguer la commémoration établie du récit développé permet de respecter à la fois l’ancienneté de leur mémoire et les limites des connaissances conservées.
+
+## Sources
+
+- Bréviaire romain, leçon du 2 juin, édition anglaise consultée : https://github.com/DivinumOfficium/divinum-officium/blob/master/web/www/horas/English/Sancti/06-02.txt.
+- « Roman Catacombs », Catholic Encyclopedia, édition numérique consultée : https://github.com/CWilsonTSP/cathen/blob/master/cathen/03417b.htm.
+$desc$),
+('saint-marcellinus', 'la',
+$desc$Marcellinus presbyter Romanus cum Petro exorcista martyr persecutionis Diocletianae recolitur. Communis eorum sepultura et antiqua memoria liturgica certiora sunt quam narrationes particulares de conversionibus atque carcere, quas traditio posterior conservavit.$desc$,
+$desc$## Identitas et limites historiae
+
+Marcellinus presbyter et martyr una cum Petro, qui exorcista traditur, veneratur. Non confundendus est cum Marcellino papa, eiusdem fere aetatis viro. Traditio supplicium Romae ineunte saeculo quarto, in persecutione Diocletiana, collocat. Ex fontibus consultis neque natalis dies neque familiae historia neque ordinata ministerii sacerdotalis series restitui possunt. Communis memoria die 2 Iunii vinculum in memoria christiana servat, non duas vitas separatim documentis instructas.
+
+## Traditio narrativa
+
+Lectio historica Breviarii Romani narrat Petrum, ob fidei confessionem inclusum, Paulinam, Artemii custodis filiam, a malo spiritu liberavisse. Artemius, familia eius aliique testes initiationem christianam petiverunt. Petrus eos ad Marcellinum adduxit, qui omnes baptizavit. In hac narratione presbyter et exorcista ministeria complementaria exercent: testimonium Petri conversionem excitat, Marcellinus autem conversos in Ecclesiam recipit.
+
+Eadem lectio interrogationem coram Sereno iudice describit. Marcellinus fortiter respondens verberatur et asperis condicionibus a Petro separatus includitur. Ambo confessionem deserere recusant ac tandem decollantur. Haec ad narrationem hagiographicam ad lectionem liturgicam excultam pertinent. Non sunt acta iudicialia aliunde comprobata; res miraculosae tamquam traditio religiosa, non tamquam observationes certae, referuntur.
+
+## Sepultura et memoria
+
+Coemeterium Romanum Petro et Marcellino coniunctum in Via Labicana situm erat, etiam ad duas lauros appellatum. Compendium archaeologicum consultum sepulturam eorum tamquam centrum identitatis christianae loci indicat. Testimonium topographicum magni momenti est, quia memoriam in vero loco sepulcrali collocat; narratio posterior autem res particulares addit quas archaeologia per se probare nequit.
+
+Cultus igitur non sola narratione aedificanti servata nititur; testimonia tamen longam vitae privatae Marcellini restitutionem non permittunt. Figura historica manet martyris Romani qui presbyter memoratur atque cum Petro inseparabiliter coniungitur. Distinctio inter certam commemorationem et narrationem amplificatam simul antiquitatem memoriae et limites cognitionis servat.
+
+## Fontes
+
+- Breviarium Romanum, lectio diei 2 Iunii, editio Anglica consulta: https://github.com/DivinumOfficium/divinum-officium/blob/master/web/www/horas/English/Sancti/06-02.txt.
+- “Roman Catacombs,” Catholic Encyclopedia, editio digitalis consulta: https://github.com/CWilsonTSP/cathen/blob/master/cathen/03417b.htm.
+$desc$),
+('saint-peter-exorcist', 'en',
+$desc$Peter the exorcist is remembered with the priest Marcellinus among Rome’s early Christian martyrs. Later accounts describe his prison ministry and steadfast confession; their shared cemetery preserves a firmer historical setting than the detailed episodes of the martyrdom narrative.$desc$,
+$desc$## Identity and evidence
+
+Peter, conventionally called the exorcist, is a Roman martyr commemorated with the priest Marcellinus. He is not the apostle Peter. Christian tradition places the companions in the persecution of Diocletian at the beginning of the fourth century, but the sources consulted do not supply a securely documented birth, family background, or sequence of ministerial appointments. His designation identifies a role in the Christian community; it should not be expanded into an otherwise unattested personal history.
+
+## Ministry in the received account
+
+The Roman Breviary's lesson for 2 June describes Peter as a prisoner who continued to confess Christianity. According to that narrative, he freed Paulina, daughter of the prison keeper Artemius, from an evil spirit. The event moved her family and other witnesses to seek Christian initiation. Peter brought the prospective converts to Marcellinus, who baptized them. The story thus distinguishes the exorcist's activity from the priest's sacramental ministry while presenting both as part of one Christian witness.
+
+The judge Serenus subsequently confronts the two men, threatening punishment unless they abandon Christ. Peter and Marcellinus remain steadfast, endure imprisonment, and are finally beheaded. These particulars survive within a developed hagiographical and liturgical tradition, not as independently checked contemporary reports. In particular, the deliverance of Paulina is a claim of the religious narrative, and the conversations should not be treated as verbatim records. A responsible biography can explain the tradition's meaning without asserting that every scene is historically recoverable.
+
+## A shared Roman remembrance
+
+Their cemetery on the Via Labicana, also known as ad duas lauros, provides an identifiable geographical setting for their veneration. The archaeological account consulted lists Peter and Marcellinus among the martyrs whose burial places gave a Christian cemetery its identity. Their continuing association is therefore not merely a feature of the later prison story. Burial tradition and liturgical commemoration offer distinct kinds of evidence from the dramatic details of their passion.
+
+Peter's surviving profile is consequently brief: a Roman Christian remembered as an exorcist and martyr, consistently linked with Marcellinus. The lack of a fuller securely established biography should be acknowledged rather than filled with imagined childhood, journeys, or speeches. His remembrance illustrates how early Christian communities preserved the names and places of their dead even when subsequent generations possessed only limited evidence about their individual lives.
+
+## Sources
+
+- Roman Breviary, lesson for 2 June, consulted English edition: https://github.com/DivinumOfficium/divinum-officium/blob/master/web/www/horas/English/Sancti/06-02.txt.
+- “Roman Catacombs,” Catholic Encyclopedia, consulted digital edition: https://github.com/CWilsonTSP/cathen/blob/master/cathen/03417b.htm.
+$desc$),
+('saint-peter-exorcist', 'fr',
+$desc$Pierre l’exorciste est commémoré avec le prêtre Marcellin parmi les martyrs chrétiens de Rome. Les récits postérieurs décrivent son ministère en prison et sa fidélité ; leur cimetière commun fournit un cadre historique plus assuré que les épisodes détaillés de leur passion.$desc$,
+$desc$## Identité et témoignages
+
+Pierre, habituellement appelé l’exorciste, est un martyr romain commémoré avec le prêtre Marcellin. Il ne s’agit pas de l’apôtre Pierre. La tradition chrétienne situe les compagnons dans la persécution de Dioclétien, au début du quatrième siècle ; les sources consultées ne fournissent cependant ni naissance documentée, ni origine familiale, ni succession certaine de charges ecclésiales. Sa désignation identifie un rôle communautaire et ne doit pas devenir le point de départ d’une histoire personnelle sans témoignages.
+
+## Le ministère dans le récit reçu
+
+La leçon du Bréviaire romain pour le 2 juin décrit Pierre comme un prisonnier demeurant fidèle à sa confession chrétienne. Selon ce récit, il délivra d’un esprit mauvais Paulina, fille du gardien Artemius. L’événement conduisit sa famille et d’autres témoins à demander l’initiation chrétienne. Pierre présenta les futurs convertis à Marcellin, qui les baptisa. Le récit distingue ainsi l’activité de l’exorciste du ministère sacramentel du prêtre, tout en les intégrant dans un témoignage commun.
+
+Le juge Serenus menace ensuite les deux hommes de châtiments s’ils n’abandonnent pas le Christ. Pierre et Marcellin demeurent fermes, subissent l’emprisonnement et sont finalement décapités. Ces précisions relèvent d’une tradition hagiographique et liturgique développée, non de rapports contemporains vérifiés indépendamment. La délivrance de Paulina appartient notamment au récit religieux, et les dialogues ne sauraient être considérés comme des procès-verbaux. Une biographie rigoureuse peut expliquer le sens de cette tradition sans prétendre retrouver historiquement chacune de ses scènes.
+
+## Une mémoire romaine commune
+
+Le cimetière de la Via Labicana, également appelé ad duas lauros, fournit un cadre géographique identifiable à leur vénération. La synthèse archéologique consultée compte Pierre et Marcellin parmi les martyrs dont la sépulture donna son identité à un cimetière chrétien. Leur association persistante n’est donc pas seulement un élément du récit carcéral postérieur. Tradition funéraire et commémoration liturgique constituent des témoignages différents des détails dramatiques de leur passion.
+
+Le profil conservé de Pierre demeure ainsi bref : un chrétien romain, commémoré comme exorciste et martyr, constamment lié à Marcellin. L’absence d’une biographie plus complète et solidement établie doit être reconnue, plutôt que compensée par une enfance, des voyages ou des discours imaginés. Sa mémoire montre comment les premières communautés chrétiennes conservèrent les noms et les lieux de leurs défunts, même lorsque les générations suivantes ne possédaient que peu de renseignements sur leurs vies individuelles.
+
+## Sources
+
+- Bréviaire romain, leçon du 2 juin, édition anglaise consultée : https://github.com/DivinumOfficium/divinum-officium/blob/master/web/www/horas/English/Sancti/06-02.txt.
+- « Roman Catacombs », Catholic Encyclopedia, édition numérique consultée : https://github.com/CWilsonTSP/cathen/blob/master/cathen/03417b.htm.
+$desc$),
+('saint-peter-exorcist', 'la',
+$desc$Petrus exorcista cum Marcellino presbytero inter veteres martyres Romanos recolitur. Narrationes posteriores ministerium eius in carcere et constantiam describunt; coemeterium commune certiorem sedem historicam praebet quam singula passionis narratae eventa.$desc$,
+$desc$## Identitas et testimonia
+
+Petrus, qui exorcista appellari solet, martyr Romanus cum Marcellino presbytero commemoratur. Non est Petrus apostolus. Traditio christiana socios in persecutione Diocletiana ineunte saeculo quarto collocat; fontes tamen consulti neque natalem neque familiam neque ordinem munerum ministerialium certo documentis comprobant. Appellatio munus in communitate significat, nec in historiam personalem aliter ignotam amplificanda est.
+
+## Ministerium in narratione recepta
+
+Lectio Breviarii Romani diei 2 Iunii Petrum captivum constantem in confessione christiana describit. Secundum narrationem Paulinam, Artemii custodis filiam, a malo spiritu liberavit. Quo eventu familia eius aliique testes initiationem christianam petiverunt. Petrus futuros conversos ad Marcellinum adduxit, qui eos baptizavit. Narratio igitur operam exorcistae a ministerio sacramentali presbyteri distinguit, utramque tamen in uno testimonio christiano coniungit.
+
+Serenus iudex deinde utrique poenas minatur nisi Christum deserant. Petrus et Marcellinus constantes manent, carcerem patiuntur atque tandem decollantur. Haec particularia in traditione hagiographica et liturgica exculta servantur, non in relationibus coaetaneis aliunde comprobatis. Praesertim liberatio Paulinae ad narrationem religiosam pertinet, et colloquia pro actis ad verbum scriptis haberi nequeunt. Biographia prudens sensum traditionis explicare potest quin singulas scaenas historice restitui affirmet.
+
+## Communis memoria Romana
+
+Coemeterium Viae Labicanae, etiam ad duas lauros appellatum, locum geographicum certum venerationi praebet. Relatio archaeologica consulta Petrum et Marcellinum inter martyres numerat quorum sepultura coemeterio christiano identitatem dedit. Constans igitur eorum coniunctio non tantum pars posterioris fabulae carceris est. Traditio sepulcralis et commemoratio liturgica alia testimoniorum genera praebent quam res dramaticae passionis.
+
+Figura Petri servata brevis igitur manet: christianus Romanus, exorcista et martyr memoratus, cum Marcellino constanter coniunctus. Defectus plenioris vitae certo comprobatae agnoscendus est, non pueritia, itineribus sermonibusve fictis supplendus. Eius memoria ostendit quomodo primae communitates christianae nomina locaque mortuorum servaverint, etiam cum posteri pauca de singulorum vita documenta possiderent.
+
+## Fontes
+
+- Breviarium Romanum, lectio diei 2 Iunii, editio Anglica consulta: https://github.com/DivinumOfficium/divinum-officium/blob/master/web/www/horas/English/Sancti/06-02.txt.
+- “Roman Catacombs,” Catholic Encyclopedia, editio digitalis consulta: https://github.com/CWilsonTSP/cathen/blob/master/cathen/03417b.htm.
+$desc$)
+) AS x(slug, locale_code, short_description, full_biography)
+ON s.slug = x.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-charles-lwanga', 'en',
+$desc$Charles Lwanga instructed and protected young Christians at the court of Buganda before his execution in 1886. Canonized with twenty-one companions, he represents the Ugandan martyrs’ shared witness of faith, personal integrity, and solidarity under royal persecution.$desc$,
+$desc$## Historical setting and sources
+
+Charles Lwanga belonged to the Christian community that emerged in the kingdom of Buganda during the late nineteenth century. Anglican missionaries and the Catholic Missionaries of Africa, commonly called the White Fathers, introduced competing Christian missions into an already complex political and religious environment. Christianity was not merely a foreign institution imposed on passive recipients: African converts learned, taught, formed relationships, and made decisions that shaped the new communities. Charles's activity among younger court members is particularly important evidence of this local responsibility.
+
+The principal sources consulted here are Benedict XV's beatification letter of 1920, Paul VI's canonization homily of 1964, and Francis's Namugongo homily of 2015. They preserve the Catholic interpretation of the martyrs and selected information from their cause. They are not politically neutral histories. Their older colonial and religious generalizations should not be repeated as objective descriptions of African societies or other faiths. Even their chronological and personal details need discrimination: the broad sequence of conversion, persecution, and death is firmer than every reported age or speech.
+
+## Conversion and service at court
+
+The beatification letter identifies Charles as a native of Bulimu and dates his baptism to 15 November 1885. It describes him as a trusted court servant who supervised royal pages and performed his responsibilities diligently. Exact birth dating is less secure, and the consulted accounts do not justify a detailed reconstruction of his childhood. His importance emerges most clearly in the months between his Christian initiation and the persecution that ended his life.
+
+At the court of Mwanga II, Christian allegiance could become politically suspect when obedience to the ruler encountered moral or religious limits. The Catholic account connects the persecution both with accusations of Christian disloyalty and with the refusal of young attendants to submit to the king's sexual demands. These were situations of coercion within a sharply unequal household hierarchy, not simply disputes about abstract doctrine. The sources also preserve court rivalries; reducing the violence to a single motive would therefore flatten its political setting.
+
+## Teaching and solidarity
+
+Charles encouraged the pages entrusted to him to remain faithful and protected younger Christians in dangerous circumstances. Benedict XV's account credits him with baptizing several catechumens shortly before their arrest or condemnation, including Kizito, Mbaga Tuzindé, and others. Such actions illustrate how a recently baptized layman could assume responsibility when ordinary access to missionaries became difficult. They do not require an imagined lengthy clerical education or an ecclesiastical office for which there is no evidence.
+
+Francis, speaking at Namugongo in 2015, explicitly joined Charles with Joseph Mkasa as men who passed on the faith they had themselves received. His interpretation emphasizes responsibility for younger people, not solitary heroism. The martyrs were linked by instruction, friendship, prayer, and mutual encouragement. Charles's biography consequently cannot be separated entirely from the companions whose names and individual experiences belong to the same history, even though not all were arrested together or killed in the same manner.
+
+## Execution and companions
+
+Charles was killed at Namugongo on 3 June 1886, in the burning associated with the best-known collective execution of the Ugandan martyrs. The beatification document describes the condemned being bound and taken to the execution ground, where they continued praying. Its presentation is explicitly a passion narrative: it interprets suffering through Christian fidelity and sacrifice. The historical fact of execution should be distinguished from the literary shaping of remembered gestures, exact words, and the arrangement of individual deaths.
+
+The canonized group comprises twenty-two Catholics, Charles and twenty-one companions, including Matthias Mulumba. It is not identical with everyone who died in the wider persecution. Some companions suffered other forms of execution, and Anglican Christians were also killed. Paul VI acknowledged the Anglican dead in the canonization homily, and Francis renewed that recognition in 2015. Keeping these distinctions avoids both erasing other victims and suggesting that all twenty-two Catholics shared one identical final episode.
+
+## Recognition and significance
+
+Benedict XV beatified the group on 6 June 1920; Paul VI canonized them on 18 October 1964. Their recognition connected a relatively recent African Christian history with the Church's older remembrance of martyrdom. Later papal interpretation increasingly foregrounded common Christian witness and the responsibility of African believers within their own societies.
+
+Charles's enduring historical significance lies in lay leadership under pressure. The surviving record presents someone whose conversion quickly became a commitment to teaching and protecting others, and whose loyalty to Christian conscience brought him into conflict with royal power. A careful account honours that witness without endorsing the dated cultural assumptions of some sources or inventing private experiences that those sources cannot establish.
+
+## Sources
+
+- Benedict XV, In Africam, 6 June 1920: https://github.com/lologhi/vatican/blob/master/benedict-xv/apost_letters/1920-06-06-in-africam.latin.md.
+- Paul VI, canonization homily, 18 October 1964: https://github.com/lologhi/vatican/blob/master/paul-vi/homilies/1964/1964-10-18-martiri-uganda.latin.md.
+- Francis, Namugongo homily, 28 November 2015: https://github.com/lologhi/vatican/blob/master/francesco/homilies/2015/2015-11-28-uganda-omelia-martiri.md.
+$desc$),
+('saint-charles-lwanga', 'fr',
+$desc$Charles Lwanga instruisit et protégea de jeunes chrétiens à la cour du Buganda avant son exécution en 1886. Canonisé avec vingt et un compagnons, il représente leur témoignage commun de foi, d’intégrité personnelle et de solidarité sous la persécution royale.$desc$,
+$desc$## Contexte historique et sources
+
+Charles Lwanga appartenait à la communauté chrétienne apparue dans le royaume du Buganda à la fin du dix-neuvième siècle. Les missionnaires anglicans et les Missionnaires d’Afrique catholiques, dits Pères Blancs, y introduisirent des missions concurrentes dans un milieu politique et religieux déjà complexe. Le christianisme ne fut pas simplement imposé de l’extérieur à des destinataires passifs : les convertis africains apprirent, enseignèrent, nouèrent des relations et orientèrent les nouvelles communautés. L’activité de Charles auprès des jeunes membres de la cour témoigne particulièrement de cette responsabilité locale.
+
+Les principales sources consultées sont la lettre de béatification de Benoît XV, de 1920, l’homélie de canonisation de Paul VI, de 1964, et celle de François à Namugongo, de 2015. Elles transmettent une interprétation catholique et des informations choisies dans la cause des martyrs, non une histoire politiquement neutre. Leurs anciennes généralisations coloniales et religieuses ne doivent pas devenir des descriptions objectives des sociétés africaines ou des autres religions. Même les détails personnels et chronologiques demandent du discernement : la succession générale des conversions, persécutions et morts est plus sûre que chaque âge ou discours rapporté.
+
+## Conversion et service à la cour
+
+La lettre de béatification présente Charles comme originaire de Bulimu et date son baptême du 15 novembre 1885. Elle le décrit comme un serviteur estimé, responsable des pages royaux et diligent dans ses fonctions. Sa naissance précise reste moins assurée, et les documents consultés ne permettent pas de reconstruire son enfance. Son importance apparaît surtout durant les mois séparant son initiation chrétienne de la persécution.
+
+À la cour de Mwanga II, l’appartenance chrétienne pouvait susciter la suspicion politique lorsque l’obéissance au souverain rencontrait des limites morales ou religieuses. Le récit catholique relie la persécution aux accusations de déloyauté et au refus des jeunes serviteurs de céder aux exigences sexuelles du roi. Il s’agissait de coercition dans une hiérarchie domestique profondément inégale, non simplement de controverses doctrinales. Les sources mentionnent aussi des rivalités de cour ; ramener la violence à un motif unique appauvrirait donc son contexte politique.
+
+## Enseignement et solidarité
+
+Charles encouragea la fidélité des pages confiés à sa charge et protégea de jeunes chrétiens en danger. Le récit de Benoît XV lui attribue le baptême de plusieurs catéchumènes peu avant leur arrestation ou condamnation, dont Kizito et Mbaga Tuzindé. Ces actes montrent comment un laïc récemment baptisé pouvait assumer des responsabilités lorsque l’accès aux missionnaires devenait difficile. Ils n’impliquent ni une longue formation cléricale imaginée ni une charge ecclésiastique sans attestation.
+
+À Namugongo en 2015, François associa explicitement Charles à Joseph Mkasa comme témoins ayant transmis la foi reçue. Son interprétation souligne la responsabilité envers les plus jeunes plutôt qu’un héroïsme solitaire. Les martyrs étaient liés par l’enseignement, l’amitié, la prière et l’encouragement mutuel. La biographie de Charles reste donc inséparable de ses compagnons et de leurs expériences propres, même s’ils ne furent pas tous arrêtés ensemble ou tués de la même manière.
+
+## Exécution et compagnons
+
+Charles fut tué à Namugongo le 3 juin 1886, lors du supplice par le feu associé à l’exécution collective la plus connue. La lettre de béatification décrit les condamnés attachés, conduits au lieu du supplice et continuant à prier. Elle constitue explicitement un récit de passion, interprétant la souffrance selon la fidélité et le sacrifice chrétiens. Le fait historique de l’exécution doit être distingué de la mise en forme littéraire des gestes, paroles exactes et successions de morts remémorés.
+
+Le groupe canonisé comprend vingt-deux catholiques, Charles et vingt et un compagnons, dont Matthias Mulumba. Il ne comprend pas toutes les victimes de la persécution. Certains compagnons subirent d’autres supplices, et des chrétiens anglicans furent également tués. Paul VI reconnut leur mort dans l’homélie de canonisation, et François renouvela cette reconnaissance en 2015. Ces distinctions évitent d’effacer d’autres victimes ou de laisser croire que les vingt-deux catholiques vécurent un épisode final identique.
+
+## Reconnaissance et portée
+
+Benoît XV béatifia le groupe le 6 juin 1920 ; Paul VI le canonisa le 18 octobre 1964. Cette reconnaissance relia une histoire chrétienne africaine relativement récente à la mémoire plus ancienne du martyre dans l’Église. Les interprétations pontificales ultérieures mirent davantage en avant le témoignage chrétien commun et la responsabilité des croyants africains dans leurs sociétés.
+
+L’importance historique de Charles réside dans une responsabilité laïque exercée sous la contrainte. Les témoignages présentent une conversion rapidement devenue engagement d’enseignement et de protection, et une conscience chrétienne entrant en conflit avec le pouvoir royal. Un récit attentif respecte ce témoignage sans adopter les présupposés culturels datés de certaines sources ni inventer des expériences privées qu’elles n’établissent pas.
+
+## Sources
+
+- Benoît XV, In Africam, 6 juin 1920 : https://github.com/lologhi/vatican/blob/master/benedict-xv/apost_letters/1920-06-06-in-africam.latin.md.
+- Paul VI, homélie de canonisation, 18 octobre 1964 : https://github.com/lologhi/vatican/blob/master/paul-vi/homilies/1964/1964-10-18-martiri-uganda.latin.md.
+- François, homélie de Namugongo, 28 novembre 2015 : https://github.com/lologhi/vatican/blob/master/francesco/homilies/2015/2015-11-28-uganda-omelia-martiri.md.
+$desc$),
+('saint-charles-lwanga', 'la',
+$desc$Carolus Lwanga iuvenes christianos in aula Bugandae instituit atque protexit ante supplicium anni 1886. Cum viginti uno sociis canonizatus, commune martyrum Ugandensium testimonium fidei, integritatis et mutui auxilii sub persecutione regia manifestat.$desc$,
+$desc$## Condiciones historicae et fontes
+
+Carolus Lwanga ad communitatem christianam pertinebat quae exeunte saeculo undevicesimo in regno Bugandae orta est. Missionarii Anglicani et catholici Missionarii Africae, Patres Albi dicti, missiones inter se diversas in condiciones politicas et religiosas iam implicatas introduxerunt. Christianismus non tantum institutum externum recipientibus inertibus impositum fuit: conversi Africani discebant, docebant, necessitudines constituebant atque novas communitates suis consiliis formabant. Opera Caroli inter iuvenes aulae huius responsabilitatis indigenae testimonium praecipuum est.
+
+Fontes praecipui consulti sunt litterae beatificationis Benedicti XV anni 1920, homilia canonizationis Pauli VI anni 1964 et homilia Francisci apud Namugongo anni 2015. Interpretationem catholicam et selecta causae documenta servant, non historiam a studio politico liberam. Veteres eorum sententiae generales de coloniis et religionibus pro descriptionibus obiectivis societatum Africanarum vel aliarum religionum repeti non debent. Etiam particularia personalia et chronologica discernenda sunt: generalis conversionis, persecutionis mortisque series certior est quam singula aetas vel oratio relata.
+
+## Conversio et ministerium aulae
+
+Litterae beatificationis Carolum Bulimu ortum dicunt baptismumque die 15 Novembris 1885 collocant. Servum fidelem describunt, pueris regiis praepositum et muneribus diligenter fungentem. Tempus natalis minus certum est; fontes consulti pueritiam accurate restituere non sinunt. Momentum eius praecipue apparet mensibus inter initiationem christianam et persecutionem quae vitam finivit.
+
+In aula Mwangae II fides christiana suspicionem politicam excitare poterat, cum oboedientia regi debita fines morales vel religiosos inveniret. Relatio catholica persecutionem cum accusationibus infidelitatis et recusatione iuvenum coniungit qui postulatis sexualibus regis resistebant. Coactio intra domesticam hierarchiam valde inaequalem agebatur, non mera controversia doctrinae. Fontes etiam aulicorum certamina servant; unica igitur causa violentiae assignata condiciones politicas nimis contraheret.
+
+## Institutio et mutuum auxilium
+
+Carolus pueros sibi commissos ad fidelitatem confirmavit et iuniores christianos in periculo protexit. Benedicti XV narratio ei baptismum plurium catechumenorum paulo ante comprehensionem vel damnationem tribuit, inter quos Kizito et Mbaga Tuzindé. Ita laicus nuper baptizatus responsabilitatem suscipere poterat cum aditus ad missionarios impediretur. Haec neque longam institutionem clericalem fictam neque officium ecclesiasticum sine testimonio postulant.
+
+Franciscus apud Namugongo anno 2015 Carolum cum Iosepho Mkasa aperte coniunxit tamquam viros qui fidem acceptam aliis tradiderunt. Interpretatio responsabilitatem erga iuniores, non solitariam fortitudinem, extollit. Martyres institutione, amicitia, precibus et mutua exhortatione cohaerebant. Vita Caroli igitur a sociis eorumque propriis experientiis omnino separari nequit, quamvis non omnes simul comprehensi aut eodem modo occisi sint.
+
+## Supplicium et socii
+
+Carolus apud Namugongo die 3 Iunii 1886 combustus est, in notissimo martyrum Ugandensium supplicio communi. Documentum beatificationis damnatos ligatos ad locum supplicii ductos et orantes describit. Narratio manifeste passionis formam habet, dolorem per fidelitatem et sacrificium christianum interpretans. Factum historicum necis distinguendum est a forma litteraria gestuum, verborum exactorum et ordinis singularum mortium traditorum.
+
+Grex canonizatus viginti duos catholicos complectitur, Carolum et viginti unum socios, inter quos Matthiam Mulumba. Non omnes latius persecutionis victimas continet. Alii socii aliter necati sunt, et christiani Anglicani quoque occisi sunt. Paulus VI eos in homilia canonizationis agnovit, Franciscus anno 2015 eandem memoriam renovavit. Distinctiones servantur ne aliae victimae oblitterentur neve omnes viginti duo catholici idem prorsus exitum habuisse videantur.
+
+## Agnitio et momentum
+
+Benedictus XV gregem die 6 Iunii 1920 beatificavit; Paulus VI die 18 Octobris 1964 canonizavit. Agnitio recentiorem historiam christianam Africanam cum antiqua Ecclesiae memoria martyrii coniunxit. Posterior interpretatio pontificia commune testimonium christianum et responsabilitatem fidelium Africanorum in propriis societatibus magis illustravit.
+
+Momentum historicum Caroli in ductu laicali sub oppressionibus consistit. Documenta virum ostendunt cuius conversio cito in munus docendi et protegendi alios transiit, cuiusque conscientia christiana cum potestate regia conflictata est. Relatio diligens testimonium honorat quin praesupposita culturalia obsoleta quorundam fontium recipiat aut experientias privatas sine documentis fingat.
+
+## Fontes
+
+- Benedictus XV, In Africam, 6 Iunii 1920: https://github.com/lologhi/vatican/blob/master/benedict-xv/apost_letters/1920-06-06-in-africam.latin.md.
+- Paulus VI, homilia canonizationis, 18 Octobris 1964: https://github.com/lologhi/vatican/blob/master/paul-vi/homilies/1964/1964-10-18-martiri-uganda.latin.md.
+- Franciscus, homilia apud Namugongo, 28 Novembris 2015: https://github.com/lologhi/vatican/blob/master/francesco/homilies/2015/2015-11-28-uganda-omelia-martiri.md.
+$desc$),
+('saint-boniface', 'en',
+$desc$Boniface, born Winfrid in Anglo-Saxon England, became a missionary bishop and organizer of churches in the Frankish and German regions. His correspondence, reforming councils, and monastic foundations illuminate his work before his death among the Frisians in the eighth century.$desc$,
+$desc$## Formation and missionary decision
+
+Boniface was born Winfrid in Anglo-Saxon England during the later seventh century. His exact birthplace and year remain uncertain; the association with Crediton belongs to a tradition less secure than his English origin. He entered monastic life, received an education in Scripture and Latin learning, and taught at Nursling. The intellectual preparation evident in his surviving correspondence is essential to his biography. He was not simply an adventurous traveller, but a monk formed by a culture of reading, teaching, disciplined worship, and ecclesiastical relationships.
+
+His first attempt to work among the Frisians, in 716, was interrupted by political conditions. After returning to England, he again left the opportunities available within his own monastic community. In Rome, Gregory II authorized his mission in 719. The name Boniface became associated with this continental vocation, although older accounts differ about precisely when it replaced Winfrid. The papal commission linked missionary initiative to responsibility for doctrine, sacramental practice, and communication with the Roman Church.
+
+## Mission and public authority
+
+Boniface worked for a time with Willibrord in Frisia and subsequently developed missions in Hesse and Thuringia. These regions were not uniformly untouched by Christianity. Some communities had existing churches and Christian rulers, while others combined inherited religious customs with elements of Christian observance. His task therefore included both evangelization and reform. The hostile descriptions of rival clergy in older Catholic sources should be understood within disputes over authority and discipline, rather than repeated as an impartial verdict on every competing missionary tradition.
+
+Gregory II consecrated him bishop in 722, and Gregory III later granted him the pallium and wider organizing responsibilities. Boniface sought protection from Frankish rulers, including Charles Martel. That protection made travel, foundations, and reform more practicable, but it also placed missionary work within expanding political power. His career cannot be described adequately either as independent of rulers or as merely their instrument. His letters reveal an ecclesiastical programme maintained through negotiation with several centres of authority.
+
+## Communities and reform
+
+The famous story of the sacred oak at Geismar recounts Boniface felling a tree associated with the thunder god and using its timber for a Christian church. It expresses a public challenge to traditional worship. The narrative's account of divine protection and immediate religious consequences belongs to its hagiographical interpretation; it should not become a claim that a single act instantly ended non-Christian religion across a whole region. Christianization involved continuing instruction, institutions, and changing social relationships.
+
+Boniface depended on a broad network of helpers rather than working alone. English correspondents supplied books, practical assistance, and encouragement; men and women joined the continental foundations. Monastic communities, including those associated with Lioba, sustained teaching and religious life. Fulda, founded under Sturm with Boniface's support, became particularly important. These houses provided durable settings in which religious formation could continue beyond the movement or death of an individual missionary.
+
+His organizing work extended to episcopal structures and councils. In Bavaria he helped regularize diocesan government, while new centres developed elsewhere in the German regions. With Frankish support he promoted synods that addressed clerical conduct, episcopal supervision, religious discipline, and marriage. Such decisions show that reform involved everyday administration as much as preaching. They also disclose the distance between an ecclesiastical ideal expressed in legislation and the conditions reformers believed required correction.
+
+## Mainz and the final journey
+
+Boniface eventually occupied the see of Mainz while continuing his wider responsibilities. His surviving letters are a major source for the practical pressures of this work: requests for advice, reports to Rome, disagreements over jurisdiction, and reliance on friends belong to the same life as public missionary achievement. The consulted older encyclopedia contains disputed chronological details, so its individual dates should not all be treated as equally secure.
+
+In old age he returned to missionary work among the Frisians, leaving continuing responsibilities to associates such as Lullus. He and his companions were killed near Dokkum on 5 June, conventionally dated 754, although older scholarship also argued for 755. The narrative places the attack during preparations for the confirmation of converts. Accounts differ concerning the number of companions, and the exact circumstances should not be embellished beyond the evidence.
+
+His body was ultimately brought to Fulda, which became a major centre of his remembrance. Boniface's significance lies in the conjunction of monastic learning, missionary preaching, episcopal organization, and attachment to Rome. The Christian institutions he strengthened outlasted him, while his correspondence preserves the less triumphant dimensions of reform: dependence, uncertainty, disagreement, and sustained effort within a difficult political landscape.
+
+## Sources
+
+- K. Löffler, “St. Boniface,” Catholic Encyclopedia (1907), consulted digital edition: https://github.com/CWilsonTSP/cathen/blob/master/cathen/02656a.htm.
+$desc$),
+('saint-boniface', 'fr',
+$desc$Boniface, né Winfrid dans l’Angleterre anglo-saxonne, devint évêque missionnaire et organisateur des Églises franques et germaniques. Sa correspondance, ses conciles réformateurs et ses fondations monastiques éclairent son action avant sa mort parmi les Frisons au huitième siècle.$desc$,
+$desc$## Formation et décision missionnaire
+
+Boniface naquit sous le nom de Winfrid dans l’Angleterre anglo-saxonne, durant la seconde moitié du septième siècle. Son lieu et son année de naissance demeurent incertains ; le lien avec Crediton est moins assuré que son origine anglaise. Entré au monastère, il reçut une formation biblique et latine et enseigna à Nursling. Cette préparation intellectuelle, manifeste dans sa correspondance, est essentielle. Il ne fut pas seulement un voyageur aventureux, mais un moine formé par la lecture, l’enseignement, le culte régulier et les relations ecclésiales.
+
+Une première mission auprès des Frisons, en 716, fut interrompue par les circonstances politiques. Revenu en Angleterre, il renonça de nouveau aux perspectives offertes par sa communauté. À Rome, Grégoire II autorisa sa mission en 719. Le nom de Boniface accompagna cette vocation continentale, bien que les anciens récits divergent sur le moment où il remplaça Winfrid. La mission pontificale associait l’initiative évangélisatrice à la responsabilité doctrinale, à la pratique sacramentelle et aux relations avec l’Église romaine.
+
+## Mission et pouvoir public
+
+Boniface travailla quelque temps avec Willibrord en Frise, puis développa ses missions en Hesse et en Thuringe. Ces régions n’étaient pas uniformément étrangères au christianisme. Certaines possédaient déjà églises et souverains chrétiens ; ailleurs, coutumes religieuses héritées et pratiques chrétiennes se mêlaient. Sa tâche comprenait donc évangélisation et réforme. Les portraits hostiles des clercs concurrents dans les anciennes sources catholiques relèvent de conflits d’autorité et de discipline, non d’un jugement impartial sur toutes les traditions missionnaires rivales.
+
+Grégoire II le consacra évêque en 722 ; Grégoire III lui accorda ensuite le pallium et des responsabilités élargies. Boniface rechercha la protection des souverains francs, dont Charles Martel. Celle-ci facilita voyages, fondations et réformes, tout en inscrivant la mission dans une expansion politique. Sa carrière ne fut ni indépendante des princes ni simplement leur instrument. Ses lettres montrent un programme ecclésial poursuivi par la négociation entre plusieurs centres d’autorité.
+
+## Communautés et réforme
+
+Le célèbre récit du chêne sacré de Geismar montre Boniface abattant un arbre associé au dieu du tonnerre et employant son bois pour une église. Il exprime une contestation publique du culte traditionnel. La protection divine et les effets religieux immédiats appartiennent à l’interprétation hagiographique ; ils ne prouvent pas qu’un geste unique ait instantanément supprimé les religions non chrétiennes d’une région entière. La christianisation exigeait enseignement durable, institutions et transformations des relations sociales.
+
+Boniface dépendait d’un vaste réseau de collaborateurs. Ses correspondants anglais envoyaient livres, secours pratiques et encouragements ; hommes et femmes rejoignaient les fondations continentales. Les communautés monastiques, notamment celles liées à Lioba, entretenaient instruction et vie religieuse. Fulda, fondée par Sturm avec le soutien de Boniface, prit une importance particulière. Ces maisons permettaient de prolonger la formation religieuse au-delà des déplacements ou de la mort d’un missionnaire.
+
+Son organisation s’étendait aux structures épiscopales et aux conciles. Il contribua à régulariser le gouvernement diocésain bavarois, tandis que de nouveaux centres apparaissaient ailleurs. Avec l’appui franc, il encouragea des synodes concernant conduite du clergé, surveillance épiscopale, discipline religieuse et mariage. Ces décisions montrent que la réforme relevait de l’administration quotidienne autant que de la prédication. Elles révèlent également l’écart entre les idéaux législatifs et les situations que les réformateurs souhaitaient corriger.
+
+## Mayence et le dernier voyage
+
+Boniface occupa finalement le siège de Mayence tout en conservant ses responsabilités plus larges. Ses lettres éclairent les contraintes pratiques : demandes de conseil, rapports à Rome, conflits de juridiction et dépendance envers les amis accompagnent les succès publics. L’ancienne encyclopédie consultée contient des données chronologiques discutées ; toutes ses dates particulières ne doivent donc pas recevoir la même certitude.
+
+Âgé, il reprit la mission auprès des Frisons, confiant les responsabilités durables à des collaborateurs tels que Lullus. Lui et ses compagnons furent tués près de Dokkum le 5 juin, traditionnellement en 754, bien que des travaux anciens aient retenu 755. Le récit situe l’attaque pendant les préparatifs de la confirmation des convertis. Le nombre des compagnons varie selon les sources, et les circonstances précises ne doivent pas être embellies.
+
+Son corps fut finalement transporté à Fulda, centre majeur de sa mémoire. Son importance réside dans l’union de la culture monastique, de la prédication missionnaire, de l’organisation épiscopale et de l’attachement à Rome. Les institutions consolidées lui survécurent, tandis que sa correspondance conserva les aspects moins triomphants de la réforme : dépendance, incertitude, désaccords et effort persévérant dans un paysage politique difficile.
+
+## Sources
+
+- K. Löffler, « St. Boniface », Catholic Encyclopedia (1907), édition numérique consultée : https://github.com/CWilsonTSP/cathen/blob/master/cathen/02656a.htm.
+$desc$),
+('saint-boniface', 'la',
+$desc$Bonifatius, in Anglia Anglosaxonica Winfridus natus, episcopus missionarius et ordinator Ecclesiarum Francorum Germanorumque factus est. Epistulae, concilia reformatoria et monasteria eius opera illustrant ante mortem inter Frisones saeculo octavo susceptam.$desc$,
+$desc$## Institutio et consilium missionis
+
+Bonifatius Winfridus in Anglia Anglosaxonica post medium saeculum septimum natus est. Locus annusque incerti manent; coniunctio cum Crediton minus certa est quam origo Anglica. Monasterium ingressus Scripturis litterisque Latinis institutus est atque Nurslingae docuit. Haec praeparatio intellectualis, epistulis manifesta, ad vitam intellegendam necessaria est. Non simplex viator audax, sed monachus lectione, doctrina, cultu ordinato et necessitudinibus ecclesiasticis formatus erat.
+
+Prima missio apud Frisones anno 716 condicionibus politicis interrupta est. In Angliam reversus opportunitates suae communitatis iterum reliquit. Romae Gregorius II missionem anno 719 auctoritate munivit. Nomen Bonifatii huic vocationi continentali coniunctum est, quamvis veteres de tempore quo Winfrido successerit discrepent. Mandatum pontificium inceptum missionarium cum responsabilitate doctrinae, sacramentorum et communicationis cum Ecclesia Romana coniunxit.
+
+## Missio et potestas publica
+
+Bonifatius aliquandiu cum Willibrordo in Frisia laboravit, deinde missiones in Hassia et Thuringia promovit. Hae regiones non omnes christianismi expertes erant. Alicubi ecclesiae et principes christiani iam exstabant; alibi consuetudines religiosae avitae cum observantia christiana miscebantur. Munus igitur evangelizationem et reformationem complectebatur. Hostiles descriptiones clericorum aemulorum in fontibus catholicis veteribus intra controversias auctoritatis et disciplinae intellegendae sunt, non tamquam iudicia aequa de omnibus traditionibus missionariis.
+
+Gregorius II eum anno 722 episcopum consecravit; Gregorius III postea pallium amplioraque munera concessit. Bonifatius principum Francorum, inter quos Caroli Martelli, protectionem petivit. Haec itinera, fundationes et reformationem adiuvit, sed missionem intra potestatem politicam crescentem collocavit. Vita eius neque a principibus omnino libera neque merum eorum instrumentum describi potest. Epistulae propositum ecclesiasticum per tractatus cum pluribus auctoritatibus servatum ostendunt.
+
+## Communitates et reformatio
+
+Celebris narratio quercus Geismari sacrae Bonifatium arborem deo tonitrus coniunctam caedentem et ligno ecclesiam aedificantem refert. Provocationem publicam cultui tradito exprimit. Protectio divina et effectus religiosi statim secuti ad interpretationem hagiographicam pertinent; non probant uno actu religionem non christianam in tota regione exstinctam esse. Christianizatio continuam institutionem, instituta et mutationes necessitudinum socialium postulabat.
+
+Bonifatius amplo adiutorum nexu nitebatur. Amici Anglici libros, subsidia et solacia mittebant; viri mulieresque fundationes continentales adibant. Communitates monasticae, etiam Liobae coniunctae, doctrinam vitamque religiosam sustinebant. Fulda, a Sturmo Bonifatio adiuvante condita, praecipuum momentum accepit. Domus istae institutionem religiosam ultra itinerarium vel mortem singuli missionarii continuare poterant.
+
+Ordinatio etiam structuras episcopales et concilia complectebatur. In Bavaria regimen dioecesanum ordinavit; alibi nova centra constituta sunt. Francis adiuvantibus synodos promovit quae mores clericorum, vigilantiam episcopalem, disciplinam religiosam matrimoniumque tractabant. Reformatio igitur administrationem cotidianam non minus quam praedicationem spectabat. Decreta quoque distantiam inter exemplar legislativum et condiciones corrigendas patefaciunt.
+
+## Moguntia et ultimum iter
+
+Bonifatius tandem sedem Moguntinam obtinuit, latioribus muneribus retentis. Epistulae difficultates practicas ostendunt: consilia petita, relationes Romam missae, controversiae iurisdictionis et auxilium amicorum ad eandem vitam pertinent ac successus publici. Encyclopaedia vetus consulta nonnulla chronologica disputata continet; singula igitur tempora non aeque certa habenda sunt.
+
+Senex ad missionem Frisiorum rediit, munera permanentia sociis, inter quos Lullo, relinquens. Ipse cum sociis prope Dokkum die 5 Iunii necatus est, plerumque anno 754 collocato, quamvis veteres etiam 755 defenderint. Narratio impetum inter praeparationes confirmationis conversorum ponit. De numero sociorum fontes dissentiunt, neque circumstantiae ultra testimonia ornandae sunt.
+
+Corpus tandem Fuldam translatum est, quae praecipuum memoriae centrum facta est. Momentum Bonifatii in doctrina monastica, praedicatione missionaria, ordinatione episcopali et coniunctione Romana consistit. Instituta firmata post eum permanserunt; epistulae autem minus triumphales reformationis partes servant: dependentiam, dubitationem, controversias et laborem constantem inter difficiles condiciones politicas.
+
+## Fontes
+
+- K. Löffler, “St. Boniface,” Catholic Encyclopedia (1907), editio digitalis consulta: https://github.com/CWilsonTSP/cathen/blob/master/cathen/02656a.htm.
+$desc$),
+('saint-norbert', 'en',
+$desc$Norbert of Xanten founded the community at Prémontré and later became archbishop of Magdeburg. His life joined penitential preaching, the common life of canons, ecclesiastical reform, and involvement in the political and papal conflicts of the early twelfth century.$desc$,
+$desc$## Background and conversion
+
+Norbert was born around 1080 in the region of Xanten on the Lower Rhine. Connected with an aristocratic family, he became a canon at Xanten and moved within episcopal and imperial court circles. His early position belongs to a world in which ecclesiastical office, family standing, and political service were closely connected. The medieval accounts contrast the comfort of these circumstances with the demanding penitential life he later adopted, although their moral portrait should not be confused with a complete documentary record of his youth.
+
+His conversion is traditionally associated with a violent storm during a journey near Xanten. The frightened horse throws its rider, and the experience becomes a summons to change his life. This episode is a hagiographical explanation of a decisive religious reorientation; its dramatic details should be identified as such. More securely, Norbert abandoned his courtly prospects, sought spiritual guidance, received priestly ordination, and adopted a life of prayer, renunciation, and preaching during the second decade of the twelfth century.
+
+## A preacher seeking a stable community
+
+He consulted religious figures such as Cono of Siegburg and attempted reform among his fellow canons. His austere expectations encountered resistance. Accusations at Fritzlar brought the question of his unconventional preaching and manner of life before ecclesiastical authorities. Norbert relinquished benefices and property, distributing resources to the poor, and sought papal authorization. Gelasius II permitted him to preach, giving an ecclesiastical framework to an itinerant vocation that could otherwise appear independent of established structures.
+
+After Gelasius's death, Norbert sought the support of Calixtus II. Bartholomew, bishop of Laon, also encouraged him to establish a permanent religious community. Prémontré, near Laon, became its setting around 1120. The choice answered a practical problem: the preaching and spiritual discipline of an individual needed institutions if they were to endure. Hugh of Fosses and other companions helped transform a small beginning into a continuing common life.
+
+## The Premonstratensian foundation
+
+The community belonged to the movement of canons regular, combining a shared religious discipline with clerical ministry. Its subsequent identity should not be reduced either to isolated eremitism or to courtly church administration. Common prayer, renunciation, and service were intended to reinforce one another. Women also joined the wider religious movement, while lay supporters endowed foundations and sought forms of disciplined Christian living suited to their circumstances. The early expansion therefore involved several kinds of participation.
+
+New houses developed rapidly, including foundations supported by aristocratic benefactors in the German regions. Norbert obtained papal confirmation of the order from Honorius II in 1126. The institutional development was not simply a multiplication of his personal journeys: property, local patrons, trained members, and recognized government were required. Hugh of Fosses became especially important for the order's continuing organization when Norbert's responsibilities moved beyond its original centre.
+
+Norbert also preached at Antwerp against a movement associated with Tanchelm. The consulted older biography describes this controversy from the standpoint of Catholic sacramental reform. Its hostile characterization of opponents is not a neutral account of everything they believed. What can be stated without reproducing its polemical language is that Norbert defended ecclesiastical and sacramental authority and sought to restore communities to the religious discipline he considered legitimate.
+
+## Archbishop and public responsibilities
+
+In 1126 he became archbishop of Magdeburg. This appointment brought the former itinerant preacher into a position involving substantial property, political relationships, and institutional conflict. He attempted to recover alienated church possessions and reform clerical life. Resistance was serious; the biographical tradition reports attempts against his life. His archiepiscopal career illustrates the tension between a rigorous religious programme and the established interests that such a programme threatened.
+
+During the papal schism beginning in 1130, Norbert supported Innocent II against Anacletus II. He worked with King Lothair and accompanied the expedition to Rome. His activity placed him within disputes concerning legitimate papal authority and relations between spiritual and secular powers. These responsibilities are part of his biography, not an interruption of it: the founder who had renounced worldly advancement nevertheless accepted a public office demanding negotiation with rulers.
+
+## Death and remembrance
+
+Norbert returned north in weakened health and died at Magdeburg on 6 June 1134. He was buried in the Premonstratensian community of Saint Mary there. Gregory XIII canonized him in 1582; his remains were transferred to Strahov near Prague in 1627. The older encyclopedia explicitly warns against unsupported claims of an earlier formal canonization.
+
+His surviving image depends largely on medieval lives whose relationship and differences require critical attention. Within those limits, his enduring achievement is clear: he joined the reform of clerical life to a durable community of canons, while his later episcopate reveals the difficult passage from charismatic preaching to institutional responsibility.
+
+## Sources
+
+- F. M. Geudens, “St. Norbert,” Catholic Encyclopedia (1911), consulted digital edition: https://github.com/CWilsonTSP/cathen/blob/master/cathen/11100b.htm.
+$desc$),
+('saint-norbert', 'fr',
+$desc$Norbert de Xanten fonda la communauté de Prémontré avant de devenir archevêque de Magdebourg. Sa vie unit prédication pénitentielle, vie commune des chanoines, réforme ecclésiale et participation aux conflits politiques et pontificaux du début du douzième siècle.$desc$,
+$desc$## Origines et conversion
+
+Norbert naquit vers 1080 dans la région de Xanten, sur le Bas-Rhin. Issu d’un milieu aristocratique, il devint chanoine de Xanten et fréquenta les cours épiscopales et impériales. Sa situation initiale appartient à un monde où charge ecclésiastique, rang familial et service politique étaient étroitement liés. Les récits médiévaux opposent ce confort à l’exigeante pénitence adoptée ensuite, sans que leur portrait moral constitue une documentation complète sur sa jeunesse.
+
+Sa conversion est traditionnellement associée à un violent orage près de Xanten. Son cheval effrayé le désarçonne, et l’épreuve devient un appel à changer de vie. Cet épisode explique hagiographiquement une réorientation religieuse décisive ; ses détails dramatiques doivent être reconnus comme tels. Plus sûrement, Norbert abandonna ses perspectives de cour, rechercha une direction spirituelle, reçut l’ordination sacerdotale et choisit prière, renoncement et prédication durant la deuxième décennie du douzième siècle.
+
+## Un prédicateur cherchant une communauté stable
+
+Il consulta des religieux tels que Conon de Siegburg et tenta de réformer ses confrères chanoines. Son austérité rencontra des résistances. Des accusations portées à Fritzlar soumirent sa prédication et son mode de vie inhabituels aux autorités ecclésiastiques. Il renonça à ses bénéfices et à ses biens, distribua des ressources aux pauvres et rechercha une autorisation pontificale. Gélase II lui permit de prêcher, donnant un cadre ecclésial à une vocation itinérante susceptible de paraître indépendante des structures établies.
+
+Après la mort de Gélase, Norbert rechercha le soutien de Calixte II. Barthélemy, évêque de Laon, l’encouragea également à fonder une communauté permanente. Prémontré, près de Laon, en devint le lieu vers 1120. Ce choix répondait à une difficulté concrète : prédication et discipline individuelles avaient besoin d’institutions pour durer. Hugues de Fosses et d’autres compagnons contribuèrent à transformer les débuts modestes en vie commune pérenne.
+
+## La fondation prémontrée
+
+La communauté appartenait au mouvement des chanoines réguliers, associant discipline religieuse commune et ministère clérical. Son identité ne se réduit ni à l’érémitisme solitaire ni à l’administration ecclésiale de cour. Prière, renoncement et service devaient se soutenir mutuellement. Des femmes rejoignirent également ce mouvement religieux, tandis que des laïcs dotaient les fondations et recherchaient une vie chrétienne disciplinée adaptée à leur condition. L’expansion initiale mobilisa donc plusieurs formes de participation.
+
+Les maisons nouvelles se multiplièrent rapidement, notamment grâce aux bienfaiteurs aristocratiques des régions germaniques. Honorius II confirma l’ordre en 1126. Ce développement ne consistait pas simplement à multiplier les déplacements du fondateur : il exigeait biens, appuis locaux, membres formés et gouvernement reconnu. Hugues de Fosses joua un rôle particulièrement important dans l’organisation durable lorsque les responsabilités de Norbert dépassèrent le centre initial.
+
+Norbert prêcha aussi à Anvers contre un mouvement associé à Tanchelm. L’ancienne biographie consultée présente cette controverse du point de vue de la réforme sacramentelle catholique. Son portrait hostile des adversaires ne décrit pas impartialement toutes leurs convictions. Sans reprendre cette polémique, on peut affirmer que Norbert défendit l’autorité ecclésiale et sacramentelle et chercha à restaurer une discipline religieuse tenue par lui pour légitime.
+
+## Archevêque et responsabilités publiques
+
+Il devint archevêque de Magdebourg en 1126. Le prédicateur itinérant reçut ainsi une charge impliquant patrimoine considérable, relations politiques et conflits institutionnels. Il voulut récupérer des biens ecclésiastiques aliénés et réformer le clergé. La résistance fut importante ; la tradition biographique rapporte des attentats contre sa vie. Son épiscopat illustre la tension entre un programme religieux rigoureux et les intérêts établis qu’il menaçait.
+
+Durant le schisme pontifical ouvert en 1130, Norbert soutint Innocent II contre Anaclet II. Il travailla avec le roi Lothaire et l’accompagna à Rome. Il participa ainsi aux conflits sur la légitimité pontificale et les relations entre pouvoirs spirituel et temporel. Ces responsabilités appartiennent pleinement à sa vie : le fondateur ayant renoncé à l’avancement mondain accepta néanmoins une charge publique exigeant de négocier avec les princes.
+
+## Mort et mémoire
+
+Norbert revint au nord affaibli et mourut à Magdebourg le 6 juin 1134. Il fut enseveli dans la communauté prémontrée Sainte-Marie. Grégoire XIII le canonisa en 1582 ; ses restes furent transférés à Strahov, près de Prague, en 1627. L’ancienne encyclopédie met expressément en garde contre les affirmations non documentées d’une canonisation formelle antérieure.
+
+Son image dépend surtout de vies médiévales dont les rapports et divergences exigent une lecture critique. Dans ces limites, son œuvre demeure claire : il associa réforme cléricale et communauté durable de chanoines, tandis que son épiscopat révèle le difficile passage de la prédication charismatique à la responsabilité institutionnelle.
+
+## Sources
+
+- F. M. Geudens, « St. Norbert », Catholic Encyclopedia (1911), édition numérique consultée : https://github.com/CWilsonTSP/cathen/blob/master/cathen/11100b.htm.
+$desc$),
+('saint-norbert', 'la',
+$desc$Norbertus Xantensis communitatem Praemonstrati condidit atque postea archiepiscopus Magdeburgensis factus est. Vita eius praedicationem paenitentialem, vitam communem canonicorum, reformationem ecclesiasticam et participationem controversiarum politicarum pontificiarumque ineuntis saeculi duodecimi coniunxit.$desc$,
+$desc$## Origo et conversio
+
+Norbertus circa annum 1080 in regione Xantensi ad Rhenum Inferiorem natus est. Familia nobili coniunctus canonicus Xantensis factus est et aulas episcopales imperialesque frequentavit. Condicio initialis ad mundum pertinet in quo officium ecclesiasticum, familiae dignitas et ministerium politicum arcte cohaerebant. Vitae mediaevales commoda illa cum severa paenitentia posteriore comparant; imago tamen moralis non est plena iuventutis documentatio.
+
+Conversio tradita tempestati violentae prope Xanten coniungitur. Equus territus sessorem deicit, eventusque ad vitam mutandam vocat. Haec explicatio hagiographica conversionis decisivae est, cuius res dramaticae ut tales agnoscendae sunt. Certius Norbertus spem aulae deseruit, ductum spiritualem petivit, sacerdotium accepit et orationi, renuntiationi atque praedicationi secundo decennio saeculi duodecimi se dedit.
+
+## Praedicator communitatem stabilem quaerens
+
+Religiosos, ut Cononem Siegburgensem, consuluit et canonicos suos reformare conatus est. Severitas repugnantiam invenit. Accusationes Fritzlariae praedicationem et vitae rationem insolitam auctoritatibus ecclesiasticis subiecerunt. Beneficiis bonisque relictis, opes pauperibus distribuit et auctoritatem pontificiam petivit. Gelasius II praedicandi facultatem concessit, vocationem itinerantem intra Ecclesiae ordinem collocans.
+
+Mortuo Gelasio Norbertus Calixti II auxilium quaesivit. Bartholomaeus episcopus Laudunensis quoque communitatem permanentem condere suasit. Praemonstratum prope Laudunum circa annum 1120 locus factum est. Consilium difficultati practicae respondebat: praedicatio et disciplina unius hominis institutis indigebant ut permanerent. Hugo de Fossis aliique socii parva initia in vitam communem duraturam converterunt.
+
+## Fundatio Praemonstratensis
+
+Communitas ad canonicos regulares pertinebat, disciplinam religiosam communem cum ministerio clericali coniungens. Identitas neque ad eremum solitariam neque ad administrationem aulicam reducenda est. Oratio communis, renuntiatio et servitium mutuo firmari debebant. Mulieres quoque motui religioso adhaeserunt; laici fundationes dotabant et disciplinam christianam propriae condicioni aptam quaerebant. Expansio igitur varias participationis formas complectebatur.
+
+Novae domus celeriter ortae sunt, etiam nobilibus regionum Germanicarum adiuvantibus. Honorius II ordinem anno 1126 confirmavit. Progressus non mera multiplicatio itinerum fundatoris erat: bona, fautores locales, membra instituta et regimen agnitum requirebantur. Hugo de Fossis ordinationi permanenti praecipue profuit, cum Norberti munera centrum primum transcenderent.
+
+Norbertus etiam Antverpiae contra motum Tanchelmo coniunctum praedicavit. Vita vetus consulta controversiam secundum reformationem sacramentalem catholicam narrat. Descriptio adversariorum hostilis non est aequa omnium eorum sententiarum relatio. Sine sermone polemico affirmari potest Norbertum auctoritatem ecclesiasticam et sacramentalem defendisse atque communitates ad disciplinam sibi legitimam reducere voluisse.
+
+## Archiepiscopus et munera publica
+
+Anno 1126 archiepiscopus Magdeburgensis factus est. Praedicator itinerans ita officium accepit quod bona ampla, necessitudines politicas et conflictus institutionales implicabat. Possessiones Ecclesiae alienatas recuperare et clerum reformare conatus est. Resistentia gravis fuit; traditio biographica insidias vitae eius memorat. Episcopatus tensionem inter propositum religiosum severum et utilitates stabilitas quas minabatur illustrat.
+
+In schismate pontificio ab anno 1130 Norbertus Innocentium II contra Anacletum II sustinuit. Cum Lothario rege laboravit eumque Romam comitatus est. Controversiis de legitima auctoritate pontificia et ratione potestatum spiritualis saecularisque implicatus est. Haec officia pars vitae sunt, non interruptio: fundator qui honores mundanos reliquerat munus publicum tractatus cum principibus exigens suscepit.
+
+## Mors et memoria
+
+Norbertus infirma valetudine septentrionem repetivit atque Magdeburgi die 6 Iunii 1134 mortuus est. In communitate Praemonstratensi Sanctae Mariae sepultus est. Gregorius XIII eum anno 1582 canonizavit; reliquiae Strahoviam prope Pragam anno 1627 translatae sunt. Encyclopaedia vetus expresse monet affirmationes prioris canonizationis formalis documentis carere.
+
+Imago eius praecipue vitis mediaevalibus nititur, quarum relationes differentiaeque critice examinandae sunt. His limitibus servatis, opus permanens clarum est: reformationem clericorum cum communitate stabili canonicorum coniunxit; episcopatus autem transitum difficilem a praedicatione charismatica ad responsabilitatem institutionalem ostendit.
+
+## Fontes
+
+- F. M. Geudens, “St. Norbert,” Catholic Encyclopedia (1911), editio digitalis consulta: https://github.com/CWilsonTSP/cathen/blob/master/cathen/11100b.htm.
+$desc$)
+) AS x(slug, locale_code, short_description, full_biography)
+ON s.slug = x.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+
+-- END_BIOGRAPHIES_JUNE
+
+-- BIOGRAPHIES_JULY
+UPDATE saint_translations AS st
+SET short_description = x.short_description,
+    full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-thomas-apostle', 'en', 'Thomas, one of the Twelve, confesses the risen Jesus as his Lord and God in John''s Gospel. Remembered for courageous discipleship as well as doubt, he is associated by ancient Christian traditions with missions eastward, particularly with the Christian heritage of India.',
+$desc$## The apostle in the sources
+
+Thomas belongs to the Twelve apostles in all four New Testament lists. The Synoptic Gospels name him without recounting his call or describing his family, whereas John preserves several distinctive encounters with Jesus. John also calls him Didymus, the Greek equivalent of the Semitic name Thomas: both mean twin. The sources do not identify his twin. His birthplace, occupation before becoming a disciple, and age cannot be established from these texts. The familiar expression “doubting Thomas” therefore describes one episode, not the whole person disclosed by the Gospel.
+
+Two different kinds of evidence shape his biography. The canonical writings present an apostle who follows Jesus and witnesses his resurrection. Later Christian literature associates Thomas with missions in the East and especially India. These traditions matter deeply to the communities that transmitted them, but they do not supply an independently verifiable itinerary. Benedict XVI's catechesis of 27 September 2006 treats both the Gospel scenes and the missionary traditions, while distinguishing the apocryphal writings that subsequently circulated under Thomas's name from the New Testament.
+
+## Following Jesus through uncertainty
+
+In John 11, Jesus decides to return to Judaea after hearing that Lazarus has died. The disciples know that this journey will expose him to danger: there had already been attempts to stone him. Thomas urges his companions to go too, so that they may die with Jesus. The statement can express a sombre expectation, but it also discloses solidarity with his master. He is not presented as a detached critic demanding safety before offering loyalty. He accepts a road whose outcome he fears and does not yet understand.
+
+At the final meal, the scene changes from a dangerous journey to Jesus' coming departure. Jesus tells the disciples that they know the way to where he is going. Thomas answers that they do not know his destination and asks how they can know the way. This frank admission occasions Jesus' declaration that he is the way, the truth and the life. Thomas's intervention is important precisely because it does not pretend to understanding. The Gospel places the answer in a relationship with Jesus rather than in geographical directions or secret information.
+
+## The encounter with the risen Christ
+
+Thomas is absent when Jesus first appears to the assembled disciples in John 20. When they say they have seen the Lord, he demands to see the wounds of the nails and to put his hand into Jesus' side. His difficulty concerns whether the one reported alive is truly the crucified Jesus. Eight days later, Jesus comes again while Thomas is present, offers him the evidence he had demanded, and calls him to faith. The narrative moves immediately to Thomas's confession: “My Lord and my God.”
+
+John does not explicitly say that Thomas actually touches the wounds. Depictions of the scene and later commentary often show or assume that action, but the written account records the invitation and the confession without narrating a touch. Jesus then pronounces blessed those who believe without having seen. This places later readers, who receive the apostles' testimony rather than their immediate experience, within the scope of the episode. In Catholic interpretation, Thomas's words confess the divine identity of the risen Christ; they are not merely relief at the recovery of a beloved teacher.
+
+John 21 names Thomas among the disciples at the Sea of Tiberias when the risen Jesus appears after an unsuccessful night's fishing. Acts 1 also includes him with the apostles gathered in Jerusalem after the Ascension. These notices prevent his biography from ending with a moment of hesitation. They locate him in the continuing apostolic community. The New Testament, however, does not narrate his subsequent preaching, give the circumstances of his death, or establish a year for either his birth or martyrdom.
+
+## Eastern traditions and enduring memory
+
+Ancient traditions connect Thomas with Syria, Persia and India. The apocryphal Acts of Thomas, transmitted in Syriac and Greek, describe an Indian mission in a narrative containing spectacular wonders and literary constructions. Some names and settings have historical parallels, but that does not authenticate every adventure or prove the whole account. Nor does the Gospel of Thomas, another work attributed to him, establish his authorship merely by carrying his name. Such writings are evidence for the reception of his memory as well as material requiring historical criticism.
+
+The Christians of India who preserve his name understand their ecclesial origins in relation to his apostolic mission. The tradition of his martyrdom and burial near Mylapore belongs to that heritage; precise dates and a continuous travel narrative cannot be recovered from the canonical evidence. His liturgical remembrance on 3 July brings these missionary associations together with the Gospel's more firmly attested portrait. Thomas is remembered not simply as an example of disbelief overcome, but as a disciple whose questions, courage and confession direct attention to the crucified and risen Lord.
+
+## Sources
+
+- Benedict XVI, general audience, 27 September 2006, “Thomas” ([consulted French Vatican text, digital mirror](https://raw.githubusercontent.com/lologhi/vatican/master/benedict-xvi/audiences/2006/2006-09-27.md)).
+- Catholic Encyclopedia, “St. Thomas the Apostle” ([consulted digital mirror](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/14658b.htm)).
+$desc$),
+('saint-thomas-apostle', 'fr', 'Thomas, l''un des Douze, reconnaît en Jésus ressuscité son Seigneur et son Dieu dans l''Évangile de Jean. Son courage de disciple autant que son doute demeure dans la mémoire chrétienne, tandis que des traditions anciennes rattachent son apostolat à l''Orient, particulièrement à l''Inde.',
+$desc$## L'apôtre dans les sources
+
+Thomas appartient aux Douze dans les quatre listes du Nouveau Testament. Les Évangiles synoptiques le nomment sans raconter son appel ni décrire sa famille, tandis que Jean conserve plusieurs rencontres caractéristiques avec Jésus. Jean l'appelle aussi Didyme, équivalent grec du nom sémitique Thomas : tous deux signifient jumeau. Les sources n'identifient pas son jumeau. Elles ne permettent d'établir ni son lieu de naissance, ni sa profession antérieure, ni son âge. L'expression habituelle « Thomas l'incrédule » désigne donc un épisode, non toute la personne révélée par l'Évangile.
+
+Deux types de témoignages façonnent sa biographie. Les écrits canoniques présentent un apôtre qui suit Jésus et témoigne de sa résurrection. La littérature chrétienne postérieure associe Thomas aux missions orientales, surtout en Inde. Ces traditions comptent profondément pour les communautés qui les ont transmises, sans fournir un itinéraire vérifiable indépendamment. La catéchèse de Benoît XVI du 27 septembre 2006 considère les scènes évangéliques et les traditions missionnaires, en distinguant du Nouveau Testament les écrits apocryphes qui circulèrent ensuite sous son nom.
+
+## Suivre Jésus dans l'incertitude
+
+En Jean 11, Jésus décide de revenir en Judée après avoir appris la mort de Lazare. Les disciples savent que ce voyage l'exposera au danger : on avait déjà tenté de le lapider. Thomas encourage ses compagnons à partir eux aussi, afin de mourir avec Jésus. Cette parole peut exprimer une attente sombre, mais révèle également sa solidarité avec son maître. Il n'apparaît pas comme un critique extérieur exigeant la sécurité avant d'offrir sa fidélité. Il accepte un chemin dont il redoute et ne comprend pas encore l'issue.
+
+Au dernier repas, la scène passe du voyage dangereux au départ prochain de Jésus. Celui-ci dit aux disciples qu'ils connaissent le chemin vers le lieu où il va. Thomas répond qu'ils ne connaissent pas sa destination et demande comment ils pourraient en connaître le chemin. Cet aveu suscite la déclaration de Jésus : il est le chemin, la vérité et la vie. L'intervention de Thomas importe précisément parce qu'il ne feint pas de comprendre. L'Évangile situe la réponse dans la relation avec Jésus, non dans des indications géographiques ou un savoir secret.
+
+## La rencontre avec le Christ ressuscité
+
+Thomas est absent lorsque Jésus apparaît pour la première fois aux disciples réunis en Jean 20. Lorsqu'ils déclarent avoir vu le Seigneur, il exige de voir les blessures des clous et de mettre la main dans le côté de Jésus. Sa difficulté concerne l'identité du vivant annoncé avec Jésus crucifié. Huit jours plus tard, Jésus revient en présence de Thomas, lui offre les signes demandés et l'appelle à croire. Le récit passe immédiatement à la confession de Thomas : « Mon Seigneur et mon Dieu. »
+
+Jean ne dit pas explicitement que Thomas touche les plaies. Les représentations et les commentaires ultérieurs montrent ou supposent souvent ce geste, mais le récit écrit rapporte l'invitation et la confession sans raconter un contact. Jésus proclame ensuite bienheureux ceux qui croient sans avoir vu. Ainsi, les lecteurs ultérieurs, qui reçoivent le témoignage apostolique plutôt que son expérience immédiate, trouvent leur place dans cet épisode. Dans l'interprétation catholique, les paroles de Thomas confessent l'identité divine du Ressuscité ; elles ne sont pas simplement le soulagement de retrouver un maître aimé.
+
+Jean 21 nomme Thomas parmi les disciples au lac de Tibériade lorsque Jésus ressuscité apparaît après une nuit de pêche infructueuse. Actes 1 le compte également parmi les apôtres réunis à Jérusalem après l'Ascension. Ces mentions empêchent sa biographie de s'achever sur une hésitation et le situent dans la communauté apostolique qui poursuit sa vie. Toutefois, le Nouveau Testament ne raconte pas sa prédication ultérieure, ne précise pas les circonstances de sa mort et ne donne aucune année pour sa naissance ou son martyre.
+
+## Traditions orientales et mémoire durable
+
+Des traditions anciennes rattachent Thomas à la Syrie, à la Perse et à l'Inde. Les Actes de Thomas apocryphes, transmis en syriaque et en grec, décrivent une mission indienne dans un récit rempli de prodiges spectaculaires et de constructions littéraires. Certains noms et lieux présentent des correspondances historiques, ce qui n'authentifie pas chaque aventure ni l'ensemble du récit. De même, le titre de l'Évangile de Thomas ne suffit pas à établir qu'il en serait l'auteur. Ces écrits témoignent de la réception de sa mémoire et demandent une lecture critique.
+
+Les chrétiens d'Inde qui conservent son nom comprennent leurs origines ecclésiales en relation avec sa mission apostolique. La tradition de son martyre et de sa sépulture près de Mylapore appartient à cet héritage ; les textes canoniques ne permettent pas d'en reconstituer les dates précises ou un voyage continu. Sa mémoire liturgique du 3 juillet associe cet horizon missionnaire au portrait mieux attesté de l'Évangile. Thomas n'est pas seulement un exemple d'incrédulité surmontée : ses questions, son courage et sa confession dirigent vers le Seigneur crucifié et ressuscité.
+
+## Sources
+
+- Benoît XVI, audience générale du 27 septembre 2006, « Thomas » ([texte français du Vatican consulté, miroir numérique](https://raw.githubusercontent.com/lologhi/vatican/master/benedict-xvi/audiences/2006/2006-09-27.md)).
+- Catholic Encyclopedia, « St. Thomas the Apostle » ([miroir numérique consulté](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/14658b.htm)).
+$desc$),
+('saint-thomas-apostle', 'la', 'Thomas, unus ex Duodecim, Iesum resuscitatum Dominum suum et Deum suum in Evangelio Ioannis confitetur. Non solum propter dubitationem sed etiam propter fortitudinem discipuli memoratur; antiquae traditiones christianae missionem eius cum Oriente, praesertim cum christianis Indiae, coniungunt.',
+$desc$## Apostolus in fontibus
+
+Thomas in omnibus quattuor catalogis Novi Testamenti inter Duodecim numeratur. Evangelia synoptica eum nominant, neque vocationem eius narrant neque familiam describunt; Ioannes autem plures singulares occursus cum Iesu servat. Ioannes eum etiam Didymum appellat, quod Graece idem significat ac nomen Semiticum Thomas: geminum. Quis eius geminus fuerit fontes non indicant. Neque patria neque ars ante vocationem neque aetas ex his scriptis constitui potest. Usitata igitur appellatio «Thomas incredulus» unum eventum, non totam personam in Evangelio manifestatam, exprimit.
+
+Duo genera testimoniorum eius vitam illustrant. Scripta canonica apostolum exhibent qui Iesum sequitur eiusque resurrectionem testatur. Litterae christianae posteriores Thomam cum missionibus orientalibus, praesertim in India, coniungunt. Hae traditiones communitatibus quae eas tradiderunt magni sunt momenti, sed iter singillatim comprobatum non praebent. Benedictus XVI in catechesi diei 27 Septembris 2006 et narrationes evangelicas et traditiones missionarias considerat, scripta autem apocrypha postea sub nomine Thomae divulgata a Novo Testamento distinguit.
+
+## Iesum inter incerta sequi
+
+Apud Ioannem 11, Iesus, audita Lazari morte, in Iudaeam redire statuit. Discipuli sciunt hoc itinere eum periculo expositum iri: iam enim lapidare eum conati erant. Thomas socios hortatur ut et ipsi eant et cum Iesu moriantur. Verba tristem exspectationem exprimere possunt, sed etiam coniunctionem cum magistro ostendunt. Non describitur quasi iudex alienus qui salutem suam ante fidelitatem exigat. Viam accipit cuius exitum timet neque adhuc intellegit.
+
+In ultima cena non iam de itinere periculoso sed de proxima Iesu discessione agitur. Iesus discipulis dicit eos viam scire quo ipse vadat. Thomas respondet se destinationem nescire: quomodo igitur viam scire possint? Haec sincera confessio occasionem praebet Iesu declarandi se esse viam, veritatem et vitam. Responsum Thomae eo ipso valet quod intellectum non simulat. Evangelium solutionem in relatione cum Iesu, non in directionibus geographicis aut scientia arcana, ponit.
+
+## Occursus cum Christo resuscitato
+
+Thomas abest cum Iesus primum discipulis congregatis apud Ioannem 20 apparet. Cum illi Dominum se vidisse dicunt, petit ut vulnera clavorum videat et manum in latus Iesu mittat. Difficultas eius spectat ad identitatem viventis annuntiati cum Iesu crucifixo. Post dies octo Iesus, praesente Thoma, iterum venit, signa ab eo postulata offert eumque ad fidem vocat. Narratio statim ad confessionem Thomae transit: «Dominus meus et Deus meus».
+
+Ioannes non expresse dicit Thomam vulnera tetigisse. Imagines atque interpretationes posteriores saepe hunc actum ostendunt vel supponunt, sed scriptum invitationem et confessionem refert, tactum non narrat. Iesus deinde beatos pronuntiat qui non viderunt et crediderunt. Ita lectores posteriores, qui testimonium apostolorum potius quam immediatam experientiam recipiunt, intra huius eventus significationem comprehenduntur. Secundum interpretationem catholicam, verba Thomae divinam Christi resuscitati identitatem confitentur, non solam laetitiam de magistro dilecto recepto.
+
+Ioannes 21 Thomam inter discipulos ad mare Tiberiadis nominat, ubi Iesus resuscitatus post noctem piscationis infructuosam apparet. Actus 1 quoque eum inter apostolos post Ascensionem Hierosolymis congregatos ponunt. His testimoniis vita eius non in dubitatione terminatur, sed in communitate apostolica perseverante collocatur. Novum tamen Testamentum praedicationem eius posteriorem non narrat, neque mortis circumstantias exponit neque annum nativitatis aut martyrii definit.
+
+## Traditiones orientales et memoria permanens
+
+Antiquae traditiones Thomam cum Syria, Perside et India coniungunt. Actus Thomae apocryphi, Syriace et Graece traditi, missionem Indicam narrant inter mira spectacula et compositiones litterarias. Quaedam nomina et loca similitudines historicas habent, sed hoc neque singula eventa neque totam narrationem comprobat. Evangelium quoque Thomae, aliud scriptum ei attributum, non ideo ab eo compositum probatur quia nomen eius fert. Talia opera et receptionem memoriae eius testantur et examen historicum postulant.
+
+Christiani Indiae qui nomen eius servant origines ecclesiarum suarum cum missione eius apostolica coniungunt. Traditio martyrii et sepulturae apud Mylapore ad hoc patrimonium pertinet; tempora certa et continuum itineris ordinem ex fontibus canonicis restituere non possumus. Memoria liturgica diei 3 Iulii has missionarias traditiones cum imagine evangelica firmius testata coniungit. Thomas non tantum incredulitatis superatae exemplum memoratur, sed discipulus cuius interrogationes, fortitudo et confessio ad Dominum crucifixum et resuscitatum dirigunt.
+
+## Fontes
+
+- Benedictus XVI, audientia generalis, 27 Septembris 2006, «Thomas» ([textus Vaticanus Gallicus consultus, exemplar digitale](https://raw.githubusercontent.com/lologhi/vatican/master/benedict-xvi/audiences/2006/2006-09-27.md)).
+- Catholic Encyclopedia, «St. Thomas the Apostle» ([exemplar digitale consultum](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/14658b.htm)).
+$desc$)
+) AS x(slug, locale_code, short_description, full_biography) ON x.slug = s.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+
+UPDATE saint_translations AS st
+SET short_description = x.short_description,
+    full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-elizabeth-of-portugal', 'en', 'Elizabeth of Portugal, an Aragonese princess and Portuguese queen, joined royal responsibilities to sustained religious devotion and care for poor and sick people. As a wife and widow she became remembered especially for mediating dynastic conflicts and supporting Franciscan religious life.',
+$desc$## An Aragonese princess in Portugal
+
+Elizabeth of Portugal was born in 1271, the daughter of Peter III of Aragon and Constance. Her name recalled her great-aunt Elizabeth of Hungary; in Portuguese memory she is Isabel, the holy queen. She grew up in a royal environment in which marriage linked households, territories and political ambitions. Her early religious formation, as remembered in the Catholic Encyclopedia, emphasized regular prayer, fasting and self-discipline. Accounts of such practices describe the pattern of devotion attributed to her rather than provide a day-by-day record of childhood.
+
+She married Denis, king of Portugal, while still very young. He was an active ruler, associated with the development of his kingdom and remembered also as a poet. Their marriage brought Elizabeth into a court whose pressures were both political and personal. They had a daughter, Constance, and a son, Afonso, the future Afonso IV. Denis also had children outside the marriage. His conduct and the favours he showed these children became sources of pain within the household and ultimately contributed to conflict over succession and royal authority.
+
+## Religious life and practical charity
+
+Elizabeth retained a disciplined religious life amid these responsibilities. The consulted account describes her devotion to the Divine Office, fasting and works of mercy. It also emphasizes service to poor and sick people, in which she involved women of her court. Such activity belongs to the history of royal charity: a queen could use the resources, influence and organization of her household to assist people who lacked access to security or treatment. Her piety was therefore not limited to private observance, although its interior dimensions cannot be reconstructed from institutional deeds alone.
+
+Her marriage is remembered for patience and efforts at reconciliation. The hagiographical account understands her influence on Denis in terms of prayer, gentleness and perseverance, and reports his repentance late in life. That religious interpretation should not turn his misconduct into a virtue or imply that those injured by a spouse must accept mistreatment. It describes the particular moral meaning later writers found in Elizabeth's response. A biography can acknowledge her fidelity and charitable action without claiming knowledge of every conversation or attributing a simple cause to the king's eventual change.
+
+## Peacemaking within the dynasty
+
+The quarrel between Denis and their son Afonso became an armed confrontation. Afonso resented the position enjoyed by the king's other sons, and by 1323 father and heir were opposing one another. Elizabeth's intervention is central to her reputation as a peacemaker. The traditional account pictures her riding between the armies and helping restore agreement. Behind this memorable image lay the difficult position of a woman related to both parties, whose royal standing allowed her to appeal to obligations that political rivalry had endangered.
+
+The conflict shows that her peace work was not simply a general preference for harmony. It concerned concrete disputes over power, inheritance and the treatment of family members, with consequences for the wider kingdom. Her role should nevertheless not be enlarged into sole responsibility for every settlement. The sources honour her mediation; they do not make the political negotiations surrounding it fully visible. Denis died in 1325 and Afonso succeeded him. Elizabeth's widowhood opened a different phase of religious dedication without entirely ending the public responsibilities attached to her family.
+
+## Widowhood and the final journey
+
+After Denis's death, Elizabeth withdrew toward the Poor Clare community she had founded at Coimbra and adopted the Franciscan tertiary habit. This affiliation should not automatically be described as a profession as an enclosed Poor Clare. Her desire for a quieter life, given to prayer and care for the needy, coexisted with continuing royal connections. Coimbra became an important centre of her memory, joining her support for religious women with her own later years and eventual burial.
+
+In 1336 a new dispute drew her into peacemaking. Afonso IV moved against the king of Castile, whose treatment of his wife Maria, Afonso's daughter and Elizabeth's granddaughter, had provoked the Portuguese king. Elizabeth travelled to Estremoz despite weakness and advancing age. The consulted narrative credits her with helping avert fighting and secure peace. The exertion was followed by fever and her death in 1336. Her final journey illustrates the continuity between the family relationships that had defined her queenship and the reconciliation for which she was remembered after it.
+
+## Veneration and the limits of legend
+
+Elizabeth was buried at Coimbra, where reports of miracles helped sustain her cult. Urban VIII canonized her in 1625, and her remembrance falls on 4 July. Popular stories also grew around her, including an account in which a malicious accuser suffers the punishment intended for an innocent servant. Such narratives belong to the devotional transmission of her reputation and should not be treated as securely documented court proceedings. Her historical significance does not require accepting every marvel attached to her: royal charity, Franciscan affiliation and repeated mediation offer the firmer framework of her life.
+
+## Sources
+
+- Catholic Encyclopedia, “St. Elizabeth of Portugal” ([consulted digital mirror](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/05391a.htm)).
+$desc$),
+('saint-elizabeth-of-portugal', 'fr', 'Élisabeth de Portugal, princesse aragonaise et reine portugaise, unit ses responsabilités royales à une vie religieuse soutenue et au service des pauvres et des malades. Épouse puis veuve, elle demeure surtout connue pour ses médiations dans les conflits dynastiques et son soutien à la vie franciscaine.',
+$desc$## Une princesse aragonaise au Portugal
+
+Élisabeth de Portugal naquit en 1271, fille de Pierre III d'Aragon et de Constance. Son nom rappelait sa grand-tante Élisabeth de Hongrie ; la mémoire portugaise la connaît comme Isabel, la sainte reine. Elle grandit dans un milieu royal où les mariages unissaient familles, territoires et ambitions politiques. Sa formation religieuse, telle que la rapporte la Catholic Encyclopedia, insistait sur la prière régulière, le jeûne et la maîtrise de soi. Ces récits décrivent le modèle de piété qui lui était attribué plutôt qu'un journal de son enfance.
+
+Elle épousa très jeune Denis, roi de Portugal. Souverain actif, associé au développement de son royaume, celui-ci fut aussi poète. Le mariage introduisit Élisabeth dans une cour dont les tensions étaient politiques et personnelles. Ils eurent une fille, Constance, et un fils, Alphonse, futur Alphonse IV. Denis eut également des enfants hors mariage. Sa conduite et les faveurs accordées à ces enfants causèrent des souffrances familiales et contribuèrent finalement à un conflit portant sur la succession et l'autorité royale.
+
+## Vie religieuse et charité concrète
+
+Élisabeth conserva une vie religieuse disciplinée au milieu de ses responsabilités. Le récit consulté souligne son attachement à l'office divin, au jeûne et aux œuvres de miséricorde. Il insiste aussi sur son service des pauvres et des malades, auquel elle associait les femmes de sa cour. Cette activité relève de la charité royale : une reine pouvait employer les ressources, l'influence et l'organisation de sa maison pour aider ceux qui manquaient de sécurité ou de soins. Sa piété dépassait donc l'observance privée, même si ses dimensions intérieures ne se reconstituent pas à partir des seules réalisations institutionnelles.
+
+Son mariage est évoqué sous le signe de la patience et de la réconciliation. Le récit hagiographique interprète son influence sur Denis par la prière, la douceur et la persévérance, et rapporte son repentir tardif. Cette interprétation religieuse ne doit ni transformer ses fautes en vertu ni signifier qu'une personne blessée par son conjoint serait tenue d'accepter les mauvais traitements. Elle exprime le sens moral particulier que les auteurs ultérieurs trouvaient dans la réponse d'Élisabeth. On peut reconnaître sa fidélité et sa charité sans prétendre connaître chaque conversation ou réduire le changement du roi à une cause unique.
+
+## La paix au sein de la dynastie
+
+La querelle entre Denis et leur fils Alphonse se transforma en affrontement armé. Alphonse supportait mal la place accordée aux autres fils du roi ; en 1323, père et héritier s'opposaient. L'intervention d'Élisabeth est au cœur de sa réputation de pacificatrice. Le récit traditionnel la représente passant à cheval entre les armées et aidant à rétablir l'accord. Derrière cette image se trouvait la position difficile d'une femme liée aux deux camps, dont le rang permettait de rappeler des devoirs compromis par la rivalité politique.
+
+Cette crise montre que son œuvre de paix ne se réduisait pas à une préférence générale pour l'harmonie. Elle concernait des différends concrets sur le pouvoir, l'héritage et le traitement des proches, avec des conséquences pour tout le royaume. Il ne faut pourtant pas lui attribuer seule chaque règlement. Les sources honorent sa médiation sans rendre entièrement visibles les négociations politiques qui l'entouraient. Denis mourut en 1325 et Alphonse lui succéda. Le veuvage ouvrit une nouvelle étape religieuse pour Élisabeth sans supprimer toutes les obligations publiques de sa famille.
+
+## Le veuvage et le dernier voyage
+
+Après la mort de Denis, Élisabeth se rapprocha de la communauté de clarisses qu'elle avait fondée à Coimbra et prit l'habit du tiers ordre franciscain. Cette affiliation ne doit pas être assimilée automatiquement à une profession de clarisse cloîtrée. Son désir d'une vie plus retirée, consacrée à la prière et aux nécessiteux, coexistait avec ses liens royaux. Coimbra devint un centre de sa mémoire, réunissant son soutien aux religieuses, ses dernières années et sa sépulture.
+
+En 1336, un nouveau différend la ramena à la médiation. Alphonse IV marcha contre le roi de Castille, dont le comportement envers son épouse Marie, fille d'Alphonse et petite-fille d'Élisabeth, avait provoqué le roi portugais. Malgré sa faiblesse et son âge, Élisabeth se rendit à Estremoz. Le récit consulté lui attribue une contribution à l'arrêt des combats et à l'établissement de la paix. L'effort fut suivi d'une fièvre et de sa mort en 1336. Son dernier voyage manifeste la continuité entre les relations familiales de sa royauté et la réconciliation qui caractérisa sa mémoire.
+
+## Vénération et limites de la légende
+
+Élisabeth fut ensevelie à Coimbra, où des récits de miracles soutinrent son culte. Urbain VIII la canonisa en 1625 ; sa mémoire est célébrée le 4 juillet. Des histoires populaires se développèrent également, dont celle d'un accusateur malveillant subissant le châtiment destiné à un serviteur innocent. Elles appartiennent à la transmission dévotionnelle de sa réputation et ne constituent pas des procédures judiciaires solidement documentées. Son importance historique n'exige pas l'acceptation de tous les prodiges qui lui sont associés : charité royale, affiliation franciscaine et médiations répétées fournissent le cadre plus assuré de sa vie.
+
+## Sources
+
+- Catholic Encyclopedia, « St. Elizabeth of Portugal » ([miroir numérique consulté](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/05391a.htm)).
+$desc$),
+('saint-elizabeth-of-portugal', 'la', 'Elisabeth Lusitaniae, principissa Aragonensis et regina Lusitana, munera regalia cum assidua pietate et cura pauperum atque infirmorum coniunxit. Uxor et vidua, praecipue ob reconciliationem in contentionibus dynasticis et ob auxilium vitae religiosae Franciscanae praestitum in memoria Ecclesiae permanet.',
+$desc$## Principissa Aragonensis in Lusitania
+
+Elisabeth Lusitaniae anno 1271 nata est, filia Petri III Aragonensis et Constantiae. Nomen eius Elisabeth Hungariae, magnam amitam, commemorabat; in memoria Lusitana Isabel, regina sancta, appellatur. In aula crevit ubi matrimonia familias, territoria et consilia politica coniungebant. Institutio religiosa eius, sicut Catholic Encyclopedia refert, orationem regularem, ieiunium et disciplinam extollebat. Huiusmodi narrationes formam pietatis ei attributam describunt, non diarium pueritiae praebent.
+
+Admodum iuvenis Dionysio regi Lusitaniae nupsit. Ille strenuus princeps fuit, cum incremento regni coniunctus, atque etiam poeta memoratur. Matrimonium Elisabeth in aulam introduxit cuius difficultates et politicae et familiares erant. Filiam Constantiam et filium Alfonsum, futurum Alfonsum IV, habuerunt. Dionysius etiam filios extra matrimonium genuit. Mores eius atque favores his filiis concessi dolorem familiarem excitaverunt et postea ad controversiam de successione atque auctoritate regia contulerunt.
+
+## Vita religiosa et caritas operosa
+
+Elisabeth inter haec munera vitam religiosam ordinatam servavit. Narratio consulta devotionem erga Officium divinum, ieiunium et opera misericordiae commemorat. Servitium quoque pauperum et infirmorum extollit, cui feminas aulae associabat. Talis actio ad historiam caritatis regalis pertinet: regina opibus, auctoritate atque ordine domus suae uti poterat ut iis subveniret quibus securitas aut cura deerat. Pietas igitur eius non ad privatam observantiam redigebatur, quamvis interiora ex solis operibus institutis restitui nequeant.
+
+Matrimonium eius ob patientiam et reconciliationis studium memoratur. Narratio hagiographica influxum eius in Dionysium per orationem, mansuetudinem et perseverantiam interpretatur atque paenitentiam regis senescentis refert. Haec interpretatio religiosa neque delicta eius in virtutem mutare debet neque significare laesos a coniuge iniurias pati debere. Sensum moralem singularem exprimit quem posteriores scriptores in responsione Elisabeth invenerunt. Eius fidelitas et caritas agnosci possunt sine cognitione omnium colloquiorum aut mutatione regis uni causae attributa.
+
+## Pax intra familiam regiam
+
+Controversia inter Dionysium et filium Alfonsum in certamen armatum transiit. Alfonsus dignitatem aliis regis filiis concessam aegre ferebat, et anno 1323 pater atque heres sibi opponebantur. Interventus Elisabeth famae eius pacificae praecipuus est. Traditio eam equo inter exercitus procedentem et concordiae restituendae opem ferentem describit. Post hanc imaginem memorabilem difficilis mulieris condicio latebat, utrique parti coniunctae, cui dignitas regia permittebat officia a certamine politico laesa commemorare.
+
+Hoc certamen ostendit pacis eius opus non solum generalem concordiae voluntatem fuisse. Ad controversias concretas de potestate, hereditate et propinquorum condicione pertinebat, totum regnum afficientes. Neque tamen sola auctrix cuiusvis conventionis habenda est. Fontes mediationem eius honorant, sed negotia politica circumstantia non plene aperiunt. Dionysius anno 1325 mortuus est, Alfonso succedente. Viduitas novam dedicationis religiosae aetatem Elisabeth aperuit, non autem omnia officia publica familiae sustulit.
+
+## Viduitas et ultimum iter
+
+Post mortem Dionysii Elisabeth ad communitatem Clarissarum quam Conimbricae fundaverat se recepit et habitum tertii ordinis Franciscani sumpsit. Haec coniunctio non simpliciter professio Clarissae clausurae subiectae appellanda est. Desiderium vitae quietioris, orationi et pauperibus deditae, cum permanentibus vinculis regiis coniunctum mansit. Conimbrica praecipua memoriae eius sedes facta est, ubi auxilium religiosis feminis datum, posteriores anni et sepultura conveniunt.
+
+Anno 1336 nova controversia eam ad pacem faciendam vocavit. Alfonsus IV contra regem Castellae processit, cuius agendi ratio erga uxorem Mariam, Alfonsi filiam et Elisabeth neptem, regem Lusitanum provocaverat. Elisabeth, quamvis infirma et aetate provecta, Estremoz petivit. Narratio consulta ei auxilium tribuit ad pugnam avertendam et pacem componendam. Laborem febris secuta est atque mors anno 1336. Ultimum iter continuationem ostendit inter vincula familiaria reginae et reconciliationem qua postea memorata est.
+
+## Veneratio et fines narrationum
+
+Elisabeth Conimbricae sepulta est, ubi relationes miraculorum cultum aluerunt. Urbanus VIII eam anno 1625 canonizavit; memoria die 4 Iulii celebratur. Fabulae populares quoque increverunt, inter quas narratio accusatoris malitiosi poenam servo innocenti destinatam patientis. Hae ad traditionem devotionis pertinent, non ad acta iudicialia firmiter documentata. Momentum historicum eius non postulat ut omnia mira ei attributa recipiantur: caritas regalis, vita Franciscana et repetitae mediationes firmiorem vitae structuram praebent.
+
+## Fontes
+
+- Catholic Encyclopedia, «St. Elizabeth of Portugal» ([exemplar digitale consultum](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/05391a.htm)).
+$desc$)
+) AS x(slug, locale_code, short_description, full_biography) ON x.slug = s.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+UPDATE saint_translations AS st
+SET short_description = x.short_description,
+    full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-anthony-zaccaria', 'en', 'Anthony Mary Zaccaria, a physician who became a priest, helped establish the Clerics Regular of Saint Paul and the Angelic Sisters in sixteenth-century Italy. His brief ministry joined preaching, sacramental renewal and Eucharistic devotion to practical care for people affected by sickness and poverty.',
+$desc$## From medicine to priesthood
+
+Anthony Mary Zaccaria was born at Cremona in 1502. His father died during his infancy, leaving his upbringing to his mother. The Catholic Encyclopedia describes her teaching him compassion by involving him in distributing assistance to people in need. This early association between religious formation and practical charity is important to his later biography. His subsequent change of profession did not mean abandoning concern for suffering bodies in favour of a purely inward religion: care for sick and poor people remained integral to his priestly work.
+
+After schooling in Cremona, he studied philosophy and medicine at Padua. He obtained his medical qualification at about twenty-two and returned home to practise. The experience placed him in contact with illness and the vulnerabilities of ordinary life, although the surviving summary does not provide medical case histories or justify attributing particular clinical innovations to him. He subsequently undertook theological studies and was ordained priest in 1528. The movement from physician to priest marks a change of vocation, not evidence that he rejected medicine or regarded bodily care as spiritually unimportant.
+
+## The needs of northern Italy
+
+Zaccaria's early ministry included preaching, administering the sacraments and visiting sick people and prisoners. He later moved to Milan, a larger setting in which to pursue religious renewal. Northern Italy had suffered the effects of recurrent warfare, with famine and epidemic disease accompanying social disruption. The consulted encyclopedia uses the polemical language of its period when assigning blame for these conditions. The historical point that can be retained without repeating that hostility is the conjunction of material misery, pastoral need and a desire for reform within Catholic life.
+
+In Milan he joined the Confraternity of Eternal Wisdom and worked with the priests Bartolomeo Ferrari and Giacomo Antonio Morigia. Their project was a community of clergy committed to renewed Christian living through preaching and faithful sacramental ministry. It grew from cooperation rather than from an isolated founder acting without companions. Its reference to Saint Paul expressed an apostolic orientation: the reform of personal conduct and the service of congregations belonged together. The resulting foundation was one expression of Catholic renewal before the Council of Trent, not merely a later response to its decrees.
+
+## Religious foundations and pastoral work
+
+Clement VII approved the Clerics Regular of Saint Paul in 1533. Zaccaria served as their first superior. The name Barnabites, by which the community became widely known, came from the Milanese church of Saint Barnabas; the arrangements concerning that church were not completed before his death. Distinguishing the original title from the later familiar name avoids projecting the entire subsequent institutional history into the few years of his leadership. The congregation's purpose was pastoral: to revive divine worship and Christian conduct through sustained ministry rather than ceremonial prestige.
+
+Zaccaria preached in churches and public places, emphasizing Christ's Passion, conversion and repentance. He also helped establish the Angelic Sisters of Saint Paul. Their participation belongs to the broader network of renewal around him and should not disappear behind the history of the male congregation. In 1536 he relinquished the superiorship to Morigia. At the invitation of Cardinal Ridolfi he worked in Vicenza, where his efforts included assisting religious communities of women to renew their observance. The Angelic Sisters supported that work, illustrating the collaborative character of his reforming activity.
+
+## Eucharistic devotion and the final years
+
+The consulted account associates his ministry in Vicenza with the Forty Hours devotion. He helped spread this sustained period of prayer before the Eucharist; such promotion should not be confused with a claim that no comparable practice existed before him. Eucharistic devotion, preaching on the cross and the frequent administration of the sacraments formed complementary elements of his programme. They sought a practical change in Christian life, not simply the multiplication of ceremonies. His surviving literary legacy also includes sermons and material connected with the constitutions of his religious community.
+
+His last years were chiefly spent in Milan, with continuing missionary and charitable work. During a mission he developed a fever and returned to Cremona, where he died in his mother's house on 5 July 1539, aged thirty-seven. The encyclopedia interprets his failing health in relation to strenuous work and severe penances; it does not provide a modern medical diagnosis. His short life left institutions whose development continued through his collaborators. A responsible account therefore distinguishes his own initiatives from the later achievements of the communities that preserved his name.
+
+## Recognition and historical legacy
+
+Reports about the preservation of his body belong to the devotional history following his death, not to an independently established medical account. His cult received papal recognition in the nineteenth century, and Leo XIII canonized him on 15 May 1897. His feast recalls both a distinctive personal vocation and a wider movement of religious renewal. Zaccaria's significance lies in the integration of learned preparation, priestly ministry, community formation and concrete mercy, with Saint Paul's apostolic example providing a common reference for activities that might otherwise appear separate.
+
+## Sources
+
+- Catholic Encyclopedia, “St. Antonio Maria Zaccaria” ([consulted digital mirror](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/01588a.htm)).
+$desc$),
+('saint-anthony-zaccaria', 'fr', 'Antoine-Marie Zaccaria, médecin devenu prêtre, contribua à fonder les Clercs réguliers de Saint-Paul et les Sœurs angéliques dans l''Italie du XVIe siècle. Son bref ministère associa prédication, renouveau sacramentel et dévotion eucharistique au service concret des personnes éprouvées par la maladie et la pauvreté.',
+$desc$## De la médecine au sacerdoce
+
+Antoine-Marie Zaccaria naquit à Crémone en 1502. Son père mourut pendant sa petite enfance, laissant son éducation à sa mère. La Catholic Encyclopedia rapporte qu'elle lui enseigna la compassion en l'associant à la distribution d'aides aux nécessiteux. Ce lien précoce entre formation religieuse et charité concrète éclaire sa biographie ultérieure. Son changement de profession ne signifia pas l'abandon des corps souffrants au profit d'une religion purement intérieure : le soin des malades et des pauvres demeura au cœur de son ministère.
+
+Après sa scolarité à Crémone, il étudia la philosophie et la médecine à Padoue. Diplômé vers vingt-deux ans, il revint exercer dans sa ville. Cette expérience le mit en contact avec la maladie et la fragilité quotidienne, sans que le résumé conservé fournisse des observations cliniques ou permette de lui attribuer des innovations médicales précises. Il entreprit ensuite des études théologiques et fut ordonné prêtre en 1528. Le passage du médecin au prêtre marque un changement de vocation, non un rejet de la médecine ou une dévalorisation spirituelle des soins corporels.
+
+## Les besoins de l'Italie du Nord
+
+Son premier ministère comprenait la prédication, les sacrements et les visites aux malades et aux prisonniers. Il gagna ensuite Milan, cadre plus vaste pour son projet de renouveau. L'Italie du Nord avait subi des guerres répétées, avec famine et épidémies accompagnant la désorganisation sociale. L'encyclopédie consultée emploie le langage polémique de son époque pour désigner les responsables. Le fait historique à retenir sans reprendre cette hostilité est la rencontre entre misère matérielle, besoins pastoraux et désir de réforme au sein de la vie catholique.
+
+À Milan, il entra dans la confrérie de la Sagesse éternelle et collabora avec les prêtres Barthélemy Ferrari et Jacques-Antoine Morigia. Leur projet était une communauté de clercs voués au renouveau chrétien par la prédication et un ministère sacramentel fidèle. Il naquit d'une coopération, non de l'action solitaire d'un fondateur sans compagnons. La référence à saint Paul exprimait une orientation apostolique : réforme personnelle et service des communautés allaient ensemble. Cette fondation fut une expression du renouveau catholique antérieur au concile de Trente, non simplement une réponse ultérieure à ses décrets.
+
+## Fondations religieuses et action pastorale
+
+Clément VII approuva les Clercs réguliers de Saint-Paul en 1533. Zaccaria fut leur premier supérieur. Le nom de Barnabites, devenu courant, provenait de l'église milanaise Saint-Barnabé ; les arrangements relatifs à cette église ne furent achevés qu'après sa mort. Distinguer le titre originel du nom familier évite de projeter toute l'histoire institutionnelle ultérieure sur ses quelques années de gouvernement. La finalité était pastorale : ranimer le culte divin et la conduite chrétienne par un ministère soutenu plutôt que par un prestige cérémoniel.
+
+Zaccaria prêcha dans les églises et les lieux publics, insistant sur la Passion du Christ, la conversion et la pénitence. Il contribua également à établir les Sœurs angéliques de Saint-Paul. Leur participation appartient au réseau de renouveau qui l'entourait et ne doit pas disparaître derrière l'histoire de la congrégation masculine. En 1536, il remit la charge de supérieur à Morigia. Invité par le cardinal Ridolfi, il travailla à Vicence, notamment au renouvellement de l'observance dans des communautés féminines. Les Sœurs angéliques l'y aidèrent, manifestant le caractère collectif de cette réforme.
+
+## Dévotion eucharistique et dernières années
+
+Le récit consulté associe son ministère à Vicence à la dévotion des Quarante-Heures. Il contribua à diffuser cette prière prolongée devant l'Eucharistie ; cela ne signifie pas qu'aucune pratique comparable ne l'ait précédé. Dévotion eucharistique, prédication de la croix et administration fréquente des sacrements se complétaient dans son programme. Elles visaient une transformation concrète de la vie chrétienne, non la seule multiplication des cérémonies. Son héritage écrit comprend également des sermons et des textes liés aux constitutions de sa communauté.
+
+Il passa surtout ses dernières années à Milan, poursuivant missions et charité. Atteint de fièvre au cours d'une mission, il revint à Crémone et mourut chez sa mère le 5 juillet 1539, à trente-sept ans. L'encyclopédie relie sa santé déclinante au travail intense et aux pénitences sévères, sans proposer de diagnostic médical moderne. Sa courte vie laissa des institutions dont ses collaborateurs poursuivirent le développement. Il convient donc de distinguer ses initiatives propres des réalisations ultérieures des communautés qui conservèrent son nom.
+
+## Reconnaissance et héritage historique
+
+Les récits concernant la conservation de son corps appartiennent à l'histoire dévotionnelle postérieure à sa mort, non à un constat médical établi indépendamment. Son culte reçut une reconnaissance pontificale au XIXe siècle ; Léon XIII le canonisa le 15 mai 1897. Sa fête rappelle une vocation personnelle et un mouvement plus large de renouveau religieux. Son importance tient à l'union de la formation intellectuelle, du ministère sacerdotal, de la fondation communautaire et de la miséricorde concrète, l'exemple apostolique de saint Paul reliant ces activités.
+
+## Sources
+
+- Catholic Encyclopedia, « St. Antonio Maria Zaccaria » ([miroir numérique consulté](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/01588a.htm)).
+$desc$),
+('saint-anthony-zaccaria', 'la', 'Antonius Maria Zaccaria, medicus sacerdos factus, Clericos Regulares Sancti Pauli et Sorores Angelicas in Italia saeculi sexti decimi condere adiuvit. Breve eius ministerium praedicationem, renovationem sacramentalem et devotionem eucharisticam cum cura concreta hominum morbo ac paupertate afflictorum coniunxit.',
+$desc$## A medicina ad sacerdotium
+
+Antonius Maria Zaccaria Cremonae anno 1502 natus est. Pater, eo infante, mortuus est, educatione matri relicta. Catholic Encyclopedia refert matrem eum misericordiam docuisse, dum eleemosynas per eum distribuebat. Haec prima coniunctio institutionis religiosae cum caritate operosa vitam posteriorem illustrat. Mutatio professionis non significavit curam corporum dolentium pro religione mere interiore relictam: cura infirmorum et pauperum pars integra ministerii sacerdotalis mansit.
+
+Post studia Cremonensia philosophiam et medicinam Patavii didicit. Circiter viginti duos annos natus gradum medicinae consecutus domum rediit ut artem exerceret. Ita morbos et vulnerabilitatem vitae cotidianae cognovit, quamvis compendium servatum neque historias aegrotorum neque certas innovationes medicas ei tribuendas praebeat. Postea theologiae studuit et anno 1528 sacerdos ordinatus est. Transitus a medico ad sacerdotem vocationis mutationem significat, non repudiationem medicinae neque contemptum curae corporalis.
+
+## Necessitates Italiae septentrionalis
+
+Prima ministeria praedicationem, sacramentorum administrationem atque visitationem infirmorum et captivorum complectebantur. Deinde Mediolanum petivit, ampliorem campum renovationis religiosae quaerens. Italia septentrionalis bellis repetitis vexata erat, fame et pestilentia perturbationem socialem comitantibus. Encyclopaedia consulta, culpam assignans, verbis polemicis sui temporis utitur. Sine tali hostilitate retinendum est factum historicum: miseria materialis, necessitates pastorales et desiderium reformationis intra vitam catholicam concurrerunt.
+
+Mediolani Confraternitatem Aeternae Sapientiae ingressus cum sacerdotibus Bartholomaeo Ferrari et Iacobo Antonio Morigia laboravit. Propositum eorum erat communitas clericorum ad vitam christianam renovandam per praedicationem et fidele ministerium sacramentale. Ex cooperatione crevit, non ex solo fundatore sine sociis agente. Relatio ad sanctum Paulum indolem apostolicam exprimebat: emendatio morum et servitium communitatum coniungebantur. Fundatio sic renovationem catholicam ante Concilium Tridentinum repraesentavit, non meram posteriorem responsionem ad eius decreta.
+
+## Fundationes religiosae et opera pastoralia
+
+Clemens VII Clericos Regulares Sancti Pauli anno 1533 approbavit. Zaccaria primus superior fuit. Nomen Barnabitarum, quo communitas postea late nota est, ab ecclesia Mediolanensi Sancti Barnabae provenit; conventiones de ea ante mortem eius nondum perfectae erant. Titulus originalis a nomine posteriore distinguendus est, ne tota historia institutionis in paucos annos eius regiminis transferatur. Finis congregationis pastoralis erat: cultum divinum et mores christianos per ministerium assiduum, non per pompam, renovare.
+
+Zaccaria in ecclesiis et locis publicis praedicabat, Passionem Christi, conversionem et paenitentiam commendans. Sorores Angelicas Sancti Pauli quoque condere adiuvit. Earum actio ad ampliorem renovationis circulum pertinet neque post historiam congregationis virorum evanescere debet. Anno 1536 munus superioris Morigiae tradidit. Invitante cardinali Ridolfi Vicentiae laboravit, ubi communitates religiosas feminarum ad observantiam renovandam adiuvit. Sorores Angelicae huic operi cooperatae sunt, indolem communem reformationis demonstrantes.
+
+## Devotio eucharistica et ultimi anni
+
+Narratio consulta ministerium Vicentinum cum oratione Quadraginta Horarum coniungit. Hanc continuam precationem coram Eucharistia propagavit; inde tamen non sequitur nullam similem consuetudinem ante eum fuisse. Devotio eucharistica, praedicatio crucis et frequens sacramentorum administratio partes complementares eius consilii erant. Mutationem vitae christianae concretam quaerebant, non solam caeremoniarum multiplicationem. Patrimonium litterarium eius sermones et scripta constitutionibus communitatis coniuncta etiam comprehendit.
+
+Ultimos annos praecipue Mediolani egit, missionibus et caritate perseverans. In quadam missione febre correptus Cremonam rediit, ubi in domo matris die 5 Iulii 1539, annos triginta septem natus, mortuus est. Encyclopaedia valetudinem deficientem cum laboribus et severis paenitentiis coniungit, sed diagnosin medicam recentem non praebet. Brevis eius vita instituta reliquit quae socii postea excoluerunt. Propria igitur eius incepta a posterioribus operibus communitatum distinguenda sunt.
+
+## Agnitio et hereditas historica
+
+Relationes de corpore conservato ad historiam devotionis post mortem pertinent, non ad rem medicam independenter comprobatam. Cultus eius saeculo undevicesimo recognitionem pontificiam accepit; Leo XIII eum die 15 Maii 1897 canonizavit. Festum et vocationem singularem et ampliorem renovationem religiosam commemorat. Momentum eius in coniunctione doctrinae, ministerii sacerdotalis, communitatis constituendae et misericordiae operosae consistit, exemplo apostolico sancti Pauli has actiones inter se nectente.
+
+## Fontes
+
+- Catholic Encyclopedia, «St. Antonio Maria Zaccaria» ([exemplar digitale consultum](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/01588a.htm)).
+$desc$)
+) AS x(slug, locale_code, short_description, full_biography) ON x.slug = s.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+
+UPDATE saint_translations AS st
+SET short_description = x.short_description,
+    full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-camillus-de-lellis', 'en', 'Camillus de Lellis, an Italian former soldier, became a priest and founded a religious community devoted to sick and dying people. His experience of illness and conversion shaped a ministry combining attentive bodily care, spiritual assistance and service during dangerous epidemics.',
+$desc$## A difficult early life
+
+Camillus de Lellis was born at Bucchianico in the Abruzzo in 1550. His father was a military officer, and his mother died during his childhood. The consulted biography describes an unsettled upbringing followed by service as a soldier. Gambling became a destructive habit, at times leaving him destitute. These details matter because his later commitment to disciplined care did not emerge from an untroubled early religious career. His life involved repeated failures, changes of direction and a gradual confrontation with habits that harmed both his livelihood and his relationships.
+
+He also suffered from a persistent physical infirmity, especially ulceration affecting his lower limbs. He sought help at the Roman hospital of San Giacomo, associated with the care of people considered incurable, and at one stage worked there. His troublesome conduct and gambling led to dismissal. The older source's ordering of his military episodes is not sufficiently consistent to support a precise itinerary for every year. Its clear outline is nevertheless that soldiering, poverty, illness and unsuccessful attempts at religious life preceded his enduring vocation to hospital service.
+
+## Conversion and the hospital vocation
+
+While employed on building work for the Capuchins at Manfredonia, Camillus was moved by a friar's exhortation to change his life. He sought admission to the Capuchins, but his continuing illness prevented him from remaining. The obstacle was not the end of his religious vocation. Returning to Rome and the hospital, he became an increasingly responsible nurse. His conduct won trust, and he eventually received charge of the institution. The man who had once needed treatment and been dismissed thus learned to organize care from within the same world of vulnerability.
+
+Hospital experience made him attentive to the quality of service given to patients. His project was not simply to establish another place where sick people could be housed, but to gather people whose commitment would sustain reliable care. He initially envisaged a community of lay attendants. The proposal encountered opposition, and his advisers encouraged priestly preparation. Philip Neri was among those who guided him spiritually. Beginning serious Latin studies as an adult required persistence and shows that his later priesthood followed, rather than preceded, the discovery of his central charitable work.
+
+## Founding the Ministers of the Sick
+
+The community that developed around Camillus combined bodily nursing with spiritual assistance to the sick and dying. Its early establishment belongs to the 1580s; Sixtus V approved the congregation in 1586, and Gregory XIV raised it to the status of a religious order in 1591. Further confirmation followed under Clement VIII. These stages distinguish the gradual formation of a living community from a single administrative act. Camillus served as its first superior, but the work depended on companions willing to undertake demanding and often dangerous service.
+
+The members' commitment included tending people stricken by epidemic disease, even at serious personal risk. Their ministry was not confined to institutions: they also cared for sick people in their homes. This scope is significant because poverty and illness could isolate patients from both ordinary assistance and the sacraments. For Camillus, spiritual care did not replace practical nursing. The two belonged together within a Christian understanding of the person, without suggesting that prayer alone could substitute for the attentive bodily help an ill person needed.
+
+## Expansion, service and personal suffering
+
+A house was established at Naples, and members served sick people aboard a quarantined fleet outside its harbour. The consulted account remembers two who died during this work as early witnesses of the congregation's costly charity. Such service exposed caregivers to dangers that could not be eliminated by goodwill. Their willingness to remain with the sick became part of the order's identity. It should not, however, be redescribed using modern clinical claims that the source does not substantiate, such as inventing a particular medical technique or establishing contemporary standards of infection control.
+
+Camillus himself continued to suffer from chronic illness over many years. The biography emphasizes his persistence in visiting patients even when physically weakened. These accounts express the intensity of his commitment, but they should not imply that responsible caregivers must disregard their own health. He founded houses in several Italian cities and oversaw the community's growth. In 1607 he resigned its general leadership so that he could give more time to direct service. This choice illustrates the lasting priority of the sick over the prestige of institutional office.
+
+## Death and recognition
+
+Camillus died in Rome on 14 July 1614, aged sixty-four, and was buried in the church of Saint Mary Magdalene. Traditions of extraordinary gifts and healing miracles developed around his memory and were considered in the ecclesiastical recognition of his cult. Benedict XIV beatified him in 1742 and canonized him in 1746. These acts belong to Catholic recognition of sanctity, not to proof that every later anecdote about him is equally well documented.
+
+His historical importance rests on a durable form of organized religious service that kept the suffering person at the centre. The sequence of his life—soldier, patient, nurse, priest and founder—helps explain why bodily need and spiritual hope were inseparable in his ministry. The community he founded continued beyond his personal leadership and lifetime. Its origins remain rooted in the conviction that neglected or dying people should receive competent attention and human presence rather than abandonment.
+
+## Sources
+
+- Catholic Encyclopedia, “St. Camillus de Lellis” ([consulted digital mirror](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/03217b.htm)).
+$desc$),
+('saint-camillus-de-lellis', 'fr', 'Camille de Lellis, ancien soldat italien, devint prêtre et fonda une communauté religieuse au service des malades et des mourants. Son expérience de la maladie et sa conversion façonnèrent un ministère unissant soins corporels attentifs, accompagnement spirituel et service pendant les épidémies.',
+$desc$## Une jeunesse difficile
+
+Camille de Lellis naquit à Bucchianico, dans les Abruzzes, en 1550. Son père était officier et sa mère mourut pendant son enfance. La biographie consultée décrit une éducation instable suivie du métier des armes. Le jeu devint une habitude destructrice, le réduisant parfois à la misère. Son engagement ultérieur dans un service discipliné ne provenait donc pas d'un parcours religieux sans difficultés. Sa vie comporta des échecs répétés, des réorientations et une confrontation progressive avec des habitudes nuisibles à ses ressources comme à ses relations.
+
+Il souffrait également d'une infirmité persistante, notamment d'ulcérations aux membres inférieurs. Il chercha des soins à l'hôpital romain Saint-Jacques, destiné aux personnes considérées comme incurables, et y travailla un temps. Son comportement difficile et sa passion du jeu entraînèrent son renvoi. L'ordre des épisodes militaires dans la source ancienne manque de cohérence pour permettre un itinéraire annuel précis. Le cadre général reste clair : vie militaire, pauvreté, maladie et tentatives infructueuses de vie religieuse précédèrent sa vocation durable au service hospitalier.
+
+## Conversion et vocation hospitalière
+
+Employé à des travaux de construction chez les capucins de Manfredonia, Camille fut touché par l'exhortation d'un religieux à changer de vie. Il demanda à entrer chez les capucins, mais sa maladie l'empêcha d'y rester. Cet obstacle ne mit pas fin à sa vocation. Revenu à Rome et à l'hôpital, il devint un infirmier de plus en plus responsable. Sa conduite inspira confiance et il reçut finalement la direction de l'établissement. Celui qui avait été soigné puis renvoyé apprit ainsi à organiser les soins au sein même de cette vulnérabilité.
+
+L'expérience hospitalière le rendit attentif à la qualité du service. Il ne voulait pas simplement ouvrir un lieu supplémentaire pour loger les malades, mais rassembler des personnes dont l'engagement assurerait des soins fiables. Il envisagea d'abord une communauté de soignants laïcs. Le projet rencontra des oppositions et ses conseillers l'encouragèrent à se préparer au sacerdoce. Philippe Néri figurait parmi ses guides spirituels. Commencer sérieusement le latin à l'âge adulte demanda de la persévérance : sa vocation charitable précéda donc son ordination.
+
+## La fondation des Serviteurs des malades
+
+La communauté formée autour de Camille associait soins corporels et accompagnement spirituel des malades et des mourants. Ses débuts remontent aux années 1580 ; Sixte V approuva la congrégation en 1586 et Grégoire XIV l'érigea en ordre religieux en 1591. Clément VIII la confirma ensuite. Ces étapes distinguent la formation progressive d'une communauté vivante d'un acte administratif unique. Camille fut son premier supérieur, mais l'œuvre dépendait de compagnons disposés à un service exigeant et souvent dangereux.
+
+Leur engagement comprenait l'assistance aux victimes d'épidémies, même au péril de leur vie. Le ministère dépassait les institutions : ils soignaient également les malades à domicile. Cette extension importait lorsque pauvreté et maladie privaient les personnes d'assistance ordinaire et de sacrements. Pour Camille, les soins spirituels ne remplaçaient pas les soins corporels. Ils s'unissaient dans une compréhension chrétienne de la personne, sans suggérer que la prière suffirait à remplacer l'aide attentive nécessaire au malade.
+
+## Développement, service et souffrance personnelle
+
+Une maison fut établie à Naples et des religieux soignèrent les malades d'une flotte placée en quarantaine devant le port. Le récit consulté rappelle deux membres morts dans ce service comme premiers témoins d'une charité coûteuse. Cette assistance exposait les soignants à des risques que la bonne volonté ne supprimait pas. Leur présence auprès des malades entra dans l'identité de l'ordre. Il ne faut pourtant pas lui attribuer des innovations cliniques modernes non attestées, telles que l'invention d'une technique médicale ou l'établissement des normes contemporaines de prévention des infections.
+
+Camille souffrit lui-même longtemps d'une maladie chronique. La biographie souligne sa persévérance à visiter les malades malgré sa faiblesse. Ces récits expriment l'intensité de son engagement, sans signifier que les soignants responsables doivent négliger leur propre santé. Il fonda des maisons dans plusieurs villes italiennes et accompagna la croissance de la communauté. En 1607, il quitta la charge de supérieur général pour consacrer davantage de temps au service direct. Ce choix manifeste la priorité durable des malades sur le prestige institutionnel.
+
+## Mort et reconnaissance
+
+Camille mourut à Rome le 14 juillet 1614, à soixante-quatre ans, et fut enseveli dans l'église Sainte-Marie-Madeleine. Des traditions de dons extraordinaires et de guérisons se développèrent autour de sa mémoire et furent examinées lors de la reconnaissance ecclésiastique de son culte. Benoît XIV le béatifia en 1742 et le canonisa en 1746. Ces actes relèvent de la reconnaissance catholique de la sainteté, non de la preuve que chaque anecdote postérieure serait également documentée.
+
+Son importance historique réside dans une forme durable de service religieux organisé, centrée sur la personne souffrante. La succession de ses états — soldat, patient, infirmier, prêtre et fondateur — aide à comprendre pourquoi besoin corporel et espérance spirituelle étaient inséparables dans son ministère. Sa communauté poursuivit son œuvre après son gouvernement et sa mort. Elle demeurait fondée sur la conviction que les personnes délaissées ou mourantes devaient recevoir attention compétente et présence humaine plutôt qu'abandon.
+
+## Sources
+
+- Catholic Encyclopedia, « St. Camillus de Lellis » ([miroir numérique consulté](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/03217b.htm)).
+$desc$),
+('saint-camillus-de-lellis', 'la', 'Camillus de Lellis, olim miles Italus, sacerdos factus communitatem religiosam infirmis et morientibus dicatam fundavit. Experientia morbi et conversionis eius ministerium formavit, quod diligentem corporum curam, auxilium spirituale et servitium inter pestilentiarum pericula mutuo atque inseparabiliter coniunxit.',
+$desc$## Iuventus difficilis
+
+Camillus de Lellis Bucchianici in Aprutio anno 1550 natus est. Pater dux militaris erat; mater eo puero mortua est. Vita consulta educationem inquietam et subsequentem militiam describit. Ludus aleatorius perniciosa consuetudo factus est, interdum eum ad egestatem redigens. Eius posterius studium servitii ordinati non ex tranquillo cursu religioso ortum est. Vita errores repetitos, mutationes itineris et paulatim susceptum certamen cum moribus qui victui atque relationibus nocebant comprehendit.
+
+Infirmitate quoque persistente, praesertim ulceribus inferiorum membrorum, laborabat. Auxilium in nosocomio Romano Sancti Iacobi, incurabilibus dicato, quaesivit ibique aliquando laboravit. Propter indolem difficilem et aleae studium dimissus est. Ordo narrationis antiquae de militia non satis constat ut singulorum annorum iter certo restituatur. Lineamenta tamen clara sunt: militia, paupertas, morbus et frustra temptata vita religiosa stabilem vocationem ad servitium nosocomiale praecesserunt.
+
+## Conversio et vocatio nosocomialis
+
+Dum apud Capuccinos Sipontinos aedificationi operam dabat, Camillus exhortatione fratris ad vitam mutandam commotus est. Capuccinis admitti petivit, sed persistens morbus eum manere prohibuit. Obstaculum vocationem religiosam non finivit. Romam ad nosocomium reversus infirmarius magis responsabilis factus est. Fiduciam moribus conciliavit et tandem institutioni praefectus est. Qui olim curatione indiguerat atque dimissus erat, intra eundem infirmitatis mundum curam ordinare didicit.
+
+Experientia nosocomialis eum ad qualitatem servitii attentum reddidit. Non solum alium locum infirmis hospitandis constituere volebat, sed homines colligere quorum propositum curam fidelem sustineret. Initio communitatem laicorum infirmariorum cogitavit. Oppositio orta est, et consiliarii eum ad sacerdotium praeparandum hortati sunt. Philippus Neri inter moderatores spirituales erat. Studia Latina adulta aetate serio inire perseverantiam postulabat: inventio igitur operis caritativi praecipui sacerdotium praecessit.
+
+## Fundatio Ministrorum Infirmorum
+
+Communitas circa Camillum congregata curam corporalem cum auxilio spirituali infirmorum et morientium coniunxit. Initia ad decennium post annum 1580 pertinent; Sixtus V congregationem anno 1586 approbavit, Gregorius XIV anno 1591 ad ordinem religiosum erexit. Clemens VIII postea confirmavit. Hi gradus formationem communitatis viventis ab uno actu administrativo distinguunt. Camillus primus superior fuit, sed opus a sociis dependebat qui servitium arduum et saepe periculosum susciperent.
+
+Obligatio fratrum curam pestilentia afflictorum etiam cum gravi vitae periculo comprehendebat. Ministerium institutis non circumscribebatur: infirmis etiam domi serviebant. Hoc magni momenti erat, quia paupertas et morbus homines ab auxilio ordinario et sacramentis separare poterant. Camillo cura spiritualis corporale ministerium non substituebat. Utraque secundum christianam personae intellegentiam coniungebatur, neque sola oratio pro diligenti auxilio corporali necessario habebatur.
+
+## Incrementum, servitium et dolor personalis
+
+Domus Neapoli constituta est, et fratres aegrotis in classe ante portum segregata ministraverunt. Narratio consulta duos ibi mortuos tamquam prima testimonia caritatis pretiosae commemorat. Tale servitium curantes periculis exponebat quae bona voluntas tollere non poterat. Voluntas cum infirmis manendi ad identitatem ordinis pertinuit. Non tamen innovationes clinicae hodiernae eis tribuendae sunt quas fons non probat, veluti certa ars medica inventa aut normae recentiores contagioni prohibendae institutae.
+
+Camillus ipse morbo chronico multos annos laboravit. Vita eius perseverantiam in aegrotis visitandis etiam corpore debilitato extollit. Hae narrationes ardorem propositi exprimunt, non significant curantes propriam valetudinem neglegere debere. Domos in pluribus Italiae urbibus condidit et communitatis incrementum rexit. Anno 1607 regimen generale deposuit ut directae curae plus temporis tribueret. Hoc consilium infirmorum prioritatem supra dignitatem institutionis ostendit.
+
+## Mors et agnitio
+
+Camillus Romae die 14 Iulii 1614, annos sexaginta quattuor natus, mortuus est et in ecclesia Sanctae Mariae Magdalenae sepultus. Traditiones donorum extraordinariorum et sanationum circa memoriam eius increverunt atque in recognitione ecclesiastica cultus examinatae sunt. Benedictus XIV eum anno 1742 beatificavit et anno 1746 canonizavit. Hi actus ad recognitionem catholicam sanctitatis pertinent, non ad probationem omnium narrationum posteriorum aequaliter certarum.
+
+Momentum historicum eius in stabili forma servitii religiosi ordinati consistit, persona dolente in medio posita. Series vitae — miles, aegrotus, infirmarius, sacerdos et fundator — explicat cur necessitas corporalis et spes spiritualis in ministerio inseparabiles fuerint. Communitas post eius regimen atque mortem perseveravit. Origo eius in persuasione radicatur homines neglectos vel morientes diligentiam competentem et praesentiam humanam, non desertionem, accipere debere.
+
+## Fontes
+
+- Catholic Encyclopedia, «St. Camillus de Lellis» ([exemplar digitale consultum](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/03217b.htm)).
+$desc$)
+) AS x(slug, locale_code, short_description, full_biography) ON x.slug = s.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+-- END_BIOGRAPHIES_JULY
+
+-- BIOGRAPHIES_AUGUST
+
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-eusebius-of-vercelli', 'en', 'Eusebius, bishop of Vercelli in the fourth century, united pastoral ministry with the common life of his clergy. Exiled for defending the Nicene faith, he maintained contact with his people and worked for ecclesial reconciliation after his return.',
+$desc$## A bishop in northern Italy
+
+Eusebius of Vercelli belongs to the generation of bishops who defended the Nicene confession of Christ during the fourth century. Benedict XVI's catechesis identifies him as the first bishop of northern Italy about whom definite information survives. Born in Sardinia early in that century, he moved with his family to Rome while still young. There he became a lector, entering the Roman clergy before his election to the see of Vercelli in 345. The available evidence does not justify a precise birthday or a detailed reconstruction of his childhood.
+
+His episcopate began in a region where Christianity was established in towns but much of the countryside remained pagan. Evangelization therefore involved more than maintaining an existing congregation. The bishop had to strengthen Christian communities and prepare ministers capable of sustained service. Eusebius drew inspiration from the ascetic movement associated with Antony of Egypt and made known in the West through Athanasius. Rather than withdrawing permanently from his city, he adapted the discipline of common religious life to the responsibilities of clergy living and working within it.
+
+## Clergy and common life
+
+At Vercelli he gathered his clergy into a community shaped by prayer, ascetic discipline and shared life. This was not an abandonment of episcopal government for a separate monastic vocation. It was an attempt to make the ministers' daily conduct consistent with the faith they preached. Ambrose of Milan, writing to the people of Vercelli after Eusebius's death, particularly admired this union of ecclesiastical ministry and monastic observance. His testimony provides important evidence for the lasting impression Eusebius made on northern Italian Christianity.
+
+The community also helped form later bishops. Benedict names among the figures associated with its influence Eusebius's successors Limenius and Honoratus, together with bishops of other northern Italian churches. Such influence should not be confused with proof that every later local institution was personally founded by Eusebius. The better-attested point is his example: a bishop and his priests could share the concerns of their neighbors while ordering their own lives toward prayer and the heavenly city. Common discipline was meant to support, not replace, public service.
+
+## The Nicene controversy and exile
+
+The central conflict of his career concerned the identity of Jesus Christ. Eusebius upheld the Nicene teaching that the Son is of the same substance as the Father. He stood alongside Athanasius and other bishops who resisted imperial pressure favoring opponents of that confession. These disputes involved difficult theological distinctions as well as the emperor's efforts to secure religious unity. Eusebius's refusal to yield led to exile, separating him from the church whose pastoral life he had begun to organize.
+
+From 355 to 360 he was confined at Scythopolis in Palestine. Even there he maintained a small community of disciples and corresponded with his people. He was subsequently sent to Cappadocia and the Egyptian Thebaid, enduring severe mistreatment. His surviving correspondence is more valuable than later embellishment because it shows how he understood his responsibility during enforced absence. Exile did not make him cease to be a pastor. He continued to encourage fidelity, prayer and concord among communities that could not count on his physical presence.
+
+## Return and pastoral memory
+
+After Constantius II died in 361, Julian permitted exiled bishops to return. Eusebius participated in the Alexandrian council of 362, associated with Athanasius and efforts to restore ecclesial unity after the controversies. He then resumed ministry in northern Italy for approximately another decade. His defense of Nicene faith and his concern for reconciliation belonged together: fidelity was not simply the maintenance of a personal opposition, but service to the communion of the Church. The surviving outline does not supply a continuous itinerary of his final years.
+
+His second authentic letter addresses the churches of Vercelli, Novara, Ivrea and Tortona with evident affection. Particularly striking is his request that greetings also reach people outside the Church who held him in friendship. His relationship with the city was therefore wider than an exclusively internal ecclesiastical constituency. Ambrose's later appeal to his example confirms that Eusebius remained a standard by which episcopal leadership was judged. Remembered as a defender of Christ's divinity, he was also a builder of community whose endurance, common life and pastoral correspondence gave concrete shape to that belief.
+
+## Sources
+
+- Benedict XVI, general audience, 17 October 2007, on Eusebius of Vercelli; includes discussion of Eusebius's second letter and Ambrose's testimony. [French text consulted in a digital mirror](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-10-17.md).
+$desc$),
+('saint-eusebius-of-vercelli', 'fr', 'Eusèbe, évêque de Verceil au quatrième siècle, unit le ministère pastoral à la vie commune de son clergé. Exilé pour sa défense de la foi de Nicée, il reste proche des fidèles et œuvre à la réconciliation ecclésiale après son retour.',
+$desc$## Un évêque dans l'Italie du Nord
+
+Eusèbe de Verceil appartient à la génération des évêques qui défendirent la confession de Nicée concernant le Christ au quatrième siècle. La catéchèse de Benoît XVI le présente comme le premier évêque de l'Italie du Nord sur lequel subsistent des renseignements certains. Né en Sardaigne au début de ce siècle, il s'installa avec sa famille à Rome dans sa jeunesse. Il y devint lecteur, entrant dans le clergé romain avant son élection au siège de Verceil en 345. Les témoignages disponibles ne permettent ni de préciser son anniversaire ni de reconstituer en détail son enfance.
+
+Son épiscopat commença dans une région où le christianisme était établi dans les villes, tandis qu'une grande partie des campagnes demeurait païenne. L'évangélisation exigeait donc davantage que l'entretien d'une communauté existante. L'évêque devait affermir les groupes chrétiens et préparer des ministres capables d'un service durable. Eusèbe s'inspira du mouvement ascétique associé à Antoine d'Égypte et connu en Occident grâce à Athanase. Au lieu de quitter définitivement sa ville, il adapta la discipline de la vie religieuse commune aux responsabilités de clercs qui y vivaient et y travaillaient.
+
+## Le clergé et la vie commune
+
+À Verceil, il rassembla ses clercs dans une communauté façonnée par la prière, la discipline ascétique et la vie partagée. Il ne s'agissait pas d'abandonner le gouvernement épiscopal pour une vocation monastique séparée, mais de rendre la conduite quotidienne des ministres conforme à la foi qu'ils prêchaient. Ambroise de Milan, écrivant aux habitants de Verceil après la mort d'Eusèbe, admirait particulièrement cette union du ministère ecclésiastique et de l'observance monastique. Son témoignage éclaire l'empreinte durable d'Eusèbe sur le christianisme de l'Italie du Nord.
+
+Cette communauté contribua également à la formation de futurs évêques. Benoît cite, parmi les figures liées à son influence, Limenius et Honorat, successeurs d'Eusèbe, ainsi que des évêques d'autres Églises septentrionales. Cette influence ne prouve pas que toute institution locale ultérieure ait été personnellement fondée par Eusèbe. Le point le mieux attesté est son exemple : un évêque et ses prêtres pouvaient partager les préoccupations de leurs voisins tout en orientant leur existence vers la prière et la cité céleste. La discipline commune devait soutenir le service public, non le remplacer.
+
+## La controverse de Nicée et l'exil
+
+Le conflit central de sa carrière concernait l'identité de Jésus-Christ. Eusèbe soutenait l'enseignement de Nicée selon lequel le Fils est de même substance que le Père. Il se tint aux côtés d'Athanase et d'autres évêques résistant à la pression impériale favorable aux adversaires de cette confession. Ces controverses comportaient des distinctions théologiques difficiles et les efforts de l'empereur pour assurer l'unité religieuse. Le refus d'Eusèbe de céder entraîna son exil, le séparant de l'Église dont il avait commencé à organiser la vie pastorale.
+
+De 355 à 360, il fut retenu à Scythopolis, en Palestine. Même là, il conserva une petite communauté de disciples et correspondit avec ses fidèles. Il fut ensuite envoyé en Cappadoce et dans la Thébaïde égyptienne, subissant de graves mauvais traitements. Sa correspondance conservée vaut davantage que les embellissements ultérieurs, car elle montre comment il comprenait sa responsabilité durant cette absence forcée. L'exil ne l'empêcha pas d'être pasteur. Il continua d'encourager la fidélité, la prière et la concorde parmi des communautés privées de sa présence physique.
+
+## Le retour et la mémoire pastorale
+
+Après la mort de Constance II en 361, Julien autorisa les évêques exilés à rentrer. Eusèbe participa au concile d'Alexandrie de 362, associé à Athanase et aux efforts pour restaurer l'unité ecclésiale après les controverses. Il reprit ensuite son ministère dans l'Italie du Nord pendant environ une décennie. Sa défense de la foi de Nicée et son souci de réconciliation étaient inséparables : la fidélité ne consistait pas seulement à maintenir une opposition personnelle, mais à servir la communion de l'Église. Les renseignements conservés ne donnent pas un itinéraire continu de ses dernières années.
+
+Sa deuxième lettre authentique s'adresse avec une affection manifeste aux Églises de Verceil, Novare, Ivrée et Tortone. Sa demande de transmettre également ses salutations aux personnes extérieures à l'Église qui lui témoignaient de l'amitié est particulièrement frappante. Sa relation avec la ville dépassait donc le seul cercle ecclésiastique. L'appel ultérieur d'Ambroise à son exemple confirme qu'Eusèbe demeurait une référence pour juger la conduite des évêques. Défenseur de la divinité du Christ, il fut aussi un bâtisseur de communauté dont l'endurance, la vie commune et la correspondance pastorale donnèrent une forme concrète à cette foi.
+
+## Sources
+
+- Benoît XVI, audience générale du 17 octobre 2007, sur Eusèbe de Verceil ; analyse notamment sa deuxième lettre et le témoignage d'Ambroise. [Texte français consulté dans un miroir numérique](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-10-17.md).
+$desc$),
+('saint-eusebius-of-vercelli', 'la', 'Eusebius, episcopus Vercellensis saeculi quarti, ministerium pastorale cum vita communi clericorum coniunxit. Ob fidem Nicaenam defensam in exsilium missus, cum fidelibus suis commercium servavit atque post reditum reconciliationi ecclesiali operam dedit.',
+$desc$## Episcopus in Italia septentrionali
+
+Eusebius Vercellensis ad illam episcoporum aetatem pertinet quae saeculo quarto confessionem Nicaenam de Christo defendit. Benedictus XVI in catechesi eum primum Italiae septentrionalis episcopum appellat de quo certa testimonia supersunt. In Sardinia ineunte illo saeculo natus, adhuc iuvenis cum familia Romam migravit. Ibi lector factus est, in clerum Romanum receptus antequam anno 345 ad sedem Vercellensem eligeretur. Testimonia exstantia neque diem natalem certum neque accuratam pueritiae narrationem praebent.
+
+Episcopatum suscepit in regione ubi christiana fides in urbibus iam vigebat, magna autem pars agrorum adhuc pagana erat. Evangelizatio igitur plus postulabat quam congregationis iam constitutae curam. Episcopus communitates christianas firmare et ministros ad diuturnum servitium idoneos instituere debebat. Eusebius exemplum sumpsit ex vita ascetica Antonio Aegyptio coniuncta, quam Athanasius in Occidente notam fecerat. Non perpetuo ab urbe recessit, sed disciplinam communis vitae religiosae ad officia clericorum ibi viventium atque laborantium accommodavit.
+
+## Clerus et vita communis
+
+Vercellis clericos congregavit in communitatem oratione, disciplina ascetica et vita communi formatam. Hoc non fuit regimen episcopale deserere ut vocationem monasticam separatam sequeretur. Potius efficere studuit ut cotidiana ministrorum conversatio fidei ab eis praedicatae congrueret. Ambrosius Mediolanensis, post Eusebii mortem ad Vercellenses scribens, hanc ministerii ecclesiastici et observantiae monasticae coniunctionem praecipue admiratus est. Eius testimonium magni momenti est ad intellegendum quam diuturnam impressionem Eusebius in christianis Italiae septentrionalis reliquerit.
+
+Communitas etiam futuros episcopos formare adiuvit. Benedictus inter viros eius impulsu affectos Limenium et Honoratum, Eusebii successores, necnon episcopos aliarum Ecclesiarum septentrionalium recenset. Talis auctoritas non probat omnem institutionem localem posteriorem ab ipso Eusebio conditam esse. Certius eius exemplum demonstratur: episcopus et presbyteri curas proximorum participare poterant, vitam suam ad orationem et civitatem caelestem ordinantes. Disciplina communis ministerium publicum sustentare, non eius loco substitui, debebat.
+
+## Controversia Nicaena et exsilium
+
+Praecipuum vitae eius certamen identitatem Iesu Christi respiciebat. Eusebius doctrinam Nicaenam tuebatur qua Filius eiusdem substantiae ac Pater confitetur. Cum Athanasio aliisque episcopis stetit contra vim imperialem adversariis huius confessionis faventem. Controversiae difficiles distinctiones theologicas atque imperatoris conatus ad unitatem religiosam obtinendam complectebantur. Quia Eusebius cedere noluit, in exsilium actus est, ab Ecclesia separatus cuius vitam pastoralem ordinare coeperat.
+
+Ab anno 355 ad annum 360 Scythopoli in Palaestina detentus est. Etiam ibi parvam discipulorum communitatem servavit et cum fidelibus suis litteris communicavit. Postea in Cappadociam atque in Thebaidem Aegyptiam missus, gravia mala passus est. Epistulae eius servatae fabulis posterioribus praestant, quia ostendunt quomodo officium suum in absentia coacta intellexerit. Exsilium eum pastorem esse non prohibuit. Fidelitatem, orationem et concordiam inter communitates hortari perrexit quae praesentia eius corporali frui non poterant.
+
+## Reditus et memoria pastoralis
+
+Constantio II anno 361 mortuo, Iulianus episcopis exsulibus reditum permisit. Eusebius concilio Alexandrino anni 362 interfuit, Athanasio atque studiis unitatis ecclesialis post controversias restituendae consociatus. Deinde ministerium in Italia septentrionali per annos circiter decem resumpsit. Fidei Nicaenae defensio et reconciliationis cura inter se cohaerebant: fidelitas non mera perseverantia in oppositione personali erat, sed servitium communionis Ecclesiae. Testimonia servata continuum ultimorum annorum itinerarium non praebent.
+
+Secunda eius epistula authentica Ecclesias Vercellensem, Novariensem, Eporediensem et Dertonensem manifesto amore alloquitur. Praesertim notandum est eum petivisse ut salutationes etiam ad eos extra Ecclesiam positos perferrentur qui eum diligebant. Vinculum eius cum urbe igitur limites solius communitatis ecclesiasticae excedebat. Ambrosius, postea exemplum eius commemorans, confirmat Eusebium mansisse normam qua regimen episcopale aestimaretur. Divinitatis Christi defensor recolitur, sed etiam communitatis aedificator, cuius patientia, vita communis et litterae pastorales illam fidem opere manifestaverunt.
+
+## Fontes
+
+- Benedictus XVI, audientia generalis diei 17 Octobris 2007, de Eusebio Vercellensi; secundam eius epistulam et testimonium Ambrosii tractat. [Textus Gallicus in exemplari digitali consultus](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-10-17.md).
+$desc$)
+) AS x(slug, locale_code, short_description, full_biography) ON x.slug = s.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-peter-julian-eymard', 'en', 'Peter Julian Eymard was a French priest who founded religious communities centered on the Eucharist. His ministry joined adoration, sacramental life and evangelization, inviting priests, religious and lay people to recognize Christ''s presence as the source of Christian charity.',
+$desc$## From parish ministry to religious life
+
+Peter Julian Eymard was born in 1811 in the French department of Isère, into a family of modest means. The biographical account attributed to the Daughters of Saint Paul describes a devout household, early attraction to the priesthood and practical resistance from his father, who needed his help in the family business. Such difficulties delayed rather than extinguished his vocation. He was ordained a diocesan priest in 1834. His later work grew out of actual parish ministry, not only from the development of a private devotional ideal.
+
+In 1839 he entered the Society of Mary, commonly called the Marists. He remained with them for seventeen years and held positions of responsibility. This substantial period matters: his Eucharistic vocation did not appear as a complete institutional plan at the beginning of his priesthood. It matured within another religious community, through ministry, prayer and discernment. Later devotional accounts describe Mary's guidance in this development. That language expresses his spiritual understanding of the call; it should not be converted into an independently documented supernatural event or an invented conversation.
+
+## A congregation centered on the Eucharist
+
+Eymard became increasingly concerned about the distance between many people and the Church. He sought a form of religious life in which the Eucharist would be central to prayer and apostolic service. After seeking advice, he recognized that this particular project would require an institution distinct from the Marists. He left their society and went to Paris. With the support of the archbishop, he founded the Congregation of the Blessed Sacrament in 1856. The new community began modestly, and its later international development should not obscure the limited resources of its beginnings.
+
+A women's congregation followed three years later, and he also promoted the participation of lay people in Eucharistic worship. Paul VI's centenary letter confirms the breadth of this work: Eymard founded institutes for men and women and encouraged initiatives among priests and believers of different ages and circumstances. His purpose was not to reserve adoration for a small circle of specialists. He wanted the Eucharistic presence of Christ to shape the daily life of Christians and to become a principle of renewal in the wider Church.
+
+## Adoration and apostolic service
+
+His spirituality centered on Jesus Christ encountered in the Eucharist, celebrated in the Mass and contemplated in prayer. In Catholic belief this sacrament is not merely an object that recalls an absent teacher: Christ gives himself to his people. Eymard's emphasis on adoration must be understood within that faith. The time devoted to prayer was meant to deepen a relationship expressed in worship, communion and self-giving, rather than to detach a religious community from the needs of others.
+
+John Paul II's message to the congregation in 1993 interprets the founder's legacy through precisely this connection. It describes a life rich in different ministries and identifies the Eucharist as a renewing force for both Church and society. The pope asks Eymard's successors to form communities open to sharing and particularly attentive to the dignity of the poor. Those instructions were written long after the founder's death and are not a diary of his actions. They nevertheless show how the Church receives his work without separating contemplation from practical charity.
+
+## Final years and enduring influence
+
+Eymard traveled in France to communicate his Eucharistic message and left numerous spiritual writings. His activity combined preaching, religious leadership and the effort to make a particular spiritual conviction accessible to others. Illness eventually brought his work to an end. He died in his native town on 1 August 1868, aged fifty-seven. Pius XI beatified him in 1925, and John XXIII canonized him in 1962. His Roman liturgical memorial is observed on 2 August, distinct from the anniversary of his death.
+
+The centenary of his death gave Paul VI an occasion to recall both the institutions he founded and the wider movement of Eucharistic devotion that he encouraged. His importance cannot be measured simply by the number of communities established during his lifetime. He helped articulate a vocation in which the Mass, sacramental communion, adoration and apostolic action belonged to a single Christian life. The sources consulted establish that basic trajectory, while leaving many details of his daily activities unrecorded here. His continuing legacy rests on that integration of prayer and mission, rather than on an embellished catalogue of marvels.
+
+## Sources
+
+- Daughters of Saint Paul, biographical notice attributed to Paulinas. [Portuguese text consulted in a digital mirror](https://github.com/Mazokazorb/Biblioteca-Catolica-Br/blob/main/santos/pedroeymard.htm).
+- Paul VI, letter *Annuus temporis*, dated 19 July 1968. [Latin text consulted](https://github.com/lologhi/vatican/blob/master/paul-vi/letters/1968/1968-08-01-padre-huot.latin.md).
+- John Paul II, message to the Congregation of the Blessed Sacrament, 2 June 1993. [French text consulted](https://github.com/lologhi/vatican/blob/master/john-paul-ii/letters/1993/1993-06-02-ss-sacramento.md).
+$desc$),
+('saint-peter-julian-eymard', 'fr', 'Pierre-Julien Eymard, prêtre français, fonda des communautés religieuses centrées sur l''Eucharistie. Son ministère unit adoration, vie sacramentelle et évangélisation, invitant prêtres, religieux et laïcs à reconnaître dans la présence du Christ la source de la charité chrétienne.',
+$desc$## Du ministère paroissial à la vie religieuse
+
+Pierre-Julien Eymard naquit en 1811 dans le département français de l'Isère, au sein d'une famille modeste. La notice biographique attribuée aux Filles de Saint-Paul décrit un foyer pieux, un attrait précoce pour le sacerdoce et les objections pratiques de son père, qui avait besoin de son aide dans le commerce familial. Ces difficultés retardèrent sa vocation sans l'éteindre. Il fut ordonné prêtre diocésain en 1834. Son œuvre ultérieure naquit d'un ministère paroissial réel, et non du seul développement d'un idéal de dévotion personnelle.
+
+En 1839, il entra dans la Société de Marie, généralement appelée les Maristes. Il y demeura dix-sept ans et exerça des responsabilités. Cette longue période importe : sa vocation eucharistique ne se présenta pas dès le début de son sacerdoce comme un projet institutionnel achevé. Elle mûrit au sein d'une autre communauté religieuse, à travers le ministère, la prière et le discernement. Des récits pieux ultérieurs décrivent la conduite de Marie dans ce cheminement. Ce langage exprime sa compréhension spirituelle de l'appel ; il ne doit pas devenir un événement surnaturel indépendamment documenté ni une conversation inventée.
+
+## Une congrégation centrée sur l'Eucharistie
+
+Eymard se préoccupait toujours davantage de la distance entre beaucoup de personnes et l'Église. Il cherchait une forme de vie religieuse plaçant l'Eucharistie au centre de la prière et du service apostolique. Après avoir demandé conseil, il reconnut que ce projet particulier nécessitait une institution distincte des Maristes. Il quitta leur société et partit pour Paris. Avec l'appui de l'archevêque, il fonda la Congrégation du Saint-Sacrement en 1856. La nouvelle communauté commença modestement, et son développement international ultérieur ne doit pas masquer la faiblesse des moyens initiaux.
+
+Une congrégation féminine suivit trois ans plus tard ; il encouragea aussi la participation des laïcs au culte eucharistique. La lettre de Paul VI pour le centenaire de sa mort confirme l'étendue de cette œuvre : Eymard fonda des instituts masculins et féminins et favorisa des initiatives parmi les prêtres et les fidèles d'âges et de conditions variés. Il ne voulait pas réserver l'adoration à un cercle étroit de spécialistes. Il souhaitait que la présence eucharistique du Christ façonne la vie quotidienne des chrétiens et devienne un principe de renouvellement pour toute l'Église.
+
+## Adoration et service apostolique
+
+Sa spiritualité se concentrait sur Jésus-Christ rencontré dans l'Eucharistie, célébrée à la messe et contemplée dans la prière. Dans la foi catholique, ce sacrement n'est pas simplement un objet rappelant un maître absent : le Christ se donne à son peuple. L'insistance d'Eymard sur l'adoration doit être comprise à l'intérieur de cette foi. Le temps consacré à la prière devait approfondir une relation exprimée dans le culte, la communion et le don de soi, non détacher une communauté religieuse des besoins d'autrui.
+
+Le message de Jean-Paul II à la congrégation en 1993 interprète précisément l'héritage du fondateur selon cette relation. Il décrit une vie riche de ministères divers et présente l'Eucharistie comme une force de renouvellement pour l'Église et la société. Le pape demande aux successeurs d'Eymard de former des communautés ouvertes au partage et particulièrement attentives à la dignité des pauvres. Ces instructions, écrites longtemps après la mort du fondateur, ne sont pas un journal de ses actes. Elles montrent néanmoins comment l'Église accueille son œuvre sans séparer contemplation et charité concrète.
+
+## Dernières années et influence durable
+
+Eymard voyagea en France pour communiquer son message eucharistique et laissa de nombreux écrits spirituels. Son activité associait prédication, gouvernement religieux et effort pour rendre une conviction spirituelle particulière accessible à d'autres. La maladie finit par interrompre son travail. Il mourut dans sa ville natale le 1er août 1868, à cinquante-sept ans. Pie XI le béatifia en 1925 et Jean XXIII le canonisa en 1962. Sa mémoire liturgique romaine est célébrée le 2 août, distinctement de l'anniversaire de sa mort.
+
+Le centenaire de sa mort permit à Paul VI de rappeler les institutions qu'il avait fondées et le mouvement plus large de dévotion eucharistique qu'il avait encouragé. Son importance ne se mesure pas simplement au nombre de communautés établies de son vivant. Il contribua à exprimer une vocation où messe, communion sacramentelle, adoration et action apostolique appartiennent à une seule vie chrétienne. Les sources consultées établissent ce parcours essentiel sans consigner ici tous les détails de ses activités quotidiennes. Son héritage durable repose sur cette intégration de la prière et de la mission plutôt que sur un catalogue enjolivé de merveilles.
+
+## Sources
+
+- Filles de Saint-Paul, notice biographique attribuée à Paulinas. [Texte portugais consulté dans un miroir numérique](https://github.com/Mazokazorb/Biblioteca-Catolica-Br/blob/main/santos/pedroeymard.htm).
+- Paul VI, lettre *Annuus temporis*, datée du 19 juillet 1968. [Texte latin consulté](https://github.com/lologhi/vatican/blob/master/paul-vi/letters/1968/1968-08-01-padre-huot.latin.md).
+- Jean-Paul II, message à la Congrégation du Saint-Sacrement, 2 juin 1993. [Texte français consulté](https://github.com/lologhi/vatican/blob/master/john-paul-ii/letters/1993/1993-06-02-ss-sacramento.md).
+$desc$),
+('saint-peter-julian-eymard', 'la', 'Petrus Iulianus Eymard, presbyter Gallus, communitates religiosas Eucharistiae deditas condidit. Ministerio suo adorationem, vitam sacramentalem et evangelizationem coniunxit, sacerdotes, religiosos atque laicos invitans ut praesentiam Christi fontem caritatis christianae agnoscerent.',
+$desc$## A ministerio paroeciali ad vitam religiosam
+
+Petrus Iulianus Eymard anno 1811 in regione Gallica Isarae, familia modicis opibus praedita, natus est. Narratio biographica Filiabus Sancti Pauli attributa familiam piam, maturum sacerdotii desiderium et patris difficultates practicas describit, qui filii auxilio in commercio domestico indigebat. Haec impedimenta vocationem retardaverunt, non exstinxerunt. Anno 1834 presbyter dioecesanus ordinatus est. Opera eius posteriora ex vero ministerio paroeciali creverunt, non tantum ex progressu privatae devotionis.
+
+Anno 1839 Societatem Mariae, cuius sodales Maristae vocantur, ingressus est. Apud eos septendecim annos mansit atque munera auctoritatis gessit. Hoc diuturnum spatium interest: vocatio eius eucharistica ab initio sacerdotii non apparuit veluti institutum iam omnibus partibus definitum. In alia familia religiosa per ministerium, orationem et discretionem maturuit. Narrationes piae posteriores Mariae ductum in hoc progressu describunt. Haec verba spiritualem eius vocationis intelligentiam exprimunt; non convertenda sunt in eventum supernaturalem testimoniis independentibus comprobatum vel in colloquium fictum.
+
+## Congregatio Eucharistiae dedita
+
+Eymard magis magisque sollicitabatur quod multi homines ab Ecclesia distabant. Formam vitae religiosae quaerebat in qua Eucharistia centrum orationis et servitii apostolici esset. Consiliis quaesitis, agnovit hoc peculiare propositum institutum a Maristis distinctum postulare. Societatem eorum reliquit et Lutetiam profectus est. Archiepiscopo favente, anno 1856 Congregationem Sanctissimi Sacramenti condidit. Nova communitas modeste coepit, eiusque incrementum posterius per multas nationes tenues initiorum opes obscurare non debet.
+
+Tribus annis post congregatio mulierum secuta est; participationem quoque laicorum in cultu eucharistico promovit. Pauli VI epistula centenaria amplitudinem operis confirmat: Eymard instituta virorum et mulierum condidit atque incepta inter sacerdotes et fideles diversarum aetatum condicionumque suscitavit. Adorationem parvo peritorum coetui reservare nolebat. Optabat ut praesentia eucharistica Christi vitam cotidianam christianorum formaret et principium renovationis in tota Ecclesia fieret.
+
+## Adoratio et servitium apostolicum
+
+Spiritualitas eius in Iesu Christo versabatur, qui in Eucharistia invenitur, in Missa celebratur et in oratione contemplatur. Secundum fidem catholicam hoc sacramentum non tantum res est magistrum absentem commemorans: Christus semetipsum populo suo donat. Eymard studium adorationis intra hanc fidem intellegendum est. Tempus orationi datum relationem cultu, communione et sui ipsius donatione expressam alere debebat, non communitatem religiosam a necessitatibus aliorum separare.
+
+Ioannes Paulus II in nuntio ad congregationem anno 1993 hanc ipsam coniunctionem in hereditate fundatoris interpretatur. Vitam multis ministeriis divitem describit atque Eucharistiam vim renovantem Ecclesiam et societatem agnoscit. Pontifex successores Eymard rogat ut communitates communicationi bonorum apertas et dignitati pauperum praecipue intentas forment. Haec monita diu post fundatoris mortem scripta non sunt diarium actionum eius. Ostendunt tamen quomodo Ecclesia eius opus recipiat, contemplationem a caritate concreta non separans.
+
+## Ultimi anni et auctoritas permanens
+
+Eymard per Galliam iter fecit ut nuntium eucharisticum communicaret et multa scripta spiritualia reliquit. Eius actio praedicationem, regimen religiosum et studium complectebatur quo peculiaris persuasio spiritualis aliis pateret. Morbus tandem operi finem imposuit. In oppido natali die 1 Augusti 1868 mortuus est, annos quinquaginta septem natus. Pius XI eum anno 1925 beatificavit, Ioannes XXIII anno 1962 canonizavit. Memoria eius liturgica Romana die 2 Augusti celebratur, a die anniversario mortis distincta.
+
+Centenarius mortis Paulo VI occasionem praebuit tum instituta ab eo condita tum ampliorem devotionis eucharisticae motum ab eo promotum commemorandi. Eius momentum non solo numero communitatum eo vivente constitutarum metiendum est. Vocationem explicare adiuvit in qua Missa, communio sacramentalis, adoratio et actio apostolica ad unam vitam christianam pertinent. Fontes consulti hunc praecipuum cursum confirmant, multis vitae cotidianae singulis hic non relatis. Hereditas eius permanens in hac orationis et missionis coniunctione nititur, non in mirabilium catalogo ornato.
+
+## Fontes
+
+- Filiae Sancti Pauli, notitia biographica editionibus Paulinas attributa. [Textus Lusitanus in exemplari digitali consultus](https://github.com/Mazokazorb/Biblioteca-Catolica-Br/blob/main/santos/pedroeymard.htm).
+- Paulus VI, epistula *Annuus temporis*, die 19 Iulii 1968 data. [Textus Latinus consultus](https://github.com/lologhi/vatican/blob/master/paul-vi/letters/1968/1968-08-01-padre-huot.latin.md).
+- Ioannes Paulus II, nuntius ad Congregationem Sanctissimi Sacramenti, 2 Iunii 1993. [Textus Gallicus consultus](https://github.com/lologhi/vatican/blob/master/john-paul-ii/letters/1993/1993-06-02-ss-sacramento.md).
+$desc$)
+) AS x(slug, locale_code, short_description, full_biography) ON x.slug = s.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-alphonsus-liguori', 'en', 'Alphonsus Liguori, a Neapolitan lawyer who became a priest and bishop, founded the Redemptorists to evangelize neglected communities. His moral theology and spiritual writings unite serious conversion with confidence in divine mercy, emphasizing prayer and compassionate sacramental ministry.',
+$desc$## A lawyer becomes a priest
+
+Alphonsus Maria de Liguori was born near Naples on 27 September 1696 into a prosperous Christian family. His education included intellectual and artistic pursuits, and he obtained qualifications in civil and ecclesiastical law while still very young. He entered legal practice in Naples, where he gained a substantial reputation. This background remained important after he changed his profession: the habits of careful distinction, argument and attention to concrete circumstances would later serve his work as a moral theologian. His vocation did not require him to abandon the intelligence developed in his earlier life.
+
+A serious professional disappointment contributed to his decision to leave the law. The biographical source consulted presents the loss of an important lawsuit as a decisive experience of disillusionment. It is safer to distinguish that remembered turning point from claims to know every motive in his interior life or every political detail of the case. His father initially opposed the change. Alphonsus nevertheless undertook theological preparation and was ordained in 1726. His subsequent ministry drew him toward preaching, spiritual guidance and the sacrament of reconciliation, especially among people who lacked sustained pastoral attention.
+
+## The mission to neglected communities
+
+In 1732 Alphonsus founded the Congregation of the Most Holy Redeemer, whose members became known as Redemptorists. Its characteristic work was the preaching of missions and retreats, particularly among poor and neglected populations. He himself traveled widely in southern Italy. The congregation gave institutional form to a concern that could not be met by occasional visits alone: people outside centers of wealth and education needed clear teaching, access to the sacraments and ministers willing to remain attentive to their spiritual lives.
+
+His preaching aimed at intelligibility rather than display. The same concern shaped his devotional writing, in which theological conviction was expressed in language ordinary readers could use for prayer. His musical and literary gifts belonged to this broader pastoral effort. The foundation of a congregation and the writing of books were therefore not unrelated achievements. Both sought to bring the Christian message within reach of people for whom formal theological learning was unavailable, without treating them as incapable of a serious spiritual life.
+
+## Moral theology, mercy and prayer
+
+Alphonsus became one of Catholicism's most influential moral theologians. His work grew from the responsibilities of confessors who had to guide real people rather than merely settle abstract questions. Benedict XVI places his teaching against a background of severe rigorism influenced by Jansenism. Alphonsus did not dismiss sin or the need for repentance; he insisted that sacramental ministry should communicate the mercy of God toward those who return to him. Compassion was not an alternative to conversion, but the manner in which a penitent could be helped to seek it.
+
+His writings include *Moral Theology*, *The Glories of Mary*, visits to the Blessed Sacrament and a major treatment of prayer. Benedict particularly discusses the 1759 work commonly called *The Great Means of Prayer*. Alphonsus regarded prayer as indispensable because human beings depend on grace for salvation and for the strength to do good. This is a theological claim about the relationship between God and human freedom, not a promise that every requested worldly outcome will occur. Prayer acknowledges weakness while expressing confidence that divine assistance is not reserved for an accomplished spiritual elite.
+
+## Episcopate and final years
+
+In 1762 he became bishop of Sant'Agata dei Goti and served that diocese for thirteen years. Episcopal responsibility added the government of a local church to his already extensive work of preaching and writing. Severe illness, including disabling arthritis and deteriorating sight, marked his later life. After leaving diocesan office, he lived among his religious brethren and continued literary work as his condition permitted. His final years therefore cannot be reduced either to uninterrupted public success or to inactivity: physical limitation became part of the setting in which his vocation continued.
+
+He died at Nocera dei Pagani on 1 August 1787, before his ninety-first birthday. Gregory XVI canonized him in 1839, and Pius IX declared him a Doctor of the Church in 1871. His enduring influence lies in the combination of missionary concern, practical moral reasoning and accessible spiritual teaching. The sources considered here emphasize above all the confidence with which he directed people toward God. His legacy asks confessors and preachers to take both human frailty and the possibility of conversion seriously, joining clear instruction to patient mercy rather than making either one unnecessary.
+
+## Sources
+
+- Archdiocese of São Paulo, biographical notice attributed to its *Santo do Dia*. [Portuguese text consulted in a digital mirror](https://github.com/Mazokazorb/Biblioteca-Catolica-Br/blob/main/santos/santoafonso.htm).
+- Benedict XVI, general audience, 1 August 2012, on Alphonsus and prayer. [French text consulted](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2012/2012-08-01.md).
+$desc$),
+('saint-alphonsus-liguori', 'fr', 'Alphonse de Liguori, avocat napolitain devenu prêtre et évêque, fonda les Rédemptoristes pour évangéliser les communautés délaissées. Sa théologie morale et ses écrits spirituels unissent conversion véritable et confiance en la miséricorde divine, en soulignant la prière et un ministère sacramentel compatissant.',
+$desc$## Un avocat devient prêtre
+
+Alphonse Marie de Liguori naquit près de Naples le 27 septembre 1696 dans une famille chrétienne aisée. Son éducation comporta des études intellectuelles et artistiques ; très jeune encore, il obtint ses diplômes en droit civil et ecclésiastique. Il exerça le droit à Naples, où il acquit une réputation importante. Cette formation resta précieuse après son changement de profession : l'habitude des distinctions attentives, de l'argumentation et de l'étude des circonstances concrètes servit ensuite son œuvre de théologien moraliste. Sa vocation ne lui demanda pas d'abandonner l'intelligence développée dans sa première carrière.
+
+Une grave déception professionnelle contribua à sa décision de quitter le droit. La source biographique consultée présente la perte d'un procès important comme une expérience décisive de désillusion. Il convient de distinguer ce tournant mémorable de la prétention à connaître tous ses motifs intérieurs ou chaque détail politique du procès. Son père s'opposa d'abord au changement. Alphonse entreprit néanmoins sa préparation théologique et fut ordonné en 1726. Son ministère l'orienta vers la prédication, l'accompagnement spirituel et le sacrement de réconciliation, particulièrement auprès de personnes privées d'une attention pastorale durable.
+
+## La mission auprès des communautés délaissées
+
+En 1732, Alphonse fonda la Congrégation du Très Saint Rédempteur, dont les membres furent appelés Rédemptoristes. Son œuvre caractéristique était la prédication de missions et de retraites, surtout parmi les populations pauvres et délaissées. Lui-même parcourut largement l'Italie méridionale. La congrégation donna une forme institutionnelle à un souci auquel des visites occasionnelles ne pouvaient suffire : les personnes éloignées des centres de richesse et d'instruction avaient besoin d'un enseignement clair, de l'accès aux sacrements et de ministres durablement attentifs à leur vie spirituelle.
+
+Sa prédication recherchait la compréhension plutôt que l'apparat. Le même souci inspira ses écrits de dévotion, où la conviction théologique s'exprimait dans un langage que des lecteurs ordinaires pouvaient employer pour prier. Ses dons musicaux et littéraires appartenaient à cet effort pastoral plus large. La fondation d'une congrégation et la rédaction de livres n'étaient donc pas des réussites sans rapport. Toutes deux visaient à mettre le message chrétien à la portée de personnes privées d'études théologiques formelles, sans les considérer comme incapables d'une vie spirituelle sérieuse.
+
+## Théologie morale, miséricorde et prière
+
+Alphonse devint l'un des théologiens moralistes les plus influents du catholicisme. Son œuvre naquit des responsabilités des confesseurs, chargés de guider des personnes réelles plutôt que de résoudre seulement des questions abstraites. Benoît XVI situe son enseignement dans un contexte de rigorisme sévère influencé par le jansénisme. Alphonse ne niait ni le péché ni la nécessité du repentir ; il insistait pour que le ministère sacramentel communique la miséricorde de Dieu envers ceux qui reviennent à lui. La compassion n'était pas une alternative à la conversion, mais la manière d'aider le pénitent à la rechercher.
+
+Ses ouvrages comprennent la *Théologie morale*, *Les Gloires de Marie*, les visites au Saint-Sacrement et un important traité sur la prière. Benoît commente particulièrement l'ouvrage de 1759 généralement appelé *Le Grand Moyen de la prière*. Alphonse jugeait la prière indispensable parce que les êtres humains dépendent de la grâce pour leur salut et pour accomplir le bien. C'est une affirmation théologique sur la relation entre Dieu et la liberté humaine, non une promesse que toute demande temporelle sera exaucée. La prière reconnaît la faiblesse tout en exprimant la confiance que l'aide divine n'est pas réservée à une élite spirituelle accomplie.
+
+## L'épiscopat et les dernières années
+
+En 1762, il devint évêque de Sant'Agata dei Goti et servit ce diocèse pendant treize ans. La responsabilité épiscopale ajouta le gouvernement d'une Église locale à son activité déjà considérable de prédication et d'écriture. Une maladie grave, comprenant une arthrite invalidante et une vue déclinante, marqua sa vieillesse. Après avoir quitté sa charge diocésaine, il vécut parmi ses frères religieux et poursuivit son travail littéraire selon ses forces. Ses dernières années ne se réduisent donc ni à un succès public ininterrompu ni à l'inactivité : les limites physiques devinrent le cadre dans lequel sa vocation continuait.
+
+Il mourut à Nocera dei Pagani le 1er août 1787, avant son quatre-vingt-onzième anniversaire. Grégoire XVI le canonisa en 1839 et Pie IX le déclara docteur de l'Église en 1871. Son influence durable réside dans la réunion du souci missionnaire, du raisonnement moral pratique et d'un enseignement spirituel accessible. Les sources étudiées soulignent surtout la confiance avec laquelle il orientait les personnes vers Dieu. Son héritage demande aux confesseurs et aux prédicateurs de prendre au sérieux la fragilité humaine et la possibilité de conversion, unissant une instruction claire à une miséricorde patiente sans rendre l'une ou l'autre superflue.
+
+## Sources
+
+- Archidiocèse de São Paulo, notice biographique attribuée à son *Santo do Dia*. [Texte portugais consulté dans un miroir numérique](https://github.com/Mazokazorb/Biblioteca-Catolica-Br/blob/main/santos/santoafonso.htm).
+- Benoît XVI, audience générale du 1er août 2012, sur Alphonse et la prière. [Texte français consulté](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2012/2012-08-01.md).
+$desc$),
+('saint-alphonsus-liguori', 'la', 'Alphonsus de Ligorio, causidicus Neapolitanus qui presbyter et episcopus factus est, Redemptoristas ad communitates neglectas evangelizandas condidit. Theologia eius moralis et scripta spiritualia veram conversionem cum fiducia misericordiae divinae coniungunt, orationem et ministerium sacramentale misericors commendantes.',
+$desc$## Causidicus presbyter fit
+
+Alphonsus Maria de Ligorio prope Neapolim die 27 Septembris 1696 in familia christiana opulenta natus est. Educatio eius studia doctrinarum atque artium comprehendit; adhuc adulescens gradus in iure civili et ecclesiastico adeptus est. Causas Neapoli agere coepit, ubi magnam famam sibi comparavit. Haec institutio etiam post professionem mutatam magni momenti mansit: consuetudo accurate distinguendi, argumentandi et circumstantias concretas considerandi posteriori theologi moralis operi profuit. Vocatio non postulabat ut intelligentiam priore vitae tempore excultam deponeret.
+
+Gravis in professione deceptio consilio iuris relinquendi contulit. Fons biographicus consultus causam magni momenti amissam tamquam decisivam disillusionis experientiam proponit. Hunc vitae transitum memoria servatum distinguere oportet a praesumptione cognoscendi omnes motus interiores vel singula politica causae adiuncta. Pater initio mutationi restitit. Alphonsus tamen studia theologica suscepit et anno 1726 ordinatus est. Ministerium deinde eum ad praedicationem, directionem spiritualem et sacramentum reconciliationis duxit, praesertim inter homines diuturna cura pastorali carentes.
+
+## Missio ad communitates neglectas
+
+Anno 1732 Alphonsus Congregationem Sanctissimi Redemptoris condidit, cuius sodales Redemptoristae appellati sunt. Opus eius proprium missionum et exercitiorum spiritualium praedicatio erat, praesertim inter populos pauperes et neglectos. Ipse per Italiam meridionalem late peregrinatus est. Congregatio formam stabilem dedit sollicitudini cui visitationes rarae satisfacere non poterant: homines a divitiarum et studiorum sedibus remoti doctrina clara, accessu ad sacramenta et ministris vitae spirituali continenter intentis indigebant.
+
+Praedicatio eius intellegentiam potius quam ostentationem quaerebat. Eadem cura scripta pia informavit, in quibus doctrina theologica sermone exprimebatur quem lectores communes ad orandum adhibere possent. Dona eius musica et litteraria ad hunc latiorem laborem pastoralem pertinebant. Congregationem condere et libros scribere non erant igitur res inter se seiunctae. Utrumque nuntium christianum eis praebere studebat quibus studia theologica formalia non patebant, quin eos seriae vitae spiritualis incapaces aestimaret.
+
+## Theologia moralis, misericordia et oratio
+
+Alphonsus inter theologos morales maximae auctoritatis in Ecclesia catholica numeratus est. Opus eius ex officiis confessariorum crevit, qui personas reales dirigere debebant, non tantum quaestiones abstractas solvere. Benedictus XVI doctrinam eius in contextu severi rigorismi iansenismo affecti collocat. Alphonsus neque peccatum neque paenitentiae necessitatem neglexit; affirmavit ministerium sacramentale misericordiam Dei erga redeuntes communicare debere. Miseratio non erat aliud pro conversione substitutum, sed modus quo paenitens ad eam quaerendam adiuvaretur.
+
+Inter scripta eius sunt *Theologia moralis*, *Gloriae Mariae*, visitationes Sanctissimi Sacramenti et magni momenti tractatus de oratione. Benedictus praesertim opus anni 1759, vulgo de magno orationis medio appellatum, tractat. Alphonsus orationem necessariam existimabat, quia homines gratia indigent ad salutem atque ad bonum faciendum. Haec sententia theologica relationem Dei et libertatis humanae respicit, non promittit omnem rem temporalem petitam eventuram esse. Oratio infirmitatem agnoscit et simul fiduciam exprimit auxilium divinum non soli coetui spiritualiter perfecto reservatum esse.
+
+## Episcopatus et ultimi anni
+
+Anno 1762 episcopus Sanctae Agathae Gothorum factus est atque dioecesi per tredecim annos servivit. Officium episcopale regimen Ecclesiae localis amplissimo iam praedicationis et scriptionis labori addidit. Gravis morbus, inter quem arthritis debilitans et visus deficiens, senectutem eius afflixit. Munere dioecesano deposito, inter fratres religiosos vixit et opus litterarium pro viribus continuavit. Ultimi anni neque ad perpetuam prosperitatem publicam neque ad inertiam redigendi sunt: corporis limitationes condicionem constituerunt in qua vocatio pergebat.
+
+Nuceriae Paganorum die 1 Augusti 1787 mortuus est, nondum annum nonagesimum primum complens. Gregorius XVI eum anno 1839 canonizavit, Pius IX anno 1871 Doctorem Ecclesiae declaravit. Eius auctoritas permanens in sollicitudinis missionalis, rationis moralis practicae et doctrinae spiritualis omnibus patentis coniunctione consistit. Fontes hic considerati praecipue fiduciam illustrant qua homines ad Deum dirigebat. Hereditas eius confessarios et praedicatores monet ut fragilitatem humanam et conversionis possibilitatem serio accipiant, claram doctrinam misericordiae patienti iungentes, neutram supervacaneam reddentes.
+
+## Fontes
+
+- Archidioecesis Sancti Pauli, notitia biographica eius *Santo do Dia* attributa. [Textus Lusitanus in exemplari digitali consultus](https://github.com/Mazokazorb/Biblioteca-Catolica-Br/blob/main/santos/santoafonso.htm).
+- Benedictus XVI, audientia generalis diei 1 Augusti 2012, de Alphonso et oratione. [Textus Gallicus consultus](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2012/2012-08-01.md).
+$desc$)
+) AS x(slug, locale_code, short_description, full_biography) ON x.slug = s.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-john-vianney', 'en', 'John Mary Vianney, the Curé of Ars, renewed a small French parish through prayer, teaching, charity and tireless service in the confessional. His life made an obscure village a place of pilgrimage and offered the Church an enduring example of pastoral dedication.',
+$desc$## A difficult preparation
+
+John Mary Vianney was born at Dardilly, near Lyon, on 8 May 1786. He grew up in a rural family during a period when the French Revolution disrupted religious practice and education. Work in the fields and limited schooling made his later studies unusually difficult. His desire for priesthood therefore encountered obstacles that were practical and intellectual as well as familial. The familiar description of him as an unlearned peasant can become misleading if it suggests that he did not study, think carefully or acquire a substantial knowledge of the faith.
+
+With priestly encouragement he persevered in preparation and was ordained in 1815. His difficulties with formal education were not the final measure of his pastoral ability. The demands of preaching and the guidance of consciences required continuing effort. His later reputation as a confessor is especially striking against that background, but it should not be presented as an argument that training is unnecessary. Rather, his life demonstrates that perseverance, sound guidance and gifts not immediately recognized by conventional examinations can belong to the formation of an effective minister.
+
+## The parish of Ars
+
+Vianney arrived at Ars in 1818. It was a small community whose religious practice needed renewal. Benedict XVI's account of his ministry recalls a village of approximately 230 inhabitants. Vianney made Christian formation a central responsibility rather than assuming that a nominally Christian population already understood and practiced its faith. He preached, taught children, encouraged prayer and sought to make the church a place where parishioners could encounter a pastor who was consistently available. Renewal depended on patient local work, not on the immediate achievement of national celebrity.
+
+His ministry extended beyond the church building. He visited families and sick people, organized parish activities, received and administered donations, and supported charitable works. He took particular care of the girls served by the institution known as the Providence and of those who educated them. Benedict explicitly warns against reading a biographer's description of his constant presence in church as though he never went elsewhere. Vianney's prayer and activity belonged together. He also encouraged lay cooperation, recognizing that the life of the parish was not the work of the priest alone.
+
+## Eucharist and reconciliation
+
+The Mass and prayer before the Blessed Sacrament occupied the center of his spirituality. He invited people to see prayer as opening their hearts to God, not merely producing many words. His preaching on the Eucharist emphasized the need for Christ's life and the gift offered in sacramental communion. Benedict presents Vianney's movement from the altar to the confessional as an expression of one pastoral purpose: helping people receive God's mercy and live in a relationship renewed by grace. Worship was not detached from the conversion of everyday conduct.
+
+As his reputation spread, penitents came from across France and beyond. He sometimes spent as many as sixteen hours in the confessional in a day. This extraordinary labor did not consist of giving identical advice to everyone. The papal account distinguishes his encouragement of those sincerely seeking forgiveness, his concern for people afraid of repeated failure and his efforts to awaken repentance in the indifferent. His seriousness about sin was joined to confidence in divine mercy. The confessional became the most visible expression of a larger ministry of listening, instruction and reconciliation.
+
+## Cost of ministry and enduring memory
+
+Vianney lived austerely and gave generously to others. Large donations for parish and charitable purposes did not become personal wealth. His severe fasting and other penitential practices belong to the particular ascetic setting of his life, not to a universal prescription for the physical health of every priest. He also experienced a deep sense of inadequacy and repeatedly wished to escape parish responsibility for solitude. His perseverance was therefore not effortless confidence. It involved remaining faithful to people entrusted to him despite exhaustion and doubts about his own capacity.
+
+He died at Ars on 4 August 1859, aged seventy-three, and Pius XI canonized him in 1925. The continued remembrance of his ministry is visible in the pilgrimages to Ars and in later papal teaching, including Benedict XVI's proclamation of a Year for Priests on the 150th anniversary of his death. His significance is not that every pastor must reproduce the exact conditions of his village. It is the unity of personal prayer, sacramental service, practical charity and responsibility for particular people. An obscure parish became the setting for an influence much wider than he could have planned.
+
+## Sources
+
+- Archdiocese of São Paulo, biographical notice attributed to its *Santo do Dia*. [Portuguese text consulted in a digital mirror](https://github.com/Mazokazorb/Biblioteca-Catolica-Br/blob/main/santos/saojmvianney.htm).
+- Benedict XVI, letter proclaiming the Year for Priests, 2009, biographical and pastoral passages. [French text consulted in a digital mirror](https://github.com/lologhi/vatican/blob/master/_manually%20cleaned%20up/Beno%C3%AEt%20XVI/2009-06-16-Lettre-150-ans-Cure-d-Ars.txt).
+$desc$),
+('saint-john-vianney', 'fr', 'Jean-Marie Vianney, le curé d''Ars, renouvela une petite paroisse française par la prière, l''enseignement, la charité et un service inlassable au confessionnal. Sa vie fit d''un village obscur un lieu de pèlerinage et offrit à l''Église un exemple durable de dévouement pastoral.',
+$desc$## Une préparation difficile
+
+Jean-Marie Vianney naquit à Dardilly, près de Lyon, le 8 mai 1786. Il grandit dans une famille rurale à une époque où la Révolution française bouleversait la pratique religieuse et l'éducation. Le travail des champs et une scolarité limitée rendirent ses études ultérieures particulièrement difficiles. Son désir du sacerdoce rencontra donc des obstacles pratiques et intellectuels autant que familiaux. La description familière d'un paysan sans instruction peut être trompeuse si elle laisse penser qu'il n'étudia pas, ne réfléchit pas attentivement ou n'acquit pas une connaissance substantielle de la foi.
+
+Encouragé par des prêtres, il persévéra dans sa préparation et fut ordonné en 1815. Ses difficultés scolaires ne constituèrent pas la mesure définitive de sa capacité pastorale. Les exigences de la prédication et de la conduite des consciences demandaient un effort continu. Sa réputation ultérieure de confesseur est d'autant plus remarquable, mais elle ne doit pas servir d'argument contre la nécessité de la formation. Sa vie montre plutôt que persévérance, accompagnement avisé et dons non immédiatement reconnus par les examens ordinaires peuvent contribuer à la formation d'un ministre efficace.
+
+## La paroisse d'Ars
+
+Vianney arriva à Ars en 1818. Cette petite communauté avait besoin d'un renouvellement de sa pratique religieuse. Le récit de son ministère par Benoît XVI évoque un village d'environ 230 habitants. Vianney fit de la formation chrétienne une responsabilité centrale, sans supposer qu'une population nominalement chrétienne connaissait et pratiquait déjà sa foi. Il prêcha, instruisit les enfants, encouragea la prière et voulut faire de l'église un lieu où les paroissiens rencontreraient un pasteur constamment disponible. Le renouveau reposait sur un patient travail local, non sur une célébrité nationale immédiate.
+
+Son ministère dépassait le bâtiment de l'église. Il visitait les familles et les malades, organisait les activités paroissiales, recevait et administrait les dons, et soutenait des œuvres charitables. Il s'occupait particulièrement des filles accueillies dans l'institution appelée la Providence et de leurs éducatrices. Benoît met expressément en garde contre une lecture littérale d'un biographe évoquant sa présence constante à l'église, comme s'il ne sortait jamais. La prière et l'action de Vianney étaient unies. Il encourageait aussi la coopération des laïcs, sachant que la vie paroissiale n'était pas l'œuvre du prêtre seul.
+
+## Eucharistie et réconciliation
+
+La messe et la prière devant le Saint-Sacrement occupaient le centre de sa spiritualité. Il invitait à comprendre la prière comme l'ouverture du cœur à Dieu, et non comme une simple abondance de paroles. Sa prédication eucharistique soulignait le besoin de vivre du Christ et le don offert dans la communion sacramentelle. Benoît présente son passage de l'autel au confessionnal comme l'expression d'une même intention pastorale : aider les personnes à recevoir la miséricorde divine et à vivre une relation renouvelée par la grâce. Le culte n'était pas séparé de la conversion de la conduite quotidienne.
+
+À mesure que sa réputation s'étendait, des pénitents venaient de toute la France et d'ailleurs. Il passait parfois jusqu'à seize heures par jour au confessionnal. Ce travail extraordinaire ne consistait pas à donner le même conseil à tous. Le récit pontifical distingue son encouragement aux personnes recherchant sincèrement le pardon, son attention à celles qui craignaient de retomber et ses efforts pour éveiller le repentir chez les indifférents. Son sérieux devant le péché s'unissait à la confiance en la miséricorde divine. Le confessionnal devint l'expression la plus visible d'un ministère plus vaste d'écoute, d'instruction et de réconciliation.
+
+## Le coût du ministère et une mémoire durable
+
+Vianney vivait austèrement et donnait généreusement. Les sommes importantes offertes pour la paroisse et les œuvres charitables ne devenaient pas une richesse personnelle. Ses jeûnes sévères et ses autres pratiques pénitentielles appartiennent au contexte ascétique particulier de sa vie, non à une prescription universelle concernant la santé physique de chaque prêtre. Il éprouvait aussi un profond sentiment d'insuffisance et souhaita à plusieurs reprises quitter la responsabilité paroissiale pour la solitude. Sa persévérance n'était donc pas une assurance sans effort. Elle consistait à rester fidèle aux personnes confiées à ses soins malgré l'épuisement et les doutes sur ses capacités.
+
+Il mourut à Ars le 4 août 1859, à soixante-treize ans, et Pie XI le canonisa en 1925. Le souvenir de son ministère demeure dans les pèlerinages à Ars et l'enseignement des papes, notamment la proclamation par Benoît XVI d'une Année sacerdotale pour le cent cinquantième anniversaire de sa mort. Son importance n'exige pas que chaque pasteur reproduise exactement les conditions de son village. Elle réside dans l'unité de la prière personnelle, du service sacramentel, de la charité concrète et de la responsabilité envers des personnes précises. Une paroisse obscure devint le lieu d'un rayonnement dépassant largement ses projets.
+
+## Sources
+
+- Archidiocèse de São Paulo, notice biographique attribuée à son *Santo do Dia*. [Texte portugais consulté dans un miroir numérique](https://github.com/Mazokazorb/Biblioteca-Catolica-Br/blob/main/santos/saojmvianney.htm).
+- Benoît XVI, lettre proclamant l'Année sacerdotale, 2009, passages biographiques et pastoraux. [Texte français consulté dans un miroir numérique](https://github.com/lologhi/vatican/blob/master/_manually%20cleaned%20up/Beno%C3%AEt%20XVI/2009-06-16-Lettre-150-ans-Cure-d-Ars.txt).
+$desc$),
+('saint-john-vianney', 'la', 'Ioannes Maria Vianney, parochus Arsensis, parvam paroeciam Gallicam oratione, doctrina, caritate et indefesso confessionum ministerio renovavit. Vita eius vicum obscurum locum peregrinationis fecit atque Ecclesiae perenne exemplum studii pastoralis praebuit.',
+$desc$## Difficilis praeparatio
+
+Ioannes Maria Vianney Dardiliaci prope Lugdunum die 8 Maii 1786 natus est. In familia rustica crevit tempore quo perturbationes Gallicae usum religionis et educationem impediebant. Labor agrorum et brevis institutio scholastica studia posteriora valde difficilia fecerunt. Desiderium sacerdotii igitur impedimenta practica et intellectualia, necnon familiaria, invenit. Vulgaris descriptio rustici indocti fallere potest, si suadet eum non studuisse, non diligenter cogitavisse aut solidam fidei scientiam non acquisivisse.
+
+Sacerdotibus eum confirmantibus, in praeparatione perseveravit et anno 1815 ordinatus est. Difficultates educationis formalis non fuerunt ultima norma capacitatis eius pastoralis. Praedicationis et conscientiarum directionis officia continuum laborem postulabant. Posterior confessarii fama hoc respectu praecipue mirabilis est, sed non adhibenda est ad probandum institutionem supervacaneam esse. Vita potius eius demonstrat perseverantiam, prudens consilium et dona quae examina communia statim non agnoscunt ad formationem ministri efficacis pertinere posse.
+
+## Paroecia Arsensis
+
+Vianney anno 1818 ad Ars venit. Parva communitas erat cuius vita religiosa renovatione indigebat. Benedictus XVI, ministerium eius narrans, vicum circiter ducentorum triginta incolarum commemorat. Vianney formationem christianam praecipuum officium fecit, neque praesumpsit populum nomine christianum fidem iam cognoscere et exercere. Praedicavit, pueros docuit, orationem promovit atque ecclesiam locum reddere studuit ubi fideles pastorem continenter paratum invenirent. Renovatio a patienti labore locali pendebat, non ab immediata celebritate nationali.
+
+Ministerium eius extra aedificium ecclesiae patebat. Familias et aegrotos visitabat, opera paroecialia ordinabat, dona recipiebat et administrabat atque incepta caritatis sustentabat. Puellas in instituto Providentiae receptas earumque educatrices singulariter curabat. Benedictus expresse monet ne biographi verba de perpetua praesentia in ecclesia ita legantur quasi numquam alio ierit. Oratio et actio Vianney inter se cohaerebant. Cooperationem quoque laicorum fovebat, agnoscens vitam paroecialem non solius presbyteri opus esse.
+
+## Eucharistia et reconciliatio
+
+Missa et oratio coram Sanctissimo Sacramento centrum spiritualitatis eius obtinebant. Homines invitabat ut orationem intellegerent tamquam cordis apertionem Deo, non meram multorum verborum prolationem. Praedicatio de Eucharistia necessitatem vitae Christi et donum in communione sacramentali oblatum inculcabat. Benedictus transitum eius ab altari ad tribunal paenitentiae unius propositi pastoralis expressionem ostendit: adiuvare homines ut misericordiam Dei acciperent et relatione per gratiam renovata viverent. Cultus a conversione cotidianae conversationis non separabatur.
+
+Fama crescente, paenitentes ex tota Gallia et aliunde veniebant. Aliquando usque ad sedecim horas diei confessionibus audiendis impendebat. Hic singularis labor non consistebat in eodem consilio omnibus dando. Narratio pontificia distinguit encouragementum sincere veniam quaerentium, curam timentium ne iterum caderent et conatus paenitentiam in indifferentibus excitandi. Gravitas qua peccatum considerabat cum fiducia misericordiae divinae iungebatur. Tribunal paenitentiae manifestissima expressio factum est amplioris ministerii audiendi, docendi et reconciliandi.
+
+## Ministerii labor et memoria permanens
+
+Vianney austere vivebat et aliis largiter dabat. Magna dona pro paroecia et caritate accepta in proprias divitias non convertebantur. Ieiunia severa aliaque opera paenitentiae ad peculiarem vitae eius rationem asceticam pertinent, non ad universalem normam valetudinis corporalis cuiusque sacerdotis. Profundum quoque inhabilitatis sensum experiebatur et saepe optavit ut, ministerio paroeciali relicto, solitudinem peteret. Perseverantia igitur non erat facilis sui fiducia. Fidelitatem erga homines sibi commissos servabat, quamvis defatigatus et de viribus suis dubius.
+
+Ars die 4 Augusti 1859 mortuus est, annos septuaginta tres natus; Pius XI eum anno 1925 canonizavit. Memoria ministerii eius in peregrinationibus ad Ars et doctrina pontificum perseverat, inter quae Benedicti XVI indictio Anni sacerdotalis occasione centesimi quinquagesimi anniversarii mortis. Momentum eius non requirit ut omnis pastor easdem vici condiciones reproducat. Consistit in unitate orationis personalis, servitii sacramentalis, caritatis concretae et curae certorum hominum. Paroecia obscura locus facta est auctoritatis longe maioris quam ipse destinare potuerat.
+
+## Fontes
+
+- Archidioecesis Sancti Pauli, notitia biographica eius *Santo do Dia* attributa. [Textus Lusitanus in exemplari digitali consultus](https://github.com/Mazokazorb/Biblioteca-Catolica-Br/blob/main/santos/saojmvianney.htm).
+- Benedictus XVI, epistula Annum sacerdotalem indicens, 2009, loci biographici et pastorales. [Textus Gallicus in exemplari digitali consultus](https://github.com/lologhi/vatican/blob/master/_manually%20cleaned%20up/Beno%C3%AEt%20XVI/2009-06-16-Lettre-150-ans-Cure-d-Ars.txt).
+$desc$)
+) AS x(slug, locale_code, short_description, full_biography) ON x.slug = s.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+
+-- END_BIOGRAPHIES_AUGUST
+
+-- BIOGRAPHIES_SEPTEMBER
+UPDATE saint_translations AS st
+SET short_description=x.short_description, full_biography=x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-gregory-the-great','en','Gregory the Great, Roman monk and pope from 590 to 604, united biblical teaching with practical government during a period of war and insecurity. His pastoral writings, care for the poor, and support for the English mission profoundly influenced Western Christianity.',
+$desc$## A Roman formation
+
+Gregory was born at Rome about 540 into a prosperous Christian family. His father was Gordianus and his mother Silvia. His education belonged to the world of late Roman public service, and he became prefect of the city, probably in 573. Rome had already endured destructive warfare between imperial and Gothic armies. The political institutions whose traditions shaped him survived in a much weakened society. His later concern for administration was therefore not separate from his religious vocation: he understood how public responsibilities affected the daily security of ordinary people.
+
+He eventually relinquished office and wealth to become a monk. He established monasteries on family property in Sicily and converted his Roman house on the Caelian hill into the monastery of Saint Andrew. He remembered the contemplative life with affection, but his withdrawal was not permanent. Called into ecclesiastical service, he became a deacon and served as the pope's representative at Constantinople. There he combined diplomacy with the prayer and biblical study of a small monastic community. His acquaintance with Leander of Seville helped to initiate the exposition of Job subsequently known as the Moralia.
+
+## The burden of the papacy
+
+Gregory returned to Rome and the monastery before being elected to succeed Pelagius II, who died during the epidemic of 590. His consecration took place on 3 September. His own writings show how painfully he felt the loss of contemplative freedom. Later stories elaborated his reluctance into dramatic attempts to hide or escape; these details should not be treated as contemporary evidence. His resistance to ambition is better documented by his sustained reflection on the dangers of ecclesiastical authority.
+
+The circumstances of his pontificate required unusually extensive practical action. Lombard warfare threatened Rome, refugees needed assistance, and imperial protection was unreliable. Gregory employed the revenues and organizational resources of the Roman Church to distribute provisions and maintain relief. His correspondence follows the management of landed estates, especially in Sicily, down to questions of rents, measures, and the conduct of agents. He insisted that ecclesiastical property be administered justly rather than used as an excuse to exploit vulnerable tenants. Material provision belonged to the bishop's responsibilities, not merely to an optional private generosity.
+
+His dealings with secular authorities and other bishops could be forceful. He worked for peace and defended Roman ecclesiastical responsibilities while remaining within the complicated political world of the eastern empire. It would be misleading to imagine him already governing a fully developed medieval papal state. His importance lies partly in the practical adaptations made when older forms of public protection no longer adequately served the population.
+
+## A teacher of pastors
+
+The Pastoral Rule, issued near the beginning of his pontificate, examines who should accept pastoral government, how a pastor should live, and how instruction must suit different hearers. Its final warning concerns the teacher's own pride. Gregory does not reduce ministry to administrative efficiency or eloquence: the shepherd must know human weakness, attend to individual circumstances, and continually examine himself. The book became a foundational manual for bishops in the medieval West.
+
+His Moralia on Job joins biblical interpretation to a searching account of conduct, temptation, and the interior life. His homilies likewise explain Scripture to communities facing uncertainty and suffering. In these writings he reads biblical events historically, morally, and spiritually, according to the interpretive habits of the ancient Church. Their purpose is not modern critical reconstruction but the formation of Christians. His reputation as a Doctor of the Church rests on this sustained transmission of Christian teaching as well as on his government.
+
+## Mission and enduring influence
+
+Gregory supported the mission led by Augustine to the English peoples. His directions encouraged attention to local customs when they could be reconciled with Christian faith. Mission was therefore accompanied by practical discernment rather than an instruction simply to reproduce every Roman usage. The enterprise became one of the most consequential undertakings of his pontificate, linking monastic life, papal correspondence, and the emergence of new Christian communities beyond the Mediterranean.
+
+He also influenced Roman worship, although the extent of particular liturgical reforms remains debated. The later designation “Gregorian chant” must not be taken to mean that he personally composed the entire surviving repertory. Such traditions express his remembered authority more securely than they establish individual musical authorship. Gregory died on 12 March 604 after years of recurrent illness. His achievement joined contemplation, scriptural teaching, practical charity, and institutional responsibility without eliminating the tensions between them. Those tensions help explain both the difficulty of his life and the lasting interest of his writings.
+
+## Sources
+
+- [Catholic Encyclopedia, “Pope St. Gregory I”, consulted digital edition](https://github.com/gustavo-depaula/ember/blob/master/content/books/catholic-encyclopedia/en-US/06780a.md).
+- [John Paul II, message for the fourteenth centenary of Gregory, 22 October 2003, Vatican text mirror](https://github.com/lologhi/vatican/blob/master/john-paul-ii/speeches/2003/october/2003-10-25-scienze-storiche.md).$desc$),
+('saint-gregory-the-great','fr','Grégoire le Grand, moine romain et pape de 590 à 604, unit enseignement biblique et gouvernement concret dans une époque de guerre et d’insécurité. Ses écrits pastoraux, son secours aux pauvres et son soutien à la mission anglaise marquèrent profondément le christianisme occidental.',
+$desc$## Une formation romaine
+
+Grégoire naquit à Rome vers 540 dans une famille chrétienne aisée. Son père était Gordien et sa mère Sylvie. Son éducation appartenait au monde du service public romain tardif, et il devint préfet de la ville, probablement en 573. Rome avait déjà subi les guerres dévastatrices entre armées impériales et gothiques. Les institutions politiques dont les traditions l’avaient formé subsistaient dans une société très affaiblie. Son souci ultérieur de l’administration ne fut donc pas étranger à sa vocation religieuse : il comprenait combien les responsabilités publiques déterminaient la sécurité quotidienne des gens ordinaires.
+
+Il renonça finalement à sa charge et à ses richesses pour devenir moine. Il établit des monastères sur les propriétés familiales de Sicile et transforma sa maison romaine du Cælius en monastère Saint-André. Il garda un souvenir affectueux de la vie contemplative, mais son retrait ne fut pas définitif. Appelé au service ecclésiastique, il devint diacre et représentant du pape à Constantinople. Il y associait diplomatie, prière et étude biblique au sein d’une petite communauté monastique. Sa rencontre avec Léandre de Séville contribua à susciter le commentaire de Job connu ensuite sous le titre de Moralia.
+
+## Le poids du pontificat
+
+Grégoire revint à Rome et au monastère avant d’être élu pour succéder à Pélage II, mort pendant l’épidémie de 590. Sa consécration eut lieu le 3 septembre. Ses propres écrits montrent combien la perte de sa liberté contemplative lui était douloureuse. Des récits postérieurs transformèrent cette réticence en tentatives spectaculaires de fuite ou de dissimulation ; ces détails ne constituent pas des témoignages contemporains. Sa résistance à l’ambition est mieux attestée par sa réflexion constante sur les dangers de l’autorité ecclésiastique.
+
+Les circonstances de son pontificat exigeaient une action pratique exceptionnellement étendue. Les guerres lombardes menaçaient Rome, les réfugiés avaient besoin de secours et la protection impériale était incertaine. Grégoire employa les revenus et l’organisation de l’Église romaine pour distribuer des vivres et soutenir l’assistance. Sa correspondance suit la gestion des domaines, notamment siciliens, jusque dans les questions de loyers, de mesures et de conduite des agents. Il exigeait une administration juste des biens ecclésiastiques, qui ne devait pas servir de prétexte à exploiter les tenanciers vulnérables. Le secours matériel appartenait aux responsabilités de l’évêque, non à une simple générosité privée facultative.
+
+Ses relations avec les autorités civiles et les autres évêques pouvaient être fermes. Il travaillait pour la paix et défendait les responsabilités ecclésiastiques romaines dans le cadre politique complexe de l’Empire d’Orient. Il serait trompeur de le représenter gouvernant déjà un État pontifical médiéval pleinement constitué. Son importance tient en partie aux adaptations concrètes accomplies lorsque les anciennes formes de protection publique ne suffisaient plus à la population.
+
+## Un maître des pasteurs
+
+La Règle pastorale, publiée au début de son pontificat, examine qui doit accepter le gouvernement pastoral, comment doit vivre un pasteur et comment adapter l’enseignement aux différents auditeurs. Son avertissement final concerne l’orgueil du maître lui-même. Grégoire ne réduit pas le ministère à l’efficacité administrative ou à l’éloquence : le pasteur doit connaître la faiblesse humaine, considérer les situations particulières et s’examiner continuellement. Le livre devint un manuel fondamental pour les évêques de l’Occident médiéval.
+
+Les Moralia sur Job unissent l’interprétation biblique à une étude pénétrante de la conduite, de la tentation et de la vie intérieure. Ses homélies expliquent également l’Écriture à des communautés confrontées à l’incertitude et à la souffrance. Il y lit les événements bibliques dans leurs dimensions historique, morale et spirituelle, selon les habitudes interprétatives de l’Église ancienne. Leur but n’est pas une reconstruction critique moderne, mais la formation chrétienne. Sa réputation de docteur de l’Église repose autant sur cette transmission durable de l’enseignement chrétien que sur son gouvernement.
+
+## La mission et une influence durable
+
+Grégoire soutint la mission conduite par Augustin auprès des peuples anglais. Ses instructions demandaient de respecter les coutumes locales lorsqu’elles pouvaient s’accorder avec la foi chrétienne. La mission s’accompagnait donc de discernement pratique, plutôt que d’un ordre de reproduire chaque usage romain. L’entreprise fut l’une des plus importantes de son pontificat, reliant vie monastique, correspondance pontificale et naissance de communautés chrétiennes au-delà de la Méditerranée.
+
+Il influença aussi le culte romain, même si l’étendue de certaines réformes liturgiques demeure discutée. L’appellation ultérieure de « chant grégorien » ne signifie pas qu’il aurait personnellement composé tout le répertoire conservé. Ces traditions expriment plus sûrement son autorité mémorielle qu’elles n’établissent une composition musicale individuelle. Grégoire mourut le 12 mars 604 après des années de maladies récurrentes. Son œuvre associa contemplation, enseignement scripturaire, charité concrète et responsabilité institutionnelle sans supprimer leurs tensions. Celles-ci éclairent à la fois la difficulté de sa vie et l’intérêt durable de ses écrits.
+
+## Sources
+
+- [Catholic Encyclopedia, « Pope St. Gregory I », édition numérique consultée](https://github.com/gustavo-depaula/ember/blob/master/content/books/catholic-encyclopedia/en-US/06780a.md).
+- [Jean-Paul II, message pour le quatorzième centenaire de Grégoire, 22 octobre 2003, copie du texte du Vatican](https://github.com/lologhi/vatican/blob/master/john-paul-ii/speeches/2003/october/2003-10-25-scienze-storiche.md).$desc$),
+('saint-gregory-the-great','la','Gregorius Magnus, monachus Romanus et papa ab anno 590 ad 604, doctrinam biblicam cum regimine concreto inter bella et incerta tempora coniunxit. Scripta pastoralia, cura pauperum atque auxilium missioni Anglicae praestitum christianitatem occidentalem alte formarunt.',
+$desc$## Institutio Romana
+
+Gregorius Romae circa annum 540 ex familia christiana opulenta natus est. Pater eius Gordianus, mater Silvia vocabatur. Institutio eius ad officia publica recentioris imperii Romani pertinebat; praefectus urbis, probabiliter anno 573, factus est. Roma iam bella perniciosa inter exercitus imperiales et Gothicos passa erat. Instituta politica, quorum traditionibus formatus erat, in societate valde debilitata permanebant. Cura igitur administrationis posterior a vocatione religiosa non separabatur: intellegebat quantum publica officia securitatem cotidianam hominum communium afficerent.
+
+Tandem officio divitiisque relictis monachus factus est. In praediis familiaribus Siciliae monasteria condidit et domum Romanam in monte Caelio in monasterium Sancti Andreae convertit. Vitae contemplativae memoriam amanter servabat, sed secessus perpetuus non fuit. Ad ministerium ecclesiasticum vocatus diaconus factus est atque Constantinopoli legatus pontificius. Ibi negotia diplomatica cum oratione et studio biblico parvae communitatis monasticae coniunxit. Familiaritas cum Leandro Hispalensi expositionem Iob excitavit, quae postea Moralia appellata est.
+
+## Onus pontificatus
+
+Gregorius Romam atque ad monasterium rediit antequam Pelagio II, in pestilentia anni 590 mortuo, successor eligeretur. Die 3 Septembris consecratus est. Scripta ipsius ostendunt quam aegre libertatem contemplationis amisisset. Narrationes posteriores hanc recusationem in mirabiles conatus fugae vel latebrarum auxerunt; talia pro testimoniis coaetaneis habenda non sunt. Repugnantia ambitioni certius comprobatur assidua eius meditatione de periculis auctoritatis ecclesiasticae.
+
+Condiciones pontificatus actionem practicam singulariter amplam postulabant. Bella Langobardorum Romae imminebant, profugi auxilio indigebant, praesidium imperiale incertum erat. Gregorius reditibus et ordinatis opibus Ecclesiae Romanae ad commeatum distribuendum et subsidia sustentanda usus est. Epistulae administrationem praediorum, praesertim in Sicilia, usque ad pensiones, mensuras et mores procuratorum persequuntur. Bona ecclesiastica iuste administranda esse instabat, neque occasionem opprimendi colonos infirmiores praebere debere. Corporalibus necessitatibus providere ad munus episcopi pertinebat, non tantum ad privatam liberalitatem voluntariam.
+
+Cum magistratibus saecularibus et aliis episcopis interdum severe agebat. Pacem quaerebat et officia ecclesiastica Romana defendebat intra implicatum ordinem politicum imperii orientalis. Fallax esset eum iam statui pontificio mediaevali perfecte constituto praeesse fingere. Momentum eius partim in aptationibus practicis consistit, quibus opus erat ubi antiquae publicae tutelae formae populo satis non providebant.
+
+## Magister pastorum
+
+Regula pastoralis, ineunte pontificatu edita, quaerit quis regimen pastorale suscipere debeat, quomodo pastor vivere debeat, et quomodo doctrina diversis auditoribus aptanda sit. Ultima admonitio superbiam ipsius doctoris respicit. Gregorius ministerium ad efficacitatem administrativam aut eloquentiam non redigit: pastor infirmitatem humanam cognoscere, condiciones singulorum attendere et se ipsum continenter examinare debet. Liber fundamentale manuale episcoporum in Occidente mediaevali factus est.
+
+Moralia in Iob interpretationem biblicam cum diligenti consideratione morum, temptationis et vitae interioris coniungunt. Homiliae quoque Scripturam communitatibus inter incerta et dolores versantibus exponunt. In his scriptis eventus biblicos historice, moraliter et spiritualiter legit, secundum consuetudines interpretandi Ecclesiae antiquae. Propositum non est hodierna restitutio critica, sed formatio christianorum. Fama eius ut Doctoris Ecclesiae hac perseveranti traditione doctrinae christianae, non minus quam regimine, nititur.
+
+## Missio et vis permanens
+
+Gregorius missionem ab Augustino ad gentes Anglorum ductam sustinuit. Praecepta eius consuetudines locales attendendas suadebant, quando cum fide christiana componi possent. Missio igitur discretione practica comitabatur, non mandato omnes usus Romanos simpliciter reproducendi. Inter maximi momenti opera pontificatus numeratur, vitam monasticam, epistulas pontificias et ortum novarum communitatum christianarum ultra mare Mediterraneum coniungens.
+
+Cultum Romanum quoque formavit, quamquam ambitus singularum reformationum liturgicarum disputatur. Nomen posterius « cantus Gregoriani » non significat eum totum repertorium servatum personaliter composuisse. Tales traditiones auctoritatem eius memoria conservatam certius exprimunt quam singularem compositionem musicam demonstrant. Gregorius die 12 Martii 604 mortuus est, post annos morbis recurrentibus gravatos. Eius opus contemplationem, doctrinam scripturariam, caritatem concretam et responsabilitatem institutorum coniunxit, neque tamen contentiones inter ea sustulit. Hae contentiones tum difficultatem vitae tum perenne scriptorum studium explicant.
+
+## Fontes
+
+- [Catholic Encyclopedia, « Pope St. Gregory I », editio digitalis consulta](https://github.com/gustavo-depaula/ember/blob/master/content/books/catholic-encyclopedia/en-US/06780a.md).
+- [Ioannes Paulus II, nuntius de quarto decimo centenario Gregorii, 22 Octobris 2003, exemplar textus Vaticani](https://github.com/lologhi/vatican/blob/master/john-paul-ii/speeches/2003/october/2003-10-25-scienze-storiche.md).$desc$),
+('saint-peter-claver','en','Peter Claver was a Catalan Jesuit who ministered to enslaved Africans arriving at Cartagena in the seventeenth century. His sustained work of relief, religious instruction, and personal advocacy confronted their abandonment within a society enriched by the Atlantic slave trade.',
+$desc$## From Catalonia to Cartagena
+
+Peter Claver was born at Verdú in Catalonia in 1581, the son of a farming family. After studies in Barcelona, he entered the Society of Jesus at Tarragona around the age of twenty. During his philosophical formation in Majorca he became acquainted with the Jesuit brother Alphonsus Rodriguez. Later accounts describe Rodriguez as an important influence upon his missionary vocation. Their language sometimes attributes supernatural knowledge to Rodriguez; the historically central point is the encouragement Claver received to undertake service overseas.
+
+Claver reached Cartagena in 1610 and would spend the remainder of his life in Spanish America. The Caribbean port was a major point of arrival and sale for Africans transported by force across the Atlantic. The people he encountered had endured captivity, overcrowding, disease, hunger, and terrifying uncertainty. Their treatment cannot be explained as an unfortunate background to an otherwise neutral commercial system: human beings themselves were being bought and sold. Claver's work took place inside that system, which he could relieve in particular instances but did not dismantle.
+
+## A ministry among enslaved people
+
+The Jesuit Alonso de Sandoval helped form Claver's approach to ministry. When ships arrived, Claver sought out their passengers with food, practical supplies, and assistance for the sick. He entered spaces that others avoided and attended people whose bodies bore the consequences of the crossing. His activity began with immediate needs, not solely with formal instruction. Pope Francis, speaking at Cartagena in 2017, emphasized the importance of gestures of kindness when a common spoken language was unavailable.
+
+Language remained a major practical difficulty. Africans arriving at the port did not constitute a single linguistic community. Claver therefore relied on interpreters and catechists drawn from different backgrounds. Through them he offered Christian instruction and prepared people for baptism. Older biographies give extraordinarily large totals for those instructed or baptized. Such figures communicate the scale of his remembered ministry but should not be treated as precise statistical records. The reliable outline is one of sustained activity over decades rather than an independently verifiable numerical achievement.
+
+Claver's concern did not stop at the moment of arrival. He gathered enslaved Christians for instruction and worship, inquired into their circumstances, and intervened with those exercising power over them. His profession of being their servant expressed a deliberate reversal of the social hierarchy surrounding him. It did not mean that the institution of slavery had ceased to operate or that baptism brought civil freedom. Religious recognition and material assistance could be significant without removing the coercion under which his hearers continued to live.
+
+## Opposition and historical limits
+
+This ministry exposed the contradictions of a colonial Christian society. Claver faced criticism from merchants and others who regarded his attention to enslaved people as disruptive or excessive. Accounts also record objections to sharing churches with the Africans he gathered. Such hostility demonstrates that his work challenged actual habits of exclusion, not merely an abstract lack of generosity. Francis recalled both persistent opposition and accusations that Claver's zeal was indiscreet.
+
+At the same time, a responsible biography must distinguish personal service from a modern programme of political abolition. The consulted sources establish courageous care and advocacy; they do not establish that Claver secured abolition or transformed the legal foundations of colonial slavery. The older Catholic Encyclopedia itself acknowledges that missionaries failed to suppress the trade. Its language about African peoples also reflects the prejudices of its own period. Those expressions need not be repeated to retain the information it preserves about Claver's formation and practical methods.
+
+## Illness, death, and remembrance
+
+Claver's final years differed sharply from the public honor later given to him. Francis describes four years of illness and painful neglect, during which the man who had accompanied so many abandoned people himself experienced abandonment. He died at Cartagena on 8 September 1654. His long residence there connected a European religious vocation with the realities of an American port and the forced displacement of African communities.
+
+He was beatified in 1850 and canonized by Leo XIII in 1888, together with Alphonsus Rodriguez. The Church remembers him for making sustained personal service the concrete expression of religious commitment. His history also demands remembrance of the enslaved people whose suffering made that service necessary, rather than allowing the missionary alone to occupy the narrative. Read in that way, his life witnesses both to the possibilities of human solidarity and to the limits of individual charity within an enduring structure of exploitation. These two aspects belong together in any serious account of his achievement.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. Peter Claver”, consulted digital edition](https://github.com/gustavo-depaula/ember/blob/master/content/books/catholic-encyclopedia/en-US/11763a.md).
+- [Francis, Angelus at Cartagena, 10 September 2017, Vatican text mirror](https://github.com/lologhi/vatican/blob/master/francesco/angelus/2017/2017-09-10.md).$desc$),
+('saint-peter-claver','fr','Pierre Claver, jésuite catalan, se consacra aux Africains réduits en esclavage qui arrivaient à Carthagène au XVIIe siècle. Son œuvre durable de secours, d’instruction religieuse et de défense personnelle affronta leur abandon dans une société enrichie par la traite atlantique.',
+$desc$## De la Catalogne à Carthagène
+
+Pierre Claver naquit à Verdú, en Catalogne, en 1581, dans une famille d’agriculteurs. Après des études à Barcelone, il entra dans la Compagnie de Jésus à Tarragone vers l’âge de vingt ans. Pendant sa formation philosophique à Majorque, il connut le frère jésuite Alphonse Rodriguez. Des récits ultérieurs présentent celui-ci comme une influence importante sur sa vocation missionnaire. Leur langage lui attribue parfois une connaissance surnaturelle ; l’élément historiquement essentiel est l’encouragement reçu par Claver à entreprendre un service outre-mer.
+
+Claver atteignit Carthagène en 1610 et passa le reste de sa vie dans l’Amérique espagnole. Ce port des Caraïbes était un lieu majeur d’arrivée et de vente des Africains transportés de force à travers l’Atlantique. Les personnes rencontrées avaient subi captivité, entassement, maladie, faim et angoissante incertitude. Leur traitement ne saurait être présenté comme un regrettable arrière-plan d’un commerce autrement neutre : des êtres humains étaient eux-mêmes achetés et vendus. Claver travaillait à l’intérieur de ce système, dont il pouvait soulager certaines victimes sans le démanteler.
+
+## Un ministère auprès des personnes asservies
+
+Le jésuite Alonso de Sandoval contribua à former son approche du ministère. À l’arrivée des navires, Claver recherchait leurs passagers avec de la nourriture, des fournitures et des secours pour les malades. Il pénétrait dans des lieux évités par d’autres et soignait ceux dont les corps portaient les conséquences de la traversée. Son activité commençait par les besoins immédiats, non par la seule instruction formelle. Parlant à Carthagène en 2017, le pape François souligna l’importance des gestes de bonté en l’absence d’une langue commune.
+
+La langue demeurait une difficulté pratique majeure. Les Africains arrivant au port ne formaient pas une communauté linguistique unique. Claver recourait donc à des interprètes et à des catéchistes de diverses origines. Par leur intermédiaire, il proposait l’enseignement chrétien et préparait au baptême. Les biographies anciennes donnent des nombres extraordinairement élevés de personnes instruites ou baptisées. Ces chiffres expriment l’ampleur du ministère conservé dans la mémoire, mais ne constituent pas des statistiques précises. Le cadre assuré est celui d’une activité poursuivie pendant des décennies, plutôt que d’un résultat numérique vérifiable indépendamment.
+
+Son attention ne s’arrêtait pas à l’arrivée. Il réunissait les chrétiens asservis pour l’enseignement et le culte, s’informait de leur situation et intervenait auprès de ceux qui détenaient pouvoir sur eux. Se déclarer leur serviteur exprimait un renversement volontaire de la hiérarchie sociale environnante. Cela ne signifiait ni la disparition de l’esclavage ni l’octroi de la liberté civile par le baptême. Reconnaissance religieuse et aide matérielle pouvaient compter beaucoup sans supprimer la contrainte sous laquelle ses auditeurs continuaient de vivre.
+
+## Opposition et limites historiques
+
+Ce ministère révélait les contradictions d’une société coloniale chrétienne. Claver subissait les critiques de marchands et d’autres personnes jugeant excessive ou perturbatrice son attention aux esclaves. Des récits signalent aussi le refus de partager les églises avec les Africains qu’il rassemblait. Cette hostilité montre que son œuvre contestait des pratiques réelles d’exclusion, et non simplement un manque abstrait de générosité. François rappela l’opposition persistante et les accusations de zèle indiscret.
+
+Une biographie responsable doit néanmoins distinguer le service personnel d’un programme moderne d’abolition politique. Les sources consultées attestent secours courageux et défense ; elles n’établissent pas que Claver ait obtenu l’abolition ou transformé les fondements juridiques de l’esclavage colonial. L’ancienne Catholic Encyclopedia reconnaît elle-même l’échec des missionnaires à supprimer la traite. Son vocabulaire concernant les peuples africains reflète également les préjugés de son époque. Il n’est pas nécessaire de le reprendre pour conserver les informations transmises sur la formation et les méthodes pratiques de Claver.
+
+## Maladie, mort et mémoire
+
+Ses dernières années contrastèrent fortement avec les honneurs publics ultérieurs. François décrit quatre années de maladie et de douloureux délaissement, pendant lesquelles celui qui avait accompagné tant d’abandonnés connut lui-même l’abandon. Il mourut à Carthagène le 8 septembre 1654. Son long séjour reliait une vocation religieuse européenne aux réalités d’un port américain et au déplacement forcé de communautés africaines.
+
+Il fut béatifié en 1850 et canonisé par Léon XIII en 1888 avec Alphonse Rodriguez. L’Église le commémore pour avoir fait d’un service personnel durable l’expression concrète de son engagement religieux. Son histoire exige aussi de rappeler les personnes asservies dont la souffrance rendait ce service nécessaire, plutôt que de laisser le missionnaire occuper seul le récit. Ainsi comprise, sa vie témoigne des possibilités de la solidarité humaine et des limites de la charité individuelle dans une structure persistante d’exploitation. Ces deux dimensions appartiennent ensemble à toute appréciation sérieuse de son œuvre.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. Peter Claver », édition numérique consultée](https://github.com/gustavo-depaula/ember/blob/master/content/books/catholic-encyclopedia/en-US/11763a.md).
+- [François, Angélus à Carthagène, 10 septembre 2017, copie du texte du Vatican](https://github.com/lologhi/vatican/blob/master/francesco/angelus/2017/2017-09-10.md).$desc$),
+('saint-peter-claver','la','Petrus Claver, Iesuita Catalanus, Africanis in servitutem redactis Carthaginem saeculo septimo decimo advenientibus ministravit. Assiduis subsidiis, institutione religiosa et defensione personali derelictioni eorum occurrit in societate quae commercio servorum Atlantico ditabatur.',
+$desc$## E Catalonia Carthaginem
+
+Petrus Claver Verdu in Catalonia anno 1581 ex familia agricolarum natus est. Studiis Barcinone peractis, Societatem Iesu Tarracone circa vicesimum aetatis annum ingressus est. Dum philosophiam in Maiorica discebat, fratrem Iesuitam Alphonsum Rodriguez cognovit. Narrationes posteriores eum magni momenti auctorem vocationis missionariae exhibent. Earum sermo interdum scientiam supernaturalem Alphonso tribuit; res historice praecipua est incitamentum quod Claver ad ministerium transmarinum suscipiendum accepit.
+
+Claver Carthaginem anno 1610 pervenit et reliquam vitam in America Hispanica egit. Portus ille maris Caribici praecipuus locus erat adventus et venditionis Africanorum per Atlanticum vi transportatorum. Homines quos conveniebat captivitatem, nimiam multitudinem, morbos, famem et terribilem incertitudinem passi erant. Eorum tractatio non ut infelix circumstantia systematis commercialis alioqui neutri explicanda est: ipsi homines emebantur et vendebantur. Claver intra hoc systema operabatur; singulis casibus miseriam levare poterat, ipsum autem non dissolvit.
+
+## Ministerium inter servos
+
+Iesuita Alfonsus de Sandoval rationem ministerii Claver formare adiuvit. Advenientibus navibus, vectos cum cibis, rebus necessariis et auxiliis aegrotis quaerebat. Loca ab aliis vitata ingrediebatur et corporibus ex transitu vulneratis ministrabat. Opera eius a necessitatibus praesentibus incipiebant, non tantum a formali institutione. Franciscus papa Carthagine anno 2017 loquens momentum gestuum benignitatis, ubi communis lingua deerat, extulit.
+
+Lingua magna difficultas practica manebat. Africani ad portum advenientes unam communitatem linguisticam non constituebant. Claver igitur interpretibus et catechistis diversarum originum utebatur. Per eos doctrinam christianam proponebat et homines ad baptismum parabat. Vitae antiquiores numeros baptizatorum vel instructorum ingentissimos afferunt. Tales numeri amplitudinem ministerii memoria servati exprimunt, sed pro accuratis rationibus statisticis habendi non sunt. Certa imago est laboris per decennia continuati, non effectus numerici independenter comprobati.
+
+Cura Claver tempore adventus non finiebatur. Christianos servituti subiectos ad doctrinam et cultum congregabat, de condicionibus eorum quaerebat et apud dominos interveniebat. Professio qua se eorum servum dicebat deliberatam inversionem ordinis socialis exprimebat. Non significabat servitutem cessavisse neque baptismum libertatem civilem attulisse. Agnitio religiosa et auxilium materiale magni momenti esse poterant, quamvis coactionem sub qua auditores vivebant non tollerent.
+
+## Oppositiones et limites historici
+
+Hoc ministerium contradictiones societatis christianae colonialis manifestabat. Claver reprehensiones mercatorum aliorumque patiebatur, quibus eius cura servorum perturbatrix aut nimia videbatur. Narrationes etiam recusationes communicandi ecclesias cum Africanis ab eo congregatis commemorant. Talis inimicitia ostendit opera eius veris exclusionis moribus restitisse, non tantum abstractae liberalitatis absentiae. Franciscus oppositionem perseverantem et accusationes zeli indiscreti recordatus est.
+
+Attamen vita diligenter narrata ministerium personale a moderno consilio abolitionis politicae distinguere debet. Fontes consulti curam fortem et defensionem demonstrant; non probant Claver abolitionem obtinuisse aut fundamenta iuridica servitutis colonialis mutavisse. Ipsa vetus Catholic Encyclopedia agnoscit missionarios commercium supprimere non potuisse. Eius vocabula de populis Africanis praeiudicia quoque propriae aetatis reddunt. Haec repetere non oportet, ut notitiae de institutione Claver et rationibus practicis conserventur.
+
+## Morbus, mors et memoria
+
+Ultimi anni Claver ab honoribus publicis postea tributis valde differebant. Franciscus quattuor annos morbi et dolorosae neglegentiae describit, quibus is qui tot derelictos comitatus erat ipse derelictionem expertus est. Carthagine die 8 Septembris 1654 mortuus est. Longa ibi commoratio vocationem religiosam Europaeam cum rebus portus Americani et coacta migratione communitatum Africanarum coniunxit.
+
+Anno 1850 beatificatus et anno 1888 a Leone XIII una cum Alphonso Rodriguez canonizatus est. Ecclesia eum commemorat quod assiduum ministerium personale concretam dedicationis religiosae expressionem fecit. Historia eius memoriam quoque servorum postulat, quorum dolor hoc ministerium necessarium reddidit, ne solus missionarius narrationem occupet. Sic intellecta, vita eius tum facultates solidarietatis humanae tum limites caritatis individualis intra permanentem structuram exploitationis testatur. Uterque aspectus ad seriam aestimationem operis eius pertinet.
+
+## Fontes
+
+- [Catholic Encyclopedia, « St. Peter Claver », editio digitalis consulta](https://github.com/gustavo-depaula/ember/blob/master/content/books/catholic-encyclopedia/en-US/11763a.md).
+- [Franciscus, Angelus Carthagine, 10 Septembris 2017, exemplar textus Vaticani](https://github.com/lologhi/vatican/blob/master/francesco/angelus/2017/2017-09-10.md).$desc$)
+) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
+WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
+UPDATE saint_translations AS st
+SET short_description=x.short_description, full_biography=x.full_biography
+FROM saints AS s JOIN (VALUES
+('saint-teresa-of-calcutta','en','Teresa of Calcutta, born Anjezë Gonxhe Bojaxhiu, founded the Missionaries of Charity to serve people experiencing extreme poverty and abandonment. Her worldwide public influence coexisted with a demanding life of prayer and prolonged interior spiritual darkness.',
+$desc$## Formation and religious profession
+
+Teresa of Calcutta was born Anjezë Gonxhe Bojaxhiu on 26 August 1910 at Skopje, then within the Ottoman Empire, into an Albanian Catholic family. Baptized the following day, she later gave particular importance to that sacramental beginning. Her father died during her childhood. Her religious formation took place within her family and parish, and reports about missionary activity in Bengal helped direct her interest toward a life of service abroad. Her origins should not be simplified into the national boundaries that developed after her birth.
+
+In 1928 she left home to join the Sisters of Loreto, first going to Ireland to learn English. She arrived in India in 1929 and entered the novitiate at Darjeeling. Taking the religious name Teresa in reference to Thérèse of Lisieux, she made her first vows in 1931 and her final profession in 1937. She taught at the Loreto school in Calcutta and eventually became its headmistress. This period of education, community life, and disciplined religious practice preceded her better-known work among the urban poor.
+
+## A new form of service
+
+On 10 September 1946, during a train journey to Darjeeling, she experienced what she described as a further call within her existing vocation: to live among and serve the poorest people. This was her own religious interpretation of an interior experience, not an independently observable event. After obtaining the necessary permission, she began work outside Loreto in 1948. Basic medical training at Patna helped prepare her for some of the immediate needs she would encounter.
+
+The Missionaries of Charity received diocesan recognition in 1950. The congregation combined the traditional religious vows with a commitment to free and wholehearted service of the poorest. Its early work included teaching, assistance to families, and care for people abandoned in the streets. In 1952 Teresa opened a home for the dying at Kalighat with the assistance of local authorities. Other undertakings included homes for children and services for people affected by leprosy. These institutions addressed circumstances in which isolation could intensify illness, hunger, and physical suffering.
+
+The congregation expanded across India and subsequently abroad, opening a house in Venezuela in 1965. Brothers, contemplative communities, priests, and lay collaborators became associated with the wider movement. Expansion required organization, recruitment, and sustained support, not simply the personal activity of one conspicuous founder. Teresa became its international representative, but the daily labor of sisters and collaborators was essential to the continuity of its institutions.
+
+## Prayer and interior trial
+
+Teresa understood this service through the Gospel identification of Christ with the hungry, sick, imprisoned, and neglected. John Paul II's beatification homily explained that the cry of Jesus' thirst became central to her spiritual outlook. Prayer and Eucharistic worship were therefore not incidental additions to social assistance. They supplied the religious interpretation through which she understood both the people she served and the demands made upon her community.
+
+The same homily openly acknowledged her prolonged interior darkness. The public image of religious certainty concealed periods in which she experienced an acute absence of spiritual consolation. Catholic interpretation associates this suffering with her identification with abandoned people and with the crucified Christ. A biography should neither suppress this difficulty nor turn it into proof that her entire religious life was insincere. Her continued commitment amid that trial forms an important part of the surviving account of her vocation.
+
+## Public recognition and contested reception
+
+The Nobel Peace Prize in 1979 made her already prominent work still more visible. She also spoke publicly against abortion, a position explicitly recalled by John Paul II. Her international standing brought admiration across religious boundaries, but it did not remove controversy. Critics questioned standards of medical care and pain relief in her homes. These criticisms belong to the history of her reception; recognition of her charitable purpose does not by itself settle every question about institutional practice.
+
+After years of declining health, Teresa relinquished leadership of the congregation in 1997 and died at Calcutta on 5 September. India honored her with a state funeral. John Paul II beatified her on 19 October 2003, and Francis canonized her on 4 September 2016. At the canonization Francis emphasized service offered without discrimination of religion, language, or background. Her lasting significance lies in the religious communities she established, the public attention she drew to people considered unwanted, and the complex conjunction of visible charitable action with hidden spiritual struggle.
+
+## Sources
+
+- [Wikipedia, “Mother Teresa”, retrieved text mirror](https://github.com/Mohnish27-dev/Indigenous_Culture_Chatbot_Community/blob/main/data/Mother_Teresa.txt).
+- [John Paul II, beatification homily, 19 October 2003, Vatican text mirror](https://github.com/lologhi/vatican/blob/master/john-paul-ii/homilies/2003/2003-10-19-mother-theresa.md).
+- [Francis, canonization homily, 4 September 2016, Vatican text mirror](https://github.com/lologhi/vatican/blob/master/francesco/homilies/2016/2016-09-04-omelia-canonizzazione-madre-teresa.md).$desc$),
+('saint-teresa-of-calcutta','fr','Teresa de Calcutta, née Anjezë Gonxhe Bojaxhiu, fonda les Missionnaires de la Charité pour servir les personnes plongées dans l’extrême pauvreté et l’abandon. Son influence publique mondiale coexistait avec une vie exigeante de prière et une obscurité spirituelle intérieure prolongée.',
+$desc$## Formation et profession religieuse
+
+Teresa de Calcutta naquit Anjezë Gonxhe Bojaxhiu le 26 août 1910 à Skopje, alors dans l’Empire ottoman, au sein d’une famille catholique albanaise. Baptisée le lendemain, elle accorda ensuite une importance particulière à ce commencement sacramentel. Son père mourut pendant son enfance. Sa formation religieuse se développa dans sa famille et sa paroisse, tandis que les nouvelles de l’activité missionnaire au Bengale orientaient son intérêt vers une vie de service à l’étranger. Ses origines ne doivent pas être simplifiées selon les frontières nationales établies après sa naissance.
+
+En 1928 elle quitta sa famille pour rejoindre les sœurs de Lorette, passant d’abord par l’Irlande pour apprendre l’anglais. Arrivée en Inde en 1929, elle entra au noviciat à Darjeeling. Adoptant le nom religieux de Teresa en référence à Thérèse de Lisieux, elle prononça ses premiers vœux en 1931 et sa profession définitive en 1937. Elle enseigna à l’école de Lorette de Calcutta, dont elle devint ensuite directrice. Cette période d’éducation, de vie communautaire et de pratique religieuse disciplinée précéda son œuvre plus connue auprès des pauvres des villes.
+
+## Une nouvelle forme de service
+
+Le 10 septembre 1946, pendant un voyage ferroviaire vers Darjeeling, elle éprouva ce qu’elle décrivit comme un nouvel appel à l’intérieur de sa vocation : vivre parmi les plus pauvres et les servir. C’était son interprétation religieuse d’une expérience intérieure, non un événement observable indépendamment. Après avoir obtenu l’autorisation nécessaire, elle commença son travail hors de Lorette en 1948. Une formation médicale élémentaire à Patna la prépara à certains besoins immédiats qu’elle rencontrerait.
+
+Les Missionnaires de la Charité reçurent leur reconnaissance diocésaine en 1950. La congrégation associait aux vœux religieux traditionnels l’engagement d’un service gratuit et sans réserve des plus pauvres. Ses premières activités comprenaient enseignement, aide aux familles et soins aux personnes abandonnées dans la rue. En 1952 Teresa ouvrit à Kalighat une maison pour les mourants avec l’aide des autorités locales. D’autres œuvres accueillirent des enfants et assistèrent les personnes atteintes de lèpre. Ces institutions répondaient à des situations où l’isolement aggravait maladie, faim et souffrance physique.
+
+La congrégation se développa en Inde puis à l’étranger, ouvrant une maison au Venezuela en 1965. Des frères, des communautés contemplatives, des prêtres et des collaborateurs laïcs furent associés au mouvement élargi. Cette expansion exigeait organisation, recrutement et soutien durable, non la seule activité personnelle d’une fondatrice très visible. Teresa en devint la représentante internationale, mais le travail quotidien des sœurs et des collaborateurs était essentiel à la continuité des institutions.
+
+## Prière et épreuve intérieure
+
+Teresa comprenait ce service à travers l’identification évangélique du Christ aux affamés, malades, prisonniers et délaissés. L’homélie de béatification de Jean-Paul II expliquait que le cri de soif de Jésus était devenu central dans sa spiritualité. Prière et culte eucharistique n’étaient donc pas des compléments accessoires de l’assistance sociale. Ils fournissaient l’interprétation religieuse par laquelle elle comprenait les personnes servies et les exigences imposées à sa communauté.
+
+La même homélie reconnaissait ouvertement son obscurité intérieure prolongée. L’image publique de certitude religieuse cachait des périodes où elle éprouvait une absence aiguë de consolation spirituelle. L’interprétation catholique associe cette souffrance à son identification aux abandonnés et au Christ crucifié. Une biographie ne doit ni effacer cette difficulté ni la transformer en preuve que toute sa vie religieuse aurait été insincère. Sa fidélité maintenue au milieu de cette épreuve constitue une part importante du récit conservé de sa vocation.
+
+## Reconnaissance publique et réception discutée
+
+Le prix Nobel de la paix de 1979 rendit son œuvre déjà célèbre encore plus visible. Elle s’exprima aussi publiquement contre l’avortement, position explicitement rappelée par Jean-Paul II. Son prestige international suscita l’admiration au-delà des frontières religieuses, sans supprimer la controverse. Des critiques interrogèrent la qualité des soins médicaux et du soulagement de la douleur dans ses maisons. Ces critiques appartiennent à l’histoire de sa réception ; reconnaître son intention charitable ne résout pas en soi toutes les questions de pratique institutionnelle.
+
+Après des années de santé déclinante, Teresa quitta la direction de la congrégation en 1997 et mourut à Calcutta le 5 septembre. L’Inde lui accorda des funérailles nationales. Jean-Paul II la béatifia le 19 octobre 2003 et François la canonisa le 4 septembre 2016. Lors de la canonisation, François souligna le service offert sans distinction de religion, de langue ou d’origine. Son importance durable réside dans les communautés religieuses fondées, l’attention publique attirée sur les personnes jugées indésirables et l’union complexe d’une action charitable visible avec une lutte spirituelle cachée.
+
+## Sources
+
+- [Wikipédia, « Mother Teresa », copie textuelle consultée](https://github.com/Mohnish27-dev/Indigenous_Culture_Chatbot_Community/blob/main/data/Mother_Teresa.txt).
+- [Jean-Paul II, homélie de béatification, 19 octobre 2003, copie du texte du Vatican](https://github.com/lologhi/vatican/blob/master/john-paul-ii/homilies/2003/2003-10-19-mother-theresa.md).
+- [François, homélie de canonisation, 4 septembre 2016, copie du texte du Vatican](https://github.com/lologhi/vatican/blob/master/francesco/homilies/2016/2016-09-04-omelia-canonizzazione-madre-teresa.md).$desc$),
+('saint-teresa-of-calcutta','la','Teresia Calcuttensis, nata Anjezë Gonxhe Bojaxhiu, Missionarias Caritatis condidit ad homines extrema paupertate et derelictione afflictos ministrandos. Auctoritas eius publica per orbem diffusa cum exigenti vita orationis atque diuturna obscuritate spirituali interiore coniuncta erat.',
+$desc$## Institutio et professio religiosa
+
+Teresia Calcuttensis, nomine Anjezë Gonxhe Bojaxhiu, die 26 Augusti 1910 Scupis, tunc intra imperium Ottomanicum, ex familia catholica Albanensi nata est. Postridie baptizata, huic initio sacramentali postea singulare momentum tribuit. Pater eius durante pueritia mortuus est. Institutio religiosa intra familiam et paroeciam crevit, atque nuntii de missionibus Bengalensibus studium eius ad vitam ministerii peregre dirigebant. Origines eius secundum fines nationales post nativitatem constitutos simpliciter describendae non sunt.
+
+Anno 1928 domum reliquit ut Sororibus Lauretanis se adiungeret, primum in Hiberniam profecta ad linguam Anglicam discendam. Anno 1929 in Indiam venit et novitiatum Darjeeling ingressa est. Nomine religioso Teresiae ad memoriam Teresiae Lexoviensis accepto, prima vota anno 1931 et professionem definitivam anno 1937 emisit. In schola Lauretana Calcuttensi docebat atque tandem eius moderatrix facta est. Hoc tempus educationis, vitae communitariae et disciplinae religiosae praecessit notius opus inter pauperes urbanos.
+
+## Nova ministerii forma
+
+Die 10 Septembris 1946, dum tramine Darjeeling iter faciebat, id experta est quod ulteriorem vocationem intra vocationem suam descripsit: inter pauperrimos vivere eisque servire. Haec fuit interpretatio religiosa experientiae interioris ab ipsa data, non eventus independenter observabilis. Debita licentia obtenta, anno 1948 extra communitatem Lauretanam operari coepit. Institutio medica elementaria Patnae eam ad quasdam necessitates praesentes praeparavit.
+
+Missionariae Caritatis anno 1950 recognitionem dioecesanam acceperunt. Congregatio votis religiosis traditis propositum ministerii gratuiti et integri pauperrimis coniunxit. Opera prima doctrinam, subsidia familiis et curam derelictorum in viis complectebantur. Anno 1952 Teresia domum morientibus Kalighat auxilio magistratuum localium aperuit. Alia opera domos puerorum et subsidia lepra affectis comprehendebant. Haec instituta condicionibus occurrebant in quibus solitudo morbum, famem et dolorem corporalem augebat.
+
+Congregatio per Indiam ac deinde peregre crevit, domo in Venetiola anno 1965 aperta. Fratres, communitates contemplativae, sacerdotes et cooperatores laici ampliori motui adiuncti sunt. Incrementum ordinationem, novos sodales et firmum auxilium postulabat, non solam actionem unius conditricis conspicuae. Teresia eius repraesentatrix internationalis facta est, sed labor cotidianus sororum et cooperatorum continuitati institutorum necessarius erat.
+
+## Oratio et probatio interior
+
+Teresia hoc ministerium secundum Evangelium intellexit, in quo Christus cum esurientibus, aegrotis, captivis et neglectis identificatur. Ioannis Pauli II homilia beatificationis explicavit clamorem sitis Iesu medium spiritualitatis eius factum esse. Oratio igitur et cultus eucharisticus non fortuita supplementa auxilii socialis erant. Interpretationem religiosam praebebant qua et homines quibus ministrabat et onera communitati imposita intellegebat.
+
+Eadem homilia diuturnam obscuritatem interiorem palam agnovit. Publica imago certitudinis religiosae tempora occultabat quibus acutam absentiam consolationis spiritualis experiebatur. Interpretatio catholica hanc passionem cum conformatione ad derelictos et Christum crucifixum coniungit. Narratio vitae neque hanc difficultatem supprimere neque in argumentum totius vitae religiosae insincerae convertere debet. Perseverans eius fidelitas inter talem probationem pars magni momenti testimonii de vocatione servati est.
+
+## Agnitio publica et aestimatio controversa
+
+Praemium Nobelianum pacis anno 1979 opus iam clarum manifestius fecit. Publice etiam contra abortum locuta est, quod Ioannes Paulus II expresse commemoravit. Auctoritas internationalis admirationem ultra fines religiosos attulit, controversiam autem non sustulit. Reprehensores normas curationis medicae et levationis doloris in domibus eius interrogaverunt. Hae reprehensiones ad historiam receptionis pertinent; agnitio finis caritativi non per se omnes quaestiones de usu institutorum solvit.
+
+Post annos valetudinis deficientis, Teresia regimen congregationis anno 1997 reliquit et Calcuttae die 5 Septembris mortua est. India funere publico eam honoravit. Ioannes Paulus II die 19 Octobris 2003 beatificavit, Franciscus die 4 Septembris 2016 canonizavit. In canonizatione Franciscus ministerium sine discrimine religionis, linguae aut originis oblatum extulit. Momentum eius permanens in communitatibus religiosis conditis, in attentione publica ad homines invitos habitos directa et in complexa coniunctione actionis caritativae visibilis cum pugna spirituali abscondita consistit.
+
+## Fontes
+
+- [Wikipedia, « Mother Teresa », exemplar textuale consultum](https://github.com/Mohnish27-dev/Indigenous_Culture_Chatbot_Community/blob/main/data/Mother_Teresa.txt).
+- [Ioannes Paulus II, homilia beatificationis, 19 Octobris 2003, exemplar textus Vaticani](https://github.com/lologhi/vatican/blob/master/john-paul-ii/homilies/2003/2003-10-19-mother-theresa.md).
+- [Franciscus, homilia canonizationis, 4 Septembris 2016, exemplar textus Vaticani](https://github.com/lologhi/vatican/blob/master/francesco/homilies/2016/2016-09-04-omelia-canonizzazione-madre-teresa.md).$desc$),
+('saint-john-chrysostom','en','John Chrysostom, priest of Antioch and bishop of Constantinople, made biblical preaching central to pastoral life. His demands for moral reform and care for the poor provoked resistance; he died in exile, leaving an extensive and influential body of sermons and letters.',
+$desc$## Education and ascetic formation
+
+John was born at Antioch around 349. His father died while he was young, and his mother Anthusa played an important role in his upbringing. He received a thorough Greek education, including rhetoric under the celebrated pagan teacher Libanius. The later name Chrysostom, meaning “golden-mouthed,” recalls his exceptional reputation as a speaker. That reputation rested not only on technical skill but also on his ability to bring biblical teaching into direct contact with the habits and anxieties of urban hearers.
+
+Under Bishop Meletius he entered the life of the Church, and Diodore of Tarsus introduced him to the historical and literary approach to Scripture associated with Antioch. John subsequently spent several years in ascetic withdrawal, including a period of severe solitude. Illness eventually obliged him to return to the city. This experience did not simply end his vocation: the intensive biblical study of his withdrawal helped prepare him for the pastoral ministry that followed.
+
+## Preaching in Antioch
+
+John became a deacon in 381 and a priest in 386. His sermons addressed doctrine, conversion, worship, marriage, education, and the use of wealth. During the crisis of 387, when imperial statues were attacked in a protest against taxation, he preached to a city afraid of punishment. His Homilies on the Statues combine this immediate public setting with an appeal to repentance and responsible conduct. The preacher was participating in civic life without treating political reassurance as his only task.
+
+An enormous collection of his homilies, treatises, and letters survives. His commentaries on Matthew and the Pauline letters were especially influential. Rather than constructing a detached speculative system, he sought agreement between professed belief and actual behavior. He urged parents to take children's formation seriously and treated the Christian household as a community with ecclesial responsibilities. Baptism, in his teaching, involved lay Christians in the Church's mission rather than making them merely passive recipients of clerical instruction.
+
+His surviving corpus also includes polemical sermons against Jews. Their presence should not be concealed behind admiration for his eloquence. They belong to the contentious religious world of late antique Antioch, but historical context does not make hostility toward another religious community a model for present conduct. Recognition of his biblical and pastoral importance is compatible with acknowledging that some of his rhetoric requires critical moral assessment.
+
+## Bishop in the imperial capital
+
+Chosen for Constantinople after its bishop's death in 397, John was consecrated in 398. He attempted to reform clerical life and made episcopal expenditure more austere. Resources were directed toward charitable institutions and the needs of the poor. His preaching challenged luxury and called Christians to a more substantial sharing of goods. For him, assistance to individuals belonged within a wider vision of a city transformed by the obligations of Christian fellowship.
+
+These reforms brought conflict with influential clergy, court circles, and other bishops. His interventions in episcopal affairs outside Constantinople raised questions about jurisdiction. His reception of Egyptian monks opposed by Theophilus of Alexandria added another source of hostility. Relations with the empress Eudoxia deteriorated as disputes over luxury, public festivities, and the bishop's criticism became entangled with ecclesiastical rivalry. The story cannot adequately be reduced to one isolated quarrel.
+
+## Exile and legacy
+
+The synod commonly called the Synod of the Oak deposed John in 403. A first exile was quickly reversed, but renewed conflict led to a second expulsion in 404. His supporters also suffered, and attempts by Pope Innocent I and others to obtain an effective reconsideration failed. From exile John maintained correspondence, including letters to the deaconess Olympias. These show continuing pastoral concern alongside the vulnerability and suffering of a bishop deprived of his community.
+
+Ordered to a still more remote destination, he died during the journey at Comana in Pontus on 14 September 407. His remains were brought back to Constantinople in 438, marking a reversal of his public disgrace. His lasting place among the Doctors of the Church depends above all on his writings and their continued use in Christian teaching. They preserve an unusually vivid encounter between Scripture and the social life of late antiquity. His career also exposes the risks of pastoral reform when church government, personal rivalries, and imperial power become inseparable.
+
+## Sources
+
+- [Benedict XVI, audience on John Chrysostom, 19 September 2007, Vatican text mirror](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-09-19.md).
+- [Benedict XVI, audience on John Chrysostom, 26 September 2007, Vatican text mirror](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-09-26.md).
+- [Catholic Encyclopedia, “St. John Chrysostom”, consulted digital edition](https://github.com/gustavo-depaula/ember/blob/master/content/books/catholic-encyclopedia/en-US/08452b.md).$desc$),
+('saint-john-chrysostom','fr','Jean Chrysostome, prêtre d’Antioche puis évêque de Constantinople, plaça la prédication biblique au centre de la vie pastorale. Ses exigences de réforme morale et de secours aux pauvres suscitèrent des résistances ; il mourut en exil, laissant de nombreux sermons et lettres influents.',
+$desc$## Éducation et formation ascétique
+
+Jean naquit à Antioche vers 349. Son père mourut lorsqu’il était jeune, et sa mère Anthousa joua un rôle important dans son éducation. Il reçut une solide formation grecque, notamment rhétorique, auprès du célèbre maître païen Libanios. Le nom ultérieur de Chrysostome, signifiant « bouche d’or », rappelle sa réputation exceptionnelle d’orateur. Celle-ci reposait non seulement sur la technique, mais sur sa capacité à mettre l’enseignement biblique directement en rapport avec les habitudes et les inquiétudes d’auditeurs citadins.
+
+Sous l’évêque Mélèce, il entra dans la vie de l’Église, tandis que Diodore de Tarse l’initiait à l’approche historique et littéraire de l’Écriture associée à Antioche. Jean passa ensuite plusieurs années dans la retraite ascétique, dont une période de solitude sévère. La maladie l’obligea finalement à revenir en ville. Cette expérience ne mit pas simplement fin à sa vocation : l’étude biblique intensive de la retraite contribua à préparer son ministère pastoral ultérieur.
+
+## La prédication à Antioche
+
+Jean devint diacre en 381 et prêtre en 386. Ses sermons abordaient doctrine, conversion, culte, mariage, éducation et usage des richesses. Pendant la crise de 387, lorsque des statues impériales furent attaquées lors d’une protestation fiscale, il prêcha à une ville craignant le châtiment. Ses Homélies sur les statues associent ce contexte public immédiat à l’appel à la pénitence et à une conduite responsable. Le prédicateur participait à la vie civique sans faire de l’apaisement politique son unique tâche.
+
+Un immense ensemble d’homélies, de traités et de lettres subsiste. Ses commentaires de Matthieu et des lettres pauliniennes furent particulièrement influents. Plutôt que de construire un système spéculatif détaché, il recherchait l’accord entre croyance professée et conduite réelle. Il demandait aux parents de prendre au sérieux la formation des enfants et considérait le foyer chrétien comme une communauté dotée de responsabilités ecclésiales. Selon son enseignement, le baptême associait les laïcs à la mission de l’Église au lieu de les réduire à des destinataires passifs de l’instruction cléricale.
+
+Son corpus conservé comprend aussi des sermons polémiques contre les Juifs. Leur présence ne doit pas être cachée par l’admiration pour son éloquence. Ils appartiennent au monde religieux conflictuel de l’Antioche antique tardive, mais ce contexte ne fait pas de l’hostilité envers une autre communauté religieuse un modèle actuel de conduite. Reconnaître son importance biblique et pastorale reste compatible avec une évaluation morale critique de certains aspects de sa rhétorique.
+
+## Évêque dans la capitale impériale
+
+Choisi pour Constantinople après la mort de son évêque en 397, Jean fut consacré en 398. Il tenta de réformer la vie du clergé et rendit les dépenses épiscopales plus austères. Des ressources furent consacrées aux institutions charitables et aux besoins des pauvres. Sa prédication contestait le luxe et appelait à un partage plus substantiel des biens. Pour lui, l’aide individuelle appartenait à une vision plus large d’une ville transformée par les obligations de la fraternité chrétienne.
+
+Ces réformes provoquèrent des conflits avec des clercs influents, des milieux de cour et d’autres évêques. Ses interventions dans des affaires épiscopales extérieures à Constantinople soulevèrent des questions de juridiction. L’accueil de moines égyptiens opposés à Théophile d’Alexandrie ajouta un autre motif d’hostilité. Ses relations avec l’impératrice Eudoxie se dégradèrent lorsque les différends sur le luxe, les fêtes publiques et les critiques épiscopales se mêlèrent aux rivalités ecclésiastiques. Cette histoire ne se réduit pas convenablement à une querelle isolée.
+
+## Exil et héritage
+
+Le synode appelé communément synode du Chêne déposa Jean en 403. Un premier exil fut rapidement annulé, mais de nouveaux conflits entraînèrent une seconde expulsion en 404. Ses partisans souffrirent également, et les tentatives du pape Innocent Ier et d’autres pour obtenir un réexamen effectif échouèrent. En exil, Jean entretint une correspondance, notamment avec la diaconesse Olympias. Ces lettres montrent un souci pastoral persistant, avec la vulnérabilité et la souffrance d’un évêque privé de sa communauté.
+
+Envoyé vers une destination encore plus reculée, il mourut pendant le trajet à Comane, dans le Pont, le 14 septembre 407. Ses restes revinrent à Constantinople en 438, marquant le renversement de sa disgrâce publique. Sa place durable parmi les docteurs de l’Église dépend surtout de ses écrits et de leur emploi continu dans l’enseignement chrétien. Ils conservent une rencontre particulièrement vivante entre l’Écriture et la société antique tardive. Sa carrière révèle aussi les risques de la réforme pastorale lorsque gouvernement ecclésiastique, rivalités personnelles et pouvoir impérial deviennent inséparables.
+
+## Sources
+
+- [Benoît XVI, audience sur Jean Chrysostome, 19 septembre 2007, copie du texte du Vatican](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-09-19.md).
+- [Benoît XVI, audience sur Jean Chrysostome, 26 septembre 2007, copie du texte du Vatican](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-09-26.md).
+- [Catholic Encyclopedia, « St. John Chrysostom », édition numérique consultée](https://github.com/gustavo-depaula/ember/blob/master/content/books/catholic-encyclopedia/en-US/08452b.md).$desc$),
+('saint-john-chrysostom','la','Ioannes Chrysostomus, presbyter Antiochenus et episcopus Constantinopolitanus, praedicationem biblicam in centro curae pastoralis posuit. Reformatio morum et cura pauperum ab eo postulatae oppositionem excitaverunt; in exsilio mortuus amplum atque efficax corpus homiliarum et epistularum reliquit.',
+$desc$## Educatio et institutio ascetica
+
+Ioannes Antiochiae circa annum 349 natus est. Patre in pueritia mortuo, mater Anthusa magnam partem educationis suscepit. Institutionem Graecam accuratam accepit, etiam rhetoricam apud Libanium, praeclarum magistrum paganum. Nomen posterius Chrysostomi, id est « aurei oris », singularem famam oratoris commemorat. Haec fama non tantum arte technica nitebatur, sed facultate doctrinam biblicam cum moribus et sollicitudinibus auditorum urbanorum directe coniungendi.
+
+Sub episcopo Meletio vitam Ecclesiae ingressus est; Diodorus Tarsensis eum ad rationem historicam et litterariam Scripturae Antiochiae propriam introduxit. Ioannes deinde aliquot annos in secessu ascetico, etiam in severa solitudine, egit. Morbus tandem reditum in urbem imposuit. Haec experientia non simpliciter vocationem finivit: studium biblicum intensum secessus eum ad subsequens ministerium pastorale praeparavit.
+
+## Praedicatio Antiochiae
+
+Ioannes diaconus anno 381 et presbyter anno 386 factus est. Sermones doctrinam, conversionem, cultum, matrimonium, educationem et usum divitiarum tractabant. In discrimine anni 387, cum statuae imperiales in protestatione tributorum laesae essent, urbi poenam timenti praedicavit. Homiliae de statuis condicionem publicam praesentem cum invitatione ad paenitentiam et mores responsabiles coniungunt. Praedicator vitae civili participabat, neque tamen consolationem politicam unicum munus suum habebat.
+
+Amplissima collectio homiliarum, tractatuum et epistularum servatur. Commentarii in Matthaeum et epistulas Paulinas praesertim auctoritate valuerunt. Potius quam systema speculativum abstractum construere, concordiam inter fidem professam et mores reales quaerebat. Parentes hortabatur ut institutionem puerorum serio curarent et familiam christianam communitatem officiis ecclesialibus praeditam habebat. Baptismus, secundum doctrinam eius, laicos missioni Ecclesiae associabat, non tantum auditores passivos institutionis clericalis faciebat.
+
+Corpus servatum etiam sermones polemicos adversus Iudaeos continet. Eorum praesentia admiratione eloquentiae occultanda non est. Ad mundum religiosum contentiosum Antiochiae antiquae posterioris pertinent; contextus tamen historicus inimicitiam adversus aliam communitatem religiosam exemplar hodiernae conversationis non facit. Agnitio momenti biblici et pastoralis cum iudicio morali critico de quibusdam rhetoricis eius rationibus componi potest.
+
+## Episcopus in capite imperii
+
+Post mortem episcopi Constantinopolitani anno 397 electus, Ioannes anno 398 consecratus est. Vitam cleri reformare conatus est et sumptus episcopales austeriores fecit. Opes ad instituta caritativa et necessitates pauperum directae sunt. Praedicatio luxuriam reprehendebat et christianos ad pleniorem bonorum communicationem vocabat. Auxilium singulis praestitum intra ampliorem visionem urbis obligationibus fraternitatis christianae transformatae ponebat.
+
+Hae reformationes conflictus cum clericis potentibus, aula et aliis episcopis attulerunt. Interventus in negotiis episcopalibus extra Constantinopolim quaestiones iurisdictionis excitaverunt. Receptio monachorum Aegyptiorum quibus Theophilus Alexandrinus adversabatur aliam causam inimicitiae addidit. Relationes cum imperatrice Eudoxia deterioratae sunt, cum controversiae de luxuria, festivitatibus publicis et reprehensionibus episcopi cum certaminibus ecclesiasticis implicarentur. Historia ad unam solam rixam apte reduci non potest.
+
+## Exsilium et hereditas
+
+Synodus vulgo ad Quercum dicta Ioannem anno 403 deposuit. Primum exsilium cito revocatum est, sed renovatus conflictus alteram expulsionem anno 404 attulit. Fautores quoque passi sunt, atque conatus Innocentii I papae aliorumque ad efficacem retractationem obtinendam defecerunt. Ioannes ex exsilio epistulas, etiam ad Olympiadem diaconissam, mittebat. Hae sollicitudinem pastoralem permanentem cum vulnerabilitate et dolore episcopi sua communitate privati ostendunt.
+
+Ad locum adhuc remotiorem ire iussus, in itinere Comanis in Ponto die 14 Septembris 407 mortuus est. Reliquiae Constantinopolim anno 438 relatae sunt, quod publicae ignominiae inversionem significavit. Perennis eius locus inter Doctores Ecclesiae praecipue scriptis eorumque usu continuo in doctrina christiana nititur. Illa vividissimum occursum inter Scripturam et vitam socialem antiquitatis posterioris servant. Cursus eius etiam pericula reformationis pastoralis manifestat ubi regimen Ecclesiae, rivalitates personales et potestas imperialis inseparabilia fiunt.
+
+## Fontes
+
+- [Benedictus XVI, audientia de Ioanne Chrysostomo, 19 Septembris 2007, exemplar textus Vaticani](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-09-19.md).
+- [Benedictus XVI, audientia de Ioanne Chrysostomo, 26 Septembris 2007, exemplar textus Vaticani](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-09-26.md).
+- [Catholic Encyclopedia, « St. John Chrysostom », editio digitalis consulta](https://github.com/gustavo-depaula/ember/blob/master/content/books/catholic-encyclopedia/en-US/08452b.md).$desc$),
+('saint-cornelius','en','Cornelius, bishop of Rome from 251 to 253, defended the reconciliation of repentant Christians who had failed under persecution. Supported by Cyprian of Carthage, he resisted Novatian’s rival episcopate and died after being exiled by the Roman authorities.',
+$desc$## Election after persecution
+
+Cornelius became bishop of Rome in 251, following a prolonged vacancy after the execution of Pope Fabian under the emperor Decius. His earlier life is poorly documented. The most important evidence for his pontificate comes from correspondence connected with Cyprian of Carthage and from material preserved by the church historian Eusebius. These sources illuminate a particular ecclesiastical crisis rather than provide a continuous biography from childhood.
+
+The election took place when the pressure of persecution had temporarily diminished enough for bishops to assemble at Rome. Cyprian defended the legitimacy of Cornelius's appointment by referring to the agreement of bishops, clergy, and the Christian people. Acceptance of the office remained dangerous: the recent death of Fabian made clear that the Roman bishop could become a direct target of imperial hostility. Cornelius's short pontificate was consequently shaped by both external threat and internal division.
+
+## Reconciliation and division
+
+The persecution had left the Church with a difficult question. Some Christians had offered sacrifice or otherwise compromised their profession under pressure; others had suffered rather than yield. The return of those who had fallen, commonly called the lapsi, raised questions about repentance, ecclesiastical discipline, and the possibility of reconciliation. Cornelius supported their restoration to communion after appropriate penance. This was not a declaration that apostasy was unimportant, but a refusal to treat grave failure as necessarily excluding a repentant person forever.
+
+The Roman presbyter Novatian became a rival bishop and represented a rigorist alternative. Cornelius's election and policy therefore had to be defended beyond Rome as the division spread. Cyprian's support helped secure recognition among African bishops, while Dionysius of Alexandria also supported Cornelius. A Roman synod rejected the rival claim. Surviving accounts contain strong polemic, particularly in descriptions of Novatian, and should be read with awareness that participants were defending contested ecclesiastical positions.
+
+## A community revealed through letters
+
+A letter quoted by Eusebius provides an unusually concrete glimpse of the Roman Church. Cornelius lists priests, deacons, subdeacons, acolytes, and other ministers, together with more than fifteen hundred widows and people in distress receiving support. These details show an organized community with considerable charitable responsibilities. They do not, however, establish an exact total for Rome's Christian population; later estimates derived from them remain estimates.
+
+Two of Cornelius's letters to Cyprian survive, alongside letters addressed to him by the African bishop. Their relationship exemplifies consultation and mutual support between distant churches. The question of communion was not managed simply as a private Roman dispute: other bishops investigated claims, exchanged reports, and sought an ecclesial judgment. This documentary record is more secure than the elaborate narratives later attached to Cornelius's sufferings.
+
+## Exile and memory
+
+Renewed persecution led to his banishment to Centumcellae, the present Civitavecchia. He died in 253 and was honored as a martyr. The precise manner of death is uncertain: early testimony is compatible with death from the hardships of exile, whereas later accounts describe execution. It is therefore inappropriate to present a detailed beheading narrative as securely established history.
+
+His Roman tomb inscription identifies him as Cornelius the martyr. His liturgical remembrance became closely associated with Cyprian, although they died in different years and circumstances. Their shared memory expresses their cooperation in defending ecclesial unity and the possibility of repentance. Cornelius's historical significance lies in the survival of that documented pastoral decision through a brief and dangerous pontificate, not in details of family, childhood, or martyrdom that the evidence cannot securely supply.
+
+## Sources
+
+- [Catholic Encyclopedia, “Pope Cornelius”, consulted digital edition, discussing Cyprian and Eusebius](https://github.com/gustavo-depaula/ember/blob/master/content/books/catholic-encyclopedia/en-US/04375c.md).$desc$),
+('saint-cornelius','fr','Corneille, évêque de Rome de 251 à 253, défendit la réconciliation des chrétiens repentants qui avaient cédé pendant la persécution. Soutenu par Cyprien de Carthage, il résista à l’épiscopat rival de Novatien et mourut après son exil imposé par les autorités romaines.',
+$desc$## Une élection après la persécution
+
+Corneille devint évêque de Rome en 251, après une longue vacance consécutive à l’exécution du pape Fabien sous l’empereur Dèce. Sa vie antérieure est mal documentée. Les principaux témoignages sur son pontificat proviennent de la correspondance liée à Cyprien de Carthage et de textes conservés par l’historien ecclésiastique Eusèbe. Ces sources éclairent une crise particulière de l’Église plutôt qu’une biographie continue depuis l’enfance.
+
+L’élection eut lieu lorsque la pression de la persécution diminua suffisamment pour permettre à des évêques de se réunir à Rome. Cyprien défendit sa légitimité en évoquant l’accord des évêques, du clergé et du peuple chrétien. Accepter cette charge restait dangereux : la mort récente de Fabien montrait que l’évêque romain pouvait devenir une cible directe de l’hostilité impériale. Le bref pontificat de Corneille fut donc marqué par la menace extérieure et la division intérieure.
+
+## Réconciliation et division
+
+La persécution avait laissé à l’Église une question difficile. Certains chrétiens avaient sacrifié ou compromis autrement leur profession sous la pression ; d’autres avaient souffert plutôt que céder. Le retour de ceux qui étaient tombés, les lapsi, soulevait des questions de repentir, de discipline ecclésiastique et de réconciliation possible. Corneille soutenait leur réintégration dans la communion après une pénitence appropriée. Cela ne déclarait pas l’apostasie insignifiante, mais refusait qu’une faute grave exclue nécessairement pour toujours une personne repentante.
+
+Le prêtre romain Novatien devint évêque rival et représenta une autre position, rigoriste. L’élection et la politique de Corneille durent ainsi être défendues au-delà de Rome à mesure que la division s’étendait. Le soutien de Cyprien favorisa sa reconnaissance parmi les évêques africains ; Denys d’Alexandrie le soutint également. Un synode romain rejeta la prétention rivale. Les récits conservés contiennent une forte polémique, particulièrement envers Novatien, et doivent être lus en sachant que les acteurs défendaient des positions ecclésiastiques contestées.
+
+## Une communauté révélée par les lettres
+
+Une lettre citée par Eusèbe offre un aperçu particulièrement concret de l’Église romaine. Corneille y dénombre prêtres, diacres, sous-diacres, acolytes et autres ministres, ainsi que plus de quinze cents veuves et personnes en détresse secourues. Ces détails révèlent une communauté organisée assumant d’importantes responsabilités charitables. Ils n’établissent toutefois pas le nombre exact des chrétiens de Rome ; les évaluations ultérieures qui en dérivent restent des estimations.
+
+Deux lettres de Corneille à Cyprien subsistent, à côté de lettres que l’évêque africain lui adressa. Leur relation illustre la consultation et le soutien mutuel entre Églises éloignées. La communion ne fut pas traitée comme une simple dispute romaine privée : d’autres évêques examinèrent les prétentions, échangèrent des rapports et cherchèrent un jugement ecclésial. Ces documents sont plus solides que les récits élaborés ultérieurement autour des souffrances de Corneille.
+
+## Exil et mémoire
+
+Une nouvelle persécution entraîna son bannissement à Centumcellae, l’actuelle Civitavecchia. Il mourut en 253 et fut honoré comme martyr. La manière précise de sa mort demeure incertaine : les premiers témoignages permettent une mort due aux rigueurs de l’exil, tandis que des récits ultérieurs décrivent une exécution. Il serait donc inapproprié de présenter un récit détaillé de décapitation comme une histoire assurée.
+
+L’inscription de sa tombe romaine le désigne comme Corneille martyr. Sa mémoire liturgique fut étroitement associée à Cyprien, bien qu’ils soient morts dans des années et des circonstances différentes. Leur mémoire commune exprime leur coopération pour défendre l’unité ecclésiale et la possibilité du repentir. L’importance historique de Corneille réside dans cette décision pastorale documentée, maintenue au cours d’un pontificat bref et dangereux, non dans des détails familiaux, d’enfance ou de martyre que les sources ne peuvent fournir avec certitude.
+
+## Sources
+
+- [Catholic Encyclopedia, « Pope Cornelius », édition numérique consultée présentant Cyprien et Eusèbe](https://github.com/gustavo-depaula/ember/blob/master/content/books/catholic-encyclopedia/en-US/04375c.md).$desc$),
+('saint-cornelius','la','Cornelius, episcopus Romanus ab anno 251 ad 253, reconciliationem christianorum paenitentium qui persecutione cesserant defendit. Cypriano Carthaginiensi adiuvante, episcopatui Novatiani aemulo restitit et post exsilium a magistratibus Romanis impositum mortuus est.',
+$desc$## Electio post persecutionem
+
+Cornelius episcopus Romanus anno 251 factus est, post longam vacationem quae mortem Fabiani papae sub Decio imperatore secuta erat. Vita eius prior parum documentis illustratur. Praecipua testimonia pontificatus ex epistulis cum Cypriano Carthaginiensi coniunctis et ex rebus ab Eusebio historico ecclesiastico servatis proveniunt. Hi fontes certum discrimen ecclesiasticum illustrant, non continuam vitam a pueritia tradunt.
+
+Electio facta est cum vis persecutionis ad tempus satis remissa esset ut episcopi Romae convenirent. Cyprianus legitimam Cornelii institutionem consensu episcoporum, cleri et populi christiani defendit. Officium suscipere periculosum manebat: recens mors Fabiani ostenderat episcopum Romanum directum inimicitiae imperialis scopum fieri posse. Brevis igitur pontificatus Cornelii et externa comminatione et interna divisione formatus est.
+
+## Reconciliatio et divisio
+
+Persecutio Ecclesiae difficilem quaestionem reliquerat. Quidam christiani sacrificaverant vel aliter professionem suam coacti laeserant; alii pati quam cedere maluerant. Reditus eorum qui ceciderant, vulgo lapsorum, quaestiones paenitentiae, disciplinae ecclesiasticae et reconciliationis excitabat. Cornelius restitutionem communionis post paenitentiam congruam sustinebat. Hoc non apostasiam levem declarabat, sed negabat gravem culpam hominem paenitentem necessario in perpetuum excludere.
+
+Novatianus presbyter Romanus episcopus aemulus factus est et sententiam rigorosiorem repraesentabat. Electio igitur et ratio Cornelii ultra Romam defendendae erant, dum divisio diffundebatur. Auxilium Cypriani recognitionem apud episcopos Africanos firmavit, atque Dionysius Alexandrinus quoque Cornelio favebat. Synodus Romana adversariam vindicationem reiecit. Narrationes servatae vehementem polemicam continent, praesertim in descriptionibus Novatiani, et legendae sunt memores participantes positiones ecclesiasticas controversas defendisse.
+
+## Communitas per epistulas manifesta
+
+Epistula ab Eusebio citata singularem imaginem concretam Ecclesiae Romanae praebet. Cornelius presbyteros, diaconos, subdiaconos, acolythos aliosque ministros enumerat, una cum plus quam mille quingentis viduis et afflictis sustentatis. Haec communitatem ordinatam magnis officiis caritatis praeditam ostendunt. Numerum tamen exactum christianorum Romae non constituunt; aestimationes posteriores ex eis deductae aestimationes manent.
+
+Duae epistulae Cornelii ad Cyprianum servantur, una cum epistulis ab episcopo Africano ad eum missis. Relatio eorum consultationem et mutuum auxilium inter Ecclesias remotas exemplificat. Quaestio communionis non simpliciter ut privata contentio Romana administrabatur: alii episcopi vindicationes examinabant, relationes communicabant et iudicium ecclesiale quaerebant. Haec documenta certiora sunt quam narrationes amplae postea passionibus Cornelii adiunctae.
+
+## Exsilium et memoria
+
+Renovata persecutio eum ad Centumcellas, hodiernam Civitatem Vetulam, relegavit. Anno 253 mortuus est et martyr honoratus. Modus exactus mortis incertus manet: antiquiora testimonia cum morte ex asperitatibus exsilii componuntur, narrationes autem posteriores supplicium describunt. Non igitur convenit accuratam decollationis narrationem pro historia certo stabilita exhibere.
+
+Inscriptio sepulcri Romani eum Cornelium martyrem nominat. Memoria liturgica cum Cypriano arcte coniuncta est, quamquam diversis annis et condicionibus mortui sunt. Communis memoria cooperationem in defendenda unitate ecclesiali et possibilitate paenitentiae exprimit. Momentum historicum Cornelii in hac sententia pastorali documentis probata, per breve periculosumque pontificatum conservata, consistit, non in rebus familiae, pueritiae vel martyrii quas fontes certo praebere nequeunt.
+
+## Fontes
+
+- [Catholic Encyclopedia, « Pope Cornelius », editio digitalis consulta de Cypriano et Eusebio disserens](https://github.com/gustavo-depaula/ember/blob/master/content/books/catholic-encyclopedia/en-US/04375c.md).$desc$)
+) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
+WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
+-- END_BIOGRAPHIES_SEPTEMBER
+
+-- BIOGRAPHIES_OCTOBER
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-therese-of-the-child-jesus','en','Thérèse of Lisieux was a French Carmelite whose brief cloistered life gave rise to the “little way” of confidence and love. Her autobiographical manuscripts, letters, and poems made spiritual childhood widely known; the Church recognized her as a Doctor in 1997.',
+$desc$## Family and vocation
+
+Marie Françoise Thérèse Martin was born at Alençon on 2 January 1873, the daughter of Louis Martin and Zélie Guérin. Her mother died in August 1877, and the family moved to Lisieux. Her father's affection and the care of her sisters shaped her childhood, but bereavement also left her emotionally vulnerable. Educated partly by the Benedictines, she made her first Communion on 8 May 1884 and was confirmed that June. These events occupy an important place in her own recollections, which interpret ordinary family history through a developing relationship with Christ.
+
+Thérèse described Christmas 1886 as a decisive conversion: she believed that grace enabled her to overcome excessive sensitivity and turn more freely toward others. This was not a departure from an irreligious childhood, but a new maturity within an already religious life. She wished to follow her sisters Pauline and Marie into the Carmel of Lisieux. Because she was exceptionally young, permission was difficult to obtain. During a pilgrimage to Rome in November 1887 she personally asked Leo XIII to allow her entrance at fifteen, an episode illustrating both her determination and her willingness to seek ecclesiastical authorization.
+
+## Life in Carmel
+
+She entered the monastery on 9 April 1888, received the habit in January 1889, and made her religious profession on 8 September 1890. Her religious name joined devotion to the Child Jesus with devotion to the Holy Face. Enclosure did not remove difficulty from her life. Community relationships, routine duties, spiritual dryness, and the illness of her father became the setting of her vocation. Louis Martin died in July 1894. Rather than measuring holiness by conspicuous achievements, Thérèse increasingly emphasized the manner in which ordinary obligations were accepted and other people were loved.
+
+Her responsibilities included helping to form younger sisters. The teaching she shared with them became known as the little way of spiritual childhood. Childhood here meant neither immaturity nor refusal of responsibility. It meant acknowledging human weakness and trusting God's merciful initiative rather than relying on an accumulated record of personal merits. Small acts of patience, service, and self-restraint could express a wholehearted gift of self. Her approach joined confidence in divine mercy to exacting attention to the needs of the people immediately around her.
+
+## Writings and spiritual teaching
+
+Her principal autobiographical writings are three manuscripts later published together as Story of a Soul. Manuscript A, requested by her sister Agnès, recalls childhood and the beginnings of religious life. Manuscript B, addressed to Marie of the Sacred Heart, reflects on her vocation within the Church. Manuscript C, written for the prioress Marie de Gonzague in 1897, continues the account of Carmel and describes the severe trial of faith of her final period. Their different occasions matter: they are related spiritual testimonies, not a single uninterrupted diary composed for a modern public.
+
+Letters, poems, prayers, and short plays for community celebrations complement those manuscripts. They reveal a biblical imagination and a missionary concern extending beyond the walls of the monastery. Thérèse corresponded with missionary priests and understood contemplative prayer as participation in the Church's apostolic life. Her discovery that love embraced her many spiritual desires did not mean that individual vocations were interchangeable. It expressed her conviction that charity gives meaning to all the different services within Christ's body.
+
+## Illness, death, and reception
+
+On Trinity Sunday in June 1895 she offered herself to God's merciful love. In April 1896 the first grave signs of her final illness appeared; she suffered from tuberculosis. At the same time, she experienced a prolonged darkness concerning faith and eternal life. Her final writings do not depict a simple succession of religious consolations. They show confidence maintained amid suffering and uncertainty. Moved to the infirmary in July 1897, she died on 30 September, aged twenty-four. Sisters recorded her last conversations, which must be distinguished from the texts she wrote herself.
+
+The publication of her manuscripts brought an extraordinary readership to a woman who had lived largely unknown outside her family and community. Canonized by Pius XI on 17 May 1925, she was proclaimed a Doctor of the universal Church by John Paul II on 19 October 1997. His apostolic letter grounds this recognition in the depth, coherence, and reception of her teaching, not in academic qualifications. It presents her as a teacher of Christian life whose confidence in mercy remains inseparable from the Gospel, the sacraments, and practical love of one's neighbor.
+
+## Sources
+
+- John Paul II, Divini amoris scientia, 19 October 1997, especially §§5–9. [Consulted Vatican text, digital mirror](https://github.com/lologhi/vatican/blob/master/john-paul-ii/apost_letters/1997/1997-10-19-divini-amoris.md).
+$desc$),
+('saint-therese-of-the-child-jesus','fr','Thérèse de Lisieux est une carmélite française dont la brève vie cloîtrée a fait connaître la « petite voie » de confiance et d’amour. Ses manuscrits autobiographiques, lettres et poèmes ont diffusé l’enfance spirituelle ; l’Église l’a reconnue docteur en 1997.',
+$desc$## Famille et vocation
+
+Marie Françoise Thérèse Martin naît à Alençon le 2 janvier 1873, fille de Louis Martin et de Zélie Guérin. Sa mère meurt en août 1877, et la famille s'installe à Lisieux. L'affection de son père et les soins de ses sœurs marquent son enfance, mais le deuil la laisse aussi affectivement fragile. Formée en partie chez les bénédictines, elle fait sa première communion le 8 mai 1884 et reçoit la confirmation en juin. Ces événements occupent une place importante dans ses souvenirs, qui interprètent l'histoire familiale ordinaire à travers une relation grandissante avec le Christ.
+
+Thérèse décrit Noël 1886 comme une conversion décisive : elle croit que la grâce lui permet de surmonter une sensibilité excessive et de se tourner plus librement vers autrui. Il ne s'agit pas d'abandonner une enfance sans religion, mais d'une maturité nouvelle au sein d'une vie déjà croyante. Elle désire suivre ses sœurs Pauline et Marie au carmel de Lisieux. Son très jeune âge rend cependant l'autorisation difficile. Pendant un pèlerinage à Rome en novembre 1887, elle demande personnellement à Léon XIII d'entrer à quinze ans, épisode qui manifeste sa détermination et sa volonté de solliciter l'autorisation ecclésiastique.
+
+## Vie au Carmel
+
+Elle entre au monastère le 9 avril 1888, reçoit l'habit en janvier 1889 et fait profession le 8 septembre 1890. Son nom religieux associe la dévotion à l'Enfant-Jésus à celle de la Sainte-Face. La clôture ne supprime pas les difficultés. Relations communautaires, tâches habituelles, sécheresse spirituelle et maladie de son père deviennent le cadre de sa vocation. Louis Martin meurt en juillet 1894. Plutôt que de mesurer la sainteté aux accomplissements remarquables, Thérèse souligne toujours davantage la manière d'accueillir les obligations ordinaires et d'aimer les autres.
+
+Elle participe notamment à la formation de jeunes sœurs. L'enseignement partagé avec elles devient la petite voie de l'enfance spirituelle. L'enfance ne signifie ici ni immaturité ni refus des responsabilités. Elle consiste à reconnaître la faiblesse humaine et à faire confiance à l'initiative miséricordieuse de Dieu plutôt qu'à un bilan de mérites personnels. De petits actes de patience, de service et de maîtrise de soi peuvent exprimer un don entier de soi. Cette démarche unit la confiance en la miséricorde divine à une attention exigeante aux besoins des personnes qui l'entourent immédiatement.
+
+## Écrits et enseignement spirituel
+
+Ses principaux écrits autobiographiques sont trois manuscrits publiés ensuite ensemble sous le titre Histoire d'une âme. Le manuscrit A, demandé par sa sœur Agnès, raconte l'enfance et les débuts de la vie religieuse. Le manuscrit B, adressé à Marie du Sacré-Cœur, médite sa vocation dans l'Église. Le manuscrit C, écrit pour la prieure Marie de Gonzague en 1897, poursuit le récit du Carmel et décrit l'intense épreuve de foi de sa dernière période. Leurs circonstances différentes importent : ce sont des témoignages spirituels liés entre eux, non un journal continu composé pour un public moderne.
+
+Lettres, poèmes, prières et courtes pièces destinées aux fêtes communautaires complètent ces manuscrits. Ils révèlent une imagination nourrie de la Bible et un souci missionnaire dépassant les murs du monastère. Thérèse correspond avec des prêtres missionnaires et comprend la prière contemplative comme une participation à la vie apostolique de l'Église. Sa découverte que l'amour embrasse ses nombreux désirs spirituels ne rend pas les vocations individuelles interchangeables. Elle exprime sa conviction que la charité donne sens aux différents services du corps du Christ.
+
+## Maladie, mort et réception
+
+Le dimanche de la Trinité de juin 1895, elle s'offre à l'amour miséricordieux de Dieu. En avril 1896 apparaissent les premiers signes graves de sa dernière maladie : elle souffre de tuberculose. Elle traverse en même temps une obscurité prolongée concernant la foi et la vie éternelle. Ses derniers écrits ne décrivent pas une simple succession de consolations religieuses. Ils montrent une confiance maintenue dans la souffrance et l'incertitude. Transportée à l'infirmerie en juillet 1897, elle meurt le 30 septembre, à vingt-quatre ans. Des sœurs recueillent ses dernières conversations, qu'il faut distinguer des textes écrits de sa main.
+
+La publication des manuscrits donne un lectorat extraordinaire à une femme restée largement inconnue hors de sa famille et de sa communauté. Canonisée par Pie XI le 17 mai 1925, elle est proclamée docteur de l'Église universelle par Jean-Paul II le 19 octobre 1997. Sa lettre apostolique fonde cette reconnaissance sur la profondeur, la cohérence et la réception de l'enseignement thérésien, non sur des titres universitaires. Elle la présente comme une maîtresse de vie chrétienne dont la confiance en la miséricorde reste inséparable de l'Évangile, des sacrements et de l'amour concret du prochain.
+
+## Sources
+
+- Jean-Paul II, Divini amoris scientia, 19 octobre 1997, notamment §§5–9. [Texte du Vatican consulté, miroir numérique](https://github.com/lologhi/vatican/blob/master/john-paul-ii/apost_letters/1997/1997-10-19-divini-amoris.md).
+$desc$),
+('saint-therese-of-the-child-jesus','la','Teresia Lexoviensis, monialis Carmelita Gallica, brevi vita claustrali «parvam viam» fiduciae et amoris illustravit. Manuscripta autobiographica, epistulae et carmina eius infantiam spiritualem late patefecerunt; Ecclesia eam anno 1997 Doctorem agnovit.',
+$desc$## Familia et vocatio
+
+Maria Francisca Teresia Martin Alenconii nata est die 2 Ianuarii 1873, filia Ludovici Martin et Zelia Guérin. Matre mense Augusto 1877 mortua, familia Lexovium migravit. Patris amor sororumque cura infantiam formarunt; luctus tamen animum eius vulnerabilem reliquit. Partim apud Benedictinas instituta, primam Communionem die 8 Maii 1884 suscepit et mense Iunio confirmata est. Hi eventus magnum locum tenent in ipsius memoriis, quae communem familiae historiam per crescentem cum Christo necessitudinem interpretantur.
+
+Nativitatem Domini anni 1886 Teresia conversionem decretoriam descripsit: gratia sibi permisisse credebat nimiam animi sensibilitatem vincere atque liberius ad alios converti. Non ab infantia irreligiosa discedebat, sed novam maturitatem intra vitam iam religiosam assequebatur. Sorores Paulinam et Mariam in Carmelum Lexoviensem sequi cupiebat. Ob aetatem admodum iuvenilem licentia difficulter obtinebatur. Romam mense Novembri 1887 peregrinata, Leonem XIII ipsa rogavit ut quindecim annos nata ingredi posset; hic eventus et constantiam et voluntatem auctoritati ecclesiasticae recurrendi demonstrat.
+
+## Vita in Carmelo
+
+Monasterium die 9 Aprilis 1888 ingressa, habitum mense Ianuario 1889 accepit et professionem die 8 Septembris 1890 emisit. Nomen religiosum devotionem erga Iesum Infantem cum devotione erga Sanctum Vultum coniunxit. Clausura difficultates non sustulit. Relationes communitatis, officia cotidiana, ariditas spiritualis et patris morbus vocationis eius contextum constituerunt. Ludovicus Martin mense Iulio 1894 mortuus est. Sanctitatem non rebus conspicuis metiens, Teresia magis magisque modum extulit quo cotidiana officia acciperentur et proximi amarentur.
+
+Inter munera eius erat iuniores sorores instituere. Doctrina cum eis communicata parva via infantiae spiritualis appellata est. Infantia hic neque immaturitatem neque officiorum recusationem significabat. Significabat humanam infirmitatem agnoscere atque misericordi Dei incepto confidere potius quam congestis propriis meritis. Parvi patientiae, servitii et continentiae actus plenam sui donationem exprimere poterant. Via eius fiduciam divinae misericordiae cum diligenti cura necessitatum eorum qui proxime aderant coniungebat.
+
+## Scripta et doctrina spiritualis
+
+Praecipua eius scripta autobiographica sunt tria manuscripta postea sub titulo Historia animae simul edita. Manuscriptum A, a sorore Agnete petitum, infantiam et initia vitae religiosae narrat. Manuscriptum B, Mariae a Sacro Corde datum, vocationem in Ecclesia considerat. Manuscriptum C, priorissae Mariae de Gonzague anno 1897 scriptum, narrationem de Carmelo continuat et gravem fidei probationem ultimi temporis describit. Diversae occasiones attendendae sunt: testimonia spiritualia inter se conexa sunt, non unum diarium continuum lectoribus hodiernis compositum.
+
+Epistulae, carmina, preces et breves fabulae ad celebrationes communitatis manuscripta complent. Animum Scriptura nutritum et sollicitudinem missionalem ultra monasterii muros ostendunt. Teresia cum sacerdotibus missionariis commercium epistulare habuit et orationem contemplativam participationem vitae apostolicae Ecclesiae intellexit. Quod amorem multa sua desideria spiritualia complecti invenit, non significabat vocationes singulorum commutari posse. Persuasionem exprimebat caritatem omnibus diversis ministeriis in corpore Christi sensum dare.
+
+## Morbus, mors et receptio
+
+Dominica Trinitatis mense Iunio 1895 sese misericordi Dei amori obtulit. Mense Aprili 1896 prima gravia signa ultimi morbi apparuerunt; phthisi laborabat. Eodem tempore longas tenebras circa fidem vitamque aeternam experta est. Ultima eius scripta non simplicem consolationum religiosarum successionem depingunt. Fiduciam inter dolorem et incertitudinem servatam ostendunt. Mense Iulio 1897 ad infirmariam translata, die 30 Septembris, annos viginti quattuor nata, mortua est. Sorores ultima colloquia collegerunt, quae a scriptis propria manu compositis distinguenda sunt.
+
+Manuscriptorum editio innumeros lectores mulieri attulit quae extra familiam communitatemque fere ignota vixerat. A Pio XI die 17 Maii 1925 canonizata, a Ioanne Paulo II die 19 Octobris 1997 Doctor Ecclesiae universalis proclamata est. Litterae apostolicae hanc recognitionem in doctrinae profunditate, cohaerentia et receptione, non in titulis academicis fundant. Eam magistram vitae christianae proponunt cuius fiducia misericordiae inseparabilis manet ab Evangelio, sacramentis et actuosa proximi dilectione.
+
+## Fontes
+
+- Ioannes Paulus II, Divini amoris scientia, 19 Octobris 1997, praesertim §§5–9. [Textus Vaticanus consultus, exemplar digitale](https://github.com/lologhi/vatican/blob/master/john-paul-ii/apost_letters/1997/1997-10-19-divini-amoris.md).
+$desc$)
+) AS x(slug,locale,short_description,full_biography) ON s.slug=x.slug
+WHERE st.saint_id=s.id AND st.locale_code=x.locale;
+UPDATE saint_translations AS st
+SET short_description=x.short_description, full_biography=x.full_biography
+FROM saints AS s JOIN (VALUES
+('saint-francis-of-assisi','en','Francis of Assisi founded the Friars Minor after abandoning mercantile ambition for evangelical poverty. His preaching, service among lepers, friendship with Clare, and writings shaped a lasting religious movement centered on following Christ in humility, fraternity, and praise.',
+$desc$## Early life and conversion
+
+Francis was born at Assisi in 1181 or 1182, the son of the cloth merchant Pietro Bernardone and his wife Pica. The uncertainty of the year should not be concealed by assigning a precise birth date. He grew up with the advantages of a prosperous household, enjoyed companionship and display, and hoped for distinction as a knight. Captivity after fighting against Perugia and subsequent illness interrupted these ambitions. His conversion developed through several experiences rather than one easily isolated moment.
+
+His own Testament gives particular importance to encounters with people suffering from leprosy. What had formerly provoked disgust became an occasion of mercy and spiritual change. Early biographies also describe prayer before the crucifix of San Damiano, where he understood himself to be commanded to repair Christ's house. Initially he restored actual chapels. His conflict with his father culminated in a public renunciation of property before the bishop of Assisi. These narratives combine remembered events with theological interpretation; later picturesque legends should not automatically be treated as contemporary evidence.
+
+## A brotherhood according to the Gospel
+
+Hearing the Gospel's instructions for the disciples' mission helped Francis articulate a life of poverty, penance, and itinerant preaching. Companions joined him, including Bernard of Quintavalle. They worked, accepted alms when necessary, and sought to live without the securities normally provided by possessions and status. Francis called them lesser brothers, expressing an ideal of humility and service. Their purpose was not merely personal austerity: poverty was intended to make them free to follow Christ and approach others as brothers.
+
+Around 1209 Francis sought approval from Innocent III for the emerging fraternity. The initial permission was oral; the earliest form of the rule has not survived independently. The Porziuncola near Assisi became an important center of the movement. Francis was a deacon, not a priest. Clare of Assisi adopted a related life of poverty in 1212, and her community developed at San Damiano. The later Franciscan family also included lay penitents, although the precise institutional beginnings of its different branches require more care than a single foundation legend allows.
+
+## Expansion, mission, and the rule
+
+The rapid growth of the brothers created administrative demands and tensions over how their founding ideal should be lived. Francis combined preaching with periods of withdrawal for prayer, refusing to regard contemplation and apostolic service as mutually exclusive. He traveled to the eastern Mediterranean in 1219 during the Fifth Crusade and met Sultan al-Kamil in Egypt. The encounter is historically attested, but accounts of its words and results differ. It demonstrates Francis's desire to proclaim Christ across a military and religious boundary; it does not establish the sultan's conversion.
+
+Returning to Italy, Francis faced changes within an increasingly extensive order. He relinquished its direct government while continuing to shape its spiritual character. The rule approved by Honorius III in November 1223 gave a durable framework to the life of the Friars Minor. Obedience, chastity, and poverty remained central, together with prayer and evangelical conduct. The emergence of formal structures was necessary for a growing community, but it also exposed questions about property, learning, and authority that would continue after the founder's death.
+
+## Final years and enduring influence
+
+At Greccio in 1223 Francis arranged a celebration recalling the poverty of Christ's birth. The event helped give lasting expression to devotion to the Nativity. In 1224, during prayer at La Verna, early Franciscan testimony places his reception of the stigmata, understood by the tradition as a bodily participation in Christ's wounds. This belongs to the religious interpretation of his life and should be identified as such, rather than converted into an unexplained modern medical assertion. His later years were marked by serious illness and deteriorating eyesight.
+
+The Canticle of the Creatures voices praise of God through the created world, while his Testament recalls the beginnings of his vocation and urges fidelity to the Gospel. These writings help distinguish Francis's own priorities from later idealized portraits. His affection for creation was part of a thoroughly Christian vision, inseparable from the Incarnation, the Eucharist, repentance, and love of the poor. He died near the Porziuncola on 3 October 1226 and was canonized in 1228. The institutions and literature that followed made his brief public ministry one of the most influential religious renewals of the medieval West.
+
+## Sources
+
+- Catholic Encyclopedia, “St. Francis of Assisi.” [Consulted historical encyclopedia mirror](https://github.com/CWilsonTSP/cathen/blob/master/cathen/06221a.htm).
+- Benedict XVI, homily at Assisi, 17 June 2007. [Consulted Vatican text, digital mirror](https://github.com/lologhi/vatican/blob/master/benedict-xvi/homilies/2007/2007-06-17-assisi.md).
+$desc$),
+('saint-francis-of-assisi','fr','François d’Assise fonde les Frères mineurs après avoir abandonné les ambitions marchandes pour la pauvreté évangélique. Sa prédication, son service des lépreux, son amitié avec Claire et ses écrits façonnent un mouvement religieux durable, centré sur le Christ, l’humilité, la fraternité et la louange.',
+$desc$## Jeunesse et conversion
+
+François naît à Assise en 1181 ou 1182, fils du marchand drapier Pietro Bernardone et de son épouse Pica. L'incertitude de l'année ne doit pas être masquée par une date précise. Il grandit dans l'aisance, aime la compagnie et le faste, et espère se distinguer comme chevalier. Sa captivité après les combats contre Pérouse, puis la maladie, interrompent ces ambitions. Sa conversion se développe à travers plusieurs expériences plutôt qu'en un moment unique aisément isolable.
+
+Son propre Testament accorde une importance particulière aux rencontres avec des personnes atteintes de lèpre. Ce qui provoquait autrefois son dégoût devient une occasion de miséricorde et de transformation spirituelle. Les premières biographies décrivent aussi sa prière devant le crucifix de Saint-Damien, où il comprend l'ordre de réparer la maison du Christ. Il restaure d'abord des chapelles véritables. Le conflit avec son père aboutit à une renonciation publique aux biens devant l'évêque d'Assise. Ces récits associent événements remémorés et interprétation théologique ; les légendes pittoresques tardives ne constituent pas automatiquement des témoignages contemporains.
+
+## Une fraternité selon l'Évangile
+
+L'écoute des instructions évangéliques pour la mission des disciples aide François à préciser une vie de pauvreté, de pénitence et de prédication itinérante. Des compagnons le rejoignent, notamment Bernard de Quintavalle. Ils travaillent, acceptent au besoin l'aumône et cherchent à vivre sans les sécurités habituelles des possessions et du rang social. François les appelle frères mineurs, exprimant un idéal d'humilité et de service. Leur but n'est pas simplement l'austérité personnelle : la pauvreté doit les rendre libres de suivre le Christ et de rencontrer les autres en frères.
+
+Vers 1209, François sollicite l'approbation d'Innocent III pour la fraternité naissante. La permission initiale est orale ; la première forme de la règle n'a pas été conservée indépendamment. La Portioncule, près d'Assise, devient un centre important du mouvement. François est diacre, non prêtre. Claire d'Assise adopte une vie apparentée de pauvreté en 1212, et sa communauté se développe à Saint-Damien. La famille franciscaine comprend ensuite des pénitents laïcs, mais les débuts institutionnels précis de ses branches demandent davantage de prudence qu'une unique légende de fondation.
+
+## Expansion, mission et règle
+
+La croissance rapide des frères entraîne des exigences administratives et des tensions sur la mise en œuvre de l'idéal fondateur. François associe la prédication à des retraites de prière, sans opposer contemplation et service apostolique. Il se rend en Méditerranée orientale en 1219 pendant la cinquième croisade et rencontre le sultan al-Kamil en Égypte. La rencontre est historiquement attestée, mais les récits de ses paroles et de ses résultats diffèrent. Elle manifeste son désir d'annoncer le Christ au-delà d'une frontière militaire et religieuse ; elle n'établit pas la conversion du sultan.
+
+De retour en Italie, François affronte les transformations d'un ordre toujours plus étendu. Il renonce à son gouvernement direct tout en continuant d'en façonner l'esprit. La règle approuvée par Honorius III en novembre 1223 donne un cadre durable à la vie des Frères mineurs. Obéissance, chasteté et pauvreté restent centrales, avec la prière et la conduite évangélique. Des structures formelles deviennent nécessaires à une communauté croissante, mais soulèvent aussi des questions de propriété, d'étude et d'autorité qui se prolongeront après la mort du fondateur.
+
+## Dernières années et influence durable
+
+À Greccio, en 1223, François organise une célébration rappelant la pauvreté de la naissance du Christ. L'événement contribue à une expression durable de la dévotion à la Nativité. Les premiers témoignages franciscains situent en 1224, pendant sa prière à La Verna, la réception des stigmates, compris dans la tradition comme une participation corporelle aux blessures du Christ. Cette interprétation religieuse de sa vie doit être présentée comme telle, non transformée en affirmation médicale moderne sans explication. Ses dernières années sont marquées par de graves maladies et l'affaiblissement de la vue.
+
+Le Cantique des créatures loue Dieu à travers le monde créé ; son Testament rappelle les débuts de sa vocation et exhorte à la fidélité évangélique. Ces écrits distinguent ses propres priorités des portraits idéalisés ultérieurs. Son affection pour la création appartient à une vision profondément chrétienne, inséparable de l'Incarnation, de l'Eucharistie, du repentir et de l'amour des pauvres. Il meurt près de la Portioncule le 3 octobre 1226 et est canonisé en 1228. Institutions et littérature font ensuite de son bref ministère public l'un des renouveaux religieux les plus influents de l'Occident médiéval.
+
+## Sources
+
+- Catholic Encyclopedia, « St. Francis of Assisi ». [Encyclopédie historique consultée, miroir](https://github.com/CWilsonTSP/cathen/blob/master/cathen/06221a.htm).
+- Benoît XVI, homélie à Assise, 17 juin 2007. [Texte du Vatican consulté, miroir numérique](https://github.com/lologhi/vatican/blob/master/benedict-xvi/homilies/2007/2007-06-17-assisi.md).
+$desc$),
+('saint-francis-of-assisi','la','Franciscus Assisiensis, ambitionibus mercatoriis relictis, paupertatem evangelicam amplexus Fratres Minores condidit. Praedicatio, ministerium apud leprosos, amicitia cum Clara et scripta eius motum religiosum permanentem formarunt, in Christi sequela, humilitate, fraternitate et laude fundatum.',
+$desc$## Iuventus et conversio
+
+Franciscus Assisii anno 1181 vel 1182 natus est, filius Petri Bernardone pannorum mercatoris et Picae uxoris. Incertitudo anni certa die natalicia assignata occultanda non est. In familia prospera crevit, societatem et splendorem amavit atque equestri gloria distingui speravit. Captivitas post bellum contra Perusinos et subsequens morbus has ambitiones interruperunt. Conversio eius per plures experientias crevit, non uno momento facile separando.
+
+Testamentum ipsius occursibus cum lepra laborantibus peculiare pondus tribuit. Quod antea fastidium movebat, misericordiae et mutationis spiritualis occasio factum est. Primae vitae etiam orationem coram crucifixo Sancti Damiani describunt, ubi Christi domum reparare se iussum intellexit. Initio vera sacella restauravit. Conflictus cum patre in publica bonorum renuntiatione coram episcopo Assisiensi culminavit. Hae narrationes memoriam rerum cum interpretatione theologica coniungunt; posteriores fabulae ornatae non statim testimonia coaetanea habendae sunt.
+
+## Fraternitas secundum Evangelium
+
+Auditis Evangelii praeceptis de discipulorum missione, Franciscus vitam paupertatis, paenitentiae et praedicationis itinerantis definivit. Socii, inter quos Bernardus de Quintavalle, accesserunt. Laborabant, eleemosynas si opus erat accipiebant et sine securitate possessionum atque dignitatis vivere quaerebant. Franciscus eos fratres minores appellavit, humilitatis et servitii propositum exprimens. Non sola austeritas privata petebatur: paupertas eos liberos reddere debebat ad Christum sequendum et alios ut fratres adeundos.
+
+Circa annum 1209 Franciscus approbationem Innocentii III pro nascenti fraternitate petivit. Prima licentia ore data est; primitiva regulae forma separatim non superest. Portiuncula prope Assisium magni momenti sedes facta est. Franciscus diaconus, non sacerdos, erat. Clara Assisiensis anno 1212 similem paupertatis vitam suscepit, eiusque communitas apud Sanctum Damianum crevit. Familia Franciscana postea etiam paenitentes laicos comprehendit; certa tamen initia institutionum diversarum maiorem cautelam exigunt quam una fundationis legenda praebet.
+
+## Incrementum, missio et regula
+
+Celer fratrum numeri auctus administrationis necessitates et controversias de proposito fundatoris servando peperit. Franciscus praedicationem cum recessibus ad orationem coniunxit, contemplationem et ministerium apostolicum minime opposita habens. Anno 1219, quinta expeditione cruciata durante, ad orientalem Mediterranei regionem profectus est et soldanum al-Kamil in Aegypto convenit. Occursus historice testatus est, sed narrationes sermonum et eventuum differunt. Desiderium eius Christum ultra fines militares et religiosos annuntiandi demonstrat; soldani conversionem non probat.
+
+In Italiam reversus, mutationes intra ordinem crescentem invenit. Directum regimen deposuit, spiritualem tamen indolem formare pergens. Regula ab Honorio III mense Novembri 1223 approbata stabilem formam vitae Fratrum Minorum dedit. Oboedientia, castitas et paupertas, una cum oratione et conversatione evangelica, principatum tenuerunt. Structurae ordinatae crescenti communitati necessariae erant; simul quaestiones de possessionibus, studio et auctoritate aperuerunt quae post mortem fundatoris permanserunt.
+
+## Ultimi anni et auctoritas permanens
+
+Graecii anno 1223 Franciscus celebrationem paupertatem nativitatis Christi commemorantem instituit. Eventus devotioni erga Nativitatem stabilem expressionem dedit. Prima testimonia Franciscana anno 1224, dum in monte Alvernia orabat, receptionem stigmatum collocant, quae traditio ut corporalem Christi vulnerum participationem intellegit. Hoc ad religiosam vitae eius interpretationem pertinet et ita indicandum est, non in assertionem medicam hodiernam sine explicatione mutandum. Ultimi anni gravibus morbis et debilitata visione signati sunt.
+
+Canticum creaturarum Deum per mundum creatum laudat; Testamentum vocationis initia commemorat et ad Evangelii fidelitatem hortatur. Haec scripta proprias Francisci curas a posterioribus imaginibus idealibus distinguunt. Amor creationis intra visionem penitus christianam manebat, ab Incarnatione, Eucharistia, paenitentia et pauperum dilectione inseparabilem. Prope Portiunculam die 3 Octobris 1226 mortuus est et anno 1228 canonizatus. Institutiones et litterae subsequentes breve eius ministerium publicum inter efficacissimas renovationes religiosas Occidentis mediaevalis collocaverunt.
+
+## Fontes
+
+- Catholic Encyclopedia, “St. Francis of Assisi.” [Encyclopaedia historica consulta, exemplar digitale](https://github.com/CWilsonTSP/cathen/blob/master/cathen/06221a.htm).
+- Benedictus XVI, homilia Assisii, 17 Iunii 2007. [Textus Vaticanus consultus, exemplar digitale](https://github.com/lologhi/vatican/blob/master/benedict-xvi/homilies/2007/2007-06-17-assisi.md).
+$desc$),
+('saint-faustina-kowalska','en','Faustina Kowalska was a Polish Sister of Our Lady of Mercy whose writings presented confidence in divine mercy as a call to prayer, conversion, and compassion. Her hidden community service and reported mystical experiences shaped a devotion recognized throughout the Catholic Church.',
+$desc$## Origins and religious vocation
+
+Faustina Kowalska was born in the Polish village of Głogowiec on 25 August 1905. Her family was poor, rural, and deeply attached to Christian faith. The official decree of her canonization emphasizes that she desired consecrated life from childhood but could not immediately follow that desire. At sixteen she left home to earn her living in domestic service. These beginnings are essential to understanding her later life: her spiritual influence did not arise from social prominence, extensive schooling, or a public teaching office.
+
+In 1925 she entered the Congregation of the Sisters of Our Lady of Mercy in Warsaw. The congregation worked in the education and care of girls and women experiencing serious difficulties. After the novitiate she made religious vows and served in several houses. Her ordinary duties included cooking, gardening, and answering the door. Such work was not a temporary interruption before a more important career. It remained the daily setting in which she understood her consecration and sought to practice fidelity, patience, and kindness.
+
+## Mercy in an ordinary life
+
+Faustina's testimony centers on the mercy of God made known in Jesus Christ. She understood herself as called to remind others of that mercy and to encourage confidence even among those burdened by sin or despair. This message did not propose indifference to moral responsibility. Trust was associated with conversion, prayer, and a readiness to receive forgiveness. Her own desire for holiness took the form of depending on grace while attending conscientiously to the responsibilities of communal life.
+
+The canonization decree equally insists on mercy toward other people. Receiving divine mercy and exercising compassion are presented as inseparable movements of Christian life. Faustina wanted her conduct to reflect the merciful heart of Christ, not simply to communicate a religious idea. Humble work, obedience, care for those nearby, and prayer for people who had lost hope were practical expressions of that intention. The significance of her vocation therefore cannot be reduced to unusual experiences or to the later public success of a devotion.
+
+## Writings and mystical testimony
+
+Her spiritual notebook, commonly known as the Diary, records prayer, reflections, and experiences that she attributed to Christ. These texts are a primary witness to how she understood her mission; reported revelations should be described as her testimony and as matters of Catholic spiritual discernment, not as independently documented conversations. The Church's recognition of her holiness does not turn every remembered circumstance into an ordinary historical observation. It places her message within the already received Christian proclamation of God's mercy.
+
+The official account describes exceptional spiritual gifts lived beneath an outwardly simple manner of life. It also stresses her devotion to the Eucharist and to the mother of Jesus. Her religious identity was grounded in the sacraments, the Church, and the rule of her congregation. The mercy she proclaimed was not an alternative religion or a private path detached from ecclesial life. Her writings would eventually reach a much larger audience than anything available to her during her years of work in convent kitchens and gardens.
+
+## Suffering, death, and recognition
+
+In 1934 Faustina offered herself to God for sinners, especially those who had despaired of divine help. The canonization decree connects this offering with prayer, sacrifice, and obedience rather than with a claim that suffering is valuable in isolation. Spiritual trials accompanied bodily illness. Tuberculosis progressively weakened her, and she died in Kraków on 5 October 1938, aged thirty-three. The official account interprets her endurance through union with Christ; the underlying historical fact is a young religious woman's prolonged illness and early death.
+
+Karol Wojtyła opened her cause while archbishop of Kraków. As Pope John Paul II he beatified her on 18 April 1993 and canonized her on 30 April 2000. The canonization followed the investigations required by ecclesiastical law, including examination of a healing attributed to her intercession. These are the Church's judgments within its process of recognizing saints. The decree recommends both confidence in God's mercy and active mercy toward others. Read in that context, Faustina's enduring importance lies not in the contrast between a humble education and worldwide renown alone, but in the relationship she expressed between trust, conversion, and compassionate action.
+
+## Sources
+
+- John Paul II, Dominus Deus, decree of canonization, 30 April 2000, published in Acta Apostolicae Sedis 93 (2001), pp. 585–588. [Consulted Vatican Latin text, digital mirror](https://github.com/lologhi/vatican/blob/master/john-paul-ii/apost_letters/2000/2000-04-30-dominus-deus.latin.md).
+$desc$),
+('saint-faustina-kowalska','fr','Faustine Kowalska, sœur polonaise de Notre-Dame de la Miséricorde, présente dans ses écrits la confiance en la miséricorde divine comme un appel à la prière, à la conversion et à la compassion. Son service discret et ses expériences mystiques rapportées nourrissent une dévotion reconnue dans l’Église catholique.',
+$desc$## Origines et vocation religieuse
+
+Faustine Kowalska naît dans le village polonais de Głogowiec le 25 août 1905. Sa famille paysanne est pauvre et profondément attachée à la foi chrétienne. Le décret officiel de canonisation souligne qu'elle désire la vie consacrée dès l'enfance, sans pouvoir immédiatement réaliser ce désir. À seize ans, elle quitte le foyer pour gagner sa vie comme domestique. Ces débuts éclairent sa vie ultérieure : son influence spirituelle ne vient ni d'une position sociale éminente, ni d'une longue scolarité, ni d'une charge publique d'enseignement.
+
+En 1925, elle entre dans la congrégation des Sœurs de Notre-Dame de la Miséricorde à Varsovie. La congrégation se consacre à l'éducation et à l'accompagnement de jeunes filles et de femmes en grande difficulté. Après le noviciat, elle prononce ses vœux et sert dans plusieurs maisons. Ses tâches habituelles comprennent la cuisine, le jardinage et la porterie. Ce travail n'est pas une interruption provisoire avant une carrière plus importante. Il demeure le cadre quotidien où elle comprend sa consécration et s'efforce de pratiquer fidélité, patience et bonté.
+
+## La miséricorde dans une vie ordinaire
+
+Le témoignage de Faustine est centré sur la miséricorde de Dieu manifestée en Jésus-Christ. Elle se croit appelée à la rappeler et à encourager la confiance, même chez les personnes accablées par le péché ou le désespoir. Ce message ne propose pas l'indifférence à la responsabilité morale. La confiance s'associe à la conversion, à la prière et à l'accueil du pardon. Son désir de sainteté prend la forme d'une dépendance envers la grâce, accompagnée d'une attention consciencieuse aux responsabilités communautaires.
+
+Le décret de canonisation insiste également sur la miséricorde envers autrui. Recevoir la miséricorde divine et exercer la compassion y apparaissent comme des mouvements inséparables de la vie chrétienne. Faustine veut refléter dans sa conduite le cœur miséricordieux du Christ, non simplement transmettre une idée religieuse. Travail humble, obéissance, sollicitude pour les proches et prière pour les désespérés expriment concrètement cette intention. Sa vocation ne peut donc être réduite à des expériences extraordinaires ni au succès public ultérieur d'une dévotion.
+
+## Écrits et témoignage mystique
+
+Son cahier spirituel, généralement appelé Petit Journal, contient prières, réflexions et expériences qu'elle attribue au Christ. Ces textes témoignent directement de sa compréhension de sa mission ; les révélations rapportées doivent être décrites comme son témoignage et comme objets du discernement spirituel catholique, non comme des conversations indépendamment documentées. La reconnaissance de sa sainteté ne transforme pas chaque circonstance remémorée en observation historique ordinaire. Elle situe son message dans l'annonce chrétienne déjà reçue de la miséricorde de Dieu.
+
+Le récit officiel décrit des dons spirituels exceptionnels vécus sous les apparences d'une vie simple. Il souligne aussi sa dévotion à l'Eucharistie et à la mère de Jésus. Son identité religieuse s'enracine dans les sacrements, l'Église et la règle de sa congrégation. La miséricorde annoncée n'est ni une religion de remplacement ni une voie privée détachée de la vie ecclésiale. Ses écrits atteindront finalement un public bien plus vaste que celui auquel elle pouvait accéder pendant ses années de travail dans les cuisines et jardins conventuels.
+
+## Souffrance, mort et reconnaissance
+
+En 1934, Faustine s'offre à Dieu pour les pécheurs, particulièrement ceux qui désespèrent de son secours. Le décret relie cette offrande à la prière, au sacrifice et à l'obéissance, non à l'idée que la souffrance aurait une valeur isolément. Des épreuves spirituelles accompagnent la maladie corporelle. La tuberculose l'affaiblit progressivement, et elle meurt à Cracovie le 5 octobre 1938, à trente-trois ans. Le récit officiel interprète son endurance par l'union au Christ ; le fait historique sous-jacent est la longue maladie et la mort précoce d'une jeune religieuse.
+
+Karol Wojtyła ouvre sa cause alors qu'il est archevêque de Cracovie. Devenu Jean-Paul II, il la béatifie le 18 avril 1993 et la canonise le 30 avril 2000. La canonisation suit les enquêtes prescrites par le droit ecclésiastique, dont l'examen d'une guérison attribuée à son intercession. Ce sont des jugements de l'Église dans sa procédure de reconnaissance des saints. Le décret recommande la confiance en Dieu et la miséricorde active envers autrui. Dans ce contexte, l'importance durable de Faustine tient moins au seul contraste entre instruction modeste et renommée mondiale qu'au lien qu'elle exprime entre confiance, conversion et action compatissante.
+
+## Sources
+
+- Jean-Paul II, Dominus Deus, décret de canonisation, 30 avril 2000, publié dans Acta Apostolicae Sedis 93 (2001), p. 585–588. [Texte latin du Vatican consulté, miroir numérique](https://github.com/lologhi/vatican/blob/master/john-paul-ii/apost_letters/2000/2000-04-30-dominus-deus.latin.md).
+$desc$),
+('saint-faustina-kowalska','la','Faustina Kowalska, soror Polonica Beatae Mariae Virginis a Misericordia, fiduciam divinae misericordiae in scriptis suis tamquam vocationem ad orationem, conversionem et compassionem proposuit. Humile ministerium et experientiae mysticae ab ea relatae devotionem per Ecclesiam catholicam agnitam aluerunt.',
+$desc$## Origines et vocatio religiosa
+
+Faustina Kowalska in pago Polonico Głogowiec die 25 Augusti 1905 nata est. Familia eius rustica, pauper et fidei christianae valde devota erat. Decretum canonizationis affirmat eam a pueritia vitam consecratam desideravisse, quamvis desiderium statim implere non posset. Sedecim annos nata domum reliquit ut famula victum quaereret. Haec initia vitam posteriorem illustrant: auctoritas spiritualis eius non ex dignitate sociali, ampla institutione vel publico docendi munere orta est.
+
+Anno 1925 Varsaviae Congregationem Sororum Beatae Mariae Virginis a Misericordia ingressa est. Congregatio institutioni et curae puellarum mulierumque gravibus difficultatibus affectarum operam dabat. Novitiatu expleto, vota emisit et in variis domibus ministravit. Cotidiana officia coquae, hortulanae et ianitricis explebat. Hic labor non breve intervallum ante maiorem curriculum erat. Cotidianus contextus permansit in quo consecrationem intellegebat et fidelitatem, patientiam atque benignitatem exercere studebat.
+
+## Misericordia in vita communi
+
+Testimonium Faustinae misericordiam Dei in Iesu Christo manifestatam in medio ponit. Vocatam se intellegebat ut eam aliis memoraret et fiduciam etiam peccato vel desperatione oppressis inculcaret. Nuntius neglegentiam officii moralis non proponebat. Fiducia cum conversione, oratione et promptitudine ad veniam accipiendam coniungebatur. Sanctitatis desiderium in gratiae dependentia et diligenti munerum communitatis cura exprimebat.
+
+Decretum canonizationis misericordiam erga alios pariter inculcat. Misericordiam divinam accipere et compassionem exercere motus inseparabiles vitae christianae proponuntur. Faustina conversationem suam cor misericors Christi referre volebat, non tantum notionem religiosam communicare. Humilis labor, oboedientia, cura proximorum et oratio pro spe destitutis hanc voluntatem actu exprimebant. Significatio vocationis eius igitur nec ad experientias extraordinarias nec ad publicum devotionis successum posteriorem redigi potest.
+
+## Scripta et testimonium mysticum
+
+Libellus spiritualis eius, Diarium vulgo dictus, orationes, considerationes et experientias quas Christo tribuebat continet. Haec scripta primarium testimonium praebent quomodo missionem suam intellexerit; revelationes relatae ut testimonium eius et res catholicae discretionis spiritualis describendae sunt, non ut colloquia independenter comprobata. Ecclesiae sanctitatis recognitio non quamlibet circumstantiam memoria retentam in observationem historicam communem convertit. Nuntium eius intra iam receptam misericordiae Dei praedicationem christianam collocat.
+
+Narratio officialis singularia dona spiritualia sub simplici vitae specie exercita describit. Devotionem eius erga Eucharistiam et Iesu matrem etiam extollit. Identitas religiosa eius in sacramentis, Ecclesia et congregationis regula fundabatur. Misericordia quam annuntiabat non alia religio neque privata via a vita ecclesiali separata erat. Scripta eius postea multo plures lectores attigerunt quam quos annis laboris in culinis hortisque conventuum attingere poterat.
+
+## Dolor, mors et recognitio
+
+Anno 1934 Faustina se Deo pro peccatoribus obtulit, praesertim pro eis qui divinum auxilium desperaverant. Decretum hanc oblationem cum oratione, sacrificio et oboedientia coniungit, non cum sententia dolorem separatim pretiosum esse. Probationes spirituales morbum corporis comitabantur. Phthisis eam paulatim debilitavit, et Cracoviae die 5 Octobris 1938 mortua est, annos triginta tres nata. Narratio officialis patientiam per unionem cum Christo interpretatur; res historica subiacens est diuturnus morbus et praematura mors iuvenis religiosae.
+
+Carolus Wojtyła causam eius incohavit dum archiepiscopus Cracoviensis erat. Papa Ioannes Paulus II eam die 18 Aprilis 1993 beatificavit et die 30 Aprilis 2000 canonizavit. Canonizatio inquisitiones iure ecclesiastico praescriptas secuta est, incluso examine sanationis intercessioni eius tributae. Haec sunt Ecclesiae iudicia intra processum sanctorum agnoscendorum. Decretum et fiduciam misericordiae Dei et actuosam misericordiam erga alios commendat. Ita intellecta, permanentis momenti eius ratio non solum in humili institutione et fama universali, sed in nexu quem inter fiduciam, conversionem et compassionis opera expressit invenitur.
+
+## Fontes
+
+- Ioannes Paulus II, Dominus Deus, decretum canonizationis, 30 Aprilis 2000, in Acta Apostolicae Sedis 93 (2001), pp. 585–588. [Textus Vaticanus Latinus consultus, exemplar digitale](https://github.com/lologhi/vatican/blob/master/john-paul-ii/apost_letters/2000/2000-04-30-dominus-deus.latin.md).
+$desc$)
+) AS x(slug,locale,short_description,full_biography) ON s.slug=x.slug
+WHERE st.saint_id=s.id AND st.locale_code=x.locale;
+UPDATE saint_translations AS st
+SET short_description=x.short_description, full_biography=x.full_biography
+FROM saints AS s JOIN (VALUES
+('saint-bruno','en','Bruno of Cologne was a teacher and priest who founded the community at the Grande Chartreuse in 1084. After assisting Pope Urban II, he returned to solitude in Calabria, establishing a contemplative life that became the foundation of the Carthusian tradition.',
+$desc$## Scholar and priest
+
+Bruno was born at Cologne about 1030. Little reliable information survives about his childhood, and the traditional identification of his family is less secure than the outline of his later career. He studied at Reims, whose cathedral school offered training in classical learning, Scripture, and theology. After a period associated with Cologne, he returned to Reims and became a distinguished teacher. From the middle of the eleventh century he directed the cathedral school, forming pupils who would later occupy important ecclesiastical positions.
+
+Among those pupils was Odo of Châtillon, the future Pope Urban II. Contemporary commemorations praise Bruno's learning and the effectiveness of his teaching. His later choice of solitude should therefore not be imagined as the retreat of someone unfamiliar with intellectual or public responsibilities. He had experience of education, clerical society, and diocesan administration. Appointed chancellor of the church of Reims in 1075, he became involved in the struggle to reform its government under Archbishop Manasses de Gournai.
+
+## Reform and the search for solitude
+
+Bruno and other canons opposed the archbishop's conduct and presented complaints to ecclesiastical authorities. The conflict brought retaliation, including the loss of property and security, before Manasses was finally removed. Bruno himself was considered for the episcopate, but he was seeking a different way of life. His surviving letter to Raoul le Vert recalls a shared resolve to abandon worldly distractions and pursue the things of God. This provides a more credible context for his decision than the much later story of a dead Parisian scholar miraculously speaking at his funeral.
+
+After time near Molesme and Sèche-Fontaine, Bruno and six companions approached Hugh, bishop of Grenoble. In 1084 they settled in the mountainous region of Chartreuse. Their life joined individual solitude to a common religious framework. Prayer, study, simplicity, and poverty were central. They were not merely unrelated hermits occupying the same landscape, nor did they reproduce an ordinary large monastery. The arrangement made room for sustained withdrawal while maintaining the bonds necessary for worship and mutual support.
+
+## Service to the pope and Calabria
+
+Urban II summoned his former teacher to assist the Apostolic See around 1090. Bruno obeyed, leaving the solitude he valued. The precise extent of his influence at the papal court is difficult to reconstruct; later accounts should not fill that uncertainty by assigning him responsibility for every major policy of the period. His presence nevertheless places him within the reforming Church of the late eleventh century. The pope faced conflict with imperial power and a rival claimant to the papacy, circumstances far removed from the quiet of Chartreuse.
+
+Bruno declined the archiepiscopal see of Reggio and eventually obtained permission to resume a solitary life, though in southern Italy rather than among his original companions. In Calabria he established another community, supported by Count Roger. The settlements associated with Santa Maria della Torre and Santo Stefano preserved the same fundamental search for God in retirement. His letters show that separation did not mean indifference to friends or to the first community. He remained concerned for their perseverance, their obedience, and the spiritual value of the vocation they shared.
+
+## Death and the Carthusian inheritance
+
+Bruno died on 6 October 1101. A profession of faith transmitted from his final days emphasizes the Trinity and the Eucharist. After his death a memorial roll traveled among religious communities, collecting notices and prayers. These testimonies are important evidence for the reputation he enjoyed as both teacher and contemplative. They are commemorative texts, however, and their praise must be read according to that purpose rather than mistaken for a continuous biography containing every detail of his life.
+
+Bruno did not leave the later Carthusian order fully organized in its mature legal form. His foundational contribution was a lived pattern of solitude, prayer, fraternity, and fidelity that successors would articulate more systematically. His cult was authorized for the Carthusians in 1514 and extended more widely in the seventeenth century; this history differs from a modern canonization ceremony. The contrast between his learned public career and his desire for hiddenness explains much of his significance. He did not reject the Church's intellectual or pastoral work, but witnessed to a contemplative vocation that remained available for service without losing its distinct character.
+
+## Sources
+
+- Catholic Encyclopedia, “St. Bruno” (1030–1101). [Consulted historical encyclopedia mirror](https://github.com/CWilsonTSP/cathen/blob/master/cathen/03014b.htm).
+$desc$),
+('saint-bruno','fr','Bruno de Cologne, prêtre et maître d’école, fonde la communauté de la Grande Chartreuse en 1084. Après avoir assisté le pape Urbain II, il retrouve la solitude en Calabre, établissant une vie contemplative devenue le fondement de la tradition cartusienne.',
+$desc$## Savant et prêtre
+
+Bruno naît à Cologne vers 1030. Peu de renseignements fiables subsistent sur son enfance, et l'identification traditionnelle de sa famille est moins assurée que les grandes lignes de sa carrière. Il étudie à Reims, dont l'école cathédrale dispense une formation classique, scripturaire et théologique. Après une période liée à Cologne, il revient à Reims et devient un maître réputé. À partir du milieu du XIe siècle, il dirige l'école cathédrale et forme des élèves qui exerceront ensuite d'importantes responsabilités ecclésiastiques.
+
+Parmi eux figure Eudes de Châtillon, futur pape Urbain II. Les témoignages commémoratifs contemporains louent le savoir de Bruno et la fécondité de son enseignement. Son choix ultérieur de solitude ne doit donc pas être imaginé comme le retrait d'un homme ignorant les responsabilités intellectuelles ou publiques. Il connaît l'éducation, le milieu clérical et l'administration diocésaine. Nommé chancelier de l'Église de Reims en 1075, il participe à la lutte pour réformer son gouvernement sous l'archevêque Manassès de Gournai.
+
+## Réforme et recherche de solitude
+
+Bruno et d'autres chanoines s'opposent à la conduite de l'archevêque et présentent leurs plaintes aux autorités ecclésiastiques. Le conflit entraîne des représailles, notamment la perte de biens et de sécurité, avant la destitution de Manassès. Bruno est lui-même envisagé pour l'épiscopat, mais cherche une autre vie. Sa lettre conservée à Raoul le Vert rappelle une résolution commune d'abandonner les distractions mondaines pour rechercher Dieu. Elle fournit un contexte plus crédible que le récit beaucoup plus tardif d'un savant parisien mort parlant miraculeusement à ses funérailles.
+
+Après un séjour près de Molesme et de Sèche-Fontaine, Bruno et six compagnons s'adressent à Hugues, évêque de Grenoble. En 1084, ils s'établissent dans les montagnes de Chartreuse. Leur vie unit solitude personnelle et cadre religieux commun. Prière, étude, simplicité et pauvreté en constituent le centre. Ils ne sont ni des ermites sans liens partageant un paysage, ni la reproduction d'un grand monastère ordinaire. Cette organisation permet un retrait durable tout en maintenant les liens nécessaires au culte et à l'entraide.
+
+## Service du pape et Calabre
+
+Vers 1090, Urbain II appelle son ancien maître au service du Siège apostolique. Bruno obéit et quitte sa chère solitude. L'étendue précise de son influence à la cour pontificale reste difficile à établir ; il ne faut pas combler cette incertitude en lui attribuant chaque grande politique de l'époque. Sa présence le situe néanmoins dans l'Église réformatrice de la fin du XIe siècle. Le pape affronte le pouvoir impérial et un prétendant rival à la papauté, circonstances bien éloignées du calme de Chartreuse.
+
+Bruno refuse l'archevêché de Reggio et obtient finalement de reprendre la vie solitaire, mais dans l'Italie méridionale plutôt qu'auprès de ses premiers compagnons. En Calabre, il établit une autre communauté avec l'appui du comte Roger. Les établissements associés à Santa Maria della Torre et Santo Stefano conservent la même recherche fondamentale de Dieu dans le retrait. Ses lettres montrent que la séparation ne signifie pas l'indifférence envers ses amis ou la première communauté. Il reste attentif à leur persévérance, à leur obéissance et à la valeur spirituelle de leur vocation commune.
+
+## Mort et héritage cartusien
+
+Bruno meurt le 6 octobre 1101. Une profession de foi transmise de ses derniers jours insiste sur la Trinité et l'Eucharistie. Après sa mort, un rouleau commémoratif circule parmi les communautés religieuses, recueillant notices et prières. Ces témoignages éclairent sa réputation de maître et de contemplatif. Ce sont toutefois des textes commémoratifs : leurs éloges doivent être lus selon cette intention, non comme une biographie continue contenant tous les détails de son existence.
+
+Bruno ne laisse pas l'ordre cartusien entièrement organisé dans sa forme juridique ultérieure. Son apport fondateur est une manière vécue de solitude, de prière, de fraternité et de fidélité que ses successeurs préciseront. Son culte est autorisé pour les chartreux en 1514 et étendu plus largement au XVIIe siècle ; cette histoire diffère d'une canonisation moderne. Le contraste entre sa carrière savante publique et son désir de vie cachée explique son importance. Il ne rejette pas le travail intellectuel ou pastoral de l'Église, mais témoigne d'une vocation contemplative disponible au service sans perdre son caractère propre.
+
+## Sources
+
+- Catholic Encyclopedia, « St. Bruno » (1030–1101). [Encyclopédie historique consultée, miroir](https://github.com/CWilsonTSP/cathen/blob/master/cathen/03014b.htm).
+$desc$),
+('saint-bruno','la','Bruno Coloniensis, sacerdos et scholarum magister, communitatem Maioris Cartusiae anno 1084 fundavit. Urbano II papae adiutorio praestito, in Calabriam ad solitudinem rediit, vitam contemplativam instituens quae fundamentum traditionis Cartusiensis facta est.',
+$desc$## Doctus et sacerdos
+
+Bruno Coloniae circa annum 1030 natus est. Pauca certa de infantia supersunt, et tradita familiae identificatio minus firma est quam posterioris vitae lineamenta. Remis studuit, ubi schola cathedralis litteras classicas, Scripturam et theologiam docebat. Post tempus Coloniae transactum, Remos reversus magister insignis factus est. A medio saeculo undecimo scholam cathedralem rexit, discipulos formans qui postea gravia munera ecclesiastica susceperunt.
+
+Inter discipulos erat Odo de Castellione, futurus Urbanus II. Commemorationes coaetaneae doctrinam Brunonis et institutionis fructus laudant. Posterior solitudinis electio igitur non quasi recessus hominis munera intellectualia vel publica ignorantis fingenda est. Institutionem, societatem clericalem et administrationem dioecesanam expertus erat. Anno 1075 cancellarius Ecclesiae Remensis factus, certamini ad eius regimen sub archiepiscopo Manasse de Gournai reformandum interfuit.
+
+## Reformatio et solitudinis desiderium
+
+Bruno aliique canonici archiepiscopi agendi rationi restiterunt et querelas auctoritatibus ecclesiasticis detulerunt. Conflictus ultiones, etiam bonorum et securitatis amissionem, attulit antequam Manasses tandem remotus est. Bruno ipse ad episcopatum considerabatur, sed aliam vitam quaerebat. Epistula eius ad Radulfum Viridem propositum commune memorat saeculi distractiones relinquendi et divina quaerendi. Haec probabiliorem decisionis contextum praebet quam multo posterior fabula doctoris Parisiensis mortui in funere mirabiliter loquentis.
+
+Post commorationem prope Molismum et Siccum Fontem, Bruno cum sex sociis Hugonem episcopum Gratianopolitanum adiit. Anno 1084 in montibus Cartusiae consederunt. Vita eorum solitudinem singulorum cum communi disciplina religiosa coniungebat. Oratio, studium, simplicitas et paupertas principatum habebant. Non erant eremitae sine vinculis eundem locum occupantes, neque magnum monasterium commune repetebant. Forma eorum diuturnum recessum cum vinculis cultui et mutuo auxilio necessariis conciliabat.
+
+## Ministerium papae et Calabria
+
+Urbanus II circa annum 1090 antiquum magistrum ad Sedem Apostolicam adiuvandam vocavit. Bruno oboedivit, dilectam solitudinem relinquens. Certa amplitudo auctoritatis eius in curia pontificia difficulter restituitur; posteriores narrationes hanc incertitudinem non debent implere omnem consilium grave temporis ei tribuendo. Praesentia tamen eius in Ecclesiae reformantis vita eum collocat. Papa potestati imperiali et aemulo pontificatus resistebat, condicionibus a quiete Cartusiae valde remotis.
+
+Bruno sedem archiepiscopalem Rheginam recusavit et tandem licentiam vitae solitariae resumendae obtinuit, sed in Italia meridionali, non inter primos socios. In Calabria aliam communitatem, Rogerio comite adiuvante, condidit. Sedes Sanctae Mariae de Turri et Sancti Stephani eandem Dei in recessu quaerendi intentionem servaverunt. Epistulae ostendunt separationem non neglegentiam amicorum vel primae communitatis significasse. Perseverantiam, oboedientiam et spiritualem communis vocationis valorem curare pergebat.
+
+## Mors et hereditas Cartusiensis
+
+Bruno die 6 Octobris 1101 mortuus est. Professio fidei ex ultimis diebus transmissa Trinitatem et Eucharistiam extollit. Post mortem rotulus memorialis inter communitates religiosas iter fecit, testimonia et preces colligens. Haec magni momenti sunt ad famam eius magistri et contemplativi cognoscendam. Sunt tamen scripta commemorativa, quorum laudes secundum propositum suum legendae sunt, non quasi continua biographia omnia vitae singularia continens.
+
+Bruno ordinem Cartusiensem in posteriore perfecta forma iuridica ordinatum non reliquit. Contributio eius fundatoria fuit vivendi forma solitudinis, orationis, fraternitatis et fidelitatis, quam successores distinctius exposuerunt. Cultus eius Cartusiensibus anno 1514 concessus et saeculo septimo decimo latius extensus est; haec historia a canonizationis caeremonia hodierna differt. Discrimen inter publicum curriculum doctum et vitae absconditae desiderium momentum eius explicat. Laborem intellectualem vel pastoralem Ecclesiae non reiecit, sed vocationem contemplativam testatus est quae ad ministerium parata maneret sine propria indole amittenda.
+
+## Fontes
+
+- Catholic Encyclopedia, “St. Bruno” (1030–1101). [Encyclopaedia historica consulta, exemplar digitale](https://github.com/CWilsonTSP/cathen/blob/master/cathen/03014b.htm).
+$desc$),
+('saint-denis','en','Denis is venerated as an early bishop and martyr of Paris, together with Rusticus and Eleutherius. His historical outline is brief; later legends and his mistaken identification with Dionysius the Areopagite must be distinguished from the ancient memory of his witness.',
+$desc$## A bishop remembered at Paris
+
+Denis, the French form of Dionysius, is remembered as an early bishop of Paris who died for the Christian faith. His origins, childhood, and exact chronology cannot be securely reconstructed. A traditional account places his mission to Gaul in the third century and associates him with the priest Rusticus and the deacon Eleutherius. The sources do not justify precise birth or death dates. The Catholic Encyclopedia itself preserves differing chronological indications while acknowledging the legendary character of the surviving narrative.
+
+Gregory of Tours, writing in the sixth century, places Denis among the missionaries associated with the evangelization of Gaul and says that the bishop of Paris suffered and was killed by the sword for Christ. This is important evidence for the memory of his martyrdom, but it is not contemporary testimony to every event of his ministry. The later Passion of Denis and his companions dates from the late sixth or early seventh century and elaborates their preaching, arrest, sufferings, and burial.
+
+## Martyrdom and developing tradition
+
+The Passion describes missionary work near the Seine and execution after refusal to abandon the faith. Its named officials, sequences of torture, and dramatic episodes cannot all be treated as independently verified history. The famous account that Denis carried his severed head belongs to hagiographic tradition, not to a securely recoverable description of the execution. Likewise, accounts assigning exact locations and itineraries need to be read in the context of the sanctuaries that preserved his memory.
+
+The cult of Denis and his companions became attached to their burial place north of Paris. A church and eventually a major basilica and monastery developed there. Under the Merovingian kings, especially Dagobert, Saint-Denis acquired increasing importance. This later institutional history is much better documented than the martyr's own lifetime. It explains how the memory of a local bishop became deeply involved in the religious and political history of the Frankish and French kingdoms.
+
+## Distinguishing three different figures
+
+Medieval writers identified Denis of Paris with Dionysius the Areopagite, the Athenian convert mentioned in Acts 17, and with the author now called Pseudo-Dionysius, whose theological works belong to late antiquity. These are not the same person. Hilduin, abbot of Saint-Denis in the ninth century, helped establish the conflation in a highly influential narrative. The prestige of the Areopagitic writings strengthened the resulting tradition.
+
+Separating these figures does not erase the ancient veneration of the Parisian martyr. It clarifies what can responsibly be said about him. Denis's place in Christian memory rests on episcopal witness, the transmission of the Gospel, and martyrdom, not on authorship of writings from another period or on an apostolic-era biography that the evidence cannot sustain. The brevity of a reliable account reflects genuine limits in the sources rather than an invitation to supply a more detailed imagined life.
+
+## Sources
+
+- Catholic Encyclopedia, “St. Denis,” including discussion of Gregory of Tours, the Passion, and Hilduin. [Consulted historical encyclopedia mirror](https://github.com/CWilsonTSP/cathen/blob/master/cathen/04721a.htm).
+$desc$),
+('saint-denis','fr','Denis est vénéré comme un ancien évêque et martyr de Paris, avec Rustique et Éleuthère. Sa biographie historique reste brève ; les légendes tardives et son identification erronée avec Denys l’Aréopagite doivent être distinguées de la mémoire ancienne de son témoignage.',
+$desc$## Un évêque dans la mémoire parisienne
+
+Denis, forme française de Dionysius, est tenu pour un ancien évêque de Paris mort pour la foi chrétienne. Ses origines, son enfance et sa chronologie exacte ne peuvent être reconstituées avec certitude. Un récit traditionnel situe sa mission en Gaule au IIIe siècle et l'associe au prêtre Rustique et au diacre Éleuthère. Les sources n'autorisent pas des dates précises de naissance ou de mort. La Catholic Encyclopedia conserve elle-même des indications chronologiques différentes tout en reconnaissant le caractère légendaire du récit transmis.
+
+Grégoire de Tours, au VIe siècle, place Denis parmi les missionnaires liés à l'évangélisation de la Gaule et affirme que l'évêque de Paris a souffert et péri par le glaive pour le Christ. C'est un témoignage important sur la mémoire de son martyre, non un témoignage contemporain de chaque événement de son ministère. La Passion de Denis et de ses compagnons, de la fin du VIe ou du début du VIIe siècle, développe leur prédication, leur arrestation, leurs souffrances et leur sépulture.
+
+## Martyre et développement de la tradition
+
+La Passion décrit une activité missionnaire près de la Seine et une exécution après le refus d'abandonner la foi. Ses fonctionnaires nommés, ses séries de tortures et ses épisodes dramatiques ne peuvent tous être considérés comme des faits indépendamment vérifiés. Le célèbre récit de Denis portant sa tête coupée relève de la tradition hagiographique, non d'une description assurée de l'exécution. De même, les localisations et itinéraires précis doivent être lus dans le contexte des sanctuaires qui ont conservé sa mémoire.
+
+Le culte de Denis et de ses compagnons s'attache à leur sépulture au nord de Paris. Une église, puis une grande basilique et un monastère, s'y développent. Sous les rois mérovingiens, particulièrement Dagobert, Saint-Denis acquiert une importance croissante. Cette histoire institutionnelle postérieure est beaucoup mieux documentée que la vie du martyr. Elle explique comment la mémoire d'un évêque local devient profondément liée à l'histoire religieuse et politique des royaumes francs et français.
+
+## Distinguer trois personnages
+
+Des auteurs médiévaux identifient Denis de Paris à Denys l'Aréopagite, converti athénien mentionné en Actes 17, et à l'auteur aujourd'hui appelé Pseudo-Denys, dont les œuvres théologiques appartiennent à l'Antiquité tardive. Il ne s'agit pas du même homme. Hilduin, abbé de Saint-Denis au IXe siècle, contribue à établir cette confusion dans un récit très influent. Le prestige des écrits aréopagitiques renforce la tradition qui en résulte.
+
+Distinguer ces personnages n'efface pas la vénération ancienne du martyr parisien. Cela précise ce qui peut être affirmé avec rigueur. La place de Denis dans la mémoire chrétienne repose sur le témoignage épiscopal, la transmission de l'Évangile et le martyre, non sur des ouvrages d'une autre époque ni sur une biographie apostolique que les preuves ne soutiennent pas. La brièveté d'un récit fiable reflète les limites réelles des sources ; elle n'invite pas à inventer une vie plus détaillée.
+
+## Sources
+
+- Catholic Encyclopedia, « St. Denis », notamment l'examen de Grégoire de Tours, de la Passion et d'Hilduin. [Encyclopédie historique consultée, miroir](https://github.com/CWilsonTSP/cathen/blob/master/cathen/04721a.htm).
+$desc$),
+('saint-denis','la','Dionysius ut antiquus episcopus et martyr Parisiensis cum Rustico et Eleutherio colitur. Vitae historicae lineamenta brevia sunt; posteriores legendae et falsa cum Dionysio Areopagita identificatio ab antiqua testimonii eius memoria distinguendae sunt.',
+$desc$## Episcopus Parisiis commemoratus
+
+Dionysius, Gallice Denis, ut antiquus episcopus Parisiensis pro fide christiana mortuus commemoratur. Origines, infantia et certa temporum ratio secure restitui nequeunt. Tradita narratio missionem eius in Galliam saeculo tertio collocat eumque cum Rustico presbytero et Eleutherio diacono coniungit. Fontes certos nativitatis vel mortis dies non sustinent. Ipsa Catholic Encyclopedia diversas indicationes chronologicas servat, simul indolem fabulosam narrationis traditae agnoscens.
+
+Gregorius Turonensis, saeculo sexto scribens, Dionysium inter missionarios evangelizationi Galliae coniunctos collocat et episcopum Parisiensem pro Christo passum gladioque occisum dicit. Hoc magni momenti testimonium memoriae martyrii est, non testimonium coaetaneum omnium ministerii eventuum. Posterior Passio Dionysii sociorumque, exeunte saeculo sexto vel ineunte septimo composita, praedicationem, comprehensionem, supplicia et sepulturam amplificat.
+
+## Martyrium et traditio crescens
+
+Passio opus missionale prope Sequanam et supplicium post recusationem fidei deserendae describit. Magistratus nominati, suppliciorum series et eventus dramatici non omnes ut historia independenter comprobata accipi possunt. Celebris narratio Dionysii caput amputatum portantem ad traditionem hagiographicam pertinet, non ad certam executionis descriptionem. Item certa loca et itinera in contextu sanctuariorum memoriam servantium legenda sunt.
+
+Cultus Dionysii sociorumque sepulturae eorum ad septentrionem Parisiorum adhaesit. Ecclesia, deinde magna basilica et monasterium ibi creverunt. Sub regibus Merovingis, praesertim Dagoberto, Sanctus Dionysius crescente momento floruit. Posterior haec historia institutionum multo melius documentata est quam ipsius martyris vita. Explicat quomodo memoria episcopi localis historiae religiosae et politicae regnorum Francorum et Franciae penitus coniungeretur.
+
+## Tres personae distinguendae
+
+Scriptores mediaevales Dionysium Parisiensem cum Dionysio Areopagita, Atheniensi converso in Actibus 17 nominato, et cum auctore nunc Pseudo-Dionysio dicto, cuius opera theologica ad antiquitatem seram pertinent, identificaverunt. Non sunt eadem persona. Hilduinus, abbas Sancti Dionysii saeculo nono, hanc confusionem narratione valde influenti stabilivit. Auctoritas operum Areopagiticorum traditionem inde ortam firmavit.
+
+Has personas distinguere antiquam martyris Parisiensis venerationem non delet. Clarificat quid de eo recte dici possit. Locus Dionysii in memoria christiana testimonio episcopali, Evangelii transmissione et martyrio nititur, non operibus alterius aetatis aut biographia apostolica quam documenta non sustinent. Brevitas narrationis fidelis veros fontium limites refert, non occasionem vitae amplioris fingendae.
+
+## Fontes
+
+- Catholic Encyclopedia, “St. Denis,” cum disputatione de Gregorio Turonensi, Passione et Hilduino. [Encyclopaedia historica consulta, exemplar digitale](https://github.com/CWilsonTSP/cathen/blob/master/cathen/04721a.htm).
+$desc$)
+) AS x(slug,locale,short_description,full_biography) ON s.slug=x.slug
+WHERE st.saint_id=s.id AND st.locale_code=x.locale;
+-- END_BIOGRAPHIES_OCTOBER
+
+-- BIOGRAPHIES_NOVEMBER
+UPDATE saint_translations AS st
+SET short_description=x.short_description, full_biography=x.full_biography
+FROM saints s JOIN (VALUES
+('saint-martin-de-porres','en','Martin de Porres was a Dominican lay brother in Lima whose religious life joined prayer with the care of sick and impoverished people. His canonization presented his charity across colonial social divisions as a concrete expression of Christian fraternity.',$desc$## Life and historical setting
+
+Martin de Porres lived in Lima in the late sixteenth and early seventeenth centuries. He belonged to the Dominican community as a professed lay brother, not as an ordained priest. His place in the history of the Church rests primarily on a life of practical service rather than on books, ecclesiastical government, or public preaching. The official homily delivered at his canonization offers a particularly useful account of the qualities for which the Church recognized him.
+
+That homily is a retrospective theological portrait, not a contemporary diary. It presents Martin within a society in which people of African descent and mixed ancestry were treated as socially inferior. John XXIII specifically recalled his assistance to these groups and to agricultural workers. Such testimony identifies the social scope of his charity without permitting the reconstruction of every episode in his childhood, his relationships, or his daily work. Familiar stories about him need to be distinguished from this more securely identified ecclesial testimony.
+
+## Religious vocation and prayer
+
+According to the canonization homily, Martin displayed a simple love of God from childhood, and his entry into the Dominican community intensified that devotion. Religious profession gave enduring shape to his commitment through poverty, chastity, and obedience. John XXIII emphasized that he did not regard the fulfilment of formal requirements as sufficient: the community and its superiors remembered the consistency with which he lived his promises. His vocation was therefore understood as a complete Christian life, rather than an auxiliary role measured against priestly ministry.
+
+Prayer and service were not separate compartments of this life. Martin meditated on the sufferings of the crucified Christ and understood them as the expression of divine love for humanity. The homily describes prolonged Eucharistic adoration, a desire for frequent sacramental communion, and affection for Mary as mother. It also repeats accounts of absorption in prayer. These descriptions belong to the Church’s assessment of his spirituality; they should not be enlarged into independently established explanations of extraordinary physical phenomena.
+
+## Service to neighbours
+
+The most concrete activities recorded in the homily concern bodily need. Martin stayed beside sick people, supplied food and clothing to the poor, and obtained medicines for those who needed them. These were distinct forms of assistance: keeping company with a sufferer was not identical to distributing resources, and medical provision could not replace personal attention. Together they portray a religious brother whose charity involved both practical organization and availability to people who were easily neglected.
+
+His service also had a relational dimension. John XXIII recalled his readiness to excuse the faults of others, forgive serious injuries, and encourage people to turn away from wrongdoing. The pope connected these habits to humility, describing Martin as someone who considered others better than himself. This is the language of a Christian spiritual ideal, not an endorsement of the social humiliations imposed by colonial hierarchy. His willingness to serve people across that hierarchy expressed their dignity as children of God.
+
+## Meaning of his charity
+
+Martin’s concern extended to people whom the surrounding society treated with contempt, particularly those of African or mixed descent. The canonization homily did not describe a modern political programme or attribute institutional reforms to him. Instead, it located the significance of his actions in the conviction that other people were genuinely his brothers and sisters. John XXIII considered the practical methods of this charity unusually forward-looking for their period. That judgment should be understood as a twentieth-century appraisal of his example.
+
+Nor was his gentleness presented as an absence of religious discipline. The same account joins tenderness toward neighbours to demanding fidelity in his own life. Martin’s reputation for kindness emerged from sustained prayer, ascetic commitment, and work within a community. Remembering these together avoids reducing him either to a worker whose faith was incidental or to a wonder-worker detached from ordinary human suffering. The source’s central subject is the integration of love of God and love of neighbour.
+
+## Canonization and remembrance
+
+John XXIII canonized Martin on 6 May 1962 in Saint Peter’s Basilica. The pope explicitly connected the celebration with the approaching Second Vatican Council, expressing the hope that renewal in the Church would bear fruit in holiness. Martin was presented as evidence that such holiness could be realized through humble, concrete fidelity, not only through celebrated offices or intellectual achievement. The address also commended his example particularly to young people and to the people of Peru.
+
+The enduring historical importance of Martin’s memory lies in that conjunction of religious profession, personal prayer, and service across social divisions. The consulted official account supports these themes clearly, while offering less material for a detailed chronology. Accordingly, it is unnecessary to transform later miracle narratives into unqualified biography. His recognized sanctity is intelligible through the ordinary acts the Church itself singled out: caring for the sick, sharing necessary goods, forgiving injuries, and recognizing a neighbour where society perceived an inferior.
+
+## Sources
+
+- [John XXIII, homily for the canonization of Martin de Porres, 6 May 1962; consulted Latin text](https://github.com/lologhi/vatican/blob/master/john-xxiii/homilies/1962/1962-05-06-martino-porres.latin.md).
+$desc$),
+('saint-martin-de-porres','fr','Martin de Porres était frère convers dominicain à Lima. Sa vie religieuse associait la prière au soin des malades et des pauvres. Sa canonisation présenta sa charité, par-delà les divisions sociales coloniales, comme une expression concrète de la fraternité chrétienne.',$desc$## Vie et contexte historique
+
+Martin de Porres vécut à Lima à la fin du XVIe siècle et au début du XVIIe. Il appartenait à la communauté dominicaine comme frère convers profès, non comme prêtre. Sa place dans l’histoire de l’Église repose avant tout sur une vie de service concret, plutôt que sur des livres, le gouvernement ecclésiastique ou la prédication publique. L’homélie officielle prononcée lors de sa canonisation fournit un témoignage particulièrement utile sur les qualités que l’Église a reconnues en lui.
+
+Cette homélie est un portrait théologique rétrospectif, non un journal contemporain. Elle situe Martin dans une société où les personnes d’ascendance africaine ou métisse étaient considérées comme socialement inférieures. Jean XXIII rappela expressément son aide à ces groupes et aux travailleurs agricoles. Ce témoignage précise la portée sociale de sa charité sans permettre de reconstituer chaque épisode de son enfance, de ses relations ou de son travail quotidien. Les récits populaires doivent être distingués de ce témoignage ecclésial plus précisément identifiable.
+
+## Vocation religieuse et prière
+
+Selon l’homélie de canonisation, Martin manifesta dès l’enfance un amour simple de Dieu, que son entrée dans la communauté dominicaine approfondit. La profession religieuse donna une forme durable à son engagement par la pauvreté, la chasteté et l’obéissance. Jean XXIII souligna qu’il ne jugeait pas suffisante l’observation des seules exigences formelles : sa communauté et ses supérieurs gardaient le souvenir de sa fidélité constante à ses promesses. Sa vocation était ainsi comprise comme une vie chrétienne complète, non comme une fonction auxiliaire évaluée par rapport au ministère sacerdotal.
+
+Prière et service ne constituaient pas deux domaines séparés. Martin méditait les souffrances du Christ crucifié, dans lesquelles il reconnaissait l’amour divin pour l’humanité. L’homélie décrit une longue adoration eucharistique, le désir d’une communion sacramentelle fréquente et une affection filiale envers Marie. Elle reprend aussi des récits de profond recueillement. Ces descriptions appartiennent à l’appréciation ecclésiale de sa spiritualité ; elles ne doivent pas être transformées en explications indépendamment établies de phénomènes physiques extraordinaires.
+
+## Service du prochain
+
+Les activités les plus concrètes rapportées dans l’homélie concernent les besoins corporels. Martin veillait auprès des malades, procurait nourriture et vêtements aux pauvres et obtenait les médicaments nécessaires. Ces formes d’assistance étaient distinctes : accompagner une personne souffrante ne se confondait pas avec la distribution de ressources, et fournir des remèdes ne remplaçait pas l’attention personnelle. Ensemble, elles dessinent un frère dont la charité comportait organisation pratique et disponibilité envers des personnes facilement négligées.
+
+Son service possédait aussi une dimension relationnelle. Jean XXIII rappela sa disposition à excuser les fautes, à pardonner de graves offenses et à encourager l’abandon des mauvaises conduites. Le pape rattachait ces habitudes à l’humilité, décrivant Martin comme quelqu’un qui estimait les autres meilleurs que lui. C’est le langage d’un idéal spirituel chrétien, non une approbation des humiliations imposées par la hiérarchie coloniale. En servant les personnes par-delà cette hiérarchie, il exprimait leur dignité d’enfants de Dieu.
+
+## Sens de sa charité
+
+Martin se préoccupait de ceux que la société méprisait, particulièrement des personnes d’ascendance africaine ou métisse. L’homélie de canonisation ne lui attribuait ni programme politique moderne ni réformes institutionnelles. Elle situait plutôt le sens de ses actes dans la conviction que les autres étaient véritablement ses frères et sœurs. Jean XXIII jugeait les méthodes concrètes de cette charité particulièrement novatrices pour leur époque. Ce jugement doit être compris comme une appréciation portée au XXe siècle sur son exemple.
+
+Sa douceur n’était pas davantage présentée comme une absence de discipline religieuse. Le même récit associe la tendresse envers autrui à une fidélité exigeante dans sa propre vie. La réputation de bonté de Martin procédait d’une prière soutenue, d’un engagement ascétique et du travail communautaire. Les rappeler ensemble évite d’en faire soit un travailleur dont la foi serait accessoire, soit un thaumaturge détaché des souffrances ordinaires. Le sujet central du témoignage est l’unité de l’amour de Dieu et de l’amour du prochain.
+
+## Canonisation et mémoire
+
+Jean XXIII canonisa Martin le 6 mai 1962 dans la basilique Saint-Pierre. Le pape rattacha explicitement cette célébration à l’approche du concile Vatican II, exprimant l’espoir que le renouvellement de l’Église porterait des fruits de sainteté. Martin montrait que celle-ci pouvait s’accomplir dans une fidélité humble et concrète, et pas seulement dans des fonctions éminentes ou des œuvres intellectuelles. L’homélie recommandait particulièrement son exemple aux jeunes et au peuple péruvien.
+
+L’importance historique durable de sa mémoire réside dans cette union de la profession religieuse, de la prière personnelle et du service dépassant les divisions sociales. Le témoignage officiel consulté soutient clairement ces thèmes, mais fournit moins de matière à une chronologie détaillée. Il n’est donc pas nécessaire de transformer les récits miraculeux postérieurs en biographie sans réserve. Sa sainteté reconnue se comprend à travers les actes ordinaires retenus par l’Église : soigner les malades, partager les biens nécessaires, pardonner et reconnaître un prochain là où la société voyait un inférieur.
+
+## Sources
+
+- [Jean XXIII, homélie pour la canonisation de Martin de Porres, 6 mai 1962 ; texte latin consulté](https://github.com/lologhi/vatican/blob/master/john-xxiii/homilies/1962/1962-05-06-martino-porres.latin.md).
+$desc$),
+('saint-martin-de-porres','la','Martinus de Porres, frater laicus Ordinis Praedicatorum Limae, orationem cum infirmorum pauperumque cura coniunxit. In eius canonizatione caritas, quae divisiones societatis colonialis superabat, tamquam fraternae dilectionis christianae opus concretum proposita est.',$desc$## Vita et rerum condicio
+
+Martinus de Porres Limae exeunte saeculo sexto decimo atque ineunte septimo decimo vixit. Communitati Dominicanae ut frater laicus professus, non ut sacerdos, adhaesit. Eius locus in historia Ecclesiae praecipue in ministerio operoso consistit, non in libris, regimine ecclesiastico aut publica praedicatione. Homilia officialis in canonizatione habita utile praebet testimonium virtutum quas Ecclesia in eo agnovit.
+
+Haec homilia est imago theologica posterius delineata, non diarium aequale. Martinum exhibet in societate quae homines Africanae originis vel mixto genere natos inferiores habebat. Ioannes XXIII eius auxilia his hominibus et agricolis praestita nominatim commemoravit. Hoc testimonium ambitum socialem caritatis illustrat, neque tamen singula pueritiae, necessitudinum aut laboris cotidiani restitui sinit. Narrationes populares ab hoc testimonio ecclesiali certo definito distinguendae sunt.
+
+## Vocatio religiosa et oratio
+
+Secundum homiliam canonizationis Martinus iam puer simpliciter Deum diligebat; haec pietas in communitate Dominicana crevit. Professio religiosa per paupertatem, castitatem et oboedientiam proposito eius formam stabilem dedit. Ioannes XXIII affirmavit eum non sola praecepta externa observasse: sodales et superiores constantem promissorum fidelitatem recordabantur. Vocatio eius igitur tamquam integra vita christiana intellegitur, non tamquam munus secundarium ad sacerdotium comparatum.
+
+Oratio et ministerium non erant partes inter se separatae. Martinus Christi crucifixi passiones meditans divinum erga homines amorem agnoscebat. Homilia diuturnam adorationem eucharisticam, desiderium frequenter communicandi et filialem erga Mariam dilectionem describit. Narrationes quoque de animo oranti penitus intento refert. Haec ad iudicium Ecclesiae de eius vita spirituali pertinent; non sunt in explicationes phenomenorum corporalium extraordinariorum, tamquam aliunde probatas, amplificanda.
+
+## Ministerium proximi
+
+Opera maxime concreta in homilia recensita ad necessitates corporis pertinent. Martinus infirmis assidebat, pauperibus cibum vestesque suppeditabat atque medicamenta comparabat. Haec auxilia inter se differebant: aegrotum comitari non idem erat ac bona distribuere, neque medicamenta sollicitudinem personalem substituebant. Simul fratrem ostendunt cuius caritas et ordinationem operum et promptitudinem erga facile neglectos requirebat.
+
+Ministerium eius etiam necessitudines inter homines respiciebat. Ioannes XXIII commemoravit eum aliorum culpas excusavisse, graves iniurias remisisse et peccatores ad meliorem vitam hortatum esse. Hos habitus cum humilitate coniunxit, cum Martinus alios se meliores aestimaret. Hic sermo ad exemplar spirituale christianum pertinet, non ad humiliationes a societate coloniali impositas comprobandas. Homines cuiusvis condicionis serviens eorum dignitatem filiorum Dei manifestabat.
+
+## Significatio caritatis
+
+Martinus eos quoque curabat quos societas despiciebat, praesertim Africanae originis vel mixto genere natos. Homilia canonizationis nec consilium politicum hodiernum nec reformationes institutionum ei tribuebat. Significationem operum potius in fide collocabat qua ceteros vere fratres ac sorores agnoscebat. Ioannes XXIII rationes huius caritatis pro illius temporis condicione novas iudicavit. Hoc intellegendum est iudicium saeculi vicesimi de exemplo eius.
+
+Mansuetudo eius non significabat defectum disciplinae religiosae. Eadem narratio tenerum erga proximos animum cum severa propriae vitae fidelitate coniungit. Fama benignitatis ex assidua oratione, exercitatione ascetica et labore communi orta est. Haec simul commemoranda sunt, ne aut operarius fiat cui fides fortuita fuerit, aut miraculorum patrator a communibus doloribus alienus. Testimonii argumentum principale est unitas amoris Dei et proximi.
+
+## Canonizatio et memoria
+
+Ioannes XXIII Martinum die sexto Maii anno 1962 in basilica Sancti Petri canonizavit. Pontifex celebrationem cum proximo Concilio Vaticano II aperte coniunxit, sperans renovationem Ecclesiae sanctitatis fructus allaturam. Martinus ostendebat sanctitatem per humilem et concretam fidelitatem, non tantum per illustria munera aut doctrinae opera, effici posse. Homilia eius exemplum praesertim iuvenibus et genti Peruvianae commendavit.
+
+Permanens memoriae eius momentum in coniunctione professionis religiosae, orationis personalis et ministerii divisiones sociales superantis consistit. Testimonium officiale consultum haec perspicue confirmat, sed pauciora ad accuratam chronologiam praebet. Non igitur necesse est posteriores miraculorum narrationes sine cautione in historiam convertere. Sanctitas agnita ex ordinariis operibus quae Ecclesia ipsa commendavit intellegitur: infirmos curare, necessaria communicare, iniurias remittere atque proximum agnoscere ubi societas inferiorem videbat.
+
+## Fontes
+
+- [Ioannes XXIII, homilia in canonizatione Martini de Porres, die 6 Maii 1962; textus Latinus consultus](https://github.com/lologhi/vatican/blob/master/john-xxiii/homilies/1962/1962-05-06-martino-porres.latin.md).
+$desc$),
+('saint-charles-borromeo','en','Charles Borromeo, cardinal and archbishop of Milan, helped implement the Council of Trent through pastoral visitation, seminaries, synods, and religious instruction. His demanding programme of Catholic reform was accompanied by personal service during famine and the Milanese plague.',$desc$## Family and Roman responsibilities
+
+Charles Borromeo was born at Arona on Lake Maggiore in 1538 into a prominent northern Italian family. His mother belonged to the Medici family, and her brother became Pope Pius IV in 1559. Charles studied civil and canon law at Pavia, completing his doctorate despite interruptions caused by family business and his father’s death. These responsibilities gave him experience in administration before he assumed a major role in the government of the Church.
+
+His uncle summoned him to Rome and made him a cardinal in 1560. Charles also received responsibility for the administration of the see of Milan, although he did not immediately reside there. His rapid advancement illustrates the family-based patronage of the period; his later reforming work developed within institutions from which he himself had benefited. As a principal papal assistant, he handled extensive correspondence and delicate negotiations concerning the resumption of the Council of Trent.
+
+## Trent and a pastoral decision
+
+The council resumed in 1562 and completed its work in 1563. Charles remained in Rome, maintaining communication with the papal representatives and helping manage disputes involving rulers and bishops. He was not the solitary author of the council’s decisions, but his administrative persistence assisted its successful conclusion. He subsequently participated in the work of implementing its decrees, including the preparation of the Roman Catechism and projects concerning the Church’s liturgical books.
+
+The death of his elder brother in 1562 intensified his commitment to an ecclesiastical vocation. Although relatives urged him to marry and continue the family line, he chose priestly ministry and received priestly and episcopal ordination in 1563. He also considered withdrawal into a monastery. Advice from Bartholomew of the Martyrs encouraged him instead to understand the care of his diocese as his proper responsibility. His reform began to take a more personally pastoral form.
+
+## Reform in Milan
+
+Charles entered Milan solemnly in 1565 and, after further Roman responsibilities, established himself there. Before his arrival, he had already sent representatives to assess conditions, convene a diocesan synod, and prepare the clergy for Tridentine reforms. A seminary opened in 1564. Residence, visitation, instruction, and the regular gathering of clergy became essential elements of his programme: reform was to become an organized pattern of diocesan life, rather than remain a collection of decrees.
+
+He conducted provincial councils and diocesan synods, supervised the formation of priests, and supported religious instruction for the laity. He expected bishops and clergy to exemplify the discipline they required of others. His own household was reorganized, expenditure was restrained, and substantial resources were directed to charitable work. Religious communities, schools, seminaries, and local church administration all received close attention. The Oblates of Saint Ambrose, founded in 1578, provided priests available for the diocese’s varied pastoral needs.
+
+## Conflict and public service
+
+This programme encountered serious opposition. Disputes concerned jurisdiction, established privileges, and the enforcement of religious discipline. They involved both ecclesiastical bodies and representatives of secular government. In 1569 a member of the Humiliati attempted to shoot Charles while he was praying; he survived. Although Charles sought clemency, several conspirators were executed by the civil authorities. The episode should not be simplified into a bloodless triumph of reform: it belongs to a period of coercive institutions and bitter struggles over authority.
+
+Charles’s pastoral activity also involved emergency relief. During famine he devoted personal resources to feeding those in need. When plague struck Milan in 1576, he returned to the city, visited the afflicted, encouraged reluctant clergy to assist, and helped organize care. He combined material assistance with public prayer and penitential practices. His understanding of epidemic disease included the religious interpretation of suffering as a summons to repentance, a historical outlook that should not be confused with a modern medical explanation.
+
+## Final years and significance
+
+The plague gradually subsided, and Charles continued pastoral visitation, synods, and institutional reform. His work required extensive travel, including demanding journeys into Alpine districts. Prayer and meditation on Christ’s Passion remained important to him, while the claims of his diocese repeatedly competed with his fragile health. He died in Milan in 1584, aged forty-six. His liturgical commemoration on 4 November preserves the memory of a bishop closely identified with the practical reception of Trent.
+
+Charles’s legacy is best understood through the interaction of institutions and personal example. He did not invent Catholic reform, and neither his noble origins nor the conflicts of his administration should disappear from the account. Yet he gave durable form to episcopal residence, clerical formation, organized instruction, and pastoral oversight. His care during famine and plague also demonstrated that reform of ecclesiastical discipline could be joined to costly service of people in immediate distress.
+
+## Sources
+
+- [Catholic Encyclopedia, “St. Charles Borromeo”; consulted historical article](https://github.com/CWilsonTSP/cathen/blob/master/cathen/03619a.htm).
+$desc$),
+('saint-charles-borromeo','fr','Charles Borromée, cardinal et archevêque de Milan, appliqua le concile de Trente par les visites pastorales, les séminaires, les synodes et la catéchèse. Son exigeant programme de réforme catholique s’accompagna d’un service personnel pendant la famine et la peste milanaise.',$desc$## Famille et responsabilités romaines
+
+Charles Borromée naquit à Arona, sur le lac Majeur, en 1538, dans une importante famille de l’Italie septentrionale. Sa mère appartenait aux Médicis et son frère devint le pape Pie IV en 1559. Charles étudia le droit civil et canonique à Pavie, achevant son doctorat malgré les interruptions liées aux affaires familiales et à la mort de son père. Ces responsabilités le familiarisèrent avec l’administration avant son entrée au gouvernement de l’Église.
+
+Son oncle l’appela à Rome et le créa cardinal en 1560. Charles reçut aussi l’administration du siège de Milan, sans y résider immédiatement. Cette promotion rapide illustre le patronage familial de l’époque : son œuvre réformatrice se développa dans des institutions dont il avait lui-même bénéficié. Principal collaborateur du pape, il traitait une correspondance considérable et des négociations délicates concernant la reprise du concile de Trente.
+
+## Trente et une décision pastorale
+
+Le concile reprit en 1562 et acheva ses travaux en 1563. Charles resta à Rome, assurant la communication avec les représentants pontificaux et contribuant à régler les différends entre souverains et évêques. Il ne fut pas l’unique auteur des décisions conciliaires, mais sa persévérance administrative favorisa leur aboutissement. Il participa ensuite à leur application, notamment à la préparation du Catéchisme romain et aux travaux concernant les livres liturgiques.
+
+La mort de son frère aîné, en 1562, affermit son engagement ecclésiastique. Malgré les parents qui le pressaient de se marier pour continuer la lignée, il choisit le ministère et reçut les ordinations sacerdotale et épiscopale en 1563. Il envisagea également de se retirer au monastère. Les conseils de Barthélemy des Martyrs l’encouragèrent plutôt à reconnaître le soin de son diocèse comme sa responsabilité propre. Sa réforme prit une forme plus personnellement pastorale.
+
+## Réforme à Milan
+
+Charles entra solennellement à Milan en 1565 et s’y établit après de nouvelles obligations romaines. Avant son arrivée, il avait envoyé des représentants pour examiner la situation, réunir un synode diocésain et préparer le clergé aux réformes tridentines. Un séminaire ouvrit en 1564. Résidence, visites, enseignement et réunions régulières du clergé devinrent essentiels : la réforme devait organiser durablement la vie diocésaine plutôt que rester un ensemble de décrets.
+
+Il réunit des conciles provinciaux et des synodes diocésains, surveilla la formation des prêtres et soutint l’instruction religieuse des laïcs. Il attendait des évêques et du clergé qu’ils donnent l’exemple de la discipline exigée d’autrui. Sa maison fut réorganisée, les dépenses limitées et des ressources importantes consacrées à la charité. Communautés religieuses, écoles, séminaires et administration locale reçurent une attention soutenue. Les Oblats de Saint-Ambroise, fondés en 1578, fournirent des prêtres disponibles pour les diverses nécessités pastorales.
+
+## Conflits et service public
+
+Ce programme rencontra de fortes résistances. Les différends concernaient la juridiction, les privilèges établis et l’application de la discipline religieuse ; ils opposaient Charles à des organismes ecclésiastiques comme aux autorités civiles. En 1569, un membre des Humiliés tira sur lui pendant sa prière ; il survécut. Malgré ses démarches de clémence, plusieurs conjurés furent exécutés par les autorités civiles. L’épisode ne saurait devenir un triomphe sans violence : il appartient à une époque d’institutions coercitives et de luttes acharnées pour l’autorité.
+
+L’activité pastorale de Charles comprenait aussi les secours d’urgence. Pendant la famine, il consacra ses ressources personnelles à nourrir les nécessiteux. Quand la peste frappa Milan en 1576, il revint dans la ville, visita les malades, encouragea un clergé réticent à les assister et contribua à organiser les soins. Il associait l’aide matérielle à la prière publique et à la pénitence. Son interprétation religieuse de l’épidémie comme appel au repentir appartient à son époque et ne doit pas être confondue avec une explication médicale moderne.
+
+## Dernières années et portée historique
+
+La peste diminua progressivement ; Charles poursuivit visites, synodes et réformes institutionnelles. Son travail exigeait de nombreux déplacements, notamment des voyages éprouvants dans les régions alpines. La prière et la méditation de la Passion demeuraient importantes, tandis que les besoins diocésains sollicitaient constamment sa santé fragile. Il mourut à Milan en 1584, à quarante-six ans. Sa commémoration liturgique du 4 novembre conserve le souvenir d’un évêque étroitement associé à l’application concrète de Trente.
+
+Son héritage se comprend dans l’interaction des institutions et de l’exemple personnel. Il n’inventa pas la réforme catholique ; ses origines aristocratiques et les conflits de son gouvernement ne doivent pas disparaître du récit. Il donna néanmoins une forme durable à la résidence épiscopale, à la formation cléricale, à l’enseignement organisé et au suivi pastoral. Son action pendant la famine et la peste montra aussi que la réforme disciplinaire pouvait s’unir à un service coûteux des personnes immédiatement éprouvées.
+
+## Sources
+
+- [Catholic Encyclopedia, « St. Charles Borromeo » ; article historique consulté](https://github.com/CWilsonTSP/cathen/blob/master/cathen/03619a.htm).
+$desc$),
+('saint-charles-borromeo','la','Carolus Borromaeus, cardinalis et archiepiscopus Mediolanensis, Concilii Tridentini decreta visitationibus, seminariis, synodis atque institutione religiosa exsecutus est. Severum reformationis catholicae propositum cum personali ministerio tempore famis et pestilentiae coniunxit, clerum populumque sibi commissum assidue curans.',$desc$## Familia et munera Romana
+
+Carolus Borromaeus Aronae ad lacum Verbanum anno 1538 ex illustri familia Italiae septentrionalis natus est. Mater eius e familia Medicea orta erat; eius frater anno 1559 Pius IV papa factus est. Carolus Papiae ius civile et canonicum didicit atque, quamvis negotiis familiaribus et patris morte interpellatus, doctoratum absolvit. His muneribus administrationem expertus est antequam magni momenti officium in regimine Ecclesiae susciperet.
+
+Avunculus eum Romam vocavit atque anno 1560 cardinalem creavit. Carolus etiam sedis Mediolanensis administrationem accepit, quamvis ibi statim non habitaret. Celeris promotio patronatum familiarem illius aetatis ostendit: posterior reformatio intra instituta crevit quibus ipse adiutus erat. Praecipuus pontificis adiutor amplam epistularum copiam et difficiles de Concilio Tridentino instaurando negotiationes tractabat.
+
+## Tridentum et consilium pastorale
+
+Concilium anno 1562 resumptum anno 1563 opus absolvit. Carolus Romae mansit, cum legatis pontificiis communicans atque controversias inter principes et episcopos componere adiuvans. Non solus decretorum auctor fuit; perseverantia tamen administrativa felicem exitum promovit. Deinde eorum exsecutioni operam dedit, inter alia Catechismo Romano parando et libris liturgicis recognoscendis.
+
+Mors fratris maioris anno 1562 vocationem ecclesiasticam confirmavit. Quamvis propinqui eum ad matrimonium et continuandam familiam hortarentur, ministerium elegit atque anno 1563 sacerdotium et episcopatum accepit. De recessu in monasterium quoque cogitavit. Bartholomaeus a Martyribus suasit ut curam dioecesis tamquam proprium munus agnosceret. Reformatio eius sic formam personaliter pastoralem suscepit.
+
+## Reformatio Mediolanensis
+
+Carolus anno 1565 Mediolanum sollemniter ingressus est ibique, post alia munera Romana, habitavit. Ante adventum vicarios iam miserat qui condicionem explorarent, synodum dioecesanam convocarent et clerum ad decreta Tridentina praepararent. Seminarium anno 1564 apertum est. Residentia, visitatio, institutio et conventus cleri regulares praecipua facta sunt: reformatio ordinatam vitae dioecesanae rationem efficere debebat, non sola decreta manere.
+
+Concilia provincialia et synodos dioecesanas celebravit, sacerdotum formationem curavit atque laicorum doctrinam religiosam promovit. Episcopos et clericos exemplum disciplinae aliis praescriptae praebere volebat. Domum suam ordinavit, sumptus minuit et multas opes caritati destinavit. Communitates religiosae, scholae, seminaria et administratio localis diligentissime curabantur. Oblati Sancti Ambrosii, anno 1578 instituti, sacerdotes variis dioecesis necessitatibus paratos suppeditaverunt.
+
+## Controversiae et ministerium publicum
+
+Huic proposito graves oppositiones ortae sunt. Controversiae de iurisdictione, privilegiis receptis et disciplina religiosa agebantur, tum cum corporibus ecclesiasticis tum cum magistratibus civilibus. Anno 1569 quidam ex Humiliatis in Carolum orantem sclopeto iecit; ille superfuit. Etsi clementiam petivit, complures coniurati a potestate civili supplicio affecti sunt. Res non tamquam incruentus reformationis triumphus narranda est, sed intra aetatem institutionum coercitivarum et acerbarum de auctoritate contentionum.
+
+Ministerium Caroli etiam subita auxilia complectebatur. Tempore famis proprias opes ad egenos alendos adhibuit. Cum pestilentia anno 1576 Mediolanum pervasisset, rediit, aegrotos visitavit, clericos initio cunctantes ad auxilium hortatus est et curam ordinavit. Subsidia corporalia cum publica oratione et paenitentia coniunxit. Morbum etiam tamquam vocationem ad conversionem intellexit: haec interpretatio religiosa ad aetatem eius pertinet, non ad hodiernam explicationem medicam.
+
+## Ultimi anni et momentum
+
+Peste sensim cessante, Carolus visitationes, synodos et reformationem institutorum continuavit. Multa itinera suscepit, etiam difficilia per regiones Alpinas. Oratio et meditatio Passionis Christi magni momenti manebant, dum necessitates dioecesis infirmam valetudinem assidue premebant. Mediolanum anno 1584 mortuus est, annos quadraginta sex natus. Commemoratio liturgica die quarto Novembris memoriam episcopi servat qui cum concreta Concilii Tridentini receptione arcte coniungitur.
+
+Hereditas eius ex coniunctione institutorum et exempli personalis intellegitur. Non ipse reformationem catholicam invenit, neque nobilis origo aut regiminis controversiae e narratione tollendae sunt. Residentiae tamen episcopali, formationi cleri, institutioni ordinatae et curae pastorali stabilem formam dedit. Ministerium tempore famis et pestis ostendit disciplinam ecclesiasticam cum laboriosa cura hominum praesentibus malis afflictorum coniungi posse.
+
+## Fontes
+
+- [Catholic Encyclopedia, « St. Charles Borromeo »; articulus historicus consultus](https://github.com/CWilsonTSP/cathen/blob/master/cathen/03619a.htm).
+$desc$),
+('saint-leo-the-great','en','Leo the Great, bishop of Rome from 440 to 461, taught the unity of Christ’s person in his divine and human natures. His preaching, letters, ecclesiastical leadership, and diplomatic interventions shaped the Church during the weakening of Roman imperial government.',$desc$## From deacon to bishop of Rome
+
+Leo’s precise birthplace and birth date are unknown. The later Liber Pontificalis connects his family with Tuscany, but the earliest secure evidence presents him as a deacon of the Roman Church. He was already influential before becoming pope: John Cassian addressed to him a work against Nestorian teaching, and the imperial court entrusted him with a mission to reconcile important officials in Gaul. His standing combined ecclesiastical service with recognized diplomatic ability.
+
+He was absent on that mission when Pope Sixtus III died in 440. Elected to succeed him, Leo returned to Rome and was consecrated on 29 September. His pontificate lasted until 461, a period marked by doctrinal controversy in the East and deteriorating imperial stability in the West. His surviving letters and sermons provide substantial evidence for his priorities, although later descriptions of his public achievements sometimes express the admiration of subsequent generations.
+
+## Teaching on Christ
+
+The best-known doctrinal document of his pontificate is the letter to Flavian of Constantinople, commonly called the Tome. Written in 449 amid the controversy over Eutyches, it defended the confession that Jesus Christ is one person in the fullness of divinity and humanity. Leo insisted that salvation required neither the denial of Christ’s real humanity nor the division of Christ into separate subjects. His teaching sought to preserve both the reality of the incarnation and the unity of the Saviour.
+
+The Council of Chalcedon in 451 received the letter as an important expression of the Church’s faith. Leo was not personally present; representatives acted for him. His relationship with the council nevertheless included disagreement. He accepted its doctrinal definition but rejected the canon that advanced Constantinople’s ecclesiastical privileges, considering it contrary to the rights of older sees. Distinguishing these matters is important: agreement about Christ did not eliminate disputes about the ordering of the Church.
+
+## Government and ecclesial unity
+
+Leo understood the bishop of Rome’s responsibility through the ministry of Peter and exercised that responsibility actively. His correspondence addressed episcopal appointments, appeals, discipline, and relations among churches. In Gaul he intervened in disputes involving Hilary of Arles, restricting claims he judged excessive while later maintaining relations with Hilary’s successor. In the Balkans he employed the vicariate of Thessalonica to support Roman oversight. These arrangements show how his understanding of primacy operated through particular institutions and contested cases.
+
+His pursuit of religious unity also included measures against teachings he regarded as incompatible with Christian faith. He opposed Pelagianism, Priscillianism, and Manichaeism. Investigations of Manichaeans in Rome involved ecclesiastical and civil authorities, and some adherents were expelled under imperial law. An account of his leadership should acknowledge this coercive context rather than portray all disagreement as free theological discussion. His pastoral vision combined doctrinal instruction, ecclesiastical discipline, and cooperation with the government of his time.
+
+## Preaching and civic responsibility
+
+Leo’s sermons reveal a bishop addressing the worshipping community, not merely a statesman managing disputes. He connected the celebration of Christian mysteries with ethical responsibilities and the dignity bestowed through Christ. His preaching on the incarnation gave doctrinal reflection a practical setting within the liturgical year. His letters likewise joined general principles to specific pastoral problems. The collection traditionally called the Leonine Sacramentary, however, is later and should not simply be treated as a book personally compiled by him.
+
+In 452 Leo joined an imperial embassy that met Attila in northern Italy. Attila subsequently withdrew, and Christian remembrance gave the pope’s intervention a prominent place. The encounter is historical, but a complete explanation of the withdrawal cannot be reduced to a single dramatic conversation. In 455 Leo also approached the Vandal ruler Geiseric when Rome was threatened. The city was plundered; tradition credits Leo’s intercession with limiting destruction and loss of life, not with preventing the sack altogether.
+
+## Death and legacy
+
+Leo supported the repair and embellishment of Roman churches while continuing his wider correspondence and doctrinal interventions. He died on 10 November 461 and was buried at Saint Peter’s. His remains were subsequently transferred within the basilica. The title “Great” reflects the exceptional authority attributed to his ministry, and Benedict XIV formally recognized him as a Doctor of the Church in 1754. His theological importance rests especially on his teaching about Christ and his exposition of the Roman bishop’s office.
+
+His legacy cannot be contained in the famous meeting with Attila. It includes a substantial body of pastoral preaching, a decisive contribution to the reception of Chalcedon, and sustained attempts to preserve ecclesiastical order amid political instability. Reading these achievements together also preserves their historical complexity: spiritual authority operated alongside imperial law, diplomatic negotiation, and disagreement among bishops. Leo emerges as a pastor whose understanding of Christian faith was inseparable from responsibility for a vulnerable and divided Church.
+
+## Sources
+
+- [Catholic Encyclopedia, “Pope St. Leo I (the Great)”; consulted historical article](https://github.com/CWilsonTSP/cathen/blob/master/cathen/09154b.htm).
+$desc$),
+('saint-leo-the-great','fr','Léon le Grand, évêque de Rome de 440 à 461, enseigna l’unité de la personne du Christ dans ses natures divine et humaine. Sa prédication, ses lettres, son gouvernement ecclésial et ses interventions diplomatiques marquèrent l’Église pendant l’affaiblissement du pouvoir impérial romain.',$desc$## Du diaconat à l’épiscopat romain
+
+Le lieu précis et la date de naissance de Léon sont inconnus. Le Liber Pontificalis, postérieur, rattache sa famille à la Toscane, mais les premiers témoignages assurés le présentent comme diacre de l’Église romaine. Déjà influent avant son pontificat, il reçut la dédicace d’un ouvrage de Jean Cassien contre l’enseignement nestorien ; la cour impériale lui confia aussi une mission de réconciliation entre hauts responsables en Gaule. Son autorité associait service ecclésiastique et compétence diplomatique reconnue.
+
+Il accomplissait cette mission lorsque Sixte III mourut en 440. Élu pour lui succéder, Léon revint à Rome et fut consacré le 29 septembre. Son pontificat dura jusqu’en 461, dans un contexte de controverses doctrinales en Orient et de fragilisation impériale en Occident. Les lettres et sermons conservés renseignent abondamment ses priorités, même si certains récits postérieurs de ses succès publics expriment l’admiration des générations suivantes.
+
+## Enseignement sur le Christ
+
+Le document doctrinal le plus célèbre de son pontificat est la lettre à Flavien de Constantinople, appelée le Tome. Écrite en 449 dans la controverse concernant Eutychès, elle défend la confession de Jésus-Christ comme une seule personne dans la plénitude de la divinité et de l’humanité. Léon refusait aussi bien la négation de l’humanité véritable du Christ que sa division en sujets distincts. Il entendait préserver la réalité de l’incarnation et l’unité du Sauveur.
+
+Le concile de Chalcédoine, en 451, reçut cette lettre comme une importante expression de la foi ecclésiale. Léon n’y assistait pas personnellement : des représentants agissaient pour lui. Ses relations avec le concile comportèrent néanmoins un désaccord. Il accepta la définition doctrinale mais rejeta le canon qui augmentait les privilèges ecclésiastiques de Constantinople, le jugeant contraire aux droits de sièges plus anciens. L’accord sur le Christ n’abolissait donc pas les différends sur l’organisation de l’Église.
+
+## Gouvernement et unité ecclésiale
+
+Léon comprenait la responsabilité de l’évêque de Rome à partir du ministère de Pierre et l’exerçait activement. Sa correspondance traitait des nominations épiscopales, des appels, de la discipline et des relations entre Églises. En Gaule, il intervint dans les conflits impliquant Hilaire d’Arles, limitant des prétentions qu’il estimait excessives, puis entretenant des relations avec son successeur. Dans les Balkans, il utilisa le vicariat de Thessalonique pour soutenir la surveillance romaine. Sa conception de la primauté s’exerçait ainsi dans des institutions et des affaires concrètes, parfois contestées.
+
+Sa recherche de l’unité religieuse comportait aussi des mesures contre des doctrines jugées incompatibles avec la foi chrétienne. Il combattit le pélagianisme, le priscillianisme et le manichéisme. À Rome, les enquêtes concernant les manichéens associaient autorités ecclésiastiques et civiles ; certains furent expulsés selon la législation impériale. Ce contexte coercitif doit être reconnu, sans présenter tout désaccord comme une discussion théologique libre. Sa vision pastorale associait enseignement doctrinal, discipline ecclésiastique et coopération avec le gouvernement de son temps.
+
+## Prédication et responsabilité civique
+
+Ses sermons révèlent un évêque parlant à la communauté en prière, et pas seulement un homme d’État réglant des différends. Il liait les mystères célébrés aux responsabilités morales et à la dignité reçue dans le Christ. Sa prédication sur l’incarnation inscrivait la réflexion doctrinale dans l’année liturgique. Ses lettres unissaient également principes généraux et problèmes pastoraux particuliers. En revanche, le recueil traditionnellement appelé Sacramentaire léonien est postérieur et ne doit pas être considéré simplement comme un ouvrage qu’il aurait composé.
+
+En 452, Léon participa à une ambassade impériale rencontrant Attila dans l’Italie septentrionale. Attila se retira ensuite, et la mémoire chrétienne donna une place éminente à l’intervention pontificale. La rencontre est historique, mais le retrait ne s’explique pas entièrement par une seule conversation dramatique. En 455, Léon s’adressa aussi au souverain vandale Genséric lorsque Rome était menacée. La ville fut pillée ; la tradition attribue à son intercession une limitation des destructions et des morts, non la prévention du sac.
+
+## Mort et héritage
+
+Léon soutint la restauration et l’embellissement des églises romaines tout en poursuivant sa correspondance et ses interventions doctrinales. Il mourut le 10 novembre 461 et fut enseveli à Saint-Pierre ; ses restes furent ensuite déplacés dans la basilique. Le titre de « Grand » reflète l’autorité exceptionnelle reconnue à son ministère. Benoît XIV le déclara formellement docteur de l’Église en 1754. Son importance théologique repose particulièrement sur sa christologie et sa présentation de l’office de l’évêque de Rome.
+
+Son héritage dépasse la célèbre rencontre avec Attila. Il comprend une importante prédication pastorale, une contribution décisive à la réception de Chalcédoine et des efforts continus pour préserver l’ordre ecclésiastique dans l’instabilité politique. Leur lecture commune en conserve aussi la complexité : l’autorité spirituelle agissait avec la législation impériale, la négociation diplomatique et les désaccords épiscopaux. Léon apparaît comme un pasteur dont la compréhension de la foi était inséparable du soin d’une Église vulnérable et divisée.
+
+## Sources
+
+- [Catholic Encyclopedia, « Pope St. Leo I (the Great) » ; article historique consulté](https://github.com/CWilsonTSP/cathen/blob/master/cathen/09154b.htm).
+$desc$),
+('saint-leo-the-great','la','Leo Magnus, episcopus Romanus ab anno 440 ad annum 461, unitatem personae Christi in naturis divina et humana docuit. Praedicatione, epistulis, regimine ecclesiastico atque legationibus Ecclesiam rexit, dum imperii Romani potestas in Occidente debilitabatur.',$desc$## A diaconatu ad sedem Romanam
+
+Locus certus et dies natalis Leonis ignorantur. Liber Pontificalis posterior familiam eius cum Tuscia coniungit; prima tamen testimonia certa eum diaconum Ecclesiae Romanae exhibent. Ante pontificatum iam auctoritate pollebat: Ioannes Cassianus opus contra doctrinam Nestorianam ei dedicavit, et aula imperialis missionem ad magnos officiales in Gallia reconciliandos commisit. Ministerium ecclesiasticum cum probata facultate diplomatica coniungebat.
+
+Huic missioni operam dabat cum Sixtus III anno 440 mortuus est. Successor electus Romam rediit et die 29 Septembris consecratus est. Pontificatus usque ad annum 461 duravit, inter controversias doctrinales Orientis et labefactatam imperii stabilitatem in Occidente. Epistulae et sermones superstites multa de eius propositis testantur, quamvis posteriores narrationes rerum publice gestarum admirationem sequentium aetatum interdum exprimant.
+
+## Doctrina de Christo
+
+Celeberrimum documentum doctrinale est epistula ad Flavianum Constantinopolitanum, vulgo Tomus appellata. Anno 449 inter controversias de Eutyche scripta, Iesum Christum unam personam in plena divinitate et humanitate confitetur. Leo neque veram Christi humanitatem negandam neque Christum in diversa subiecta dividendum esse docebat. Et incarnationis veritatem et Salvatoris unitatem custodire volebat.
+
+Concilium Chalcedonense anno 451 hanc epistulam tamquam gravem fidei ecclesialis expressionem recepit. Leo ipse non aderat, sed legati eius munere fungebantur. Cum concilio tamen etiam dissensit. Definitionem doctrinalem accepit, canonem autem qui privilegia Constantinopolis amplificabat reiecit, quippe quem iuribus antiquiorum sedium contrarium putaret. Consensus de Christo controversias de ordine Ecclesiae non sustulit.
+
+## Regimen et unitas Ecclesiae
+
+Leo episcopi Romani officium ex ministerio Petri intellexit et studiose exercuit. Epistulae eius electiones episcopales, appellationes, disciplinam et relationes inter Ecclesias tractabant. In Gallia controversiis Hilarii Arelatensis intervenit, potestates quas immodicas putabat restringens, deinde cum successore eius necessitudines servans. In regionibus Balcanicis vicariatu Thessalonicensi curam Romanam sustinuit. Sic primatus per certa instituta et causas interdum controversas exercebatur.
+
+Unitatem religiosam quaerens doctrinis quoque restitit quas fidei christianae contrarias iudicabat: Pelagianismo, Priscillianismo et Manichaeismo. Investigationes Manichaeorum Romae auctoritates ecclesiasticas et civiles implicabant; nonnulli secundum leges imperiales expulsi sunt. Hic contextus coercitivus agnoscendus est, neque omnis dissensio libera disputatio theologica habenda. Visio pastoralis doctrinam, disciplinam et cooperationem cum illius temporis regimine coniungebat.
+
+## Praedicatio et cura civitatis
+
+Sermones episcopum communitati oranti loquentem ostendunt, non solum virum publicum controversias administrantem. Mysteria christiana celebrata cum officiis moralibus et dignitate in Christo accepta coniunxit. Praedicatio de incarnatione doctrinam intra annum liturgicum collocabat. Epistulae quoque principia generalia cum certis quaestionibus pastoralibus iungebant. Collectio autem Sacramentarium Leonianum appellata posterior est neque simpliciter liber ab ipso compositus habenda.
+
+Anno 452 Leo legationi imperiali interfuit quae Attilam in Italia septentrionali convenit. Attila postea recessit, et memoria christiana interventum pontificis magnopere celebravit. Congressus historicus est; recessus tamen non ex uno colloquio penitus explicari potest. Anno 455 Leo etiam Geisericum Vandalorum regem adiit, cum Roma minaretur. Urbs direpta est; traditio eius intercessioni destructionis et caedium moderationem attribuit, non direptionem omnino impeditam.
+
+## Mors et hereditas
+
+Leo ecclesias Romanas reparandas ornandasque curavit, dum epistulas et interventus doctrinales continuabat. Die 10 Novembris anno 461 mortuus apud Sanctum Petrum sepultus est; reliquiae postea intra basilicam translatae sunt. Titulus « Magnus » singularem ministerii auctoritatem exprimit. Benedictus XIV eum anno 1754 Doctorem Ecclesiae declaravit. Momentum theologicum praesertim in doctrina de Christo et expositione officii episcopi Romani consistit.
+
+Hereditas eius celebrem congressum cum Attila excedit. Amplam praedicationem pastoralem, gravem operam ad Chalcedonem recipiendam et continuos conatus ad ordinem ecclesiasticum servandum complectitur. Haec simul legere etiam difficultates historicas servat: auctoritas spiritualis cum lege imperiali, negotiatione diplomatica et dissensionibus episcoporum operabatur. Leo pastor apparet cui intellectus fidei a cura Ecclesiae vulnerabilis et divisae separari non poterat.
+
+## Fontes
+
+- [Catholic Encyclopedia, « Pope St. Leo I (the Great) »; articulus historicus consultus](https://github.com/CWilsonTSP/cathen/blob/master/cathen/09154b.htm).
+$desc$)
+) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
+WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
+-- END_BIOGRAPHIES_NOVEMBER
+-- END_BIOGRAPHIES_NOVEMBER
+
+-- BIOGRAPHIES_DECEMBER
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-francis-xavier', 'en',
+$desc$Francis Xavier was a founding companion of Ignatius of Loyola and a Jesuit missionary in India, Southeast Asia, and Japan. His journeys, letters, and establishment of Christian communities reveal both the energy and the difficulties of sixteenth-century Catholic mission.$desc$,
+$desc$## Formation and vocation
+
+Francis Xavier was born in 1506 at the family castle of Xavier in Navarre. In 1525 he went to Paris to study at the Collège Sainte-Barbe, where he became a friend of Pierre Favre. His meeting with Ignatius of Loyola gradually redirected an education that might otherwise have led to a conventional academic or ecclesiastical career. He belonged to the group of seven companions who made vows at Montmartre on 15 August 1534. Their common purpose preceded the formal establishment of the Society of Jesus; the later worldwide order grew from this small association of students.
+
+After completing his studies and teaching in Paris, Xavier travelled with his companions to Venice in 1536. There he cared for the sick in hospitals and was ordained priest in June 1537. He subsequently worked in Rome and participated in the discussions that shaped the new society. At the request of the Portuguese crown, missionaries were sought for Asia. Xavier was sent to Lisbon in 1540, before the Society's formal papal approval had been completed. His assignment placed him within Portuguese maritime networks, which offered transport and access but also bound missionary work to the complications of imperial expansion.
+
+## India and Southeast Asia
+
+Xavier sailed from Lisbon in April 1541 and arrived at Goa in May 1542 after a long and difficult voyage. He preached, visited hospitals, and gathered children for instruction. He then travelled to the pearl-fishing coast of southern India, where communities already baptized needed sustained pastoral care. His work therefore included teaching existing Christians rather than simply announcing Christianity wherever it was previously unknown. Instruction in prayers and basic doctrine, the preparation of helpers, and repeated visits to scattered settlements became practical necessities. Distances, shortages of clergy, and linguistic obstacles limited what any individual missionary could accomplish.
+
+During these years he encountered opposition from local rulers and also the damaging conduct of some Portuguese soldiers and settlers. The distinction matters: European political power did not automatically further the religious purposes for which he travelled. In 1545 he went to Malacca, and in 1546 began a mission among the islands of the Moluccas, including Ambon and Ternate. These journeys involved unfamiliar societies and hazardous sea passages. Later accounts sometimes extended his itinerary beyond what can be established. In particular, the claim that he personally evangelized the Philippines should not be treated as securely demonstrated merely because it entered later hagiography.
+
+## The Japanese mission
+
+At Malacca in 1547 Xavier met a Japanese man usually known as Anjirō, later baptized as Paulo de Santa Fé. Information received from him helped awaken Xavier's interest in Japan. Before departing, Xavier returned to Goa to arrange the continuation of existing missions and the formation of new members of the Society. This administrative work was part of his vocation, not an interruption of it: communities could not depend indefinitely on a visitor. He sailed for Japan with Cosme de Torres, Juan Fernández, and his Japanese companion, reaching Kagoshima in August 1549.
+
+Japan required a more deliberate engagement with language and religious ideas. Xavier and his collaborators prepared explanations of Christian teaching with local assistance. He travelled beyond Kagoshima, reaching Kyoto, but political disorder frustrated his hopes there. Elsewhere he obtained opportunities to preach and helped establish small Christian communities. His experience challenged the assumption that methods used in one country could simply be transferred to another. The mission depended on translation, conversation, local permission, and the continued work of collaborators. When he left Japan in 1551, he entrusted its development to Torres and Fernández rather than regarding his own departure as its conclusion.
+
+## Final journey and legacy
+
+Returning to Goa early in 1552, Xavier dealt with disagreements within the mission before preparing to approach China. The cultural importance of China in the region persuaded him that it offered a significant new field for evangelization. Portuguese opposition at Malacca complicated the project. He eventually reached the offshore island of Shangchuan, traditionally called Sancian, but did not gain entrance to the mainland. Illness overtook him while he waited. He died in early December 1552 in very poor surroundings; accounts differ over whether his death is dated to 2 or 3 December.
+
+Xavier's body was eventually enshrined at Goa, and he was canonized in 1622 with Ignatius of Loyola. His letters and the communities continued by his fellow missionaries are more reliable guides to his achievement than uncritical totals of conversions or stories of effortless mastery of every language. Traditional miracle accounts belong to the history of his veneration and should be distinguished from a documented itinerary. His life combined intense religious conviction, practical improvisation, and physical vulnerability. It also illustrates the unresolved relationship between Christian mission and European expansion, a setting that cannot responsibly be omitted from an account of his work.
+
+## Sources
+
+- Antonio Astrain, “St. Francis Xavier,” Catholic Encyclopedia (1909), consulted digital mirror: https://github.com/CWilsonTSP/cathen/blob/master/cathen/06233b.htm$desc$),
+('saint-francis-xavier', 'fr',
+$desc$François Xavier fut un premier compagnon d’Ignace de Loyola et un missionnaire jésuite en Inde, en Asie du Sud-Est et au Japon. Ses voyages, ses lettres et les communautés chrétiennes qu’il établit montrent l’énergie et les difficultés de la mission catholique au XVIe siècle.$desc$,
+$desc$## Formation et vocation
+
+François Xavier naquit en 1506 au château familial de Xavier, en Navarre. En 1525, il partit étudier à Paris au collège Sainte-Barbe, où il se lia d’amitié avec Pierre Favre. Sa rencontre avec Ignace de Loyola réorienta progressivement une formation qui aurait pu conduire à une carrière universitaire ou ecclésiastique ordinaire. Il appartint au groupe des sept compagnons qui prononcèrent des vœux à Montmartre le 15 août 1534. Leur projet commun précéda l’établissement officiel de la Compagnie de Jésus ; le futur ordre mondial naquit de cette petite association d’étudiants.
+
+Après ses études et une période d’enseignement à Paris, Xavier se rendit avec ses compagnons à Venise en 1536. Il y soigna les malades dans les hôpitaux et fut ordonné prêtre en juin 1537. Il travailla ensuite à Rome et participa aux discussions qui donnèrent forme à la nouvelle compagnie. La couronne portugaise demandait des missionnaires pour l’Asie. Xavier fut envoyé à Lisbonne en 1540, avant l’achèvement de l’approbation pontificale officielle de la Compagnie. Sa mission l’insérait dans les réseaux maritimes portugais, qui procuraient transport et accès, mais liaient aussi l’évangélisation aux difficultés de l’expansion impériale.
+
+## Inde et Asie du Sud-Est
+
+Xavier quitta Lisbonne en avril 1541 et arriva à Goa en mai 1542, après une longue traversée difficile. Il prêcha, visita les hôpitaux et rassembla des enfants pour les instruire. Il gagna ensuite la côte des pêcheurs de perles, dans le sud de l’Inde, où des communautés déjà baptisées avaient besoin d’un accompagnement pastoral durable. Son activité comprenait donc l’instruction de chrétiens existants, et non seulement l’annonce du christianisme là où il était inconnu. L’enseignement des prières et de la doctrine élémentaire, la préparation d’auxiliaires et les visites répétées aux établissements dispersés devinrent indispensables. Les distances, le manque de prêtres et les obstacles linguistiques limitaient les possibilités d’un missionnaire isolé.
+
+Il rencontra alors l’opposition de souverains locaux, mais aussi les effets nuisibles de la conduite de certains soldats et colons portugais. Cette distinction importe : la puissance politique européenne ne favorisait pas automatiquement ses objectifs religieux. En 1545, il se rendit à Malacca, puis entreprit en 1546 une mission dans les Moluques, notamment à Ambon et Ternate. Ces voyages comportaient la découverte de sociétés inconnues et de dangereuses traversées. Des récits ultérieurs ont parfois étendu son itinéraire au-delà des faits établis. En particulier, son évangélisation personnelle des Philippines ne doit pas être considérée comme démontrée simplement parce qu’elle entra dans l’hagiographie postérieure.
+
+## La mission japonaise
+
+À Malacca, en 1547, Xavier rencontra un Japonais généralement appelé Anjirō, baptisé ensuite sous le nom de Paulo de Santa Fé. Ses renseignements contribuèrent à éveiller l’intérêt de Xavier pour le Japon. Avant son départ, Xavier revint à Goa pour assurer la continuité des missions et la formation de nouveaux membres de la Compagnie. Cette administration appartenait à sa vocation : les communautés ne pouvaient dépendre indéfiniment d’un visiteur. Il partit pour le Japon avec Cosme de Torres, Juan Fernández et son compagnon japonais, et atteignit Kagoshima en août 1549.
+
+Le Japon exigeait un travail plus méthodique sur la langue et les idées religieuses. Xavier et ses collaborateurs préparèrent des explications de la doctrine chrétienne avec une aide locale. Il voyagea au-delà de Kagoshima et atteignit Kyoto, mais le désordre politique y déçut ses espérances. Ailleurs, il obtint des occasions de prêcher et contribua à établir de petites communautés chrétiennes. Son expérience remettait en question l’idée que les méthodes employées dans un pays pouvaient être simplement transposées dans un autre. La mission dépendait de la traduction, du dialogue, des autorisations locales et du travail continu des collaborateurs. En quittant le Japon en 1551, il en confia le développement à Torres et Fernández, sans considérer son départ comme la fin de l’œuvre.
+
+## Dernier voyage et héritage
+
+Revenu à Goa au début de 1552, Xavier régla des désaccords internes avant de préparer son approche de la Chine. L’importance culturelle de celle-ci dans la région le persuadait qu’elle offrait un nouveau champ majeur d’évangélisation. L’opposition portugaise à Malacca compliqua le projet. Il atteignit finalement l’île côtière de Shangchuan, traditionnellement appelée Sancian, mais ne put entrer sur le continent. La maladie le saisit pendant son attente. Il mourut au début de décembre 1552, dans des conditions très pauvres ; les récits divergent entre le 2 et le 3 décembre.
+
+Le corps de Xavier fut finalement déposé à Goa et il fut canonisé en 1622 avec Ignace de Loyola. Ses lettres et les communautés poursuivies par ses confrères renseignent mieux sur son œuvre que des totaux de conversions acceptés sans examen ou des récits de maîtrise spontanée de toutes les langues. Les miracles traditionnels appartiennent à l’histoire de sa vénération et doivent être distingués d’un itinéraire documenté. Sa vie unit conviction religieuse intense, adaptation pratique et vulnérabilité physique. Elle illustre aussi les relations non résolues entre mission chrétienne et expansion européenne, contexte qu’un récit responsable de son activité ne saurait omettre.
+
+## Sources
+
+- Antonio Astrain, « St. Francis Xavier », Catholic Encyclopedia (1909), miroir numérique consulté : https://github.com/CWilsonTSP/cathen/blob/master/cathen/06233b.htm$desc$),
+('saint-francis-xavier', 'la',
+$desc$Franciscus Xaverius inter primos Ignatii de Loyola socios fuit atque missionarius Societatis Iesu in India, Asia austrorientali et Iaponia. Itinera, epistulae et communitates ab eo institutae demonstrant ardorem simul atque difficultates missionis catholicae saeculi sexti decimi.$desc$,
+$desc$## Institutio et vocatio
+
+Franciscus Xaverius anno 1506 in castello familiae Xaverii in Navarra natus est. Anno 1525 Lutetiam ad Collegium Sanctae Barbarae studendi causa profectus est, ubi Petro Fabro amicitia coniunctus est. Congressus cum Ignatio de Loyola paulatim studia eius in aliam partem direxit, quae alioquin ad communem cursum academicum vel ecclesiasticum ducere potuissent. Inter septem socios fuit qui die 15 Augusti 1534 in Monte Martyrum vota emiserunt. Commune propositum eorum institutionem publicam Societatis Iesu praecessit; ex parvo illo studiosorum coetu ordo postea per orbem diffusus ortus est.
+
+Studiis absolutis et munere docendi Lutetiae exercito, Xaverius anno 1536 cum sociis Venetias venit. Ibi aegrotis in nosocomiis ministravit et mense Iunio 1537 presbyter ordinatus est. Postea Romae laboravit et colloquiis interfuit quibus nova societas formabatur. Rege Lusitaniae petente, missionarii ad Asiam quaerebantur. Xaverius anno 1540 Olisiponem missus est, antequam publica pontificia Societatis approbatio perfecta esset. Munus eius intra commercia maritima Lusitana exercebatur, quae naves et aditum praebebant, sed opus missionarium etiam difficultatibus imperii amplificandi implicabant.
+
+## India et Asia austrorientalis
+
+Xaverius mense Aprili 1541 Olisipone solvit et mense Maio 1542, post longam difficilemque navigationem, Goam pervenit. Praedicavit, nosocomia visitavit et pueros ad doctrinam convocavit. Deinde ad oram piscatorum margaritarum in India meridionali contendit, ubi communitates iam baptizatae stabili cura pastorali indigebant. Opus igitur eius etiam christianos iam existentes instituere complectebatur, non tantum religionem christianam ubi ignota erat annuntiare. Orationes et doctrinae elementa tradere, adiutores parare et sedes dispersas saepe visitare necessarium erat. Longinquitas, sacerdotum penuria et linguarum impedimenta facultates unius missionarii circumscribebant.
+
+Illis annis et principum indigenarum oppositionem et damnosos mores quorundam militum colonorumque Lusitanorum expertus est. Haec distinctio magni momenti est: potestas politica Europaea fines religiosos eius non necessario promovebat. Anno 1545 Malaccam petiit, et anno 1546 missionem inter insulas Moluccas, inter quas Ambon et Ternate, iniit. Itinera societates ignotas et periculosas navigationes involvebant. Narrationes posteriores interdum iter eius ultra ea quae probari possunt extenderunt. Praesertim sententia eum ipsum Philippinas evangelizavisse non pro certo habenda est eo tantum quod in recentiorem hagiographiam recepta est.
+
+## Missio Iaponica
+
+Malaccae anno 1547 Xaverius virum Iaponicum, plerumque Anjirō appellatum et postea Paulum de Sancta Fide baptizatum, convenit. Quae ab eo didicit studium Iaponiae suscitaverunt. Priusquam discederet, Goam rediit ut missionum continuationi et novorum Societatis membrorum institutioni provideret. Haec administratio ad vocationem ipsius pertinebat, non eam interrumpebat: communitates a visitatore perpetuo pendere non poterant. Cum Cosma de Torres, Ioanne Fernández et socio Iaponico ad Iaponiam navigavit, mense Augusto 1549 Kagoshimam attingens.
+
+Iaponia diligentiorem operam circa linguam et notiones religiosas exigebat. Xaverius eiusque collaboratores, indigenis adiuvantibus, explicationes doctrinae christianae paraverunt. Ultra Kagoshimam iter fecit atque Kyoto pervenit, sed perturbationes politicae spem eius ibi impediverunt. Alibi praedicandi facultatem obtinuit et parvas communitates christianas instituendas adiuvit. Experientia eius ostendit rationes in una regione adhibitas non simpliciter in aliam transferri posse. Missio a translatione, colloquio, licentia locali et continuo sociorum labore pendebat. Cum anno 1551 Iaponia discederet, incrementum operis Torres et Fernández commisit, neque suum discessum eius finem putavit.
+
+## Ultimum iter et hereditas
+
+Ineunte anno 1552 Goam reversus, Xaverius dissensiones intra missionem composuit antequam ad Sinas accedere pararet. Momentum culturae Sinensis in regione persuasit ei magnum novum campum evangelizationi patere. Oppositio Lusitanorum Malaccae propositum difficilius reddidit. Tandem insulam maritimam Shangchuan, tradito nomine Sancian, attigit, sed in continentem ingredi non potuit. Dum exspectabat, morbo correptus est. Ineunte Decembri 1552 in pauperrimis condicionibus obiit; narrationes diem mortis inter secundum et tertium Decembris varie ponunt.
+
+Corpus Xaverii tandem Goae conditum est, et anno 1622 cum Ignatio de Loyola canonizatus est. Epistulae eius et communitates a sociis continuatae opus eius certius illustrant quam numeri conversionum sine examine recepti aut narrationes de omnibus linguis sine labore cognitis. Miraculorum traditiones ad historiam venerationis pertinent et ab itinere documentis confirmato distinguendae sunt. Vita eius ardentem persuasionem religiosam, prudentiam rebus accommodatam et corporis fragilitatem coniunxit. Ostendit etiam relationem nondum solutam inter missionem christianam et expansionem Europaeam, cuius condicionis ratio in eius historia honeste praetermitti nequit.
+
+## Fontes
+
+- Antonius Astrain, « St. Francis Xavier », Catholic Encyclopedia (1909), exemplar digitale consultum: https://github.com/CWilsonTSP/cathen/blob/master/cathen/06233b.htm$desc$)
+) AS x(slug, locale_code, short_description, full_biography)
+ON s.slug = x.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-john-damascene', 'en',
+$desc$John Damascene was a monk, priest, and theologian whose synthesis of Greek Christian teaching influenced East and West. His defense of sacred images grounded their veneration in the Incarnation, while his theological and liturgical writings preserved the inheritance of earlier Fathers.$desc$,
+$desc$## Life and historical evidence
+
+John Damascene belonged to the Christian world of Damascus under Muslim rule and is generally placed in the late seventh and first half of the eighth century. Exact dates remain uncertain, and older reference works offer chronologies that differ considerably. The principal narrative life was written much later and contains legendary episodes. It cannot be used as though it were a contemporary record of his childhood, education, or movements. His surviving theological works supply firmer evidence for his intellectual concerns than the biographical tradition supplies for the sequence of his personal life.
+
+That tradition describes his family as Christian officials in the administration of Damascus and gives him a distinguished education. It also associates his formation with a learned monk named Cosmas and connects him with another Cosmas, the hymnographer. Stories of his own administrative service should be read within that late narrative framework. John eventually became a monk associated with the monastery of Saint Sabas near Jerusalem and was ordained priest. This Palestinian monastic setting matters for understanding an author who wrote in Greek but did not live under the direct authority of the Byzantine emperor.
+
+## The defense of sacred images
+
+John's most celebrated controversy concerned the rejection of sacred images in the Byzantine world during the reign of Leo III. His three defenses of images challenged attempts to remove them from Christian worship. The question was not merely whether churches should contain decoration. It concerned how Christians understood matter, the revelation of God, and the relationship between the visible image and the person represented. Living beyond the emperor's immediate jurisdiction gave John an unusual position from which to oppose imperial religious policy, although it did not make the controversy unimportant to his own community.
+
+His central argument depended on the Incarnation. The invisible God could not be enclosed within a material likeness, but the Word had truly become human and had been seen. Christian representation of Christ therefore confessed the reality of his humanity rather than denying divine transcendence. John distinguished the worship due to God alone from the relative honor given to an image because of its relation to its prototype. Matter was not itself divine; it could nevertheless serve God's saving action. His reasoning extended to the wider material character of Christian life, including the cross, the Scriptures, and sacramental worship.
+
+## Monastic tradition and controversy
+
+A famous story says that the emperor procured a forged letter accusing John of treachery, that a ruler ordered his hand cut off, and that the Virgin Mary miraculously restored it. This belongs to the later life and should not be presented as independently established political history. It expresses the tradition's conviction that John's literary defense of the faith had divine approval. Similarly, the circumstances in which he left public employment for monastic life cannot be reconstructed with the precision offered by some devotional retellings. The limits of the evidence do not diminish the demonstrable significance of his writings.
+
+The iconoclast council of 754 condemned John, while the Second Council of Nicaea in 787 vindicated the veneration of images and honored their defenders. These later judgments show how central his arguments had become. His polemical writings also addressed disputes about Christ's two natures and wills and discussed religious teachings outside the Church. Such works belong to the intellectual and confessional conflicts of their period. Their descriptions of opponents should not be mistaken for neutral modern accounts of those communities, nor should their forceful language obscure the systematic theological project that occupied much of his life.
+
+## Theology and enduring reception
+
+The best-known expression of that project is the Fountain of Knowledge, also called the Fountain of Wisdom. It combines philosophical definitions, a treatment of heresies, and an Exposition of the Orthodox Faith. John deliberately assembled and ordered the inheritance of earlier Christian writers rather than claiming to invent a new doctrine. Philosophical vocabulary served the clarification of theological questions. His exposition treats God and the Trinity, creation, human nature, the Incarnation, and the Church's sacramental faith. The result is not simply a collection of quotations but an organized presentation of a received tradition.
+
+Latin translations made his work important to medieval Western theologians, including Peter Lombard and Thomas Aquinas. His preaching and the hymns associated with him also gave that doctrinal inheritance a liturgical voice. Not every work transmitted under his name can confidently be accepted as authentic, and the extent of his authorship in Byzantine hymn collections is debated. He is honored as a Doctor of the Church, a recognition granted under Leo XIII. His lasting importance lies in joining conceptual precision to worship: theology explained what the Church confessed, while prayer and sacred representation expressed that confession in the life of believers.
+
+## Sources
+
+- Joseph McSorley, “St. John Damascene,” Catholic Encyclopedia (1910), consulted digital mirror; its late biography and disputed chronology require caution: https://github.com/CWilsonTSP/cathen/blob/master/cathen/08459b.htm$desc$),
+('saint-john-damascene', 'fr',
+$desc$Jean Damascène fut un moine, prêtre et théologien dont la synthèse de la doctrine grecque chrétienne influença l’Orient et l’Occident. Sa défense des images sacrées fondait leur vénération sur l’Incarnation, tandis que ses écrits théologiques et liturgiques conservaient l’héritage des Pères.$desc$,
+$desc$## Vie et témoignages historiques
+
+Jean Damascène appartenait au monde chrétien de Damas sous domination musulmane ; on le situe généralement à la fin du VIIe siècle et dans la première moitié du VIIIe. Les dates précises restent incertaines et les ouvrages anciens proposent des chronologies sensiblement différentes. Le principal récit de sa vie fut composé beaucoup plus tard et contient des épisodes légendaires. On ne peut le traiter comme un document contemporain de son enfance, de sa formation ou de ses déplacements. Ses œuvres théologiques conservées renseignent plus solidement sur ses préoccupations intellectuelles que la tradition biographique sur les étapes de sa vie personnelle.
+
+Cette tradition présente sa famille comme celle de fonctionnaires chrétiens de l’administration de Damas et lui attribue une remarquable éducation. Elle associe aussi sa formation à un moine savant nommé Cosmas et le rapproche d’un autre Cosmas, l’hymnographe. Les récits de son propre service administratif doivent être lus dans ce cadre narratif tardif. Jean devint finalement moine, lié au monastère de Saint-Sabas près de Jérusalem, et fut ordonné prêtre. Ce milieu monastique palestinien importe pour comprendre un auteur écrivant en grec, mais ne vivant pas sous l’autorité directe de l’empereur byzantin.
+
+## La défense des images sacrées
+
+La controverse la plus célèbre de Jean concernait le rejet des images sacrées dans le monde byzantin sous Léon III. Ses trois défenses des images contestaient les tentatives de les supprimer du culte chrétien. La question ne portait pas seulement sur la décoration des églises. Elle concernait la compréhension chrétienne de la matière, de la révélation divine et du rapport entre l’image visible et la personne représentée. Résidant hors de la juridiction immédiate de l’empereur, Jean occupait une position particulière pour s’opposer à sa politique religieuse, sans que la controverse perdît son importance pour sa propre communauté.
+
+Son argument essentiel reposait sur l’Incarnation. Le Dieu invisible ne pouvait être enfermé dans une ressemblance matérielle, mais le Verbe s’était véritablement fait homme et avait été vu. La représentation chrétienne du Christ confessait donc la réalité de son humanité sans nier la transcendance divine. Jean distinguait l’adoration due à Dieu seul de l’honneur relatif rendu à une image en raison de son rapport avec son modèle. La matière n’était pas divine ; elle pouvait néanmoins servir l’action salvifique de Dieu. Son raisonnement englobait le caractère matériel de la vie chrétienne, notamment la croix, les Écritures et le culte sacramentel.
+
+## Tradition monastique et controverse
+
+Un récit célèbre rapporte que l’empereur fit fabriquer une lettre accusant Jean de trahison, qu’un souverain ordonna de lui couper la main et que la Vierge Marie la rétablit miraculeusement. Cet épisode appartient à la vie tardive et ne doit pas être présenté comme une histoire politique indépendamment établie. Il exprime la conviction traditionnelle que la défense écrite de la foi par Jean avait l’approbation divine. De même, son abandon du service public pour la vie monastique ne peut être reconstitué avec la précision de certains récits de dévotion. Les limites documentaires n’amoindrissent pas l’importance démontrable de ses écrits.
+
+Le concile iconoclaste de 754 condamna Jean, tandis que le deuxième concile de Nicée, en 787, justifia la vénération des images et honora leurs défenseurs. Ces jugements ultérieurs montrent la place centrale prise par ses arguments. Ses écrits polémiques abordèrent aussi les débats sur les deux natures et volontés du Christ et examinèrent des doctrines extérieures à l’Église. Ils appartiennent aux conflits intellectuels et confessionnels de leur époque. Leurs descriptions des adversaires ne constituent pas des exposés modernes neutres de ces communautés ; leur langage vigoureux ne doit pas non plus masquer le projet théologique systématique auquel Jean consacra une grande partie de sa vie.
+
+## Théologie et réception durable
+
+L’expression la mieux connue de ce projet est la Source de la connaissance, également appelée Source de la sagesse. Elle rassemble des définitions philosophiques, une présentation des hérésies et un Exposé de la foi orthodoxe. Jean réunissait et ordonnait délibérément l’héritage des écrivains chrétiens antérieurs, sans prétendre inventer une doctrine nouvelle. Le vocabulaire philosophique servait à préciser les questions théologiques. Son exposé traite de Dieu et de la Trinité, de la création, de la nature humaine, de l’Incarnation et de la foi sacramentelle de l’Église. Il ne s’agit pas seulement d’un recueil de citations, mais d’une présentation organisée d’une tradition reçue.
+
+Les traductions latines rendirent son œuvre importante pour les théologiens médiévaux occidentaux, notamment Pierre Lombard et Thomas d’Aquin. Sa prédication et les hymnes qui lui sont associés donnèrent aussi une voix liturgique à cet héritage doctrinal. Toutes les œuvres transmises sous son nom ne peuvent être tenues avec assurance pour authentiques, et sa contribution aux collections d’hymnes byzantines reste discutée. Il est honoré comme docteur de l’Église, reconnaissance accordée sous Léon XIII. Son importance durable consiste à unir précision conceptuelle et culte : la théologie expliquait la confession de l’Église, tandis que la prière et les représentations sacrées l’exprimaient dans la vie des fidèles.
+
+## Sources
+
+- Joseph McSorley, « St. John Damascene », Catholic Encyclopedia (1910), miroir numérique consulté ; la biographie tardive et la chronologie discutée exigent de la prudence : https://github.com/CWilsonTSP/cathen/blob/master/cathen/08459b.htm$desc$),
+('saint-john-damascene', 'la',
+$desc$Ioannes Damascenus monachus, presbyter et theologus fuit, cuius doctrinae christianae Graecae compositio Orientem et Occidentem movit. Defensio imaginum sacrarum venerationem earum in Incarnatione fundavit, dum scripta theologica et liturgica hereditatem Patrum antiquiorum servabant.$desc$,
+$desc$## Vita et testimonia historica
+
+Ioannes Damascenus ad mundum christianum Damasci sub dominatu musulmano pertinuit et plerumque exeunti saeculo septimo atque primae parti octavi adscribitur. Dies certi manent incerti, et vetera opera chronologias satis diversas proponunt. Praecipua vitae narratio multo post conscripta est et episodia fabulosa continet. Ea quasi testimonium contemporaneum pueritiae, institutionis aut itinerum adhiberi non potest. Opera theologica quae supersunt de studiis intellectualibus certiora praebent testimonia quam traditio biographica de ordine rerum vitae privatae.
+
+Traditio illa familiam eius ut christianos administrationis Damascenae ministros describit atque praeclaram institutionem ei tribuit. Formationem quoque eius cum monacho docto Cosma coniungit eumque alteri Cosmae, hymnographo, associat. Narrationes de ipsius ministerio administrativo intra hunc serioris narrationis ambitum legendae sunt. Ioannes tandem monachus factus est, monasterio Sancti Sabae prope Hierosolyma coniunctus, atque presbyter ordinatus. Haec condicio monastica Palaestinae magni momenti est ad intellegendum scriptorem qui Graece scripsit, sed sub directa imperatoris Byzantini potestate non vivebat.
+
+## Defensio imaginum sacrarum
+
+Celeberrima Ioannis controversia ad reiectionem imaginum sacrarum in mundo Byzantino sub Leone III pertinebat. Tres eius defensiones imaginum conatus eas e cultu christiano removendi impugnaverunt. Quaestio non tantum erat utrum ecclesiae ornamenta continerent. Spectabat ad christianam materiae intellegentiam, revelationem Dei et relationem imaginis visibilis ad personam expressam. Extra proximam imperatoris iurisdictionem habitans, Ioannes peculiarem locum obtinebat ex quo consilia religiosa imperatoria oppugnaret, quamvis controversia suae quoque communitati magni momenti esset.
+
+Praecipuum argumentum ab Incarnatione pendebat. Deus invisibilis similitudine materiali includi non poterat, sed Verbum vere homo factum erat atque visum. Repraesentatio igitur Christi humanitatis eius veritatem confitebatur, non divinam transcendentiam negabat. Ioannes adorationem soli Deo debitam ab honore relativo imagini propter exemplar suum tributo distinxit. Materia ipsa divina non erat; actioni tamen salvificae Dei inservire poterat. Ratio eius latius ad materialem vitae christianae indolem pertinebat, inter quae crux, Scripturae et cultus sacramentalis numerabantur.
+
+## Traditio monastica et controversia
+
+Celebris narratio refert imperatorem epistulam falsam paravisse qua Ioannes proditionis accusaretur, principem manum eius amputari iussisse et Virginem Mariam eam mirabiliter restituisse. Haec ad vitam seriorem pertinent nec tamquam res politicae aliunde comprobatae proponenda sunt. Traditionis persuasionem exprimunt defensionem fidei scriptam divinitus probatam esse. Similiter quibus condicionibus Ioannes munus publicum pro vita monastica reliquerit ea diligentia restitui nequit quam quaedam narrationes piae ostendunt. Finium testimoniorum cognitio momentum operum certo demonstratum non minuit.
+
+Concilium iconoclastarum anni 754 Ioannem damnavit, dum Concilium Nicaenum Secundum anno 787 venerationem imaginum vindicavit earumque defensores honoravit. Haec iudicia posteriora ostendunt quanti argumenta eius aestimarentur. Opera polemica etiam de duabus Christi naturis et voluntatibus disputaverunt doctrinasque extra Ecclesiam tractaverunt. Haec ad controversias intellectuales et confessionales illius aetatis pertinent. Descriptiones adversariorum pro expositionibus hodiernis aequis illarum communitatum habendae non sunt, neque vehemens sermo opus theologicum ordinatum obscurare debet cui magnam vitae partem dedit.
+
+## Theologia et receptio permanens
+
+Notissima huius propositi expressio est Fons cognitionis, etiam Fons sapientiae appellatus. Definitiones philosophicas, tractationem haereseon et Expositionem fidei orthodoxae coniungit. Ioannes consulto hereditatem antiquiorum scriptorum christianorum collegit et ordinavit, non novam doctrinam invenire professus est. Vocabula philosophica quaestionibus theologicis explicandis serviebant. Expositio de Deo et Trinitate, creatione, natura humana, Incarnatione et fide sacramentali Ecclesiae agit. Opus igitur non simplex locorum collectio est, sed ordinata traditae doctrinae praesentatio.
+
+Versiones Latinae opus eius theologis occidentalibus medii aevi, inter quos Petro Lombardo et Thomae Aquinati, magni momenti reddiderunt. Praedicatio et hymni ei consociati hereditati doctrinali vocem liturgicam quoque dederunt. Non omnia sub eius nomine transmissa opera certa fide authentica haberi possunt, et quantum in collectionibus hymnorum Byzantinorum scripserit disputatur. Doctor Ecclesiae honoratur, titulo sub Leone XIII concesso. Momentum eius permanens in coniunctione accuratae cogitationis cum cultu consistit: theologia explicabat quae Ecclesia confitebatur, dum oratio et sacrae repraesentationes illam confessionem in vita fidelium exprimebant.
+
+## Fontes
+
+- Iosephus McSorley, « St. John Damascene », Catholic Encyclopedia (1910), exemplar digitale consultum; vita serior et chronologia disputata caute legendae sunt: https://github.com/CWilsonTSP/cathen/blob/master/cathen/08459b.htm$desc$)
+) AS x(slug, locale_code, short_description, full_biography)
+ON s.slug = x.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-nicholas', 'en',
+$desc$Nicholas was a fourth-century bishop of Myra whose enduring veneration far exceeds the surviving evidence for his life. Eastern and Western Christians remembered him through stories of generosity and deliverance, while his relics at Bari became an important focus of devotion.$desc$,
+$desc$## A bishop behind a rich tradition
+
+Nicholas is remembered as bishop of Myra in Lycia, in present-day Turkey, during the fourth century. Beyond this basic identification, remarkably little about his life can be established with confidence. Familiar birth and death dates are traditional estimates rather than securely documented milestones. His later fame should therefore not be confused with the survival of an extensive contemporary biography. The responsible subject of an account is both the obscure historical bishop and the much better attested development of his veneration.
+
+Later lives place his birth at Patara, describe travel to Egypt and Palestine, and recount his election as bishop. They also say that he suffered imprisonment during Diocletian's persecution and was released in the time of Constantine. These episodes belong to the received hagiographical narrative. They are not supported by a continuous set of contemporary records, and their narrative detail should not be used to reconstruct his daily ministry. The traditions preserve an image of a courageous and merciful pastor without allowing a precise administrative history of his episcopate.
+
+## Nicaea and the limits of legend
+
+Nicholas is frequently included among the bishops at the Council of Nicaea in 325. His attendance is disputed: the earliest surviving lists do not securely establish his presence. Still more dramatic stories attached to his participation should not be reported as eyewitness history. The Church's remembrance of him as an orthodox bishop and the question of his personal attendance at a particular council are distinct matters.
+
+Numerous accounts of intervention, rescue, and generosity accumulated around his name. Such stories explain how successive Christian communities understood his holiness; they do not all carry the same evidential weight. A narrative may convey an ethical conviction about care for vulnerable people while remaining historically unverified. Treating the entire tradition as a literal contemporary chronicle obscures this distinction, while dismissing it as meaningless overlooks its role in centuries of Christian religious life.
+
+## The spread of veneration
+
+By the sixth century Nicholas was sufficiently prominent for Emperor Justinian to build a church in his honor at Constantinople. His remembrance became deeply established in Eastern Christianity and later especially in Russia. Western devotion also developed before the famous transfer of his relics. A late tenth-century bishop of Eichstätt, Reginald, composed a verse life, evidence that Nicholas was already known beyond the Greek-speaking world.
+
+In 1087 men from Bari removed remains venerated as his from Myra and brought them to southern Italy. This translation, celebrated by the receiving community, also involved taking relics from another Christian community and should not be described as an uncontested gift. Bari became a major center of his cult. Customs of giving presents on his feast subsequently contributed to the development of modern Christmas gift-bringer traditions. These later cultural transformations are part of his reception, not evidence about the activities of the fourth-century bishop. Nicholas's commemoration on 6 December joins a sparse historical record to an exceptionally extensive religious memory.
+
+## Sources
+
+- Michael Ott, “St. Nicholas of Myra,” Catholic Encyclopedia (1911), consulted digital mirror: https://github.com/CWilsonTSP/cathen/blob/master/cathen/11063b.htm$desc$),
+('saint-nicholas', 'fr',
+$desc$Nicolas fut un évêque de Myre au IVe siècle dont la vénération durable dépasse largement les témoignages conservés sur sa vie. Les chrétiens d’Orient et d’Occident le célébrèrent par des récits de générosité et de délivrance, tandis que Bari devint un centre de dévotion.$desc$,
+$desc$## Un évêque derrière une riche tradition
+
+Nicolas est connu comme évêque de Myre en Lycie, dans la Turquie actuelle, au IVe siècle. Au-delà de cette identification fondamentale, très peu d’éléments de sa vie peuvent être établis avec assurance. Les dates habituelles de naissance et de mort sont des estimations traditionnelles plutôt que des repères solidement documentés. Sa renommée ultérieure ne doit donc pas être confondue avec la conservation d’une ample biographie contemporaine. Un récit responsable porte à la fois sur l’évêque historique mal connu et sur le développement, beaucoup mieux attesté, de sa vénération.
+
+Les vies postérieures situent sa naissance à Patara, décrivent des voyages en Égypte et en Palestine et racontent son élection épiscopale. Elles disent aussi qu’il fut emprisonné durant la persécution de Dioclétien et libéré au temps de Constantin. Ces épisodes appartiennent au récit hagiographique reçu. Ils ne reposent pas sur une série continue de documents contemporains, et leurs détails ne permettent pas de reconstituer son ministère quotidien. Les traditions conservent l’image d’un pasteur courageux et miséricordieux, sans autoriser une histoire administrative précise de son épiscopat.
+
+## Nicée et les limites de la légende
+
+Nicolas figure fréquemment parmi les évêques du concile de Nicée en 325. Sa participation est discutée : les plus anciennes listes conservées n’établissent pas sûrement sa présence. Les récits plus spectaculaires associés à sa participation ne doivent pas davantage être rapportés comme des témoignages oculaires. Sa mémoire ecclésiale d’évêque orthodoxe et sa présence personnelle à un concile déterminé sont deux questions distinctes.
+
+De nombreux récits d’intervention, de sauvetage et de générosité se sont accumulés autour de son nom. Ils montrent comment des communautés chrétiennes successives comprenaient sa sainteté ; ils n’ont pas tous la même valeur documentaire. Une narration peut transmettre une conviction morale sur l’attention aux personnes vulnérables tout en restant historiquement invérifiée. Traiter toute la tradition comme une chronique contemporaine littérale efface cette distinction ; la déclarer insignifiante méconnaît son rôle dans des siècles de vie religieuse chrétienne.
+
+## L’expansion de la vénération
+
+Au VIe siècle, Nicolas était assez célèbre pour que l’empereur Justinien construisît une église en son honneur à Constantinople. Sa mémoire s’enracina profondément dans le christianisme oriental, puis particulièrement en Russie. La dévotion occidentale se développa également avant la célèbre translation de ses reliques. Reginald, évêque d’Eichstätt à la fin du Xe siècle, composa une vie en vers, preuve que Nicolas était déjà connu au-delà du monde grec.
+
+En 1087, des hommes de Bari enlevèrent de Myre des restes vénérés comme les siens et les transportèrent en Italie méridionale. Cette translation, célébrée par la communauté qui les reçut, impliquait aussi la prise de reliques à une autre communauté chrétienne : elle ne doit pas être présentée comme un don incontesté. Bari devint un centre majeur de son culte. Les coutumes de cadeaux à sa fête contribuèrent ensuite aux traditions modernes des personnages distribuant les présents de Noël. Ces transformations culturelles appartiennent à sa réception et ne renseignent pas sur l’activité de l’évêque du IVe siècle. Sa commémoration du 6 décembre unit une documentation historique réduite à une mémoire religieuse exceptionnellement étendue.
+
+## Sources
+
+- Michael Ott, « St. Nicholas of Myra », Catholic Encyclopedia (1911), miroir numérique consulté : https://github.com/CWilsonTSP/cathen/blob/master/cathen/11063b.htm$desc$),
+('saint-nicholas', 'la',
+$desc$Nicolaus episcopus Myrensis saeculi quarti fuit, cuius diuturna veneratio testimonia vitae servata longe superat. Christiani orientales et occidentales eum narrationibus liberalitatis et liberationis celebraverunt, dum reliquiae eius Barienses insigne devotionis centrum factae sunt.$desc$,
+$desc$## Episcopus post copiosam traditionem
+
+Nicolaus episcopus Myrensis in Lycia, hodierna Turcia, saeculo quarto memoratur. Praeter hanc primam identificationem, perpauca de vita eius certo statui possunt. Dies natalis et obitus vulgo traditi aestimationes traditionales sunt, non termini documentis firmiter comprobati. Celebritas posterior igitur cum ampla biographia contemporanea servata confundenda non est. Narratio prudens et episcopum historicum parum notum et incrementum venerationis multo certius testatum considerat.
+
+Vitae posteriores natalem eius Pataris collocant, itinera in Aegyptum et Palaestinam describunt atque electionem episcopalem narrant. Eum quoque in persecutione Diocletiani incarceratum et aetate Constantini liberatum esse dicunt. Haec episodia ad receptam narrationem hagiographicam pertinent. Continua documentorum contemporaneorum serie non confirmantur, neque singula eorum ad ministerium cotidianum restituendum adhibenda sunt. Traditiones imaginem pastoris fortis et misericordis servant, sed accuratam episcopatus administrationis historiam non permittunt.
+
+## Nicaea et limites narrationum
+
+Nicolaus saepe inter episcopos Concilii Nicaeni anni 325 numeratur. Praesentia eius disputatur: antiquissimi indices servati eam secure non demonstrant. Narrationes etiam mirabiliores eius participationi coniunctae quasi historia testium ocularium referendae non sunt. Memoria Ecclesiae de episcopo orthodoxo et quaestio praesentiae personalis in certo concilio res distinctae sunt.
+
+Multae narrationes interventionis, liberationis et liberalitatis circa nomen eius creverunt. Illae explicant quomodo communitates christianae succedentes sanctitatem eius intellexerint; non omnes idem testimonii pondus habent. Narratio persuasionem moralem de cura infirmorum exprimere potest, quamvis historice non comprobata maneat. Totam traditionem tamquam chronicon contemporaneum ad litteram accipere distinctionem obscurat; eam vero inanem aestimare munus eius per saecula vitae christianae neglegit.
+
+## Incrementum venerationis
+
+Saeculo sexto Nicolaus iam adeo clarus erat ut imperator Iustinianus ecclesiam in honorem eius Constantinopoli aedificaret. Memoria eius in christianismo orientali, postea praesertim in Russia, alte radicata est. Devotio occidentalis quoque ante celebrem reliquiarum translationem crevit. Reginaldus, episcopus Eystettensis exeunte saeculo decimo, vitam versibus composuit, testimonium Nicolaum iam extra mundum Graecum cognitum fuisse.
+
+Anno 1087 viri Barienses reliquias ut eius veneratas Myris abstulerunt atque in Italiam meridionalem transtulerunt. Translatio, a communitate recipiente celebrata, etiam reliquias alteri communitati christianae adimebat; ideo velut donum sine controversia describenda non est. Barium praecipuum cultus centrum factum est. Consuetudines munera die festo dandi postea ad figuras hodiernas dona natalicia afferentes contulerunt. Hae mutationes culturales ad receptionem eius pertinent, non ad testimonia de episcopi saeculi quarti actionibus. Commemoratio eius die 6 Decembris parva documenta historica cum memoria religiosa amplissima coniungit.
+
+## Fontes
+
+- Michael Ott, « St. Nicholas of Myra », Catholic Encyclopedia (1911), exemplar digitale consultum: https://github.com/CWilsonTSP/cathen/blob/master/cathen/11063b.htm$desc$)
+) AS x(slug, locale_code, short_description, full_biography)
+ON s.slug = x.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-ambrose', 'en',
+$desc$Ambrose, a Roman administrator unexpectedly elected bishop of Milan, became an influential preacher, biblical interpreter, and defender of Nicene Christianity. His pastoral writings, hymns, relationship with Augustine, and confrontations with imperial authority shaped the Latin Church in the fourth century.$desc$,
+$desc$## From public office to the episcopate
+
+Ambrose was born around 340 into a Christian family connected with the Roman imperial administration. The exact place of his birth is disputed. His father held high office in Gaul, and after his death the family lived in Rome. Ambrose received the literary and legal education appropriate to a public career, including a knowledge of Greek that later enabled him to draw extensively on Eastern Christian writers. His sister Marcellina had embraced consecrated virginity, and his brother Satyrus remained important to him throughout the early years of his episcopal ministry.
+
+As governor of Liguria and Aemilia, Ambrose resided in Milan. When Bishop Auxentius died in 374, the city's divisions over doctrine made the election of a successor potentially dangerous. Ambrose entered the assembly to preserve order and was himself acclaimed bishop. The later narrative associates the initial cry with a child's voice, a detail belonging to the remembered story of his election. He was still a catechumen and had not been baptized. After initial resistance, he accepted, received baptism, and passed rapidly through the ecclesiastical orders before his consecration on 7 December 374.
+
+## Learning while teaching
+
+The abrupt transition required intensive study. Ambrose later acknowledged that he had been obliged to teach before completing his own theological formation. He read Scripture and Greek Christian authors, especially writers whose biblical interpretation joined the literal narrative to spiritual meaning. This background helped him present Old Testament texts as part of a coherent Christian proclamation. He also distributed personal resources to the poor and entrusted practical responsibilities to Satyrus. His episcopal life combined study with preaching, correspondence, the celebration of the sacraments, and continual access for people seeking advice or assistance.
+
+Augustine, who came to Milan as a teacher of rhetoric, was initially attracted by Ambrose's eloquence. The bishop's interpretation of Scripture helped undermine objections that Augustine had formed against Christian belief. Their relationship was not a continuous series of private tutorials: Augustine also remembered how occupied the bishop was and described his silent reading. Nevertheless, Ambrose's preaching and example contributed significantly to Augustine's conversion. Ambrose baptized him at Easter in 387. This connection became one of the most consequential encounters in Latin Christian history, although Augustine's conversion involved other people and a longer intellectual and spiritual journey.
+
+## Doctrine, worship, and imperial power
+
+Ambrose defended the Nicene confession of Christ's divinity and wrote on faith and the Holy Spirit, including works addressed to Emperor Gratian. He played a leading role at the Council of Aquileia in 381. In Milan, conflict intensified when the imperial court sought a basilica for Christians opposed to his doctrinal position. During the crisis of 385–386, he refused to surrender churches entrusted to his care. The congregation's prayer and singing sustained resistance. His promotion of hymns gave the people a shared language of faith and helped make theological convictions part of public worship.
+
+His relations with emperors also included diplomacy, intercession, and severe moral disagreement. After the massacre at Thessalonica in 390, Ambrose required Theodosius to undertake repentance before full sacramental reconciliation. The famous picture of a dramatic confrontation at the church door owes much to later retelling; the surviving evidence emphasizes an admonitory letter and the emperor's public penance. Ambrose's conduct asserted that imperial rank did not remove moral accountability within the Church. It should not, however, be equated without qualification with modern religious pluralism: he also opposed the restoration of the pagan altar of Victory in the Roman Senate.
+
+## Writings and final years
+
+Much of Ambrose's literary work grew from preaching and pastoral instruction. His commentary on Luke and his treatments of Old Testament figures exemplify his scriptural method. On the Duties of Ministers adapted the form of classical moral reflection to Christian ecclesiastical service. His writings on virginity reflected both his family experience and his promotion of consecrated life. On the Mysteries explained baptism and the Eucharist to the newly initiated. These works show a bishop concerned to connect doctrine with conduct, rather than an author writing only for specialists separated from the ordinary life of a congregation.
+
+Ambrose also delivered funeral addresses for Satyrus, Valentinian II, and Theodosius, texts that preserve personal grief as well as the public responsibilities of his office. He died at Milan on 4 April 397 and was buried in the basilica associated with the martyrs Gervasius and Protasius. His feast on 7 December recalls his episcopal consecration rather than his death. Honored as a Doctor of the Church, he left a lasting imprint on Latin theology and worship. Not all writings or hymns later attributed to him are authentic, and the broader Ambrosian liturgical tradition developed beyond the works of its founding bishop.
+
+## Sources
+
+- James Loughlin, “St. Ambrose,” Catholic Encyclopedia (1907), consulted digital mirror; its polemical judgments and some chronological details require critical reading: https://github.com/CWilsonTSP/cathen/blob/master/cathen/01383c.htm$desc$),
+('saint-ambrose', 'fr',
+$desc$Ambroise, administrateur romain élu de façon inattendue évêque de Milan, devint un prédicateur, exégète et défenseur influent du christianisme nicéen. Ses écrits pastoraux, ses hymnes, ses rapports avec Augustin et ses affrontements avec le pouvoir impérial marquèrent l’Église latine au IVe siècle.$desc$,
+$desc$## Du service public à l’épiscopat
+
+Ambroise naquit vers 340 dans une famille chrétienne liée à l’administration impériale romaine. Son lieu de naissance demeure discuté. Son père occupait une haute fonction en Gaule et, après sa mort, la famille résida à Rome. Ambroise reçut la formation littéraire et juridique adaptée à une carrière publique, notamment une connaissance du grec qui lui permit ensuite de puiser largement chez les écrivains chrétiens orientaux. Sa sœur Marcelline avait embrassé la virginité consacrée, et son frère Satyrus conserva une place importante auprès de lui pendant les premières années de son ministère épiscopal.
+
+Gouverneur de Ligurie et d’Émilie, Ambroise résidait à Milan. À la mort de l’évêque Auxence en 374, les divisions doctrinales de la ville rendaient l’élection d’un successeur dangereuse. Ambroise entra dans l’assemblée pour maintenir l’ordre et fut lui-même acclamé évêque. Le récit ultérieur attribue le premier cri à un enfant, détail appartenant à la mémoire de son élection. Il était encore catéchumène et n’avait pas reçu le baptême. Après avoir résisté, il accepta, fut baptisé et parcourut rapidement les ordres ecclésiastiques avant sa consécration du 7 décembre 374.
+
+## Apprendre en enseignant
+
+Cette transition soudaine exigeait une étude intense. Ambroise reconnut plus tard avoir été obligé d’enseigner avant d’achever sa propre formation théologique. Il lut les Écritures et les auteurs chrétiens grecs, particulièrement ceux dont l’interprétation biblique unissait récit littéral et sens spirituel. Cette formation l’aida à présenter les textes de l’Ancien Testament dans une proclamation chrétienne cohérente. Il distribua aussi ses biens aux pauvres et confia des responsabilités pratiques à Satyrus. Sa vie épiscopale associait étude, prédication, correspondance, célébration des sacrements et accueil constant de personnes demandant conseil ou assistance.
+
+Augustin, venu enseigner la rhétorique à Milan, fut d’abord attiré par l’éloquence d’Ambroise. L’interprétation scripturaire de l’évêque contribua à dissiper ses objections contre la foi chrétienne. Leur relation ne fut pas une suite continue d’entretiens privés : Augustin se souvenait aussi des nombreuses occupations de l’évêque et décrivit sa lecture silencieuse. Pourtant, la prédication et l’exemple d’Ambroise contribuèrent considérablement à sa conversion. Ambroise le baptisa à Pâques 387. Cette rencontre devint l’une des plus importantes de l’histoire chrétienne latine, même si la conversion d’Augustin impliquait d’autres personnes et un cheminement intellectuel et spirituel plus long.
+
+## Doctrine, culte et pouvoir impérial
+
+Ambroise défendit la confession nicéenne de la divinité du Christ et écrivit sur la foi et l’Esprit Saint, notamment à l’intention de l’empereur Gratien. Il joua un rôle majeur au concile d’Aquilée en 381. À Milan, le conflit s’aggrava lorsque la cour impériale réclama une basilique pour des chrétiens opposés à sa position doctrinale. Pendant la crise de 385–386, il refusa de livrer les églises confiées à sa garde. La prière et le chant de l’assemblée soutinrent la résistance. Les hymnes qu’il encourageait donnaient au peuple un langage commun de foi et inscrivaient les convictions théologiques dans le culte public.
+
+Ses rapports avec les empereurs comprenaient aussi diplomatie, intercession et graves désaccords moraux. Après le massacre de Thessalonique en 390, Ambroise exigea de Théodose une démarche de repentir avant sa pleine réconciliation sacramentelle. L’image célèbre d’un affrontement dramatique à la porte de l’église doit beaucoup aux récits ultérieurs ; les témoignages conservés insistent sur une lettre d’admonestation et la pénitence publique de l’empereur. Ambroise affirmait que le rang impérial ne supprimait pas la responsabilité morale dans l’Église. Il ne faut toutefois pas assimiler sans réserve cette attitude au pluralisme religieux moderne : il s’opposa aussi au rétablissement de l’autel païen de la Victoire au Sénat romain.
+
+## Écrits et dernières années
+
+Une grande partie de l’œuvre d’Ambroise naquit de la prédication et de l’instruction pastorale. Son commentaire de Luc et ses études des figures de l’Ancien Testament illustrent sa méthode scripturaire. Des devoirs des ministres adaptait la réflexion morale classique au service ecclésiastique chrétien. Ses ouvrages sur la virginité reflétaient son expérience familiale et sa promotion de la vie consacrée. Des mystères expliquait le baptême et l’Eucharistie aux nouveaux initiés. Ces œuvres montrent un évêque soucieux de relier doctrine et conduite, plutôt qu’un auteur écrivant seulement pour des spécialistes éloignés de la vie ordinaire d’une communauté.
+
+Ambroise prononça aussi les oraisons funèbres de Satyrus, de Valentinien II et de Théodose, textes qui conservent sa douleur personnelle et les responsabilités publiques de sa charge. Il mourut à Milan le 4 avril 397 et fut enseveli dans la basilique associée aux martyrs Gervais et Protais. Sa fête du 7 décembre rappelle sa consécration épiscopale plutôt que sa mort. Honoré comme docteur de l’Église, il marqua durablement la théologie et le culte latins. Tous les écrits et hymnes qui lui furent attribués ne sont pas authentiques, et la tradition liturgique ambrosienne se développa au-delà des œuvres de son évêque fondateur.
+
+## Sources
+
+- James Loughlin, « St. Ambrose », Catholic Encyclopedia (1907), miroir numérique consulté ; ses jugements polémiques et certains détails chronologiques demandent une lecture critique : https://github.com/CWilsonTSP/cathen/blob/master/cathen/01383c.htm$desc$),
+('saint-ambrose', 'la',
+$desc$Ambrosius, administrator Romanus inopinato episcopus Mediolanensis electus, praedicator, interpres Scripturae et defensor fidei Nicaenae praeclarus factus est. Scripta pastoralia, hymni, necessitudo cum Augustino et certamina cum potestate imperiali Ecclesiam Latinam saeculi quarti alte formaverunt.$desc$,
+$desc$## A munere publico ad episcopatum
+
+Ambrosius circa annum 340 in familia christiana administrationi imperii Romani coniuncta natus est. Locus natalis disputatur. Pater eius in Gallia summum munus gerebat, eoque mortuo familia Romae habitavit. Ambrosius institutionem litterariam et iuridicam cursui publico convenientem accepit, cum linguae Graecae scientia qua postea scriptoribus christianis orientalibus late uti potuit. Soror Marcellina virginitatem consecratam amplexa erat, et frater Satyrus per primos episcopatus annos magni momenti ei mansit.
+
+Liguriam et Aemiliam gubernans, Ambrosius Mediolani residebat. Episcopo Auxentio anno 374 mortuo, dissensiones doctrinales urbis electionem successoris periculosam reddebant. Ambrosius conventum ad ordinem servandum ingressus ipse episcopus acclamatus est. Narratio posterior primum clamorem voci infantis tribuit, quod ad memoriam electionis pertinet. Catechumenus adhuc erat nec baptizatus. Primo reluctatus, tandem consensit, baptismum accepit et per ordines ecclesiasticos celeriter progressus die 7 Decembris 374 consecratus est.
+
+## Discere dum docet
+
+Subita mutatio assiduum studium exigebat. Ambrosius postea confessus est se docere coactum antequam institutionem theologicam suam absolvisset. Scripturas et auctores christianos Graecos legebat, praesertim eos qui narrationem litteralem sensui spirituali coniungebant. Hac ratione textus Veteris Testamenti intra congruentem praedicationem christianam explicare potuit. Bona quoque sua pauperibus distribuit et officia practica Satyro commisit. Vita episcopalis studium cum praedicatione, epistulis, sacramentorum celebratione et continuo aditu eorum qui consilium vel auxilium quaerebant coniungebat.
+
+Augustinus, qui Mediolanum ut rhetorices magister venit, primo eloquentia Ambrosii attractus est. Interpretatio Scripturae episcopi obiectiones contra fidem christianam antea conceptas infirmavit. Necessitudo eorum non continuata colloquiorum privatorum series fuit: Augustinus etiam occupationes episcopi et lectionem silentem memoravit. Praedicatio tamen et exemplum Ambrosii ad conversionem eius multum contulerunt. Ambrosius eum Paschate anni 387 baptizavit. Hic congressus unus e gravissimis historiae christianae Latinae factus est, quamvis conversio Augustini etiam alios homines et longius iter intellectuale spiritualeque complecteretur.
+
+## Doctrina, cultus et potestas imperialis
+
+Ambrosius confessionem Nicaenam divinitatis Christi defendit et de fide ac Spiritu Sancto scripsit, etiam ad imperatorem Gratianum. In Concilio Aquileiensi anno 381 praecipuas partes egit. Mediolani certamen crevit cum aula imperialis basilicam christianis doctrinae eius adversantibus postulavit. In discrimine annorum 385–386 ecclesias suae curae commissas tradere recusavit. Oratio et cantus congregationis resistentiam sustinuerunt. Hymni quos promovit communem fidei sermonem populo praebebant et doctrinas theologicas in cultum publicum introducebant.
+
+Relationes eius cum imperatoribus etiam legationes, intercessionem et graves dissensiones morales comprehenderunt. Post caedem Thessalonicensem anno 390, Ambrosius Theodosium ad paenitentiam ante plenam reconciliationem sacramentalem requisivit. Celebris imago certaminis ad ecclesiae ianuam narrationibus posterioribus multum debet; testimonia servata epistulam monitoriam et publicam imperatoris paenitentiam extollunt. Ambrosius dignitatem imperialem responsabilitatem moralem intra Ecclesiam non tollere affirmavit. Hoc tamen sine distinctione cum pluralismo religioso hodierno aequandum non est: restitutioni quoque arae paganae Victoriae in senatu Romano restitit.
+
+## Opera et ultimi anni
+
+Magna pars operum Ambrosii e praedicatione et institutione pastorali nata est. Commentarius in Lucam et tractationes personarum Veteris Testamenti methodum eius ostendunt. De officiis ministrorum formam meditationis moralis classicae ad ministerium ecclesiasticum accommodavit. Scripta de virginitate et experientiam familiae et studium vitae consecratae exprimebant. De mysteriis baptismum et Eucharistiam nuper initiatis explicabat. Haec episcopum ostendunt doctrinam moribus coniungere volentem, non scriptorem solis peritis a vita communitatis ordinaria separatis scribentem.
+
+Ambrosius etiam orationes funebres pro Satyro, Valentiniano II et Theodosio habuit, quae dolorem personalem simul atque publica muneris officia servant. Mediolani die 4 Aprilis 397 obiit et in basilica martyribus Gervasio et Protasio consociata sepultus est. Festum die 7 Decembris consecrationem episcopalem potius quam mortem commemorat. Doctor Ecclesiae honoratus, theologiam et cultum Latinum diuturne formavit. Non omnia scripta aut hymni postea ei attributa authentica sunt, et amplior traditio liturgica Ambrosiana ultra opera episcopi fundatoris crevit.
+
+## Fontes
+
+- Iacobus Loughlin, « St. Ambrose », Catholic Encyclopedia (1907), exemplar digitale consultum; iudicia polemica et quaedam chronologica critice legenda sunt: https://github.com/CWilsonTSP/cathen/blob/master/cathen/01383c.htm$desc$)
+) AS x(slug, locale_code, short_description, full_biography)
+ON s.slug = x.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-juan-diego-cuauhtlatoatzin', 'en',
+$desc$Juan Diego Cuauhtlatoatzin is the Indigenous lay Christian associated with the Guadalupe apparitions of 1531. Canonized in 2002, he is honored for humble faith and service; the sources for his life and the historical development of the apparition narrative remain subjects of debate.$desc$,
+$desc$## Identity and the character of the evidence
+
+Juan Diego Cuauhtlatoatzin stands at the center of the Mexican tradition of Our Lady of Guadalupe. Catholic accounts place his birth around 1474 at Cuauhtitlán and his death in 1548. His Nahuatl name is commonly interpreted as “speaking eagle.” He is remembered as an Indigenous adult who embraced Christianity with his wife after the Spanish conquest. These details belong to a received biography whose documentary basis is debated; they should not be presented with the same certainty as his well-documented canonization by John Paul II in Mexico City on 31 July 2002.
+
+The sources consulted represent different kinds of testimony. The papal canonization decree formally receives the ecclesial account of his life, while the canonization homily explains its pastoral meaning. The older Catholic Encyclopedia presents the Guadalupan tradition sympathetically. Historical scholarship, summarized in the consulted archival encyclopedia article, raises questions about the dates, dependence, and silence of early documents. Keeping these categories separate permits an account that accurately describes Catholic veneration without claiming that every historical objection has been resolved, or treating an ecclesiastical judgment as though it were merely a modern archival investigation.
+
+## The Guadalupan narrative
+
+According to the tradition, on 9 December 1531 Juan Diego was travelling for religious instruction and worship when Mary appeared to him at Tepeyac. She requested that a church be built there and sent him to the bishop of Mexico, Juan de Zumárraga. The bishop did not immediately accept the messenger's account and eventually required a sign. Juan Diego's hesitancy and sense of inadequacy form part of the narrative: a person without high social standing is asked to bring a message to an authority who must discern its credibility.
+
+The account then joins the proposed mission to a family emergency. Juan Diego's uncle, Juan Bernardino, became gravely ill, and Juan Diego sought a priest. On 12 December, attempting to take another route, he encountered Mary again. She reassured him about his uncle and directed him to collect flowers on the hill. He carried them in his cloak, or tilma, to the bishop. When he opened it, the flowers fell and an image of Mary appeared upon the cloth. The healing, flowers, and image are reported here as elements of the apparition tradition, not as events independently demonstrated by contemporary administrative records.
+
+## Service and historical debate
+
+The ecclesial biography describes Juan Diego as dedicating his remaining years to the sanctuary, welcoming pilgrims and caring for the place associated with the image. It emphasizes prayer, charity, participation in the Eucharist, and obedience to the Church's pastors. This portrait presents holiness in the life of a lay believer rather than through clerical office or political achievement. The exact arrangements of his household, his occupation, and the daily routine of the shrine cannot be reconstructed securely from the available sources. Elaborate descriptions of these matters risk giving later assumptions the appearance of contemporary testimony.
+
+The central historical difficulty is the distance between the alleged events of 1531 and the major printed narratives of 1648 and 1649, associated respectively with Miguel Sánchez and Luis Laso de la Vega. The Nahuatl Nican Mopohua belongs to the latter publication; arguments for earlier composition or oral transmission remain important to defenders of the tradition. Critics emphasize the lack of an unambiguous account in Zumárraga's surviving writings and question whether later evidence establishes Juan Diego's existence. Supporters appeal to Indigenous testimony and other documentary traditions. The dating and interpretation of proposed early evidence remain contested, so neither unanimous scholarly acceptance nor definitive disproof should be asserted.
+
+## Canonization and continuing significance
+
+John Paul II recognized Juan Diego's longstanding cult in 1990 and canonized him in 2002 after the Church's process of examination. The canonization decree presents him as a historical Christian whose holiness is recognized by the Church. That act is central to his Catholic identity, but it does not turn every later devotional detail into a critically verified fact. Likewise, the secure existence of Guadalupan devotion in colonial Mexico does not, by itself, establish every feature of the developed apparition narrative. These distinctions allow religious commitment and historical inquiry to be described without misrepresenting either.
+
+In his canonization homily, John Paul II stressed that becoming Christian did not require Juan Diego to abandon his Indigenous identity. He connected the saint's memory with the dignity of Indigenous peoples, justice, and participation in the life of Mexico. Such language concerns the continuing reception of Juan Diego, not a claim that conquest or colonial evangelization was free from violence and injustice. His remembrance on 9 December remains inseparable from Guadalupe, yet his biography is specifically that of the lay messenger honored within that tradition. Its enduring themes are humble agency, fidelity, and the recognition of people whose voices have often been marginalized.
+
+## Sources
+
+- John Paul II, canonization homily, 31 July 2002, consulted Vatican mirror: https://github.com/lologhi/vatican/blob/master/john-paul-ii/homilies/2002/2002-07-31-canonization-mexico.md
+- John Paul II, Exaltavit humiles, canonization decree, 31 July 2002: https://github.com/lologhi/vatican/blob/master/john-paul-ii/apost_letters/2002/2002-07-31-exaltavit-humiles.latin.md
+- George Lee, “Shrine of Guadalupe,” Catholic Encyclopedia (1910), consulted mirror: https://github.com/CWilsonTSP/cathen/blob/master/cathen/07043a.htm
+- “Juan Diego,” archived Wikipedia article, consulted for its account of the historiographical debate, not as direct consultation of the scholarship it cites: https://github.com/vinhqdang/wikipedia_analysis/blob/master/lang_model/enwiki/text/26713$desc$),
+('saint-juan-diego-cuauhtlatoatzin', 'fr',
+$desc$Juan Diego Cuauhtlatoatzin est le chrétien autochtone laïc associé aux apparitions de Guadalupe de 1531. Canonisé en 2002, il est honoré pour sa foi humble et son service ; les sources de sa vie et le développement historique du récit demeurent discutés.$desc$,
+$desc$## Identité et nature des témoignages
+
+Juan Diego Cuauhtlatoatzin occupe une place centrale dans la tradition mexicaine de Notre-Dame de Guadalupe. Les récits catholiques situent sa naissance vers 1474 à Cuauhtitlán et sa mort en 1548. Son nom nahuatl est communément interprété comme « aigle qui parle ». Il est présenté comme un adulte autochtone ayant embrassé le christianisme avec son épouse après la conquête espagnole. Ces détails appartiennent à une biographie reçue dont la base documentaire est discutée ; ils ne doivent pas être affirmés avec la même certitude que sa canonisation, bien documentée, par Jean-Paul II à Mexico le 31 juillet 2002.
+
+Les sources consultées représentent différents types de témoignages. Le décret de canonisation reçoit officiellement le récit ecclésial de sa vie, tandis que l’homélie de canonisation en explique le sens pastoral. L’ancienne Catholic Encyclopedia expose favorablement la tradition guadalupéenne. La recherche historique, résumée dans l’article encyclopédique archivé consulté, soulève des questions concernant les dates, la dépendance et le silence des premiers documents. Distinguer ces catégories permet de décrire fidèlement la vénération catholique sans prétendre que toute objection historique a été résolue, ni traiter un jugement ecclésiastique comme une simple enquête archivistique moderne.
+
+## Le récit guadalupéen
+
+Selon la tradition, le 9 décembre 1531, Juan Diego se rendait à l’instruction religieuse et au culte lorsque Marie lui apparut à Tepeyac. Elle demanda qu’une église y fût construite et l’envoya auprès de l’évêque de Mexico, Juan de Zumárraga. L’évêque n’accepta pas immédiatement son récit et finit par demander un signe. L’hésitation de Juan Diego et son sentiment d’insuffisance appartiennent à la narration : une personne sans rang social élevé doit porter un message à une autorité chargée d’en discerner la crédibilité.
+
+Le récit relie ensuite cette mission à une urgence familiale. L’oncle de Juan Diego, Juan Bernardino, tomba gravement malade et Juan Diego chercha un prêtre. Le 12 décembre, alors qu’il tentait de prendre un autre chemin, il rencontra de nouveau Marie. Elle le rassura sur son oncle et lui ordonna de cueillir des fleurs sur la colline. Il les apporta dans son manteau, ou tilma, à l’évêque. Lorsqu’il l’ouvrit, les fleurs tombèrent et une image de Marie apparut sur le tissu. La guérison, les fleurs et l’image sont ici rapportées comme éléments de la tradition des apparitions, non comme des événements indépendamment démontrés par des archives administratives contemporaines.
+
+## Service et débat historique
+
+La biographie ecclésiale décrit Juan Diego consacrant ses dernières années au sanctuaire, accueillant les pèlerins et entretenant le lieu lié à l’image. Elle souligne la prière, la charité, la participation à l’Eucharistie et l’obéissance aux pasteurs de l’Église. Ce portrait présente la sainteté d’un fidèle laïc plutôt que celle d’un titulaire d’office clérical ou d’un acteur politique. L’organisation exacte de son foyer, son métier et le fonctionnement quotidien du sanctuaire ne peuvent être reconstitués sûrement à partir des sources disponibles. Des descriptions détaillées risqueraient de donner à des suppositions tardives l’apparence de témoignages contemporains.
+
+La difficulté historique essentielle est la distance entre les événements allégués de 1531 et les grands récits imprimés de 1648 et 1649, associés respectivement à Miguel Sánchez et à Luis Laso de la Vega. Le Nican Mopohua nahuatl appartient à cette dernière publication ; les arguments en faveur d’une composition antérieure ou d’une transmission orale restent importants pour les défenseurs de la tradition. Les critiques soulignent l’absence d’un récit sans ambiguïté dans les écrits conservés de Zumárraga et demandent si les témoignages ultérieurs établissent l’existence de Juan Diego. Les défenseurs invoquent des témoignages autochtones et d’autres traditions documentaires. La datation et l’interprétation des indices anciens proposés demeurent contestées : on ne doit affirmer ni accord savant unanime ni réfutation définitive.
+
+## Canonisation et signification durable
+
+Jean-Paul II reconnut le culte ancien de Juan Diego en 1990 et le canonisa en 2002, après la procédure d’examen de l’Église. Le décret le présente comme un chrétien historique dont l’Église reconnaît la sainteté. Cet acte est fondamental pour son identité catholique, mais ne transforme pas chaque détail dévotionnel ultérieur en fait vérifié par la critique. De même, l’existence certaine de la dévotion guadalupéenne dans le Mexique colonial n’établit pas à elle seule tous les éléments du récit développé des apparitions. Ces distinctions permettent de présenter engagement religieux et enquête historique sans dénaturer l’un ou l’autre.
+
+Dans son homélie de canonisation, Jean-Paul II souligna que devenir chrétien n’exigeait pas de Juan Diego l’abandon de son identité autochtone. Il associa sa mémoire à la dignité des peuples autochtones, à la justice et à leur participation à la vie du Mexique. Ce langage concerne la réception durable de Juan Diego et ne prétend pas que conquête ou évangélisation coloniale furent exemptes de violence et d’injustice. Sa mémoire du 9 décembre reste inséparable de Guadalupe, mais sa biographie est précisément celle du messager laïc honoré dans cette tradition. Ses thèmes durables sont l’action humble, la fidélité et la reconnaissance de personnes dont les voix ont souvent été marginalisées.
+
+## Sources
+
+- Jean-Paul II, homélie de canonisation, 31 juillet 2002, miroir du Vatican consulté : https://github.com/lologhi/vatican/blob/master/john-paul-ii/homilies/2002/2002-07-31-canonization-mexico.md
+- Jean-Paul II, Exaltavit humiles, décret de canonisation, 31 juillet 2002 : https://github.com/lologhi/vatican/blob/master/john-paul-ii/apost_letters/2002/2002-07-31-exaltavit-humiles.latin.md
+- George Lee, « Shrine of Guadalupe », Catholic Encyclopedia (1910), miroir consulté : https://github.com/CWilsonTSP/cathen/blob/master/cathen/07043a.htm
+- « Juan Diego », article archivé de Wikipédia, consulté pour sa présentation du débat historiographique, sans consultation directe des études qu’il cite : https://github.com/vinhqdang/wikipedia_analysis/blob/master/lang_model/enwiki/text/26713$desc$),
+('saint-juan-diego-cuauhtlatoatzin', 'la',
+$desc$Ioannes Didacus Cuauhtlatoatzin christianus laicus indigena fuit traditioni apparitionum Guadalupensium anni 1531 consociatus. Anno 2002 canonizatus, ob humilem fidem et ministerium honoratur; fontes vitae eius atque historicum narrationis apparitionum incrementum inter studiosos adhuc disputantur.$desc$,
+$desc$## Identitas et indoles testimoniorum
+
+Ioannes Didacus Cuauhtlatoatzin in medio traditionis Mexicanae Dominae Nostrae Guadalupensis stat. Narrationes catholicae natalem circa annum 1474 Cuauhtitlán et mortem anno 1548 collocant. Nomen eius Nahuatl vulgo « aquila loquens » interpretatur. Memoratur indigena adultus qui post occupationem Hispanicam cum uxore christianismum amplexus est. Haec ad receptam biographiam pertinent cuius fundamentum documentarium disputatur; non eadem certitudine proponenda sunt qua canonizatio eius a Ioanne Paulo II Mexicopoli die 31 Iulii 2002 celebrata, documentis clare testata.
+
+Fontes consulti diversa testimoniorum genera exhibent. Decretum canonizationis narrationem ecclesialem vitae publice recipit, dum homilia sensum pastoralem explicat. Vetus Catholic Encyclopedia traditionem Guadalupensem benigne exponit. Investigatio historica, in articulo encyclopaedico archivato consulto summatim relata, quaestiones de temporibus, dependentia et silentio primorum documentorum proponit. His generibus distinctis, veneratio catholica recte describi potest neque omnis obiectio historica soluta asseritur neque iudicium ecclesiasticum quasi mera investigatio archivorum hodierna tractatur.
+
+## Narratio Guadalupensis
+
+Secundum traditionem, die 9 Decembris 1531 Ioannes Didacus ad institutionem religiosam et cultum iter faciebat, cum Maria in Tepeyac ei apparuit. Ecclesiam ibi aedificari petivit eumque ad episcopum Mexicanum Ioannem de Zumárraga misit. Episcopus narrationem nuntii non statim accepit et tandem signum requisivit. Dubitatio Ioannis Didaci et sensus indignitatis ad narrationem pertinent: homo sine dignitate sociali eminenti nuntium ad auctoritatem ferre iubetur quae eius fidem discernere debet.
+
+Narratio deinde missionem cum necessitate familiari coniungit. Patruus eius, Ioannes Bernardinus, graviter aegrotavit, et Ioannes Didacus sacerdotem quaesivit. Die 12 Decembris, dum alia via ire conabatur, Mariam iterum convenit. Illa de patruo eum confirmavit et flores in colle colligere iussit. Eos in paenula, seu tilma, episcopo attulit. Cum eam aperiret, flores ceciderunt atque imago Mariae in panno apparuit. Sanatio, flores et imago hic ut elementa traditionis apparitionum referuntur, non tamquam eventus documentis administrativis contemporaneis seorsum demonstrati.
+
+## Ministerium et controversia historica
+
+Biographia ecclesialis Ioannem Didacum ultimos annos sanctuario dedicasse describit, peregrinos excipientem et locum imagini consociatum curantem. Orationem, caritatem, Eucharistiae participationem et oboedientiam pastoribus Ecclesiae extollit. Haec imago sanctitatem fidelis laici ostendit potius quam munus clericale aut rem politicam. Quomodo domus eius ordinata fuerit, qua arte laboraverit et quae cotidiana sanctuarii consuetudo fuerit, e fontibus promptis certo restitui nequit. Accuratae talium rerum descriptiones opinionibus posterioribus speciem testimonii contemporanei dare possunt.
+
+Praecipua difficultas historica est spatium inter eventus anno 1531 positos et maiores narrationes impressas annorum 1648 et 1649, Michaeli Sánchez et Ludovico Laso de la Vega respective consociatas. Nican Mopohua lingua Nahuatl ad posteriorem editionem pertinet; argumenta pro compositione antiquiore vel traditione orali defensoribus traditionis magni momenti manent. Critici absentiam narrationis clarae in scriptis Zumárraga servatis extollunt et quaerunt an testimonia posteriora existentiam Ioannis Didaci probent. Defensores testimonia indigenarum aliasque traditiones documentarias invocant. Aetas et interpretatio propositorum testimoniorum antiquorum disputantur; ideo neque consensus omnium studiosorum neque refutatio definitiva asserenda est.
+
+## Canonizatio et momentum permanens
+
+Ioannes Paulus II cultum antiquum Ioannis Didaci anno 1990 agnovit eumque anno 2002, examine Ecclesiae peracto, canonizavit. Decretum eum tamquam christianum historicum cuius sanctitas ab Ecclesia agnoscitur proponit. Hoc actum ad identitatem catholicam eius praecipue pertinet, sed non omnia singularia devotionis posterioris in facta critice comprobata convertit. Item certa existentia devotionis Guadalupensis in Mexico coloniali non per se omnes narrationis apparitionum evolutae partes confirmat. His distinctionibus observatis, fides religiosa et investigatio historica sine alterutrius deformatione describi possunt.
+
+In homilia canonizationis Ioannes Paulus II affirmavit Ioannem Didacum, christianum factum, identitatem indigenam abicere non debuisse. Memoriam sancti cum dignitate populorum indigenarum, iustitia et participatione vitae Mexicanae coniunxit. Hic sermo ad continuam receptionem Ioannis Didaci pertinet, non ad affirmationem occupationem vel evangelizationem colonialem violentia et iniustitia caruisse. Memoria diei 9 Decembris a Guadalupe separari nequit, sed biographia proprie est nuntii laici in illa traditione honorati. Argumenta permanentia sunt humilis actio, fidelitas et agnitio hominum quorum voces saepe neglectae sunt.
+
+## Fontes
+
+- Ioannes Paulus II, homilia canonizationis, 31 Iulii 2002, exemplar Vaticanum consultum: https://github.com/lologhi/vatican/blob/master/john-paul-ii/homilies/2002/2002-07-31-canonization-mexico.md
+- Ioannes Paulus II, Exaltavit humiles, decretum canonizationis, 31 Iulii 2002: https://github.com/lologhi/vatican/blob/master/john-paul-ii/apost_letters/2002/2002-07-31-exaltavit-humiles.latin.md
+- Georgius Lee, « Shrine of Guadalupe », Catholic Encyclopedia (1910), exemplar consultum: https://github.com/CWilsonTSP/cathen/blob/master/cathen/07043a.htm
+- « Juan Diego », articulus Vicipaediae archivatus, propter expositionem controversiae historiographicae consultus, non ipsis studiis citatis directe inspectis: https://github.com/vinhqdang/wikipedia_analysis/blob/master/lang_model/enwiki/text/26713$desc$)
+) AS x(slug, locale_code, short_description, full_biography)
+ON s.slug = x.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-damasus-i', 'en',
+$desc$Damasus I governed the Roman Church from 366 to 384 amid contested elections and doctrinal conflict. He supported Nicene Christianity, encouraged Jerome’s biblical scholarship, and reshaped the memory of Roman martyrs through inscriptions, restoration of burial places, and the cultivation of their commemoration.$desc$,
+$desc$## Roman formation and a disputed election
+
+Damasus was born around the beginning of the fourth century and grew up in the service of the Roman Church. His father's name was Antonius and his mother's Laurentia; the family's geographical origins are less certain than later confident accounts suggest. He was associated with a church dedicated to Saint Lawrence. The surviving evidence provides little continuous information about his youth. His historically substantial biography begins with his election to succeed Liberius in 366, when competing groups within the Roman Christian community supported different candidates for an office of increasing public importance.
+
+Damasus's election was opposed by supporters of Ursinus, who also received consecration. The struggle involved serious violence and loss of life. Accounts come from sources with sharply differing loyalties, and assigning every act of aggression to only one side would reproduce partisan apologetic rather than adequately describe the crisis. Imperial intervention ultimately favored Damasus, while Ursinus was exiled and later restricted in his movements. Opposition nevertheless continued for years. The beginning of this pontificate therefore belongs to the history of contested ecclesiastical authority as well as to the later remembrance of a canonized pope.
+
+## Governing amid conflict
+
+Later accusations against Damasus included a charge of adultery, from which he was cleared by imperial and ecclesiastical proceedings. The accusations cannot responsibly be repeated as established guilt, but their existence shows the persistence of conflict around him. His period also witnessed concern about clerical wealth and the pursuit of gifts or inheritances. An imperial law addressed such abuses, and Damasus required its observance. The expanding public standing of the Roman clergy brought opportunities for ministry but also moral and political dangers that cannot be omitted from the setting of his government.
+
+Damasus supported the Nicene understanding of the Trinity and opposed teachings that denied the full divinity of the Son or the Holy Spirit. Roman synods during his pontificate also addressed disputes over Christ's humanity. Communion with Rome became an important reference point in these controversies, but relations with Eastern bishops were not always simple. In the divided Church of Antioch he supported Paulinus, whereas other major Eastern leaders favored Meletius. Agreement about fundamental doctrine did not automatically produce agreement about the legitimate bishop or the best path toward restoring ecclesial unity.
+
+## Scripture and Roman authority
+
+Jerome worked in Rome during the later years of Damasus's pontificate and served him in a secretarial and scholarly capacity. Damasus encouraged his revision of the Latin biblical text. This relationship is a major episode in the history that produced the Latin Vulgate, but it should not be compressed into the claim that the pope commissioned or completed every part of Jerome's subsequent biblical work. The project developed over time, and Jerome's later translations continued after Damasus's death. Their correspondence also shows the importance of answering exegetical questions within episcopal and pastoral life.
+
+Damasus articulated a strong understanding of the Roman see's authority, associating it with Peter and with Christ's words rather than merely with the political importance of the imperial capital. His pontificate coincided with the imperial recognition of Nicene Christianity under Theodosius. This convergence strengthened the Church's public position while also linking doctrinal disputes to state policy. Later documents and conciliar traditions have sometimes been attached too readily to his name. In particular, the history of biblical canon lists and texts transmitted under Damasus requires more discrimination than the simple assertion that a single decree settled every later question.
+
+## The martyrs and a lasting memory
+
+The most tangible aspect of Damasus's activity is his care for Rome's Christian burial places. He restored access to sites associated with martyrs, honored their memory, and composed verse inscriptions for their tombs. The calligrapher Furius Dionysius Filocalus gave many of these inscriptions a distinctive monumental lettering. The poems joined local memory to theological interpretation: the martyrs were witnesses to Christ and signs of continuity between the persecuted Church and the publicly established Church of his own day. Archaeology and surviving inscriptions provide evidence independent of the more partisan narratives of his election.
+
+Damasus also supported church buildings and the preservation of ecclesiastical records. He died on 11 December 384 and was buried in a funerary church on the Via Ardeatina associated with his family. His mother and sister belonged to the same commemorative landscape. Remembered as a pope and saint, he left an inheritance combining doctrine, scriptural scholarship, and the physical preservation of Christian memory. A balanced account does not erase the violence surrounding his accession or simplify Eastern disagreements. It recognizes that the enduring work of honoring the martyrs emerged from a pontificate deeply involved in the complicated religious society of late antique Rome.
+
+## Sources
+
+- Thomas Shahan, “Pope St. Damasus I,” Catholic Encyclopedia (1908), consulted digital mirror; its partisan election narrative and disputed document attributions are treated cautiously: https://github.com/CWilsonTSP/cathen/blob/master/cathen/04613a.htm$desc$),
+('saint-damasus-i', 'fr',
+$desc$Damase Ier gouverna l’Église romaine de 366 à 384 dans les conflits électoraux et doctrinaux. Il soutint la foi nicéenne, encouragea les travaux bibliques de Jérôme et renouvela la mémoire des martyrs romains par des inscriptions, la restauration de sépultures et leur commémoration.$desc$,
+$desc$## Formation romaine et élection contestée
+
+Damase naquit vers le début du IVe siècle et grandit au service de l’Église romaine. Son père s’appelait Antonius et sa mère Laurentia ; les origines géographiques de la famille sont moins certaines que certains récits ultérieurs ne le suggèrent. Il était lié à une église dédiée à saint Laurent. Les témoignages conservés donnent peu d’informations continues sur sa jeunesse. Sa biographie historiquement substantielle commence avec son élection pour succéder à Libère en 366, lorsque plusieurs groupes de la communauté chrétienne romaine soutenaient des candidats différents à une charge d’importance publique croissante.
+
+Les partisans d’Ursin, qui reçut lui aussi la consécration, s’opposèrent à l’élection de Damase. La lutte comporta de graves violences et des morts. Les récits proviennent de sources aux fidélités très différentes ; attribuer toutes les agressions à un seul camp reproduirait une apologétique partisane plutôt qu’une description adéquate de la crise. L’intervention impériale favorisa finalement Damase, tandis qu’Ursin fut exilé puis soumis à des restrictions de déplacement. L’opposition continua néanmoins pendant des années. Le début de ce pontificat appartient donc à l’histoire d’une autorité ecclésiastique contestée aussi bien qu’à la mémoire ultérieure d’un pape canonisé.
+
+## Gouverner dans le conflit
+
+Parmi les accusations ultérieures portées contre Damase figurait l’adultère ; les procédures impériales et ecclésiastiques l’en disculpèrent. Ces accusations ne sauraient être répétées comme une culpabilité établie, mais leur existence montre la persistance du conflit. Son époque connut également des préoccupations relatives à la richesse du clergé et à la recherche de dons ou d’héritages. Une loi impériale réprima ces abus, et Damase en exigea l’application. La place publique grandissante du clergé romain ouvrait des possibilités de ministère, mais comportait aussi des dangers moraux et politiques indissociables du contexte de son gouvernement.
+
+Damase soutint la compréhension nicéenne de la Trinité et s’opposa aux doctrines qui niaient la pleine divinité du Fils ou du Saint-Esprit. Des synodes romains de son pontificat abordèrent aussi les controverses sur l’humanité du Christ. La communion avec Rome devint un repère important dans ces débats, mais les rapports avec les évêques orientaux n’étaient pas toujours simples. Dans l’Église divisée d’Antioche, il soutint Paulin, tandis que d’autres responsables orientaux majeurs favorisaient Mélèce. L’accord sur la doctrine fondamentale n’entraînait pas automatiquement l’accord sur l’évêque légitime ou sur la meilleure manière de rétablir l’unité.
+
+## Écriture et autorité romaine
+
+Jérôme travailla à Rome pendant les dernières années du pontificat de Damase et le servit comme secrétaire et savant. Damase encouragea sa révision du texte biblique latin. Cette relation constitue un épisode majeur de l’histoire qui produisit la Vulgate latine, mais elle ne signifie pas que le pape commanda ou acheva chaque partie des travaux bibliques ultérieurs de Jérôme. Le projet se développa progressivement, et les traductions de Jérôme continuèrent après la mort de Damase. Leur correspondance montre aussi l’importance des questions exégétiques dans la vie épiscopale et pastorale.
+
+Damase exprima fortement l’autorité du siège romain, la rattachant à Pierre et aux paroles du Christ plutôt qu’à la seule importance politique de la capitale impériale. Son pontificat coïncida avec la reconnaissance impériale du christianisme nicéen sous Théodose. Cette convergence renforça la position publique de l’Église tout en reliant les controverses doctrinales à la politique de l’État. Des documents et traditions conciliaires postérieurs ont parfois été trop facilement associés à son nom. En particulier, l’histoire des listes du canon biblique et des textes transmis sous Damase exige davantage de discernement que l’affirmation qu’un décret unique régla toutes les questions ultérieures.
+
+## Les martyrs et une mémoire durable
+
+L’aspect le plus tangible de l’activité de Damase est son attention aux lieux funéraires chrétiens de Rome. Il restaura l’accès aux sites liés aux martyrs, honora leur mémoire et composa des inscriptions versifiées pour leurs tombeaux. Le calligraphe Furius Dionysius Filocalus donna à beaucoup de ces inscriptions une écriture monumentale caractéristique. Les poèmes unissaient mémoire locale et interprétation théologique : les martyrs étaient témoins du Christ et signes de continuité entre l’Église persécutée et l’Église publiquement établie de son temps. L’archéologie et les inscriptions conservées fournissent des témoignages indépendants des récits plus partisans de son élection.
+
+Damase soutint aussi la construction d’églises et la conservation des archives ecclésiastiques. Il mourut le 11 décembre 384 et fut enseveli dans une église funéraire de la voie Ardéatine liée à sa famille. Sa mère et sa sœur appartenaient au même paysage commémoratif. Honoré comme pape et saint, il laissa un héritage associant doctrine, étude biblique et préservation matérielle de la mémoire chrétienne. Un récit équilibré n’efface ni les violences de son accession ni la complexité des désaccords orientaux. Il reconnaît que l’œuvre durable d’honorer les martyrs naquit d’un pontificat profondément engagé dans la société religieuse complexe de la Rome antique tardive.
+
+## Sources
+
+- Thomas Shahan, « Pope St. Damasus I », Catholic Encyclopedia (1908), miroir numérique consulté ; le récit partisan de l’élection et les attributions documentaires discutées sont traités avec prudence : https://github.com/CWilsonTSP/cathen/blob/master/cathen/04613a.htm$desc$),
+('saint-damasus-i', 'la',
+$desc$Damasus I Ecclesiam Romanam ab anno 366 ad 384 inter electionis et doctrinae controversias rexit. Fidem Nicaenam sustinuit, studia biblica Hieronymi promovit atque memoriam martyrum Romanorum inscriptionibus, sepulcrorum instauratione et celebratione eorum cultus renovavit.$desc$,
+$desc$## Institutio Romana et electio controversa
+
+Damasus circa initium saeculi quarti natus et in ministerio Ecclesiae Romanae educatus est. Pater Antonius, mater Laurentia appellabatur; origines geographicae familiae minus certae sunt quam narrationes posteriores interdum affirmant. Ecclesiae Sancti Laurentii coniunctus erat. Testimonia servata de iuventute eius parum continua narrant. Biographia historice amplior ab electione in successorem Liberii anno 366 incipit, cum diversi coetus communitatis christianae Romanae candidatos diversos ad munus publice semper gravius sustinerent.
+
+Electioni Damasi fautores Ursini restiterunt, qui ipse quoque consecrationem accepit. Certamen graves violentias et caedes implicavit. Narrationes e fontibus partibus valde diversis addictis veniunt, atque omnes aggressiones uni parti tribuere apologiam partisanam potius quam iustam discriminis descriptionem repeteret. Interventus imperialis tandem Damaso favit, dum Ursinus exsul factus postea motibus coercitus est. Oppositio tamen per annos continuata est. Initium igitur pontificatus et ad historiam auctoritatis ecclesiasticae controversae et ad memoriam posteriorem papae canonizati pertinet.
+
+## Regimen inter certamina
+
+Inter accusationes posteriores contra Damasum crimen adulterii fuit, a quo processibus imperialibus et ecclesiasticis absolutus est. Accusationes pro culpa comprobata repeti non debent, sed earum existentia perseverantiam certaminis ostendit. Aetas eius sollicitudines quoque de divitiis clericorum et studio dona vel hereditates obtinendi vidit. Lex imperialis abusus coercuit, cuius observantiam Damasus postulavit. Crescens locus publicus cleri Romani ministerio occasiones dabat, sed etiam pericula moralia et politica afferebat quae a condicionibus regiminis eius separari nequeunt.
+
+Damasus doctrinam Nicaenam Trinitatis sustinuit et sententiis plenam divinitatem Filii vel Spiritus Sancti negantibus restitit. Synodi Romanae sub eo controversias de humanitate Christi quoque tractaverunt. Communio cum Roma in his certaminibus magni momenti facta est, sed relationes cum episcopis orientalibus non semper simplices erant. In Ecclesia Antiochena divisa Paulino favit, dum alii praecipui orientales Meletium sustinebant. Consensus de doctrina fundamentali non necessario consensum de episcopo legitimo vel optima unitatis restituendae via producebat.
+
+## Scriptura et auctoritas Romana
+
+Hieronymus ultimis pontificatus Damasi annis Romae laboravit eique ut secretarius et eruditus ministravit. Damasus revisionem textus biblici Latini promovit. Haec necessitudo magnum locum obtinet in historia quae Vulgatam Latinam produxit, sed non significat papam omnia posteriora opera biblica Hieronymi mandavisse vel perfecisse. Propositum per tempus crevit, et translationes Hieronymi post Damasi mortem continuatae sunt. Epistulae eorum etiam momentum quaestionum exegeticarum intra vitam episcopalem et pastoralem ostendunt.
+
+Damasus firmam auctoritatem sedis Romanae enuntiavit, eam Petro et verbis Christi potius quam soli momento politico capitis imperii coniungens. Pontificatus eius cum recognitione imperiali christianismi Nicaeni sub Theodosio concurrit. Haec convenientia locum publicum Ecclesiae firmavit, sed controversias doctrinales consiliis civitatis quoque implicavit. Documenta posteriora et traditiones conciliares nomini eius interdum nimis facile adscripta sunt. Praesertim historia indicum canonis biblici et textuum sub Damaso transmissorum maiorem discretionem exigit quam affirmatio unum decretum omnes quaestiones posteriores solvisse.
+
+## Martyres et memoria permanens
+
+Manifestissimum operis Damasi testimonium est cura locorum sepulturae christianae Romae. Aditus ad sedes martyribus consociatas restauravit, memoriam eorum honoravit et inscriptiones versibus ad sepulcra composuit. Calligraphus Furius Dionysius Filocalus multis inscriptionibus peculiares litteras monumentales dedit. Carmina memoriam localem interpretationi theologicae iungebant: martyres testes Christi erant et signa continuationis inter Ecclesiam persecutam et Ecclesiam sua aetate publice constitutam. Archaeologia et inscriptiones servatae testimonia a narrationibus electionis partibus addictis distincta praebent.
+
+Damasus etiam aedificationi ecclesiarum et conservationi archivorum ecclesiasticorum favit. Die 11 Decembris 384 mortuus est et in ecclesia funeraria Viae Ardeatinae familiae consociata sepultus. Mater et soror ad eandem memoriam funebrem pertinebant. Papa et sanctus memoratus, doctrinam, studium Scripturae et corporalem memoriae christianae conservationem coniunxit. Narratio aequa neque violentias accessionis delet neque dissensiones orientales simplices facit. Agnoscit opus durabile martyrum honorandorum e pontificatu ortum esse qui intricatae societati religiosae Romae antiquae exeuntis intime implicabatur.
+
+## Fontes
+
+- Thomas Shahan, « Pope St. Damasus I », Catholic Encyclopedia (1908), exemplar digitale consultum; narratio electionis partibus addicta et attributiones documentorum disputatae caute tractantur: https://github.com/CWilsonTSP/cathen/blob/master/cathen/04613a.htm$desc$)
+) AS x(slug, locale_code, short_description, full_biography)
+ON s.slug = x.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+
+-- END_BIOGRAPHIES_DECEMBER
+
+COMMIT;
