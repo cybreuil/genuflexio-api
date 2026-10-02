@@ -671,7 +671,7 @@ JOIN (
 ('saint-anne', '/saints/saint-anne-&-mary_stella.webp', 4, FALSE, 'subject'),
 ('saint-anne', '/saints/saint-anne-&-joachim-&-mary_wautier.webp', 5, FALSE, 'subject'),
 ('saint-anne', '/saints/saint-anne-&-joachim-&-mary_tiepolo.webp', 6, FALSE, 'subject'),
-('saint-anne', '/saints/saint-anne-&-mary-&-child.webp', 7, FALSE, 'subject'),
+('saint-anne', '/saints/saint-anne-&-mary-&-child_da-vinci.webp', 7, FALSE, 'subject'),
 ('saint-anne', '/saints/saint-anne-&-mary_icon.webp', 8, FALSE, 'subject'),
 
 -- Saint Martha of Bethany
