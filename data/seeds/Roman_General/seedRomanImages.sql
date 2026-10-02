@@ -694,7 +694,7 @@ INSERT INTO images (
 -- shared images (already present earlier in your file via Joachim block; keep ONLY ONE row in images):
 -- ('/saints/saint-anne-&-joachim-&-mary_wautier.webp', 'Education of the Virgin by Saint Anne & Saint Joachim', 'painting', 'Education of the Virgin by Saint Anne & Saint Joachim Painting', 'Michaelina Wautier', '1656', 'Private Collection', NULL, 'Public Domain', NULL),
 -- ('/saints/saint-anne-&-joachim-&-mary_tiepolo.webp', 'Education of the Virgin by Saint Anne & Saint Joachim', 'painting', 'Education of the Virgin by Saint Anne & Saint Joachim Painting', 'Giambattista Tiepolo', '1732', 'Santa Maria della Fava', NULL, 'Public Domain', NULL),
-('/saints/saint-anne-&-mary-&-child.webp', 'The Virgin and Child with Saint Anne', 'painting', 'The Virgin and Child with Saint Anne Painting', 'Leonardo da Vinci', '1503-1519', 'Musée du Louvre', NULL, 'Public Domain', NULL),
+('/saints/saint-anne-&-mary-&-child_da-vinci.webp', 'The Virgin and Child with Saint Anne', 'painting', 'The Virgin and Child with Saint Anne Painting', 'Leonardo da Vinci', '1503-1519', 'Musée du Louvre', NULL, 'Public Domain', NULL),
 ('/saints/saint-anne-&-mary_icon.webp', 'Saint Anne with the Virgin', 'icon', 'Saint Anne with the Virgin Icon', NULL, '1440', 'Benaki Museum', NULL, 'Public Domain', NULL),
 
 -- Saint Martha of Bethany
