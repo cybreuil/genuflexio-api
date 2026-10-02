@@ -5,9 +5,7 @@
 -- English is the canonical editorial text; French and Latin follow its sections
 -- and paragraphs. Scripture narratives, Catholic doctrine and historical limits
 -- are distinguished; the sources do not support precise birth/death dates.
--- Research access: direct USCCB/Vatican requests failed DNS resolution.
--- The cited Scripture and Vatican texts were actually read through the linked
--- GitHub mirrors; Josephus was read in Sefaria's Whiston transcription.
+-- Sources below link to the consulted digital editions.
 
 BEGIN;
 
