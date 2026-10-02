@@ -13,305 +13,1072 @@ SET short_description = x.short_description,
     full_biography = x.full_biography
 FROM saints AS s
 JOIN (VALUES
-(
-  'saint-mary',
-  'en',
-  'Mary of Nazareth, mother of Jesus and spouse of Joseph, receives God''s word in faith. Scripture presents her at the beginnings of Jesus'' life, at his cross, and among the praying disciples; Catholic faith venerates her as Mother of God.',
-  $desc$## Identity and sources
+	(	'saint-mary',
+		'en',
+		'Saint Mary, also known as the Virgin Mary, is the mother of Jesus Christ and one of the central figures of Christian faith. Honoured by Catholics as the Mother of God and the Mother of the Church, she is remembered for her humility, faith and complete trust in God.',
+  $desc$
+  ## Saint Mary
 
-Mary of Nazareth is known above all through the New Testament as the mother of Jesus. Matthew and Luke place her within the Jewish people and identify Joseph as her spouse; Luke locates the annunciation of Jesus' birth at Nazareth in Galilee. These writings proclaim the meaning of Jesus' coming rather than offer a continuous biography of his mother. They do not establish her date of birth, describe her childhood, or give a chronology of her final years. A responsible account therefore distinguishes what the biblical narratives say from the Church's later doctrinal formulations and from details the sources leave unknown.
+  Saint Mary, also known as the Virgin Mary, the Blessed Virgin, Our Lady and the Mother of God, holds a unique place in Christian faith. She was chosen by God to become the mother of Jesus Christ, the Son of God and Saviour of the world. Throughout the Gospel, Mary appears as a woman of deep faith, humility and prayer, whose entire life was turned towards God and towards her Son.
 
-## The annunciation and the birth of Jesus
+  ## A humble young woman of Nazareth
 
-In Luke 1, the angel Gabriel announces that Mary will bear a son whose kingdom will have no end. When she asks how this will happen, the angel attributes the conception to the Holy Spirit. Mary freely accepts the word addressed to her. The narrative presents neither a self-appointed mission nor an understanding of everything to come, but a response of trust to God's initiative. Matthew 1 tells the beginning from Joseph's perspective: he is instructed in a dream to receive Mary and to name the child Jesus.
+  Mary lived in Nazareth, in Galilee, and was betrothed to Joseph, a man of the house of David. The Gospels give few details about her childhood, but they present her as a young woman living an apparently ordinary life when God called her to an extraordinary vocation.
 
-Luke then recounts Mary's visit to Elizabeth in the hill country of Judaea. Elizabeth welcomes her as the mother of her Lord and blesses her faith; the child in Elizabeth's womb leaps at Mary's greeting. The Magnificat places Mary's thanksgiving within the promises made to Israel. Its praise concerns God's mercy, the raising of the lowly and the feeding of the hungry, not an achievement Mary claims for herself. Luke says that she remains with Elizabeth for about three months before returning home.
+  The Gospel according to Saint Luke tells how the angel Gabriel was sent to Mary with a message from God. She was told that she would conceive and give birth to Jesus, who would be called the Son of the Most High.
 
-In Luke 2, Mary travels with Joseph to Bethlehem and gives birth to Jesus, whom she lays in a manger. Shepherds find the child with Mary and Joseph and report what they have heard about him. The evangelist repeatedly describes Mary as preserving and pondering these events. At the presentation in the Temple, Simeon associates the child with salvation and opposition and tells Mary of sorrow that will pierce her own soul. Matthew 2 adds a different sequence: the visit of the magi, Joseph's flight with the child and his mother into Egypt, and their settlement at Nazareth after Herod's death.
+  Mary received this announcement with faith. Although she did not understand everything that was going to happen, she placed herself entirely in God's hands and answered: "Behold, I am the handmaid of the Lord; let it be to me according to your word."
 
-## Following her son
+  This humble response became one of the great moments of salvation history. Through her "yes" to God, Mary accepted the mission entrusted to her and became the mother of the Saviour.
 
-The account of the twelve-year-old Jesus in the Temple is Luke's final childhood episode. Mary and Joseph search anxiously before finding him among the teachers. His answer directs them to his Father, but Luke expressly says that they do not understand it. Jesus returns with them to Nazareth, and Mary continues to keep these matters in her heart. The passage leaves room for the growth and difficulty of faith; it does not portray motherhood as complete foreknowledge of Jesus' mission.
+  ## The Virgin Mary and the birth of Jesus
 
-John's Gospel places Jesus' mother at the wedding at Cana, where she notices the lack of wine and directs the servants to follow his instructions. The sign that follows manifests Jesus' glory. Later, she stands near his cross with other women and the disciple whom Jesus loves. Jesus entrusts mother and disciple to one another, and the disciple receives her into his care. Acts 1 subsequently names Mary among those persevering in prayer with the apostles. These are distinct scriptural scenes, not evidence for a detailed itinerary of all her movements during or after Jesus' ministry.
+  After the Annunciation, Mary went to visit her relative Elizabeth, who was expecting John the Baptist. When Elizabeth greeted her, Mary proclaimed the Magnificat, a beautiful hymn of praise to God.
 
-## Catholic faith and the limits of biography
+  "My soul magnifies the Lord, and my spirit rejoices in God my Saviour."
 
-Catholic teaching calls Mary Mother of God because the son she bore is the incarnate Son of God; the title concerns Christ's identity and does not make Mary the origin of his divinity. The Second Vatican Council's Lumen gentium presents her as both uniquely associated with Christ and a member and model of the Church. Her consent, charity and perseverance are understood in dependence on divine grace. The Council describes her life as a pilgrimage of faith and insists that her maternal role neither replaces nor diminishes Christ's unique mediation.
+  The Magnificat reveals Mary's humility. She does not place herself at the centre, but gives glory to God for the great things He has accomplished. She recognizes herself as His humble servant and rejoices in His mercy and faithfulness.
 
-The same teaching affirms her virginal motherhood, her preservation from original sin and her assumption, body and soul, into heavenly glory at the completion of her earthly life. These are statements of Catholic faith, not dates or circumstances supplied by a surviving eyewitness biography. The New Testament passages cited here do not narrate her final days. Lumen gentium also distinguishes the veneration given to Mary from the adoration owed to God and warns against exaggeration and credulity. Thus her enduring place in Catholic life rests on her relationship to Christ and on the discipleship witnessed in Scripture, without requiring invented details to fill the silences.
+  Mary later gave birth to Jesus in Bethlehem. The circumstances were humble: the Saviour of the world was laid in a manger, and shepherds were among the first to receive the news of His birth.
 
-## Sources
+  The Gospel tells us that Mary treasured these events and pondered them in her heart. This attitude of silent contemplation would remain characteristic of her life. She welcomed the mysteries of God with faith even when she could not yet fully understand them.
 
-- Scripture: Matthew 1–2; Luke 1–2; John 2:1–12 and 19:25–27; Acts 1:12–14. [Douay-Rheims text consulted, digital mirror](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
-- Second Vatican Council, Lumen gentium, especially §§53–60, 66–67. [Vatican edition](https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_en.html); [text consulted, chapter VIII in digital mirror](https://github.com/BenjaminPoole/Ecumenical-Christian-Library-Obsidian-Vault/blob/71c1582adc8ceca8f0ee35b41d4e9ddb0a493d49/03%20Councils%2C%20Creeds%20%26%20Confessions%20%28325%E2%80%93present%29/Vatican%20II%20%281962%29/Vatican%20II%20%E2%80%94%20Lumen%20Gentium%20II.md).
-$desc$
+  ## Mary, the Mother of Jesus
+
+  Mary accompanied Jesus throughout the hidden years of His childhood and youth. The Gospels show her as a loving mother who watched over Him while allowing God's plan to unfold.
+
+  At the wedding feast of Cana, Mary appears again in a particularly significant moment. When the wine runs out, she brings the need before Jesus and then tells the servants: "Do whatever he tells you."
+
+  These words beautifully express Mary's role in Christian spirituality. She points beyond herself towards Christ. She invites believers to trust Him and to follow His word.
+
+  At Cana, Jesus performs His first sign by changing water into wine. Mary's presence at this event has therefore always been deeply meaningful to Christians. She is seen as a mother attentive to human needs and as one who leads her children towards her Son.
+
+  ## Mary at the foot of the Cross
+
+  Mary's faith was tested most profoundly during the Passion of Christ. She followed Jesus to Jerusalem and remained near Him as He suffered and died upon the Cross.
+
+  The Gospel according to Saint John describes Mary standing near the Cross with the beloved disciple. In the midst of His suffering, Jesus entrusted His mother to the disciple and the disciple to His mother.
+
+  For the Catholic Church, this scene has a profound spiritual meaning. Mary is not only the mother of Jesus according to the flesh; she is also received as a mother by Christ's disciples.
+
+  Her presence at Calvary reveals the depth of her love and fidelity. She could not remove her Son's suffering, but she remained beside Him. Her silent presence became a testimony of faith in the darkest hour.
+
+  ## Mary and the first Christians
+
+  After the Resurrection and Ascension of Jesus, Mary remained with the apostles. The Acts of the Apostles mentions her among the disciples gathered in prayer as they awaited the coming of the Holy Spirit.
+
+  Her presence among the first Christians is significant. The woman who had welcomed Christ into the world remained with His disciples as the Church began its mission.
+
+  For Catholics, Mary therefore has a particular maternal relationship with the Church. She is honoured as the Mother of the Church and as a model of prayer, faith and perseverance.
+
+  ## Our Lady, Mother of God
+
+  The title "Mother of God", or *Theotokos*, is one of the most important titles given to Mary by the Catholic Church. It does not mean that Mary existed before God or that she gave Jesus His divine nature. Rather, it expresses the Christian belief that the child she bore is truly Jesus Christ, the Son of God, both fully divine and fully human.
+
+  Over the centuries, Christians have also called her the Blessed Virgin Mary, Our Lady, Queen of Heaven and many other titles. These names express different aspects of the Church's devotion to her.
+
+  Whether she is called Saint Mary, the Virgin Mary, Our Lady or the Blessed Mother, the Christian understanding remains centred on the same mystery: Mary received an extraordinary grace from God and freely cooperated with His plan.
+
+  ## A mother for the faithful
+
+  Catholics turn to Mary in prayer and ask for her intercession. The Hail Mary, the Rosary and many Marian prayers have become an important part of Catholic spiritual life.
+
+  To honour Mary is not to place her above God. On the contrary, authentic Marian devotion always leads the believer towards Christ. Mary herself is the one who says: "Do whatever he tells you."
+
+  She is therefore regarded as a model for every Christian. Her life teaches believers to listen to God's word, to trust Him in times of uncertainty, to remain faithful in suffering and to welcome His will with humility.
+
+  ## The Assumption and Mary's place in Heaven
+
+  The Catholic Church teaches that Mary, by a singular grace of God, was preserved from original sin from the first moment of her conception. This belief is known as the Immaculate Conception.
+
+  The Church also teaches that, at the end of her earthly life, Mary was assumed body and soul into heavenly glory. The Assumption expresses the Christian hope of resurrection and eternal life and presents Mary as a sign of the destiny promised to those who belong to Christ.
+
+  In Heaven, Mary continues to be honoured as Queen and Mother. Catholics entrust themselves to her maternal intercession, confident that she always directs them towards her Son.
+
+  ## A life of faith and love
+
+  The life of Saint Mary can be understood through one simple word: **yes**.
+
+  She said yes when God called her at the Annunciation. She said yes when she welcomed the mystery of the Incarnation. She remained faithful when she stood beneath the Cross. She prayed with the apostles after the Ascension. Throughout her life, she trusted God even when His plan was difficult to understand.
+
+  For this reason, the Virgin Mary remains one of the greatest examples of Christian faith. Her greatness does not come from worldly power or human glory, but from her humility and her complete openness to God's grace.
+
+  She is the humble woman of Nazareth who became the Mother of the Saviour, the Blessed Virgin who stood faithfully beside Christ, and the spiritual mother whom generations of Christians have honoured and loved.
+
+  For Catholics, Mary remains a tender and faithful mother who continually leads her children towards Jesus. Her prayer can be summed up in the words she gave to the servants at Cana: **"Do whatever he tells you."**
+  $desc$
 ),
 (
-  'saint-mary',
-  'fr',
-  'Marie de Nazareth, mère de Jésus et épouse de Joseph, accueille avec foi la parole de Dieu. L''Écriture la présente aux débuts de la vie de Jésus, auprès de sa croix et parmi les disciples en prière ; la foi catholique la vénère comme Mère de Dieu.',
-  $desc$## Identité et sources
+	'saint-mary',
+		'fr',
+		'Sainte Marie, également connue sous les noms de Vierge Marie, Sainte Vierge et Notre-Dame, est la mère de Jésus-Christ et l’une des figures centrales de la foi chrétienne. Vénérée par les catholiques comme la Mère de Dieu et la Mère de l’Église, elle est particulièrement honorée pour son humilité, sa foi et sa confiance totale en Dieu.',
+  $desc$
+  ## Sainte Marie
 
-Marie de Nazareth est connue avant tout par le Nouveau Testament comme la mère de Jésus. Matthieu et Luc la situent au sein du peuple juif et désignent Joseph comme son époux ; Luc place l'annonce de la naissance de Jésus à Nazareth, en Galilée. Ces écrits proclament le sens de la venue de Jésus plutôt qu'ils ne donnent une biographie continue de sa mère. Ils n'établissent pas sa date de naissance, ne décrivent pas son enfance et ne fournissent aucune chronologie de ses dernières années. Un récit rigoureux distingue donc ce que disent les récits bibliques, les formulations doctrinales ultérieures de l'Église et les détails que les sources laissent inconnus.
+  Sainte Marie, également appelée la Vierge Marie, la Sainte Vierge, Notre-Dame et la Mère de Dieu, occupe une place unique dans la foi chrétienne. Elle fut choisie par Dieu pour devenir la mère de Jésus-Christ, le Fils de Dieu et le Sauveur du monde. Tout au long des Évangiles, Marie apparaît comme une femme de foi profonde, d’humilité et de prière, dont toute l’existence est tournée vers Dieu et vers son Fils.
 
-## L'annonciation et la naissance de Jésus
+  ## Une humble jeune femme de Nazareth
 
-En Luc 1, l'ange Gabriel annonce à Marie qu'elle enfantera un fils dont le règne n'aura pas de fin. Lorsqu'elle demande comment cela se fera, l'ange attribue la conception à l'Esprit Saint. Marie accueille librement la parole qui lui est adressée. Le récit ne présente ni une mission qu'elle se serait donnée elle-même ni une compréhension de tout l'avenir, mais une réponse confiante à l'initiative de Dieu. Matthieu 1 raconte ce commencement du point de vue de Joseph : un songe lui enjoint d'accueillir Marie et de donner à l'enfant le nom de Jésus.
+  Marie vivait à Nazareth, en Galilée, et était fiancée à Joseph, un homme de la maison de David. Les Évangiles donnent peu de détails sur son enfance, mais ils nous présentent une jeune femme menant une vie apparemment ordinaire lorsque Dieu l’appela à une vocation extraordinaire.
 
-Luc raconte ensuite la visite de Marie à Élisabeth dans la région montagneuse de Judée. Élisabeth l'accueille comme la mère de son Seigneur et bénit sa foi ; l'enfant qu'elle porte tressaille à la salutation de Marie. Le Magnificat inscrit l'action de grâce de Marie dans les promesses faites à Israël. Sa louange célèbre la miséricorde de Dieu, le relèvement des humbles et la nourriture donnée aux affamés, non un accomplissement qu'elle s'attribuerait. Luc précise qu'elle demeure environ trois mois auprès d'Élisabeth avant de rentrer chez elle.
+  L’Évangile selon saint Luc raconte comment l’ange Gabriel fut envoyé auprès de Marie pour lui transmettre un message de la part de Dieu. Il lui annonça qu’elle concevrait et mettrait au monde Jésus, qui serait appelé le Fils du Très-Haut.
 
-En Luc 2, Marie se rend avec Joseph à Bethléem et donne naissance à Jésus, qu'elle couche dans une mangeoire. Des bergers trouvent l'enfant avec Marie et Joseph et rapportent ce qu'ils ont entendu à son sujet. À plusieurs reprises, l'évangéliste décrit Marie gardant et méditant ces événements. Lors de la présentation au Temple, Syméon associe l'enfant au salut et à la contradiction, et annonce à Marie une douleur qui transpercera son âme. Matthieu 2 ajoute une autre séquence : la visite des mages, la fuite de Joseph en Égypte avec l'enfant et sa mère, puis leur installation à Nazareth après la mort d'Hérode.
+  Marie accueillit cette annonce avec foi. Bien qu’elle ne comprît pas tout ce qui allait se produire, elle se remit entièrement entre les mains de Dieu et répondit : « Voici la servante du Seigneur ; que tout m’advienne selon ta parole. »
 
-## À la suite de son fils
+  Cette réponse humble devint l’un des grands moments de l’histoire du salut. Par son « oui » à Dieu, Marie accepta la mission qui lui était confiée et devint la mère du Sauveur.
 
-Le récit de Jésus au Temple à douze ans est le dernier épisode de l'enfance chez Luc. Marie et Joseph le cherchent avec angoisse avant de le retrouver parmi les docteurs. Sa réponse les renvoie à son Père, mais Luc précise qu'ils ne la comprennent pas. Jésus retourne avec eux à Nazareth, et Marie continue de garder ces choses dans son cœur. Le passage laisse place à la croissance et aux difficultés de la foi ; il ne présente pas la maternité comme une connaissance anticipée et complète de la mission de Jésus.
+  ## La Vierge Marie et la naissance de Jésus
 
-L'Évangile selon Jean situe la mère de Jésus aux noces de Cana, où elle remarque le manque de vin et invite les serviteurs à suivre ses instructions. Le signe qui suit manifeste la gloire de Jésus. Plus tard, elle se tient près de sa croix avec d'autres femmes et le disciple que Jésus aime. Jésus confie sa mère et le disciple l'un à l'autre, et le disciple la prend auprès de lui. Actes 1 nomme ensuite Marie parmi ceux qui persévèrent dans la prière avec les apôtres. Il s'agit de scènes scripturaires distinctes, non de preuves permettant de reconstituer un itinéraire détaillé de tous ses déplacements pendant ou après le ministère de Jésus.
+  Après l’Annonciation, Marie se rendit auprès de sa parente Élisabeth, qui attendait Jean le Baptiste. Lorsque Élisabeth la salua, Marie prononça le Magnificat, un magnifique cantique de louange adressé à Dieu.
 
-## La foi catholique et les limites de la biographie
+  « Mon âme exalte le Seigneur, exulte mon esprit en Dieu, mon Sauveur ! »
 
-L'enseignement catholique appelle Marie Mère de Dieu parce que le fils qu'elle a enfanté est le Fils de Dieu incarné ; ce titre concerne l'identité du Christ et ne fait pas de Marie l'origine de sa divinité. Lumen gentium, du concile Vatican II, la présente à la fois comme associée au Christ d'une manière unique et comme membre et modèle de l'Église. Son consentement, sa charité et sa persévérance sont compris dans leur dépendance envers la grâce divine. Le Concile décrit sa vie comme un pèlerinage de foi et souligne que son rôle maternel ne remplace ni ne diminue l'unique médiation du Christ.
+  Le Magnificat révèle l’humilité de Marie. Elle ne se place pas au centre, mais rend gloire à Dieu pour les grandes choses qu’il a accomplies. Elle se reconnaît comme son humble servante et se réjouit de sa miséricorde et de sa fidélité.
 
-Ce même enseignement affirme sa maternité virginale, sa préservation du péché originel et son assomption, corps et âme, dans la gloire céleste au terme de sa vie terrestre. Ce sont des affirmations de la foi catholique, non des dates ou des circonstances fournies par une biographie conservée qui serait due à un témoin oculaire. Les passages du Nouveau Testament cités ici ne racontent pas ses derniers jours. Lumen gentium distingue également la vénération accordée à Marie de l'adoration due à Dieu et met en garde contre l'exagération et la crédulité. Ainsi, sa place durable dans la vie catholique repose sur sa relation au Christ et sur la fidélité du disciple dont témoigne l'Écriture, sans qu'il faille inventer des détails pour combler les silences.
+  Marie donna ensuite naissance à Jésus à Bethléem. Les circonstances furent humbles : le Sauveur du monde fut déposé dans une mangeoire, et les bergers furent parmi les premiers à recevoir l’annonce de sa naissance.
 
-## Sources
+  L’Évangile nous dit que Marie gardait tous ces événements et les méditait dans son cœur. Cette attitude de contemplation silencieuse demeurera caractéristique de toute sa vie. Elle accueillait les mystères de Dieu avec foi, même lorsqu’elle ne pouvait pas encore les comprendre pleinement.
 
-- Écriture : Matthieu 1–2 ; Luc 1–2 ; Jean 2, 1–12 et 19, 25–27 ; Actes 1, 12–14. [Texte de la Bible Douay-Rheims consulté, copie numérique](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
-- Concile Vatican II, Lumen gentium, notamment nos 53–60, 66–67. [Édition du Vatican](https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_en.html) ; [texte consulté, chapitre VIII dans une copie numérique](https://github.com/BenjaminPoole/Ecumenical-Christian-Library-Obsidian-Vault/blob/71c1582adc8ceca8f0ee35b41d4e9ddb0a493d49/03%20Councils%2C%20Creeds%20%26%20Confessions%20%28325%E2%80%93present%29/Vatican%20II%20%281962%29/Vatican%20II%20%E2%80%94%20Lumen%20Gentium%20II.md).
-$desc$
+  ## Marie, Mère de Jésus
+
+  Marie accompagna Jésus durant les années cachées de son enfance et de sa jeunesse. Les Évangiles la présentent comme une mère aimante qui veillait sur lui tout en laissant le dessein de Dieu s’accomplir.
+
+  Aux noces de Cana, Marie apparaît de nouveau dans un moment particulièrement important. Lorsque le vin vient à manquer, elle présente simplement la situation à Jésus, puis dit aux serviteurs : « Faites tout ce qu’il vous dira. »
+
+  Ces paroles expriment magnifiquement le rôle de Marie dans la spiritualité chrétienne. Elle ne se tourne pas vers elle-même, mais conduit vers le Christ. Elle invite les croyants à lui faire confiance et à suivre sa parole.
+
+  À Cana, Jésus accomplit son premier signe en changeant l’eau en vin. La présence de Marie à cet événement a donc toujours revêtu une grande importance pour les chrétiens. Elle est considérée comme une mère attentive aux besoins des hommes et comme celle qui conduit ses enfants vers son Fils.
+
+  ## Marie au pied de la Croix
+
+  La foi de Marie fut éprouvée de manière particulièrement profonde pendant la Passion du Christ. Elle suivit Jésus jusqu’à Jérusalem et demeura près de lui lorsqu’il souffrit et mourut sur la Croix.
+
+  L’Évangile selon saint Jean décrit Marie debout près de la Croix avec le disciple bien-aimé. Au milieu de sa souffrance, Jésus confia sa mère au disciple et le disciple à sa mère.
+
+  Pour l’Église catholique, cette scène possède une profonde signification spirituelle. Marie n’est pas seulement la mère de Jésus selon la chair ; elle est également reçue comme une mère par les disciples du Christ.
+
+  Sa présence au Calvaire révèle la profondeur de son amour et de sa fidélité. Elle ne pouvait pas retirer à son Fils sa souffrance, mais elle demeura auprès de lui. Sa présence silencieuse devint un témoignage de foi au cœur de l’heure la plus sombre.
+
+  ## Marie et les premiers chrétiens
+
+  Après la Résurrection et l’Ascension de Jésus, Marie demeura auprès des apôtres. Les Actes des Apôtres la mentionnent parmi les disciples réunis dans la prière, dans l’attente de la venue de l’Esprit Saint.
+
+  Sa présence parmi les premiers chrétiens est profondément significative. Celle qui avait accueilli le Christ dans le monde demeura auprès de ses disciples alors que l’Église commençait sa mission.
+
+  Pour les catholiques, Marie entretient ainsi une relation maternelle particulière avec l’Église. Elle est honorée comme la Mère de l’Église et comme un modèle de prière, de foi et de persévérance.
+
+  ## Notre-Dame, Mère de Dieu
+
+  Le titre de « Mère de Dieu », ou *Theotokos*, est l’un des titres les plus importants donnés à Marie par l’Église catholique. Il ne signifie pas que Marie existait avant Dieu ou qu’elle aurait donné à Jésus sa nature divine. Il exprime plutôt la foi chrétienne selon laquelle l’enfant qu’elle a porté est véritablement Jésus-Christ, le Fils de Dieu, pleinement Dieu et pleinement homme.
+
+  Au cours des siècles, les chrétiens lui ont également donné les noms de Sainte Vierge Marie, Notre-Dame, Reine du Ciel et bien d’autres titres. Ces appellations expriment les différents aspects de la dévotion de l’Église envers elle.
+
+  Qu’elle soit appelée Sainte Marie, Vierge Marie, Notre-Dame ou Sainte Vierge, la foi chrétienne demeure centrée sur le même mystère : Marie a reçu une grâce extraordinaire de Dieu et a librement coopéré à son dessein.
+
+  ## Une mère pour les fidèles
+
+  Les catholiques se tournent vers Marie dans la prière et demandent son intercession. Le Je vous salue Marie, le Rosaire et de nombreuses prières mariales occupent une place importante dans la vie spirituelle catholique.
+
+  Honorer Marie ne signifie pas la placer au-dessus de Dieu. Au contraire, une véritable dévotion mariale conduit toujours le croyant vers le Christ. Marie elle-même est celle qui dit : « Faites tout ce qu’il vous dira. »
+
+  Elle est ainsi considérée comme un modèle pour chaque chrétien. Sa vie enseigne à écouter la Parole de Dieu, à lui faire confiance dans les moments d’incertitude, à rester fidèle dans la souffrance et à accueillir sa volonté avec humilité.
+
+  ## L’Immaculée Conception et l’Assomption
+
+  L’Église catholique enseigne que Marie, par une grâce particulière de Dieu, a été préservée du péché originel dès le premier instant de sa conception. Cette croyance est appelée l’Immaculée Conception.
+
+  L’Église enseigne également qu’à la fin de sa vie terrestre, Marie fut élevée corps et âme dans la gloire du Ciel. Cette vérité de foi, appelée l’Assomption, exprime l’espérance chrétienne de la résurrection et de la vie éternelle. Marie devient ainsi un signe de la destinée promise à ceux qui appartiennent au Christ.
+
+  Au Ciel, Marie continue d’être honorée comme Reine et comme Mère. Les catholiques se confient à son intercession maternelle, certains qu’elle conduit toujours ses enfants vers son Fils.
+
+  ## Une vie de foi et d’amour
+
+  La vie de Sainte Marie peut être résumée par un mot simple : **oui**.
+
+  Elle a dit oui lorsque Dieu l’appela lors de l’Annonciation. Elle a dit oui lorsqu’elle accueillit le mystère de l’Incarnation. Elle demeura fidèle lorsqu’elle se tint au pied de la Croix. Elle pria avec les apôtres après l’Ascension. Tout au long de sa vie, elle fit confiance à Dieu, même lorsque son dessein était difficile à comprendre.
+
+  C’est pourquoi la Vierge Marie demeure l’un des plus grands exemples de foi chrétienne. Sa grandeur ne vient ni du pouvoir terrestre ni de la gloire humaine, mais de son humilité et de son ouverture totale à la grâce de Dieu.
+
+  Elle est la humble femme de Nazareth devenue Mère du Sauveur, la Sainte Vierge demeurée fidèlement auprès du Christ et la mère spirituelle que des générations de chrétiens ont honorée et aimée.
+
+  Pour les catholiques, Marie demeure une mère tendre et fidèle qui conduit sans cesse ses enfants vers Jésus. Sa prière peut être résumée par les paroles qu’elle adressa aux serviteurs à Cana : **« Faites tout ce qu’il vous dira. »**
+  $desc$
 ),
 (
-  'saint-mary',
-  'la',
-  'Maria Nazarethana, mater Iesu et sponsa Ioseph, verbum Dei fide suscipit. Scriptura eam in initiis vitae Iesu, iuxta eius crucem et inter discipulos orantes exhibet; fides catholica eam ut Dei Genetricem veneratur.',
-  $desc$## Persona et fontes
+	'saint-mary',
+		'la',
+		'Sancta Maria, etiam Virgo Maria, Beata Virgo, Domina Nostra et Mater Dei appellata, mater est Iesu Christi atque una ex praecipuis figuris fidei christianae. A catholicis ut Mater Dei et Mater Ecclesiae honoratur atque ob humilitatem, fidem et perfectam in Deum fiduciam veneratur.',
+  $desc$
+  ## Sancta Maria
 
-Maria Nazarethana praesertim ex Novo Testamento ut mater Iesu cognoscitur. Matthaeus et Lucas eam in populo Iudaico collocant atque Ioseph eius sponsum appellant; Lucas annuntiationem nativitatis Iesu Nazareth in Galilaea factam esse narrat. Haec scripta sensum adventus Iesu proclamant potius quam continuam vitae matris eius narrationem praebent. Neque diem eius natalem definiunt, neque infantiam describunt, neque ordinem temporum ultimorum eius annorum tradunt. Recta igitur narratio distinguit quae relationes biblicae dicant, quae Ecclesia postea doctrinaliter definiverit, et quae ex fontibus cognosci nequeant.
+  Sancta Maria, quae etiam Virgo Maria, Beata Virgo, Domina Nostra et Mater Dei appellatur, singularem locum in fide christiana obtinet. A Deo electa est ut mater Iesu Christi, Filii Dei et Salvatoris mundi, fieret. In Evangeliis Maria apparet tamquam mulier altae fidei, humilitatis et orationis, cuius tota vita ad Deum et ad Filium suum conversa est.
 
-## Annuntiatio et nativitas Iesu
+  ## Humilis puella Nazarethana
 
-In primo Lucae capite angelus Gabriel Mariae annuntiat eam filium parituram esse, cuius regni non erit finis. Quaerenti quomodo hoc fiat angelus conceptionem Spiritui Sancto tribuit. Maria verbum sibi dictum libere accipit. Narratio neque missionem ab ipsa sibi assumptam neque omnium futurorum intellegentiam exhibet, sed responsum fiduciae Deo primum agenti datum. Matthaeus in primo capite initium ex parte Ioseph narrat: is in somnis iubetur Mariam accipere et puero nomen Iesu imponere.
+  Maria Nazarethae, in Galilaea, habitabat et desponsata erat Ioseph, viro de domo David. Evangelia pauca nobis de eius pueritia tradunt, sed eam exhibent tamquam iuvenem mulierem vitam simplicem agentem, cum Deus eam ad singularem vocationem vocavit.
 
-Lucas deinde visitationem Mariae ad Elisabeth in montana Iudaeae narrat. Elisabeth eam ut matrem Domini sui excipit eiusque fidem beatam praedicat; infans in utero Elisabeth ad salutationem Mariae exsultat. Magnificat gratiarum actionem Mariae cum promissionibus Israeli factis coniungit. Laus eius misericordiam Dei, exaltationem humilium et esurientium refectionem celebrat, non opus quod Maria sibi tribuat. Lucas eam circiter tres menses apud Elisabeth mansisse antequam domum rediret refert.
+  Evangelium secundum sanctum Lucam narrat quomodo angelus Gabriel ad Mariam missus sit, ut ei nuntium Dei afferret. Ei annuntiatum est quod concepisset et pareret Iesum, qui Filius Altissimi vocaretur.
 
-In secundo Lucae capite Maria cum Ioseph Bethlehem proficiscitur et Iesum parit, quem in praesepio reclinat. Pastores puerum cum Maria et Ioseph inveniunt atque quae de eo audierunt narrant. Evangelista saepius Mariam haec conservantem et meditantem describit. In praesentatione in Templo Simeon puerum cum salute et contradictione coniungit Mariaeque dolorem praedicit qui ipsius animam pertransibit. Matthaeus in secundo capite aliam rerum seriem addit: magorum visitationem, fugam Ioseph cum puero et matre eius in Aegyptum, atque habitationem eorum Nazareth post mortem Herodis.
+  Maria hunc nuntium fide suscepit. Etsi omnia quae futura erant non intellexit, se totam in manus Dei commisit et respondit: « Ecce ancilla Domini; fiat mihi secundum verbum tuum. »
 
-## Filium sequens
+  Hoc humile responsum unum ex magnis momentis historiae salutis factum est. Per suum « fiat » Deo dictum, Maria missionem sibi commissam suscepit et mater Salvatoris facta est.
 
-Narratio de Iesu duodecim annos nato in Templo ultima est infantiae narratio apud Lucam. Maria et Ioseph eum anxie quaerunt antequam inter doctores inveniant. Responsum eius eos ad Patrem suum dirigit; Lucas tamen expresse dicit eos illud non intellexisse. Iesus cum eis Nazareth redit, Maria vero haec in corde suo servare pergit. Locus incremento et difficultatibus fidei spatium relinquit; maternitatem non exhibet tamquam plenam praescientiam missionis Iesu.
+  ## Virgo Maria et nativitas Iesu
 
-Evangelium secundum Ioannem matrem Iesu in nuptiis Canae collocat, ubi vinum deficere animadvertit et ministros ad eius mandata servanda dirigit. Signum quod sequitur gloriam Iesu manifestat. Postea iuxta crucem eius stat cum aliis mulieribus et discipulo quem Iesus diligit. Iesus matrem et discipulum alterum alteri commendat, atque discipulus eam in curam suam recipit. Actus Apostolorum in primo capite Mariam deinde inter eos nominant qui cum apostolis in oratione perseverant. Hae sunt distinctae scaenae scripturales, non testimonia quibus singula itinera eius durante vel post ministerium Iesu describi possint.
+  Post Annuntiationem, Maria ad cognatam suam Elisabeth profecta est, quae Ioannem Baptistam exspectabat. Cum Elisabeth eam salutavisset, Maria Magnificat proclamavit, pulchrum canticum laudis Deo dicatum.
 
-## Fides catholica et limites narrationis vitae
+  « Magnificat anima mea Dominum, et exsultavit spiritus meus in Deo salutari meo. »
 
-Doctrina catholica Mariam Dei Genetricem appellat, quia filius quem peperit est Filius Dei incarnatus; titulus ad personam Christi pertinet nec Mariam originem divinitatis eius facit. Lumen gentium Concilii Vaticani II eam exhibet et singulariter Christo sociatam et membrum exemplarque Ecclesiae. Eius consensus, caritas et perseverantia ex divina gratia pendere intelleguntur. Concilium vitam eius tamquam peregrinationem fidei describit atque affirmat munus eius maternum unicam Christi mediationem neque supplere neque minuere.
+  Magnificat humilitatem Mariae manifestat. Se ipsam in centrum non ponit, sed Deum laudat propter magna quae in ea operatus est. Se agnoscit humilem Domini ancillam et de eius misericordia atque fidelitate gaudet.
 
-Eadem doctrina affirmat maternitatem eius virginalem, praeservationem a peccato originali atque assumptionem corpore et anima in gloriam caelestem, expleto terrestris vitae cursu. Haec sunt fidei catholicae affirmata, non tempora aut adiuncta quae in servata vitae narratione ab oculato teste conscripta tradantur. Loci Novi Testamenti hic citati ultimos eius dies non narrant. Lumen gentium etiam venerationem Mariae exhibitam ab adoratione Deo debita distinguit atque ab exaggeratione et credulitate monet. Ita perennis eius locus in vita catholica in coniunctione cum Christo et in discipulatu quem Scriptura testatur fundatur, neque commenticia requirit quibus silentia impleantur.
+  Maria postea Iesum in Bethlehem peperit. Condiciones eius nativitatis humiles erant: Salvator mundi in praesepio positus est, et pastores inter primos fuerunt qui nuntium eius nativitatis acceperunt.
 
-## Fontes
+  Evangelium narrat Mariam omnia haec verba in corde suo conservavisse et meditandam esse. Haec contemplatio silenciosa peculiaris vitae eius nota mansit. Mysteria Dei fide suscipiebat, etiam cum ea plene intellegere nondum posset.
 
-- Scriptura: Matthaeus 1–2; Lucas 1–2; Ioannes 2, 1–12 et 19, 25–27; Actus Apostolorum 1, 12–14. [Textus Bibliorum Duacensium consultus, exemplar digitale](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
-- Concilium Vaticanum II, Lumen gentium, praesertim nn. 53–60, 66–67. [Editio Vaticana](https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_en.html); [textus consultus, caput VIII in exemplari digitali](https://github.com/BenjaminPoole/Ecumenical-Christian-Library-Obsidian-Vault/blob/71c1582adc8ceca8f0ee35b41d4e9ddb0a493d49/03%20Councils%2C%20Creeds%20%26%20Confessions%20%28325%E2%80%93present%29/Vatican%20II%20%281962%29/Vatican%20II%20%E2%80%94%20Lumen%20Gentium%20II.md).
-$desc$
+  ## Maria, Mater Iesu
+
+  Maria Iesum per annos occultos pueritiae et iuventutis eius comitata est. Evangelia eam tamquam matrem amantem ostendunt, quae de Filio suo curabat, dum consilium Dei adimplebatur.
+
+  In nuptiis Canae Maria iterum apparet in momento peculiari. Cum vinum deficeret, necessitatem simpliciter Iesu commendavit et servis dixit: « Quodcumque dixerit vobis, facite. »
+
+  Haec verba pulchre munus Mariae in spiritualitate christiana exprimunt. Ipsa non ad se ipsam, sed ad Christum dirigit. Fideles hortatur ut Ei confidant et verbum eius sequantur.
+
+  Canae Iesus primum signum suum fecit, aquam in vinum convertens. Praesentia Mariae in hoc eventu semper magni momenti fuit christianis. Ipsa tamquam mater necessitatibus hominum attenta et tamquam quae filios suos ad Filium suum ducit consideratur.
+
+  ## Maria sub Cruce
+
+  Fides Mariae maxime probata est tempore Passionis Christi. Iesum usque in Ierusalem secuta est atque prope eum mansit cum pateretur et in Cruce moreretur.
+
+  Evangelium secundum sanctum Ioannem Mariam iuxta Crucem stantem cum discipulo dilecto describit. In medio passionis suae, Iesus matrem suam discipulo commendavit et discipulum matri suae.
+
+  Pro Ecclesia catholica haec scena altam significationem spiritualem habet. Maria non solum mater Iesu secundum carnem est, sed etiam a discipulis Christi tamquam mater accipitur.
+
+  Praesentia eius in Calvaria profunditatem amoris et fidelitatis eius revelat. Passionem Filii sui auferre non poterat, sed iuxta eum mansit. Praesentia eius silenciosa testimonium fidei in hora obscurissima facta est.
+
+  ## Maria et primi christiani
+
+  Post Resurrectionem et Ascensionem Iesu, Maria cum apostolis mansit. Actus Apostolorum eam inter discipulos commemorat, qui in oratione congregati Spiritus Sancti adventum exspectabant.
+
+  Praesentia eius inter primos christianos magni momenti est. Ea quae Christum in mundum susceperat, cum discipulis eius mansit dum Ecclesia missionem suam incipiebat.
+
+  Pro catholicis, Maria peculiarem ideo relationem maternam cum Ecclesia habet. Ipsa ut Mater Ecclesiae et exemplar orationis, fidei atque perseverantiae honoratur.
+
+  ## Domina Nostra, Mater Dei
+
+  Titulus « Mater Dei », Graece *Theotokos*, unus ex praecipuis titulis est quibus Ecclesia catholica Mariam appellat. Non significat Mariam ante Deum exstitisse aut divinam Iesu naturam ei dedisse. Significat potius fidem christianam, secundum quam infans quem peperit vere Iesus Christus est, Filius Dei, plenus Deus et plenus homo.
+
+  Per saecula christiani eam etiam Beatam Virginem Mariam, Dominam Nostram, Reginam Caeli aliisque multis titulis appellaverunt. Hi tituli diversos aspectus devotionis Ecclesiae erga eam exprimunt.
+
+  Sive Sancta Maria, sive Virgo Maria, sive Domina Nostra, sive Beata Virgo appelletur, fides christiana in eodem mysterio manet fundata: Maria extraordinariam gratiam a Deo accepit atque consilio eius libere cooperata est.
+
+  ## Mater fidelium
+
+  Catholici ad Mariam in oratione se convertunt eiusque intercessionem petunt. Ave Maria, Rosarium et multae aliae preces marianae magni momenti sunt in vita spirituali catholica.
+
+  Mariam honorare non significat eam supra Deum ponere. Immo vera devotio mariana semper fidelem ad Christum ducit. Ipsa Maria dicit: « Quodcumque dixerit vobis, facite. »
+
+  Ideo exemplar omnibus christianis existimatur. Vita eius fideles docet verbum Dei audire, Ei in temporibus incertis confidere, in passionibus fideles manere atque voluntatem eius humiliter accipere.
+
+  ## Immaculata Conceptio et Assumptio
+
+  Ecclesia catholica docet Mariam singulari Dei gratia a primo conceptionis suae momento a peccato originali praeservatam esse. Haec veritas Immaculata Conceptio appellatur.
+
+  Ecclesia etiam docet Mariam, expleto vitae terrestris cursu, corpore et anima in caelestem gloriam assumptam esse. Haec veritas fidei, Assumptio appellata, spem christianam resurrectionis et vitae aeternae exprimit. Maria ita signum fit destinationis promissae omnibus qui Christo pertinent.
+
+  In Caelo Maria ut Regina et Mater honoratur. Catholici eius maternae intercessioni se committunt, certi eam semper filios suos ad Filium suum ducere.
+
+  ## Vita fidei et amoris
+
+  Vita Sanctae Mariae uno verbo simplici comprehendi potest: **fiat**.
+
+  Dixit fiat cum Deus eam in Annuntiatione vocavit. Dixit fiat cum mysterium Incarnationis suscepit. Fidelis mansit cum sub Cruce stetit. Cum apostolis post Ascensionem oravit. Tota vita Deo confisa est, etiam cum consilium eius difficile intellectu erat.
+
+  Hac de causa Virgo Maria unum ex maximis exemplis fidei christianae manet. Magnitudo eius non ex potestate terrena neque ex gloria humana provenit, sed ex humilitate et perfecta eius apertura ad gratiam Dei.
+
+  Ipsa est humilis mulier Nazarethana quae Mater Salvatoris facta est, Beata Virgo quae fideliter iuxta Christum stetit, atque mater spiritualis quam generationes christianorum honoraverunt et dilexerunt.
+
+  Pro catholicis Maria manet mater dulcis et fidelis, quae filios suos ad Iesum continenter ducit. Eius nuntium verbis apud Canae ministros prolatis comprehendere possumus: **« Quodcumque dixerit vobis, facite. »**
+  $desc$
 ),
+
 (
-  'saint-joseph',
-  'en',
-  'Joseph, spouse of Mary, receives and protects Jesus in the Gospel infancy narratives. Remembered for righteousness and obedience, he cares for the child without being his biological father; his birth, later years and death remain undocumented in those accounts.',
-  $desc$## Identity and sources
+	'saint-joseph',
+		'en',
+		'Saint Joseph, the husband of the Virgin Mary and foster father of Jesus Christ, is honoured by the Catholic Church as a model of faith, humility, obedience and devoted fatherhood. A descendant of King David and a carpenter of Nazareth, he faithfully protected Mary and Jesus and entrusted his entire life to the will of God.',
+  $desc$
+  ## Saint Joseph
 
-Joseph is known principally from the infancy narratives in Matthew 1–2 and Luke 1–2. Both associate him with the house of David and with Mary, the mother of Jesus. Their purpose is to tell the beginnings of Jesus' life, so Joseph appears through his relationship to the child and his mother rather than in a complete personal biography. Neither narrative supplies his age, a description of his childhood or the date of his death. These limits matter: a devotional interpretation of his character should not be mistaken for additional historical documentation.
+  Saint Joseph, husband of the Virgin Mary and foster father of Jesus Christ, holds a unique place in Christian tradition. A descendant of King David and a carpenter from Nazareth, he was chosen by God to protect and care for Mary and the child Jesus. Although the Gospels record no spoken words from Joseph, his life speaks through his actions: faithfulness, courage, obedience and quiet service.
 
-## Receiving Mary and protecting Jesus
+  The Church honours him as a model of fatherhood and Christian discipleship. His vocation was lived largely in silence, away from public recognition, yet his role in the history of salvation was of profound importance.
 
-Matthew introduces Joseph as a righteous man confronted with Mary's pregnancy before they have begun living together. Unwilling to expose her publicly, he considers separating from her privately. An angel then tells him in a dream that the child has been conceived through the Holy Spirit and instructs him to receive Mary and name her son Jesus. Joseph acts on the message. The evangelist thus connects his righteousness with a concrete decision to protect Mary and accept responsibility for the child, while expressly attributing the conception to divine action rather than to Joseph.
+  ## A just man from the house of David
 
-In Matthew 2, danger again requires a response. After the magi's departure, Joseph is warned that Herod intends to kill the child. He takes Jesus and Mary to Egypt by night and remains there until Herod's death. A further message calls him back to the land of Israel. Learning that Archelaus rules in Judaea, he is afraid to settle there; another warning leads him to Galilee, where the family lives at Nazareth. Matthew records these movements without specifying how long the family spent in Egypt or describing its daily circumstances there.
+  Joseph lived in Nazareth and belonged to the house of David. The Gospel according to Saint Matthew describes him as a "just man", revealing a man of righteousness, compassion and fidelity to God.
 
-## Family life in Luke
+  Joseph was betrothed to Mary when he discovered that she was expecting a child. Not yet understanding the mystery taking place, he considered quietly putting her away rather than exposing her to shame.
 
-Luke tells of Joseph's journey from Nazareth to Bethlehem with Mary, the birth of Jesus and the shepherds' visit. Joseph participates in the child's presentation in Jerusalem, where the family observes the requirements of the Law. The account places him within the worship and hopes of Israel, not outside them. Later, when Jesus is twelve, Joseph and Mary search for him after the Passover pilgrimage and find him among the teachers in the Temple. Mary speaks of their shared distress. Neither parent understands Jesus' answer about his Father, and Jesus returns with them to Nazareth.
+  But God intervened. In a dream, an angel appeared to Joseph and told him not to be afraid to take Mary as his wife, because the child conceived in her was from the Holy Spirit. The angel also revealed that the child would be called Jesus, because He would save His people from their sins.
 
-Matthew 13:55 identifies Jesus as the carpenter's son, the scriptural basis for remembering Joseph as a working craftsman. The sources do not describe his workshop or preserve a record of his teaching Jesus a trade. Nor do the infancy accounts report words spoken by Joseph himself. His narrative role is expressed through receiving, travelling, protecting and seeking. Silence in the written sources, however, is not proof that he never spoke, nor does it authorize an invented account of his inner thoughts.
+  Joseph responded with faith. He did exactly what the angel commanded and welcomed Mary into his home.
 
-## Catholic remembrance and historical limits
+  His obedience reveals one of the defining characteristics of his life: Joseph listened to God's word and acted upon it, even when the path before him was difficult to understand.
 
-In Redemptoris Custos, John Paul II reflects on Joseph's acceptance of Mary and his service to Jesus as an obedience of faith. This Catholic reading recognizes a genuine paternal responsibility without attributing biological paternity to him. It draws a spiritual meaning from the Gospel actions rather than supplying a lost record of his private life. Joseph's example is consequently one of faithful responsibility within circumstances he does not fully control. The Gospel episodes do not tell how or when his life ended; no precise age or death scene can be established from them.
+  ## The guardian of Jesus and Mary
 
-## Sources
+  Joseph accepted the responsibility of caring for Mary and for Jesus. He became the protector of the Holy Family and faithfully fulfilled the mission entrusted to him.
 
-- Scripture: Matthew 1–2 and 13:55; Luke 1:26–27 and 2. [Douay-Rheims text consulted, digital mirror](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
-- John Paul II, Redemptoris Custos, especially §§1–5. [Vatican edition](https://www.vatican.va/content/john-paul-ii/en/apost_exhortations/documents/hf_jp-ii_exh_15081989_redemptoris-custos.html); [French text consulted, digital mirror](https://github.com/lologhi/vatican/blob/9e65068eb2bf7f09153f893950dd3058c4e78fee/john-paul-ii/apost_exhortations/1989-08-15-redemptoris-custos.md).
-$desc$
+  When Jesus was born in Bethlehem, Joseph was present beside Mary. He witnessed the humility of the Saviour's birth and welcomed the shepherds who came to see the child.
+
+  Soon afterwards, Joseph received another divine warning in a dream. King Herod was seeking the child Jesus in order to kill Him. The angel instructed Joseph to take the child and His mother and flee to Egypt.
+
+  Without hesitation, Joseph obeyed. He took Mary and Jesus during the night and departed for Egypt, protecting the child from danger.
+
+  After Herod's death, Joseph was again guided by God to return to the land of Israel. Eventually, he settled with Mary and Jesus in Nazareth. There Jesus would grow up under Joseph's care.
+
+  ## Joseph, the carpenter of Nazareth
+
+  The Gospels describe Jesus as the "son of the carpenter", and tradition identifies Joseph himself as a craftsman. His work was simple and demanding, providing for the Holy Family through the labour of his hands.
+
+  Joseph's vocation reminds Christians of the dignity of ordinary work. He did not seek public honours or earthly recognition. He served his family faithfully through daily labour, responsibility and perseverance.
+
+  In the workshop of Nazareth, Jesus grew under the care of Mary and Joseph. The hidden years of the Holy Family reveal the beauty of a life devoted to God through ordinary responsibilities.
+
+  Joseph shows that holiness does not always appear through great public deeds. Sometimes it is found in faithful work, quiet sacrifice, family life and trust in God.
+
+  ## Joseph and the childhood of Jesus
+
+  One of the most significant episodes involving Joseph is the pilgrimage to Jerusalem when Jesus was twelve years old.
+
+  After returning home, Mary and Joseph discovered that Jesus was not among the group of travellers. They returned to Jerusalem and searched for Him for three days. They eventually found Him in the Temple, sitting among the teachers.
+
+  This episode reveals the loving concern of Joseph and Mary for Jesus. Although they did not fully understand His words, they continued to accompany Him faithfully.
+
+  After this event, Jesus returned to Nazareth with them and remained obedient to them. The Gospel tells us that He grew in wisdom, stature and favour with God and men.
+
+  Joseph's presence during these hidden years contributed to the human formation of Jesus within the Holy Family, even though the Gospels tell us very little about his later life.
+
+  ## A man of silence and obedience
+
+  Joseph is remarkable because the Gospels never record a single spoken word from him. Yet he is repeatedly shown acting in response to God's commands.
+
+  He takes Mary as his wife. He gives the child the name Jesus. He flees to Egypt to protect Him. He returns to Israel when God tells him to do so. He settles in Nazareth and provides for his family.
+
+  His silence is therefore not emptiness. It is the silence of a man who listens.
+
+  Joseph teaches Christians that faith is not only expressed through words. It is also expressed through obedience, perseverance and concrete acts of love.
+
+  His life invites believers to trust God even when His plans are not immediately clear and to fulfil faithfully the responsibilities entrusted to them.
+
+  ## Saint Joseph, protector of the Church
+
+  Christian devotion to Saint Joseph grew especially strongly over the centuries. The Church came to recognize in him not only the protector of the Holy Family but also a spiritual protector of the entire Church.
+
+  In 1870, Pope Pius IX proclaimed Saint Joseph the patron of the Catholic Church. His role as guardian of Jesus and Mary was understood as a fitting image of his continued care for Christ's Church.
+
+  Catholics therefore turn to Saint Joseph in prayer, asking for his intercession and protection. He is particularly honoured as a patron of fathers, workers, families and those who seek to live their faith through humble daily service.
+
+  His example remains especially meaningful for those who carry responsibilities for others. Joseph shows that true authority is expressed through protection, service and self-giving love.
+
+  ## Saint Joseph, patron of workers
+
+  Saint Joseph has long been associated with human work. As a carpenter and provider for the Holy Family, he knew the dignity and difficulty of ordinary labour.
+
+  For this reason, devotion to Saint Joseph has a particular place among Christian workers. Pope Pius XII established the feast of Saint Joseph the Worker in 1955, celebrated on 1 May.
+
+  Saint Joseph reminds Christians that work can become a path of holiness when it is carried out with honesty, dedication and love. Whether great or small in the eyes of the world, faithful work can be offered to God.
+
+  ## The death of Saint Joseph
+
+  The Gospels do not describe the death of Joseph. He disappears from the biblical narrative before the beginning of Jesus' public ministry.
+
+  Christian tradition has long believed that Joseph died in the presence of Jesus and Mary. For this reason, he is often regarded as a patron of a happy and peaceful death.
+
+  His final years remain hidden from history, just as much of his life was hidden. Yet this silence is consistent with the character of the man portrayed in the Gospels: a servant who did not seek attention, but faithfully fulfilled the mission God entrusted to him.
+
+  ## A model of fatherhood and faith
+
+  Saint Joseph is one of the great models of Christian fatherhood. He was not the biological father of Jesus, yet he truly acted as His earthly father, protecting Him, providing for Him and guiding Him during His childhood.
+
+  His fatherhood was expressed through responsibility and self-giving love. He placed the needs of Mary and Jesus before his own comfort and accepted the sacrifices required by his vocation.
+
+  For fathers and families, Joseph remains an example of faithful love. He teaches that fatherhood is not merely a matter of authority, but of protection, presence, sacrifice and service.
+
+  ## A faithful servant of God
+
+  The life of Saint Joseph can be summed up in a few virtues: faith, obedience, humility, courage and love.
+
+  He trusted God when he did not understand. He obeyed when obedience required sacrifice. He protected Mary and Jesus when danger threatened them. He worked faithfully to provide for his family. And he accepted a life largely hidden from the eyes of the world.
+
+  Saint Joseph reminds Christians that God often works through people whose lives appear ordinary. His greatness was not found in public recognition, but in the fidelity with which he fulfilled his vocation.
+
+  For Catholics, Saint Joseph remains a powerful intercessor and a faithful protector. He is the just man of Nazareth, the husband of Mary, the guardian of Jesus, the patron of the Church and the humble worker whose entire life was placed in God's hands.
+
+  His example continues to invite every Christian to live with the same quiet confidence: to listen to God, to trust His providence and to serve faithfully those whom He has entrusted to our care.
+  $desc$
 ),
+
 (
-  'saint-joseph',
-  'fr',
-  'Joseph, époux de Marie, accueille et protège Jésus dans les récits évangéliques de l''enfance. Sa justice et son obéissance sont commémorées ; il prend soin de l''enfant sans être son père biologique. Ces récits ne documentent ni sa naissance, ni ses dernières années, ni sa mort.',
-  $desc$## Identité et sources
+	'saint-joseph',
+		'fr',
+		'Saint Joseph, époux de la Vierge Marie et père nourricier de Jésus-Christ, est honoré par l’Église catholique comme un modèle de foi, d’humilité, d’obéissance et de dévouement paternel. Descendant du roi David et charpentier de Nazareth, il protégea fidèlement Marie et Jésus et consacra toute sa vie à la volonté de Dieu.',
+  $desc$
+  ## Saint Joseph
 
-Joseph est connu principalement par les récits de l'enfance en Matthieu 1–2 et Luc 1–2. Tous deux le rattachent à la maison de David et à Marie, la mère de Jésus. Leur propos est de raconter les débuts de la vie de Jésus : Joseph apparaît donc par sa relation à l'enfant et à sa mère, plutôt que dans une biographie personnelle complète. Aucun de ces récits ne fournit son âge, une description de son enfance ou la date de sa mort. Ces limites sont importantes : une interprétation spirituelle de sa personne ne doit pas être confondue avec une documentation historique supplémentaire.
+  Saint Joseph, époux de la Vierge Marie et père nourricier de Jésus-Christ, occupe une place particulière dans la tradition chrétienne. Descendant du roi David et charpentier de Nazareth, il fut choisi par Dieu pour protéger et entourer Marie et l’enfant Jésus. Bien que les Évangiles ne rapportent aucune parole prononcée par Joseph, sa vie parle à travers ses actes : fidélité, courage, obéissance et service discret.
 
-## Accueillir Marie et protéger Jésus
+  L’Église l’honore comme un modèle de paternité et de vie chrétienne. Sa vocation fut principalement vécue dans le silence, loin de toute reconnaissance publique, et pourtant son rôle dans l’histoire du salut fut d’une importance profonde.
 
-Matthieu présente Joseph comme un homme juste confronté à la grossesse de Marie avant qu'ils aient commencé à vivre ensemble. Ne voulant pas l'exposer publiquement, il envisage de se séparer d'elle en secret. Un ange lui annonce alors en songe que l'enfant a été conçu par l'Esprit Saint et lui ordonne d'accueillir Marie et de donner à son fils le nom de Jésus. Joseph agit selon ce message. L'évangéliste relie ainsi sa justice à une décision concrète : protéger Marie et assumer la responsabilité de l'enfant, tout en attribuant expressément la conception à l'action divine et non à Joseph.
+  ## Un homme juste de la maison de David
 
-En Matthieu 2, le danger appelle de nouveau une réponse. Après le départ des mages, Joseph est averti qu'Hérode veut tuer l'enfant. Il emmène Jésus et Marie en Égypte, de nuit, et y demeure jusqu'à la mort d'Hérode. Un autre message le rappelle au pays d'Israël. Apprenant qu'Archélaüs règne en Judée, il craint de s'y établir ; un nouvel avertissement le conduit en Galilée, où la famille vit à Nazareth. Matthieu rapporte ces déplacements sans préciser la durée du séjour en Égypte ni les conditions de la vie quotidienne de la famille dans ce pays.
+  Joseph vivait à Nazareth et appartenait à la maison de David. L’Évangile selon saint Matthieu le décrit comme un « homme juste », révélant ainsi un homme de droiture, de compassion et de fidélité envers Dieu.
 
-## La vie familiale chez Luc
+  Joseph était fiancé à Marie lorsqu’il découvrit qu’elle attendait un enfant. Ne comprenant pas encore le mystère qui s’accomplissait, il envisagea de la répudier en secret plutôt que de l’exposer à la honte.
 
-Luc raconte le voyage de Joseph de Nazareth à Bethléem avec Marie, la naissance de Jésus et la visite des bergers. Joseph participe à la présentation de l'enfant à Jérusalem, où la famille observe les prescriptions de la Loi. Le récit le situe au sein du culte et des espérances d'Israël, non en dehors d'eux. Plus tard, lorsque Jésus a douze ans, Joseph et Marie le cherchent après le pèlerinage pascal et le trouvent parmi les docteurs du Temple. Marie exprime leur angoisse commune. Aucun des deux parents ne comprend la réponse de Jésus au sujet de son Père, et Jésus retourne avec eux à Nazareth.
+  Mais Dieu intervint. Dans un songe, un ange apparut à Joseph et lui dit de ne pas craindre de prendre Marie chez lui, car l’enfant qu’elle portait venait de l’Esprit Saint. L’ange lui révéla également que l’enfant serait appelé Jésus, car il sauverait son peuple de ses péchés.
 
-Matthieu 13, 55 désigne Jésus comme le fils du charpentier : c'est le fondement scripturaire du souvenir de Joseph comme artisan. Les sources ne décrivent pas son atelier et ne conservent aucun récit de l'enseignement d'un métier à Jésus par Joseph. Les récits de l'enfance ne rapportent pas non plus de paroles prononcées par Joseph lui-même. Son rôle narratif s'exprime dans l'accueil, les voyages, la protection et la recherche de l'enfant. Le silence des sources écrites ne prouve cependant pas qu'il n'ait jamais parlé et n'autorise pas davantage à inventer le récit de ses pensées intérieures.
+  Joseph répondit avec foi. Il fit exactement ce que l’ange lui avait commandé et accueillit Marie chez lui.
 
-## La mémoire catholique et les limites historiques
+  Son obéissance révèle l’un des traits fondamentaux de sa vie : Joseph écoutait la parole de Dieu et la mettait en pratique, même lorsque le chemin qui s’ouvrait devant lui était difficile à comprendre.
 
-Dans Redemptoris Custos, Jean-Paul II médite l'accueil de Marie par Joseph et son service de Jésus comme une obéissance de la foi. Cette lecture catholique reconnaît une véritable responsabilité paternelle sans lui attribuer une paternité biologique. Elle dégage un sens spirituel des actes rapportés dans l'Évangile plutôt qu'elle ne fournit des archives perdues de sa vie privée. Joseph offre donc l'exemple d'une responsabilité fidèle dans des circonstances qu'il ne maîtrise pas entièrement. Les épisodes évangéliques ne disent ni comment ni quand sa vie s'est achevée ; ils ne permettent d'établir ni un âge précis ni une scène de mort.
+  ## Le gardien de Jésus et de Marie
 
-## Sources
+  Joseph accepta la responsabilité de prendre soin de Marie et de Jésus. Il devint le protecteur de la Sainte Famille et accomplit fidèlement la mission que Dieu lui avait confiée.
 
-- Écriture : Matthieu 1–2 et 13, 55 ; Luc 1, 26–27 et 2. [Texte de la Bible Douay-Rheims consulté, copie numérique](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
-- Jean-Paul II, Redemptoris Custos, notamment nos 1–5. [Édition du Vatican](https://www.vatican.va/content/john-paul-ii/en/apost_exhortations/documents/hf_jp-ii_exh_15081989_redemptoris-custos.html) ; [texte français consulté, copie numérique](https://github.com/lologhi/vatican/blob/9e65068eb2bf7f09153f893950dd3058c4e78fee/john-paul-ii/apost_exhortations/1989-08-15-redemptoris-custos.md).
-$desc$
+  Lorsque Jésus naquit à Bethléem, Joseph était auprès de Marie. Il fut témoin de l’humilité de la naissance du Sauveur et accueillit les bergers venus rendre hommage à l’enfant.
+
+  Peu après, Joseph reçut un nouvel avertissement divin dans un songe. Le roi Hérode cherchait à faire mourir l’enfant Jésus. L’ange demanda alors à Joseph de prendre l’enfant et sa mère et de fuir en Égypte.
+
+  Sans hésiter, Joseph obéit. Il prit Marie et Jésus pendant la nuit et partit pour l’Égypte afin de protéger l’enfant du danger.
+
+  Après la mort d’Hérode, Joseph fut de nouveau guidé par Dieu et reçut l’ordre de retourner au pays d’Israël. Il s’installa finalement avec Marie et Jésus à Nazareth. C’est là que Jésus grandit sous la protection de Joseph.
+
+  ## Joseph, le charpentier de Nazareth
+
+  Les Évangiles présentent Jésus comme le « fils du charpentier », et la tradition identifie Joseph lui-même comme un artisan. Par le travail de ses mains, il subvenait aux besoins de la Sainte Famille.
+
+  La vocation de Joseph rappelle aux chrétiens la dignité du travail ordinaire. Il ne recherchait ni les honneurs ni la reconnaissance du monde. Il servait fidèlement sa famille par son travail quotidien, sa responsabilité et sa persévérance.
+
+  Dans l’atelier de Nazareth, Jésus grandit auprès de Marie et de Joseph. Les années cachées de la Sainte Famille révèlent la beauté d’une existence consacrée à Dieu à travers les responsabilités simples de chaque jour.
+
+  Joseph montre ainsi que la sainteté ne se manifeste pas toujours par de grandes actions visibles. Elle peut aussi se trouver dans le travail fidèle, le sacrifice discret, la vie familiale et la confiance en Dieu.
+
+  ## Joseph et l’enfance de Jésus
+
+  L’un des épisodes les plus importants concernant Joseph est le pèlerinage à Jérusalem lorsque Jésus avait douze ans.
+
+  Sur le chemin du retour, Marie et Joseph découvrirent que Jésus ne se trouvait pas parmi les voyageurs. Ils retournèrent à Jérusalem et le cherchèrent pendant trois jours. Ils finirent par le retrouver dans le Temple, assis au milieu des docteurs de la Loi.
+
+  Cet épisode révèle l’inquiétude et l’amour de Joseph et de Marie pour Jésus. Même s’ils ne comprirent pas entièrement ses paroles, ils continuèrent à l’accompagner fidèlement.
+
+  Après cet événement, Jésus retourna avec eux à Nazareth et leur était soumis. L’Évangile nous dit qu’il grandissait en sagesse, en taille et en grâce devant Dieu et devant les hommes.
+
+  La présence de Joseph durant ces années cachées participa à l’éducation humaine de Jésus au sein de la Sainte Famille, même si les Évangiles nous donnent très peu d’informations sur les dernières années de sa vie.
+
+  ## Un homme de silence et d’obéissance
+
+  Joseph est remarquable parce que les Évangiles ne rapportent aucune parole prononcée par lui. Pourtant, il est montré à plusieurs reprises comme un homme qui agit en réponse aux commandements de Dieu.
+
+  Il prend Marie pour épouse. Il donne à l’enfant le nom de Jésus. Il fuit en Égypte pour le protéger. Il revient en Israël lorsque Dieu le lui demande. Il s’installe à Nazareth et travaille pour subvenir aux besoins de sa famille.
+
+  Son silence n’est donc pas un vide. C’est le silence d’un homme qui écoute.
+
+  Joseph enseigne aux chrétiens que la foi ne s’exprime pas seulement par les paroles. Elle se manifeste également par l’obéissance, la persévérance et les actes concrets d’amour.
+
+  Sa vie invite les croyants à faire confiance à Dieu même lorsque ses desseins ne sont pas immédiatement compréhensibles et à accomplir fidèlement les responsabilités qui leur sont confiées.
+
+  ## Saint Joseph, protecteur de l’Église
+
+  La dévotion à saint Joseph s’est particulièrement développée au cours des siècles. L’Église a reconnu en lui non seulement le protecteur de la Sainte Famille, mais également un protecteur spirituel de toute l’Église.
+
+  En 1870, le pape Pie IX proclama saint Joseph patron de l’Église catholique. Son rôle de gardien de Jésus et de Marie fut ainsi reconnu comme une belle image de la protection qu’il continue d’exercer envers l’Église du Christ.
+
+  Les catholiques se tournent donc vers saint Joseph dans la prière et demandent son intercession et sa protection. Il est particulièrement honoré comme patron des pères de famille, des travailleurs, des familles et de tous ceux qui cherchent à vivre leur foi dans le service humble du quotidien.
+
+  Son exemple demeure particulièrement précieux pour ceux qui portent des responsabilités envers les autres. Joseph montre que la véritable autorité s’exprime par la protection, le service et le don de soi.
+
+  ## Saint Joseph, patron des travailleurs
+
+  Saint Joseph est depuis longtemps associé au travail humain. En tant que charpentier et père nourricier de la Sainte Famille, il connaissait la dignité et les difficultés du travail quotidien.
+
+  C’est pourquoi saint Joseph occupe une place particulière dans la spiritualité chrétienne des travailleurs. En 1955, le pape Pie XII institua la fête de saint Joseph artisan, célébrée le 1er mai.
+
+  Saint Joseph rappelle aux chrétiens que le travail peut devenir un chemin de sainteté lorsqu’il est accompli avec honnêteté, dévouement et amour. Qu’il soit grand ou petit aux yeux du monde, le travail fidèle peut être offert à Dieu.
+
+  ## La mort de saint Joseph
+
+  Les Évangiles ne racontent pas la mort de Joseph. Il disparaît du récit biblique avant le début de la vie publique de Jésus.
+
+  La tradition chrétienne a longtemps considéré que Joseph était mort en présence de Jésus et de Marie. C’est pourquoi il est souvent invoqué comme le patron d’une bonne et sainte mort.
+
+  Ses dernières années demeurent cachées à l’histoire, comme une grande partie de son existence. Pourtant, ce silence correspond au caractère de l’homme présenté par les Évangiles : un serviteur qui ne cherchait pas à attirer l’attention, mais qui accomplissait fidèlement la mission que Dieu lui avait confiée.
+
+  ## Un modèle de paternité et de foi
+
+  Saint Joseph est l’un des grands modèles de la paternité chrétienne. Il n’était pas le père biologique de Jésus, mais il exerça véritablement auprès de lui une paternité terrestre, en le protégeant, en subvenant à ses besoins et en l’accompagnant durant son enfance.
+
+  Sa paternité s’exprima par la responsabilité et le don de soi. Il plaça les besoins de Marie et de Jésus avant son propre confort et accepta les sacrifices exigés par sa vocation.
+
+  Pour les pères et les familles, Joseph demeure un exemple d’amour fidèle. Il enseigne que la paternité n’est pas seulement une question d’autorité, mais aussi de protection, de présence, de sacrifice et de service.
+
+  ## Un fidèle serviteur de Dieu
+
+  La vie de saint Joseph peut être résumée par quelques vertus : la foi, l’obéissance, l’humilité, le courage et l’amour.
+
+  Il fit confiance à Dieu lorsqu’il ne comprenait pas. Il obéit lorsque l’obéissance exigeait un sacrifice. Il protégea Marie et Jésus lorsque le danger les menaçait. Il travailla fidèlement pour subvenir aux besoins de sa famille. Et il accepta une existence largement cachée aux yeux du monde.
+
+  Saint Joseph rappelle aux chrétiens que Dieu agit souvent à travers des personnes dont la vie semble ordinaire. Sa grandeur ne résidait pas dans la reconnaissance publique, mais dans la fidélité avec laquelle il accomplit sa vocation.
+
+  Pour les catholiques, saint Joseph demeure un puissant intercesseur et un protecteur fidèle. Il est l’homme juste de Nazareth, l’époux de Marie, le gardien de Jésus, le patron de l’Église et l’humble travailleur qui plaça toute sa vie entre les mains de Dieu.
+
+  Son exemple continue d’inviter chaque chrétien à vivre dans la même confiance silencieuse : écouter Dieu, se fier à sa Providence et servir fidèlement ceux qu’il nous a confiés.
+  $desc$
 ),
+
 (
-  'saint-joseph',
-  'la',
-  'Ioseph, sponsus Mariae, Iesum in narrationibus evangelicis infantiae suscipit ac tuetur. Ob iustitiam et oboedientiam memoratur atque puerum curat, quamvis pater eius naturalis non sit; ortus, ultimi anni et mors eius in his narrationibus non traduntur.',
-  $desc$## Persona et fontes
+	'saint-joseph',
+		'la',
+		'Sanc­tus Ioseph, sponsus Virginis Mariae et pater Iesu Christi putativus, ab Ecclesia catholica tamquam exemplar fidei, humilitatis, oboedientiae et paterni devotionis honoratur. Ex domo David oriundus et faber Nazarethanus, Mariam et Iesum fideliter protexit atque totam vitam suam voluntati Dei commisit.',
+  $desc$
+  ## Sanctus Ioseph
 
-Ioseph praecipue ex narrationibus infantiae apud Matthaeum 1–2 et Lucam 1–2 cognoscitur. Uterque eum cum domo David et cum Maria, matre Iesu, coniungit. Propositum eorum est initia vitae Iesu narrare; itaque Ioseph per coniunctionem suam cum puero eiusque matre apparet, non in plena propriae vitae narratione. Neutra narratio aetatem eius, infantiae descriptionem aut tempus mortis praebet. Hi limites magni momenti sunt: pia interpretatio personae eius cum additis testimoniis historicis confundi non debet.
+  Sanctus Ioseph, sponsus Virginis Mariae et pater Iesu Christi putativus, singularem locum in traditione christiana obtinet. Ex domo David oriundus et faber Nazarethanus, a Deo electus est ut Mariam et puerum Iesum protegeret atque curaret. Etsi Evangelia nulla verba ab eo prolata nobis tradunt, vita eius per opera loquitur: fidelitas, fortitudo, oboedientia et humile servitium.
 
-## Mariam suscipere et Iesum tueri
+  Ecclesia eum tamquam exemplar paternitatis et vitae christianae honorat. Eius vocatio magna ex parte in silentio vivebatur, longe ab omni publica recognitione, et tamen munus eius in historia salutis magni momenti fuit.
 
-Matthaeus Ioseph ut virum iustum exhibet qui, antequam cum Maria habitare coeperit, eam gravidam esse cognoscit. Cum eam publice exponere nolit, occulte ab ea discedere cogitat. Angelus deinde in somnis eum docet puerum de Spiritu Sancto conceptum esse atque iubet Mariam accipere et filio eius nomen Iesu imponere. Ioseph secundum nuntium agit. Evangelista ita iustitiam eius cum certo consilio Mariam tuendi et curam pueri suscipiendi coniungit, conceptionem tamen expresse actioni divinae, non Ioseph, tribuens.
+  ## Vir iustus ex domo David
 
-In secundo Matthaei capite periculum iterum responsum postulat. Magis profectis, Ioseph monetur Herodem puerum occidere velle. Iesum et Mariam noctu in Aegyptum ducit ibique usque ad mortem Herodis manet. Alius nuntius eum in terram Israel revocat. Audiens autem Archelaum in Iudaea regnare, timet ibi habitare; alia admonitio eum in Galilaeam ducit, ubi familia Nazareth habitat. Matthaeus haec itinera refert neque definit quamdiu familia in Aegypto manserit neque condiciones cotidianae vitae eius ibi describit.
+  Ioseph Nazarethae habitabat et ad domum David pertinebat. Evangelium secundum sanctum Matthaeum eum « virum iustum » appellat, ostendens eum hominem rectum, misericordem et Deo fidelem fuisse.
 
-## Vita familiaris apud Lucam
+  Ioseph Mariae desponsatus erat cum cognovit eam filium exspectare. Mysterium quod fiebat nondum intellegens, cogitabat eam occulte dimittere, ne eam pudori et dedecori exponeret.
 
-Lucas iter Ioseph cum Maria a Nazareth in Bethlehem, nativitatem Iesu atque visitationem pastorum narrat. Ioseph praesentationis pueri Hierosolymis particeps est, ubi familia praecepta Legis servat. Narratio eum intra cultum et spem Israel collocat, non extra ea. Postea, cum Iesus duodecim annos natus sit, Ioseph et Maria eum post peregrinationem paschalem quaerunt et inter doctores in Templo inveniunt. Maria communem eorum dolorem exprimit. Neuter parens responsum Iesu de Patre suo intellegit, atque Iesus cum eis Nazareth redit.
+  Sed Deus intervenit. In somnio angelus Ioseph apparuit eique dixit ne timeret Mariam uxorem suam accipere, quia quod in ea natum erat de Spiritu Sancto erat. Angelus etiam revelavit ei nomen pueri futurum esse Iesum, quia ipse populum suum a peccatis eorum salvum faceret.
 
-Matthaeus 13, 55 Iesum fabri filium appellat: hoc est fundamentum scripturale memoriae Ioseph ut artificis laborantis. Fontes officinam eius non describunt neque narrationem servant qua Iesum artem docuisse referatur. Narrationes infantiae verba ab ipso Ioseph dicta quoque non tradunt. Munus eius in narratione accipiendo, peregrinando, tuendo et quaerendo exprimitur. Silentium autem fontium scriptorum non probat eum numquam locutum esse, neque licentiam praebet fingendi quid animo cogitaverit.
+  Ioseph fide respondit. Fecit omnia quae angelus Domini ei praeceperat et Mariam in domum suam accepit.
 
-## Memoria catholica et limites historici
+  Eius oboedientia unum ex praecipuis vitae eius lineamentis ostendit: Ioseph verbum Dei audiebat et illud opere implebat, etiam cum via ante eum difficile intellectu esset.
 
-In Redemptoris Custos Ioannes Paulus II receptionem Mariae a Ioseph factam eiusque servitium Iesu praestitum ut oboedientiam fidei considerat. Haec interpretatio catholica verum munus paternum agnoscit, quin ei paternitatem naturalem tribuat. Sensum spiritualem ex actibus evangelicis elicit potius quam amissam vitae privatae eius memoriam restituit. Ioseph igitur exemplum praebet fidelis officii in condicionibus quae non omnino in eius potestate sunt. Narrationes evangelicae neque quomodo neque quando vita eius finita sit tradunt; ex eis neque certa aetas neque mortis adiuncta definiri possunt.
+  ## Custos Iesu et Mariae
 
-## Fontes
+  Ioseph responsabilitatem suscepit Mariae et Iesu curandi. Protector Sanctae Familiae factus est et missionem sibi a Deo commissam fideliter implevit.
 
-- Scriptura: Matthaeus 1–2 et 13, 55; Lucas 1, 26–27 et 2. [Textus Bibliorum Duacensium consultus, exemplar digitale](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
-- Ioannes Paulus II, Redemptoris Custos, praesertim nn. 1–5. [Editio Vaticana](https://www.vatican.va/content/john-paul-ii/en/apost_exhortations/documents/hf_jp-ii_exh_15081989_redemptoris-custos.html); [textus Gallicus consultus, exemplar digitale](https://github.com/lologhi/vatican/blob/9e65068eb2bf7f09153f893950dd3058c4e78fee/john-paul-ii/apost_exhortations/1989-08-15-redemptoris-custos.md).
-$desc$
+  Cum Iesus Bethlehem natus est, Ioseph apud Mariam aderat. Humilitatem nativitatis Salvatoris vidit atque pastores suscepit, qui ad puerum adorandum venerant.
+
+  Paulo post Ioseph iterum in somnio monitus est. Herodes rex puerum Iesum quaerebat ut eum occideret. Angelus igitur Ioseph iussit puerum et matrem eius accipere atque in Aegyptum fugere.
+
+  Ioseph sine mora oboedivit. Nocte surrexit, Mariam et Iesum accepit atque in Aegyptum profectus est, ut puerum a periculo protegeret.
+
+  Post mortem Herodis, Ioseph iterum a Deo ductus est et in terram Israel rediit. Tandem cum Maria et Iesu Nazareth habitavit. Ibi Iesus sub eius tutela crevit.
+
+  ## Ioseph, faber Nazarethanus
+
+  Evangelia Iesum « filium fabri » appellant, et traditio ipsum Ioseph fabrum fuisse tradit. Opere manuum suarum Sanctae Familiae necessaria procurabat.
+
+  Vocatio Ioseph christianis dignitatem laboris cotidiani commemorat. Honores neque publicam gloriam quaerebat. Familiam suam fideliter serviebat per laborem cotidianum, responsabilitatem et perseverantiam.
+
+  In officina Nazarethana Iesus apud Mariam et Ioseph crevit. Anni absconditi Sanctae Familiae pulchritudinem vitae Deo dicatae per simplices cotidianas responsabilitates ostendunt.
+
+  Ioseph demonstrat sanctitatem non semper per magnas et omnibus conspicuas actiones manifestari. Etiam in fideli labore, occulto sacrificio, vita familiari et fiducia in Deo inveniri potest.
+
+  ## Ioseph et pueritia Iesu
+
+  Unus ex praecipuis eventibus Ioseph spectantibus est peregrinatio Hierosolymam, cum Iesus duodecim annos natus esset.
+
+  Redeuntibus autem, Maria et Ioseph invenerunt Iesum inter viatores non esse. Hierosolymam reversi sunt et eum per tres dies quaesiverunt. Tandem eum in Templo invenerunt, sedentem in medio doctorum.
+
+  Hic eventus sollicitudinem et amorem Ioseph et Mariae erga Iesum ostendit. Etsi verba eius plene non intellexerunt, eum fideliter comitari perrexerunt.
+
+  Post hoc eventum Iesus cum eis Nazareth rediit et erat illis subditus. Evangelium dicit eum profecisse sapientia, aetate et gratia apud Deum et homines.
+
+  Praesentia Ioseph his annis absconditis ad humanam Iesu formationem intra Sanctam Familiam contulit, quamquam Evangelia nobis de ultimis vitae eius annis parum narrant.
+
+  ## Vir silentii et oboedientiae
+
+  Ioseph mirabilis est quia Evangelia nullum verbum ab eo prolatum referunt. Attamen saepissime eum ostendunt tamquam virum qui mandatis Dei respondet per actionem.
+
+  Mariam uxorem accipit. Puerum Iesum nominat. In Aegyptum fugit ut eum protegat. In Israel redit cum Deus id ei praecipit. Nazarethae habitat et pro familia sua laborat.
+
+  Silentium eius ergo vacuum non est. Est silentium hominis qui audit.
+
+  Ioseph christianos docet fidem non solum verbis exprimi. Etiam per oboedientiam, perseverantiam et concreta amoris opera manifestatur.
+
+  Vita eius fideles invitat ut Deo confidant etiam cum consilia eius statim intellegi nequeunt, atque responsabilitates sibi commissas fideliter adimpleant.
+
+  ## Sanctus Ioseph, Ecclesiae protector
+
+  Devotio erga sanctum Ioseph per saecula praesertim crevit. Ecclesia in eo non solum protectorem Sanctae Familiae, sed etiam spiritualem totius Ecclesiae protectorem agnovit.
+
+  Anno 1870, Pius IX papa sanctum Ioseph patronum Ecclesiae catholicae proclamavit. Eius munus Iesu et Mariae custodis ita agnitum est tamquam pulchra imago tutelae quam erga Ecclesiam Christi exercere pergit.
+
+  Catholici igitur ad sanctum Ioseph in oratione se convertunt eiusque intercessionem et protectionem petunt. Peculiari modo honoratur ut patronus patrum familiarum, operariorum, familiarum et omnium qui fidem suam per humile cotidianum servitium vivere student.
+
+  Eius exemplum praesertim pretiosum est iis qui responsabilitates erga alios gerunt. Ioseph ostendit veram auctoritatem per protectionem, servitium et sui ipsius donationem manifestari.
+
+  ## Sanctus Ioseph, patronus operariorum
+
+  Sanctus Ioseph ab antiquis temporibus cum humano labore coniungitur. Faber et pater putativus Sanctae Familiae, dignitatem difficultatesque laboris cotidiani cognoscebat.
+
+  Quapropter sanctus Ioseph peculiarem locum in spiritualitate christiana operariorum obtinet. Anno 1955, Pius XII papa festum sancti Ioseph Opificis instituit, quod die 1 Maii celebratur.
+
+  Sanctus Ioseph christianis commemorat laborem viam sanctitatis fieri posse, cum honestate, studio et amore peragitur. Sive magnus sive parvus sit in oculis mundi, labor fideliter peractus Deo offerri potest.
+
+  ## Mors sancti Ioseph
+
+  Evangelia mortem Ioseph non narrant. E narratione biblica ante initium vitae publicae Iesu disparet.
+
+  Traditio christiana diu tenuit Ioseph in praesentia Iesu et Mariae mortuum esse. Quapropter saepe invocatur tamquam patronus bonae et sanctae mortis.
+
+  Ultimi eius anni historiae absconditi manent, sicut magna pars vitae eius. Hoc tamen silentium congruit cum indole viri quem Evangelia nobis proponunt: servi qui attentionem non quaerebat, sed missionem sibi a Deo commissam fideliter adimplebat.
+
+  ## Exemplar paternitatis et fidei
+
+  Sanctus Ioseph unum ex magnis exemplis paternitatis christianae est. Pater biologicus Iesu non erat, sed veram paternitatem terrestrem erga eum exercuit, eum protegendo, eius necessitatibus providendo atque in pueritia comitando.
+
+  Paternitas eius per responsabilitatem et sui ipsius donationem manifestata est. Necessitates Mariae et Iesu ante proprium commodum posuit atque sacrificia vocationi suae necessaria accepit.
+
+  Patribus et familiis Ioseph exemplar amoris fidelis manet. Docet paternitatem non solum auctoritatem esse, sed etiam protectionem, praesentiam, sacrificium et servitium.
+
+  ## Fidelis Dei servus
+
+  Vita sancti Ioseph paucis virtutibus comprehendi potest: fide, oboedientia, humilitate, fortitudine et amore.
+
+  Deo credidit cum non intellegeret. Obedivit cum oboedientia sacrificium postulabat. Mariam et Iesum protexit cum periculum eos minabatur. Fideliter laboravit ut familiae suae provideret. Atque vitam magna ex parte absconditam a mundo accepit.
+
+  Sanctus Ioseph christianis commemorat Deum saepe per homines operari quorum vita ordinaria videtur. Eius magnitudo non in publica recognitione, sed in fidelitate qua vocationem suam adimplevit consistebat.
+
+  Pro catholicis sanctus Ioseph potens intercessor et fidelis protector manet. Ipse est vir iustus Nazarethae, sponsus Mariae, custos Iesu, patronus Ecclesiae et humilis operarius qui totam vitam suam in manus Dei posuit.
+
+  Eius exemplum unumquemque christianum adhuc invitat ad eandem fiduciam quietam: Deum audire, eius Providentiae confidere et eos fideliter servire quos nobis commendavit.
+  $desc$
 ),
+
 (
-  'saint-john-the-baptist',
-  'en',
-  'John the Baptist preached repentance and baptized in the Jordan region. The Gospels present him as the forerunner who directs others to Jesus; Josephus independently records his influence and execution under Herod Antipas, while important details of his chronology remain uncertain.',
-  $desc$## Identity and sources
+	'saint-john-the-baptist',
+		'en',
+		'Saint John the Baptist was the prophet who prepared the way for Jesus Christ. Son of Zechariah and Elizabeth and a relative of Jesus, he preached repentance, baptized those who turned back to God in the Jordan River, and courageously proclaimed the coming of the Messiah. He is honoured by Christians as the forerunner of Christ and one of the greatest prophets.',
+  $desc$
+  ## Saint John the Baptist
 
-John the Baptist was a Jewish preacher associated with baptism and a call to moral renewal. His ministry belongs to the setting of Roman rule and the Herodian rulers in the first century. The Gospels interpret his vocation in relation to Jesus, while the Jewish historian Flavius Josephus describes his preaching and death in Antiquities of the Jews. These sources have different purposes and emphases. Their agreement on John's influence and execution does not remove every difficulty in reconstructing the order of events, and they do not provide secure dates for his birth and death.
+  Saint John the Baptist is one of the most important figures in the Gospel story. Prophet, preacher and forerunner of Jesus Christ, he was chosen by God to prepare the people for the coming of the Messiah. His life was marked by prayer, repentance, courage and complete dedication to his divine mission.
 
-## Birth and prophetic calling
+  John occupies a unique place between the Old and New Testaments. He belongs to the tradition of the prophets of Israel, yet he stands at the threshold of the Gospel, announcing that the long-awaited Saviour is near. His message was simple and demanding: turn away from sin, return to God and prepare your heart for the Lord.
 
-Luke 1 presents John as the son of Zechariah, a priest, and Elizabeth, who also belongs to a priestly family. Both are elderly and childless when an angel announces John's birth during Zechariah's service in the Temple. The announcement describes a vocation to turn people towards God and prepare them for the Lord. Zechariah's inability to speak, the child's naming and the restoration of his speech form part of this scriptural account. They should be identified as Luke's narrative, not as details independently recorded by Josephus.
+  ## The birth of John
 
-Luke connects John's beginnings with those of Jesus through Mary's visit to Elizabeth. The unborn John leaps when Elizabeth hears Mary's greeting. After the birth, Zechariah's song speaks of his son as a prophet who will prepare the Lord's ways. Luke closes this childhood account by saying that John grew in spirit and lived in the wilderness until his public appearance to Israel. The text does not describe his education or establish membership in a particular religious community; such a biography cannot be supplied from its brief notice about the wilderness.
+  The story of John's birth is told especially in the Gospel according to Saint Luke. His father, Zechariah, was a priest, while his mother, Elizabeth, was a woman of faith and a relative of the Virgin Mary.
 
-## Preaching and baptism
+  Elizabeth had been unable to have children, and both she and Zechariah were advanced in age. One day, while Zechariah was serving in the Temple, the angel Gabriel appeared to him and announced that Elizabeth would have a son.
 
-Luke 3 places John's public call in the fifteenth year of Tiberius and names contemporary rulers and priestly authorities. John preaches around the Jordan, calling for repentance and baptism. Matthew describes his austere clothing and food and relates his warning that descent from Abraham cannot substitute for a changed life. Luke gives the moral demand practical form: those with clothing and food should share, tax collectors should not exact more than authorized, and soldiers should not extort or make false accusations. Conversion is presented as conduct as well as a public religious act.
+  The angel told him that the child would be called John and that he would have a special mission before God. He would be filled with the Holy Spirit and would prepare a people ready for the Lord.
 
-John also announces someone more powerful than himself, contrasting his baptism with water with the coming baptism in the Holy Spirit. Matthew narrates Jesus' arrival at the Jordan and John's initial reluctance to baptize him, followed by his acceptance of Jesus' response. The descent of the Spirit and the heavenly declaration identify Jesus within the Gospel's proclamation. John's Gospel emphasizes the Baptist's testimony: he denies that he is the Messiah, identifies Jesus as the Lamb of God and directs his disciples' attention away from himself. It also reports his joy at Jesus' growing prominence rather than treating that prominence simply as a rivalry.
+  When Mary later visited Elizabeth, the child leapt in Elizabeth's womb at the sound of Mary's greeting. Elizabeth recognized the presence of God's grace and called Mary "the mother of my Lord."
 
-## Imprisonment and death
+  This encounter connects the mission of John with the mystery of Christ even before either child was born.
 
-The Gospel accounts connect John's imprisonment with his criticism of Herod Antipas over Herodias. Matthew 11 shows him still communicating through disciples from prison: he asks whether Jesus is the one expected, and Jesus answers by pointing to works of healing and the good news brought to the poor. Jesus then praises John's prophetic role. The scene preserves a question and a response; it does not provide a complete account of John's private state of mind or license a confident reconstruction of all his expectations.
+  ## A prophet in the wilderness
 
-Mark 6 recounts John's death through a banquet narrative. Herodias' daughter dances, Herod promises her a reward, and, prompted by her mother, she requests John's head. Herod orders the execution despite his distress, and John's disciples take his body for burial. Josephus gives another emphasis: he portrays John as a good man whose large following made Herod fear political unrest. He says that Herod had him imprisoned and killed at Machaerus. Josephus also describes John's washing as bodily purification following moral righteousness, rather than a substitute for it. This account supplies an important non-Christian witness without repeating the banquet scene.
+  When John began his public ministry, he appeared in the wilderness of Judea, preaching a message of repentance. He called people to turn back to God and baptized them in the Jordan River as a sign of conversion and a renewed desire to live according to God's will.
 
-## Christian remembrance and historical caution
+  His preaching was direct and uncompromising. John did not seek popularity or personal glory. His entire mission was centred on another: the One who was coming after him.
 
-The political motive described by Josephus and the moral confrontation narrated in the Gospels should remain distinguishable rather than being joined into an undocumented sequence. Neither account justifies inventing a precise execution date. Christian remembrance sees John as the forerunner whose preaching prepared for Christ and whose fidelity endured confrontation with a ruler. His significance rests on that demanding call to conversion and on the Gospel witness that directs attention to Jesus. Recognizing the distinct voices of the sources preserves both the historical person and the particular meaning given to his life in Christian faith.
+  The Gospel describes John as the voice crying out in the wilderness: "Prepare the way of the Lord."
 
-## Sources
+  His clothing and way of life reflected the austerity of his mission. He wore clothing made from camel's hair and lived simply, eating what was available in the wilderness.
 
-- Scripture: Luke 1 and 3; Matthew 3 and 11:2–15; Mark 6:17–29; John 1:19–37 and 3:22–30. [Douay-Rheims text consulted, digital mirror](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
-- Flavius Josephus, Antiquities of the Jews, book XVIII, chapter 5, §2 (18.116–119), William Whiston's translation. [Text consulted in Sefaria's source collection](https://github.com/Sefaria/Sefaria-Data/blob/c3cba315dc4f4ba25c5f10bb1201094f1424ac04/sources/Josephus/Antiquities_Book_18).
-$desc$
+  His appearance recalled the great prophets of Israel, particularly Elijah. John stood before the people as a messenger calling them to awaken their hearts and prepare for the coming of God's kingdom.
+
+  ## The call to repentance
+
+  At the heart of John's preaching was repentance. He called people to recognize their sins, abandon injustice and return sincerely to God.
+
+  For John, repentance was not merely an emotion or a declaration. It had to produce a changed life. Those who came to him were encouraged to share with the poor, act honestly and reject violence and corruption.
+
+  His baptism in the Jordan expressed this conversion. Those who received it publicly acknowledged their need for God's mercy and their desire to begin a renewed life.
+
+  John therefore prepared the people not simply by announcing that the Messiah was coming, but by calling them to make themselves spiritually ready to receive Him.
+
+  ## John baptizes Jesus
+
+  One of the most important moments in John's life was the baptism of Jesus in the Jordan.
+
+  Jesus came to John and asked to be baptized. John initially hesitated, recognizing the greatness of the One standing before him. Yet Jesus insisted, and John baptized Him.
+
+  At the moment of Jesus' baptism, the heavens opened, the Spirit of God descended like a dove, and a voice from heaven proclaimed: "This is my beloved Son, with whom I am well pleased."
+
+  This event marks the beginning of Jesus' public ministry and reveals the Father, the Son and the Holy Spirit.
+
+  John's role is particularly beautiful here. He does not seek to keep Jesus in the background. Instead, he allows his own ministry to give way to the greater mission of Christ.
+
+  ## "Behold, the Lamb of God"
+
+  John recognized Jesus as the promised Saviour. In the Gospel according to Saint John, he points towards Him and declares: "Behold, the Lamb of God."
+
+  These words are central to John's mission. He identifies Jesus as the One who comes to take away the sin of the world.
+
+  John understood that his own importance depended entirely upon Christ. His mission was not to gather followers around himself forever, but to prepare them to follow Jesus.
+
+  His humility can be expressed in his famous declaration: "He must increase, but I must decrease."
+
+  These words reveal the heart of his vocation. John was willing to become less visible so that Christ could become known.
+
+  ## A courageous witness to the truth
+
+  John was not afraid to speak the truth, even when it placed him in danger.
+
+  He openly criticized Herod Antipas, the ruler of Galilee, for taking Herodias, the wife of his brother, as his own wife. John's condemnation of this unlawful union eventually led to his imprisonment.
+
+  Even in prison, John remained faithful to his mission. He did not change his message in order to protect himself or gain favour with those in power.
+
+  His courage has made him a lasting Christian example of fidelity to God's truth. John reminds believers that faith sometimes requires courage, especially when speaking against injustice or defending the dignity of human life and the commandments of God.
+
+  ## The martyrdom of Saint John
+
+  John eventually paid the ultimate price for his witness.
+
+  During a banquet held by Herod, the daughter of Herodias danced before the guests and pleased Herod. He promised her whatever she requested. At the request of her mother, she asked for the head of John the Baptist.
+
+  Although Herod was distressed by the request, he ordered John's execution. John was beheaded in prison, and his head was given to Herodias's daughter.
+
+  Thus John became a martyr for truth and fidelity to God's law.
+
+  His death did not erase his mission. Instead, it sealed his testimony with the ultimate sacrifice. He remained faithful to the end.
+
+  ## The forerunner of Christ
+
+  John the Baptist is traditionally called the Forerunner because his entire life pointed towards Jesus.
+
+  He prepared the way. He called sinners to repentance. He baptized in the Jordan. He recognized Christ when He came. He directed his own disciples towards Jesus. And finally, he accepted the disappearance of his own ministry as Christ's public mission grew.
+
+  In this way, John teaches a profound lesson about Christian discipleship: the purpose of a believer's life is not to draw attention to oneself, but to lead others towards Christ.
+
+  ## A model of humility
+
+  Saint John was a powerful preacher who attracted large crowds, yet he never claimed the glory that belonged to Christ.
+
+  His humility was not weakness. It was the freedom to recognize his true place in God's plan.
+
+  He knew that he was not the Messiah. He knew that he was not the Light, but a witness to the Light. He accepted his mission and fulfilled it without seeking personal honour.
+
+  For Christians, this makes John an extraordinary model of humility. His life encourages believers to use their gifts not for their own glory, but in the service of God and the proclamation of the Gospel.
+
+  ## A life devoted to preparing the way
+
+  The life of Saint John the Baptist can be understood through one central mission: **prepare the way for the Lord**.
+
+  He prepared the way through his preaching, through baptism, through repentance and through his own example of radical faithfulness.
+
+  His message remains relevant to Christians today. To prepare the way for Christ means opening one's heart to God, turning away from sin, seeking forgiveness and allowing God's grace to transform one's life.
+
+  John reminds us that Christ must remain at the centre. His own life pointed beyond himself towards the Saviour.
+
+  ## Saint John the Baptist in the Catholic Church
+
+  The Catholic Church honours Saint John the Baptist as a prophet, martyr and forerunner of Christ. His birth and his martyrdom are both commemorated in the liturgical calendar, reflecting the extraordinary importance of his witness.
+
+  He is also closely associated with the Sacrament of Baptism, because his preaching and baptism in the Jordan prepared the way for the Christian understanding of baptism.
+
+  Churches, communities and families throughout the world have been placed under his patronage. His feast has also inspired many traditions of prayer and celebration.
+
+  ## A faithful servant of God
+
+  Saint John the Baptist remains a powerful example of courage, humility and faith.
+
+  He was a prophet who spoke the truth, a preacher who called sinners to conversion, a servant who prepared the way for Christ and a martyr who remained faithful until death.
+
+  His greatness came not from seeking his own glory, but from pointing towards Jesus.
+
+  His life can therefore be summed up in the words he proclaimed to the people: **"Prepare the way of the Lord."**
+
+  Saint John the Baptist teaches every Christian to make room for Christ, to repent sincerely, to live according to the truth and to have the courage to proclaim the Gospel.
+
+  He remains the voice crying in the wilderness, inviting every generation to prepare its heart for the coming of the Lord.
+  $desc$
 ),
+
 (
-  'saint-john-the-baptist',
-  'fr',
-  'Jean-Baptiste prêchait la conversion et baptisait dans la région du Jourdain. Les Évangiles le présentent comme le précurseur qui oriente vers Jésus ; Josèphe atteste indépendamment son influence et son exécution sous Hérode Antipas, tandis que des éléments importants de sa chronologie demeurent incertains.',
-  $desc$## Identité et sources
+	'saint-john-the-baptist',
+		'fr',
+		'Saint Jean-Baptiste fut le prophète qui prépara le chemin de Jésus-Christ. Fils de Zacharie et d’Élisabeth et parent de Jésus, il prêcha la conversion, baptisa dans le Jourdain ceux qui se tournaient vers Dieu et proclama avec courage la venue du Messie. Les chrétiens l’honorent comme le Précurseur du Christ et comme l’un des plus grands prophètes.',
+  $desc$
+  ## Saint Jean-Baptiste
 
-Jean-Baptiste était un prédicateur juif associé au baptême et à un appel au renouvellement moral. Son ministère s'inscrit au premier siècle, dans le contexte de la domination romaine et des souverains hérodiens. Les Évangiles interprètent sa vocation dans sa relation à Jésus, tandis que l'historien juif Flavius Josèphe décrit sa prédication et sa mort dans les Antiquités judaïques. Ces sources ont des intentions et des accents différents. Leur accord sur l'influence et l'exécution de Jean ne supprime pas toutes les difficultés de reconstitution de l'ordre des événements, et elles ne fournissent pas de dates assurées pour sa naissance et sa mort.
+  Saint Jean-Baptiste est l’une des grandes figures du récit évangélique. Prophète, prédicateur et Précurseur de Jésus-Christ, il fut choisi par Dieu pour préparer le peuple à la venue du Messie. Sa vie fut marquée par la prière, la conversion, le courage et un dévouement total à la mission que Dieu lui avait confiée.
 
-## Naissance et vocation prophétique
+  Jean occupe une place unique entre l’Ancienne et la Nouvelle Alliance. Il appartient à la tradition des prophètes d’Israël, tout en se tenant au seuil de l’Évangile pour annoncer que le Sauveur tant attendu est proche. Son message était simple et exigeant : se détourner du péché, revenir vers Dieu et préparer son cœur à la venue du Seigneur.
 
-Luc 1 présente Jean comme le fils de Zacharie, un prêtre, et d'Élisabeth, elle aussi issue d'une famille sacerdotale. Tous deux sont âgés et sans enfant lorsqu'un ange annonce la naissance de Jean pendant le service de Zacharie au Temple. L'annonce décrit une vocation à tourner les hommes vers Dieu et à les préparer pour le Seigneur. L'impossibilité pour Zacharie de parler, le nom donné à l'enfant et le retour de la parole appartiennent à ce récit scripturaire. Il convient de les désigner comme des éléments du récit de Luc, non comme des détails attestés indépendamment par Josèphe.
+  ## La naissance de Jean
 
-Luc relie les commencements de Jean à ceux de Jésus par la visite de Marie à Élisabeth. Jean, encore dans le sein de sa mère, tressaille lorsqu'Élisabeth entend la salutation de Marie. Après la naissance, le cantique de Zacharie présente son fils comme un prophète qui préparera les chemins du Seigneur. Luc termine ce récit de l'enfance en disant que Jean grandissait en esprit et vivait au désert jusqu'à sa manifestation publique à Israël. Le texte ne décrit pas son éducation et n'établit pas son appartenance à une communauté religieuse particulière ; sa brève mention du désert ne permet pas de construire une telle biographie.
+  L’histoire de la naissance de Jean est particulièrement racontée dans l’Évangile selon saint Luc. Son père, Zacharie, était prêtre, tandis que sa mère, Élisabeth, était une femme de foi et une parente de la Vierge Marie.
 
-## Prédication et baptême
+  Élisabeth était restée longtemps sans enfant, et elle et Zacharie étaient déjà avancés en âge. Un jour, alors que Zacharie accomplissait son service dans le Temple, l’ange Gabriel lui apparut et lui annonça qu’Élisabeth aurait un fils.
 
-Luc 3 situe l'appel public de Jean dans la quinzième année de Tibère et nomme les souverains et les autorités sacerdotales de l'époque. Jean prêche aux alentours du Jourdain, appelant à la conversion et au baptême. Matthieu décrit l'austérité de ses vêtements et de sa nourriture et rapporte son avertissement : descendre d'Abraham ne saurait remplacer une vie transformée. Luc donne à l'exigence morale une forme concrète : ceux qui ont des vêtements et de la nourriture doivent partager, les collecteurs d'impôts ne doivent rien exiger au-delà de ce qui est autorisé, et les soldats ne doivent pratiquer ni extorsion ni fausse accusation. La conversion est présentée comme une conduite autant qu'un acte religieux public.
+  L’ange lui révéla que l’enfant serait appelé Jean et qu’il aurait une mission particulière devant Dieu. Il serait rempli de l’Esprit Saint et préparerait un peuple disposé à accueillir le Seigneur.
 
-Jean annonce aussi quelqu'un de plus puissant que lui, distinguant son baptême dans l'eau du baptême à venir dans l'Esprit Saint. Matthieu raconte l'arrivée de Jésus au Jourdain, la réticence initiale de Jean à le baptiser, puis son acceptation de la réponse de Jésus. La descente de l'Esprit et la déclaration céleste manifestent l'identité de Jésus dans la proclamation évangélique. L'Évangile selon Jean souligne le témoignage du Baptiste : il nie être le Messie, désigne Jésus comme l'Agneau de Dieu et détourne de lui-même l'attention de ses disciples. Il rapporte aussi sa joie devant la place croissante de Jésus, plutôt que de présenter simplement cette évolution comme une rivalité.
+  Lorsque Marie rendit ensuite visite à Élisabeth, l’enfant tressaillit dans le sein de sa mère au son de la salutation de Marie. Élisabeth reconnut la présence de la grâce de Dieu et appela Marie « la mère de mon Seigneur ».
 
-## Emprisonnement et mort
+  Cette rencontre relie la mission de Jean au mystère du Christ avant même la naissance des deux enfants.
 
-Les récits évangéliques relient l'emprisonnement de Jean à sa critique d'Hérode Antipas au sujet d'Hérodiade. Matthieu 11 le montre communiquant encore par ses disciples depuis la prison : il demande si Jésus est celui qui est attendu, et Jésus répond en évoquant les guérisons et la Bonne Nouvelle apportée aux pauvres. Jésus loue ensuite le rôle prophétique de Jean. La scène conserve une question et une réponse ; elle ne fournit pas un exposé complet de l'état intérieur de Jean et ne permet pas de reconstituer avec certitude toutes ses attentes.
+  ## Un prophète dans le désert
 
-Marc 6 raconte la mort de Jean à travers le récit d'un banquet. La fille d'Hérodiade danse, Hérode lui promet une récompense et, poussée par sa mère, elle demande la tête de Jean. Hérode ordonne l'exécution malgré sa tristesse, et les disciples de Jean prennent son corps pour l'ensevelir. Josèphe met l'accent ailleurs : il dépeint Jean comme un homme de bien dont les nombreux auditeurs faisaient craindre à Hérode des troubles politiques. Il affirme qu'Hérode le fit emprisonner et tuer à Machéronte. Josèphe décrit également son baptême comme une purification du corps faisant suite à la rectitude morale, et non comme son substitut. Ce récit apporte un important témoignage non chrétien sans reprendre la scène du banquet.
+  Lorsque Jean commença son ministère public, il apparut dans le désert de Judée en prêchant un message de conversion. Il appelait les hommes à revenir vers Dieu et les baptisait dans le Jourdain en signe de conversion et de désir renouvelé de vivre selon la volonté divine.
 
-## La mémoire chrétienne et la prudence historique
+  Sa prédication était directe et sans compromis. Jean ne recherchait ni la popularité ni sa propre gloire. Toute sa mission était tournée vers un autre : Celui qui devait venir après lui.
 
-Le motif politique décrit par Josèphe et la confrontation morale racontée dans les Évangiles doivent rester distincts, plutôt que d'être réunis dans une suite d'événements non documentée. Aucun des récits ne justifie l'invention d'une date précise d'exécution. La mémoire chrétienne voit en Jean le précurseur dont la prédication préparait au Christ et dont la fidélité a résisté à la confrontation avec un souverain. Son importance repose sur cet appel exigeant à la conversion et sur le témoignage évangélique qui dirige l'attention vers Jésus. Reconnaître les voix distinctes des sources préserve à la fois le personnage historique et le sens particulier donné à sa vie dans la foi chrétienne.
+  L’Évangile décrit Jean comme la voix de celui qui crie dans le désert : « Préparez le chemin du Seigneur. »
 
-## Sources
+  Son vêtement et son mode de vie exprimaient l’austérité de sa mission. Il portait un vêtement de poil de chameau et vivait simplement dans le désert, se nourrissant de ce qu’il y trouvait.
 
-- Écriture : Luc 1 et 3 ; Matthieu 3 et 11, 2–15 ; Marc 6, 17–29 ; Jean 1, 19–37 et 3, 22–30. [Texte de la Bible Douay-Rheims consulté, copie numérique](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
-- Flavius Josèphe, Antiquités judaïques, livre XVIII, chapitre 5, §2 (18.116–119), traduction de William Whiston. [Texte consulté dans la collection de sources de Sefaria](https://github.com/Sefaria/Sefaria-Data/blob/c3cba315dc4f4ba25c5f10bb1201094f1424ac04/sources/Josephus/Antiquities_Book_18).
-$desc$
+  Son apparence rappelait les grands prophètes d’Israël, notamment le prophète Élie. Jean se présentait devant le peuple comme un messager appelant les cœurs à se réveiller et à se préparer à la venue du Royaume de Dieu.
+
+  ## L’appel à la conversion
+
+  Au cœur de la prédication de Jean se trouvait la conversion. Il appelait les hommes à reconnaître leurs péchés, à abandonner l’injustice et à revenir sincèrement vers Dieu.
+
+  Pour Jean, la conversion n’était pas seulement une émotion ou une déclaration. Elle devait produire un changement véritable dans la vie. Ceux qui venaient à lui étaient invités à partager avec les pauvres, à agir avec honnêteté et à renoncer à la violence et à la corruption.
+
+  Son baptême dans le Jourdain exprimait cette conversion. Ceux qui le recevaient reconnaissaient publiquement leur besoin de la miséricorde de Dieu et leur désir de commencer une vie renouvelée.
+
+  Jean préparait donc le peuple non seulement en annonçant la venue du Messie, mais aussi en l’appelant à se disposer intérieurement à l’accueillir.
+
+  ## Jean baptise Jésus
+
+  L’un des moments les plus importants de la vie de Jean fut le baptême de Jésus dans le Jourdain.
+
+  Jésus vint trouver Jean et lui demanda de le baptiser. Jean hésita d’abord, reconnaissant la grandeur de Celui qui se tenait devant lui. Mais Jésus insista, et Jean le baptisa.
+
+  Au moment du baptême de Jésus, les cieux s’ouvrirent, l’Esprit de Dieu descendit comme une colombe et une voix venant du ciel proclama : « Celui-ci est mon Fils bien-aimé, en qui je trouve ma joie. »
+
+  Cet événement marque le début de la vie publique de Jésus et révèle le Père, le Fils et l’Esprit Saint.
+
+  Le rôle de Jean est particulièrement beau dans cette scène. Il ne cherche pas à retenir Jésus dans l’ombre. Au contraire, il accepte que sa propre mission s’efface devant la mission infiniment plus grande du Christ.
+
+  ## « Voici l’Agneau de Dieu »
+
+  Jean reconnut en Jésus le Sauveur promis. Dans l’Évangile selon saint Jean, il se tourne vers lui et proclame : « Voici l’Agneau de Dieu. »
+
+  Ces paroles résument le cœur de la mission de Jean. Il reconnaît en Jésus Celui qui vient enlever le péché du monde.
+
+  Jean comprit que sa propre importance dépendait entièrement du Christ. Sa mission n’était pas de rassembler éternellement des disciples autour de lui, mais de les conduire vers Jésus.
+
+  Son humilité s’exprime dans cette parole célèbre : « Il faut qu’il grandisse, et que moi, je diminue. »
+
+  Ces mots révèlent le cœur de sa vocation. Jean acceptait de devenir moins visible afin que le Christ soit davantage connu.
+
+  ## Un témoin courageux de la vérité
+
+  Jean n’eut pas peur de proclamer la vérité, même lorsque cela le mettait en danger.
+
+  Il reprocha ouvertement à Hérode Antipas, le souverain de Galilée, d’avoir pris pour épouse Hérodiade, la femme de son frère. Cette dénonciation finit par conduire Jean en prison.
+
+  Même emprisonné, Jean resta fidèle à sa mission. Il ne modifia pas son message pour se protéger ou obtenir la faveur des puissants.
+
+  Son courage en a fait un exemple durable de fidélité à la vérité de Dieu. Jean rappelle aux croyants que la foi demande parfois du courage, notamment lorsqu’il faut dénoncer l’injustice ou défendre la dignité de l’homme et les commandements de Dieu.
+
+  ## Le martyre de saint Jean
+
+  Jean finit par payer le prix ultime de son témoignage.
+
+  Lors d’un banquet donné par Hérode, la fille d’Hérodiade dansa devant les convives et plut au roi. Celui-ci lui promit de lui donner ce qu’elle demanderait. À la demande de sa mère, elle réclama la tête de Jean-Baptiste.
+
+  Bien qu’attristé par cette demande, Hérode ordonna l’exécution de Jean. Celui-ci fut décapité dans sa prison, et sa tête fut remise à la jeune fille qui la donna à sa mère.
+
+  Jean devint ainsi martyr de la vérité et de sa fidélité à la loi de Dieu.
+
+  Sa mort n’effaça pas sa mission. Elle scella au contraire son témoignage par le sacrifice ultime. Jean resta fidèle jusqu’au bout.
+
+  ## Le Précurseur du Christ
+
+  Saint Jean-Baptiste est traditionnellement appelé le Précurseur parce que toute sa vie fut orientée vers Jésus.
+
+  Il prépara le chemin. Il appela les pécheurs à la conversion. Il baptisa dans le Jourdain. Il reconnut le Christ lorsqu’il vint à lui. Il dirigea ses propres disciples vers Jésus. Enfin, il accepta que son propre ministère s’efface lorsque la mission publique du Christ commença à se déployer.
+
+  Jean enseigne ainsi une leçon profonde sur la vie chrétienne : le but de l’existence du croyant n’est pas d’attirer l’attention sur lui-même, mais de conduire les autres vers le Christ.
+
+  ## Un modèle d’humilité
+
+  Saint Jean était un prédicateur puissant qui attirait de nombreuses foules, mais il ne revendiqua jamais pour lui la gloire qui appartenait au Christ.
+
+  Son humilité n’était pas une faiblesse. Elle était la liberté de reconnaître sa véritable place dans le dessein de Dieu.
+
+  Il savait qu’il n’était pas le Messie. Il savait qu’il n’était pas la Lumière, mais le témoin de la Lumière. Il accepta sa mission et l’accomplit sans rechercher les honneurs personnels.
+
+  Pour les chrétiens, Jean est ainsi un modèle extraordinaire d’humilité. Sa vie encourage les croyants à mettre leurs dons au service de Dieu plutôt qu’à rechercher leur propre gloire, et à annoncer fidèlement l’Évangile.
+
+  ## Une vie consacrée à préparer le chemin
+
+  La vie de saint Jean-Baptiste peut être comprise à travers une mission centrale : **préparer le chemin du Seigneur**.
+
+  Il prépara ce chemin par sa prédication, par le baptême, par l’appel à la conversion et par son propre exemple de fidélité radicale.
+
+  Son message demeure actuel pour les chrétiens d’aujourd’hui. Préparer le chemin du Christ signifie ouvrir son cœur à Dieu, se détourner du péché, rechercher le pardon et permettre à la grâce de transformer sa vie.
+
+  Jean rappelle que le Christ doit toujours rester au centre. Sa propre vie était entièrement tournée vers le Sauveur.
+
+  ## Saint Jean-Baptiste dans l’Église catholique
+
+  L’Église catholique honore saint Jean-Baptiste comme prophète, martyr et Précurseur du Christ. Sa naissance et son martyre sont tous deux célébrés dans le calendrier liturgique, témoignant de l’importance exceptionnelle de son témoignage.
+
+  Il est également étroitement associé au sacrement du baptême, car sa prédication et son baptême dans le Jourdain préparèrent le chemin vers la compréhension chrétienne du baptême.
+
+  De nombreuses églises, communautés et familles dans le monde ont été placées sous son patronage. Sa fête a également donné naissance à de nombreuses traditions de prière et de célébration.
+
+  ## Un fidèle serviteur de Dieu
+
+  Saint Jean-Baptiste demeure un puissant exemple de courage, d’humilité et de foi.
+
+  Il fut un prophète qui proclama la vérité, un prédicateur qui appela les pécheurs à la conversion, un serviteur qui prépara le chemin du Christ et un martyr qui resta fidèle jusqu’à la mort.
+
+  Sa grandeur ne venait pas de la recherche de sa propre gloire, mais du fait qu’il conduisait les hommes vers Jésus.
+
+  Sa vie peut ainsi être résumée par les paroles qu’il proclamait au peuple : **« Préparez le chemin du Seigneur. »**
+
+  Saint Jean-Baptiste enseigne à chaque chrétien à faire une place au Christ, à se convertir sincèrement, à vivre dans la vérité et à avoir le courage d’annoncer l’Évangile.
+
+  Il demeure la voix qui crie dans le désert et qui invite chaque génération à préparer son cœur à la venue du Seigneur.
+  $desc$
 ),
+
 (
-  'saint-john-the-baptist',
-  'la',
-  'Ioannes Baptista paenitentiam praedicabat et in regione Iordanis baptizabat. Evangelia eum praecursorem exhibent qui alios ad Iesum dirigit; Iosephus quoque auctoritatem eius et mortem sub Herode Antipa testatur, quamvis magnae quaestiones de temporibus vitae eius incertae maneant.',
-  $desc$## Persona et fontes
+	'saint-john-the-baptist',
+		'la',
+		'Sacerdos Ioannes Baptista fuit propheta qui viam Iesu Christi praeparavit. Filius Zachariae et Elisabeth, atque propinquus Iesu, conversionem praedicavit, eos qui ad Deum redibant in Iordane baptizavit, et adventum Messiae fortiter annuntiavit. A Christianis honoratur ut Praecursor Christi et unus ex maximis prophetis.',
+  $desc$
+  ## Sanctus Ioannes Baptista
 
-Ioannes Baptista praedicator Iudaeus fuit, baptismate et vocatione ad mores renovandos notus. Ministerium eius ad primum saeculum pertinet, quo Romani et principes ex domo Herodis regionem regebant. Evangelia vocationem eius in coniunctione cum Iesu interpretantur, dum historicus Iudaeus Flavius Iosephus praedicationem eius et mortem in Antiquitatibus Iudaicis describit. Hi fontes diversa proposita et diversos accentus habent. Consensus eorum de auctoritate Ioannis et de supplicio eius non omnes difficultates ordinis rerum gestarum restituendi tollit, neque certa tempora ortus et mortis eius praebent.
+  Sanctus Ioannes Baptista una ex praecipuis figuris Evangelii est. Propheta, praedicator et Praecursor Iesu Christi, a Deo electus est ut populum ad adventum Messiae praepararet. Vita eius oratione, conversione, fortitudine et perfecta missionis sibi commissae dedicatione insignita est.
 
-## Nativitas et vocatio prophetica
+  Ioannes singularem locum inter Vetus et Novum Testamentum obtinet. Traditioni prophetarum Israel pertinet, sed simul in limine Evangelii stat, annuntians Salvatorem diu exspectatum iam adesse. Nuntius eius simplex et exigens erat: a peccato se convertere, ad Deum redire et cor suum ad adventum Domini parare.
 
-Lucas in primo capite Ioannem filium Zachariae sacerdotis et Elisabeth, quae etiam ex familia sacerdotali orta est, exhibet. Ambo aetate provecti et sine liberis sunt, cum angelus nativitatem Ioannis annuntiat, Zacharia in Templo ministerium exercente. Annuntiatio vocationem describit homines ad Deum convertendi et Domino praeparandi. Impotentia Zachariae loquendi, nomen puero impositum et loquela restituta partes sunt huius narrationis scripturalis. Ut elementa narrationis Lucae agnoscenda sunt, non ut res ab Iosepho quoque separatim traditae.
+  ## Nativitas Ioannis
 
-Lucas initia Ioannis cum initiis Iesu per visitationem Mariae ad Elisabeth coniungit. Ioannes nondum natus exsultat cum Elisabeth salutationem Mariae audit. Post nativitatem canticum Zachariae filium eius prophetam appellat qui vias Domini praeparabit. Lucas narrationem infantiae concludit dicens Ioannem spiritu crevisse et in desertis habitasse usque ad publicam manifestationem suam ad Israel. Textus educationem eius non describit neque eum cuidam communitati religiosae adscriptum esse demonstrat; talis vitae narratio ex brevi illa deserti mentione suppleri non potest.
+  Historia nativitatis Ioannis praesertim in Evangelio secundum sanctum Lucam narratur. Pater eius, Zacharias, sacerdos erat, mater autem eius, Elisabeth, mulier fidei et propinqua Virginis Mariae erat.
 
-## Praedicatio et baptismus
+  Elisabeth diu filios habere non potuerat, et ipsa atque Zacharias iam provectae aetatis erant. Quadam die, dum Zacharias ministerium suum in Templo exsequitur, angelus Gabriel ei apparuit et nuntiavit Elisabeth filium habituram esse.
 
-Lucas in tertio capite vocationem publicam Ioannis anno quinto decimo Tiberii collocat atque principes et auctoritates sacerdotales illius temporis nominat. Ioannes circa Iordanem praedicat, ad paenitentiam et baptismum vocans. Matthaeus austerum vestitum et victum eius describit atque monitionem refert originem ex Abraham loco vitae mutatae esse non posse. Lucas postulationi morali formam concretam dat: qui vestes et cibum habent cum aliis communicent, publicani non plus quam permissum exigant, milites neque pecuniam vi extorqueant neque falsa crimina inferant. Conversio ut vitae ratio simul atque actus religiosus publicus exhibetur.
+  Angelus ei revelavit puerum Ioannem vocandum esse atque peculiarem missionem coram Deo habiturum. Spiritu Sancto repleretur et populum paratum Domino praepararet.
 
-Ioannes etiam potentiorem se venturum annuntiat, baptismum suum in aqua a futuro baptismate in Spiritu Sancto distinguens. Matthaeus adventum Iesu ad Iordanem narrat atque Ioannem primo eum baptizare recusantem, deinde responsum Iesu accipientem. Descensus Spiritus et vox caelestis Iesum in proclamatione evangelica manifestant. Evangelium secundum Ioannem testimonium Baptistae extollit: negat se esse Messiam, Iesum Agnum Dei indicat atque discipulorum suorum attentionem a se avertit. Etiam gaudium eius de Iesu magis magisque agnito refert, neque hanc rem tantum ut aemulationem tractat.
+  Cum Maria postea Elisabeth visitavit, infans in utero eius exsultavit ad vocem salutationis Mariae. Elisabeth praesentiam gratiae Dei agnovit et Mariam « matrem Domini mei » appellavit.
 
-## Carcer et mors
+  Hic occursus missionem Ioannis mysterio Christi coniungit etiam antequam uterque puer nasceretur.
 
-Narrationes evangelicae incarcerationem Ioannis cum reprehensione Herodis Antipae propter Herodiadem coniungunt. Matthaeus in undecimo capite eum adhuc e carcere per discipulos nuntios mittentem exhibet: quaerit num Iesus sit qui exspectatur, Iesus autem respondet opera sanationis et bonum nuntium pauperibus allatum ostendens. Iesus deinde munus propheticum Ioannis laudat. Scaena quaestionem et responsum servat; neque plenam interioris animi Ioannis descriptionem praebet neque certam omnium exspectationum eius restitutionem permittit.
+  ## Propheta in deserto
 
-Marcus in sexto capite mortem Ioannis per narrationem convivii refert. Filia Herodiadis saltat, Herodes ei praemium promittit, atque illa, matre suadente, caput Ioannis petit. Herodes, quamvis tristis, supplicium imperat, et discipuli Ioannis corpus eius ad sepeliendum tollunt. Iosephus aliam rationem extollit: Ioannem virum bonum describit, cuius frequentissimi auditores Herodi metum tumultus politici iniecerint. Refert Herodem eum Machaerunte incarcerari et occidi iussisse. Iosephus etiam lavacrum Ioannis ut corporis purificationem rectitudinem moralem subsequentem describit, non ut eius vicem gerens. Haec narratio magni momenti testimonium non christianum praebet, quin convivii scaenam repetat.
+  Cum Ioannes ministerium suum publicum coepit, in deserto Iudaeae apparuit, conversionem praedicans. Homines ad Deum redire hortabatur eosque in Iordane baptizabat in signum conversionis et desiderii renovati secundum voluntatem Dei vivendi.
 
-## Memoria christiana et cautela historica
+  Praedicatio eius directa et sine compromissis erat. Ioannes neque popularitatem neque gloriam sibi quaerebat. Tota eius missio ad alium ordinabatur: ad Eum qui post ipsum venturus erat.
 
-Ratio politica ab Iosepho descripta et conflictus moralis in Evangeliis narratus distinguendi manent, potius quam in seriem rerum gestarum testimoniis carentem coniungantur. Neutra narratio certum supplicii diem fingere permittit. Memoria christiana Ioannem praecursorem agnoscit, cuius praedicatio ad Christum praeparabat et cuius fidelitas adversus principem constitit. Momentum eius in illa severa vocatione ad conversionem et in testimonio evangelico quod animos ad Iesum dirigit positum est. Distinctas fontium voces agnoscere et personam historicam servat et peculiarem sensum quem fides christiana vitae eius tribuit.
+  Evangelium Ioannem describit tamquam vocem clamantem in deserto: « Parate viam Domini. »
 
-## Fontes
+  Vestitus eius atque modus vivendi austeritatem missionis eius exprimebant. Vestem de pilis camelorum gerebat et simpliciter in deserto vivebat, ea comedens quae ibi inveniebantur.
 
-- Scriptura: Lucas 1 et 3; Matthaeus 3 et 11, 2–15; Marcus 6, 17–29; Ioannes 1, 19–37 et 3, 22–30. [Textus Bibliorum Duacensium consultus, exemplar digitale](https://github.com/scrollmapper/bible_databases/blob/master/formats/txt/DRC.txt).
-- Flavius Iosephus, Antiquitates Iudaicae, liber XVIII, caput 5, §2 (18.116–119), translatio Gulielmi Whiston. [Textus consultus in collectione fontium Sefaria](https://github.com/Sefaria/Sefaria-Data/blob/c3cba315dc4f4ba25c5f10bb1201094f1424ac04/sources/Josephus/Antiquities_Book_18).
-$desc$
+  Eius species magnos prophetas Israel, praesertim Eliam prophetam, revocabat. Ioannes coram populo stabat tamquam nuntius qui corda excitabat et ad adventum Regni Dei praeparabat.
+
+  ## Vocatio ad conversionem
+
+  In corde praedicationis Ioannis erat conversio. Homines ad peccata sua agnoscenda, iniustitiam relinquendam et ad Deum sincere redeundum invitabat.
+
+  Pro Ioanne conversio non erat tantum affectus vel declaratio. Vera vitae mutatio eam sequi debebat. Qui ad eum veniebant, ad pauperes communicandos, honeste agendum et violentiam atque corruptionem repudiandam invitabantur.
+
+  Baptismus eius in Iordane hanc conversionem significabat. Qui eum accipiebant, publice necessitatem misericordiae Dei agnoscebant atque desiderium vitae renovatae exprimebant.
+
+  Ioannes ergo populum non solum annuntiando adventum Messiae praeparabat, sed etiam eum invitando ut corde suo ad Eum recipiendum se disponeret.
+
+  ## Ioannes Iesum baptizat
+
+  Unus ex praecipuis vitae Ioannis eventibus fuit baptismus Iesu in Iordane.
+
+  Iesus ad Ioannem venit et baptismum ab eo petivit. Ioannes primo dubitavit, magnitudinem Eius qui ante se stabat agnoscens. Sed Iesus institit, et Ioannes eum baptizavit.
+
+  In momento baptismi Iesu caeli aperti sunt, Spiritus Dei sicut columba descendit, et vox de caelis proclamavit: « Hic est Filius meus dilectus, in quo mihi bene complacui. »
+
+  Hic eventus initium ministerii publici Iesu significat et Patrem, Filium et Spiritum Sanctum manifestat.
+
+  Munus Ioannis hic praecipue pulchrum est. Iesum in umbra retinere non quaerit. Immo propriam missionem ante maiorem Christi missionem libenter cedere sinit.
+
+  ## « Ecce Agnus Dei »
+
+  Ioannes in Iesu Salvatorem promissum agnovit. In Evangelio secundum sanctum Ioannem ad Iesum respiciens proclamat: « Ecce Agnus Dei. »
+
+  Haec verba cor missionis Ioannis exprimunt. Iesum agnoscit tamquam Eum qui venit peccatum mundi tollere.
+
+  Ioannes intellexit propriam suam dignitatem totam a Christo pendere. Missio eius non erat discipulos perpetuo circa se congregare, sed eos ad Iesum ducere.
+
+  Humilitas eius his verbis celebribus exprimitur: « Illum oportet crescere, me autem minui. »
+
+  Haec verba cor vocationis eius revelant. Ioannes minor et minus conspicuus fieri paratus erat, ut Christus magis cognosceretur.
+
+  ## Fortis testis veritatis
+
+  Ioannes veritatem proclamare non timuit, etiam cum hoc eum in periculum poneret.
+
+  Herodem Antipam, principem Galilaeae, publice reprehendit quod Herodiadem, uxorem fratris sui, duxisset. Haec denuntiatio tandem ad imprisonmentum Ioannis perduxit.
+
+  Etiam in carcere Ioannes missioni suae fidelis mansit. Nuntium suum non mutavit ut se protegeret vel gratiam potentium obtineret.
+
+  Eius fortitudo eum exemplum perpetuum fidelitatis veritati Dei fecit. Ioannes credentes admonet fidem interdum fortitudinem postulare, praesertim cum iniustitia denuntianda sit aut dignitas humana et mandata Dei defendenda sint.
+
+  ## Martyrium sancti Ioannis
+
+  Ioannes tandem ultimum testimonii sui pretium persolvit.
+
+  In convivio ab Herode celebrato, filia Herodiadis coram convivis saltavit et Herodi placuit. Ille ei promisit se daturum quodcumque peteret. Matre sua postulante, caput Ioannis Baptistae petivit.
+
+  Herodes, quamvis tristis esset, mandato suo consensit. Ioannes in carcere decollatus est, et caput eius puellae datum est, quae illud matri suae tradidit.
+
+  Ita Ioannes martyr veritatis et fidelitatis legi Dei factus est.
+
+  Mors eius missionem non delevit. E contra, testimonium eius ultimo sacrificio obsignavit. Fidelis usque ad finem mansit.
+
+  ## Praecursor Christi
+
+  Sanctus Ioannes Baptista Praecursor Christi appellatur, quia tota eius vita ad Iesum ordinata fuit.
+
+  Viam paravit. Peccatores ad conversionem vocavit. In Iordane baptizavit. Christum cum venit agnovit. Discipulos suos ad Iesum direxit. Denique proprii ministerii diminutionem accepit cum missio publica Christi crescere coepit.
+
+  Hoc modo Ioannes altam doctrinam de vita christiana tradit: propositum vitae credentis non est se ipsum in centrum ponere, sed alios ad Christum ducere.
+
+  ## Exemplar humilitatis
+
+  Sanctus Ioannes praedicator potens erat et magnas turbas ad se trahebat, sed numquam gloriam sibi vindicavit quae Christo debebatur.
+
+  Humilitas eius infirmitas non erat. Erat libertas agnoscendi suum verum locum in consilio Dei.
+
+  Sciebat se non esse Messiam. Sciebat se non esse Lucem, sed testem Lucis. Missionem suam accepit et sine honore proprio quaerendo eam adimplevit.
+
+  Christianis Ioannes sic extraordinarium humilitatis exemplar est. Vita eius fideles hortatur ut dona sua non ad propriam gloriam, sed in servitium Dei et Evangelii adhibeant.
+
+  ## Vita ad viam Domini praeparandam dedicata
+
+  Vita sancti Ioannis Baptistae una principali missione intellegi potest: **viam Domini parare**.
+
+  Viam paravit praedicatione, baptismo, conversionis vocatione et proprio exemplo radicalis fidelitatis.
+
+  Nuntius eius hodie quoque christianis valet. Viam Christo parare significat cor suum Deo aperire, a peccato se convertere, veniam quaerere et gratiam Dei vitam suam transformare sinere.
+
+  Ioannes admonet Christum semper in centro manere debere. Vita eius tota ad Salvatorem dirigebatur.
+
+  ## Sanctus Ioannes Baptista in Ecclesia Catholica
+
+  Ecclesia Catholica sanctum Ioannem Baptistam ut prophetam, martyrem et Christi Praecursorem honorat. Nativitas eius atque martyrium in calendario liturgico celebrantur, quod singularem testimonii eius momentum ostendit.
+
+  Etiam arcte cum Sacramento Baptismi coniungitur, quia praedicatio eius et baptismus in Iordane viam ad christianam baptismi intellegentiam paraverunt.
+
+  Multae ecclesiae, communitates et familiae toto orbe terrarum eius patrocinio commissae sunt. Festum eius etiam multas traditiones orationis et celebrationis inspiravit.
+
+  ## Fidelis Dei servus
+
+  Sanctus Ioannes Baptista validum fortitudinis, humilitatis et fidei exemplum manet.
+
+  Propheta fuit qui veritatem proclamavit, praedicator qui peccatores ad conversionem vocavit, servus qui viam Christo paravit et martyr qui usque ad mortem fidelis mansit.
+
+  Magnitudo eius non ex propria gloria quaerenda proveniebat, sed ex eo quod homines ad Iesum ducebat.
+
+  Vita eius his verbis quibus populum docebat comprehendi potest: **« Parate viam Domini. »**
+
+  Sanctus Ioannes Baptista unumquemque christianum docet Christo locum parare, sincere converti, in veritate vivere et Evangelium fortiter annuntiare.
+
+  Ipse manet vox clamans in deserto, quae unamquamque generationem invitat ut cor suum ad adventum Domini praeparet.
+  $desc$
 )
 ) AS x(slug, locale_code, short_description, full_biography)
 ON s.slug = x.slug
