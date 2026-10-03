@@ -260,6 +260,7 @@ CREATE TABLE images (
 
     creator TEXT,                   -- peintre, photographe, graveur, atelier, etc.
     date_label TEXT,                -- ex: "XVIIe siècle", "vers 1500", "1610-1612"
+    century INTEGER CHECK (century > 0),	-- ex: 17 pour XVIIe siècle
     repository TEXT,                -- lieu de conservation : musée, église, collection privée, bibliothèque...
 
     credit TEXT,
