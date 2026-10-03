@@ -44,3 +44,61 @@ pub async fn list_all_images(
     let rows = repo::list_all_images(pool, lang).await?;
     Ok(rows)
 }
+
+pub async fn list_wall_images(
+    pool: &PgPool,
+    limit: i32,
+    offset: i32,
+    language_code: Option<&str>,
+    q: Option<&str>,
+    saint_id: Option<i32>,
+    artist: Option<&str>,
+    museum: Option<&str>,
+    century: Option<i32>,
+    sort: Option<&str>,
+    seed: Option<&str>,
+) -> Result<dto::ImageListWallResponse, ApiError> {
+    let lang = validation::resolve_locale(language_code)?;
+
+    let limit = limit.clamp(1, 100);
+    let offset = offset.max(0);
+
+    let sort = match sort {
+        Some("title") => "title",
+        Some("artist") => "artist",
+        Some("century_asc") => "century_asc",
+        Some("century_desc") => "century_desc",
+        _ => "default",
+    };
+
+    let seed = seed.unwrap_or("");
+
+    let total =
+        repo::count_wall_images(pool, lang, q, saint_id, artist, museum, century).await? as i32;
+
+    let data = repo::list_wall_images(
+        pool,
+        &repo::ImageListParams {
+            limit,
+            offset,
+            language_code: lang,
+            q,
+            saint_id,
+            artist,
+            museum,
+            century,
+            sort: Some(sort),
+            seed: Some(seed),
+        },
+    )
+    .await?;
+
+    let loaded = offset + data.len() as i32;
+    let has_more = loaded < total;
+
+    Ok(dto::ImageListWallResponse {
+        data,
+        total,
+        has_more,
+    })
+}

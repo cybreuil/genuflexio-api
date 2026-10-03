@@ -31,3 +31,25 @@ pub async fn list_all_images(
     let result = service::list_all_images(pool.get_ref(), query.language_code.as_deref()).await?;
     Ok(HttpResponse::Ok().json(result))
 }
+
+pub async fn list_wall_images(
+    pool: web::Data<PgPool>,
+    query: web::Query<dto::ImagesListWallQuery>,
+) -> Result<HttpResponse, ApiError> {
+    let result = service::list_wall_images(
+        pool.get_ref(),
+        query.limit.unwrap_or(40),
+        query.offset.unwrap_or(0),
+        query.language_code.as_deref(),
+        query.q.as_deref(),
+        query.saint_id,
+        query.artist.as_deref(),
+        query.museum.as_deref(),
+        query.century,
+        query.sort.as_deref(),
+        query.seed.as_deref(),
+    )
+    .await?;
+
+    Ok(HttpResponse::Ok().json(result))
+}
