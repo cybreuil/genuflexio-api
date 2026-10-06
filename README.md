@@ -1,4 +1,4 @@
-# Saints API – Rust
+# Genuflexio API – Rust
 
 A professional, fully async RESTful API for Catholic saints, feasts, and liturgical calendars, built with **Rust + Actix-Web + PostgreSQL (sqlx)**.
 
@@ -47,12 +47,12 @@ cargo run
 
 ## Environment Variables
 
-| Variable       | Required | Default | Description                        |
-|----------------|----------|---------|------------------------------------|
-| `DATABASE_URL` | ✅       | –       | PostgreSQL connection string        |
-| `JWT_SECRET`   | ✅       | –       | Secret key for JWT signing          |
-| `API_PORT`     | ❌       | `8080`  | Port the HTTP server listens on     |
-| `RUST_LOG`     | ❌       | –       | Log level (e.g. `info`, `debug`)    |
+| Variable       | Required | Default | Description                      |
+| -------------- | -------- | ------- | -------------------------------- |
+| `DATABASE_URL` | ✅       | –       | PostgreSQL connection string     |
+| `JWT_SECRET`   | ✅       | –       | Secret key for JWT signing       |
+| `API_PORT`     | ❌       | `8080`  | Port the HTTP server listens on  |
+| `RUST_LOG`     | ❌       | –       | Log level (e.g. `info`, `debug`) |
 
 ---
 
@@ -60,14 +60,14 @@ cargo run
 
 ### Health
 
-| Method | Path      | Auth | Description              |
-|--------|-----------|------|--------------------------|
-| GET    | `/health` | –    | Service + DB liveness     |
+| Method | Path      | Auth | Description           |
+| ------ | --------- | ---- | --------------------- |
+| GET    | `/health` | –    | Service + DB liveness |
 
 ### Saints `/saints`
 
-| Method | Path                  | Auth | Description                        |
-|--------|-----------------------|------|------------------------------------|
+| Method | Path                  | Auth | Description                         |
+| ------ | --------------------- | ---- | ----------------------------------- |
 | GET    | `/saints`             | –    | List (paginated, optional `locale`) |
 | GET    | `/saints/{id}`        | –    | Get by ID (optional `locale`)       |
 | GET    | `/saints/slug/{slug}` | –    | Get by slug                         |
@@ -77,33 +77,33 @@ cargo run
 
 ### Feasts `/feasts`
 
-| Method | Path                        | Auth | Description                        |
-|--------|-----------------------------|------|------------------------------------|
-| GET    | `/feasts`                   | –    | List (paginated, `feast_type`)      |
-| GET    | `/feasts/{id}`              | –    | Get by ID (optional `locale`)       |
-| GET    | `/feasts/slug/{slug}`       | –    | Get by slug                         |
-| GET    | `/feasts/date/{month}/{day}`| –    | Fixed-date feasts for a given day   |
-| POST   | `/feasts`                   | JWT  | Create feast                        |
-| PUT    | `/feasts/{id}`              | JWT  | Update feast                        |
-| DELETE | `/feasts/{id}`              | JWT  | Delete feast                        |
+| Method | Path                         | Auth | Description                       |
+| ------ | ---------------------------- | ---- | --------------------------------- |
+| GET    | `/feasts`                    | –    | List (paginated, `feast_type`)    |
+| GET    | `/feasts/{id}`               | –    | Get by ID (optional `locale`)     |
+| GET    | `/feasts/slug/{slug}`        | –    | Get by slug                       |
+| GET    | `/feasts/date/{month}/{day}` | –    | Fixed-date feasts for a given day |
+| POST   | `/feasts`                    | JWT  | Create feast                      |
+| PUT    | `/feasts/{id}`               | JWT  | Update feast                      |
+| DELETE | `/feasts/{id}`               | JWT  | Delete feast                      |
 
 ### Calendars `/calendars`
 
-| Method | Path                             | Auth | Description                         |
-|--------|----------------------------------|------|-------------------------------------|
-| GET    | `/calendars`                     | –    | List (optional `is_active` filter)   |
-| GET    | `/calendars/{id}`                | –    | Get with liturgical ranks            |
-| GET    | `/calendars/{id}/celebrations`   | –    | Celebrations for a calendar          |
-| POST   | `/calendars`                     | JWT  | Create calendar                      |
-| PUT    | `/calendars/{id}`                | JWT  | Update calendar                      |
-| DELETE | `/calendars/{id}`                | JWT  | Delete calendar                      |
+| Method | Path                           | Auth | Description                        |
+| ------ | ------------------------------ | ---- | ---------------------------------- |
+| GET    | `/calendars`                   | –    | List (optional `is_active` filter) |
+| GET    | `/calendars/{id}`              | –    | Get with liturgical ranks          |
+| GET    | `/calendars/{id}/celebrations` | –    | Celebrations for a calendar        |
+| POST   | `/calendars`                   | JWT  | Create calendar                    |
+| PUT    | `/calendars/{id}`              | JWT  | Update calendar                    |
+| DELETE | `/calendars/{id}`              | JWT  | Delete calendar                    |
 
 ### Celebrations `/celebrations`
 
-| Method | Path                  | Auth | Description                               |
-|--------|-----------------------|------|-------------------------------------------|
-| GET    | `/celebrations`       | –    | List (filter by `calendar_id`, `feast_id`)|
-| GET    | `/celebrations/{id}`  | –    | Detail with feast, calendar, rank, color   |
+| Method | Path                 | Auth | Description                                |
+| ------ | -------------------- | ---- | ------------------------------------------ |
+| GET    | `/celebrations`      | –    | List (filter by `calendar_id`, `feast_id`) |
+| GET    | `/celebrations/{id}` | –    | Detail with feast, calendar, rank, color   |
 
 ---
 
@@ -148,4 +148,3 @@ src/
 data/
 └── createTables.sql     # Full PostgreSQL schema + seed data
 ```
-
