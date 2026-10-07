@@ -63,7 +63,7 @@ REPORT="conversion_report.csv"
 echo "input,orig_kb,size,quality,out_kb,wrote,note" > "$REPORT"
 
 shopt -s globstar nullglob
-EXTS=(jpg jpeg png tiff bmp webp JPG JPEG PNG TIFF BMP)
+EXTS=(jpg jpeg png tiff bmp webp JPG JPEG PNG TIFF BMP gif GIF)
 for ext in "${EXTS[@]}"; do
   for srcfile in "$SRC"/**/*."$ext"; do
     # guard
