@@ -10,9 +10,10 @@ set -euo pipefail
 # --quality=95     (quality for webp master; smaller variants get smaller quality automatically)
 # --min-kb=0       (skip files <= this KB)
 # --dry=true       (dry run default)
+# IMPORTANT TURN FORCE TRUE FOR ALL CONVERSION
 # --force=false    (force writing even if webp larger than original)
 # Example real run:
-# ./scripts/convert_images_native.sh --src public/saints-pic --out public/saints-pic-webp --dry=false
+# ./scripts/convert_images_native.sh --src public/saints-pic --out public/saints-pic-webp --dry=false --force=true
 
 # Parse args (simple)
 for arg in "$@"; do
