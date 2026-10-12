@@ -596,7 +596,7 @@ INSERT INTO images (
 
 -- Saint Maria Goretti
 ('/saints/saint-maria-goretti_soffredini.webp', 'Saint Maria Goretti', 'painting', 'Saint Maria Goretti Painting', 'Giuseppe Brovelli Soffredini', '20th Century', 20, NULL, NULL, 'Public Domain', NULL),
-('/saints/saint-maria-goretti_2.webp', 'Saint Maria Goretti', 'painting', 'Saint Maria Goretti Painting', NULL, '20th Century', 20, NULL, NULL, 'Public Domain', NULL),
+('/saints/saint-maria-goretti.webp', 'Saint Maria Goretti', 'painting', 'Saint Maria Goretti Painting', NULL, '20th Century', 20, NULL, NULL, 'Public Domain', NULL),
 
 -- Saint Augustine Zhao Rong and Companions
 ('/saints/saint-augustine-zhao-rong_icon.webp', 'Saint Augustine Zhao Rong', 'icon', 'Saint Augustine Zhao Rong Icon', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
@@ -616,7 +616,7 @@ INSERT INTO images (
 -- Saint Henry
 ('/saints/saint-henry_baer.webp', 'Saint Henry', 'painting', 'Saint Henry Painting', 'Hans Baer', '1611', 17, 'Archdiocese of Freiburg', NULL, 'Public Domain', NULL),
 ('/saints/saint-henry.webp', 'Saint Henry', 'illustration', 'Saint Henry Illustration', NULL, '11th Century', 11, 'Regensburg Sacramentary (Bavarian State Library)', NULL, 'Public Domain', NULL),
-('/saints/saint-henry_fuhricht.webp', 'Saint Henry', 'illustration', 'Saint Henry Drawing', 'Joseph von Führich', '19th Century', 19, NULL, NULL, 'Public Domain', NULL),
+('/saints/saint-henry_fuhrich.webp', 'Saint Henry', 'illustration', 'Saint Henry Drawing', 'Joseph von Führich', '19th Century', 19, NULL, NULL, 'Public Domain', NULL),
 ('/saints/saint-henry_2.webp', 'Saint Henry', 'illustration', 'Saint Henry Illustration', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 
 -- Saint Camillus de Lellis
@@ -933,7 +933,7 @@ INSERT INTO images (
 ('/saints/saint-hildegard-of-bingen.webp', 'Saint Hildegard von Bingen receives a divine inspiration and passes it on to her scribe', 'illumination', 'Saint Hildegard von Bingen receives a divine inspiration and passes it on to her scribe Illumination', NULL, '1151', 12, 'Rupertsberg Codex of Liber Scivias', NULL, 'Public Domain', NULL),
 ('/saints/saint-hildegard-of-bingen_2.webp', 'Saint Hildegard of Bingen', 'fresco', 'Saint Hildegard of Bingen Fresco', NULL, NULL, NULL, 'Eibingen Abbey', NULL, 'Public Domain', NULL),
 ('/saints/saint-hildegard-of-bingen_3.webp', 'Saint Hildegard of Bingen', 'painting', 'Saint Hildegard of Bingen Painting', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
-('/saints/saint-hildegard-of-bingen_casparo.webp', 'The Vision of the Church of Saint Hildegard von Bingen', 'painting', 'The Vision of the Church of Saint Hildegard von Bingen Painting', 'Giovanni Gasparro', '2014-2018', 21, NULL, NULL, 'Public Domain', NULL),
+('/saints/saint-hildegard-of-bingen_gasparro.webp', 'The Vision of the Church of Saint Hildegard von Bingen', 'painting', 'The Vision of the Church of Saint Hildegard von Bingen Painting', 'Giovanni Gasparro', '2014-2018', 21, NULL, NULL, 'Public Domain', NULL),
 
 -- Saint Januarius
 ('/saints/saint-januarius_caravaggio.webp', 'Saint Januarius', 'painting', 'Saint Januarius Painting', 'Louis Finson', '1610-1612', 17, 'Palmer Museum of Art', NULL, 'Public Domain', NULL),
@@ -1291,7 +1291,7 @@ INSERT INTO images (
 
 -- Saint Lucy
 ('/saints/saint-lucy_zurbaran.webp', 'Saint Lucy', 'painting', 'Saint Lucy Painting', 'Francisco de Zurbarán', '1635-1640', 17, 'National Gallery of Art (Washington, D.C.)', NULL, 'Public Domain', NULL),
-('/saints/saint-lucy_pirez.webp', 'Saint Lucy', 'painting', 'Saint Lucy Painting', 'Álvaro Pires de Évora', '1420', 15, 'Capuchin Convent of Nola', NULL, 'Attribution-ShareAlike 4.0 International', NULL),
+('/saints/saint-lucy_pires.webp', 'Saint Lucy', 'painting', 'Saint Lucy Painting', 'Álvaro Pires de Évora', '1420', 15, 'Capuchin Convent of Nola', NULL, 'Attribution-ShareAlike 4.0 International', NULL),
 ('/saints/saint-lucy_garofalo.webp', 'Saint Lucy', 'painting', 'Saint Lucy Painting', 'Il Garofalo', '1535-1540', 16, 'Capitoline Museums (Rome)', NULL, 'Public Domain', NULL),
 ('/saints/saint-lucy_ricci.webp', 'Last Communion and Martyrdom of Saint Lucy', 'painting', 'Last Communion and Martyrdom of Saint Lucy Painting', 'Sebastiano Ricci', '1730', 18, 'Santa Lucia Church (Parma)', NULL, 'Public Domain', NULL),
 ('/saints/saint-lucy_caravaggio.webp', 'The Burial of Saint Lucy', 'painting', 'The Burial of Saint Lucy Painting', 'Caravaggio', '1608', 17, 'Santa Lucia al Sepolcro Church (Syracuse)', NULL, 'Public Domain', NULL),
