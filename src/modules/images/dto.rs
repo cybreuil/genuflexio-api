@@ -1,5 +1,5 @@
 use serde::{Deserialize, Serialize};
-use sqlx::FromRow;
+use sqlx::types::Json;
 
 #[derive(Debug, Deserialize)]
 pub struct ImagesListQuery {
@@ -10,10 +10,15 @@ pub struct ImagesListQuery {
     pub sort: Option<String>, // e.g., "name_asc", "name_desc", "created_at_asc", "created_at_desc"
 }
 
-#[derive(Debug, Serialize, FromRow)]
+#[derive(Debug, Serialize, Deserialize)]
+pub struct ImageSaint {
+    pub id: i32,
+    pub name: Option<String>,
+    pub slug: String,
+}
+#[derive(Debug, Serialize)]
 pub struct SaintImageDetailed {
     pub id: i32,
-    pub saint_id: i32,
     pub image_url: String,
     pub title: String,
     pub image_type: Option<String>,
@@ -28,11 +33,9 @@ pub struct SaintImageDetailed {
     pub source_url: Option<String>,
     // pub sort_order: i16,
     // pub is_primary: bool,
-    pub saint_name: Option<String>, // The name of the saint associated with the image
-    pub saint_slug: Option<String>, // The slug of the saint associated with the image
-    // We should maybe seed century quickly
     pub width: Option<i16>,
     pub height: Option<i16>,
+    pub saints: Json<Vec<ImageSaint>>,
 }
 
 #[derive(Debug, Deserialize)]
