@@ -267,6 +267,10 @@ CREATE TABLE images (
     license TEXT,
     source_url TEXT,
 
+    -- We need width & height for masonry pinterest
+    width INTEGER,
+    height INTEGER,
+
     created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 

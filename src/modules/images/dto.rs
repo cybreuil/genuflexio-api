@@ -30,7 +30,9 @@ pub struct SaintImageDetailed {
     // pub is_primary: bool,
     pub saint_name: Option<String>, // The name of the saint associated with the image
     pub saint_slug: Option<String>, // The slug of the saint associated with the image
-                                    // We should maybe seed century quickly
+    // We should maybe seed century quickly
+    pub width: Option<i32>,
+    pub height: Option<i32>,
 }
 
 #[derive(Debug, Deserialize)]

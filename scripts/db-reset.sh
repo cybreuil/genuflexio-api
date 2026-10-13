@@ -56,6 +56,9 @@ echo "✅ Roman saint biographies seeded."
 run_sql "$ROOT_DIR/data/seeds/Roman_General/seedRomanImages.sql"
 echo "✅ Roman images seeded."
 
+run_sql "$ROOT_DIR/data/seeds/Roman_General/updateRomanImageDimensions.sql"
+echo "✅ Roman image dimensions added."
+
 run_sql "$ROOT_DIR/data/seeds/Roman_General/seedRomanSaintImages.sql"
 echo "✅ Roman saint images seeded."
 

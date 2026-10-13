@@ -27,6 +27,8 @@ pub async fn list_images(
             i.credit,
             i.license,
             i.source_url,
+            i.width,
+            i.height,
             s.id AS saint_id,
             s.slug AS saint_slug,
             st.name AS saint_name
@@ -122,6 +124,8 @@ pub async fn list_all_images(
 			i.credit,
 			i.license,
 			i.source_url,
+			i.width,
+			i.height,
 			s.id AS saint_id,
 			s.slug AS saint_slug,
 			st.name AS saint_name
@@ -175,6 +179,8 @@ pub async fn list_wall_images(
             i.credit,
             i.license,
             i.source_url,
+            i.width,
+            i.height,
             s.id AS saint_id,
             s.slug AS saint_slug,
             st.name AS saint_name
