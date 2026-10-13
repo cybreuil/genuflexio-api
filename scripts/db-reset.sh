@@ -102,6 +102,9 @@ echo "✅ Roman France Feast Saints links seeded."
 run_sql "$ROOT_DIR/data/seeds/Roman_France/seedRomanFranceImages.sql"
 echo "✅ Roman France images seeded."
 
+run_sql "$ROOT_DIR/data/seeds/Roman_France/updateRomanFranceImageDimensions.sql"
+echo "✅ Roman France image dimensions added."
+
 run_sql "$ROOT_DIR/data/seeds/Roman_France/seedRomanFranceSaintImages.sql"
 echo "✅ Roman France saint images seeded."
 

@@ -1,0 +1,41 @@
+-- Dimensions extraites depuis le seed : ./data/seeds/Roman_France/seedRomanFranceImages.sql
+-- Vérifier les chemins avant exécution.
+BEGIN;
+
+UPDATE images SET width = 1240, height = 1600 WHERE image_url = '/saints/fr/saint-bernadette-soubirous_2.webp';
+UPDATE images SET width = 1406, height = 1536 WHERE image_url = '/saints/fr/saint-bernadette-soubirous_3.webp';
+UPDATE images SET width = 1067, height = 1600 WHERE image_url = '/saints/fr/saint-bernadette-soubirous.webp';
+UPDATE images SET width = 582, height = 800 WHERE image_url = '/saints/fr/saint-blandina_bayard.webp';
+UPDATE images SET width = 278, height = 353 WHERE image_url = '/saints/fr/saint-blandina_guillemet.webp';
+UPDATE images SET width = 573, height = 1600 WHERE image_url = '/saints/fr/saint-blandina_stained-glass.webp';
+UPDATE images SET width = 640, height = 890 WHERE image_url = '/saints/fr/saint-caesarius-of-arles_icon.webp';
+UPDATE images SET width = 278, height = 600 WHERE image_url = '/saints/fr/saint-clotilde_deveria.webp';
+UPDATE images SET width = 847, height = 1406 WHERE image_url = '/saints/fr/saint-clotilde_loo.webp';
+UPDATE images SET width = 1180, height = 1500 WHERE image_url = '/saints/fr/saint-clotilde.webp';
+UPDATE images SET width = 662, height = 900 WHERE image_url = '/saints/fr/saint-genevieve_delauney.webp';
+UPDATE images SET width = 1276, height = 1600 WHERE image_url = '/saints/fr/saint-genevieve_gustafson.webp';
+UPDATE images SET width = 650, height = 846 WHERE image_url = '/saints/fr/saint-genevieve_laurens.webp';
+UPDATE images SET width = 950, height = 1380 WHERE image_url = '/saints/fr/saint-genevieve_le-brun.webp';
+UPDATE images SET width = 1600, height = 1178 WHERE image_url = '/saints/fr/saint-genevieve.webp';
+UPDATE images SET width = 354, height = 480 WHERE image_url = '/saints/fr/saint-ivo-of-kermartin_empoli.webp';
+UPDATE images SET width = 1407, height = 1600 WHERE image_url = '/saints/fr/saint-ivo-of-kermartin_jordaens.webp';
+UPDATE images SET width = 1255, height = 1600 WHERE image_url = '/saints/fr/saint-ivo-of-kermartin_weyden.webp';
+UPDATE images SET width = 1125, height = 1600 WHERE image_url = '/saints/fr/saint-joan-of-arc_benouville.webp';
+UPDATE images SET width = 1142, height = 1476 WHERE image_url = '/saints/fr/saint-joan-of-arc_gasparo.webp';
+UPDATE images SET width = 998, height = 1260 WHERE image_url = '/saints/fr/saint-joan-of-arc_hillingford.webp';
+UPDATE images SET width = 1178, height = 1600 WHERE image_url = '/saints/fr/saint-joan-of-arc_lenepveu_2.webp';
+UPDATE images SET width = 1172, height = 1600 WHERE image_url = '/saints/fr/saint-joan-of-arc_lenepveu_3.webp';
+UPDATE images SET width = 915, height = 1523 WHERE image_url = '/saints/fr/saint-joan-of-arc_lenepveu_4.webp';
+UPDATE images SET width = 552, height = 768 WHERE image_url = '/saints/fr/saint-joan-of-arc_lenepveu.webp';
+UPDATE images SET width = 770, height = 1062 WHERE image_url = '/saints/fr/saint-joan-of-arc_lynch.webp';
+UPDATE images SET width = 1218, height = 1600 WHERE image_url = '/saints/fr/saint-joan-of-arc_millais.webp';
+UPDATE images SET width = 802, height = 1060 WHERE image_url = '/saints/fr/saint-joan-of-arc_scherrer.webp';
+UPDATE images SET width = 1118, height = 1600 WHERE image_url = '/saints/fr/saint-joan-of-arc_stilke_2.webp';
+UPDATE images SET width = 1113, height = 1600 WHERE image_url = '/saints/fr/saint-joan-of-arc_stilke.webp';
+UPDATE images SET width = 907, height = 1280 WHERE image_url = '/saints/fr/saint-joan-of-arc_thirion.webp';
+UPDATE images SET width = 873, height = 1600 WHERE image_url = '/saints/fr/saint-pothinus_stained-glass.webp';
+UPDATE images SET width = 798, height = 1260 WHERE image_url = '/saints/fr/saint-pothinus.webp';
+UPDATE images SET width = 1188, height = 1600 WHERE image_url = '/saints/fr/saint-remigius_clovis.webp';
+UPDATE images SET width = 1024, height = 968 WHERE image_url = '/saints/fr/saint-remigius.webp';
+UPDATE images SET width = 949, height = 1600 WHERE image_url = '/saints/fr/saint-remigius_wine.webp';
+COMMIT;
