@@ -145,6 +145,9 @@ echo "✅ Roman Portugal Feast Saints links seeded."
 run_sql "$ROOT_DIR/data/seeds/Roman_Portugal/seedRomanPortugalImages.sql"
 echo "✅ Roman Portugal images seeded."
 
+run_sql "$ROOT_DIR/data/seeds/Roman_Portugal/updateRomanPortugalImageDimensions.sql"
+echo "✅ Roman Portugal image dimensions added."
+
 run_sql "$ROOT_DIR/data/seeds/Roman_Portugal/seedRomanPortugalSaintImages.sql"
 echo "✅ Roman Portugal saint images seeded."
 
