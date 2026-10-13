@@ -260,7 +260,7 @@ CREATE TABLE images (
 
     creator TEXT,                   -- peintre, photographe, graveur, atelier, etc.
     date_label TEXT,                -- ex: "XVIIe siècle", "vers 1500", "1610-1612"
-    century INTEGER CHECK (century > 0),	-- ex: 17 pour XVIIe siècle
+    century SMALLINT CHECK (century > 0),	-- ex: 17 pour XVIIe siècle
     repository TEXT,                -- lieu de conservation : musée, église, collection privée, bibliothèque...
 
     credit TEXT,
@@ -268,8 +268,8 @@ CREATE TABLE images (
     source_url TEXT,
 
     -- We need width & height for masonry pinterest
-    width INTEGER,
-    height INTEGER,
+    width SMALLINT CHECK (width >0),
+    height SMALLINT CHECK (height >0),
 
     created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );

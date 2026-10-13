@@ -21,7 +21,7 @@ pub struct SaintImageDetailed {
     pub caption: Option<String>,  // COALESCE(si.caption_override, i.caption)
     pub creator: Option<String>,
     pub date_label: Option<String>,
-    // pub century: Option<i16>, only used for query
+    pub century: Option<i16>, // Only used for century, but added it back for facets
     pub repository: Option<String>,
     pub credit: Option<String>,
     pub license: Option<String>,
@@ -31,8 +31,8 @@ pub struct SaintImageDetailed {
     pub saint_name: Option<String>, // The name of the saint associated with the image
     pub saint_slug: Option<String>, // The slug of the saint associated with the image
     // We should maybe seed century quickly
-    pub width: Option<i32>,
-    pub height: Option<i32>,
+    pub width: Option<i16>,
+    pub height: Option<i16>,
 }
 
 #[derive(Debug, Deserialize)]
