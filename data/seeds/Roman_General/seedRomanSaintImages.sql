@@ -752,7 +752,7 @@ JOIN (
 ('saint-lawrence', '/saints/saint-lawrence_champaigne_martyr.webp', 3, FALSE, 'subject'),
 ('saint-lawrence', '/saints/saint-lawrence_limosin.webp', 4, FALSE, 'subject'),
 ('saint-lawrence', '/saints/saint-lawrence_cali.webp', 5, FALSE, 'subject'),
-('saint-lawrence', '/saints/saint-lawrence_titan_martyr.webp', 6, FALSE, 'subject'),
+('saint-lawrence', '/saints/saint-lawrence_titian_martyr.webp', 6, FALSE, 'subject'),
 ('saint-lawrence', '/saints/saint-lawrence_strozzi.webp', 7, FALSE, 'subject'),
 
 -- Saint Clare
