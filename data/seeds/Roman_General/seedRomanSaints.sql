@@ -1756,7 +1756,7 @@ JOIN (VALUES
 ('saint-mary-magdalene', 'Saint Mary Magdalene', NULL, NULL, '1st century'),
 ('saint-bridget', 'Saint Bridget of Sweden', NULL, NULL, '1303–1373'),
 ('saint-sharbel-makhluf', 'Saint Sharbel Makhluf', NULL, NULL, '1828–1898'),
-('saint-james-apostle', 'Saint James the Greater', NULL, NULL, '1st century'),
+('saint-james-apostle', 'Saint James the Greater, Apostle', NULL, NULL, '1st century'),
 (
   'saint-joachim',
   'Saint Joachim',
@@ -1804,7 +1804,7 @@ JOIN (VALUES
 ('saint-mary-magdalene', 'Sainte Marie-Madeleine', NULL, NULL, 'Ier siècle'),
 ('saint-bridget', 'Sainte Brigitte de Suède', NULL, NULL, '1303–1373'),
 ('saint-sharbel-makhluf', 'Saint Charbel Makhlouf', NULL, NULL, '1828–1898'),
-('saint-james-apostle', 'Saint Jacques le Majeur', NULL, NULL, 'Ier siècle'),
+('saint-james-apostle', 'Saint Jacques le Majeur, apôtre', NULL, NULL, 'Ier siècle'),
 (
   'saint-joachim',
   'Saint Joachim',
@@ -1852,7 +1852,7 @@ JOIN (VALUES
 ('saint-mary-magdalene', 'Sancta Maria Magdalena', NULL, NULL, 'saec. I'),
 ('saint-bridget', 'Sancta Brigitta Suecica', NULL, NULL, '1303–1373'),
 ('saint-sharbel-makhluf', 'Sanctus Sharbel Makhluf', NULL, NULL, '1828–1898'),
-('saint-james-apostle', 'Sanctus Jacobus Maior', NULL, NULL, 'saec. I'),
+('saint-james-apostle', 'Sanctus Jacobus Maior Apostolus', NULL, NULL, 'saec. I'),
 (
   'saint-joachim',
   'Sanctus Ioachim',
