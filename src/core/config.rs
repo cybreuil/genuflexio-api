@@ -3,6 +3,7 @@ use std::env;
 #[derive(Debug, Clone)]
 pub struct Config {
     pub database_url: String,
+    pub frontend_url: String,
     pub bind_address: std::net::IpAddr,
     pub port: u16,
     pub jwt_secret: String,
@@ -14,6 +15,8 @@ pub struct Config {
 impl Config {
     pub fn from_env() -> Self {
         let database_url = env::var("DATABASE_URL").expect("DATABASE_URL must be set");
+
+        let frontend_url = env::var("FRONTEND_URL").expect("FRONTEND_URL must be set");
 
         let bind_address = env::var("BIND_ADDRESS")
             .unwrap_or_else(|_| "127.0.0.1".to_string())
@@ -43,6 +46,7 @@ impl Config {
 
         Self {
             database_url,
+            frontend_url,
             bind_address,
             port,
             jwt_secret,
