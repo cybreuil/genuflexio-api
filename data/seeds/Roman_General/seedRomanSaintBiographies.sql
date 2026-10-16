@@ -17,639 +17,189 @@ JOIN (VALUES
 		'en',
 		'Saint Mary, also known as the Virgin Mary, is the mother of Jesus Christ and one of the central figures of Christian faith. Honoured by Catholics as the Mother of God and the Mother of the Church, she is remembered for her humility, faith and complete trust in God.',
   $desc$
-  ## Saint Mary
+  Saint Mary, also known as the Virgin Mary, the Blessed Virgin and Our Lady, holds a unique place in the Christian faith as the Mother of Jesus Christ, the Son of God and Saviour of the world. Chosen by God for the mystery of the Incarnation, she became a model of **faith, humility and obedience**. Throughout her life, Mary remained devoted to God, accepting His will with trust and following her Son through both joy and suffering.
 
-  Saint Mary, also known as the Virgin Mary, the Blessed Virgin, Our Lady and the Mother of God, holds a unique place in Christian faith. She was chosen by God to become the mother of Jesus Christ, the Son of God and Saviour of the world. Throughout the Gospel, Mary appears as a woman of deep faith, humility and prayer, whose entire life was turned towards God and towards her Son.
+  ### The Annunciation and the Birth of Jesus
 
-  ## A humble young woman of Nazareth
+  Mary lived in Nazareth and was betrothed to Joseph, a descendant of the house of David. Her life changed when the Angel Gabriel announced that she would conceive and give birth to Jesus, the Son of the Most High. With humility and faith, she answered: *“Behold, I am the handmaid of the Lord; let it be to me according to your word.”* Through her consent, Mary accepted the extraordinary mission of becoming the Mother of the Saviour.
 
-  Mary lived in Nazareth, in Galilee, and was betrothed to Joseph, a man of the house of David. The Gospels give few details about her childhood, but they present her as a young woman living an apparently ordinary life when God called her to an extraordinary vocation.
+  After the Annunciation, Mary visited her relative Elizabeth and proclaimed the *Magnificat*, a hymn of praise celebrating God's mercy and faithfulness. She later gave birth to Jesus in Bethlehem, where He was laid in a manger. Throughout these events, Mary treasured God's works in her heart, contemplating their meaning in silence and prayer.
 
-  The Gospel according to Saint Luke tells how the angel Gabriel was sent to Mary with a message from God. She was told that she would conceive and give birth to Jesus, who would be called the Son of the Most High.
+  ### Mary, Mother and Disciple of Christ
 
-  Mary received this announcement with faith. Although she did not understand everything that was going to happen, she placed herself entirely in God's hands and answered: "Behold, I am the handmaid of the Lord; let it be to me according to your word."
+  Mary accompanied Jesus throughout His childhood and remained attentive to His mission. At the wedding feast of Cana, when the wine ran out, she brought the need before her Son and told the servants: *“Do whatever he tells you.”* These words express the heart of Marian devotion: Mary always leads the faithful towards Christ and encourages them to trust in His word.
 
-  This humble response became one of the great moments of salvation history. Through her "yes" to God, Mary accepted the mission entrusted to her and became the mother of the Saviour.
+  Her faith was tested most profoundly during the Passion. Mary remained near Jesus as He suffered and died upon the Cross, sharing in His sorrow with a mother's love and unwavering fidelity. According to the Gospel of Saint John, Jesus entrusted His mother to the beloved disciple, saying: *“Behold, your mother.”* In Catholic tradition, this moment also expresses Mary's spiritual motherhood towards the disciples of Christ.
 
-  ## The Virgin Mary and the birth of Jesus
+  ### Mary and the Early Church
 
-  After the Annunciation, Mary went to visit her relative Elizabeth, who was expecting John the Baptist. When Elizabeth greeted her, Mary proclaimed the Magnificat, a beautiful hymn of praise to God.
+  After the Resurrection and Ascension of Jesus, Mary remained with the apostles, united with them in prayer as they awaited the coming of the Holy Spirit. Her presence among the first disciples reveals her enduring devotion to Christ and His Church. For Catholics, she is honoured as the **Mother of the Church** and as an example of prayer, perseverance and faithfulness.
 
-  "My soul magnifies the Lord, and my spirit rejoices in God my Saviour."
+  ### The Blessed Virgin and Her Place in Heaven
 
-  The Magnificat reveals Mary's humility. She does not place herself at the centre, but gives glory to God for the great things He has accomplished. She recognizes herself as His humble servant and rejoices in His mercy and faithfulness.
+  The Catholic Church honours Mary under many titles, including *Mother of God*, *Queen of Heaven* and *Mother of Mercy*. The title *Theotokos*, meaning “Mother of God”, expresses the belief that Jesus Christ, whom she bore, is truly the Son of God, both divine and human. The Church also teaches the **Immaculate Conception**, according to which Mary was preserved from original sin from the first moment of her conception, and the **Assumption**, which proclaims that she was taken up body and soul into heavenly glory at the end of her earthly life.
 
-  Mary later gave birth to Jesus in Bethlehem. The circumstances were humble: the Saviour of the world was laid in a manger, and shepherds were among the first to receive the news of His birth.
+  Through the Rosary, the Hail Mary and many other prayers, Catholics seek Mary's intercession and look to her as a model of holiness. Her veneration does not replace the worship owed to God; rather, authentic Marian devotion always leads towards Christ.
 
-  The Gospel tells us that Mary treasured these events and pondered them in her heart. This attitude of silent contemplation would remain characteristic of her life. She welcomed the mysteries of God with faith even when she could not yet fully understand them.
+  ### A Life of Faith and Love
 
-  ## Mary, the Mother of Jesus
-
-  Mary accompanied Jesus throughout the hidden years of His childhood and youth. The Gospels show her as a loving mother who watched over Him while allowing God's plan to unfold.
-
-  At the wedding feast of Cana, Mary appears again in a particularly significant moment. When the wine runs out, she brings the need before Jesus and then tells the servants: "Do whatever he tells you."
-
-  These words beautifully express Mary's role in Christian spirituality. She points beyond herself towards Christ. She invites believers to trust Him and to follow His word.
-
-  At Cana, Jesus performs His first sign by changing water into wine. Mary's presence at this event has therefore always been deeply meaningful to Christians. She is seen as a mother attentive to human needs and as one who leads her children towards her Son.
-
-  ## Mary at the foot of the Cross
-
-  Mary's faith was tested most profoundly during the Passion of Christ. She followed Jesus to Jerusalem and remained near Him as He suffered and died upon the Cross.
-
-  The Gospel according to Saint John describes Mary standing near the Cross with the beloved disciple. In the midst of His suffering, Jesus entrusted His mother to the disciple and the disciple to His mother.
-
-  For the Catholic Church, this scene has a profound spiritual meaning. Mary is not only the mother of Jesus according to the flesh; she is also received as a mother by Christ's disciples.
-
-  Her presence at Calvary reveals the depth of her love and fidelity. She could not remove her Son's suffering, but she remained beside Him. Her silent presence became a testimony of faith in the darkest hour.
-
-  ## Mary and the first Christians
-
-  After the Resurrection and Ascension of Jesus, Mary remained with the apostles. The Acts of the Apostles mentions her among the disciples gathered in prayer as they awaited the coming of the Holy Spirit.
-
-  Her presence among the first Christians is significant. The woman who had welcomed Christ into the world remained with His disciples as the Church began its mission.
-
-  For Catholics, Mary therefore has a particular maternal relationship with the Church. She is honoured as the Mother of the Church and as a model of prayer, faith and perseverance.
-
-  ## Our Lady, Mother of God
-
-  The title "Mother of God", or *Theotokos*, is one of the most important titles given to Mary by the Catholic Church. It does not mean that Mary existed before God or that she gave Jesus His divine nature. Rather, it expresses the Christian belief that the child she bore is truly Jesus Christ, the Son of God, both fully divine and fully human.
-
-  Over the centuries, Christians have also called her the Blessed Virgin Mary, Our Lady, Queen of Heaven and many other titles. These names express different aspects of the Church's devotion to her.
-
-  Whether she is called Saint Mary, the Virgin Mary, Our Lady or the Blessed Mother, the Christian understanding remains centred on the same mystery: Mary received an extraordinary grace from God and freely cooperated with His plan.
-
-  ## A mother for the faithful
-
-  Catholics turn to Mary in prayer and ask for her intercession. The Hail Mary, the Rosary and many Marian prayers have become an important part of Catholic spiritual life.
-
-  To honour Mary is not to place her above God. On the contrary, authentic Marian devotion always leads the believer towards Christ. Mary herself is the one who says: "Do whatever he tells you."
-
-  She is therefore regarded as a model for every Christian. Her life teaches believers to listen to God's word, to trust Him in times of uncertainty, to remain faithful in suffering and to welcome His will with humility.
-
-  ## The Assumption and Mary's place in Heaven
-
-  The Catholic Church teaches that Mary, by a singular grace of God, was preserved from original sin from the first moment of her conception. This belief is known as the Immaculate Conception.
-
-  The Church also teaches that, at the end of her earthly life, Mary was assumed body and soul into heavenly glory. The Assumption expresses the Christian hope of resurrection and eternal life and presents Mary as a sign of the destiny promised to those who belong to Christ.
-
-  In Heaven, Mary continues to be honoured as Queen and Mother. Catholics entrust themselves to her maternal intercession, confident that she always directs them towards her Son.
-
-  ## A life of faith and love
-
-  The life of Saint Mary can be understood through one simple word: **yes**.
-
-  She said yes when God called her at the Annunciation. She said yes when she welcomed the mystery of the Incarnation. She remained faithful when she stood beneath the Cross. She prayed with the apostles after the Ascension. Throughout her life, she trusted God even when His plan was difficult to understand.
-
-  For this reason, the Virgin Mary remains one of the greatest examples of Christian faith. Her greatness does not come from worldly power or human glory, but from her humility and her complete openness to God's grace.
-
-  She is the humble woman of Nazareth who became the Mother of the Saviour, the Blessed Virgin who stood faithfully beside Christ, and the spiritual mother whom generations of Christians have honoured and loved.
-
-  For Catholics, Mary remains a tender and faithful mother who continually leads her children towards Jesus. Her prayer can be summed up in the words she gave to the servants at Cana: **"Do whatever he tells you."**
+  The life of the Virgin Mary is marked by her humble and unwavering **“yes” to God**. From the Annunciation to the foot of the Cross and her presence among the apostles, she remained faithful even when she could not fully understand the divine plan. Her greatness lies in her humility, her complete trust in God and her enduring love for her Son. For Catholics, Mary remains the Mother of God and a spiritual mother to the faithful, continually inviting them to follow Christ through the words she spoke at Cana: **“Do whatever he tells you.”**
   $desc$
 ),
 (
-	'saint-mary',
-		'fr',
-		'Sainte Marie, également connue sous les noms de Vierge Marie, Sainte Vierge et Notre-Dame, est la mère de Jésus-Christ et l’une des figures centrales de la foi chrétienne. Vénérée par les catholiques comme la Mère de Dieu et la Mère de l’Église, elle est particulièrement honorée pour son humilité, sa foi et sa confiance totale en Dieu.',
-  $desc$
-  ## Sainte Marie
+    'saint-mary',
+    'fr',
+    'Sainte Marie, également connue sous le nom de Vierge Marie, est la mère de Jésus-Christ et l’une des figures centrales de la foi chrétienne. Honorée par les catholiques comme la Mère de Dieu et la Mère de l’Église, elle est célébrée pour son humilité, sa foi et sa confiance absolue en Dieu.',
+$desc$
+Sainte Marie, également connue sous les noms de Vierge Marie, Sainte Vierge et Notre-Dame, occupe une place unique dans la foi chrétienne en tant que Mère de Jésus-Christ, le Fils de Dieu et le Sauveur du monde. Choisie par Dieu pour le mystère de l’Incarnation, elle est devenue un modèle de **foi, d’humilité et d’obéissance**. Tout au long de sa vie, Marie est restée dévouée à Dieu, acceptant sa volonté avec confiance et suivant son Fils dans les moments de joie comme dans les épreuves.
 
-  Sainte Marie, également appelée la Vierge Marie, la Sainte Vierge, Notre-Dame et la Mère de Dieu, occupe une place unique dans la foi chrétienne. Elle fut choisie par Dieu pour devenir la mère de Jésus-Christ, le Fils de Dieu et le Sauveur du monde. Tout au long des Évangiles, Marie apparaît comme une femme de foi profonde, d’humilité et de prière, dont toute l’existence est tournée vers Dieu et vers son Fils.
+### L’Annonciation et la naissance de Jésus
 
-  ## Une humble jeune femme de Nazareth
+Marie vivait à Nazareth et était fiancée à Joseph, descendant de la maison de David. Sa vie changea lorsque l’ange Gabriel lui annonça qu’elle concevrait et mettrait au monde Jésus, le Fils du Très-Haut. Avec humilité et foi, elle répondit : *« Voici la servante du Seigneur ; qu’il me soit fait selon ta parole. »* Par son consentement, Marie accepta l’extraordinaire mission de devenir la Mère du Sauveur.
 
-  Marie vivait à Nazareth, en Galilée, et était fiancée à Joseph, un homme de la maison de David. Les Évangiles donnent peu de détails sur son enfance, mais ils nous présentent une jeune femme menant une vie apparemment ordinaire lorsque Dieu l’appela à une vocation extraordinaire.
+Après l’Annonciation, Marie rendit visite à sa parente Élisabeth et proclama le *Magnificat*, un cantique de louange célébrant la miséricorde et la fidélité de Dieu. Elle donna ensuite naissance à Jésus à Bethléem, où il fut déposé dans une mangeoire. Tout au long de ces événements, Marie gardait dans son cœur les œuvres de Dieu, méditant leur signification dans le silence et la prière.
 
-  L’Évangile selon saint Luc raconte comment l’ange Gabriel fut envoyé auprès de Marie pour lui transmettre un message de la part de Dieu. Il lui annonça qu’elle concevrait et mettrait au monde Jésus, qui serait appelé le Fils du Très-Haut.
+### Marie, Mère et disciple du Christ
 
-  Marie accueillit cette annonce avec foi. Bien qu’elle ne comprît pas tout ce qui allait se produire, elle se remit entièrement entre les mains de Dieu et répondit : « Voici la servante du Seigneur ; que tout m’advienne selon ta parole. »
+Marie accompagna Jésus tout au long de son enfance et resta attentive à sa mission. Lors des noces de Cana, lorsque le vin vint à manquer, elle fit part du problème à son Fils et dit aux serviteurs : *« Faites tout ce qu’il vous dira. »* Ces paroles expriment l’essence de la dévotion mariale : Marie conduit toujours les fidèles vers le Christ et les encourage à faire confiance à sa parole.
 
-  Cette réponse humble devint l’un des grands moments de l’histoire du salut. Par son « oui » à Dieu, Marie accepta la mission qui lui était confiée et devint la mère du Sauveur.
+Sa foi fut mise à l’épreuve de la manière la plus profonde durant la Passion. Marie resta près de Jésus tandis qu’il souffrait et mourait sur la Croix, partageant sa douleur avec l’amour d’une mère et une fidélité inébranlable. Selon l’Évangile de saint Jean, Jésus confia sa mère au disciple bien-aimé en lui disant : *« Voici ta mère. »* Dans la tradition catholique, ce moment exprime également la maternité spirituelle de Marie envers les disciples du Christ.
 
-  ## La Vierge Marie et la naissance de Jésus
+### Marie et l’Église primitive
 
-  Après l’Annonciation, Marie se rendit auprès de sa parente Élisabeth, qui attendait Jean le Baptiste. Lorsque Élisabeth la salua, Marie prononça le Magnificat, un magnifique cantique de louange adressé à Dieu.
+Après la Résurrection et l’Ascension de Jésus, Marie demeura auprès des apôtres, unie à eux dans la prière tandis qu’ils attendaient la venue du Saint-Esprit. Sa présence parmi les premiers disciples témoigne de son dévouement indéfectible au Christ et à son Église. Pour les catholiques, elle est honorée comme la **Mère de l’Église** et comme un exemple de prière, de persévérance et de fidélité.
 
-  « Mon âme exalte le Seigneur, exulte mon esprit en Dieu, mon Sauveur ! »
+### La Sainte Vierge et sa place au Ciel
 
-  Le Magnificat révèle l’humilité de Marie. Elle ne se place pas au centre, mais rend gloire à Dieu pour les grandes choses qu’il a accomplies. Elle se reconnaît comme son humble servante et se réjouit de sa miséricorde et de sa fidélité.
+L’Église catholique honore Marie sous de nombreux titres, notamment *Mère de Dieu*, *Reine du Ciel* et *Mère de Miséricorde*. Le titre *Theotokos*, qui signifie « Mère de Dieu », exprime la croyance selon laquelle Jésus-Christ, qu’elle a porté, est véritablement le Fils de Dieu, à la fois divin et humain. L’Église enseigne également le dogme de l’**Immaculée Conception**, selon lequel Marie a été préservée du péché originel dès le premier instant de sa conception, ainsi que celui de l’**Assomption**, qui proclame qu’à la fin de sa vie terrestre, elle a été élevée dans la gloire céleste avec son corps et son âme.
 
-  Marie donna ensuite naissance à Jésus à Bethléem. Les circonstances furent humbles : le Sauveur du monde fut déposé dans une mangeoire, et les bergers furent parmi les premiers à recevoir l’annonce de sa naissance.
+À travers le Rosaire, la prière du Je vous salue Marie et de nombreuses autres prières, les catholiques sollicitent l’intercession de Marie et la considèrent comme un modèle de sainteté. Sa vénération ne remplace pas le culte dû à Dieu ; au contraire, une authentique dévotion mariale conduit toujours au Christ.
 
-  L’Évangile nous dit que Marie gardait tous ces événements et les méditait dans son cœur. Cette attitude de contemplation silencieuse demeurera caractéristique de toute sa vie. Elle accueillait les mystères de Dieu avec foi, même lorsqu’elle ne pouvait pas encore les comprendre pleinement.
+### Une vie de foi et d’amour
 
-  ## Marie, Mère de Jésus
-
-  Marie accompagna Jésus durant les années cachées de son enfance et de sa jeunesse. Les Évangiles la présentent comme une mère aimante qui veillait sur lui tout en laissant le dessein de Dieu s’accomplir.
-
-  Aux noces de Cana, Marie apparaît de nouveau dans un moment particulièrement important. Lorsque le vin vient à manquer, elle présente simplement la situation à Jésus, puis dit aux serviteurs : « Faites tout ce qu’il vous dira. »
-
-  Ces paroles expriment magnifiquement le rôle de Marie dans la spiritualité chrétienne. Elle ne se tourne pas vers elle-même, mais conduit vers le Christ. Elle invite les croyants à lui faire confiance et à suivre sa parole.
-
-  À Cana, Jésus accomplit son premier signe en changeant l’eau en vin. La présence de Marie à cet événement a donc toujours revêtu une grande importance pour les chrétiens. Elle est considérée comme une mère attentive aux besoins des hommes et comme celle qui conduit ses enfants vers son Fils.
-
-  ## Marie au pied de la Croix
-
-  La foi de Marie fut éprouvée de manière particulièrement profonde pendant la Passion du Christ. Elle suivit Jésus jusqu’à Jérusalem et demeura près de lui lorsqu’il souffrit et mourut sur la Croix.
-
-  L’Évangile selon saint Jean décrit Marie debout près de la Croix avec le disciple bien-aimé. Au milieu de sa souffrance, Jésus confia sa mère au disciple et le disciple à sa mère.
-
-  Pour l’Église catholique, cette scène possède une profonde signification spirituelle. Marie n’est pas seulement la mère de Jésus selon la chair ; elle est également reçue comme une mère par les disciples du Christ.
-
-  Sa présence au Calvaire révèle la profondeur de son amour et de sa fidélité. Elle ne pouvait pas retirer à son Fils sa souffrance, mais elle demeura auprès de lui. Sa présence silencieuse devint un témoignage de foi au cœur de l’heure la plus sombre.
-
-  ## Marie et les premiers chrétiens
-
-  Après la Résurrection et l’Ascension de Jésus, Marie demeura auprès des apôtres. Les Actes des Apôtres la mentionnent parmi les disciples réunis dans la prière, dans l’attente de la venue de l’Esprit Saint.
-
-  Sa présence parmi les premiers chrétiens est profondément significative. Celle qui avait accueilli le Christ dans le monde demeura auprès de ses disciples alors que l’Église commençait sa mission.
-
-  Pour les catholiques, Marie entretient ainsi une relation maternelle particulière avec l’Église. Elle est honorée comme la Mère de l’Église et comme un modèle de prière, de foi et de persévérance.
-
-  ## Notre-Dame, Mère de Dieu
-
-  Le titre de « Mère de Dieu », ou *Theotokos*, est l’un des titres les plus importants donnés à Marie par l’Église catholique. Il ne signifie pas que Marie existait avant Dieu ou qu’elle aurait donné à Jésus sa nature divine. Il exprime plutôt la foi chrétienne selon laquelle l’enfant qu’elle a porté est véritablement Jésus-Christ, le Fils de Dieu, pleinement Dieu et pleinement homme.
-
-  Au cours des siècles, les chrétiens lui ont également donné les noms de Sainte Vierge Marie, Notre-Dame, Reine du Ciel et bien d’autres titres. Ces appellations expriment les différents aspects de la dévotion de l’Église envers elle.
-
-  Qu’elle soit appelée Sainte Marie, Vierge Marie, Notre-Dame ou Sainte Vierge, la foi chrétienne demeure centrée sur le même mystère : Marie a reçu une grâce extraordinaire de Dieu et a librement coopéré à son dessein.
-
-  ## Une mère pour les fidèles
-
-  Les catholiques se tournent vers Marie dans la prière et demandent son intercession. Le Je vous salue Marie, le Rosaire et de nombreuses prières mariales occupent une place importante dans la vie spirituelle catholique.
-
-  Honorer Marie ne signifie pas la placer au-dessus de Dieu. Au contraire, une véritable dévotion mariale conduit toujours le croyant vers le Christ. Marie elle-même est celle qui dit : « Faites tout ce qu’il vous dira. »
-
-  Elle est ainsi considérée comme un modèle pour chaque chrétien. Sa vie enseigne à écouter la Parole de Dieu, à lui faire confiance dans les moments d’incertitude, à rester fidèle dans la souffrance et à accueillir sa volonté avec humilité.
-
-  ## L’Immaculée Conception et l’Assomption
-
-  L’Église catholique enseigne que Marie, par une grâce particulière de Dieu, a été préservée du péché originel dès le premier instant de sa conception. Cette croyance est appelée l’Immaculée Conception.
-
-  L’Église enseigne également qu’à la fin de sa vie terrestre, Marie fut élevée corps et âme dans la gloire du Ciel. Cette vérité de foi, appelée l’Assomption, exprime l’espérance chrétienne de la résurrection et de la vie éternelle. Marie devient ainsi un signe de la destinée promise à ceux qui appartiennent au Christ.
-
-  Au Ciel, Marie continue d’être honorée comme Reine et comme Mère. Les catholiques se confient à son intercession maternelle, certains qu’elle conduit toujours ses enfants vers son Fils.
-
-  ## Une vie de foi et d’amour
-
-  La vie de Sainte Marie peut être résumée par un mot simple : **oui**.
-
-  Elle a dit oui lorsque Dieu l’appela lors de l’Annonciation. Elle a dit oui lorsqu’elle accueillit le mystère de l’Incarnation. Elle demeura fidèle lorsqu’elle se tint au pied de la Croix. Elle pria avec les apôtres après l’Ascension. Tout au long de sa vie, elle fit confiance à Dieu, même lorsque son dessein était difficile à comprendre.
-
-  C’est pourquoi la Vierge Marie demeure l’un des plus grands exemples de foi chrétienne. Sa grandeur ne vient ni du pouvoir terrestre ni de la gloire humaine, mais de son humilité et de son ouverture totale à la grâce de Dieu.
-
-  Elle est la humble femme de Nazareth devenue Mère du Sauveur, la Sainte Vierge demeurée fidèlement auprès du Christ et la mère spirituelle que des générations de chrétiens ont honorée et aimée.
-
-  Pour les catholiques, Marie demeure une mère tendre et fidèle qui conduit sans cesse ses enfants vers Jésus. Sa prière peut être résumée par les paroles qu’elle adressa aux serviteurs à Cana : **« Faites tout ce qu’il vous dira. »**
-  $desc$
+La vie de la Vierge Marie est marquée par son **« oui » humble et inébranlable à Dieu**. De l’Annonciation au pied de la Croix, jusqu’à sa présence auprès des apôtres, elle est restée fidèle, même lorsqu’elle ne pouvait pas comprendre pleinement le dessein divin. Sa grandeur réside dans son humilité, sa confiance absolue en Dieu et son amour indéfectible pour son Fils. Pour les catholiques, Marie demeure la Mère de Dieu et une mère spirituelle pour les fidèles, les invitant sans cesse à suivre le Christ à travers les paroles qu’elle prononça à Cana : **« Faites tout ce qu’il vous dira. »**
+$desc$
 ),
 (
-	'saint-mary',
-		'la',
-		'Sancta Maria, etiam Virgo Maria, Beata Virgo, Domina Nostra et Mater Dei appellata, mater est Iesu Christi atque una ex praecipuis figuris fidei christianae. A catholicis ut Mater Dei et Mater Ecclesiae honoratur atque ob humilitatem, fidem et perfectam in Deum fiduciam veneratur.',
-  $desc$
-  ## Sancta Maria
+    'saint-mary',
+    'la',
+    'Sancta Maria, etiam Virgo Maria appellata, mater Iesu Christi est et una ex praecipuis fidei christianae figuris. A catholicis ut Mater Dei et Mater Ecclesiae honoratur atque propter humilitatem, fidem et absolutam in Deum fiduciam commemoratur.',
+$desc$
+Sancta Maria, etiam Virgo Maria, Beata Virgo et Domina Nostra appellata, locum singularem in fide christiana obtinet ut Mater Iesu Christi, Filii Dei et Salvatoris mundi. A Deo electa ad mysterium Incarnationis, exemplar **fidei, humilitatis et oboedientiae** facta est. Per totam vitam suam Maria Deo devota mansit, voluntatem eius fiducialiter accipiens atque Filium suum per gaudia et dolores sequens.
 
-  Sancta Maria, quae etiam Virgo Maria, Beata Virgo, Domina Nostra et Mater Dei appellatur, singularem locum in fide christiana obtinet. A Deo electa est ut mater Iesu Christi, Filii Dei et Salvatoris mundi, fieret. In Evangeliis Maria apparet tamquam mulier altae fidei, humilitatis et orationis, cuius tota vita ad Deum et ad Filium suum conversa est.
+### Annuntiatio et Nativitas Iesu
 
-  ## Humilis puella Nazarethana
+Maria Nazareth habitabat et Ioseph, ex domo David oriundo, desponsata erat. Vita eius mutata est cum angelus Gabriel ei nuntiavit eam concepturam esse et Iesum, Filium Altissimi, parituram. Cum humilitate et fide respondit: *«Ecce ancilla Domini; fiat mihi secundum verbum tuum.»* Per suum consensum Maria extraordinariam missionem accepit, ut Mater Salvatoris fieret.
 
-  Maria Nazarethae, in Galilaea, habitabat et desponsata erat Ioseph, viro de domo David. Evangelia pauca nobis de eius pueritia tradunt, sed eam exhibent tamquam iuvenem mulierem vitam simplicem agentem, cum Deus eam ad singularem vocationem vocavit.
+Post Annuntiationem Maria cognatam suam Elisabeth visitavit et *Magnificat* proclamavit, canticum laudis quod misericordiam et fidelitatem Dei celebrat. Postea Iesum Bethlehem peperit, ubi in praesepio positus est. Per haec omnia Maria opera Dei in corde suo conservabat, eorum significationem in silentio et oratione contemplans.
 
-  Evangelium secundum sanctum Lucam narrat quomodo angelus Gabriel ad Mariam missus sit, ut ei nuntium Dei afferret. Ei annuntiatum est quod concepisset et pareret Iesum, qui Filius Altissimi vocaretur.
+### Maria, Mater et Christi discipula
 
-  Maria hunc nuntium fide suscepit. Etsi omnia quae futura erant non intellexit, se totam in manus Dei commisit et respondit: « Ecce ancilla Domini; fiat mihi secundum verbum tuum. »
+Maria Iesum per totam eius pueritiam comitata est atque missioni eius semper attenta mansit. In nuptiis Canae, cum vinum defecisset, necessitatem hanc Filio suo patefecit et ministris dixit: *«Quodcumque dixerit vobis, facite.»* Haec verba essentiam devotionis marialis exprimunt: Maria fideles semper ad Christum ducit eosque hortatur ut verbo eius confidant.
 
-  Hoc humile responsum unum ex magnis momentis historiae salutis factum est. Per suum « fiat » Deo dictum, Maria missionem sibi commissam suscepit et mater Salvatoris facta est.
+Fides eius gravissime probata est tempore Passionis. Maria iuxta Iesum mansit dum ille passus est et in Cruce mortuus est, dolorem eius materno amore et constanti fidelitate participans. Secundum Evangelium sancti Ioannis, Iesus matrem suam discipulo dilecto commendavit dicens: *«Ecce mater tua.»* In traditione catholica, hoc momentum etiam maternitatem spiritualem Mariae erga Christi discipulos exprimit.
 
-  ## Virgo Maria et nativitas Iesu
+### Maria et Ecclesia primitiva
 
-  Post Annuntiationem, Maria ad cognatam suam Elisabeth profecta est, quae Ioannem Baptistam exspectabat. Cum Elisabeth eam salutavisset, Maria Magnificat proclamavit, pulchrum canticum laudis Deo dicatum.
+Post Resurrectionem et Ascensionem Iesu, Maria cum apostolis mansit, una cum eis in oratione perseverans dum adventum Spiritus Sancti exspectabant. Praesentia eius inter primos discipulos perpetuam eius erga Christum et Ecclesiam devotionem demonstrat. Catholici eam ut **Matrem Ecclesiae** et exemplar orationis, perseverantiae atque fidelitatis honorant.
 
-  « Magnificat anima mea Dominum, et exsultavit spiritus meus in Deo salutari meo. »
+### Beata Virgo et eius locus in Caelo
 
-  Magnificat humilitatem Mariae manifestat. Se ipsam in centrum non ponit, sed Deum laudat propter magna quae in ea operatus est. Se agnoscit humilem Domini ancillam et de eius misericordia atque fidelitate gaudet.
+Ecclesia catholica Mariam multis titulis honorat, inter quos *Mater Dei*, *Regina Caeli* et *Mater Misericordiae*. Titulus *Theotokos*, quod «Mater Dei» significat, fidem exprimit Iesum Christum, quem Maria peperit, vere Filium Dei esse, divinum simul et humanum. Ecclesia etiam doctrinam de **Immaculata Conceptione** docet, secundum quam Maria a peccato originali ab ipso primo conceptionis suae momento praeservata est, necnon doctrinam de **Assumptione**, quae proclamat eam, exeunte vita terrestri, corpore et anima in caelestem gloriam assumptam esse.
 
-  Maria postea Iesum in Bethlehem peperit. Condiciones eius nativitatis humiles erant: Salvator mundi in praesepio positus est, et pastores inter primos fuerunt qui nuntium eius nativitatis acceperunt.
+Per Rosarium, precationem *Ave Maria* aliasque multas orationes, catholici Mariae intercessionem implorant eamque tamquam sanctitatis exemplar respiciunt. Veneratio eius cultum Deo debitum non substituit; immo vera devotio marialis semper ad Christum ducit.
 
-  Evangelium narrat Mariam omnia haec verba in corde suo conservavisse et meditandam esse. Haec contemplatio silenciosa peculiaris vitae eius nota mansit. Mysteria Dei fide suscipiebat, etiam cum ea plene intellegere nondum posset.
+### Vita fidei et amoris
 
-  ## Maria, Mater Iesu
-
-  Maria Iesum per annos occultos pueritiae et iuventutis eius comitata est. Evangelia eam tamquam matrem amantem ostendunt, quae de Filio suo curabat, dum consilium Dei adimplebatur.
-
-  In nuptiis Canae Maria iterum apparet in momento peculiari. Cum vinum deficeret, necessitatem simpliciter Iesu commendavit et servis dixit: « Quodcumque dixerit vobis, facite. »
-
-  Haec verba pulchre munus Mariae in spiritualitate christiana exprimunt. Ipsa non ad se ipsam, sed ad Christum dirigit. Fideles hortatur ut Ei confidant et verbum eius sequantur.
-
-  Canae Iesus primum signum suum fecit, aquam in vinum convertens. Praesentia Mariae in hoc eventu semper magni momenti fuit christianis. Ipsa tamquam mater necessitatibus hominum attenta et tamquam quae filios suos ad Filium suum ducit consideratur.
-
-  ## Maria sub Cruce
-
-  Fides Mariae maxime probata est tempore Passionis Christi. Iesum usque in Ierusalem secuta est atque prope eum mansit cum pateretur et in Cruce moreretur.
-
-  Evangelium secundum sanctum Ioannem Mariam iuxta Crucem stantem cum discipulo dilecto describit. In medio passionis suae, Iesus matrem suam discipulo commendavit et discipulum matri suae.
-
-  Pro Ecclesia catholica haec scena altam significationem spiritualem habet. Maria non solum mater Iesu secundum carnem est, sed etiam a discipulis Christi tamquam mater accipitur.
-
-  Praesentia eius in Calvaria profunditatem amoris et fidelitatis eius revelat. Passionem Filii sui auferre non poterat, sed iuxta eum mansit. Praesentia eius silenciosa testimonium fidei in hora obscurissima facta est.
-
-  ## Maria et primi christiani
-
-  Post Resurrectionem et Ascensionem Iesu, Maria cum apostolis mansit. Actus Apostolorum eam inter discipulos commemorat, qui in oratione congregati Spiritus Sancti adventum exspectabant.
-
-  Praesentia eius inter primos christianos magni momenti est. Ea quae Christum in mundum susceperat, cum discipulis eius mansit dum Ecclesia missionem suam incipiebat.
-
-  Pro catholicis, Maria peculiarem ideo relationem maternam cum Ecclesia habet. Ipsa ut Mater Ecclesiae et exemplar orationis, fidei atque perseverantiae honoratur.
-
-  ## Domina Nostra, Mater Dei
-
-  Titulus « Mater Dei », Graece *Theotokos*, unus ex praecipuis titulis est quibus Ecclesia catholica Mariam appellat. Non significat Mariam ante Deum exstitisse aut divinam Iesu naturam ei dedisse. Significat potius fidem christianam, secundum quam infans quem peperit vere Iesus Christus est, Filius Dei, plenus Deus et plenus homo.
-
-  Per saecula christiani eam etiam Beatam Virginem Mariam, Dominam Nostram, Reginam Caeli aliisque multis titulis appellaverunt. Hi tituli diversos aspectus devotionis Ecclesiae erga eam exprimunt.
-
-  Sive Sancta Maria, sive Virgo Maria, sive Domina Nostra, sive Beata Virgo appelletur, fides christiana in eodem mysterio manet fundata: Maria extraordinariam gratiam a Deo accepit atque consilio eius libere cooperata est.
-
-  ## Mater fidelium
-
-  Catholici ad Mariam in oratione se convertunt eiusque intercessionem petunt. Ave Maria, Rosarium et multae aliae preces marianae magni momenti sunt in vita spirituali catholica.
-
-  Mariam honorare non significat eam supra Deum ponere. Immo vera devotio mariana semper fidelem ad Christum ducit. Ipsa Maria dicit: « Quodcumque dixerit vobis, facite. »
-
-  Ideo exemplar omnibus christianis existimatur. Vita eius fideles docet verbum Dei audire, Ei in temporibus incertis confidere, in passionibus fideles manere atque voluntatem eius humiliter accipere.
-
-  ## Immaculata Conceptio et Assumptio
-
-  Ecclesia catholica docet Mariam singulari Dei gratia a primo conceptionis suae momento a peccato originali praeservatam esse. Haec veritas Immaculata Conceptio appellatur.
-
-  Ecclesia etiam docet Mariam, expleto vitae terrestris cursu, corpore et anima in caelestem gloriam assumptam esse. Haec veritas fidei, Assumptio appellata, spem christianam resurrectionis et vitae aeternae exprimit. Maria ita signum fit destinationis promissae omnibus qui Christo pertinent.
-
-  In Caelo Maria ut Regina et Mater honoratur. Catholici eius maternae intercessioni se committunt, certi eam semper filios suos ad Filium suum ducere.
-
-  ## Vita fidei et amoris
-
-  Vita Sanctae Mariae uno verbo simplici comprehendi potest: **fiat**.
-
-  Dixit fiat cum Deus eam in Annuntiatione vocavit. Dixit fiat cum mysterium Incarnationis suscepit. Fidelis mansit cum sub Cruce stetit. Cum apostolis post Ascensionem oravit. Tota vita Deo confisa est, etiam cum consilium eius difficile intellectu erat.
-
-  Hac de causa Virgo Maria unum ex maximis exemplis fidei christianae manet. Magnitudo eius non ex potestate terrena neque ex gloria humana provenit, sed ex humilitate et perfecta eius apertura ad gratiam Dei.
-
-  Ipsa est humilis mulier Nazarethana quae Mater Salvatoris facta est, Beata Virgo quae fideliter iuxta Christum stetit, atque mater spiritualis quam generationes christianorum honoraverunt et dilexerunt.
-
-  Pro catholicis Maria manet mater dulcis et fidelis, quae filios suos ad Iesum continenter ducit. Eius nuntium verbis apud Canae ministros prolatis comprehendere possumus: **« Quodcumque dixerit vobis, facite. »**
-  $desc$
+Vita Virginis Mariae eius **«ita» humile et firmum Deo** significatur. Ab Annuntiatione usque ad Crucis pedem atque praesentiam eius inter apostolos, fidelis mansit, etiam cum consilium divinum plene intellegere non posset. Eius magnitudo in humilitate, absoluta in Deum fiducia et amore erga Filium suum constanti consistit. Catholicis, Maria Mater Dei et mater spiritualis fidelium manet, eos continenter invitans ut Christum sequantur secundum verba quae Canae dixit: **«Quodcumque dixerit vobis, facite.»**
+$desc$
 ),
 
 (
 	'saint-joseph',
-		'en',
-		'Saint Joseph, the husband of the Virgin Mary and foster father of Jesus Christ, is honoured by the Catholic Church as a model of faith, humility, obedience and devoted fatherhood. A descendant of King David and a carpenter of Nazareth, he faithfully protected Mary and Jesus and entrusted his entire life to the will of God.',
-  $desc$
-  ## Saint Joseph
+	'en',
+	'Saint Joseph, the husband of the Virgin Mary and foster father of Jesus Christ, is honoured by the Catholic Church as a model of faith, humility, obedience and devoted fatherhood. A descendant of King David and a carpenter of Nazareth, he faithfully protected Mary and Jesus and entrusted his entire life to the will of God.',
+$desc$
+Saint Joseph, the husband of the Virgin Mary and foster father of Jesus Christ, holds a special place in the Catholic Church as a model of faith, humility and obedience to God. Although little is known about his life from the Gospels, his quiet presence in the history of salvation reveals a man of profound righteousness, whose love and fidelity allowed him to fulfil the extraordinary mission entrusted to him by God. Through his work, his silence and his unwavering trust in divine providence, Saint Joseph became a lasting example of fatherhood, devotion and holiness.
 
-  Saint Joseph, husband of the Virgin Mary and foster father of Jesus Christ, holds a unique place in Christian tradition. A descendant of King David and a carpenter from Nazareth, he was chosen by God to protect and care for Mary and the child Jesus. Although the Gospels record no spoken words from Joseph, his life speaks through his actions: faithfulness, courage, obedience and quiet service.
+### A Righteous Man Chosen by God
 
-  The Church honours him as a model of fatherhood and Christian discipleship. His vocation was lived largely in silence, away from public recognition, yet his role in the history of salvation was of profound importance.
+Joseph was a descendant of King David and lived in Nazareth, in Galilee. A carpenter by trade, he was betrothed to Mary when he learned that she was expecting a child through the power of the Holy Spirit. Being a righteous man, Joseph initially intended to dismiss her quietly, unwilling to expose her to public disgrace. However, an angel of the Lord appeared to him in a dream, revealing the divine origin of the child and instructing him to take Mary as his wife. Joseph obeyed without hesitation, accepting God's will with humility and becoming the protector of Mary and the child Jesus.
 
-  ## A just man from the house of David
+### The Guardian of the Holy Family
 
-  Joseph lived in Nazareth and belonged to the house of David. The Gospel according to Saint Matthew describes him as a "just man", revealing a man of righteousness, compassion and fidelity to God.
+Following the birth of Jesus in Bethlehem, Joseph received the shepherds and the Magi alongside Mary, witnessing the first manifestations of the Saviour's presence in the world. When an angel warned him of King Herod's intention to destroy the child, Joseph took Mary and Jesus and fled to Egypt, protecting them from danger. After Herod's death, he brought his family back to the land of Israel and eventually settled in Nazareth. Throughout these events, Joseph acted with courage and discretion, placing the safety of his family above his own comfort and demonstrating complete trust in God's guidance.
 
-  Joseph was betrothed to Mary when he discovered that she was expecting a child. Not yet understanding the mystery taking place, he considered quietly putting her away rather than exposing her to shame.
+### The Foster Father of Jesus
 
-  But God intervened. In a dream, an angel appeared to Joseph and told him not to be afraid to take Mary as his wife, because the child conceived in her was from the Holy Spirit. The angel also revealed that the child would be called Jesus, because He would save His people from their sins.
+In Nazareth, Joseph provided for the Holy Family through the humble work of his hands. As a carpenter, he taught Jesus the value of labour, patience and responsibility, while offering Him the love and protection of an earthly father. The Gospels recount the pilgrimage to Jerusalem when Jesus was twelve years old and was later found in the Temple after Mary and Joseph had searched for Him in anguish. This episode reveals Joseph's loving concern for the child entrusted to his care. Though Scripture records no spoken words of his, his actions bear witness to a life of faithful service, in which obedience to God was expressed through daily work and quiet devotion.
 
-  Joseph responded with faith. He did exactly what the angel commanded and welcomed Mary into his home.
+### Saint Joseph, Patron of the Universal Church
 
-  His obedience reveals one of the defining characteristics of his life: Joseph listened to God's word and acted upon it, even when the path before him was difficult to understand.
+The Church has long honoured Saint Joseph as a model of Christian virtue and a powerful intercessor. His special role in protecting Christ and the Virgin Mary led to his recognition as the **Patron of the Universal Church**, a title formally proclaimed by Pope Pius IX in 1870. He is also venerated as the patron of fathers, workers, families and those approaching death, according to Christian tradition. His feast is celebrated on 19 March, while 1 May is dedicated to Saint Joseph the Worker, honouring the dignity of labour and the sanctification of ordinary life.
 
-  ## The guardian of Jesus and Mary
+### A Life of Silence and Faith
 
-  Joseph accepted the responsibility of caring for Mary and for Jesus. He became the protector of the Holy Family and faithfully fulfilled the mission entrusted to him.
+The greatness of Saint Joseph lies in his willingness to serve God without seeking recognition or glory. He accepted the mysteries entrusted to him, protected the Saviour during His childhood and devoted himself entirely to the care of the Holy Family. His life reminds the faithful that holiness is often found not in extraordinary deeds performed before the world, but in the quiet fulfilment of daily duties with love and fidelity. For Catholics, Saint Joseph remains a fatherly protector and an enduring example of humility, courage and trust in divine providence, teaching all Christians to serve God faithfully, even when His plans remain hidden from human understanding.
+$desc$
+),
 
-  When Jesus was born in Bethlehem, Joseph was present beside Mary. He witnessed the humility of the Saviour's birth and welcomed the shepherds who came to see the child.
+(
+    'saint-joseph',
+    'fr',
+    'Saint Joseph, époux de la Vierge Marie et père adoptif de Jésus-Christ, est honoré par l’Église catholique comme un modèle de foi, d’humilité, d’obéissance et de dévouement paternel. Descendant du roi David et charpentier de Nazareth, il protégea fidèlement Marie et Jésus et confia toute sa vie à la volonté de Dieu.',
+$desc$
+Saint Joseph, époux de la Vierge Marie et père adoptif de Jésus-Christ, occupe une place particulière dans l’Église catholique en tant que modèle de foi, d’humilité et d’obéissance à Dieu. Bien que les Évangiles nous apprennent peu de choses sur sa vie, sa présence discrète dans l’histoire du salut révèle un homme d’une profonde justice, dont l’amour et la fidélité lui permirent d’accomplir l’extraordinaire mission que Dieu lui avait confiée. Par son travail, son silence et sa confiance inébranlable en la divine Providence, saint Joseph est devenu un exemple durable de paternité, de dévouement et de sainteté.
 
-  Soon afterwards, Joseph received another divine warning in a dream. King Herod was seeking the child Jesus in order to kill Him. The angel instructed Joseph to take the child and His mother and flee to Egypt.
+### Un homme juste choisi par Dieu
 
-  Without hesitation, Joseph obeyed. He took Mary and Jesus during the night and departed for Egypt, protecting the child from danger.
+Joseph était un descendant du roi David et vivait à Nazareth, en Galilée. Charpentier de métier, il était fiancé à Marie lorsqu’il apprit qu’elle attendait un enfant par la puissance du Saint-Esprit. Homme juste, Joseph envisagea d’abord de la répudier en secret, ne voulant pas l’exposer à la honte publique. Cependant, un ange du Seigneur lui apparut en songe, lui révélant l’origine divine de l’enfant et lui ordonnant de prendre Marie pour épouse. Joseph obéit sans hésiter, acceptant la volonté de Dieu avec humilité et devenant le protecteur de Marie et de l’enfant Jésus.
 
-  After Herod's death, Joseph was again guided by God to return to the land of Israel. Eventually, he settled with Mary and Jesus in Nazareth. There Jesus would grow up under Joseph's care.
+### Le gardien de la Sainte Famille
 
-  ## Joseph, the carpenter of Nazareth
+Après la naissance de Jésus à Bethléem, Joseph accueillit, avec Marie, les bergers et les mages, témoignant des premières manifestations de la présence du Sauveur dans le monde. Lorsqu’un ange l’avertit de l’intention du roi Hérode de faire périr l’enfant, Joseph prit Marie et Jésus et s’enfuit en Égypte pour les protéger du danger. Après la mort d’Hérode, il ramena sa famille en terre d’Israël et s’établit finalement à Nazareth. Tout au long de ces événements, Joseph agit avec courage et discrétion, faisant passer la sécurité de sa famille avant son propre confort et témoignant d’une confiance absolue dans la guidance de Dieu.
 
-  The Gospels describe Jesus as the "son of the carpenter", and tradition identifies Joseph himself as a craftsman. His work was simple and demanding, providing for the Holy Family through the labour of his hands.
+### Le père adoptif de Jésus
 
-  Joseph's vocation reminds Christians of the dignity of ordinary work. He did not seek public honours or earthly recognition. He served his family faithfully through daily labour, responsibility and perseverance.
+À Nazareth, Joseph subvenait aux besoins de la Sainte Famille grâce au travail humble de ses mains. En tant que charpentier, il enseigna à Jésus la valeur du travail, de la patience et du sens des responsabilités, tout en lui offrant l’amour et la protection d’un père terrestre. Les Évangiles relatent le pèlerinage à Jérusalem lorsque Jésus avait douze ans, puis le moment où il fut retrouvé dans le Temple après que Marie et Joseph l’eurent cherché avec angoisse. Cet épisode révèle l’inquiétude pleine d’amour de Joseph pour l’enfant confié à ses soins. Bien que les Écritures ne rapportent aucune parole prononcée par lui, ses actes témoignent d’une vie de service fidèle, dans laquelle l’obéissance à Dieu s’exprimait par le travail quotidien et une dévotion discrète.
 
-  In the workshop of Nazareth, Jesus grew under the care of Mary and Joseph. The hidden years of the Holy Family reveal the beauty of a life devoted to God through ordinary responsibilities.
+### Saint Joseph, patron de l’Église universelle
 
-  Joseph shows that holiness does not always appear through great public deeds. Sometimes it is found in faithful work, quiet sacrifice, family life and trust in God.
+L’Église honore depuis longtemps saint Joseph comme un modèle de vertu chrétienne et un puissant intercesseur. Son rôle particulier dans la protection du Christ et de la Vierge Marie lui valut d’être reconnu comme le **patron de l’Église universelle**, titre officiellement proclamé par le pape Pie IX en 1870. Selon la tradition chrétienne, il est également vénéré comme le saint patron des pères de famille, des travailleurs, des familles et des personnes à l’approche de la mort. Sa fête est célébrée le 19 mars, tandis que le 1er mai est consacré à saint Joseph artisan, en hommage à la dignité du travail et à la sanctification de la vie quotidienne.
 
-  ## Joseph and the childhood of Jesus
+### Une vie de silence et de foi
 
-  One of the most significant episodes involving Joseph is the pilgrimage to Jerusalem when Jesus was twelve years old.
-
-  After returning home, Mary and Joseph discovered that Jesus was not among the group of travellers. They returned to Jerusalem and searched for Him for three days. They eventually found Him in the Temple, sitting among the teachers.
-
-  This episode reveals the loving concern of Joseph and Mary for Jesus. Although they did not fully understand His words, they continued to accompany Him faithfully.
-
-  After this event, Jesus returned to Nazareth with them and remained obedient to them. The Gospel tells us that He grew in wisdom, stature and favour with God and men.
-
-  Joseph's presence during these hidden years contributed to the human formation of Jesus within the Holy Family, even though the Gospels tell us very little about his later life.
-
-  ## A man of silence and obedience
-
-  Joseph is remarkable because the Gospels never record a single spoken word from him. Yet he is repeatedly shown acting in response to God's commands.
-
-  He takes Mary as his wife. He gives the child the name Jesus. He flees to Egypt to protect Him. He returns to Israel when God tells him to do so. He settles in Nazareth and provides for his family.
-
-  His silence is therefore not emptiness. It is the silence of a man who listens.
-
-  Joseph teaches Christians that faith is not only expressed through words. It is also expressed through obedience, perseverance and concrete acts of love.
-
-  His life invites believers to trust God even when His plans are not immediately clear and to fulfil faithfully the responsibilities entrusted to them.
-
-  ## Saint Joseph, protector of the Church
-
-  Christian devotion to Saint Joseph grew especially strongly over the centuries. The Church came to recognize in him not only the protector of the Holy Family but also a spiritual protector of the entire Church.
-
-  In 1870, Pope Pius IX proclaimed Saint Joseph the patron of the Catholic Church. His role as guardian of Jesus and Mary was understood as a fitting image of his continued care for Christ's Church.
-
-  Catholics therefore turn to Saint Joseph in prayer, asking for his intercession and protection. He is particularly honoured as a patron of fathers, workers, families and those who seek to live their faith through humble daily service.
-
-  His example remains especially meaningful for those who carry responsibilities for others. Joseph shows that true authority is expressed through protection, service and self-giving love.
-
-  ## Saint Joseph, patron of workers
-
-  Saint Joseph has long been associated with human work. As a carpenter and provider for the Holy Family, he knew the dignity and difficulty of ordinary labour.
-
-  For this reason, devotion to Saint Joseph has a particular place among Christian workers. Pope Pius XII established the feast of Saint Joseph the Worker in 1955, celebrated on 1 May.
-
-  Saint Joseph reminds Christians that work can become a path of holiness when it is carried out with honesty, dedication and love. Whether great or small in the eyes of the world, faithful work can be offered to God.
-
-  ## The death of Saint Joseph
-
-  The Gospels do not describe the death of Joseph. He disappears from the biblical narrative before the beginning of Jesus' public ministry.
-
-  Christian tradition has long believed that Joseph died in the presence of Jesus and Mary. For this reason, he is often regarded as a patron of a happy and peaceful death.
-
-  His final years remain hidden from history, just as much of his life was hidden. Yet this silence is consistent with the character of the man portrayed in the Gospels: a servant who did not seek attention, but faithfully fulfilled the mission God entrusted to him.
-
-  ## A model of fatherhood and faith
-
-  Saint Joseph is one of the great models of Christian fatherhood. He was not the biological father of Jesus, yet he truly acted as His earthly father, protecting Him, providing for Him and guiding Him during His childhood.
-
-  His fatherhood was expressed through responsibility and self-giving love. He placed the needs of Mary and Jesus before his own comfort and accepted the sacrifices required by his vocation.
-
-  For fathers and families, Joseph remains an example of faithful love. He teaches that fatherhood is not merely a matter of authority, but of protection, presence, sacrifice and service.
-
-  ## A faithful servant of God
-
-  The life of Saint Joseph can be summed up in a few virtues: faith, obedience, humility, courage and love.
-
-  He trusted God when he did not understand. He obeyed when obedience required sacrifice. He protected Mary and Jesus when danger threatened them. He worked faithfully to provide for his family. And he accepted a life largely hidden from the eyes of the world.
-
-  Saint Joseph reminds Christians that God often works through people whose lives appear ordinary. His greatness was not found in public recognition, but in the fidelity with which he fulfilled his vocation.
-
-  For Catholics, Saint Joseph remains a powerful intercessor and a faithful protector. He is the just man of Nazareth, the husband of Mary, the guardian of Jesus, the patron of the Church and the humble worker whose entire life was placed in God's hands.
-
-  His example continues to invite every Christian to live with the same quiet confidence: to listen to God, to trust His providence and to serve faithfully those whom He has entrusted to our care.
-  $desc$
+La grandeur de saint Joseph réside dans sa volonté de servir Dieu sans rechercher ni reconnaissance ni gloire. Il accepta les mystères qui lui étaient confiés, protégea le Sauveur durant son enfance et se consacra entièrement aux soins de la Sainte Famille. Sa vie rappelle aux fidèles que la sainteté ne se trouve pas toujours dans des actes extraordinaires accomplis aux yeux du monde, mais souvent dans l’accomplissement discret des devoirs quotidiens avec amour et fidélité. Pour les catholiques, saint Joseph demeure un protecteur paternel et un exemple durable d’humilité, de courage et de confiance en la divine Providence. Il enseigne à tous les chrétiens à servir Dieu fidèlement, même lorsque ses desseins restent cachés à la compréhension humaine.
+$desc$
 ),
 
 (
 	'saint-joseph',
-		'fr',
-		'Saint Joseph, époux de la Vierge Marie et père nourricier de Jésus-Christ, est honoré par l’Église catholique comme un modèle de foi, d’humilité, d’obéissance et de dévouement paternel. Descendant du roi David et charpentier de Nazareth, il protégea fidèlement Marie et Jésus et consacra toute sa vie à la volonté de Dieu.',
-  $desc$
-  ## Saint Joseph
+    'la',
+    'Sanctus Ioseph, sponsus Virginis Mariae et pater adoptivus Iesu Christi, ab Ecclesia Catholica honoratur ut exemplar fidei, humilitatis, oboedientiae et paterni devotionis. Ex stirpe regis David oriundus et faber lignarius Nazareth, Mariam et Iesum fideliter protexit atque totam vitam suam voluntati Dei commisit.',
+$desc$
+Sanctus Ioseph, sponsus Virginis Mariae et pater adoptivus Iesu Christi, peculiarem locum in Ecclesia Catholica obtinet tamquam exemplar fidei, humilitatis et oboedientiae erga Deum. Quamquam Evangelia pauca de eius vita narrant, praesentia eius discreta in historia salutis hominem summa iustitia praeditum ostendit, cuius amor et fidelitas ei permiserunt extraordinariam missionem a Deo sibi commissam implere. Per opus suum, silentium et firmam fiduciam in divina Providentia, Sanctus Ioseph exemplum perenne paternitatis, devotionis et sanctitatis factus est.
 
-  Saint Joseph, époux de la Vierge Marie et père nourricier de Jésus-Christ, occupe une place particulière dans la tradition chrétienne. Descendant du roi David et charpentier de Nazareth, il fut choisi par Dieu pour protéger et entourer Marie et l’enfant Jésus. Bien que les Évangiles ne rapportent aucune parole prononcée par Joseph, sa vie parle à travers ses actes : fidélité, courage, obéissance et service discret.
+### Vir iustus a Deo electus
 
-  L’Église l’honore comme un modèle de paternité et de vie chrétienne. Sa vocation fut principalement vécue dans le silence, loin de toute reconnaissance publique, et pourtant son rôle dans l’histoire du salut fut d’une importance profonde.
+Ioseph ex stirpe regis David oriundus erat atque Nazareth, in Galilaea, habitabat. Faber lignarius professione, Mariae desponsatus erat cum comperit eam ex virtute Spiritus Sancti filium exspectare. Cum vir iustus esset, initio eam clam dimittere cogitavit, nolens eam publicae ignominiae exponere. Angelus autem Domini ei in somnio apparuit, originem divinam pueri revelans atque eum instruens ut Mariam uxorem acciperet. Ioseph sine ulla haesitatione oboedivit, voluntatem Dei humiliter accipiens atque Mariae et Iesu pueri protector factus.
 
-  ## Un homme juste de la maison de David
+### Custos Sanctae Familiae
 
-  Joseph vivait à Nazareth et appartenait à la maison de David. L’Évangile selon saint Matthieu le décrit comme un « homme juste », révélant ainsi un homme de droiture, de compassion et de fidélité envers Dieu.
+Post Iesu nativitatem Bethlehem, Ioseph una cum Maria pastores et Magos excepit, primas manifestationes praesentiae Salvatoris in mundo testificans. Cum angelus eum de consilio regis Herodis puerum interficere volentis monuisset, Ioseph Mariam et Iesum accepit atque in Aegyptum fugit, eos a periculo protegendo. Post mortem Herodis, familiam suam in terram Israel reduxit atque tandem Nazareth consedit. Per haec omnia, Ioseph fortiter et prudenter egit, salutem familiae suae proprio commodo praeponens atque absolutam fiduciam in Dei directione demonstrans.
 
-  Joseph était fiancé à Marie lorsqu’il découvrit qu’elle attendait un enfant. Ne comprenant pas encore le mystère qui s’accomplissait, il envisagea de la répudier en secret plutôt que de l’exposer à la honte.
+### Pater adoptivus Iesu
 
-  Mais Dieu intervint. Dans un songe, un ange apparut à Joseph et lui dit de ne pas craindre de prendre Marie chez lui, car l’enfant qu’elle portait venait de l’Esprit Saint. L’ange lui révéla également que l’enfant serait appelé Jésus, car il sauverait son peuple de ses péchés.
+Nazareth, Ioseph Sanctae Familiae necessaria labore manuum suarum suppeditabat. Faber lignarius, Iesum docuit quanti laboris, patientiae et responsabilitatis aestimanda esset virtus, dum ei amorem et protectionem patris terrestris praebebat. Evangelia peregrinationem Hierosolymam narrant, cum Iesus duodecim annos natus esset, atque eum postea in Templo inventum esse, postquam Maria et Ioseph eum anxie quaesiverant. Hic eventus sollicitudinem amantem Ioseph erga puerum sibi commissum manifestat. Quamquam Scriptura nulla verba ab eo prolata refert, eius actiones vitam fidelis servitii testantur, in qua oboedientia Deo per cotidianum laborem et discretam devotionem exprimebatur.
 
-  Joseph répondit avec foi. Il fit exactement ce que l’ange lui avait commandé et accueillit Marie chez lui.
+### Sanctus Ioseph, Patronus Ecclesiae Universalis
 
-  Son obéissance révèle l’un des traits fondamentaux de sa vie : Joseph écoutait la parole de Dieu et la mettait en pratique, même lorsque le chemin qui s’ouvrait devant lui était difficile à comprendre.
+Ecclesia Sanctum Ioseph diu honoravit tamquam exemplar virtutis christianae et potentem intercessorem. Peculiare eius munus in Christo et Virgine Maria protegendis effecit ut **Patronus Ecclesiae Universalis** agnosceretur, titulo quem Pius IX papa anno 1870 sollemniter proclamavit. Secundum traditionem christianam, etiam patronus patrum, operariorum, familiarum et morientium veneratur. Festum eius die XIX Martii celebratur, dum dies I Maii Sancto Ioseph opifici dedicatur, ad dignitatem laboris et sanctificationem vitae cotidianae honorandam.
 
-  ## Le gardien de Jésus et de Marie
+### Vita silentii et fidei
 
-  Joseph accepta la responsabilité de prendre soin de Marie et de Jésus. Il devint le protecteur de la Sainte Famille et accomplit fidèlement la mission que Dieu lui avait confiée.
-
-  Lorsque Jésus naquit à Bethléem, Joseph était auprès de Marie. Il fut témoin de l’humilité de la naissance du Sauveur et accueillit les bergers venus rendre hommage à l’enfant.
-
-  Peu après, Joseph reçut un nouvel avertissement divin dans un songe. Le roi Hérode cherchait à faire mourir l’enfant Jésus. L’ange demanda alors à Joseph de prendre l’enfant et sa mère et de fuir en Égypte.
-
-  Sans hésiter, Joseph obéit. Il prit Marie et Jésus pendant la nuit et partit pour l’Égypte afin de protéger l’enfant du danger.
-
-  Après la mort d’Hérode, Joseph fut de nouveau guidé par Dieu et reçut l’ordre de retourner au pays d’Israël. Il s’installa finalement avec Marie et Jésus à Nazareth. C’est là que Jésus grandit sous la protection de Joseph.
-
-  ## Joseph, le charpentier de Nazareth
-
-  Les Évangiles présentent Jésus comme le « fils du charpentier », et la tradition identifie Joseph lui-même comme un artisan. Par le travail de ses mains, il subvenait aux besoins de la Sainte Famille.
-
-  La vocation de Joseph rappelle aux chrétiens la dignité du travail ordinaire. Il ne recherchait ni les honneurs ni la reconnaissance du monde. Il servait fidèlement sa famille par son travail quotidien, sa responsabilité et sa persévérance.
-
-  Dans l’atelier de Nazareth, Jésus grandit auprès de Marie et de Joseph. Les années cachées de la Sainte Famille révèlent la beauté d’une existence consacrée à Dieu à travers les responsabilités simples de chaque jour.
-
-  Joseph montre ainsi que la sainteté ne se manifeste pas toujours par de grandes actions visibles. Elle peut aussi se trouver dans le travail fidèle, le sacrifice discret, la vie familiale et la confiance en Dieu.
-
-  ## Joseph et l’enfance de Jésus
-
-  L’un des épisodes les plus importants concernant Joseph est le pèlerinage à Jérusalem lorsque Jésus avait douze ans.
-
-  Sur le chemin du retour, Marie et Joseph découvrirent que Jésus ne se trouvait pas parmi les voyageurs. Ils retournèrent à Jérusalem et le cherchèrent pendant trois jours. Ils finirent par le retrouver dans le Temple, assis au milieu des docteurs de la Loi.
-
-  Cet épisode révèle l’inquiétude et l’amour de Joseph et de Marie pour Jésus. Même s’ils ne comprirent pas entièrement ses paroles, ils continuèrent à l’accompagner fidèlement.
-
-  Après cet événement, Jésus retourna avec eux à Nazareth et leur était soumis. L’Évangile nous dit qu’il grandissait en sagesse, en taille et en grâce devant Dieu et devant les hommes.
-
-  La présence de Joseph durant ces années cachées participa à l’éducation humaine de Jésus au sein de la Sainte Famille, même si les Évangiles nous donnent très peu d’informations sur les dernières années de sa vie.
-
-  ## Un homme de silence et d’obéissance
-
-  Joseph est remarquable parce que les Évangiles ne rapportent aucune parole prononcée par lui. Pourtant, il est montré à plusieurs reprises comme un homme qui agit en réponse aux commandements de Dieu.
-
-  Il prend Marie pour épouse. Il donne à l’enfant le nom de Jésus. Il fuit en Égypte pour le protéger. Il revient en Israël lorsque Dieu le lui demande. Il s’installe à Nazareth et travaille pour subvenir aux besoins de sa famille.
-
-  Son silence n’est donc pas un vide. C’est le silence d’un homme qui écoute.
-
-  Joseph enseigne aux chrétiens que la foi ne s’exprime pas seulement par les paroles. Elle se manifeste également par l’obéissance, la persévérance et les actes concrets d’amour.
-
-  Sa vie invite les croyants à faire confiance à Dieu même lorsque ses desseins ne sont pas immédiatement compréhensibles et à accomplir fidèlement les responsabilités qui leur sont confiées.
-
-  ## Saint Joseph, protecteur de l’Église
-
-  La dévotion à saint Joseph s’est particulièrement développée au cours des siècles. L’Église a reconnu en lui non seulement le protecteur de la Sainte Famille, mais également un protecteur spirituel de toute l’Église.
-
-  En 1870, le pape Pie IX proclama saint Joseph patron de l’Église catholique. Son rôle de gardien de Jésus et de Marie fut ainsi reconnu comme une belle image de la protection qu’il continue d’exercer envers l’Église du Christ.
-
-  Les catholiques se tournent donc vers saint Joseph dans la prière et demandent son intercession et sa protection. Il est particulièrement honoré comme patron des pères de famille, des travailleurs, des familles et de tous ceux qui cherchent à vivre leur foi dans le service humble du quotidien.
-
-  Son exemple demeure particulièrement précieux pour ceux qui portent des responsabilités envers les autres. Joseph montre que la véritable autorité s’exprime par la protection, le service et le don de soi.
-
-  ## Saint Joseph, patron des travailleurs
-
-  Saint Joseph est depuis longtemps associé au travail humain. En tant que charpentier et père nourricier de la Sainte Famille, il connaissait la dignité et les difficultés du travail quotidien.
-
-  C’est pourquoi saint Joseph occupe une place particulière dans la spiritualité chrétienne des travailleurs. En 1955, le pape Pie XII institua la fête de saint Joseph artisan, célébrée le 1er mai.
-
-  Saint Joseph rappelle aux chrétiens que le travail peut devenir un chemin de sainteté lorsqu’il est accompli avec honnêteté, dévouement et amour. Qu’il soit grand ou petit aux yeux du monde, le travail fidèle peut être offert à Dieu.
-
-  ## La mort de saint Joseph
-
-  Les Évangiles ne racontent pas la mort de Joseph. Il disparaît du récit biblique avant le début de la vie publique de Jésus.
-
-  La tradition chrétienne a longtemps considéré que Joseph était mort en présence de Jésus et de Marie. C’est pourquoi il est souvent invoqué comme le patron d’une bonne et sainte mort.
-
-  Ses dernières années demeurent cachées à l’histoire, comme une grande partie de son existence. Pourtant, ce silence correspond au caractère de l’homme présenté par les Évangiles : un serviteur qui ne cherchait pas à attirer l’attention, mais qui accomplissait fidèlement la mission que Dieu lui avait confiée.
-
-  ## Un modèle de paternité et de foi
-
-  Saint Joseph est l’un des grands modèles de la paternité chrétienne. Il n’était pas le père biologique de Jésus, mais il exerça véritablement auprès de lui une paternité terrestre, en le protégeant, en subvenant à ses besoins et en l’accompagnant durant son enfance.
-
-  Sa paternité s’exprima par la responsabilité et le don de soi. Il plaça les besoins de Marie et de Jésus avant son propre confort et accepta les sacrifices exigés par sa vocation.
-
-  Pour les pères et les familles, Joseph demeure un exemple d’amour fidèle. Il enseigne que la paternité n’est pas seulement une question d’autorité, mais aussi de protection, de présence, de sacrifice et de service.
-
-  ## Un fidèle serviteur de Dieu
-
-  La vie de saint Joseph peut être résumée par quelques vertus : la foi, l’obéissance, l’humilité, le courage et l’amour.
-
-  Il fit confiance à Dieu lorsqu’il ne comprenait pas. Il obéit lorsque l’obéissance exigeait un sacrifice. Il protégea Marie et Jésus lorsque le danger les menaçait. Il travailla fidèlement pour subvenir aux besoins de sa famille. Et il accepta une existence largement cachée aux yeux du monde.
-
-  Saint Joseph rappelle aux chrétiens que Dieu agit souvent à travers des personnes dont la vie semble ordinaire. Sa grandeur ne résidait pas dans la reconnaissance publique, mais dans la fidélité avec laquelle il accomplit sa vocation.
-
-  Pour les catholiques, saint Joseph demeure un puissant intercesseur et un protecteur fidèle. Il est l’homme juste de Nazareth, l’époux de Marie, le gardien de Jésus, le patron de l’Église et l’humble travailleur qui plaça toute sa vie entre les mains de Dieu.
-
-  Son exemple continue d’inviter chaque chrétien à vivre dans la même confiance silencieuse : écouter Dieu, se fier à sa Providence et servir fidèlement ceux qu’il nous a confiés.
-  $desc$
-),
-
-(
-	'saint-joseph',
-		'la',
-		'Sanc­tus Ioseph, sponsus Virginis Mariae et pater Iesu Christi putativus, ab Ecclesia catholica tamquam exemplar fidei, humilitatis, oboedientiae et paterni devotionis honoratur. Ex domo David oriundus et faber Nazarethanus, Mariam et Iesum fideliter protexit atque totam vitam suam voluntati Dei commisit.',
-  $desc$
-  ## Sanctus Ioseph
-
-  Sanctus Ioseph, sponsus Virginis Mariae et pater Iesu Christi putativus, singularem locum in traditione christiana obtinet. Ex domo David oriundus et faber Nazarethanus, a Deo electus est ut Mariam et puerum Iesum protegeret atque curaret. Etsi Evangelia nulla verba ab eo prolata nobis tradunt, vita eius per opera loquitur: fidelitas, fortitudo, oboedientia et humile servitium.
-
-  Ecclesia eum tamquam exemplar paternitatis et vitae christianae honorat. Eius vocatio magna ex parte in silentio vivebatur, longe ab omni publica recognitione, et tamen munus eius in historia salutis magni momenti fuit.
-
-  ## Vir iustus ex domo David
-
-  Ioseph Nazarethae habitabat et ad domum David pertinebat. Evangelium secundum sanctum Matthaeum eum « virum iustum » appellat, ostendens eum hominem rectum, misericordem et Deo fidelem fuisse.
-
-  Ioseph Mariae desponsatus erat cum cognovit eam filium exspectare. Mysterium quod fiebat nondum intellegens, cogitabat eam occulte dimittere, ne eam pudori et dedecori exponeret.
-
-  Sed Deus intervenit. In somnio angelus Ioseph apparuit eique dixit ne timeret Mariam uxorem suam accipere, quia quod in ea natum erat de Spiritu Sancto erat. Angelus etiam revelavit ei nomen pueri futurum esse Iesum, quia ipse populum suum a peccatis eorum salvum faceret.
-
-  Ioseph fide respondit. Fecit omnia quae angelus Domini ei praeceperat et Mariam in domum suam accepit.
-
-  Eius oboedientia unum ex praecipuis vitae eius lineamentis ostendit: Ioseph verbum Dei audiebat et illud opere implebat, etiam cum via ante eum difficile intellectu esset.
-
-  ## Custos Iesu et Mariae
-
-  Ioseph responsabilitatem suscepit Mariae et Iesu curandi. Protector Sanctae Familiae factus est et missionem sibi a Deo commissam fideliter implevit.
-
-  Cum Iesus Bethlehem natus est, Ioseph apud Mariam aderat. Humilitatem nativitatis Salvatoris vidit atque pastores suscepit, qui ad puerum adorandum venerant.
-
-  Paulo post Ioseph iterum in somnio monitus est. Herodes rex puerum Iesum quaerebat ut eum occideret. Angelus igitur Ioseph iussit puerum et matrem eius accipere atque in Aegyptum fugere.
-
-  Ioseph sine mora oboedivit. Nocte surrexit, Mariam et Iesum accepit atque in Aegyptum profectus est, ut puerum a periculo protegeret.
-
-  Post mortem Herodis, Ioseph iterum a Deo ductus est et in terram Israel rediit. Tandem cum Maria et Iesu Nazareth habitavit. Ibi Iesus sub eius tutela crevit.
-
-  ## Ioseph, faber Nazarethanus
-
-  Evangelia Iesum « filium fabri » appellant, et traditio ipsum Ioseph fabrum fuisse tradit. Opere manuum suarum Sanctae Familiae necessaria procurabat.
-
-  Vocatio Ioseph christianis dignitatem laboris cotidiani commemorat. Honores neque publicam gloriam quaerebat. Familiam suam fideliter serviebat per laborem cotidianum, responsabilitatem et perseverantiam.
-
-  In officina Nazarethana Iesus apud Mariam et Ioseph crevit. Anni absconditi Sanctae Familiae pulchritudinem vitae Deo dicatae per simplices cotidianas responsabilitates ostendunt.
-
-  Ioseph demonstrat sanctitatem non semper per magnas et omnibus conspicuas actiones manifestari. Etiam in fideli labore, occulto sacrificio, vita familiari et fiducia in Deo inveniri potest.
-
-  ## Ioseph et pueritia Iesu
-
-  Unus ex praecipuis eventibus Ioseph spectantibus est peregrinatio Hierosolymam, cum Iesus duodecim annos natus esset.
-
-  Redeuntibus autem, Maria et Ioseph invenerunt Iesum inter viatores non esse. Hierosolymam reversi sunt et eum per tres dies quaesiverunt. Tandem eum in Templo invenerunt, sedentem in medio doctorum.
-
-  Hic eventus sollicitudinem et amorem Ioseph et Mariae erga Iesum ostendit. Etsi verba eius plene non intellexerunt, eum fideliter comitari perrexerunt.
-
-  Post hoc eventum Iesus cum eis Nazareth rediit et erat illis subditus. Evangelium dicit eum profecisse sapientia, aetate et gratia apud Deum et homines.
-
-  Praesentia Ioseph his annis absconditis ad humanam Iesu formationem intra Sanctam Familiam contulit, quamquam Evangelia nobis de ultimis vitae eius annis parum narrant.
-
-  ## Vir silentii et oboedientiae
-
-  Ioseph mirabilis est quia Evangelia nullum verbum ab eo prolatum referunt. Attamen saepissime eum ostendunt tamquam virum qui mandatis Dei respondet per actionem.
-
-  Mariam uxorem accipit. Puerum Iesum nominat. In Aegyptum fugit ut eum protegat. In Israel redit cum Deus id ei praecipit. Nazarethae habitat et pro familia sua laborat.
-
-  Silentium eius ergo vacuum non est. Est silentium hominis qui audit.
-
-  Ioseph christianos docet fidem non solum verbis exprimi. Etiam per oboedientiam, perseverantiam et concreta amoris opera manifestatur.
-
-  Vita eius fideles invitat ut Deo confidant etiam cum consilia eius statim intellegi nequeunt, atque responsabilitates sibi commissas fideliter adimpleant.
-
-  ## Sanctus Ioseph, Ecclesiae protector
-
-  Devotio erga sanctum Ioseph per saecula praesertim crevit. Ecclesia in eo non solum protectorem Sanctae Familiae, sed etiam spiritualem totius Ecclesiae protectorem agnovit.
-
-  Anno 1870, Pius IX papa sanctum Ioseph patronum Ecclesiae catholicae proclamavit. Eius munus Iesu et Mariae custodis ita agnitum est tamquam pulchra imago tutelae quam erga Ecclesiam Christi exercere pergit.
-
-  Catholici igitur ad sanctum Ioseph in oratione se convertunt eiusque intercessionem et protectionem petunt. Peculiari modo honoratur ut patronus patrum familiarum, operariorum, familiarum et omnium qui fidem suam per humile cotidianum servitium vivere student.
-
-  Eius exemplum praesertim pretiosum est iis qui responsabilitates erga alios gerunt. Ioseph ostendit veram auctoritatem per protectionem, servitium et sui ipsius donationem manifestari.
-
-  ## Sanctus Ioseph, patronus operariorum
-
-  Sanctus Ioseph ab antiquis temporibus cum humano labore coniungitur. Faber et pater putativus Sanctae Familiae, dignitatem difficultatesque laboris cotidiani cognoscebat.
-
-  Quapropter sanctus Ioseph peculiarem locum in spiritualitate christiana operariorum obtinet. Anno 1955, Pius XII papa festum sancti Ioseph Opificis instituit, quod die 1 Maii celebratur.
-
-  Sanctus Ioseph christianis commemorat laborem viam sanctitatis fieri posse, cum honestate, studio et amore peragitur. Sive magnus sive parvus sit in oculis mundi, labor fideliter peractus Deo offerri potest.
-
-  ## Mors sancti Ioseph
-
-  Evangelia mortem Ioseph non narrant. E narratione biblica ante initium vitae publicae Iesu disparet.
-
-  Traditio christiana diu tenuit Ioseph in praesentia Iesu et Mariae mortuum esse. Quapropter saepe invocatur tamquam patronus bonae et sanctae mortis.
-
-  Ultimi eius anni historiae absconditi manent, sicut magna pars vitae eius. Hoc tamen silentium congruit cum indole viri quem Evangelia nobis proponunt: servi qui attentionem non quaerebat, sed missionem sibi a Deo commissam fideliter adimplebat.
-
-  ## Exemplar paternitatis et fidei
-
-  Sanctus Ioseph unum ex magnis exemplis paternitatis christianae est. Pater biologicus Iesu non erat, sed veram paternitatem terrestrem erga eum exercuit, eum protegendo, eius necessitatibus providendo atque in pueritia comitando.
-
-  Paternitas eius per responsabilitatem et sui ipsius donationem manifestata est. Necessitates Mariae et Iesu ante proprium commodum posuit atque sacrificia vocationi suae necessaria accepit.
-
-  Patribus et familiis Ioseph exemplar amoris fidelis manet. Docet paternitatem non solum auctoritatem esse, sed etiam protectionem, praesentiam, sacrificium et servitium.
-
-  ## Fidelis Dei servus
-
-  Vita sancti Ioseph paucis virtutibus comprehendi potest: fide, oboedientia, humilitate, fortitudine et amore.
-
-  Deo credidit cum non intellegeret. Obedivit cum oboedientia sacrificium postulabat. Mariam et Iesum protexit cum periculum eos minabatur. Fideliter laboravit ut familiae suae provideret. Atque vitam magna ex parte absconditam a mundo accepit.
-
-  Sanctus Ioseph christianis commemorat Deum saepe per homines operari quorum vita ordinaria videtur. Eius magnitudo non in publica recognitione, sed in fidelitate qua vocationem suam adimplevit consistebat.
-
-  Pro catholicis sanctus Ioseph potens intercessor et fidelis protector manet. Ipse est vir iustus Nazarethae, sponsus Mariae, custos Iesu, patronus Ecclesiae et humilis operarius qui totam vitam suam in manus Dei posuit.
-
-  Eius exemplum unumquemque christianum adhuc invitat ad eandem fiduciam quietam: Deum audire, eius Providentiae confidere et eos fideliter servire quos nobis commendavit.
-  $desc$
+Magnitudo Sancti Ioseph in voluntate eius consistit Deo serviendi, neque agnitionem neque gloriam quaerendo. Mysteria sibi commissa accepit, Salvatorem per infantiam eius protexit atque se totum curae Sanctae Familiae dedicavit. Vita eius fidelibus commemorat sanctitatem non semper in operibus extraordinariis coram mundo peractis inveniri, sed saepe in quieta officiorum cotidianorum adimpletione cum amore et fidelitate. Catholicis, Sanctus Ioseph protector paternus et exemplum perenne humilitatis, fortitudinis atque fiduciae in divina Providentia manet. Omnes christianos docet Deo fideliter serviendum esse, etiam cum consilia eius humanae intellegentiae occulta manent.
+    $desc$
 ),
 
 (
@@ -657,428 +207,74 @@ JOIN (VALUES
 		'en',
 		'Saint John the Baptist was the prophet who prepared the way for Jesus Christ. Son of Zechariah and Elizabeth and a relative of Jesus, he preached repentance, baptized those who turned back to God in the Jordan River, and courageously proclaimed the coming of the Messiah. He is honoured by Christians as the forerunner of Christ and one of the greatest prophets.',
   $desc$
-  ## Saint John the Baptist
+  Saint John the Baptist holds a unique place in the Christian faith as the **Forerunner of Jesus Christ**, called by God to prepare the people for the coming of the Saviour. Through his austere life, fearless preaching and unwavering devotion to the truth, he became the last great prophet before Christ and a model of humility, repentance and spiritual courage. His mission was not to draw attention to himself, but to announce the coming of the One whose presence would fulfil the promises of God.
 
-  Saint John the Baptist is one of the most important figures in the Gospel story. Prophet, preacher and forerunner of Jesus Christ, he was chosen by God to prepare the people for the coming of the Messiah. His life was marked by prayer, repentance, courage and complete dedication to his divine mission.
+  ### The Birth and Early Life of the Precursor
 
-  John occupies a unique place between the Old and New Testaments. He belongs to the tradition of the prophets of Israel, yet he stands at the threshold of the Gospel, announcing that the long-awaited Saviour is near. His message was simple and demanding: turn away from sin, return to God and prepare your heart for the Lord.
+  John was the son of Saint Zechariah, a priest, and Saint Elizabeth, a relative of the Virgin Mary. According to the Gospel of Saint Luke, the Archangel Gabriel announced his birth to Zechariah, promising that the child would be filled with the Holy Spirit and prepare a people ready for the Lord. When Mary visited Elizabeth, the unborn John leapt in his mother's womb, an event traditionally understood as his first recognition of Christ. After his birth, John grew in the spirit and eventually withdrew into the wilderness, where he prepared himself through prayer and an austere life for the mission entrusted to him by God.
 
-  ## The birth of John
+  ### The Voice Crying in the Wilderness
 
-  The story of John's birth is told especially in the Gospel according to Saint Luke. His father, Zechariah, was a priest, while his mother, Elizabeth, was a woman of faith and a relative of the Virgin Mary.
+  John began preaching in the region of the Jordan, calling the people to repentance and announcing that the Kingdom of Heaven was at hand. Clothed in camel's hair and living on locusts and wild honey, he embodied the simplicity and detachment he proclaimed. Crowds came to hear him, and he baptised those who confessed their sins as a sign of repentance. When Jesus came to be baptised, John recognised the greatness of the One before him, despite his own sense of unworthiness. He bore witness to Christ as the Lamb of God, declaring that his own mission was to prepare the way for Him.
 
-  Elizabeth had been unable to have children, and both she and Zechariah were advanced in age. One day, while Zechariah was serving in the Temple, the angel Gabriel appeared to him and announced that Elizabeth would have a son.
+  ### His Martyrdom and Lasting Legacy
 
-  The angel told him that the child would be called John and that he would have a special mission before God. He would be filled with the Holy Spirit and would prepare a people ready for the Lord.
+  John's fearless defence of God's law eventually brought him into conflict with Herod Antipas, whom he rebuked for his unlawful union with Herodias. Imprisoned, John remained faithful to his calling and was ultimately beheaded at Herodias's request, following the dance of her daughter at Herod's banquet. His martyrdom became a lasting testimony to his courage and fidelity to the truth.
 
-  When Mary later visited Elizabeth, the child leapt in Elizabeth's womb at the sound of Mary's greeting. Elizabeth recognized the presence of God's grace and called Mary "the mother of my Lord."
+  ### A Life of Humility and Truth
 
-  This encounter connects the mission of John with the mystery of Christ even before either child was born.
-
-  ## A prophet in the wilderness
-
-  When John began his public ministry, he appeared in the wilderness of Judea, preaching a message of repentance. He called people to turn back to God and baptized them in the Jordan River as a sign of conversion and a renewed desire to live according to God's will.
-
-  His preaching was direct and uncompromising. John did not seek popularity or personal glory. His entire mission was centred on another: the One who was coming after him.
-
-  The Gospel describes John as the voice crying out in the wilderness: "Prepare the way of the Lord."
-
-  His clothing and way of life reflected the austerity of his mission. He wore clothing made from camel's hair and lived simply, eating what was available in the wilderness.
-
-  His appearance recalled the great prophets of Israel, particularly Elijah. John stood before the people as a messenger calling them to awaken their hearts and prepare for the coming of God's kingdom.
-
-  ## The call to repentance
-
-  At the heart of John's preaching was repentance. He called people to recognize their sins, abandon injustice and return sincerely to God.
-
-  For John, repentance was not merely an emotion or a declaration. It had to produce a changed life. Those who came to him were encouraged to share with the poor, act honestly and reject violence and corruption.
-
-  His baptism in the Jordan expressed this conversion. Those who received it publicly acknowledged their need for God's mercy and their desire to begin a renewed life.
-
-  John therefore prepared the people not simply by announcing that the Messiah was coming, but by calling them to make themselves spiritually ready to receive Him.
-
-  ## John baptizes Jesus
-
-  One of the most important moments in John's life was the baptism of Jesus in the Jordan.
-
-  Jesus came to John and asked to be baptized. John initially hesitated, recognizing the greatness of the One standing before him. Yet Jesus insisted, and John baptized Him.
-
-  At the moment of Jesus' baptism, the heavens opened, the Spirit of God descended like a dove, and a voice from heaven proclaimed: "This is my beloved Son, with whom I am well pleased."
-
-  This event marks the beginning of Jesus' public ministry and reveals the Father, the Son and the Holy Spirit.
-
-  John's role is particularly beautiful here. He does not seek to keep Jesus in the background. Instead, he allows his own ministry to give way to the greater mission of Christ.
-
-  ## "Behold, the Lamb of God"
-
-  John recognized Jesus as the promised Saviour. In the Gospel according to Saint John, he points towards Him and declares: "Behold, the Lamb of God."
-
-  These words are central to John's mission. He identifies Jesus as the One who comes to take away the sin of the world.
-
-  John understood that his own importance depended entirely upon Christ. His mission was not to gather followers around himself forever, but to prepare them to follow Jesus.
-
-  His humility can be expressed in his famous declaration: "He must increase, but I must decrease."
-
-  These words reveal the heart of his vocation. John was willing to become less visible so that Christ could become known.
-
-  ## A courageous witness to the truth
-
-  John was not afraid to speak the truth, even when it placed him in danger.
-
-  He openly criticized Herod Antipas, the ruler of Galilee, for taking Herodias, the wife of his brother, as his own wife. John's condemnation of this unlawful union eventually led to his imprisonment.
-
-  Even in prison, John remained faithful to his mission. He did not change his message in order to protect himself or gain favour with those in power.
-
-  His courage has made him a lasting Christian example of fidelity to God's truth. John reminds believers that faith sometimes requires courage, especially when speaking against injustice or defending the dignity of human life and the commandments of God.
-
-  ## The martyrdom of Saint John
-
-  John eventually paid the ultimate price for his witness.
-
-  During a banquet held by Herod, the daughter of Herodias danced before the guests and pleased Herod. He promised her whatever she requested. At the request of her mother, she asked for the head of John the Baptist.
-
-  Although Herod was distressed by the request, he ordered John's execution. John was beheaded in prison, and his head was given to Herodias's daughter.
-
-  Thus John became a martyr for truth and fidelity to God's law.
-
-  His death did not erase his mission. Instead, it sealed his testimony with the ultimate sacrifice. He remained faithful to the end.
-
-  ## The forerunner of Christ
-
-  John the Baptist is traditionally called the Forerunner because his entire life pointed towards Jesus.
-
-  He prepared the way. He called sinners to repentance. He baptized in the Jordan. He recognized Christ when He came. He directed his own disciples towards Jesus. And finally, he accepted the disappearance of his own ministry as Christ's public mission grew.
-
-  In this way, John teaches a profound lesson about Christian discipleship: the purpose of a believer's life is not to draw attention to oneself, but to lead others towards Christ.
-
-  ## A model of humility
-
-  Saint John was a powerful preacher who attracted large crowds, yet he never claimed the glory that belonged to Christ.
-
-  His humility was not weakness. It was the freedom to recognize his true place in God's plan.
-
-  He knew that he was not the Messiah. He knew that he was not the Light, but a witness to the Light. He accepted his mission and fulfilled it without seeking personal honour.
-
-  For Christians, this makes John an extraordinary model of humility. His life encourages believers to use their gifts not for their own glory, but in the service of God and the proclamation of the Gospel.
-
-  ## A life devoted to preparing the way
-
-  The life of Saint John the Baptist can be understood through one central mission: **prepare the way for the Lord**.
-
-  He prepared the way through his preaching, through baptism, through repentance and through his own example of radical faithfulness.
-
-  His message remains relevant to Christians today. To prepare the way for Christ means opening one's heart to God, turning away from sin, seeking forgiveness and allowing God's grace to transform one's life.
-
-  John reminds us that Christ must remain at the centre. His own life pointed beyond himself towards the Saviour.
-
-  ## Saint John the Baptist in the Catholic Church
-
-  The Catholic Church honours Saint John the Baptist as a prophet, martyr and forerunner of Christ. His birth and his martyrdom are both commemorated in the liturgical calendar, reflecting the extraordinary importance of his witness.
-
-  He is also closely associated with the Sacrament of Baptism, because his preaching and baptism in the Jordan prepared the way for the Christian understanding of baptism.
-
-  Churches, communities and families throughout the world have been placed under his patronage. His feast has also inspired many traditions of prayer and celebration.
-
-  ## A faithful servant of God
-
-  Saint John the Baptist remains a powerful example of courage, humility and faith.
-
-  He was a prophet who spoke the truth, a preacher who called sinners to conversion, a servant who prepared the way for Christ and a martyr who remained faithful until death.
-
-  His greatness came not from seeking his own glory, but from pointing towards Jesus.
-
-  His life can therefore be summed up in the words he proclaimed to the people: **"Prepare the way of the Lord."**
-
-  Saint John the Baptist teaches every Christian to make room for Christ, to repent sincerely, to live according to the truth and to have the courage to proclaim the Gospel.
-
-  He remains the voice crying in the wilderness, inviting every generation to prepare its heart for the coming of the Lord.
+  The greatness of Saint John the Baptist lies in his complete devotion to Christ. He understood that his purpose was to prepare hearts for the Saviour, famously declaring: *“He must increase, but I must decrease.”* His Nativity is celebrated on 24 June and his martyrdom is commemorated on 29 August, in both the current Roman calendar and the traditional Roman calendar. Throughout the centuries, John has remained an enduring example of repentance, humility and fearless witness to the truth, reminding the faithful that the greatest mission is to lead others towards Christ rather than towards oneself.
   $desc$
 ),
 
 (
-	'saint-john-the-baptist',
-		'fr',
-		'Saint Jean-Baptiste fut le prophète qui prépara le chemin de Jésus-Christ. Fils de Zacharie et d’Élisabeth et parent de Jésus, il prêcha la conversion, baptisa dans le Jourdain ceux qui se tournaient vers Dieu et proclama avec courage la venue du Messie. Les chrétiens l’honorent comme le Précurseur du Christ et comme l’un des plus grands prophètes.',
-  $desc$
-  ## Saint Jean-Baptiste
+    'saint-john-the-baptist',
+    'fr',
+    'Saint Jean-Baptiste était le prophète qui prépara la venue de Jésus-Christ. Fils de Zacharie et d’Élisabeth, et parent de Jésus, il prêcha la repentance, baptisa dans le Jourdain ceux qui se tournaient de nouveau vers Dieu et proclama avec courage la venue du Messie. Les chrétiens l’honorent comme le précurseur du Christ et l’un des plus grands prophètes.',
+$desc$
+Saint Jean-Baptiste occupe une place unique dans la foi chrétienne en tant que **Précurseur de Jésus-Christ**, appelé par Dieu à préparer le peuple à la venue du Sauveur. Par sa vie austère, sa prédication intrépide et son dévouement inébranlable à la vérité, il devint le dernier grand prophète avant le Christ et un modèle d’humilité, de repentance et de courage spirituel. Sa mission n’était pas d’attirer l’attention sur lui-même, mais d’annoncer la venue de Celui dont la présence accomplirait les promesses de Dieu.
 
-  Saint Jean-Baptiste est l’une des grandes figures du récit évangélique. Prophète, prédicateur et Précurseur de Jésus-Christ, il fut choisi par Dieu pour préparer le peuple à la venue du Messie. Sa vie fut marquée par la prière, la conversion, le courage et un dévouement total à la mission que Dieu lui avait confiée.
+### La naissance et les premières années du Précurseur
 
-  Jean occupe une place unique entre l’Ancienne et la Nouvelle Alliance. Il appartient à la tradition des prophètes d’Israël, tout en se tenant au seuil de l’Évangile pour annoncer que le Sauveur tant attendu est proche. Son message était simple et exigeant : se détourner du péché, revenir vers Dieu et préparer son cœur à la venue du Seigneur.
+Jean était le fils de saint Zacharie, prêtre, et de sainte Élisabeth, une parente de la Vierge Marie. Selon l’Évangile de saint Luc, l’archange Gabriel annonça sa naissance à Zacharie, lui promettant que l’enfant serait rempli du Saint-Esprit et préparerait un peuple disposé à accueillir le Seigneur. Lorsque Marie rendit visite à Élisabeth, Jean, encore à naître, tressaillit dans le sein de sa mère, un événement traditionnellement interprété comme sa première reconnaissance du Christ. Après sa naissance, Jean grandit en esprit et se retira finalement dans le désert, où il se prépara, par la prière et une vie austère, à la mission que Dieu lui avait confiée.
 
-  ## La naissance de Jean
+### La voix qui crie dans le désert
 
-  L’histoire de la naissance de Jean est particulièrement racontée dans l’Évangile selon saint Luc. Son père, Zacharie, était prêtre, tandis que sa mère, Élisabeth, était une femme de foi et une parente de la Vierge Marie.
+Jean commença à prêcher dans la région du Jourdain, appelant le peuple à la repentance et annonçant que le Royaume des Cieux était proche. Vêtu de poil de chameau et se nourrissant de sauterelles et de miel sauvage, il incarnait la simplicité et le détachement qu’il prêchait. Les foules venaient l’écouter, et il baptisait ceux qui confessaient leurs péchés en signe de repentance. Lorsque Jésus vint se faire baptiser, Jean reconnut la grandeur de Celui qui se tenait devant lui, malgré le sentiment de sa propre indignité. Il rendit témoignage au Christ en le désignant comme l’Agneau de Dieu, déclarant que sa propre mission consistait à préparer le chemin pour Lui.
 
-  Élisabeth était restée longtemps sans enfant, et elle et Zacharie étaient déjà avancés en âge. Un jour, alors que Zacharie accomplissait son service dans le Temple, l’ange Gabriel lui apparut et lui annonça qu’Élisabeth aurait un fils.
+### Son martyre et son héritage durable
 
-  L’ange lui révéla que l’enfant serait appelé Jean et qu’il aurait une mission particulière devant Dieu. Il serait rempli de l’Esprit Saint et préparerait un peuple disposé à accueillir le Seigneur.
+La défense intrépide de la loi de Dieu par Jean le conduisit finalement à entrer en conflit avec Hérode Antipas, qu’il reprit pour son union illégitime avec Hérodiade. Emprisonné, Jean demeura fidèle à sa vocation et fut finalement décapité à la demande d’Hérodiade, à la suite de la danse de sa fille lors du banquet d’Hérode. Son martyre devint un témoignage durable de son courage et de sa fidélité à la vérité.
 
-  Lorsque Marie rendit ensuite visite à Élisabeth, l’enfant tressaillit dans le sein de sa mère au son de la salutation de Marie. Élisabeth reconnut la présence de la grâce de Dieu et appela Marie « la mère de mon Seigneur ».
+### Une vie d’humilité et de vérité
 
-  Cette rencontre relie la mission de Jean au mystère du Christ avant même la naissance des deux enfants.
-
-  ## Un prophète dans le désert
-
-  Lorsque Jean commença son ministère public, il apparut dans le désert de Judée en prêchant un message de conversion. Il appelait les hommes à revenir vers Dieu et les baptisait dans le Jourdain en signe de conversion et de désir renouvelé de vivre selon la volonté divine.
-
-  Sa prédication était directe et sans compromis. Jean ne recherchait ni la popularité ni sa propre gloire. Toute sa mission était tournée vers un autre : Celui qui devait venir après lui.
-
-  L’Évangile décrit Jean comme la voix de celui qui crie dans le désert : « Préparez le chemin du Seigneur. »
-
-  Son vêtement et son mode de vie exprimaient l’austérité de sa mission. Il portait un vêtement de poil de chameau et vivait simplement dans le désert, se nourrissant de ce qu’il y trouvait.
-
-  Son apparence rappelait les grands prophètes d’Israël, notamment le prophète Élie. Jean se présentait devant le peuple comme un messager appelant les cœurs à se réveiller et à se préparer à la venue du Royaume de Dieu.
-
-  ## L’appel à la conversion
-
-  Au cœur de la prédication de Jean se trouvait la conversion. Il appelait les hommes à reconnaître leurs péchés, à abandonner l’injustice et à revenir sincèrement vers Dieu.
-
-  Pour Jean, la conversion n’était pas seulement une émotion ou une déclaration. Elle devait produire un changement véritable dans la vie. Ceux qui venaient à lui étaient invités à partager avec les pauvres, à agir avec honnêteté et à renoncer à la violence et à la corruption.
-
-  Son baptême dans le Jourdain exprimait cette conversion. Ceux qui le recevaient reconnaissaient publiquement leur besoin de la miséricorde de Dieu et leur désir de commencer une vie renouvelée.
-
-  Jean préparait donc le peuple non seulement en annonçant la venue du Messie, mais aussi en l’appelant à se disposer intérieurement à l’accueillir.
-
-  ## Jean baptise Jésus
-
-  L’un des moments les plus importants de la vie de Jean fut le baptême de Jésus dans le Jourdain.
-
-  Jésus vint trouver Jean et lui demanda de le baptiser. Jean hésita d’abord, reconnaissant la grandeur de Celui qui se tenait devant lui. Mais Jésus insista, et Jean le baptisa.
-
-  Au moment du baptême de Jésus, les cieux s’ouvrirent, l’Esprit de Dieu descendit comme une colombe et une voix venant du ciel proclama : « Celui-ci est mon Fils bien-aimé, en qui je trouve ma joie. »
-
-  Cet événement marque le début de la vie publique de Jésus et révèle le Père, le Fils et l’Esprit Saint.
-
-  Le rôle de Jean est particulièrement beau dans cette scène. Il ne cherche pas à retenir Jésus dans l’ombre. Au contraire, il accepte que sa propre mission s’efface devant la mission infiniment plus grande du Christ.
-
-  ## « Voici l’Agneau de Dieu »
-
-  Jean reconnut en Jésus le Sauveur promis. Dans l’Évangile selon saint Jean, il se tourne vers lui et proclame : « Voici l’Agneau de Dieu. »
-
-  Ces paroles résument le cœur de la mission de Jean. Il reconnaît en Jésus Celui qui vient enlever le péché du monde.
-
-  Jean comprit que sa propre importance dépendait entièrement du Christ. Sa mission n’était pas de rassembler éternellement des disciples autour de lui, mais de les conduire vers Jésus.
-
-  Son humilité s’exprime dans cette parole célèbre : « Il faut qu’il grandisse, et que moi, je diminue. »
-
-  Ces mots révèlent le cœur de sa vocation. Jean acceptait de devenir moins visible afin que le Christ soit davantage connu.
-
-  ## Un témoin courageux de la vérité
-
-  Jean n’eut pas peur de proclamer la vérité, même lorsque cela le mettait en danger.
-
-  Il reprocha ouvertement à Hérode Antipas, le souverain de Galilée, d’avoir pris pour épouse Hérodiade, la femme de son frère. Cette dénonciation finit par conduire Jean en prison.
-
-  Même emprisonné, Jean resta fidèle à sa mission. Il ne modifia pas son message pour se protéger ou obtenir la faveur des puissants.
-
-  Son courage en a fait un exemple durable de fidélité à la vérité de Dieu. Jean rappelle aux croyants que la foi demande parfois du courage, notamment lorsqu’il faut dénoncer l’injustice ou défendre la dignité de l’homme et les commandements de Dieu.
-
-  ## Le martyre de saint Jean
-
-  Jean finit par payer le prix ultime de son témoignage.
-
-  Lors d’un banquet donné par Hérode, la fille d’Hérodiade dansa devant les convives et plut au roi. Celui-ci lui promit de lui donner ce qu’elle demanderait. À la demande de sa mère, elle réclama la tête de Jean-Baptiste.
-
-  Bien qu’attristé par cette demande, Hérode ordonna l’exécution de Jean. Celui-ci fut décapité dans sa prison, et sa tête fut remise à la jeune fille qui la donna à sa mère.
-
-  Jean devint ainsi martyr de la vérité et de sa fidélité à la loi de Dieu.
-
-  Sa mort n’effaça pas sa mission. Elle scella au contraire son témoignage par le sacrifice ultime. Jean resta fidèle jusqu’au bout.
-
-  ## Le Précurseur du Christ
-
-  Saint Jean-Baptiste est traditionnellement appelé le Précurseur parce que toute sa vie fut orientée vers Jésus.
-
-  Il prépara le chemin. Il appela les pécheurs à la conversion. Il baptisa dans le Jourdain. Il reconnut le Christ lorsqu’il vint à lui. Il dirigea ses propres disciples vers Jésus. Enfin, il accepta que son propre ministère s’efface lorsque la mission publique du Christ commença à se déployer.
-
-  Jean enseigne ainsi une leçon profonde sur la vie chrétienne : le but de l’existence du croyant n’est pas d’attirer l’attention sur lui-même, mais de conduire les autres vers le Christ.
-
-  ## Un modèle d’humilité
-
-  Saint Jean était un prédicateur puissant qui attirait de nombreuses foules, mais il ne revendiqua jamais pour lui la gloire qui appartenait au Christ.
-
-  Son humilité n’était pas une faiblesse. Elle était la liberté de reconnaître sa véritable place dans le dessein de Dieu.
-
-  Il savait qu’il n’était pas le Messie. Il savait qu’il n’était pas la Lumière, mais le témoin de la Lumière. Il accepta sa mission et l’accomplit sans rechercher les honneurs personnels.
-
-  Pour les chrétiens, Jean est ainsi un modèle extraordinaire d’humilité. Sa vie encourage les croyants à mettre leurs dons au service de Dieu plutôt qu’à rechercher leur propre gloire, et à annoncer fidèlement l’Évangile.
-
-  ## Une vie consacrée à préparer le chemin
-
-  La vie de saint Jean-Baptiste peut être comprise à travers une mission centrale : **préparer le chemin du Seigneur**.
-
-  Il prépara ce chemin par sa prédication, par le baptême, par l’appel à la conversion et par son propre exemple de fidélité radicale.
-
-  Son message demeure actuel pour les chrétiens d’aujourd’hui. Préparer le chemin du Christ signifie ouvrir son cœur à Dieu, se détourner du péché, rechercher le pardon et permettre à la grâce de transformer sa vie.
-
-  Jean rappelle que le Christ doit toujours rester au centre. Sa propre vie était entièrement tournée vers le Sauveur.
-
-  ## Saint Jean-Baptiste dans l’Église catholique
-
-  L’Église catholique honore saint Jean-Baptiste comme prophète, martyr et Précurseur du Christ. Sa naissance et son martyre sont tous deux célébrés dans le calendrier liturgique, témoignant de l’importance exceptionnelle de son témoignage.
-
-  Il est également étroitement associé au sacrement du baptême, car sa prédication et son baptême dans le Jourdain préparèrent le chemin vers la compréhension chrétienne du baptême.
-
-  De nombreuses églises, communautés et familles dans le monde ont été placées sous son patronage. Sa fête a également donné naissance à de nombreuses traditions de prière et de célébration.
-
-  ## Un fidèle serviteur de Dieu
-
-  Saint Jean-Baptiste demeure un puissant exemple de courage, d’humilité et de foi.
-
-  Il fut un prophète qui proclama la vérité, un prédicateur qui appela les pécheurs à la conversion, un serviteur qui prépara le chemin du Christ et un martyr qui resta fidèle jusqu’à la mort.
-
-  Sa grandeur ne venait pas de la recherche de sa propre gloire, mais du fait qu’il conduisait les hommes vers Jésus.
-
-  Sa vie peut ainsi être résumée par les paroles qu’il proclamait au peuple : **« Préparez le chemin du Seigneur. »**
-
-  Saint Jean-Baptiste enseigne à chaque chrétien à faire une place au Christ, à se convertir sincèrement, à vivre dans la vérité et à avoir le courage d’annoncer l’Évangile.
-
-  Il demeure la voix qui crie dans le désert et qui invite chaque génération à préparer son cœur à la venue du Seigneur.
-  $desc$
+La grandeur de saint Jean-Baptiste réside dans son dévouement absolu au Christ. Il comprenait que sa mission consistait à préparer les cœurs à accueillir le Sauveur, déclarant avec ces mots célèbres : *« Il faut qu’il grandisse et que moi, je diminue. »* Sa Nativité est célébrée le 24 juin et son martyre est commémoré le 29 août, aussi bien dans le calendrier romain actuel que dans le calendrier romain traditionnel. Au fil des siècles, Jean est resté un exemple durable de repentance, d’humilité et de témoignage courageux de la vérité, rappelant aux fidèles que la plus grande des missions consiste à conduire les autres vers le Christ plutôt que vers soi-même.
+$desc$
 ),
 
 (
 	'saint-john-the-baptist',
-		'la',
-		'Sacerdos Ioannes Baptista fuit propheta qui viam Iesu Christi praeparavit. Filius Zachariae et Elisabeth, atque propinquus Iesu, conversionem praedicavit, eos qui ad Deum redibant in Iordane baptizavit, et adventum Messiae fortiter annuntiavit. A Christianis honoratur ut Praecursor Christi et unus ex maximis prophetis.',
-  $desc$
-  ## Sanctus Ioannes Baptista
+    'la',
+    'Sanctus Ioannes Baptista propheta fuit qui viam Iesu Christo praeparavit. Filius Zachariae et Elisabeth, atque Iesu cognatus, paenitentiam praedicavit, eos qui ad Deum revertebantur in Iordane flumine baptizavit et adventum Messiae fortiter proclamavit. A christianis ut Christi Praecursor et unus ex maximis prophetis honoratur.',
+$desc$
+Sanctus Ioannes Baptista locum singularem in fide christiana obtinet ut **Praecursor Iesu Christi**, a Deo vocatus ad populum praeparandum ad Salvatoris adventum. Per vitam austeram, praedicationem intrepidam et constantem veritati devotionem, ultimus magnus propheta ante Christum factus est atque exemplar humilitatis, paenitentiae et fortitudinis spiritualis. Missio eius non erat ad se ipsum attentionem convertere, sed adventum Illius nuntiare, cuius praesentia promissa Dei adimpleret.
 
-  Sanctus Ioannes Baptista una ex praecipuis figuris Evangelii est. Propheta, praedicator et Praecursor Iesu Christi, a Deo electus est ut populum ad adventum Messiae praepararet. Vita eius oratione, conversione, fortitudine et perfecta missionis sibi commissae dedicatione insignita est.
+### Nativitas et primae anni Praecursoris
 
-  Ioannes singularem locum inter Vetus et Novum Testamentum obtinet. Traditioni prophetarum Israel pertinet, sed simul in limine Evangelii stat, annuntians Salvatorem diu exspectatum iam adesse. Nuntius eius simplex et exigens erat: a peccato se convertere, ad Deum redire et cor suum ad adventum Domini parare.
+Ioannes filius sancti Zachariae, sacerdotis, et sanctae Elisabeth, cognatae Virginis Mariae, erat. Secundum Evangelium sancti Lucae, archangelus Gabriel Zachariae nativitatem eius annuntiavit, promittens puerum Spiritu Sancto repletum iri et populum Domino paratum praeparaturum esse. Cum Maria Elisabeth visitavit, Ioannes, adhuc in utero matris suae, exsultavit, eventus qui traditione christiana tamquam prima Christi agnitio intellegitur. Post nativitatem suam, Ioannes spiritu crescebat atque tandem in solitudinem secessit, ubi per orationem et vitam austeram se ad missionem a Deo sibi commissam praeparavit.
 
-  ## Nativitas Ioannis
+### Vox clamantis in deserto
 
-  Historia nativitatis Ioannis praesertim in Evangelio secundum sanctum Lucam narratur. Pater eius, Zacharias, sacerdos erat, mater autem eius, Elisabeth, mulier fidei et propinqua Virginis Mariae erat.
+Ioannes in regione Iordanis praedicare coepit, populum ad paenitentiam vocans et Regnum Caelorum appropinquavisse annuntians. Pilis camelorum indutus et locustis atque melle silvestri nutritus, simplicitatem et rerum terrenarum contemptum, quae ipse praedicabat, in vita sua demonstrabat. Turbae eum audire veniebant, et eos qui peccata sua confitebantur in signum paenitentiae baptizabat. Cum Iesus ad baptismum accipiendum venisset, Ioannes magnitudinem Eius agnovit, quamvis se indignum sentiret. Christo testimonium perhibuit, Eum Agnum Dei appellans atque declarans suam missionem esse viam Illi praeparare.
 
-  Elisabeth diu filios habere non potuerat, et ipsa atque Zacharias iam provectae aetatis erant. Quadam die, dum Zacharias ministerium suum in Templo exsequitur, angelus Gabriel ei apparuit et nuntiavit Elisabeth filium habituram esse.
+### Martyrium eius et perpetua hereditas
 
-  Angelus ei revelavit puerum Ioannem vocandum esse atque peculiarem missionem coram Deo habiturum. Spiritu Sancto repleretur et populum paratum Domino praepararet.
+Intrepida Ioannis defensio legis Dei tandem eum in conflictum cum Herode Antipa adduxit, quem propter illicitam coniunctionem cum Herodiade reprehendit. In carcerem coniectus, Ioannes vocationi suae fidelis mansit et tandem, ad petitionem Herodiadis, postquam filia eius in convivio Herodis saltaverat, decollatus est. Martyrium eius testimonium perenne fortitudinis et fidelitatis erga veritatem factum est.
 
-  Cum Maria postea Elisabeth visitavit, infans in utero eius exsultavit ad vocem salutationis Mariae. Elisabeth praesentiam gratiae Dei agnovit et Mariam « matrem Domini mei » appellavit.
+### Vita humilitatis et veritatis
 
-  Hic occursus missionem Ioannis mysterio Christi coniungit etiam antequam uterque puer nasceretur.
-
-  ## Propheta in deserto
-
-  Cum Ioannes ministerium suum publicum coepit, in deserto Iudaeae apparuit, conversionem praedicans. Homines ad Deum redire hortabatur eosque in Iordane baptizabat in signum conversionis et desiderii renovati secundum voluntatem Dei vivendi.
-
-  Praedicatio eius directa et sine compromissis erat. Ioannes neque popularitatem neque gloriam sibi quaerebat. Tota eius missio ad alium ordinabatur: ad Eum qui post ipsum venturus erat.
-
-  Evangelium Ioannem describit tamquam vocem clamantem in deserto: « Parate viam Domini. »
-
-  Vestitus eius atque modus vivendi austeritatem missionis eius exprimebant. Vestem de pilis camelorum gerebat et simpliciter in deserto vivebat, ea comedens quae ibi inveniebantur.
-
-  Eius species magnos prophetas Israel, praesertim Eliam prophetam, revocabat. Ioannes coram populo stabat tamquam nuntius qui corda excitabat et ad adventum Regni Dei praeparabat.
-
-  ## Vocatio ad conversionem
-
-  In corde praedicationis Ioannis erat conversio. Homines ad peccata sua agnoscenda, iniustitiam relinquendam et ad Deum sincere redeundum invitabat.
-
-  Pro Ioanne conversio non erat tantum affectus vel declaratio. Vera vitae mutatio eam sequi debebat. Qui ad eum veniebant, ad pauperes communicandos, honeste agendum et violentiam atque corruptionem repudiandam invitabantur.
-
-  Baptismus eius in Iordane hanc conversionem significabat. Qui eum accipiebant, publice necessitatem misericordiae Dei agnoscebant atque desiderium vitae renovatae exprimebant.
-
-  Ioannes ergo populum non solum annuntiando adventum Messiae praeparabat, sed etiam eum invitando ut corde suo ad Eum recipiendum se disponeret.
-
-  ## Ioannes Iesum baptizat
-
-  Unus ex praecipuis vitae Ioannis eventibus fuit baptismus Iesu in Iordane.
-
-  Iesus ad Ioannem venit et baptismum ab eo petivit. Ioannes primo dubitavit, magnitudinem Eius qui ante se stabat agnoscens. Sed Iesus institit, et Ioannes eum baptizavit.
-
-  In momento baptismi Iesu caeli aperti sunt, Spiritus Dei sicut columba descendit, et vox de caelis proclamavit: « Hic est Filius meus dilectus, in quo mihi bene complacui. »
-
-  Hic eventus initium ministerii publici Iesu significat et Patrem, Filium et Spiritum Sanctum manifestat.
-
-  Munus Ioannis hic praecipue pulchrum est. Iesum in umbra retinere non quaerit. Immo propriam missionem ante maiorem Christi missionem libenter cedere sinit.
-
-  ## « Ecce Agnus Dei »
-
-  Ioannes in Iesu Salvatorem promissum agnovit. In Evangelio secundum sanctum Ioannem ad Iesum respiciens proclamat: « Ecce Agnus Dei. »
-
-  Haec verba cor missionis Ioannis exprimunt. Iesum agnoscit tamquam Eum qui venit peccatum mundi tollere.
-
-  Ioannes intellexit propriam suam dignitatem totam a Christo pendere. Missio eius non erat discipulos perpetuo circa se congregare, sed eos ad Iesum ducere.
-
-  Humilitas eius his verbis celebribus exprimitur: « Illum oportet crescere, me autem minui. »
-
-  Haec verba cor vocationis eius revelant. Ioannes minor et minus conspicuus fieri paratus erat, ut Christus magis cognosceretur.
-
-  ## Fortis testis veritatis
-
-  Ioannes veritatem proclamare non timuit, etiam cum hoc eum in periculum poneret.
-
-  Herodem Antipam, principem Galilaeae, publice reprehendit quod Herodiadem, uxorem fratris sui, duxisset. Haec denuntiatio tandem ad imprisonmentum Ioannis perduxit.
-
-  Etiam in carcere Ioannes missioni suae fidelis mansit. Nuntium suum non mutavit ut se protegeret vel gratiam potentium obtineret.
-
-  Eius fortitudo eum exemplum perpetuum fidelitatis veritati Dei fecit. Ioannes credentes admonet fidem interdum fortitudinem postulare, praesertim cum iniustitia denuntianda sit aut dignitas humana et mandata Dei defendenda sint.
-
-  ## Martyrium sancti Ioannis
-
-  Ioannes tandem ultimum testimonii sui pretium persolvit.
-
-  In convivio ab Herode celebrato, filia Herodiadis coram convivis saltavit et Herodi placuit. Ille ei promisit se daturum quodcumque peteret. Matre sua postulante, caput Ioannis Baptistae petivit.
-
-  Herodes, quamvis tristis esset, mandato suo consensit. Ioannes in carcere decollatus est, et caput eius puellae datum est, quae illud matri suae tradidit.
-
-  Ita Ioannes martyr veritatis et fidelitatis legi Dei factus est.
-
-  Mors eius missionem non delevit. E contra, testimonium eius ultimo sacrificio obsignavit. Fidelis usque ad finem mansit.
-
-  ## Praecursor Christi
-
-  Sanctus Ioannes Baptista Praecursor Christi appellatur, quia tota eius vita ad Iesum ordinata fuit.
-
-  Viam paravit. Peccatores ad conversionem vocavit. In Iordane baptizavit. Christum cum venit agnovit. Discipulos suos ad Iesum direxit. Denique proprii ministerii diminutionem accepit cum missio publica Christi crescere coepit.
-
-  Hoc modo Ioannes altam doctrinam de vita christiana tradit: propositum vitae credentis non est se ipsum in centrum ponere, sed alios ad Christum ducere.
-
-  ## Exemplar humilitatis
-
-  Sanctus Ioannes praedicator potens erat et magnas turbas ad se trahebat, sed numquam gloriam sibi vindicavit quae Christo debebatur.
-
-  Humilitas eius infirmitas non erat. Erat libertas agnoscendi suum verum locum in consilio Dei.
-
-  Sciebat se non esse Messiam. Sciebat se non esse Lucem, sed testem Lucis. Missionem suam accepit et sine honore proprio quaerendo eam adimplevit.
-
-  Christianis Ioannes sic extraordinarium humilitatis exemplar est. Vita eius fideles hortatur ut dona sua non ad propriam gloriam, sed in servitium Dei et Evangelii adhibeant.
-
-  ## Vita ad viam Domini praeparandam dedicata
-
-  Vita sancti Ioannis Baptistae una principali missione intellegi potest: **viam Domini parare**.
-
-  Viam paravit praedicatione, baptismo, conversionis vocatione et proprio exemplo radicalis fidelitatis.
-
-  Nuntius eius hodie quoque christianis valet. Viam Christo parare significat cor suum Deo aperire, a peccato se convertere, veniam quaerere et gratiam Dei vitam suam transformare sinere.
-
-  Ioannes admonet Christum semper in centro manere debere. Vita eius tota ad Salvatorem dirigebatur.
-
-  ## Sanctus Ioannes Baptista in Ecclesia Catholica
-
-  Ecclesia Catholica sanctum Ioannem Baptistam ut prophetam, martyrem et Christi Praecursorem honorat. Nativitas eius atque martyrium in calendario liturgico celebrantur, quod singularem testimonii eius momentum ostendit.
-
-  Etiam arcte cum Sacramento Baptismi coniungitur, quia praedicatio eius et baptismus in Iordane viam ad christianam baptismi intellegentiam paraverunt.
-
-  Multae ecclesiae, communitates et familiae toto orbe terrarum eius patrocinio commissae sunt. Festum eius etiam multas traditiones orationis et celebrationis inspiravit.
-
-  ## Fidelis Dei servus
-
-  Sanctus Ioannes Baptista validum fortitudinis, humilitatis et fidei exemplum manet.
-
-  Propheta fuit qui veritatem proclamavit, praedicator qui peccatores ad conversionem vocavit, servus qui viam Christo paravit et martyr qui usque ad mortem fidelis mansit.
-
-  Magnitudo eius non ex propria gloria quaerenda proveniebat, sed ex eo quod homines ad Iesum ducebat.
-
-  Vita eius his verbis quibus populum docebat comprehendi potest: **« Parate viam Domini. »**
-
-  Sanctus Ioannes Baptista unumquemque christianum docet Christo locum parare, sincere converti, in veritate vivere et Evangelium fortiter annuntiare.
-
-  Ipse manet vox clamans in deserto, quae unamquamque generationem invitat ut cor suum ad adventum Domini praeparet.
-  $desc$
+Magnitudo Sancti Ioannis Baptistae in absoluta eius erga Christum devotione consistit. Intellexit se ad hoc missum esse ut corda ad Salvatoris adventum praepararet, celeberrime dicens: *«Illum oportet crescere, me autem minui.»* Nativitas eius die XXIV Iunii celebratur, eius autem martyrium die XXIX Augusti commemoratur, tam in calendario Romano hodierno quam in calendario Romano tradito. Per saecula, Ioannes exemplum perenne paenitentiae, humilitatis et intrepidi testimonii veritatis mansit, fidelibus commemorans maximam missionem esse alios ad Christum ducere potius quam ad se ipsum.
+$desc$
 )
 ) AS x(slug, locale_code, short_description, full_biography)
 ON s.slug = x.slug
@@ -1094,918 +290,144 @@ FROM saints s JOIN (VALUES
 		'en',
 		'Saint Basil the Great was a fourth-century bishop, theologian and Doctor of the Church. Born in Cappadocia, he became one of the great defenders of the Christian faith, particularly the divinity of the Holy Spirit. He founded communities devoted to prayer, study and service to the poor, and his writings profoundly influenced Christian theology and monastic life.',
   $desc$
-  ## Saint Basil the Great
+  Saint Basil the Great was one of the most influential bishops and theologians of the early Church, renowned for his wisdom, his defence of the Catholic faith and his extraordinary charity towards the poor. As Bishop of Caesarea in Cappadocia, he devoted his life to the service of Christ, combining profound theological learning with a deep concern for the spiritual and material needs of his people. Together with Saint Gregory of Nazianzus and his brother Saint Gregory of Nyssa, he became one of the great Cappadocian Fathers, whose writings helped shape Christian theology and the Church's understanding of the Holy Trinity.
 
-  Saint Basil the Great was one of the most important bishops and theologians of the fourth-century Church. A man of profound faith, learning and charity, he devoted his life to defending the Christian faith, guiding the Church and serving those in need.
+  ### A Life Devoted to God
 
-  He was born into a deeply Christian family and became one of the great teachers of the Church. Together with his friend Saint Gregory of Nazianzus and his brother Saint Gregory of Nyssa, he is remembered among the great Cappadocian Fathers.
+  Basil was born around 330 in Caesarea, into a distinguished Christian family known for its learning and holiness. Several members of his family, including his grandmother Macrina, his mother Emmelia and his siblings, became important figures in Christian tradition. He received an excellent education in Caesarea, Constantinople and Athens, where he formed a lasting friendship with Saint Gregory of Nazianzus. Despite his intellectual gifts and promising worldly prospects, Basil gradually turned away from public ambition, inspired in part by the example of his sister Macrina. After visiting monastic communities in Egypt, Palestine and Syria, he embraced an ascetic life devoted to prayer, study and the pursuit of Christian holiness.
 
-  Basil combined intellectual depth with a strong spirit of prayer and practical charity. His life shows that Christian holiness embraces both contemplation and action, theological study and service to the poor.
+  ### Bishop and Defender of the Faith
 
-  ## A Christian family in Cappadocia
+  Basil was ordained a priest and became Bishop of Caesarea in 370. At a time when the Arian controversy deeply divided the Church, he courageously defended the divinity of Christ and worked to preserve the Church's teaching on the Holy Trinity. His theological writings, particularly his work *On the Holy Spirit*, became important contributions to Christian doctrine. Yet Basil's episcopal ministry extended far beyond theological debate. He established charitable institutions that provided food, shelter and care for the poor, the sick and strangers. His concern for those in need reflected his conviction that love of God must be expressed through practical service to one's neighbour.
 
-  Basil was born around the year 329 in Caesarea of Cappadocia, in what is now central Turkey. His family was deeply rooted in the Christian faith.
+  ### A Lasting Spiritual Legacy
 
-  His parents, Basil the Elder and Emmelia, were known for their Christian devotion, and several members of the family became saints. His grandmother Macrina the Elder had a strong influence on the family's faith. His sister Macrina the Younger also became an important figure in Christian monasticism, while his brothers Gregory of Nyssa and Peter of Sebaste became bishops.
+  Saint Basil also played a fundamental role in the development of Christian monasticism. His teachings on communal religious life, obedience, prayer and charity influenced Eastern monastic traditions and continue to shape religious life today. Through his writings and pastoral example, he showed that holiness requires both contemplation and active love, uniting the pursuit of truth with the service of others.
 
-  Basil therefore grew up in an environment where faith was not merely a set of ideas but a way of life expressed through prayer, charity and dedication to God.
-
-  ## A brilliant education
-
-  Basil received an excellent education. He studied in Caesarea, Constantinople and Athens, where he became acquainted with classical philosophy, literature and rhetoric.
-
-  In Athens he formed a close friendship with Gregory of Nazianzus. Their friendship would become one of the great spiritual and intellectual partnerships of the early Church.
-
-  Basil possessed considerable intellectual ability, yet his education ultimately led him toward a deeper search for God. The study of philosophy and literature did not replace his Christian faith. Instead, he learned to place human knowledge at the service of truth.
-
-  After completing his studies, Basil returned to Cappadocia and was baptized. He began to turn away from the ambitions of worldly life and to seek a more complete dedication to Christ.
-
-  ## The search for a life devoted to God
-
-  Basil travelled through Syria, Mesopotamia, Palestine and Egypt, visiting Christian communities and learning from monks who had devoted themselves to prayer and asceticism.
-
-  These journeys profoundly influenced his understanding of Christian life. He admired the monks' dedication but also recognized the importance of combining prayer with charity, work and life in community.
-
-  Upon returning to Cappadocia, Basil withdrew for a period of prayer and contemplation. He established a community where Christians could live together, worship God, study Scripture and serve others.
-
-  His approach would have a lasting influence on Eastern Christian monasticism.
-
-  ## A guide for monastic life
-
-  Basil did not simply seek isolation from the world. He believed that Christian community should be ordered toward love of God and love of neighbour.
-
-  His writings on monastic life emphasized prayer, obedience, humility, Scripture and practical service. He encouraged monks to live together rather than seeking holiness solely through individual solitude.
-
-  He also insisted that the poor and suffering must never be forgotten. For Basil, love of God necessarily expressed itself through concrete love of one's neighbour.
-
-  His teachings became foundational for Eastern monastic tradition and earned him a lasting place among the great spiritual fathers of Christianity.
-
-  ## Basil becomes a priest and bishop
-
-  Basil was ordained a priest and became an important collaborator of Bishop Eusebius of Caesarea. In 370, he succeeded Eusebius as bishop of Caesarea.
-
-  His episcopate took place during a difficult period for the Church. The Christian world was divided by theological controversies concerning the nature of God and, particularly, the divinity of the Son and the Holy Spirit.
-
-  Basil became one of the strongest defenders of the Nicene faith. He sought to preserve the Church's confession that the Father, the Son and the Holy Spirit are truly divine while expressing this faith with theological precision and pastoral wisdom.
-
-  ## Defender of the divinity of the Holy Spirit
-
-  One of Basil's most important theological contributions concerned the Holy Spirit.
-
-  Some Christians of his time denied or diminished the full divinity of the Holy Spirit. Basil defended the Church's faith that the Holy Spirit is truly divine and belongs with the Father and the Son in the worship and life of the Church.
-
-  His great theological work, *On the Holy Spirit*, became one of the classic texts of Christian theology.
-
-  Basil's teaching helped prepare the theological language that would be expressed more fully at the First Council of Constantinople in 381, after his death.
-
-  His contribution to the doctrine of the Trinity remains one of the principal reasons why he is remembered as one of the great theologians of the early Church.
-
-  ## A bishop devoted to the poor
-
-  Basil's holiness was not limited to theological writing. He had a profound concern for the poor, the sick, travellers and people who had been abandoned by society.
-
-  Near Caesarea, he helped establish a large charitable complex that became known as the Basiliad. It included facilities for caring for the sick and poor and became a remarkable expression of Christian charity.
-
-  Basil understood that caring for those in need was not optional. The poor were not simply recipients of generosity; they were brothers and sisters in Christ who deserved dignity, compassion and practical assistance.
-
-  His preaching frequently challenged Christians who accumulated wealth while others suffered from hunger and poverty.
-
-  ## A courageous shepherd
-
-  As bishop, Basil faced opposition from powerful political and religious figures. The emperor Valens supported theological positions opposed to Basil's defence of the Nicene faith.
-
-  Basil nevertheless remained firm. He sought peace and unity whenever possible, but he refused to abandon what he believed to be the truth of the Christian faith.
-
-  His courage was combined with prudence. Rather than treating theological controversy as an opportunity for personal triumph, he worked for the unity of the Church while defending the essential teachings of Christianity.
-
-  His episcopate became an example of pastoral leadership rooted in both conviction and charity.
-
-  ## A teacher of Christian charity
-
-  Basil's writings and homilies contain strong teachings about wealth, poverty and responsibility towards others.
-
-  He reminded Christians that material possessions are gifts entrusted to them by God. Wealth should therefore be used responsibly, particularly to assist those who lack the necessities of life.
-
-  His preaching on charity remains one of the most striking aspects of his legacy. For Basil, love of neighbour was not an abstract ideal. It required concrete action.
-
-  The Christian who prays to God while ignoring a hungry or suffering neighbour contradicts the very faith he professes.
-
-  ## A life of prayer and service
-
-  Saint Basil's life united contemplation and action. He was a theologian who prayed, a bishop who served, and a teacher who cared deeply for the poor.
-
-  His example demonstrates that Christian learning should lead to holiness and that holiness should lead to love.
-
-  Basil never treated theological knowledge as an end in itself. The purpose of knowing God more deeply was to love Him more faithfully and to serve His people more generously.
-
-  ## His death and legacy
-
-  Basil died on 1 January 379, probably around the age of fifty. His episcopate had lasted only a few years, but his influence extended far beyond his lifetime.
-
-  He left behind theological writings, sermons, letters and teachings on Christian and monastic life. His influence was particularly profound in the Christian East, where his understanding of communal monastic life became foundational.
-
-  The Catholic Church and the Eastern Orthodox Church both honour him as a great saint and teacher.
-
-  ## Doctor of the Church
-
-  Saint Basil is honoured by the Catholic Church as a Doctor of the Church. He is also one of the great Fathers of the Eastern Church.
-
-  Together with Saint Gregory of Nazianzus and Saint Gregory of Nyssa, he is known as one of the Cappadocian Fathers. Their theological work played a decisive role in articulating the Church's understanding of the Trinity and defending the faith of Nicaea.
-
-  Basil's legacy therefore extends beyond his own historical period. His writings continue to influence Christian theology, spirituality and monastic life.
-
-  ## A model of Christian holiness
-
-  Saint Basil the Great remains a powerful example of Christian holiness because he united truths that are sometimes separated: faith and reason, prayer and action, contemplation and charity, theological study and service to the poor.
-
-  He defended the faith with courage without abandoning charity. He pursued holiness without forgetting the suffering of others. He became a bishop without seeking worldly power.
-
-  His life reminds Christians that knowledge of God should transform the way we live.
-
-  Saint Basil the Great was a theologian, bishop, monk, pastor and servant of the poor. Above all, he was a disciple of Christ who sought to use every gift he had received for the glory of God and the good of his neighbour.
-
-  His legacy continues to invite Christians to deepen their faith, remain faithful to the truth of the Gospel, care for the poor and place their entire lives in the service of God.
+  Remembered as Basil the Great, he remains an enduring example of intellectual courage, pastoral devotion and generous charity. Honoured as a **Doctor of the Church**, he demonstrated how faith can illuminate the mind while transforming the lives of those most in need.
   $desc$
 ),
 (
-	'saint-basil-the-great',
-		'fr',
-		'Saint Basile le Grand fut un évêque, théologien et Père de l’Église du IVe siècle. Né en Cappadoce, il devint l’un des grands défenseurs de la foi chrétienne, notamment de la divinité du Saint-Esprit. Il fonda des communautés consacrées à la prière, à l’étude et au service des pauvres, et ses écrits exercèrent une influence profonde sur la théologie chrétienne et la vie monastique.',
-  $desc$
-  ## Saint Basile le Grand
+    'saint-basil-the-great',
+    'fr',
+    'Saint Basile le Grand était un évêque, théologien et Docteur de l’Église du IVe siècle. Né en Cappadoce, il devint l’un des grands défenseurs de la foi chrétienne, en particulier de la divinité du Saint-Esprit. Il fonda des communautés consacrées à la prière, à l’étude et au service des pauvres, et ses écrits exercèrent une profonde influence sur la théologie chrétienne et la vie monastique.',
+$desc$
+Saint Basile le Grand fut l’un des évêques et théologiens les plus influents de l’Église primitive, réputé pour sa sagesse, sa défense de la foi catholique et sa charité exceptionnelle envers les pauvres. En tant qu’évêque de Césarée, en Cappadoce, il consacra sa vie au service du Christ, alliant une profonde érudition théologique à une attention particulière aux besoins spirituels et matériels de son peuple. Avec saint Grégoire de Nazianze et son frère saint Grégoire de Nysse, il devint l’un des grands Pères cappadociens, dont les écrits contribuèrent à façonner la théologie chrétienne et la compréhension de la Sainte Trinité par l’Église.
 
-  Saint Basile le Grand fut l’un des évêques et théologiens les plus importants de l’Église du IVe siècle. Homme de foi, de savoir et de charité, il consacra sa vie à défendre la foi chrétienne, à guider l’Église et à servir les plus pauvres.
+### Une vie consacrée à Dieu
 
-  Né dans une famille profondément chrétienne, il devint l’un des grands maîtres de l’Église. Avec son ami saint Grégoire de Nazianze et son frère saint Grégoire de Nysse, il est compté parmi les grands Pères cappadociens.
+Basile naquit vers l’an 330 à Césarée, au sein d’une famille chrétienne illustre, réputée pour son savoir et sa sainteté. Plusieurs membres de sa famille, notamment sa grand-mère Macrine, sa mère Emmélie et ses frères et sœurs, devinrent des figures importantes de la tradition chrétienne. Il reçut une excellente éducation à Césarée, à Constantinople et à Athènes, où il noua une amitié durable avec saint Grégoire de Nazianze. Malgré ses dons intellectuels et les perspectives prometteuses qui s’offraient à lui dans le monde, Basile se détourna progressivement des ambitions publiques, notamment sous l’influence de l’exemple de sa sœur Macrine. Après avoir visité des communautés monastiques en Égypte, en Palestine et en Syrie, il adopta une vie ascétique consacrée à la prière, à l’étude et à la recherche de la sainteté chrétienne.
 
-  Basile sut unir une profonde intelligence de la foi à un grand amour de la prière et de la charité concrète. Sa vie montre que la sainteté chrétienne embrasse à la fois la contemplation et l’action, l’étude théologique et le service des pauvres.
+### Évêque et défenseur de la foi
 
-  ## Une famille chrétienne en Cappadoce
+Basile fut ordonné prêtre, puis devint évêque de Césarée en 370. À une époque où la controverse arienne divisait profondément l’Église, il défendit courageusement la divinité du Christ et s’efforça de préserver l’enseignement de l’Église sur la Sainte Trinité. Ses écrits théologiques, notamment son ouvrage *Sur le Saint-Esprit*, apportèrent une contribution importante à la doctrine chrétienne. Cependant, son ministère épiscopal allait bien au-delà des débats théologiques. Il fonda des institutions caritatives qui fournissaient nourriture, hébergement et soins aux pauvres, aux malades et aux étrangers. Sa sollicitude envers les personnes dans le besoin reflétait sa conviction que l’amour de Dieu devait se traduire par un service concret envers son prochain.
 
-  Basile naquit vers l’an 329 à Césarée de Cappadoce, dans l’actuelle Turquie centrale. Sa famille était profondément enracinée dans la foi chrétienne.
+### Un héritage spirituel durable
 
-  Ses parents, Basile l’Ancien et Émélie, étaient connus pour leur foi et leur dévouement chrétiens, et plusieurs membres de leur famille devinrent eux-mêmes saints. Sa grand-mère Macrine l’Ancienne exerça une grande influence sur la foi de la famille. Sa sœur Macrine la Jeune devint également une figure importante du monachisme chrétien, tandis que ses frères Grégoire de Nysse et Pierre de Sébaste devinrent évêques.
+Saint Basile joua également un rôle fondamental dans le développement du monachisme chrétien. Ses enseignements sur la vie religieuse communautaire, l’obéissance, la prière et la charité influencèrent les traditions monastiques orientales et continuent de façonner la vie religieuse aujourd’hui. Par ses écrits et son exemple pastoral, il montra que la sainteté exige à la fois la contemplation et l’amour actif, unissant la recherche de la vérité au service des autres.
 
-  Basile grandit ainsi dans un environnement où la foi n’était pas seulement un ensemble d’idées, mais une manière de vivre exprimée par la prière, la charité et la consécration à Dieu.
-
-  ## Une brillante éducation
-
-  Basile reçut une excellente formation. Il étudia à Césarée, à Constantinople et à Athènes, où il se familiarisa avec la philosophie classique, la littérature et la rhétorique.
-
-  À Athènes, il se lia d’une profonde amitié avec Grégoire de Nazianze. Leur amitié allait devenir l’une des grandes collaborations spirituelles et intellectuelles de l’Église ancienne.
-
-  Basile possédait de grandes capacités intellectuelles, mais son éducation le conduisit finalement à rechercher Dieu avec davantage de profondeur. L’étude de la philosophie et de la littérature ne remplaça pas sa foi chrétienne. Il apprit au contraire à mettre le savoir humain au service de la vérité.
-
-  Après ses études, Basile retourna en Cappadoce et reçut le baptême. Il commença alors à se détourner des ambitions de la vie mondaine et à rechercher une consécration plus complète au Christ.
-
-  ## La recherche d’une vie consacrée à Dieu
-
-  Basile voyagea à travers la Syrie, la Mésopotamie, la Palestine et l’Égypte, visitant des communautés chrétiennes et rencontrant des moines qui avaient consacré leur vie à la prière et à l’ascèse.
-
-  Ces voyages influencèrent profondément sa compréhension de la vie chrétienne. Il admirait le dévouement des moines, mais comprit également l’importance d’unir la prière à la charité, au travail et à la vie communautaire.
-
-  De retour en Cappadoce, Basile se retira pendant un temps dans la prière et la contemplation. Il fonda une communauté où des chrétiens pouvaient vivre ensemble, rendre un culte à Dieu, étudier les Saintes Écritures et servir leur prochain.
-
-  Son approche allait exercer une influence durable sur le monachisme chrétien oriental.
-
-  ## Un guide de la vie monastique
-
-  Basile ne recherchait pas simplement l’isolement du monde. Il croyait que la communauté chrétienne devait être ordonnée à l’amour de Dieu et à l’amour du prochain.
-
-  Ses écrits sur la vie monastique insistent sur la prière, l’obéissance, l’humilité, l’Écriture et le service concret. Il encourageait les moines à vivre en communauté plutôt qu’à rechercher la sainteté uniquement dans la solitude individuelle.
-
-  Il insistait également sur le fait que les pauvres et les souffrants ne devaient jamais être oubliés. Pour Basile, l’amour de Dieu devait nécessairement s’exprimer par un amour concret du prochain.
-
-  Ses enseignements devinrent fondamentaux pour la tradition monastique orientale et lui valurent une place durable parmi les grands maîtres spirituels du christianisme.
-
-  ## Basile devient prêtre puis évêque
-
-  Basile fut ordonné prêtre et devint un collaborateur important de l’évêque Eusèbe de Césarée. En 370, il succéda à Eusèbe comme évêque de Césarée.
-
-  Son épiscopat se déroula durant une période difficile pour l’Église. Le monde chrétien était profondément marqué par des controverses théologiques concernant la nature de Dieu et, en particulier, la divinité du Fils et du Saint-Esprit.
-
-  Basile devint l’un des plus fervents défenseurs de la foi de Nicée. Il chercha à préserver la confession de l’Église selon laquelle le Père, le Fils et le Saint-Esprit sont véritablement Dieu, tout en exprimant cette foi avec précision théologique et sagesse pastorale.
-
-  ## Défenseur de la divinité du Saint-Esprit
-
-  L’une des principales contributions théologiques de Basile concerne le Saint-Esprit.
-
-  Certains chrétiens de son époque niaient ou diminuaient la pleine divinité du Saint-Esprit. Basile défendit la foi de l’Église selon laquelle le Saint-Esprit est véritablement Dieu et qu’il appartient avec le Père et le Fils au culte et à la vie de l’Église.
-
-  Son grand traité *Sur le Saint-Esprit* devint l’un des textes classiques de la théologie chrétienne.
-
-  L’enseignement de Basile contribua à préparer la formulation théologique qui serait développée plus pleinement au premier concile de Constantinople en 381, après sa mort.
-
-  Sa contribution à la doctrine de la Trinité demeure l’une des principales raisons pour lesquelles il est considéré comme l’un des grands théologiens de l’Église ancienne.
-
-  ## Un évêque au service des pauvres
-
-  La sainteté de Basile ne se limita pas à ses écrits théologiques. Il avait une profonde sollicitude pour les pauvres, les malades, les voyageurs et les personnes abandonnées par la société.
-
-  Près de Césarée, il contribua à établir un vaste complexe charitable connu sous le nom de Basiliade. Il comprenait notamment des structures destinées à accueillir et soigner les malades et les pauvres, devenant ainsi une remarquable expression de la charité chrétienne.
-
-  Basile comprenait que le soin des personnes dans le besoin n’était pas facultatif. Les pauvres n’étaient pas simplement des bénéficiaires de la générosité : ils étaient des frères et des sœurs dans le Christ qui méritaient dignité, compassion et assistance concrète.
-
-  Dans ses prédications, il interpellait souvent les chrétiens qui accumulaient des richesses alors que d’autres souffraient de la faim et de la pauvreté.
-
-  ## Un pasteur courageux
-
-  En tant qu’évêque, Basile affronta l’opposition de puissants responsables politiques et religieux. L’empereur Valens soutenait certaines positions théologiques opposées à la défense de la foi de Nicée par Basile.
-
-  Basile resta néanmoins ferme. Il rechercha la paix et l’unité chaque fois que cela était possible, mais refusa d’abandonner ce qu’il considérait comme la vérité de la foi chrétienne.
-
-  Son courage s’accompagnait de prudence. Plutôt que de considérer les controverses théologiques comme une occasion de triomphe personnel, il travailla à l’unité de l’Église tout en défendant les enseignements essentiels du christianisme.
-
-  Son épiscopat devint ainsi un exemple de gouvernement pastoral fondé à la fois sur la conviction et sur la charité.
-
-  ## Un maître de la charité chrétienne
-
-  Les écrits et les homélies de Basile contiennent des enseignements particulièrement forts sur les richesses, la pauvreté et la responsabilité envers les autres.
-
-  Il rappelait aux chrétiens que les biens matériels sont des dons confiés par Dieu. Les richesses doivent donc être utilisées avec responsabilité, notamment pour venir en aide à ceux qui manquent du nécessaire.
-
-  Sa prédication sur la charité demeure l’un des aspects les plus marquants de son héritage. Pour Basile, l’amour du prochain n’était pas un idéal abstrait. Il exigeait des actes concrets.
-
-  Le chrétien qui prie Dieu tout en ignorant un prochain affamé ou souffrant contredit, selon son enseignement, la foi même qu’il professe.
-
-  ## Une vie de prière et de service
-
-  La vie de saint Basile unit la contemplation et l’action. Il fut un théologien qui priait, un évêque qui servait et un maître profondément attentif aux pauvres.
-
-  Son exemple montre que la connaissance chrétienne doit conduire à la sainteté et que la sainteté doit conduire à l’amour.
-
-  Basile ne considérait jamais la connaissance théologique comme une fin en elle-même. Connaître Dieu plus profondément devait permettre de l’aimer plus fidèlement et de servir son peuple avec davantage de générosité.
-
-  ## Sa mort et son héritage
-
-  Basile mourut le 1er janvier 379, probablement vers l’âge de cinquante ans. Son épiscopat n’avait duré que quelques années, mais son influence dépassa largement les limites de son époque.
-
-  Il laissa des écrits théologiques, des homélies, des lettres et des enseignements sur la vie chrétienne et monastique. Son influence fut particulièrement profonde en Orient, où sa conception de la vie monastique communautaire devint fondamentale.
-
-  L’Église catholique et l’Église orthodoxe orientale l’honorent toutes deux comme un grand saint et un grand maître de la foi.
-
-  ## Docteur de l’Église
-
-  Saint Basile est honoré par l’Église catholique comme Docteur de l’Église. Il est également compté parmi les grands Pères de l’Église orientale.
-
-  Avec saint Grégoire de Nazianze et saint Grégoire de Nysse, il est connu comme l’un des Pères cappadociens. Leur travail théologique joua un rôle décisif dans l’expression de la foi de l’Église en la Trinité et dans la défense de la foi de Nicée.
-
-  L’héritage de Basile dépasse ainsi largement son époque. Ses écrits continuent d’influencer la théologie chrétienne, la spiritualité et la vie monastique.
-
-  ## Un modèle de sainteté chrétienne
-
-  Saint Basile le Grand demeure un puissant modèle de sainteté chrétienne parce qu’il sut unir des réalités que l’on sépare parfois : la foi et la raison, la prière et l’action, la contemplation et la charité, l’étude théologique et le service des pauvres.
-
-  Il défendit la foi avec courage sans abandonner la charité. Il rechercha la sainteté sans oublier les souffrances des autres. Il devint évêque sans rechercher le pouvoir du monde.
-
-  Sa vie rappelle aux chrétiens que la connaissance de Dieu doit transformer notre manière de vivre.
-
-  Saint Basile le Grand fut théologien, évêque, moine, pasteur et serviteur des pauvres. Mais avant tout, il fut un disciple du Christ qui chercha à mettre tous les dons qu’il avait reçus au service de la gloire de Dieu et du bien de son prochain.
-
-  Son héritage continue d’inviter les chrétiens à approfondir leur foi, à demeurer fidèles à la vérité de l’Évangile, à prendre soin des pauvres et à consacrer toute leur vie au service de Dieu.
-  $desc$
+Connu sous le nom de Basile le Grand, il demeure un exemple durable de courage intellectuel, de dévouement pastoral et de charité généreuse. Honoré comme **Docteur de l’Église**, il démontra comment la foi peut éclairer l’intelligence tout en transformant la vie des personnes les plus démunies.
+$desc$
 ),
 (
-	'saint-basil-the-great',
-		'la',
-		'Sacerdos Basilius Magnus fuit episcopus, theologus et Doctor Ecclesiae saeculi quarti. In Cappadocia natus, unus ex magnis defensoribus fidei christianae factus est, praesertim divinitatis Spiritus Sancti. Communitates orationi, doctrinae et pauperum servitio dicatas instituit, eiusque scripta theologiam christianam et vitam monasticam alte influxerunt.',
-  $desc$
-  ## Sanctus Basilius Magnus
+    'saint-basil-the-great',
+    'la',
+    'Sanctus Basilius Magnus episcopus, theologus et Ecclesiae Doctor saeculi quarti fuit. In Cappadocia natus, unus ex magnis fidei christianae defensoribus factus est, praesertim divinitatis Spiritus Sancti. Communitates orationi, studio et pauperum servitio dedicatas fundavit, eiusque scripta theologiam christianam et vitam monasticam penitus influerunt.',
+$desc$
+Sanctus Basilius Magnus unus ex episcopis et theologis Ecclesiae primaevae potentissimis fuit, sapientia sua, defensione fidei catholicae et extraordinaria caritate erga pauperes celebratus. Episcopus Caesareae in Cappadocia, vitam suam Christo serviens egit, profundam eruditionem theologicam cum sollicita cura spiritualium et materialium necessitatum populi sui coniungens. Una cum sancto Gregorio Nazianzeno et fratre suo sancto Gregorio Nysseno, unus ex magnis Patribus Cappadocibus factus est, quorum scripta theologiam christianam et Ecclesiae intellectum Sanctissimae Trinitatis conformaverunt.
 
-  Sanctus Basilius Magnus unus ex praestantissimis episcopis et theologis Ecclesiae saeculi quarti fuit. Vir profundae fidei, doctrinae et caritatis, vitam suam defensioni fidei christianae, Ecclesiae gubernandae et pauperibus serviendi consecravit.
+### Vita Deo dedicata
 
-  In familia valde christiana natus, unus ex magnis Ecclesiae magistris factus est. Una cum amico suo sancto Gregorio Nazianzeno et fratre suo sancto Gregorio Nysseno inter magnos Patres Cappadoces numeratur.
+Basilius circa annum 330 Caesareae natus est, in insigni familia christiana doctrina et sanctitate nota. Complures familiae eius sodales, inter quos avia Macrina, mater Emmelia et fratres ac sorores, magni momenti in traditione christiana facti sunt. Optimam educationem Caesareae, Constantinopoli et Athenis accepit, ubi amicitiam diuturnam cum sancto Gregorio Nazianzeno iniit. Quamvis magnis intellectualibus donis et prosperis mundanis prospectibus praeditus esset, Basilius paulatim ambitiones publicas reliquit, partim exemplo sororis suae Macrinae inspiratus. Postquam communitates monasticas in Aegypto, Palaestina et Syria visitavit, vitam asceticam amplexus est, orationi, studio et sanctitatis christianae investigationi dedicatam.
 
-  Basilius altam fidei intelligentiam cum amore orationis et caritatis concretae coniunxit. Vita eius ostendit sanctitatem christianam tam contemplationem quam actionem, studium theologicum quam pauperum servitium complecti.
+### Episcopus et fidei defensor
 
-  ## Familia christiana in Cappadocia
+Basilius presbyter ordinatus est atque anno 370 episcopus Caesareae factus est. Tempore quo controversia Ariana Ecclesiam vehementer dividebat, divinitatem Christi fortiter defendit atque doctrinam Ecclesiae de Sanctissima Trinitate servare studuit. Scripta eius theologica, praesertim opus *De Spiritu Sancto*, magni momenti ad doctrinam christianam contulerunt. Attamen ministerium eius episcopale longe ultra controversias theologicas extendebatur. Instituta caritatis condidit quae pauperibus, infirmis et peregrinis cibum, hospitium atque curam praebebant. Sollicitudo eius erga egenos persuasionem eius manifestabat amorem Dei per concretum proximi servitium exprimendum esse.
 
-  Basilius circa annum 329 Caesareae Cappadociae natus est, in regione quae hodie ad mediam Turciam pertinet. Familia eius fidei christianae penitus dedita erat.
+### Permanens hereditas spiritualis
 
-  Parentes eius, Basilius Senior et Emmelia, christiana pietate et devotione noti erant, et plures familiae membra ipsi sancti facti sunt. Avia eius Macrina Senior magnam vim in familiae fide habuit. Soror eius Macrina Iunior etiam figura magni momenti in monachismo christiano facta est, dum fratres eius Gregorius Nyssenus et Petrus Sebastensis episcopi facti sunt.
+Sanctus Basilius etiam munus fundamentale in progressu monachismi christiani egit. Eius doctrinae de vita religiosa communitaria, oboedientia, oratione et caritate traditiones monasticas Orientis influerunt atque vitam religiosam etiam hodie conformare pergunt. Per scripta sua et exemplum pastorale demonstravit sanctitatem et contemplationem et amorem actuosum requirere, veritatis investigationem aliorum servitio coniungens.
 
-  Basilius igitur in ambitu crevit ubi fides non solum doctrina erat, sed modus vivendi per orationem, caritatem et Deo dedicationem expressus.
-
-  ## Praeclara institutio
-
-  Basilius optimam educationem accepit. Caesareae, Constantinopoli et Athenis studuit, ubi philosophiam classicam, litteras et rhetoricam didicit.
-
-  Athenis arctam amicitiam cum Gregorio Nazianzeno iniit. Amicitia eorum una ex magnis cooperationibus spiritualibus et intellectualibus Ecclesiae antiquae futura erat.
-
-  Basilius magnis facultatibus intellectualibus praeditus erat, sed educatio eius eum ad altiorem Dei quaestionem perduxit. Studia philosophiae et litterarum fidem christianam eius non substituerunt. E contra, didicit scientiam humanam veritati inservire posse.
-
-  Post studia in Cappadociam rediit et baptismum suscepit. Tunc paulatim a cupiditatibus vitae saecularis se avertit et pleniorem Christo dedicationem quaerere coepit.
-
-  ## Quaerens vitam Deo consecratam
-
-  Basilius per Syriam, Mesopotamiam, Palaestinam et Aegyptum iter fecit, communitates christianas visitans et monachos conveniens qui vitam suam orationi et asceseos disciplinae dedicaverant.
-
-  Hi peregrinationes eius intellectum vitae christianae profunde formarunt. Monachorum devotionem admirabatur, sed etiam intellexit orationem cum caritate, labore et vita communitaria coniungendam esse.
-
-  In Cappadociam reversus, ad tempus se orationi et contemplationi tradidit. Communitatem instituit in qua christiani simul vivere, Deum colere, Scripturas studere et proximis servire possent.
-
-  Eius ratio vitam monasticam christianam Orientalem diuturne influere debebat.
-
-  ## Magister vitae monasticae
-
-  Basilius non simpliciter separationem a mundo quaerebat. Credidit communitatem christianam ad amorem Dei et proximi ordinandam esse.
-
-  Scripta eius de vita monastica orationem, oboedientiam, humilitatem, Scripturam et concretum servitium extollunt. Monachos hortabatur ut in communitate viverent potius quam sanctitatem solummodo in solitudine quaererent.
-
-  Etiam vehementer docebat pauperes et homines patientes numquam oblivioni tradendos esse. Pro Basilio amor Dei necessario per amorem concretum proximi exprimitur.
-
-  Doctrina eius fundamentum magni momenti traditionis monasticae Orientalis facta est atque ei locum stabile inter magnos magistros spirituales christianitatis dedit.
-
-  ## Basilius sacerdos et episcopus
-
-  Basilius sacerdos ordinatus est et adiutor Episcopi Eusebii Caesareae factus est. Anno 370 Eusebio in sede episcopali Caesareae successit.
-
-  Episcopatus eius tempore difficili Ecclesiae evenit. Mundus christianus magnis controversiis theologicis de natura Dei et praesertim de divinitate Filii et Spiritus Sancti perturbabatur.
-
-  Basilius unus ex fortissimis defensoribus fidei Nicaenae factus est. Conatus est custodire confessionem Ecclesiae secundum quam Pater, Filius et Spiritus Sanctus vere Deus sunt, hanc fidem theologica subtilitate et sapientia pastorali exprimens.
-
-  ## Defensor divinitatis Spiritus Sancti
-
-  Una ex praecipuis contributionibus theologicis Basilii ad doctrinam de Spiritu Sancto pertinet.
-
-  Quidam christiani eius temporis plenam Spiritus Sancti divinitatem negabant vel minuebant. Basilius fidem Ecclesiae defendit secundum quam Spiritus Sanctus vere Deus est et una cum Patre et Filio in cultu et vita Ecclesiae honorandus est.
-
-  Magnum eius opus, *De Spiritu Sancto*, unum ex classicis textibus theologiae christianae factum est.
-
-  Doctrina Basilii ad theologicas formulas parandas multum contulit, quae post eius mortem in Concilio Constantinopolitano I anno 381 plenius exprimerentur.
-
-  Eius contributio ad doctrinam de Trinitate una ex praecipuis causis est cur inter magnos theologos Ecclesiae antiquae numeretur.
-
-  ## Episcopus pauperibus serviens
-
-  Sanctitas Basilii non solum in scriptis theologicis consistebat. Magnam curam pauperum, infirmorum, viatorum et hominum a societate derelictorum gerebat.
-
-  Prope Caesaream magnum centrum caritatis adiuvit instituere quod Basiliadis nomen accepit. Ibi loca ad infirmos et pauperes recipiendos et curandos exstabant, ita ut insigne testimonium caritatis christianae fieret.
-
-  Basilius intellexit curam indigentium non esse rem optionalem. Pauperes non erant simpliciter recipientes liberalitatis; fratres et sorores in Christo erant, dignitate, compassione et auxilio concreto digni.
-
-  In homiliis suis saepe christianos increpabat qui divitias sibi congregabant dum alii fame et paupertate laborabant.
-
-  ## Pastor fortis
-
-  Episcopus Basilius oppositionem potentium hominum politicorum et religiosorum sustinuit. Imperator Valens quasdam doctrinas theologicas favebat quae Basilii defensioni fidei Nicaenae adversabantur.
-
-  Basilius tamen firmus mansit. Pacem et unitatem, quotiens possibile erat, quaerebat, sed veritatem fidei christianae quam defendendam esse credebat relinquere recusavit.
-
-  Fortitudo eius prudentia coniungebatur. Controversias theologicas non tamquam occasionem victoriae personalis considerabat, sed unitati Ecclesiae servire studebat, dum fundamentalia christianae fidei dogmata defendebat.
-
-  Episcopatus eius exemplum gubernationis pastoralis factus est, quae simul convictione et caritate innititur.
-
-  ## Magister caritatis christianae
-
-  Scripta et homiliae Basilii doctrinam validam de divitiis, paupertate et responsabilitate erga alios continent.
-
-  Christianis commemorabat bona materialia dona a Deo hominibus commissa esse. Divitiae igitur responsabiliter adhibendae sunt, praesertim ad eos adiuvandos qui necessariis rebus carent.
-
-  Praedicatio eius de caritate unum ex insignioribus eius hereditatis aspectibus manet. Pro Basilio amor proximi non erat abstractum propositum, sed actionem concretam postulabat.
-
-  Christianus qui Deum orat dum proximum esurientem aut patientem negligit, secundum eius doctrinam ipsam fidem quam profitetur contradicit.
-
-  ## Vita orationis et servitii
-
-  Vita sancti Basilii contemplationem et actionem coniunxit. Theologus fuit qui orabat, episcopus qui serviebat et magister qui pauperum necessitatibus magnopere attendebat.
-
-  Exemplum eius ostendit cognitionem christianam ad sanctitatem ducere debere et sanctitatem ad amorem ducere.
-
-  Basilius cognitionem theologicam numquam tamquam finem in se consideravit. Deum profundius cognoscere significabat Eum fidelius amare et populo eius largius servire.
-
-  ## Mors et hereditas
-
-  Basilius die 1 Ianuarii 379 mortuus est, probabiliter circa quinquagesimum annum aetatis. Episcopatus eius paucos tantum annos duravit, sed eius auctoritas longe ultra vitam eius propagata est.
-
-  Reliquit scripta theologica, homilias, epistulas et doctrinas de vita christiana atque monastica. Eius influxus praesertim in Oriente christianitatis profundus fuit, ubi eius conceptio vitae monasticae communitariae fundamentalis facta est.
-
-  Ecclesia Catholica et Ecclesiae Orthodoxae Orientales eum tamquam magnum sanctum et magistrum honorant.
-
-  ## Doctor Ecclesiae
-
-  Sanctus Basilius ab Ecclesia Catholica Doctor Ecclesiae honoratur. Est etiam unus ex magnis Patribus Ecclesiae Orientalis.
-
-  Una cum sancto Gregorio Nazianzeno et sancto Gregorio Nysseno inter Patres Cappadoces numeratur. Eorum opus theologicum magni momenti fuit ad doctrinam Ecclesiae de Trinitate exprimendam et fidem Nicaenam defendendam.
-
-  Hereditas Basilii igitur longe ultra suam aetatem extenditur. Scripta eius adhuc theologiam christianam, spiritualitatem et vitam monasticam influunt.
-
-  ## Exemplar sanctitatis christianae
-
-  Sanctus Basilius Magnus validum sanctitatis christianae exemplar manet quia res quae interdum separantur coniunxit: fidem et rationem, orationem et actionem, contemplationem et caritatem, studium theologicum et pauperum servitium.
-
-  Fidem fortiter defendit sine caritate deserenda. Sanctitatem quaesivit sine pauperum et patientium oblivione. Episcopus factus est sine potestate saeculari quaerenda.
-
-  Vita eius christianos admonet cognitionem Dei modum nostrum vivendi transformare debere.
-
-  Sanctus Basilius Magnus theologus, episcopus, monachus, pastor et pauperum servus fuit. Ante omnia autem discipulus Christi fuit, qui omnia dona a Deo accepta ad gloriam Dei et bonum proximi adhibere quaerebat.
-
-  Hereditas eius christianos adhuc invitat ad fidem suam profundius cognoscendam, veritati Evangelii fideliter manendam, pauperibus serviendum et totam vitam in Dei servitium ponendam.
-  $desc$
+Basilio Magno appellato, exemplum perenne fortitudinis intellectualis, devotionis pastoralis et generosae caritatis manet. **Doctor Ecclesiae** honoratus, demonstravit quomodo fides mentem illuminare possit atque vitam eorum qui maxime indigent transformare.
+$desc$
 ),
 (
-	'saint-gregory-of-nazianzus',
+	'saint-gregory-nazianzen',
 		'en',
 		'Saint Gregory of Nazianzus was a fourth-century bishop, theologian and Doctor of the Church. One of the Cappadocian Fathers, he played a major role in defending the Christian faith in the Trinity and the divinity of the Holy Spirit. Known for his eloquent preaching and profound theological writings, he was also a close friend of Saint Basil the Great.',
   $desc$
-  ## Saint Gregory of Nazianzus
+  Saint Gregory of Nazianzus was one of the greatest theologians of the early Church, renowned for his eloquence, his profound understanding of the Christian faith and his unwavering defence of the divinity of the Holy Spirit. Together with Saint Basil the Great and Saint Gregory of Nyssa, he became one of the **Cappadocian Fathers**, whose teachings played a decisive role in the development of Christian doctrine. His life was marked by a constant tension between his love of solitude and contemplation and the demands of a Church deeply troubled by theological disputes.
 
-  Saint Gregory of Nazianzus was one of the greatest theologians and preachers of the early Christian Church. A bishop, poet, spiritual writer and defender of the faith, he played a decisive role in explaining and defending the Church's teaching on the Holy Trinity.
+  ### A Life of Learning and Prayer
 
-  Together with Saint Basil the Great and his younger contemporary Saint Gregory of Nyssa, he is remembered as one of the three Cappadocian Fathers. His theological writings, especially his famous *Theological Orations*, became among the most influential works of Christian theology in the fourth century.
+  Gregory was born into a Christian family in Cappadocia, in Asia Minor. He received an extensive education in Caesarea, Alexandria and Athens, where he formed a lifelong friendship with Saint Basil the Great. Both shared a deep love of learning and a desire to devote their lives to God. Although Gregory initially pursued an intellectual career, he eventually embraced the priesthood, while continuing to long for the quiet life of prayer and contemplation. His spiritual journey reflected his conviction that the search for divine truth required not only intellectual study, but also humility, purity of heart and a life devoted to God.
 
-  Gregory's life was marked by a deep desire for God, a love of contemplation and an intense sense of responsibility towards the Church. Although he often preferred a quiet life of prayer and study, he repeatedly accepted difficult responsibilities when he believed that the faith and unity of the Church required it.
+  ### Defender of the Holy Trinity
 
-  ## A Christian family
+  Gregory's theological gifts became especially important during the Arian controversy, when disputes over the nature of Christ threatened the unity of the Church. In Constantinople, he delivered his celebrated **Five Theological Orations**, defending the divinity of Christ and the Holy Spirit with remarkable clarity and depth. These sermons earned him a lasting reputation as one of the Church's greatest theologians. His teaching helped articulate the mystery of the Holy Trinity: one God in three distinct Persons, Father, Son and Holy Spirit. Through his eloquence and fidelity to the apostolic faith, Gregory played a significant role in the theological debates surrounding the First Council of Constantinople.
 
-  Gregory was born around the year 329 in Arianzus, near Nazianzus in Cappadocia. His father, also named Gregory, was originally associated with another religious tradition before becoming a Christian and later becoming bishop of Nazianzus.
+  ### Bishop of Constantinople
 
-  His mother, Nonna, was a deeply devout Christian and exercised a profound influence on her son's faith. Gregory's family became closely connected with the life of the Church.
+  Gregory was appointed Bishop of Constantinople during a period of intense religious division. His preaching helped strengthen the position of Nicene Christianity in a city where opposing theological movements remained influential. However, his appointment and authority became the subject of controversy, and Gregory eventually resigned his episcopal office rather than allow personal disputes to further disturb the Church. He returned to Cappadocia, where he devoted his remaining years to prayer, writing and poetry, finding in a quieter life the freedom to pursue his spiritual and literary work.
 
-  His brother Caesarius became a respected physician and served at the imperial court, while his sister Gorgonia was also remembered for her Christian faith.
+  ### A Lasting Theological Legacy
 
-  From his earliest years, Gregory was surrounded by Christian teaching and developed a strong desire to dedicate his life to God.
+  Saint Gregory left behind a remarkable collection of theological orations, letters and poems that reveal both his intellectual brilliance and his deeply personal faith. His writings explore the mystery of God, the dignity of Christ and the spiritual struggles of the Christian life. Honoured as a **Doctor of the Church**, he is also traditionally known as *Gregory the Theologian*, a title reflecting the exceptional importance of his teaching.
 
-  ## A remarkable education
-
-  Gregory received an extensive classical education. He studied in Caesarea of Cappadocia and later in Caesarea of Palestine before continuing his studies in Alexandria and Athens.
-
-  Athens became especially important in his life. There he studied rhetoric and classical literature and formed his famous friendship with Basil.
-
-  Their friendship was rooted not merely in intellectual interests but in a shared desire to seek God and live according to the Gospel. Gregory later described their relationship as a friendship united by the desire for holiness.
-
-  Both men possessed extraordinary intellectual gifts, but they sought to place their learning at the service of Christian truth.
-
-  ## A friendship with Saint Basil
-
-  Gregory's friendship with Saint Basil the Great became one of the most celebrated friendships in Christian history.
-
-  After their studies in Athens, the two friends spent time together in Cappadocia, pursuing a life centered on prayer, Scripture and theological study.
-
-  Gregory admired Basil's leadership and spiritual discipline, while Basil valued Gregory's remarkable eloquence and theological insight.
-
-  Their collaboration would become particularly important during the theological controversies of the fourth century, when the Church was defending the Christian doctrine of the Trinity against various interpretations that denied or diminished the full divinity of the Son or the Holy Spirit.
-
-  ## A reluctant priest
-
-  Gregory was ordained a priest by his father, probably against his own initial preference for a more contemplative life.
-
-  He later reflected deeply on the responsibilities of priesthood and pastoral ministry. His writings reveal a profound awareness of the sacred responsibility entrusted to those who teach and shepherd the Christian community.
-
-  Although he sometimes withdrew into solitude, Gregory repeatedly returned to ecclesial service when circumstances demanded it.
-
-  His life therefore reflects a tension that remained important throughout his ministry: the desire for contemplation and the obligation to serve the Church.
-
-  ## Bishop of Constantinople
-
-  Gregory's most important public mission came in Constantinople.
-
-  At the time, the city was divided by theological controversy, and the Nicene faith faced strong opposition. Gregory arrived to preach and teach in a difficult environment.
-
-  Through his preaching, particularly his celebrated *Five Theological Orations*, he presented a careful and profound explanation of Christian teaching about the Trinity.
-
-  Gregory emphasized the full divinity of the Father, the Son and the Holy Spirit while carefully explaining the distinction between the divine Persons.
-
-  His preaching was intellectually rigorous but also deeply spiritual. For Gregory, theology was not simply an academic discipline. Speaking about God required reverence, humility and purity of heart.
-
-  ## The Theological Orations
-
-  Gregory's *Theological Orations* are among the masterpieces of early Christian theology.
-
-  In them, he defended the divinity of the Son and the Holy Spirit and responded to theological positions that challenged the Church's understanding of the Trinity.
-
-  He insisted that the Son is truly God and that the Holy Spirit also shares fully in divine life. His teaching contributed significantly to the theological development that would be expressed by the First Council of Constantinople in 381.
-
-  Because of the depth and clarity of these writings, Gregory became known in the Christian East as "the Theologian."
-
-  This title reflects not simply his intellectual ability but his understanding that genuine theology must arise from a life oriented towards God.
-
-  ## A bishop in troubled times
-
-  Gregory was eventually appointed bishop of Constantinople. His episcopate, however, was marked by considerable opposition and controversy.
-
-  He faced disagreements concerning his appointment and resistance from groups that opposed the Nicene faith. The political and ecclesiastical situation was complex, and Gregory eventually chose to resign his position.
-
-  His decision was not presented as a rejection of the Church. Rather, he sought to avoid further division and to protect the peace of the Christian community.
-
-  In his farewell address, Gregory defended his ministry and entrusted the future of the Church to God.
-
-  ## The Council of Constantinople
-
-  In 381, the First Council of Constantinople met to address theological questions that had divided the Christian world.
-
-  Gregory was initially associated with the council and played an important role in its theological context. However, disagreements surrounding his position eventually contributed to his resignation from the episcopal see of Constantinople.
-
-  The council subsequently affirmed the Nicene faith and expressed more fully the Church's teaching concerning the Holy Spirit.
-
-  Gregory's theological contribution was therefore part of the broader development of the Church's doctrine of the Trinity during this crucial period.
-
-  ## A return to solitude
-
-  After leaving Constantinople, Gregory returned to Cappadocia. He spent his later years writing, praying and reflecting on the Christian faith.
-
-  He composed theological works, poems, letters and spiritual reflections. His writings reveal both the depth of his theological understanding and the sensitivity of his spiritual life.
-
-  Gregory was particularly aware of the mystery of God and of the limitations of human language when speaking about divine realities.
-
-  For him, theology required both intellectual precision and humility before the mystery of God.
-
-  ## A poet and spiritual writer
-
-  Gregory was not only a theologian and bishop. He was also a prolific poet.
-
-  He wrote many poems on Christian doctrine, Scripture, personal experiences, suffering, friendship and the search for God.
-
-  His poetry reveals a deeply personal dimension that complements his formal theological writings.
-
-  Through his poems, Gregory expressed the struggles of Christian life, the wounds caused by conflict within the Church and his longing for peace and communion with God.
-
-  ## A theologian of the Trinity
-
-  Gregory's most lasting theological contribution concerns the mystery of the Holy Trinity.
-
-  He helped Christians express the faith that there is one God in three divine Persons: the Father, the Son and the Holy Spirit.
-
-  He insisted that the Son is truly divine and that the Holy Spirit is also truly divine. At the same time, he carefully distinguished the divine Persons without dividing God into three gods.
-
-  His teaching became a major reference point for later Christian theology.
-
-  Gregory's theology was not merely philosophical speculation. He believed that the truth about God was inseparable from salvation. If Christ were not truly God, the Christian understanding of salvation would be fundamentally altered. If the Holy Spirit were not truly divine, the Christian experience of God's sanctifying presence would likewise be misunderstood.
-
-  ## A man of contemplation
-
-  Despite his important public responsibilities, Gregory retained a strong desire for solitude and contemplation.
-
-  He longed for a life devoted to prayer, Scripture and the contemplation of God. The demands of ecclesiastical leadership often weighed heavily upon him.
-
-  This aspect of his life makes him particularly relatable as a Christian witness. Gregory did not experience his vocation as a simple path without difficulty. He struggled with the demands of ministry while seeking to remain faithful to the call of God.
-
-  His writings show that Christian service can involve sacrifice, misunderstanding and suffering, while still remaining a path of holiness.
-
-  ## Doctor of the Church
-
-  The Catholic Church honours Gregory of Nazianzus as a Doctor of the Church and one of the great Fathers of Christianity.
-
-  Together with Basil the Great and Gregory of Nyssa, he is remembered as one of the Cappadocian Fathers. His theological writings were particularly influential in the Church's understanding of the Trinity.
-
-  The Eastern Christian tradition also gives him the title "the Theologian," a title shared by only a very small number of Christian saints.
-
-  ## His death and legacy
-
-  Gregory died around the year 390 in the region of Nazianzus, after spending his final years in prayer and writing.
-
-  His legacy continued to grow after his death. His theological writings became central to Christian reflection on the Trinity, while his sermons and poems continued to nourish Christian spirituality.
-
-  He is remembered not simply as a brilliant theologian, but as a man who sought to unite intellectual truth with holiness of life.
-
-  ## A model of Christian wisdom
-
-  Saint Gregory of Nazianzus remains an extraordinary example of Christian wisdom.
-
-  He teaches that speaking about God requires both knowledge and humility. He reminds Christians that theological truth is not merely an intellectual exercise but a mystery that should lead to worship, prayer and holiness.
-
-  His friendship with Saint Basil demonstrates the spiritual power of Christian friendship. His years of ministry show the cost of serving the Church during times of division. His later solitude reveals his deep desire to remain close to God.
-
-  Saint Gregory the Theologian was a bishop, preacher, poet and defender of the faith. Above all, he was a Christian who sought to know God, proclaim the truth of the Gospel and lead others towards the mystery of the Holy Trinity.
-
-  His life and writings continue to invite Christians to seek God with both the mind and the heart, to defend the faith with charity and courage, and to approach the mystery of God with profound humility and reverence.
+  His life remains a powerful example of the union between learning, contemplation and fidelity to the truth. Through his words and his witness, Saint Gregory of Nazianzus reminds the faithful that the deepest understanding of God requires not merely the power of the intellect, but also a heart transformed by prayer, humility and love.
   $desc$
 ),
 (
-	'saint-gregory-of-nazianzus',
-		'fr',
-		'Saint Grégoire de Nazianze fut un évêque, théologien et Docteur de l’Église du IVe siècle. L’un des Pères cappadociens, il joua un rôle majeur dans la défense de la foi chrétienne en la Trinité et de la divinité du Saint-Esprit. Célèbre pour son éloquence et ses profondes œuvres théologiques, il fut également un proche ami de saint Basile le Grand.',
-  $desc$
-  ## Saint Grégoire de Nazianze
+    'saint-gregory-nazianzen',
+    'fr',
+    'Saint Grégoire de Nazianze était un évêque, théologien et Docteur de l’Église du IVe siècle. L’un des Pères cappadociens, il joua un rôle majeur dans la défense de la foi chrétienne en la Sainte Trinité et de la divinité du Saint-Esprit. Réputé pour son éloquence dans la prédication et la profondeur de ses écrits théologiques, il était également un proche ami de saint Basile le Grand.',
+$desc$
+Saint Grégoire de Nazianze fut l’un des plus grands théologiens de l’Église primitive, réputé pour son éloquence, sa compréhension profonde de la foi chrétienne et sa défense inébranlable de la divinité du Saint-Esprit. Avec saint Basile le Grand et saint Grégoire de Nysse, il devint l’un des **Pères cappadociens**, dont les enseignements jouèrent un rôle décisif dans le développement de la doctrine chrétienne. Sa vie fut marquée par une tension constante entre son amour de la solitude et de la contemplation, et les exigences d’une Église profondément troublée par les controverses théologiques.
 
-  Saint Grégoire de Nazianze fut l’un des plus grands théologiens et prédicateurs de l’Église chrétienne primitive. Évêque, poète, écrivain spirituel et défenseur de la foi, il joua un rôle décisif dans l’explication et la défense de l’enseignement de l’Église sur la Sainte Trinité.
+### Une vie d’étude et de prière
 
-  Avec saint Basile le Grand et son contemporain saint Grégoire de Nysse, il est compté parmi les trois Pères cappadociens. Ses écrits théologiques, notamment ses célèbres *Discours théologiques*, comptent parmi les œuvres les plus importantes de la théologie chrétienne du IVe siècle.
+Grégoire naquit dans une famille chrétienne en Cappadoce, en Asie Mineure. Il reçut une formation approfondie à Césarée, à Alexandrie et à Athènes, où il noua une amitié durable avec saint Basile le Grand. Tous deux partageaient un profond amour du savoir et le désir de consacrer leur vie à Dieu. Bien que Grégoire ait d’abord poursuivi une carrière intellectuelle, il finit par embrasser le sacerdoce, tout en aspirant toujours à une vie paisible de prière et de contemplation. Son cheminement spirituel reflétait sa conviction que la recherche de la vérité divine exigeait non seulement une étude intellectuelle, mais aussi de l’humilité, la pureté du cœur et une vie consacrée à Dieu.
 
-  La vie de Grégoire fut marquée par un profond désir de Dieu, un amour de la contemplation et un sens aigu de la responsabilité envers l’Église. Bien qu’il ait souvent préféré une vie paisible de prière et d’étude, il accepta à plusieurs reprises des responsabilités difficiles lorsqu’il estimait que la foi et l’unité de l’Église l’exigeaient.
+### Défenseur de la Sainte Trinité
 
-  ## Une famille chrétienne
+Les dons théologiques de Grégoire prirent une importance particulière durant la controverse arienne, lorsque les débats sur la nature du Christ menaçaient l’unité de l’Église. À Constantinople, il prononça ses célèbres **Cinq Discours théologiques**, dans lesquels il défendit la divinité du Christ et du Saint-Esprit avec une clarté et une profondeur remarquables. Ces sermons lui valurent une réputation durable comme l’un des plus grands théologiens de l’Église. Son enseignement contribua à exprimer le mystère de la Sainte Trinité : un seul Dieu en trois Personnes distinctes, le Père, le Fils et le Saint-Esprit. Par son éloquence et sa fidélité à la foi apostolique, Grégoire joua un rôle important dans les débats théologiques entourant le premier concile de Constantinople.
 
-  Grégoire naquit vers l’an 329 à Arianzos, près de Nazianze, en Cappadoce. Son père, également appelé Grégoire, était d’abord attaché à une autre tradition religieuse avant de devenir chrétien, puis évêque de Nazianze.
+### Évêque de Constantinople
 
-  Sa mère, Nonna, était une chrétienne profondément pieuse et exerça une influence déterminante sur la foi de son fils. La famille de Grégoire devint étroitement liée à la vie de l’Église.
+Grégoire fut nommé évêque de Constantinople durant une période de profondes divisions religieuses. Sa prédication contribua à renforcer la position du christianisme nicéen dans une ville où les mouvements théologiques opposés conservaient une influence importante. Cependant, sa nomination et son autorité devinrent l’objet de controverses, et Grégoire finit par renoncer à sa charge épiscopale plutôt que de laisser des querelles personnelles troubler davantage l’Église. Il retourna en Cappadoce, où il consacra ses dernières années à la prière, à l’écriture et à la poésie, trouvant dans une vie plus retirée la liberté de poursuivre son œuvre spirituelle et littéraire.
 
-  Son frère Césaire devint un médecin renommé et servit à la cour impériale, tandis que sa sœur Gorgonie fut elle aussi reconnue pour sa foi chrétienne.
+### Un héritage théologique durable
 
-  Dès son enfance, Grégoire fut donc entouré par l’enseignement chrétien et développa un profond désir de consacrer sa vie à Dieu.
+Saint Grégoire a laissé une remarquable collection de discours théologiques, de lettres et de poèmes qui témoignent à la fois de son intelligence brillante et de sa foi profondément personnelle. Ses écrits explorent le mystère de Dieu, la dignité du Christ et les combats spirituels de la vie chrétienne. Honoré comme **Docteur de l’Église**, il est également traditionnellement connu sous le nom de *Grégoire le Théologien*, un titre qui reflète l’importance exceptionnelle de son enseignement.
 
-  ## Une remarquable formation
-
-  Grégoire reçut une formation classique très approfondie. Il étudia à Césarée de Cappadoce, puis à Césarée de Palestine, avant de poursuivre ses études à Alexandrie et à Athènes.
-
-  Athènes occupa une place particulièrement importante dans sa vie. Il y étudia la rhétorique et la littérature classique et y noua sa célèbre amitié avec Basile.
-
-  Leur amitié ne reposait pas seulement sur des intérêts intellectuels, mais sur un désir commun de rechercher Dieu et de vivre selon l’Évangile. Grégoire décrivit plus tard leur relation comme une amitié unie par le désir de sainteté.
-
-  Tous deux possédaient des dons intellectuels exceptionnels, mais ils cherchèrent à mettre leur savoir au service de la vérité chrétienne.
-
-  ## Une amitié avec saint Basile
-
-  L’amitié de Grégoire avec saint Basile le Grand devint l’une des amitiés les plus célèbres de l’histoire chrétienne.
-
-  Après leurs études à Athènes, les deux amis passèrent du temps ensemble en Cappadoce, menant une vie centrée sur la prière, l’Écriture et l’étude théologique.
-
-  Grégoire admirait le leadership et la discipline spirituelle de Basile, tandis que Basile appréciait l’éloquence remarquable et la profondeur théologique de Grégoire.
-
-  Leur collaboration allait devenir particulièrement importante lors des controverses théologiques du IVe siècle, lorsque l’Église défendait la doctrine chrétienne de la Trinité contre différentes interprétations qui niaient ou diminuaient la pleine divinité du Fils ou du Saint-Esprit.
-
-  ## Un prêtre qui aspirait à la solitude
-
-  Grégoire fut ordonné prêtre par son père, probablement contre son inclination première pour une vie davantage consacrée à la contemplation.
-
-  Il réfléchit profondément aux responsabilités du sacerdoce et du ministère pastoral. Ses écrits témoignent d’une conscience très forte de la responsabilité sacrée confiée à ceux qui enseignent et conduisent la communauté chrétienne.
-
-  Bien qu’il se soit parfois retiré dans la solitude, Grégoire revint à plusieurs reprises au service de l’Église lorsque les circonstances l’exigeaient.
-
-  Sa vie reflète ainsi une tension qui demeura importante tout au long de son ministère : le désir de contemplation et le devoir de servir l’Église.
-
-  ## Évêque de Constantinople
-
-  La mission publique la plus importante de Grégoire se déroula à Constantinople.
-
-  À cette époque, la ville était divisée par les controverses théologiques et la foi de Nicée rencontrait une forte opposition. Grégoire vint y prêcher et y enseigner dans un contexte particulièrement difficile.
-
-  Par sa prédication, notamment dans ses célèbres *Cinq Discours théologiques*, il présenta une explication profonde et rigoureuse de l’enseignement chrétien sur la Trinité.
-
-  Grégoire affirma la pleine divinité du Père, du Fils et du Saint-Esprit, tout en expliquant soigneusement la distinction entre les Personnes divines.
-
-  Sa prédication était intellectuellement exigeante mais également profondément spirituelle. Pour Grégoire, la théologie n’était pas simplement une discipline académique. Parler de Dieu exigeait respect, humilité et pureté du cœur.
-
-  ## Les Discours théologiques
-
-  Les *Discours théologiques* de Grégoire comptent parmi les chefs-d’œuvre de la théologie chrétienne ancienne.
-
-  Il y défendit la divinité du Fils et du Saint-Esprit et répondit aux doctrines qui remettaient en cause la compréhension de la Trinité par l’Église.
-
-  Il affirma que le Fils est véritablement Dieu et que le Saint-Esprit participe lui aussi pleinement à la vie divine. Son enseignement contribua considérablement au développement théologique qui serait exprimé par le premier concile de Constantinople en 381.
-
-  En raison de la profondeur et de la clarté de ses écrits, Grégoire reçut dans le christianisme oriental le titre de « Théologien ».
-
-  Ce titre ne désigne pas seulement ses capacités intellectuelles, mais aussi sa conviction qu’une véritable théologie doit naître d’une vie orientée vers Dieu.
-
-  ## Un évêque dans une période troublée
-
-  Grégoire fut finalement nommé évêque de Constantinople. Son épiscopat fut cependant marqué par de nombreuses oppositions et controverses.
-
-  Il rencontra des difficultés concernant sa nomination ainsi que la résistance de groupes opposés à la foi de Nicée. La situation politique et ecclésiastique était complexe, et Grégoire choisit finalement de renoncer à sa charge.
-
-  Sa décision ne constituait pas un rejet de l’Église. Il cherchait plutôt à éviter de nouvelles divisions et à préserver la paix de la communauté chrétienne.
-
-  Dans son discours d’adieu, Grégoire défendit son ministère et confia l’avenir de l’Église à Dieu.
-
-  ## Le concile de Constantinople
-
-  En 381, le premier concile de Constantinople se réunit afin d’examiner les questions théologiques qui divisaient le monde chrétien.
-
-  Grégoire fut initialement associé au concile et joua un rôle important dans son contexte théologique. Cependant, des désaccords concernant sa position contribuèrent finalement à sa renonciation au siège épiscopal de Constantinople.
-
-  Le concile confirma ensuite la foi de Nicée et exprima plus pleinement l’enseignement de l’Église concernant le Saint-Esprit.
-
-  La contribution théologique de Grégoire s’inscrit ainsi dans le développement plus large de la doctrine de l’Église sur la Trinité au cours de cette période décisive.
-
-  ## Le retour à la solitude
-
-  Après avoir quitté Constantinople, Grégoire retourna en Cappadoce. Il consacra ses dernières années à l’écriture, à la prière et à la méditation sur la foi chrétienne.
-
-  Il rédigea des œuvres théologiques, des poèmes, des lettres et de nombreuses réflexions spirituelles. Ses écrits révèlent à la fois la profondeur de sa pensée théologique et la sensibilité de sa vie spirituelle.
-
-  Grégoire était particulièrement conscient du mystère de Dieu et des limites du langage humain lorsqu’il s’agit de parler des réalités divines.
-
-  Pour lui, la théologie exigeait à la fois la précision intellectuelle et l’humilité devant le mystère de Dieu.
-
-  ## Un poète et écrivain spirituel
-
-  Grégoire ne fut pas seulement théologien et évêque. Il fut également un poète fécond.
-
-  Il écrivit de nombreux poèmes sur la doctrine chrétienne, l’Écriture, ses expériences personnelles, la souffrance, l’amitié et la recherche de Dieu.
-
-  Sa poésie révèle une dimension profondément personnelle qui complète ses écrits théologiques plus formels.
-
-  À travers ses poèmes, Grégoire exprima les difficultés de la vie chrétienne, les blessures provoquées par les divisions au sein de l’Église et son désir de paix et de communion avec Dieu.
-
-  ## Un théologien de la Trinité
-
-  La contribution théologique la plus durable de Grégoire concerne le mystère de la Sainte Trinité.
-
-  Il contribua à aider les chrétiens à exprimer la foi en un seul Dieu en trois Personnes divines : le Père, le Fils et le Saint-Esprit.
-
-  Il affirma que le Fils est véritablement Dieu et que le Saint-Esprit est lui aussi véritablement Dieu. En même temps, il distingua soigneusement les Personnes divines sans diviser Dieu en trois dieux.
-
-  Son enseignement devint une référence majeure pour la théologie chrétienne ultérieure.
-
-  Pour Grégoire, la théologie n’était pas une simple spéculation philosophique. La vérité sur Dieu était inséparable du salut. Si le Christ n’était pas véritablement Dieu, la compréhension chrétienne du salut serait profondément transformée. Si le Saint-Esprit n’était pas véritablement divin, l’expérience chrétienne de la présence sanctifiante de Dieu serait également incomprise.
-
-  ## Un homme de contemplation
-
-  Malgré ses importantes responsabilités publiques, Grégoire conserva un profond désir de solitude et de contemplation.
-
-  Il aspirait à une vie consacrée à la prière, à l’Écriture et à la contemplation de Dieu. Les exigences de la direction ecclésiastique furent souvent lourdes pour lui.
-
-  Cet aspect de sa vie en fait un témoin particulièrement humain de la foi. Grégoire ne vécut pas sa vocation comme un chemin simple et sans difficultés. Il connut les tensions du ministère tout en cherchant à demeurer fidèle à l’appel de Dieu.
-
-  Ses écrits montrent que le service de l’Église peut comporter sacrifices, incompréhensions et souffrances, tout en demeurant un chemin de sainteté.
-
-  ## Docteur de l’Église
-
-  L’Église catholique honore Grégoire de Nazianze comme Docteur de l’Église et comme l’un des grands Pères du christianisme.
-
-  Avec Basile le Grand et Grégoire de Nysse, il est reconnu comme l’un des Pères cappadociens. Ses écrits théologiques exercèrent une influence particulièrement importante sur la compréhension chrétienne de la Trinité.
-
-  La tradition chrétienne orientale lui donne également le titre de « Théologien », titre partagé par un nombre très restreint de saints chrétiens.
-
-  ## Sa mort et son héritage
-
-  Grégoire mourut vers l’an 390 dans la région de Nazianze, après avoir consacré ses dernières années à la prière et à l’écriture.
-
-  Son héritage continua de grandir après sa mort. Ses œuvres théologiques devinrent fondamentales pour la réflexion chrétienne sur la Trinité, tandis que ses sermons et ses poèmes continuèrent de nourrir la spiritualité chrétienne.
-
-  Il est resté dans la mémoire de l’Église non seulement comme un théologien exceptionnel, mais comme un homme qui chercha à unir la vérité intellectuelle et la sainteté de vie.
-
-  ## Un modèle de sagesse chrétienne
-
-  Saint Grégoire de Nazianze demeure un remarquable exemple de sagesse chrétienne.
-
-  Il enseigne que parler de Dieu exige à la fois connaissance et humilité. Il rappelle aux chrétiens que la vérité théologique n’est pas seulement un exercice intellectuel, mais un mystère qui doit conduire à l’adoration, à la prière et à la sainteté.
-
-  Son amitié avec saint Basile montre la puissance spirituelle de l’amitié chrétienne. Ses années de ministère révèlent le prix du service de l’Église dans les périodes de division. Ses dernières années dans la solitude manifestent son profond désir de demeurer proche de Dieu.
-
-  Saint Grégoire le Théologien fut évêque, prédicateur, poète et défenseur de la foi. Mais avant tout, il fut un chrétien qui chercha à connaître Dieu, à proclamer la vérité de l’Évangile et à conduire les hommes vers le mystère de la Sainte Trinité.
-
-  Sa vie et ses écrits continuent d’inviter les chrétiens à chercher Dieu avec l’intelligence et avec le cœur, à défendre la foi avec charité et courage, et à s’approcher du mystère de Dieu avec une profonde humilité et un grand respect.
-  $desc$
+Sa vie demeure un exemple puissant d’union entre le savoir, la contemplation et la fidélité à la vérité. Par ses paroles et son témoignage, saint Grégoire de Nazianze rappelle aux fidèles que la compréhension la plus profonde de Dieu exige non seulement les capacités de l’intelligence, mais aussi un cœur transformé par la prière, l’humilité et l’amour.
+$desc$
 ),
 (
-	'saint-gregory-of-nazianzus',
-		'la',
-		'Sacerdos Gregorius Nazianzenus fuit episcopus, theologus et Doctor Ecclesiae saeculi quarti. Unus ex Patribus Cappadocibus, magni momenti fuit in defensione fidei christianae in Sanctam Trinitatem et divinitatem Spiritus Sancti. Propter eloquentiam praedicationis et profunditatem scripturarum theologicarum celebratus, etiam amicus intimus sancti Basilii Magni fuit.',
-  $desc$
-  ## Sanctus Gregorius Nazianzenus
+    'saint-gregory-nazianzen',
+    'la',
+    'Sanctus Gregorius Nazianzenus episcopus, theologus et Ecclesiae Doctor saeculi quarti fuit. Unus ex Patribus Cappadocibus, magnum munus egit in defensione fidei christianae in Sanctam Trinitatem et divinitatis Spiritus Sancti. Eloquentia praedicationis et profundis scriptis theologicis notus, etiam amicus intimus sancti Basilii Magni fuit.',
+$desc$
+Sanctus Gregorius Nazianzenus unus ex maximis theologis Ecclesiae primaevae fuit, eloquentia, profunda fidei christianae intellegentia et constanti divinitatis Spiritus Sancti defensione celebratus. Una cum sancto Basilio Magno et sancto Gregorio Nysseno, unus ex **Patribus Cappadocibus** factus est, quorum doctrina munus decisivum in progressu doctrinae christianae egit. Vita eius continua tensione inter amorem solitudinis et contemplationis atque Ecclesiae necessitatibus, quae gravibus controversiis theologicis turbabatur, insignita est.
 
-  Sanctus Gregorius Nazianzenus unus ex maximis theologis et praedicatoribus Ecclesiae christianae antiquae fuit. Episcopus, poeta, scriptor spiritualis et defensor fidei, munus decisivum egit in explicatione et defensione doctrinae Ecclesiae de Sancta Trinitate.
+### Vita studii et orationis
 
-  Una cum sancto Basilio Magno et sancto Gregorio Nysseno, inter tres Patres Cappadoces numeratur. Scripta eius theologica, praesertim celeberrimi *Orationes Theologicae*, inter praecipua opera theologiae christianae saeculi quarti numerantur.
+Gregorius in familia christiana in Cappadocia, Asia Minore, natus est. Amplam institutionem Caesareae, Alexandriae et Athenis accepit, ubi amicitiam perpetuam cum sancto Basilio Magno iniit. Ambo magnum studii amorem et desiderium vitam suam Deo dedicandi communicabant. Quamquam Gregorius initio curriculum intellectuale secutus est, tandem sacerdotium suscepit, dum quietam vitam orationis et contemplationis desiderare pergebat. Iter spirituale eius persuasionem manifestabat qua veritatis divinae investigatio non solum studium intellectuale, sed etiam humilitatem, cordis puritatem et vitam Deo dedicatam postularet.
 
-  Vita Gregorii profundo Dei desiderio, amore contemplationis et acri conscientia responsabilitatis erga Ecclesiam insignita est. Quamvis saepe vitam quietam orationis et studii mallet, difficilia officia saepe accepit cum fidem et unitatem Ecclesiae id postulare crederet.
+### Defensor Sanctissimae Trinitatis
 
-  ## Familia christiana
+Dona theologica Gregorii praesertim tempore controversiae Arianae magni momenti facta sunt, cum disputationes de natura Christi unitatem Ecclesiae minarentur. Constantinopoli celeberrimas suas **Quinque Orationes Theologicas** habuit, in quibus divinitatem Christi et Spiritus Sancti mira claritate et profunditate defendit. Hae orationes ei famam perennem tamquam uni ex maximis Ecclesiae theologis pepererunt. Doctrina eius mysterium Sanctissimae Trinitatis exprimere adiuvit: unum Deum in tribus Personis distinctis, Patre, Filio et Spiritu Sancto. Per eloquentiam suam et fidelitatem erga fidem apostolicam, Gregorius magnum momentum in disputationibus theologicis circa Primum Concilium Constantinopolitanum habuit.
 
-  Gregorius circa annum 329 Arianzis, prope Nazianzum in Cappadocia, natus est. Pater eius, qui etiam Gregorius vocabatur, initio alteri religiosae traditioni adhaerebat, antequam christianus fieret et postea episcopus Nazianzenus.
+### Episcopus Constantinopolitanus
 
-  Mater eius, Nonna, christiana valde pia erat et magnam vim in fide filii sui habuit. Familia Gregorii arcte cum vita Ecclesiae coniuncta facta est.
+Gregorius episcopus Constantinopolitanus nominatus est tempore magnarum divisionum religiosarum. Praedicatio eius christianismi Nicaeni positionem firmare adiuvit in urbe ubi motus theologici contrarii adhuc magnam auctoritatem habebant. Attamen nominatio et auctoritas eius controversiae subiectae sunt, atque Gregorius tandem muneri episcopali renuntiavit, ne controversiae personales Ecclesiam ulterius perturbarent. In Cappadociam rediit, ubi reliquos vitae suae annos orationi, scriptis et poesi dedicavit, in vita quietiore libertatem inveni ens ad opera spiritualia et litteraria continuanda.
 
-  Frater eius Caesarius medicus clarus factus est et apud aulam imperialem servivit, dum soror eius Gorgonia etiam propter fidem christianam honorata est.
+### Permanens hereditas theologica
 
-  Ab infantia igitur Gregorius doctrina christiana circumdatus est et magnum desiderium evolvit vitam suam Deo consecrandi.
+Sanctus Gregorius insignem collectionem orationum theologicarum, epistularum et carminum reliquit, quae et ingenium eius praestans et fidem eius penitus personalem demonstrant. Scripta eius mysterium Dei, dignitatem Christi et certamina spiritualia vitae christianae explorant. **Doctor Ecclesiae** honoratus, etiam tradito nomine *Gregorius Theologus* appellatur, titulo qui momentum singulare doctrinae eius significat.
 
-  ## Praeclara institutio
-
-  Gregorius amplam educationem classicam accepit. Caesareae Cappadociae studuit, deinde Caesareae Palaestinae, atque postea Alexandreae et Athenis studia sua prosecutus est.
-
-  Athenae praesertim magni momenti in vita eius fuerunt. Ibi rhetoricam et litteras classicas didicit atque celeberrimam amicitiam cum Basilio iniit.
-
-  Amicitia eorum non solum in studiis intellectualibus fundata erat, sed in communi desiderio Deum quaerendi et secundum Evangelium vivendi. Gregorius postea eorum relationem tamquam amicitiam sanctitatis desiderio coniunctam descripsit.
-
-  Uterque extraordinariis facultatibus intellectualibus praeditus erat, sed scientiam suam veritati christianae servire quaerebant.
-
-  ## Amicitia cum sancto Basilio
-
-  Amicitia Gregorii cum sancto Basilio Magno una ex celeberrimis amicitiis historiae christianae facta est.
-
-  Post studia Athenis, duo amici in Cappadocia una aliquamdiu manserunt, vitam orationi, Scripturae et studio theologico deditam agentes.
-
-  Gregorius Basilii moderationem et disciplinam spiritualem admirabatur, dum Basilius Gregorii singularem eloquentiam et profundam intelligentiam theologicam aestimabat.
-
-  Collaboratio eorum magni momenti futura erat in controversiis theologicis saeculi quarti, cum Ecclesia doctrinam christianam de Trinitate contra diversas opiniones defenderet quae plenam divinitatem Filii aut Spiritus Sancti negabant vel minuebant.
-
-  ## Presbyter qui solitudinem desiderabat
-
-  Gregorius a patre suo sacerdos ordinatus est, probabiliter contra primam inclinationem suam ad vitam contemplationi magis deditam.
-
-  Deinde de responsabilitatibus sacerdotii et ministerii pastoralis alte cogitavit. Scripta eius magnam conscientiam ostendunt de sacra responsabilitate illis commissa qui communitatem christianam docent et pascunt.
-
-  Quamvis interdum in solitudinem se reciperet, Gregorius ad servitium Ecclesiae pluries rediit cum res id postulabant.
-
-  Vita eius sic tensionem ostendit quae per totum ministerium eius magni momenti mansit: desiderium contemplationis et officium Ecclesiae serviendi.
-
-  ## Episcopus Constantinopolitanus
-
-  Praecipuum ministerium publicum Gregorii Constantinopoli factum est.
-
-  Eo tempore civitas controversiis theologicis divisa erat et fides Nicaena magnam oppositionem patiebatur. Gregorius eo venit ut praedicaret et doceret in difficillimis adiunctis.
-
-  Per praedicationem suam, praesertim per celeberrimas *Quinque Orationes Theologicas*, profundam et accuratam expositionem doctrinae christianae de Trinitate praebuit.
-
-  Gregorius plenam divinitatem Patris, Filii et Spiritus Sancti affirmavit, simulque distinctionem inter Personas divinas diligenter exposuit.
-
-  Praedicatio eius intellectualiter profunda erat, sed etiam valde spiritualis. Pro Gregorio theologia non erat simpliciter disciplina academica. Loqui de Deo reverentiam, humilitatem et cordis puritatem requirebat.
-
-  ## Orationes Theologicae
-
-  *Orationes Theologicae* Gregorii inter maxima opera theologiae christianae antiquae numerantur.
-
-  In eis divinitatem Filii et Spiritus Sancti defendit atque doctrinas respondit quae Ecclesiae intellectum de Trinitate impugnabant.
-
-  Affirmavit Filium vere Deum esse et Spiritum Sanctum etiam plene vitae divinae participare. Doctrina eius magnopere contulit ad theologicae doctrinae progressionem quae in Concilio Constantinopolitano I anno 381 exprimenda erat.
-
-  Propter profunditatem et claritatem scripturarum suarum, Gregorius in traditione christiana Orientali « Theologus » appellatus est.
-
-  Hoc nomen non solum eius facultates intellectuales significat, sed etiam eius convictionem veram theologiam ex vita ad Deum directa oriri debere.
-
-  ## Episcopus temporibus turbulentis
-
-  Gregorius tandem episcopus Constantinopolitanus factus est. Episcopatus eius tamen multis oppositionibus et controversiis insignitus fuit.
-
-  Difficultates de eius nominatione et resistentiam a coetibus fidei Nicaenae adversantibus expertus est. Situatio politica et ecclesiastica complexa erat, et Gregorius tandem muneri suo renuntiare elegit.
-
-  Haec decisio Ecclesiae repudiationem non significabat. Potuissent enim ulteriora divisiones vitari atque pax communitatis christianae servari.
-
-  In oratione valedictoria Gregorius ministerium suum defendit et futurum Ecclesiae Deo commendavit.
-
-  ## Concilium Constantinopolitanum
-
-  Anno 381 Concilium Constantinopolitanum I congregatum est ad quaestiones theologicas quae mundum christianum dividebant tractandas.
-
-  Gregorius initio concilio associatus est et in eius contextu theologico magni momenti fuit. Sed dissensiones circa eius positionem tandem ad renuntiationem eius ab episcopali sede Constantinopolitana contulerunt.
-
-  Concilium postea fidem Nicaenam confirmavit et doctrinam Ecclesiae de Spiritu Sancto plenius expressit.
-
-  Contributio theologica Gregorii sic ad maiorem progressionem doctrinae Ecclesiae de Trinitate hoc tempore decisivo pertinet.
-
-  ## Reditus ad solitudinem
-
-  Postquam Constantinopolim reliquit, Gregorius in Cappadociam rediit. Ultimos annos suos scripturae, orationi et meditationi de fide christiana dedicavit.
-
-  Opera theologica, carmina, epistulas et meditationes spirituales composuit. Scripta eius simul profunditatem intellectus theologici et subtilitatem vitae spiritualis ostendunt.
-
-  Gregorius praesertim conscius erat mysterii Dei et limitum sermonis humani cum de rebus divinis agitur.
-
-  Pro eo theologia tam accuratam intelligentiam quam humilitatem coram mysterio Dei requirebat.
-
-  ## Poeta et scriptor spiritualis
-
-  Gregorius non solum theologus et episcopus fuit. Etiam poeta fecundus erat.
-
-  Multa carmina de doctrina christiana, Scriptura, experimentis personalibus, passione, amicitia et Dei quaerendo composuit.
-
-  Poesis eius dimensionem profundissime personalem revelat quae scripta theologica formalia complet.
-
-  Per carmina sua Gregorius difficultates vitae christianae, vulnera divisionum intra Ecclesiam et desiderium pacis atque communionis cum Deo expressit.
-
-  ## Theologus de Trinitate
-
-  Praecipua et diuturnissima contributio theologica Gregorii ad mysterium Sanctae Trinitatis pertinet.
-
-  Christianos adiuvit ad fidem exprimendam in unum Deum in tribus Personis divinis: Patre, Filio et Spiritu Sancto.
-
-  Affirmavit Filium vere Deum esse et Spiritum Sanctum etiam vere Deum esse. Simul Personas divinas diligenter distinxit sine Deo in tres deos dividendo.
-
-  Doctrina eius magni momenti facta est ad theologiam christianam posteriorem.
-
-  Theologia Gregorii non erat mera speculatio philosophica. Veritas de Deo, secundum eum, a salute inseparabilis erat. Si Christus vere Deus non esset, intellectus christianus salutis penitus mutaretur. Si Spiritus Sanctus vere divinus non esset, experientia christiana praesentiae sanctificantis Dei etiam male intellegeretur.
-
-  ## Vir contemplationis
-
-  Quamvis magnas responsabilitates publicas haberet, Gregorius altum desiderium solitudinis et contemplationis retinuit.
-
-  Vitam orationi, Scripturae et contemplationi Dei deditam desiderabat. Onus gubernationis ecclesiasticae saepe grave ei erat.
-
-  Haec vitae eius pars eum praesertim humanum fidei testem facit. Gregorius vocationem suam non tamquam iter simplex et sine difficultatibus experiebatur. Ministerii exigentias patiebatur, dum fidelis vocationi Dei manere conabatur.
-
-  Scripta eius ostendunt servitium Ecclesiae sacrificia, incomprehensiones et passiones secum ferre posse, dum tamen via sanctitatis manet.
-
-  ## Doctor Ecclesiae
-
-  Ecclesia Catholica Gregorium Nazianzenum tamquam Doctorem Ecclesiae et unum ex magnis Patribus christianitatis honorat.
-
-  Una cum Basilio Magno et Gregorio Nysseno, unus ex Patribus Cappadocibus habetur. Scripta eius theologica praecipue magni momenti fuerunt ad intellectum christianum de Trinitate.
-
-  Traditio christiana Orientalis etiam ei titulum « Theologi » tribuit, qui solum paucissimis sanctis christianis datus est.
-
-  ## Mors et hereditas
-
-  Gregorius circa annum 390 in regione Nazianzi mortuus est, postquam ultimos annos suos orationi et scripturae dedicavit.
-
-  Hereditas eius post mortem crescere perrexit. Opera eius theologica fundamentalia facta sunt ad cogitationem christianam de Trinitate, dum sermones et carmina eius spiritualitatem christianam nutrire pergunt.
-
-  Memoratur non solum tamquam theologus egregius, sed etiam tamquam vir qui veritatem intellectualem cum sanctitate vitae coniungere quaesivit.
-
-  ## Exemplar sapientiae christianae
-
-  Sanctus Gregorius Nazianzenus extraordinarium sapientiae christianae exemplum manet.
-
-  Docet de Deo loqui scientiam simul et humilitatem requirere. Christianos admonet veritatem theologicam non esse solum exercitium intellectuale, sed mysterium quod ad adorationem, orationem et sanctitatem ducere debet.
-
-  Amicitia eius cum sancto Basilio vim spiritualem amicitiae christianae ostendit. Anni ministerii eius pretium servitii Ecclesiae temporibus divisionis revelant. Postrema eius tempora in solitudine altum desiderium Deo propinquum manendi manifestant.
-
-  Sanctus Gregorius Theologus episcopus, praedicator, poeta et fidei defensor fuit. Ante omnia autem christianus fuit qui Deum cognoscere, veritatem Evangelii annuntiare et homines ad mysterium Sanctae Trinitatis ducere quaesivit.
-
-  Vita et scripta eius christianos adhuc invitant ad Deum mente et corde quaerendum, fidem cum caritate et fortitudine defendendam, atque ad mysterium Dei cum profunda humilitate et reverentia accedendum.
-  $desc$
+Vita eius exemplum validum manet coniunctionis inter doctrinam, contemplationem et fidelitatem erga veritatem. Per verba sua et testimonium vitae, sanctus Gregorius Nazianzenus fidelibus commemorat profundissimam Dei intellegentiam non solum vim intellectus, sed etiam cor oratione, humilitate et amore transformatum requirere.
+$desc$
 )
 ) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
 WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
@@ -2017,498 +439,84 @@ FROM saints s JOIN (VALUES
 		'en',
 		'Saint Raymond of Penyafort was a thirteenth-century Spanish Dominican friar, priest, theologian and canon lawyer. Known for his deep learning, humility and dedication to the Church, he helped organize the Church''s canon law and served as Master of the Order of Preachers. He is also remembered for his work in preaching, the conversion of Muslims and Jews, and the spiritual formation of priests and missionaries.',
   $desc$
-  ## Saint Raymond of Penyafort
+  Saint Raymond of Penyafort was a Spanish Dominican priest, theologian and jurist whose learning and devotion made him one of the most influential figures in the development of canon law. Renowned for his wisdom, humility and pastoral charity, he devoted his life to the service of the Church, helping to guide both clergy and faithful through his teaching and counsel. His work combined a profound understanding of ecclesiastical law with a sincere concern for the salvation of souls, reflecting his conviction that knowledge must always be placed at the service of God.
 
-  Saint Raymond of Penyafort was one of the great Dominican scholars and Churchmen of the thirteenth century. A priest, theologian, canon lawyer and religious superior, he devoted his long life to the service of the Church and the spread of the Gospel.
+  ### A Life of Study and Religious Vocation
 
-  His name is particularly associated with the development of canon law. He was commissioned by Pope Gregory IX to organize a great collection of papal decretals, a work that became an important foundation for the study and practice of canon law for centuries.
+  Raymond was born near Barcelona, in Catalonia, into a noble family. Gifted with exceptional intellectual abilities, he pursued the study of philosophy and law before becoming a teacher. He later joined the Dominican Order, attracted by its commitment to preaching, learning and the spiritual renewal of the Church. Embracing religious life with humility, he devoted himself to prayer, study and the formation of others, seeking to unite intellectual excellence with personal holiness.
 
-  Yet Raymond was much more than a scholar. His life was marked by prayer, humility, pastoral concern and a deep desire to help the Church proclaim Christ. He also worked to prepare missionaries for preaching among Muslims and Jews and encouraged the intellectual and spiritual formation necessary for this difficult apostolic work.
+  ### A Great Teacher of Canon Law
 
-  ## A learned young man from Catalonia
+  Raymond's legal knowledge brought him to the attention of Pope Gregory IX, who entrusted him with the important task of collecting and organising papal decrees. The resulting work, known as the *Decretals of Gregory IX*, became a foundational text of canon law and remained influential for centuries. Raymond's scholarship helped bring greater order and consistency to the Church's legal tradition, while his practical wisdom made him a trusted adviser in matters of ecclesiastical discipline. Despite his learning and reputation, he remained deeply humble, regarding his gifts as a responsibility rather than a source of personal glory.
 
-  Raymond was born around the year 1175 at the castle of Penyafort, near Barcelona, in Catalonia.
+  ### Master General of the Dominicans
 
-  He came from a noble family and received an excellent education. From an early age, he showed remarkable intellectual ability and a serious desire for learning.
+  Raymond was elected Master General of the Dominican Order in 1238. During his leadership, he worked to strengthen religious discipline, encourage study and support the Order's mission of preaching. He also contributed to the development of moral theology, particularly through his writings on the duties of confessors and the administration of the sacrament of Penance. After resigning from his office, he returned to Spain, where he continued to devote himself to teaching, pastoral guidance and the spiritual welfare of others.
 
-  He studied liberal arts and later law at the University of Bologna, one of the most important centres of learning in medieval Europe. There he became deeply immersed in the study of both civil and canon law.
+  ### Charity and Apostolic Zeal
 
-  His intellectual gifts could have led him towards a successful academic or legal career. Instead, Raymond increasingly understood his knowledge as something that should be placed at the service of God and the Church.
+  Raymond showed particular concern for the conversion of non-Christians and the instruction of those who wished to understand the Christian faith. Tradition associates him with the establishment of centres for the study of Arabic and Hebrew, intended to prepare missionaries for their work. He also encouraged Saint Peter Nolasco in the mission of the Order of Our Lady of Mercy, dedicated to the redemption of Christians held in captivity. His apostolic zeal was accompanied by a life of prayer and penance, revealing a spirituality rooted in both intellectual discipline and compassion.
 
-  ## A professor and priest
+  ### A Legacy of Wisdom and Holiness
 
-  After completing his studies, Raymond taught canon law at Bologna and gained a reputation as a gifted teacher and scholar.
-
-  During this period, he was ordained a priest. His growing reputation for wisdom and virtue eventually brought him into contact with leading figures of the Church.
-
-  Raymond could have remained comfortably within the academic world, but his vocation was leading him towards a deeper commitment to religious life.
-
-  In 1222, he entered the Order of Preachers, founded only a few years earlier by Saint Dominic.
-
-  The Dominican ideal of combining prayer, study and preaching suited Raymond particularly well. He would spend the rest of his life seeking to unite intellectual work with apostolic service.
-
-  ## A Dominican dedicated to preaching
-
-  As a Dominican, Raymond became deeply involved in preaching and the spiritual formation of Christians.
-
-  He understood that theological knowledge was not an end in itself. The purpose of learning was to know the truth more deeply and to communicate it faithfully to others.
-
-  His work also included helping priests with the moral and pastoral questions they encountered in their ministry. He understood the importance of forming consciences carefully and of administering the Sacrament of Penance with both truth and mercy.
-
-  His concern for the spiritual life of priests would remain an important part of his ministry.
-
-  ## The *Summa de casibus poenitentiae*
-
-  One of Raymond's most influential works was the *Summa de casibus poenitentiae*, a manual designed to help confessors deal with questions arising in the Sacrament of Penance.
-
-  The work gathered theological and canonical principles concerning sin, repentance, restitution and pastoral responsibility.
-
-  Its purpose was practical: priests needed sound guidance when helping people examine their consciences and return to God.
-
-  Raymond's work therefore reflects an important aspect of his spirituality. He believed that the law of the Church should serve the salvation of souls.
-
-  Canon law was not merely a collection of regulations. Properly understood, it helped the Church preserve order, justice and the spiritual good of her members.
-
-  ## Adviser to Pope Gregory IX
-
-  Raymond's knowledge of canon law eventually brought him to the attention of Pope Gregory IX.
-
-  The pope entrusted him with an important task: organizing the numerous papal decretals and other canonical texts that had accumulated over the centuries.
-
-  Raymond compiled what became known as the *Decretals of Gregory IX*, also called the *Liber Extra*, completed in 1234.
-
-  This immense collection organized papal legislation into a coherent legal system and became one of the fundamental texts of medieval canon law.
-
-  Raymond's contribution was therefore not simply academic. His work helped provide the Church with a clearer and more systematic framework for ecclesiastical law.
-
-  ## Master of the Order of Preachers
-
-  In 1238, Raymond was elected Master of the Order of Preachers, succeeding Saint Dominic's early successors in guiding the rapidly expanding Dominican family.
-
-  He accepted the responsibility reluctantly, preferring a quieter life of study and prayer. Nevertheless, he understood the position as a service to the Church and to his religious brothers.
-
-  As Master, he worked to strengthen the discipline and spiritual life of the order.
-
-  He also helped establish clear norms for Dominican religious life and encouraged the friars to remain faithful to their vocation of prayer, study and preaching.
-
-  After only a few years, however, Raymond resigned from the office. He returned to Spain and spent the remainder of his life in Barcelona.
-
-  ## A missionary heart
-
-  Raymond had a particular concern for the conversion of non-Christians and for the preparation of missionaries.
-
-  He strongly supported the study of Arabic and other languages so that missionaries could communicate the Christian faith intelligently and respectfully.
-
-  He encouraged the Dominican friars to acquire the intellectual and linguistic preparation necessary for preaching among Muslims and Jews.
-
-  His missionary vision was connected with his conviction that the Gospel should be proclaimed through both truth and reason.
-
-  He believed that missionaries needed serious theological education rather than relying only on enthusiasm. They had to understand the Christian faith deeply and be capable of explaining it to people from different religious and cultural backgrounds.
-
-  ## His relationship with Saint Peter Nolasco
-
-  Raymond is traditionally associated with Saint Peter Nolasco and the foundation of the Order of Our Lady of Mercy, the Mercedarians.
-
-  According to the traditional account, Raymond helped Peter Nolasco develop the spiritual and ecclesial foundations of the order, whose members dedicated themselves to the redemption of Christians held captive.
-
-  Medieval Christian society was deeply affected by the capture and enslavement of people during conflicts between Christian and Muslim powers. The Mercedarian vocation sought to respond to this suffering through the liberation of captives.
-
-  Raymond's concern for Christian prisoners therefore formed part of his wider understanding of mercy and service.
-
-  ## The famous journey with King James
-
-  One of the best-known traditions concerning Raymond involves King James I of Aragon.
-
-  According to the traditional account, Raymond accompanied the king to the island of Majorca during efforts to spread Christianity there. Raymond later wished to leave the island when he discovered that the king was acting contrary to Christian morality.
-
-  When the king refused to allow him to leave, the tradition says that Raymond miraculously crossed the sea from Majorca to Barcelona using his Dominican cloak as a sail.
-
-  The story became one of the most famous miracles associated with his life.
-
-  Whether considered as a devotional tradition rather than a detail established by contemporary historical documentation, the story expresses something central to the memory of Raymond: his determination to place fidelity to God above favour with powerful people.
-
-  ## A life of humility
-
-  Despite his learning and the important positions he held, Raymond was remembered for his humility.
-
-  He had served as adviser to a pope, compiled one of the most important canonical collections of the Middle Ages and led the Dominican Order. Yet he repeatedly sought to withdraw from positions of authority when he believed they interfered with his vocation to prayer and service.
-
-  His life illustrates the Christian conviction that intellectual gifts and ecclesiastical authority are not possessions to be used for personal glory. They are responsibilities entrusted by God for the good of others.
-
-  ## A long life of service
-
-  Raymond lived to an unusually old age for his time. After returning to Barcelona, he continued to preach, teach and encourage the Dominican mission.
-
-  He remained deeply involved in the spiritual life of the order and continued to advise clergy and religious.
-
-  Even in old age, he retained a strong interest in the evangelization of peoples who had not yet embraced Christianity.
-
-  His final years were characterized by prayer, study and service rather than retirement from the Christian mission.
-
-  ## Death and canonization
-
-  Saint Raymond died in Barcelona on 6 January 1275, at the age of around one hundred years according to the traditional chronology of his life.
-
-  His reputation for holiness spread rapidly after his death. He was canonized by Pope Clement VIII in 1601.
-
-  The Church remembers him especially as a model for priests, confessors, theologians, canon lawyers and missionaries.
-
-  His liturgical feast is traditionally celebrated on 7 January.
-
-  ## Patron of canon lawyers
-
-  Raymond's extraordinary contribution to canon law has given him a particular place in the history of the Church.
-
-  He is regarded as a patron of canon lawyers and is especially remembered by those whose work involves the legal and pastoral structures of the Catholic Church.
-
-  His example reminds Christians that law and mercy should not be opposed. Church law exists within the larger mission of the Church, whose purpose is the salvation of souls and the faithful transmission of the Gospel.
-
-  ## A model of wisdom and mercy
-
-  Saint Raymond of Penyafort brought together qualities that are sometimes treated as separate: scholarship and pastoral care, law and mercy, contemplation and missionary zeal.
-
-  He was a brilliant jurist who remained attentive to the spiritual needs of ordinary Christians. He served a pope but remained humble. He led the Dominican Order but preferred a quiet life of prayer. He studied the law of the Church while constantly keeping before him the salvation of souls.
-
-  His life teaches that Christian learning should lead to service. Knowledge becomes fruitful when it helps the Church teach the truth, guide consciences, protect justice and bring people closer to Christ.
-
-  Saint Raymond of Penyafort remains an inspiring witness to the harmony between faith and reason, intellectual discipline and charity, ecclesial responsibility and humility.
-
-  His long life was dedicated to Christ, to the Church and to the salvation of souls. Through his teaching, his legal work, his preaching and his concern for missionaries, he helped strengthen the Church during a decisive period of Christian history.
-
-  He is remembered as a learned Dominican, a faithful priest, a wise counsellor and a humble servant of God whose gifts were placed entirely at the service of the Gospel.
+  Saint Raymond of Penyafort is remembered as a model of Dominican learning, pastoral responsibility and humility. His contribution to canon law shaped the governance of the Church for generations, while his dedication to the sacrament of Penance reflected his desire to lead souls towards reconciliation with God. Honoured as a patron of canonists and lawyers, he remains an example of how scholarship, justice and charity can serve a common spiritual purpose. His life teaches that true wisdom is not measured by knowledge alone, but by the fidelity and love with which that knowledge is offered in the service of God and neighbour.
   $desc$
 ),
 (
-	'saint-raymond-of-penyafort',
-		'fr',
-		'Saint Raymond de Penyafort fut un religieux dominicain, prêtre, théologien et grand juriste canonique espagnol du XIIIe siècle. Reconnu pour son intelligence, son humilité et son dévouement à l’Église, il contribua à organiser le droit canonique et devint maître de l’Ordre des Prêcheurs. Il est également connu pour son œuvre missionnaire, son souci de la formation des prêtres et son désir de faire connaître le Christ aux peuples qui ne connaissaient pas encore l’Évangile.',
-  $desc$
-  ## Saint Raymond de Penyafort
+    'saint-raymond-of-penyafort',
+    'fr',
+    'Saint Raymond de Peñafort était un religieux dominicain espagnol du XIIIe siècle, prêtre, théologien et juriste canoniste. Réputé pour son grand savoir, son humilité et son dévouement à l’Église, il contribua à organiser le droit canonique de l’Église et exerça la fonction de maître de l’Ordre des Prêcheurs. Il est également connu pour son engagement dans la prédication, la conversion des musulmans et des juifs, ainsi que la formation spirituelle des prêtres et des missionnaires.',
+$desc$
+Saint Raymond de Peñafort était un prêtre dominicain espagnol, théologien et juriste dont le savoir et la dévotion firent de lui l’une des figures les plus influentes dans le développement du droit canonique. Réputé pour sa sagesse, son humilité et sa charité pastorale, il consacra sa vie au service de l’Église, guidant le clergé et les fidèles par son enseignement et ses conseils. Son œuvre associait une profonde compréhension du droit ecclésiastique à une préoccupation sincère pour le salut des âmes, reflétant sa conviction que le savoir devait toujours être mis au service de Dieu.
 
-  Saint Raymond de Penyafort fut l’un des grands religieux et intellectuels dominicains du XIIIe siècle. Prêtre, théologien, juriste et supérieur religieux, il consacra sa longue vie au service de l’Église et à l’annonce de l’Évangile.
+### Une vie d’étude et une vocation religieuse
 
-  Son nom est particulièrement associé au développement du droit canonique. Le pape Grégoire IX lui confia la mission de rassembler et d’organiser les nombreuses décisions pontificales qui formaient alors une partie importante du droit de l’Église. Son travail devint une référence majeure pour l’étude du droit canonique pendant plusieurs siècles.
+Raymond naquit près de Barcelone, en Catalogne, au sein d’une famille noble. Doté de capacités intellectuelles exceptionnelles, il étudia la philosophie et le droit avant de devenir enseignant. Il rejoignit ensuite l’Ordre dominicain, attiré par son engagement en faveur de la prédication, du savoir et du renouveau spirituel de l’Église. Embrassant la vie religieuse avec humilité, il se consacra à la prière, à l’étude et à la formation d’autrui, cherchant à unir l’excellence intellectuelle à la sainteté personnelle.
 
-  Mais Raymond fut bien davantage qu’un savant. Sa vie fut profondément marquée par la prière, l’humilité, le souci pastoral et le désir d’aider l’Église à annoncer le Christ. Il s’intéressa également à la préparation des missionnaires destinés à annoncer l’Évangile aux musulmans et aux juifs, en encourageant leur formation intellectuelle et spirituelle.
+### Un grand maître du droit canonique
 
-  ## Un jeune homme brillant en Catalogne
+Les connaissances juridiques de Raymond attirèrent l’attention du pape Grégoire IX, qui lui confia la tâche importante de rassembler et d’organiser les décrétales pontificales. L’ouvrage qui en résulta, connu sous le nom de *Décrétales de Grégoire IX*, devint un texte fondamental du droit canonique et conserva son influence pendant des siècles. Les travaux de Raymond contribuèrent à apporter davantage d’ordre et de cohérence à la tradition juridique de l’Église, tandis que sa sagesse pratique faisait de lui un conseiller de confiance en matière de discipline ecclésiastique. Malgré son savoir et sa réputation, il demeura profondément humble, considérant ses talents comme une responsabilité plutôt que comme une source de gloire personnelle.
 
-  Raymond naquit vers l’année 1175 au château de Penyafort, près de Barcelone, en Catalogne.
+### Maître général des Dominicains
 
-  Issu d’une famille noble, il reçut une excellente éducation. Dès son jeune âge, il manifesta de grandes capacités intellectuelles et un profond goût pour l’étude.
+Raymond fut élu maître général de l’Ordre dominicain en 1238. Durant son mandat, il s’efforça de renforcer la discipline religieuse, d’encourager les études et de soutenir la mission de prédication de l’Ordre. Il contribua également au développement de la théologie morale, notamment par ses écrits sur les devoirs des confesseurs et l’administration du sacrement de pénitence. Après avoir renoncé à sa charge, il retourna en Espagne, où il continua à se consacrer à l’enseignement, à l’accompagnement pastoral et au bien-être spirituel d’autrui.
 
-  Il étudia les arts libéraux puis le droit à l’université de Bologne, l’un des plus grands centres intellectuels de l’Europe médiévale. Il s’y consacra particulièrement à l’étude du droit civil et du droit canonique.
+### Charité et zèle apostolique
 
-  Ses talents auraient pu lui ouvrir une brillante carrière universitaire ou juridique. Pourtant, Raymond comprit progressivement que ses connaissances devaient être mises au service de Dieu et de l’Église.
+Raymond se préoccupait particulièrement de la conversion des non-chrétiens et de l’instruction de ceux qui souhaitaient comprendre la foi chrétienne. La tradition lui attribue la création de centres d’étude de l’arabe et de l’hébreu, destinés à préparer les missionnaires à leur mission. Il encouragea également saint Pierre Nolasque dans l’œuvre de l’Ordre de Notre-Dame-de-la-Merci, consacré à la libération des chrétiens retenus en captivité. Son zèle apostolique s’accompagnait d’une vie de prière et de pénitence, révélant une spiritualité fondée à la fois sur la rigueur intellectuelle et la compassion.
 
-  ## Professeur et prêtre
+### Un héritage de sagesse et de sainteté
 
-  Après ses études, Raymond enseigna le droit canonique à Bologne et acquit rapidement une réputation de professeur compétent et de juriste remarquable.
-
-  Il fut également ordonné prêtre. Sa réputation de sagesse et de vertu le mit progressivement en relation avec plusieurs grandes figures de l’Église.
-
-  Raymond aurait pu demeurer dans le monde universitaire, mais sa vocation l’appelait à une consécration plus profonde à Dieu.
-
-  En 1222, il entra dans l’Ordre des Prêcheurs, fondé quelques années auparavant par saint Dominique.
-
-  L’idéal dominicain, qui unit la prière, l’étude et la prédication, correspondait profondément à sa vocation. Raymond allait désormais chercher à unir son immense savoir au service apostolique de l’Église.
-
-  ## Un dominicain consacré à la prédication
-
-  Comme dominicain, Raymond s’investit dans la prédication et dans la formation spirituelle des chrétiens.
-
-  Il comprenait que la connaissance théologique n’était pas une fin en elle-même. Le but de l’étude était de mieux connaître la vérité et de pouvoir la transmettre fidèlement aux autres.
-
-  Il se préoccupa également de la formation des prêtres et des questions morales et pastorales auxquelles ils étaient confrontés dans leur ministère.
-
-  Il accordait une grande importance au sacrement de pénitence et à la responsabilité des confesseurs. Ceux-ci devaient aider les fidèles à examiner leur conscience et à revenir vers Dieu avec vérité, mais aussi avec miséricorde.
-
-  ## La *Summa de casibus poenitentiae*
-
-  L’une des œuvres les plus influentes de Raymond fut la *Summa de casibus poenitentiae*, un ouvrage destiné à aider les confesseurs à répondre aux différentes situations rencontrées dans le sacrement de pénitence.
-
-  Raymond y rassembla des principes théologiques et canoniques concernant le péché, la repentance, la réparation et la responsabilité pastorale.
-
-  Son objectif était très concret : les prêtres avaient besoin d’une formation solide pour accompagner les pénitents et les aider à retrouver le chemin de Dieu.
-
-  Cette œuvre révèle une dimension importante de sa pensée. Pour Raymond, le droit de l’Église devait servir le salut des âmes.
-
-  Le droit canonique n’était pas simplement un ensemble de règles. Correctement compris, il devait contribuer à l’ordre, à la justice et au bien spirituel des membres de l’Église.
-
-  ## Conseiller du pape Grégoire IX
-
-  Les compétences de Raymond en droit canonique attirèrent finalement l’attention du pape Grégoire IX.
-
-  Le pape lui confia une tâche considérable : organiser les nombreuses décrétales pontificales et autres textes juridiques qui s’étaient accumulés au cours des siècles.
-
-  Raymond compila ainsi ce qui devint les *Décrétales de Grégoire IX*, également appelées *Liber Extra*, achevées en 1234.
-
-  Cette immense collection permit d’organiser de manière cohérente une grande partie de la législation pontificale et devint l’un des textes fondamentaux du droit canonique médiéval.
-
-  Le travail de Raymond ne fut donc pas seulement académique. Il contribua à donner à l’Église un cadre juridique plus clair et plus organisé pour sa vie et son gouvernement.
-
-  ## Maître de l’Ordre des Prêcheurs
-
-  En 1238, Raymond fut élu maître de l’Ordre des Prêcheurs.
-
-  Il accepta cette responsabilité avec réticence, préférant une vie plus paisible consacrée à la prière et à l’étude. Cependant, il considéra cette charge comme un service rendu à l’Église et à ses frères dominicains.
-
-  À la tête de l’ordre, il travailla à renforcer la discipline religieuse et la vie spirituelle des frères.
-
-  Il contribua également à établir des normes pour la vie dominicaine et encouragea les religieux à demeurer fidèles à leur vocation de prière, d’étude et de prédication.
-
-  Après quelques années seulement, Raymond renonça à cette fonction. Il retourna en Espagne et passa le reste de sa vie à Barcelone.
-
-  ## Un cœur missionnaire
-
-  Raymond porta une attention particulière à l’évangélisation des peuples qui ne connaissaient pas encore le christianisme et à la formation des missionnaires.
-
-  Il encouragea notamment l’étude de l’arabe et d’autres langues afin que les missionnaires puissent communiquer le message chrétien avec intelligence et précision.
-
-  Il souhaitait que les frères dominicains envoyés en mission reçoivent une véritable formation théologique et linguistique.
-
-  Sa vision missionnaire reposait sur la conviction que l’Évangile devait être annoncé avec vérité, intelligence et charité.
-
-  Pour Raymond, un missionnaire ne devait pas seulement être animé par son enthousiasme. Il devait connaître profondément la foi chrétienne et être capable de l’expliquer à des personnes appartenant à des cultures et à des traditions religieuses différentes.
-
-  ## Son lien avec saint Pierre Nolasque
-
-  Raymond est traditionnellement associé à saint Pierre Nolasque et aux origines de l’Ordre de Notre-Dame de la Merci, ou Ordre des Mercédaires.
-
-  Selon la tradition, Raymond aurait aidé Pierre Nolasque à donner à cette œuvre ses fondements spirituels et ecclésiaux. Les membres de l’ordre se consacraient notamment au rachat des chrétiens captifs.
-
-  La société médiévale était profondément marquée par les guerres et par la capture de prisonniers. La vocation des Mercédaires consistait à répondre à cette souffrance en œuvrant pour la libération des captifs.
-
-  Le souci de Raymond pour les prisonniers s’inscrivait ainsi dans une compréhension plus large de la miséricorde chrétienne et du service du prochain.
-
-  ## Le célèbre voyage avec le roi Jacques Ier
-
-  L’une des traditions les plus célèbres concernant Raymond raconte son voyage avec le roi Jacques Ier d’Aragon.
-
-  Selon ce récit traditionnel, Raymond accompagna le roi à Majorque dans le cadre de l’évangélisation de l’île. Il aurait ensuite souhaité quitter Majorque après avoir découvert que le roi agissait contrairement à la morale chrétienne.
-
-  Le roi refusant de le laisser partir, la tradition raconte que Raymond traversa miraculeusement la mer pour rejoindre Barcelone, en utilisant son manteau dominicain comme une voile.
-
-  Ce récit devint l’un des miracles les plus célèbres associés à sa vie.
-
-  Qu’on le considère comme une tradition pieuse plutôt que comme un événement dont chaque détail serait historiquement établi, le récit exprime une dimension essentielle de la mémoire de Raymond : sa volonté de placer la fidélité à Dieu au-dessus de la faveur des puissants.
-
-  ## Une vie d’humilité
-
-  Malgré son immense savoir et les importantes responsabilités qu’il exerça, Raymond fut toujours considéré comme un homme profondément humble.
-
-  Il avait conseillé un pape, organisé l’une des plus importantes collections de droit canonique du Moyen Âge et dirigé l’Ordre des Prêcheurs. Pourtant, il chercha à plusieurs reprises à se retirer des fonctions d’autorité lorsqu’il estimait qu’elles pouvaient l’éloigner de sa vocation à la prière et au service.
-
-  Sa vie rappelle une conviction profondément chrétienne : les dons intellectuels et les responsabilités ecclésiales ne sont pas des possessions destinées à la gloire personnelle. Ils sont des dons de Dieu qui doivent être mis au service des autres.
-
-  ## Une longue vie au service de Dieu
-
-  Raymond vécut jusqu’à un âge exceptionnellement avancé pour son époque. Après son retour à Barcelone, il continua à prêcher, à enseigner et à soutenir la mission dominicaine.
-
-  Il resta attentif à la vie spirituelle de l’ordre et continua à conseiller les prêtres et les religieux.
-
-  Même dans sa vieillesse, il conserva un profond intérêt pour l’annonce de l’Évangile et pour la formation de ceux qui se consacraient à la mission.
-
-  Ses dernières années ne furent donc pas un retrait de la mission chrétienne, mais une continuation de son service par la prière, l’étude et l’accompagnement des autres.
-
-  ## Sa mort et sa canonisation
-
-  Saint Raymond mourut à Barcelone le 6 janvier 1275, selon la chronologie traditionnelle de sa vie, à un âge qui aurait approché les cent ans.
-
-  Sa réputation de sainteté se développa rapidement après sa mort. Il fut canonisé en 1601 par le pape Clément VIII.
-
-  L’Église le garde particulièrement comme un modèle pour les prêtres, les confesseurs, les théologiens, les canonistes et les missionnaires.
-
-  Sa fête liturgique est célébrée traditionnellement le 7 janvier.
-
-  ## Patron des canonistes
-
-  La contribution exceptionnelle de Raymond au droit canonique lui a donné une place particulière dans l’histoire de l’Église.
-
-  Il est considéré comme le patron des canonistes et demeure particulièrement associé à ceux dont le travail concerne le droit et les structures pastorales de l’Église catholique.
-
-  Son exemple rappelle que le droit et la miséricorde ne sont pas opposés. Le droit de l’Église s’inscrit dans sa mission plus large : conduire les âmes vers le salut et transmettre fidèlement l’Évangile.
-
-  ## Un modèle de sagesse et de miséricorde
-
-  Saint Raymond de Penyafort réunit en sa personne des qualités que l’on pourrait parfois croire séparées : le savoir et le souci pastoral, le droit et la miséricorde, la contemplation et le zèle missionnaire.
-
-  Il fut un juriste exceptionnel tout en restant attentif aux besoins spirituels des chrétiens. Il servit un pape tout en demeurant humble. Il dirigea l’Ordre dominicain tout en désirant retrouver une vie plus simple de prière. Il étudia profondément le droit de l’Église tout en gardant constamment devant les yeux le salut des âmes.
-
-  Sa vie enseigne que le savoir chrétien doit conduire au service. La connaissance porte du fruit lorsqu’elle aide l’Église à transmettre la vérité, à guider les consciences, à défendre la justice et à conduire les hommes vers le Christ.
-
-  Saint Raymond de Penyafort demeure ainsi un témoin de l’harmonie entre la foi et la raison, la rigueur intellectuelle et la charité, la responsabilité ecclésiale et l’humilité.
-
-  Sa longue vie fut entièrement consacrée au Christ, à l’Église et au salut des âmes. Par son enseignement, son œuvre juridique, sa prédication et son souci des missionnaires, il contribua à fortifier l’Église durant une période décisive de son histoire.
-
-  Il reste dans la mémoire de l’Église comme un savant dominicain, un prêtre fidèle, un conseiller sage et un humble serviteur de Dieu qui mit tous ses dons au service de l’Évangile.
-  $desc$
+Saint Raymond de Peñafort est reconnu comme un modèle de savoir dominicain, de responsabilité pastorale et d’humilité. Sa contribution au droit canonique façonna la gouvernance de l’Église pendant des générations, tandis que son dévouement au sacrement de pénitence témoignait de son désir de conduire les âmes vers la réconciliation avec Dieu. Honoré comme saint patron des canonistes et des juristes, il demeure un exemple de la manière dont le savoir, la justice et la charité peuvent servir un même dessein spirituel. Sa vie enseigne que la véritable sagesse ne se mesure pas uniquement à l'étendue des connaissances, mais aussi à la fidélité et à l'amour avec lesquels celles-ci sont mises au service de Dieu et du prochain.
+$desc$
 ),
 (
-	'saint-raymond-of-penyafort',
-		'la',
-		'S. Raymundus de Penyafort fuit religiosus Dominicanus, sacerdos, theologus et insignis canonista Hispanus saeculi tertii decimi. Propter doctrinam, humilitatem et devotionem erga Ecclesiam celebratus, ad ordinationem iuris canonici multum contulit et Magister Ordinis Praedicatorum factus est. Etiam de evangelizatione et formatione sacerdotum ac missionariorum sollicite curavit, atque vitam suam Christo, Ecclesiae et saluti animarum consecravit.',
-  $desc$
-  ## Sanctus Raymundus de Penyafort
+    'saint-raymond-of-penyafort',
+    'la',
+    'Sanctus Raimundus de Penyafort religiosus Dominicanus Hispanus saeculi tertii decimi, sacerdos, theologus et iuris canonici peritus fuit. Eruditione, humilitate et Ecclesiae dedicatione insignis, ius canonicum Ecclesiae ordinare adiuvit atque Magister Ordinis Praedicatorum fuit. Memoratur etiam ob operam in praedicatione, conversione Muslimorum et Iudaeorum, atque formatione spirituali sacerdotum et missionariorum.',
+$desc$
+Sanctus Raimundus de Penyafort sacerdos Dominicanus Hispanus, theologus et iuris consultus fuit, cuius eruditio et devotio eum inter praecipuas figuras in evolutione iuris canonici collocaverunt. Sapientia, humilitate et caritate pastorali celebratus, vitam suam Ecclesiae servitio dedicavit, clerum et fideles doctrina atque consiliis dirigens. Opus eius profundam iuris ecclesiastici cognitionem cum sincera sollicitudine de animarum salute coniunxit, persuasionem eius exprimens scientiam semper in Dei servitium adhibendam esse.
 
-  Sanctus Raymundus de Penyafort unus ex praestantissimis religiosis et viris doctis Ordinis Praedicatorum saeculi tertii decimi fuit. Sacerdos, theologus, canonista atque superior religiosus, longam vitam suam Ecclesiae servitio et Evangelii praedicationi dedicavit.
+### Vita studii et vocatio religiosa
 
-  Nomen eius praesertim cum evolutione iuris canonici coniungitur. Gregorius IX papa ei commisit ut decretales pontificias et alia documenta canonica quae per saecula collecta erant colligeret atque ordinem redigeret. Opus eius per multa saecula fundamentum magni momenti studii iuris canonici mansit.
+Raimundus prope Barcinonem, in Catalonia, nobili familia natus est. Singularibus intellectualibus facultatibus praeditus, philosophiam et ius studuit antequam magister fieret. Postea Ordinem Dominicanum ingressus est, studio praedicationis, doctrinae et renovationis spiritualis Ecclesiae attractus. Vitam religiosam humiliter amplectens, orationi, studio et aliorum institutioni se dedicavit, intellectualem excellentiam cum personali sanctitate coniungere quaerens.
 
-  Sed Raymundus multo plus quam doctus iuris fuit. Vita eius oratione, humilitate, sollicitudine pastorali et magno desiderio Ecclesiae serviendi insignita est. Etiam de missionariis instituendis curavit, praesertim de iis qui ad musulmanos et Iudaeos Evangelium annuntiare mittebantur.
+### Magnus iuris canonici magister
 
-  ## Iuvenis doctus in Catalonia
+Cognitio iuridica Raimundi attentionem Gregorii IX papae attraxit, qui ei magni momenti munus commisit decreta pontificia colligendi et ordinandi. Opus inde ortum, *Decretales Gregorii IX* appellatum, textus fundamentalis iuris canonici factum est atque per saecula magnam auctoritatem servavit. Eruditio Raimundi maiorem ordinem et cohaerentiam traditioni iuridicae Ecclesiae conferre adiuvit, dum prudentia eius practica eum fidelem consiliarium in rebus disciplinae ecclesiasticae fecit. Quamvis doctrina et fama excelluerit, profundam humilitatem servavit, dona sua tamquam responsabilitatem potius quam gloriam personalem considerans.
 
-  Raymundus circa annum 1175 in castro Penyafort, prope Barcinonem in Catalonia, natus est.
+### Magister generalis Dominicanorum
 
-  Ex nobili familia ortus, optimam educationem accepit. Ab ineunte aetate ingenium praestans atque magnum studium discendi ostendit.
+Raimundus anno 1238 Magister Generalis Ordinis Dominicanorum electus est. Per suum regimen disciplinam religiosam firmare, studium promovere atque missionem praedicationis Ordinis sustinere conatus est. Etiam progressui theologiae moralis contulit, praesertim scriptis suis de officiis confessariorum et administratione sacramenti Paenitentiae. Munere suo abdicato, in Hispaniam rediit, ubi doctrinae, curae pastorali et saluti spirituali aliorum se dedicare perrexit.
 
-  Artes liberales studuit, deinde Bononiae iuri operam dedit, ubi unum ex praecipuis Europae mediaevalis studiis academicis inveniebat. Ibi praesertim ius civile et ius canonicum diligenter investigavit.
+### Caritas et zelus apostolicus
 
-  Ingenium eius ad gloriosam vitam academicam vel iuridicam eum ducere poterat. Sed paulatim intellexit scientiam sibi datam in Dei et Ecclesiae servitium ponendam esse.
+Raimundus peculiarem sollicitudinem de conversione non christianorum et institutione eorum qui fidem christianam intellegere cupiebant demonstravit. Traditio ei tribuit institutionem centrorum studii linguae Arabicae et Hebraicae, ad missionarios ad opus suum praeparandos destinatorum. Sanctum quoque Petrum Nolasco in missione Ordinis Beatae Mariae Virginis de Mercede, ad redimendos christianos in captivitate detentos dedicati, corroboravit. Zelus apostolicus eius vita orationis et paenitentiae comitabatur, spiritualitatem ostendens quae et disciplina intellectuali et compassione nitebatur.
 
-  ## Professor et sacerdos
+### Permanens hereditas sapientiae et sanctitatis
 
-  Post studia sua Raymundus Bononiae ius canonicum docuit et famam doctoris periti atque iuristae excellentis acquisivit.
-
-  Sacerdos quoque ordinatus est. Fama eius sapientiae et virtutis eum paulatim ad praecipuas Ecclesiae personas perduxit.
-
-  Potuisset in mundo academico permanere, sed vocatio eius eum ad altiorem Deo consecrationem invitabat.
-
-  Anno 1222 Ordinem Praedicatorum ingressus est, paucis annis post eius institutionem a sancto Dominico conditam.
-
-  Ideale Dominicanum, quod orationem, studium et praedicationem coniungebat, vocationi Raymundi maxime conveniebat. Ab illo tempore totam scientiam suam apostolico Ecclesiae servitio coniungere studuit.
-
-  ## Dominicanus praedicationi deditus
-
-  Ut Dominicanus, Raymundus praedicationi et formationi spirituali christianorum se dedicavit.
-
-  Intellegebat scientiam theologicam non esse finem in se ipsa. Finis studii erat veritatem profundius cognoscere eamque aliis fideliter tradere.
-
-  Etiam de formatione sacerdotum et de quaestionibus moralibus atque pastoralibus quas in ministerio suo inveniebant sollicitus erat.
-
-  Praecipuum locum Sacramento Paenitentiae tribuebat et magnam responsabilitatem confessariorum agnoscebat. Confessarii fideles ad conscientiam suam examinandam et ad Deum redeundum adiuvare debebant, veritatem cum misericordia coniungentes.
-
-  ## *Summa de casibus poenitentiae*
-
-  Inter opera gravissima Raymundi fuit *Summa de casibus poenitentiae*, opus ad confessarios adiuvandos in variis casibus qui in Sacramento Paenitentiae occurrebant.
-
-  In eo principia theologica et canonica de peccato, paenitentia, restitutione et officio pastorali collegit.
-
-  Propositum eius practicum erat: sacerdotes solida doctrina indigebant ut paenitentes recte dirigerent eosque ad viam reconciliationis cum Deo reducerent.
-
-  Hoc opus magni momenti aspectum spiritualitatis eius manifestat. Secundum Raymundum, ius Ecclesiae saluti animarum servire debet.
-
-  Ius canonicum non erat simpliciter collectio regularum. Recte intellectum, ad ordinem, iustitiam et bonum spirituale membrorum Ecclesiae conferre debebat.
-
-  ## Consiliarius Gregorii IX papae
-
-  Peritia Raymundi in iure canonico tandem Gregorii IX papae attentionem attraxit.
-
-  Papa ei magnum munus commisit: decretales pontificias et alia documenta iuridica quae per saecula accumulata erant colligere atque ordinare.
-
-  Raymundus sic composuit quod postea *Decretales Gregorii IX*, seu *Liber Extra*, appellatum est, opus anno 1234 completum.
-
-  Haec collectio amplissima legislationem pontificiam maiore ordine et ratione disposuit atque unum ex fundamentalibus textibus iuris canonici mediaevalis factum est.
-
-  Opus Raymundi igitur non solum academicum fuit. Ecclesiae adiuvit ut clariorem et ordinatiorem structuram iuridicam ad vitam et regimen ecclesiasticum haberet.
-
-  ## Magister Ordinis Praedicatorum
-
-  Anno 1238 Raymundus Magister Ordinis Praedicatorum electus est.
-
-  Hanc responsabilitatem cum quadam reluctantia accepit, vitam quietiorem orationi et studio deditam praeferens. Tamen munus suum tamquam servitium Ecclesiae et fratribus suis suscepit.
-
-  Ordinem regens, disciplinam religiosam et vitam spiritualem fratrum firmare studuit.
-
-  Etiam normas ad vitam Dominicanam ordinandam statuit et fratres hortatus est ut vocationi suae orationis, studii et praedicationis fideles manerent.
-
-  Post paucos tamen annos huic muneri renuntiavit. In Hispaniam rediit et reliquam vitam Barcinone transegit.
-
-  ## Cor missionarium
-
-  Raymundus peculiari modo de evangelizatione populorum qui fidem christianam nondum receperant et de institutione missionariorum sollicitus erat.
-
-  Studia linguae Arabicae aliarumque linguarum magnopere promovebat, ut missionarii Evangelium hominibus diversarum linguarum et culturarum clarius annuntiare possent.
-
-  Fratres quoque hortabatur ut solidam formationem theologicam et linguisticam acciperent antequam ad missiones mitterentur.
-
-  Visio eius missionaria in persuasione fundabatur Evangelium cum veritate, ratione et caritate annuntiandum esse.
-
-  Missionarius, secundum Raymundum, non solum zelo ardere debebat. Oportebat eum fidem christianam alte cognoscere eamque hominibus diversarum traditionum religiosarum et culturalium explanare posse.
-
-  ## Relatio cum sancto Petro Nolasco
-
-  Raymundus traditione cum sancto Petro Nolasco et origine Ordinis Beatae Mariae Virginis de Mercede coniungitur.
-
-  Secundum traditionem, Raymundus Petro Nolasco adiuvit ut spiritualia et ecclesiastica fundamenta huius operis constitueret. Sodales Ordinis se praesertim redemptioni christianorum captivorum dedicabant.
-
-  Societas mediaevalis bellis et captivitatibus graviter afficiebatur. Vocatio Mercedariorum huic doloris condicionem respondere conabatur, operam dans ad captivorum liberationem.
-
-  Sollicitudo Raymundi erga captivos sic latiorem eius intellegentiam misericordiae christianae et proximi servitii manifestabat.
-
-  ## Celebris navigatio cum rege Iacobo
-
-  Inter celeberrimas traditiones de Raymundo narratur eius iter cum Iacobo I rege Aragoniae.
-
-  Secundum traditionem, Raymundus regem ad Maioricam comitatus est in operibus ad fidem christianam propagandam. Postea autem insulam relinquere voluit, cum intellexisset regem contra moralem christianam agere.
-
-  Cum rex eum abire prohiberet, traditio narrat Raymundum miraculose mare transiisse ut Barcinonem rediret, pallio suo Dominicano quasi velo usus.
-
-  Haec narratio unum ex celeberrimis miraculis vitae eius facta est.
-
-  Sive haec traditio tamquam narrationem devotionis consideretur potius quam eventus cuius singula historice comprobata sint, significat tamen aliquid essentiale de memoria Raymundi: fidelitatem Deo praeponendam esse gratiae et favore potentium.
-
-  ## Vita humilitatis
-
-  Quamvis doctrina et dignitatibus suis insignis esset, Raymundus propter humilitatem maxime memoratus est.
-
-  Papae consiliarius fuerat, unam ex praecipuis collectionibus iuris canonici mediaevalis composuerat et Ordinem Praedicatorum gubernaverat. Nihilominus saepe ab honoribus et officiis se removere quaerebat cum crederet ea a vocatione sua ad orationem et servitium eum abstrahere posse.
-
-  Vita eius christianam persuasionem manifestat dona intellectualia et officia ecclesiastica non esse possessiones ad gloriam personalem quaerendam. Sunt potius dona a Deo commissa quae in bonum aliorum poni debent.
-
-  ## Longa vita Deo consecrata
-
-  Raymundus ad aetatem extraordinariam pro sua aetate pervenit. Post reditum Barcinonem, praedicare, docere et missionem Dominicanam sustinere perrexit.
-
-  Vitae spirituali Ordinis diligenter adhaerebat et sacerdotes atque religiosos consilio suo adiuvabat.
-
-  Etiam senectute provecta magnum studium erga evangelizationem et formationem missionariorum retinuit.
-
-  Ultimi eius anni igitur non fuerunt recessus a missione christiana, sed continuatio servitii per orationem, studium et aliorum adiutorium.
-
-  ## Mors et canonizatio
-
-  Sanctus Raymundus Barcinone die 6 Ianuarii 1275 mortuus est, secundum chronologiam vitae eius traditam, aetate quae centum annos prope attingere dicitur.
-
-  Fama sanctitatis eius post mortem celeriter crevit. A Clemente VIII papa anno 1601 canonizatus est.
-
-  Ecclesia eum praesertim tamquam exemplar sacerdotibus, confessariis, theologis, canonistis et missionariis proponit.
-
-  Memoria eius liturgica die 7 Ianuarii celebratur.
-
-  ## Patronus canonistarum
-
-  Praeclarum Raymundi opus in iure canonico ei peculiarem locum in historia Ecclesiae dedit.
-
-  Patronus canonistarum habetur atque peculiari modo cum iis coniungitur quorum ministerium ad ius et structuras pastorales Ecclesiae Catholicae pertinet.
-
-  Exemplum eius ostendit ius et misericordiam non esse contraria. Ius Ecclesiae in eius latiore missione includitur: animas ad salutem ducere et Evangelium fideliter transmittere.
-
-  ## Exemplar sapientiae et misericordiae
-
-  Sanctus Raymundus de Penyafort in se coniunxit virtutes quae interdum separatae videri possunt: scientiam et sollicitudinem pastoralem, ius et misericordiam, contemplationem et zelum missionarium.
-
-  Praestantissimus iurista fuit, sed simul necessitatibus spiritualibus christianorum attente prospiciebat. Papae servivit et tamen humilis mansit. Ordinem Dominicanum rexit, sed vitam simpliciorem orationi deditam desiderabat. Ius Ecclesiae profunde studuit, semper autem ante oculos salutem animarum habuit.
-
-  Vita eius docet scientiam christianam ad servitium ducere debere. Cognitio fructum fert cum Ecclesiam adiuvat ad veritatem tradendam, conscientias dirigendas, iustitiam tuendam et homines ad Christum perducendos.
-
-  Sanctus Raymundus de Penyafort igitur testis manet concordiae inter fidem et rationem, rigorem intellectualem et caritatem, responsabilitatem ecclesiasticam et humilitatem.
-
-  Longam vitam suam Christo, Ecclesiae et saluti animarum integre consecravit. Per doctrinam, opus iuridicum, praedicationem et sollicitudinem de missionariis Ecclesiam tempore magni momenti historiae christianae firmare contulit.
-
-  In memoria Ecclesiae manet tamquam doctus Dominicanus, sacerdos fidelis, consiliarius sapiens et humilis Dei servus, qui omnia sua dona Evangelii servitio tradidit.
-  $desc$
+Sanctus Raimundus de Penyafort tamquam exemplar doctrinae Dominicanae, responsabilitatis pastoralis et humilitatis memoratur. Eius contributio ad ius canonicum Ecclesiae regimen per multas generationes formavit, dum devotio eius erga sacramentum Paenitentiae desiderium demonstravit animas ad reconciliationem cum Deo ducendi. Ut patronus canonistarum et iuris consultorum honoratus, exemplum manet quomodo eruditio, iustitia et caritas eidem proposito spirituali inservire possint. Vita eius docet veram sapientiam non sola scientia metiendam esse, sed etiam fidelitate et amore quibus haec scientia in Dei et proximi servitium offertur.
+$desc$
 ),
 
 (
@@ -2516,1279 +524,151 @@ FROM saints s JOIN (VALUES
 		'en',
 		'Saint Hilary of Poitiers was a fourth-century bishop, theologian and Doctor of the Church who became one of the great defenders of the Catholic faith in the divinity of Christ. Known as the "Athanasius of the West", he courageously opposed Arianism and played an important role in defending the Nicene faith, while also writing profound works on the Trinity and the Christian understanding of Scripture.',
   $desc$
-  ## Saint Hilary of Poitiers
+  Saint Hilary of Poitiers was one of the great defenders of the Christian faith during the fourth century, renowned for his courage in opposing Arianism and his profound teaching on the divinity of Jesus Christ. Known as the **“Athanasius of the West”**, he played an important role in preserving the Church's understanding of the Holy Trinity at a time when theological divisions threatened its unity. Through his writings, his episcopal ministry and his willingness to suffer for the truth, he became one of the most influential theologians of the early Western Church.
 
-  Saint Hilary of Poitiers was one of the most important defenders of the Christian faith in the fourth century. Bishop, theologian, preacher and Doctor of the Church, he devoted his life to defending the truth that Jesus Christ is truly the Son of God and fully divine.
+  ### A Conversion to the Christian Faith
 
-  He lived during a turbulent period in the history of the Church, when the Arian controversy divided Christians throughout the Roman Empire. Many bishops and theologians disputed how the Church should understand the relationship between the Father and the Son. Hilary became one of the strongest defenders of the faith proclaimed at the Council of Nicaea.
+  Hilary was born in Poitiers, in Gaul, into a pagan family and received an extensive education in philosophy and classical literature. His search for truth eventually led him to the study of Scripture, through which he came to believe in the one God revealed in Jesus Christ. He embraced Christianity as an adult and was later chosen as Bishop of Poitiers. His intellectual gifts and deep conviction enabled him to address the theological controversies of his age with both clarity and determination.
 
-  Because of his courage and theological importance, he is sometimes called the "Athanasius of the West", in reference to Saint Athanasius of Alexandria, the great defender of Nicene Christianity in the East.
+  ### Defender of the Divinity of Christ
 
-  ## A Christian convert
+  During Hilary's episcopacy, Arianism remained a major source of division within the Church. Its supporters denied the full divinity of the Son, teaching that Christ was not equal to the Father in the same divine nature. Hilary firmly opposed this doctrine, defending the Church's faith in Christ as truly God and truly man. His most important theological work, *De Trinitate* (*On the Trinity*), offered a detailed defence of the relationship between the Father and the Son, drawing deeply upon Scripture. Through his teaching, Hilary helped strengthen the understanding of the Trinity that would be expressed in the Church's doctrinal tradition.
 
-  Hilary was born around the beginning of the fourth century, probably around the year 310, in Gaul, in the region of what is now France.
+  ### Exile and Faithfulness
 
-  Unlike many Christian saints of the period, Hilary appears to have been raised in a pagan environment and became a Christian as an adult.
+  Hilary's opposition to Arianism brought him into conflict with powerful supporters of the doctrine, and he was exiled to Phrygia, in Asia Minor. Rather than allowing exile to silence him, he continued his theological work and became familiar with the debates taking place in the Eastern Church. During this period, he wrote extensively in defence of the Nicene faith and sought to reconcile those who could be brought back to orthodox teaching. His courage revealed a deep commitment to the unity of the Church, grounded not in compromise over essential doctrine, but in fidelity to the truth.
 
-  His conversion was closely connected with his search for truth. Through his study of philosophy and the Scriptures, he came to believe in the one true God revealed in Christianity.
+  Eventually, Hilary was able to return to Gaul, where he resumed his episcopal ministry and continued to oppose Arianism through preaching and writing. He also composed biblical commentaries, particularly on the Psalms, showing his ability to unite theological precision with spiritual reflection.
 
-  The Gospel's teaching about the eternal Word of God, especially the opening of the Gospel according to Saint John, deeply influenced him.
+  ### A Lasting Theological Legacy
 
-  Hilary came to understand that the God revealed in Jesus Christ was not merely a distant supreme being, but the living God who had entered into human history for the salvation of mankind.
-
-  His conversion eventually led him to dedicate his entire life to the service of Christ and His Church.
-
-  ## Bishop of Poitiers
-
-  Hilary was married and had a daughter before becoming a bishop. His family life was therefore part of his Christian vocation before he entered the higher ministry of the Church.
-
-  Around the year 350, Hilary became bishop of Poitiers.
-
-  As bishop, he was responsible for teaching the faith and protecting the spiritual life of his people. His episcopate soon became entangled with the great theological controversy of his time.
-
-  The Arian controversy had spread throughout the Roman Empire. Arian theologians denied or diminished the full divinity of Christ, emphasizing a distinction between the Father and the Son that, in their view, placed the Son below the Father.
-
-  Hilary recognized that this question was not merely an abstract theological dispute. For him, the truth about Christ was inseparable from the Christian understanding of salvation.
-
-  If Christ were not truly God, the Christian proclamation of salvation would be fundamentally altered.
-
-  ## Defender of the Nicene faith
-
-  The Council of Nicaea, held in 325, had proclaimed that the Son is of the same substance as the Father.
-
-  Hilary became a passionate defender of this teaching.
-
-  He insisted that the Son is not a creature made by God, but eternally begotten of the Father and truly divine.
-
-  His theological writings sought to explain how Christians could confess one God while also believing in the Father and the Son as distinct Persons.
-
-  For Hilary, the mystery of the Trinity could not be reduced to human categories. Yet the Church could and must speak truthfully about God according to the revelation given in Scripture.
-
-  ## Exile in Phrygia
-
-  Hilary's defense of the Nicene faith eventually brought him into conflict with bishops and political authorities who supported anti-Nicene positions.
-
-  Around 356, he was exiled to Phrygia, in Asia Minor, by the Emperor Constantius II.
-
-  His exile lasted several years.
-
-  Rather than allowing his separation from Poitiers to silence him, Hilary used this period for study, writing and theological reflection.
-
-  He encountered Eastern Christian theologians and became familiar with the complex debates taking place throughout the Greek-speaking Church.
-
-  His exile therefore became an important period in his intellectual and spiritual development.
-
-  ## *De Trinitate*
-
-  During his exile, Hilary wrote his most famous theological work, *De Trinitate*, or *On the Trinity*.
-
-  This monumental work is one of the most important Latin theological writings of the fourth century.
-
-  Hilary carefully examined the testimony of Scripture concerning the Father, the Son and the Holy Spirit. He sought to show that Christian faith in the Trinity was not a philosophical invention, but the result of God's revelation.
-
-  He emphasized that the Son truly possesses the divine nature of the Father while remaining distinct as Son.
-
-  Hilary also reflected deeply on the meaning of Christian prayer and baptism. Christians are baptized in the name of the Father, the Son and the Holy Spirit, and therefore the Trinitarian faith is not merely a theological formula. It is at the heart of Christian life.
-
-  ## A theologian of Scripture
-
-  Hilary's theology was deeply rooted in Sacred Scripture.
-
-  He constantly appealed to the words of the Bible when explaining Christian doctrine. For him, theology had to remain faithful to the revelation given by God.
-
-  He wrote commentaries and homilies on biblical books, including an important commentary on the Gospel according to Saint Matthew.
-
-  His writings show a profound conviction that Scripture contains a unity that can be understood more deeply through faith.
-
-  Hilary also developed spiritual interpretations of biblical passages, seeking not only to explain their literal meaning but also to reveal their significance for the Christian life.
-
-  ## Courage in the face of opposition
-
-  Hilary was not a theologian who remained distant from the struggles of the Church.
-
-  He openly opposed attempts to weaken or reinterpret the Nicene faith. His courage sometimes placed him in difficult political circumstances.
-
-  He criticized bishops who had compromised the teaching of Nicaea and appealed to the Christian conscience of the Church.
-
-  His opposition was not motivated by a desire for personal influence. His writings reveal a deep conviction that bishops had a responsibility to preserve the apostolic faith for future generations.
-
-  ## Return to Gaul
-
-  After several years in exile, Hilary eventually returned to Gaul.
-
-  His reputation had grown considerably, and he continued his efforts to defend the Nicene faith.
-
-  He also worked for greater unity among Christians who confessed the divinity of Christ but differed in terminology or theological emphasis.
-
-  Hilary understood that the Church needed both fidelity to truth and charity among Christians.
-
-  His theological work helped communicate important insights from the Greek-speaking Church to Latin Christianity in the West.
-
-  ## His relationship with Saint Martin of Tours
-
-  Hilary is traditionally remembered as an important influence on the young Martin of Tours, who later became one of the most famous saints of Gaul.
-
-  Hilary recognized Martin's vocation and supported him in his desire to dedicate himself to Christ.
-
-  Their relationship contributed to the growth of monastic and missionary life in Gaul.
-
-  Martin would later become bishop of Tours and an influential figure in the evangelization of the region.
-
-  ## A shepherd and teacher
-
-  Hilary's theological brilliance never separated him from his pastoral responsibilities.
-
-  As bishop, he remained concerned with the faith and spiritual life of ordinary Christians.
-
-  He understood the bishop's role as that of a teacher and shepherd who must faithfully transmit the Gospel.
-
-  His writings repeatedly return to the mystery of Christ and the life of grace because, for Hilary, doctrine and Christian life could never be separated.
-
-  The truth about God should transform the way Christians worship, pray and live.
-
-  ## The mystery of Christ
-
-  At the heart of Hilary's theology is the mystery of the Incarnation.
-
-  He proclaimed that the eternal Son truly became man without ceasing to be God.
-
-  Christ therefore possesses true divinity and true humanity.
-
-  This teaching was essential to Christian salvation. The Son of God entered into the condition of humanity in order to unite humanity to God and bring mankind into the life of divine grace.
-
-  Hilary's writings show a profound sense of wonder before this mystery.
-
-  He understood that human language could never completely comprehend God, but he also believed that Christians must faithfully confess what God has revealed.
-
-  ## A life dedicated to truth
-
-  Hilary's life demonstrates the cost of defending the faith during a period of ecclesiastical division.
-
-  He experienced exile, opposition and conflict with powerful figures. Yet he continued to write, preach and defend the faith entrusted to him.
-
-  His courage was joined to a deep intellectual humility. He recognized that the mystery of God surpasses human understanding, while firmly maintaining that the Church has received a true revelation.
-
-  For Hilary, faith and reason were not enemies. The intellect should seek to understand what faith receives, always remaining humble before the mystery of God.
-
-  ## Death and legacy
-
-  Hilary died around the year 367 in Poitiers.
-
-  His influence continued to grow after his death. His theological writings became important sources for later Western Christianity, particularly his teaching on the Trinity and the divinity of Christ.
-
-  The Church venerates him as a bishop, theologian and defender of the faith.
-
-  He was declared a Doctor of the Church by Pope Pius IX in 1851.
-
-  His feast is celebrated on 13 January.
-
-  ## Doctor of the Church
-
-  Saint Hilary is one of the great Latin Fathers of the fourth century.
-
-  His title as Doctor of the Church reflects the enduring importance of his theological writings.
-
-  He helped Western Christians understand and defend the Nicene faith at a time when the Church was facing intense doctrinal conflict.
-
-  His work also helped transmit theological insights from the Christian East to the Latin-speaking West.
-
-  ## A model of Christian courage
-
-  Saint Hilary of Poitiers remains a powerful example of Christian fidelity.
-
-  He was a scholar who became a bishop, a husband and father who entered deeply into the service of the Church, and an exile who transformed suffering into an opportunity for prayer and theological reflection.
-
-  His life teaches that defending the faith does not mean relying upon human strength or political power. It means remaining faithful to Christ even when the truth becomes difficult to proclaim.
-
-  His writings invite Christians to contemplate the mystery of the Holy Trinity and to deepen their understanding of Jesus Christ, the eternal Son of the Father who became man for our salvation.
-
-  Saint Hilary remains a witness to the truth that the Christian faith is not merely a collection of ideas. It is the revelation of the living God, received with faith, contemplated with intelligence and lived with courage.
-
-  His legacy continues to remind the Church that fidelity to Christ requires both intellectual clarity and spiritual humility, and that the deepest theological truths should always lead the believer towards worship, prayer and holiness.
+  Saint Hilary of Poitiers left a lasting mark on Christian theology through his defence of the Trinity and his interpretation of Scripture. Honoured as a **Doctor of the Church**, he is remembered for combining intellectual depth with pastoral courage and unwavering faith. His life demonstrates that defending Christian truth requires both a well-formed mind and a heart firmly devoted to Christ. Through his writings and his example, Saint Hilary remains an enduring witness to the power of faith, perseverance and the search for divine truth.
   $desc$
 ),
 (
-	'saint-hilary-of-poitiers',
-		'fr',
-		'Saint Hilaire de Poitiers fut un évêque, théologien et Docteur de l’Église du IVe siècle. L’un des grands défenseurs de la foi en la divinité du Christ, il s’opposa avec courage à l’arianisme et contribua à défendre la foi proclamée au concile de Nicée. Surnommé parfois « l’Athanase de l’Occident », il est particulièrement connu pour ses écrits sur la Sainte Trinité et pour son témoignage de fidélité à la foi chrétienne au milieu des controverses de son époque.',
-  $desc$
-  ## Saint Hilaire de Poitiers
+    'saint-hilary-of-poitiers',
+    'fr',
+    'Saint Hilaire de Poitiers était un évêque, théologien et Docteur de l’Église du IVe siècle, devenu l’un des grands défenseurs de la foi catholique en la divinité du Christ. Surnommé l’« Athanase de l’Occident », il s’opposa courageusement à l’arianisme et joua un rôle important dans la défense de la foi de Nicée. Il rédigea également des ouvrages théologiques approfondis sur la Trinité et la compréhension chrétienne des Écritures.',
+$desc$
+Saint Hilaire de Poitiers fut l’un des grands défenseurs de la foi chrétienne au IVe siècle, réputé pour son courage face à l’arianisme et son enseignement profond sur la divinité de Jésus-Christ. Connu sous le nom d’**« Athanase de l’Occident »**, il joua un rôle important dans la préservation de la compréhension de la Sainte Trinité par l’Église, à une époque où les divisions théologiques menaçaient son unité. Par ses écrits, son ministère épiscopal et sa volonté de souffrir pour la vérité, il devint l’un des théologiens les plus influents de l’Église occidentale primitive.
 
-  Saint Hilaire de Poitiers fut l’un des grands défenseurs de la foi chrétienne au IVe siècle. Évêque, théologien, prédicateur et Docteur de l’Église, il consacra sa vie à défendre la vérité selon laquelle Jésus-Christ est véritablement le Fils de Dieu et pleinement divin.
+### Une conversion à la foi chrétienne
 
-  Il vécut durant une période particulièrement difficile de l’histoire de l’Église, alors que la controverse arienne divisait profondément les chrétiens de l’Empire romain. De nombreux évêques et théologiens débattaient de la manière dont il fallait comprendre la relation entre le Père et le Fils. Hilaire devint l’un des plus fervents défenseurs de la foi proclamée au concile de Nicée.
+Hilaire naquit à Poitiers, en Gaule, au sein d’une famille païenne, et reçut une formation approfondie en philosophie et en littérature classique. Sa quête de vérité le conduisit finalement à l’étude des Écritures, grâce auxquelles il en vint à croire au Dieu unique révélé en Jésus-Christ. Il embrassa le christianisme à l’âge adulte, puis fut choisi comme évêque de Poitiers. Ses dons intellectuels et ses convictions profondes lui permirent d’aborder les controverses théologiques de son époque avec clarté et détermination.
 
-  En raison de son courage et de son importance théologique, il est parfois appelé « l’Athanase de l’Occident », en référence à saint Athanase d’Alexandrie, le grand défenseur de la foi de Nicée en Orient.
+### Défenseur de la divinité du Christ
 
-  ## Un païen converti au christianisme
+Durant l’épiscopat d’Hilaire, l’arianisme demeurait une cause majeure de division au sein de l’Église. Ses partisans niaient la pleine divinité du Fils, affirmant que le Christ n’était pas égal au Père dans une même nature divine. Hilaire s’opposa fermement à cette doctrine, défendant la foi de l’Église en Jésus-Christ, véritablement Dieu et véritablement homme. Son œuvre théologique la plus importante, *De Trinitate* (*Sur la Trinité*), proposait une défense approfondie de la relation entre le Père et le Fils, en s’appuyant largement sur les Écritures. Par son enseignement, Hilaire contribua à affermir la compréhension de la Trinité qui serait exprimée dans la tradition doctrinale de l’Église.
 
-  Hilaire naquit probablement au début du IVe siècle, vers l’an 310, en Gaule, dans la région correspondant aujourd’hui à la France.
+### Exil et fidélité à la foi
 
-  Contrairement à de nombreux saints chrétiens de son époque, Hilaire semble avoir grandi dans un environnement païen et être devenu chrétien à l’âge adulte.
+L’opposition d’Hilaire à l’arianisme le conduisit à entrer en conflit avec de puissants défenseurs de cette doctrine, et il fut exilé en Phrygie, en Asie Mineure. Loin de se laisser réduire au silence par l’exil, il poursuivit son travail théologique et se familiarisa avec les débats qui agitaient l’Église d’Orient. Durant cette période, il écrivit abondamment pour défendre la foi de Nicée et s’efforça de réconcilier ceux qui pouvaient être ramenés à l’enseignement orthodoxe. Son courage témoignait d’un profond attachement à l’unité de l’Église, fondée non sur des compromis concernant les doctrines essentielles, mais sur la fidélité à la vérité.
 
-  Sa conversion fut étroitement liée à sa recherche de la vérité. À travers l’étude de la philosophie et des Saintes Écritures, il découvrit progressivement le Dieu unique révélé par le christianisme.
+Hilaire put finalement rentrer en Gaule, où il reprit son ministère épiscopal et continua à combattre l’arianisme par la prédication et l’écriture. Il rédigea également des commentaires bibliques, notamment sur les Psaumes, démontrant sa capacité à unir la précision théologique à la réflexion spirituelle.
 
-  L’enseignement de l’Évangile, notamment les premières paroles de l’Évangile selon saint Jean sur le Verbe de Dieu, exerça sur lui une influence profonde.
+### Un héritage théologique durable
 
-  Hilaire comprit que le Dieu révélé en Jésus-Christ n’était pas simplement un être suprême et lointain, mais le Dieu vivant qui était venu dans l’histoire humaine pour sauver l’humanité.
-
-  Sa conversion le conduisit finalement à consacrer toute sa vie au Christ et à son Église.
-
-  ## Évêque de Poitiers
-
-  Avant son épiscopat, Hilaire était marié et avait une fille. Sa vie familiale fit donc partie de son chemin chrétien avant son entrée dans le ministère épiscopal.
-
-  Vers l’année 350, Hilaire devint évêque de Poitiers.
-
-  Comme évêque, il avait la responsabilité d’enseigner la foi et de veiller à la vie spirituelle de son peuple. Son épiscopat fut rapidement mêlé à la grande controverse théologique de son époque.
-
-  La controverse arienne s’était étendue dans tout l’Empire romain. Les théologiens ariens niaient ou diminuaient la pleine divinité du Christ, mettant en avant une distinction entre le Père et le Fils qui, selon leur doctrine, plaçait le Fils au-dessous du Père.
-
-  Hilaire comprit que cette question n’était pas une simple dispute intellectuelle. Pour lui, la vérité sur le Christ était inséparable de la compréhension chrétienne du salut.
-
-  Si le Christ n’était pas véritablement Dieu, l’annonce chrétienne du salut serait profondément transformée.
-
-  ## Défenseur de la foi de Nicée
-
-  Le concile de Nicée, réuni en 325, avait proclamé que le Fils est « consubstantiel » au Père.
-
-  Hilaire devint un défenseur ardent de cet enseignement.
-
-  Il affirma que le Fils n’est pas une créature créée par Dieu, mais qu’il est éternellement engendré par le Père et véritablement Dieu.
-
-  Ses écrits théologiques cherchèrent à expliquer comment les chrétiens pouvaient confesser un seul Dieu tout en croyant au Père et au Fils comme Personnes distinctes.
-
-  Pour Hilaire, le mystère de la Trinité ne pouvait être réduit aux catégories humaines. Cependant, l’Église pouvait et devait parler véritablement de Dieu à partir de la révélation contenue dans les Saintes Écritures.
-
-  ## L’exil en Phrygie
-
-  La défense de la foi de Nicée par Hilaire le conduisit finalement à entrer en conflit avec des évêques et des autorités politiques favorables à des positions opposées au concile.
-
-  Vers 356, il fut exilé en Phrygie, en Asie Mineure, par l’empereur Constance II.
-
-  Son exil dura plusieurs années.
-
-  Loin de Poitiers, Hilaire ne se laissa pas réduire au silence. Il consacra cette période à l’étude, à l’écriture et à la réflexion théologique.
-
-  Il entra en contact avec les théologiens chrétiens de l’Orient et découvrit plus profondément les débats complexes qui traversaient alors les Églises grecques.
-
-  Son exil devint ainsi une période importante de maturation intellectuelle et spirituelle.
-
-  ## Le *De Trinitate*
-
-  Pendant son exil, Hilaire écrivit son œuvre théologique la plus célèbre, le *De Trinitate*, ou *Sur la Trinité*.
-
-  Cette œuvre monumentale constitue l’un des grands textes théologiques latins du IVe siècle.
-
-  Hilaire y étudie attentivement le témoignage des Saintes Écritures concernant le Père, le Fils et le Saint-Esprit. Il cherche à montrer que la foi chrétienne en la Trinité n’est pas une invention philosophique, mais qu’elle découle de la révélation de Dieu.
-
-  Il insiste sur le fait que le Fils possède véritablement la nature divine du Père tout en étant distinct de lui en tant que Fils.
-
-  Hilaire médite également profondément sur la prière chrétienne et le baptême. Les chrétiens sont baptisés au nom du Père, du Fils et du Saint-Esprit : la foi trinitaire n’est donc pas simplement une formule théologique, mais elle se trouve au cœur même de la vie chrétienne.
-
-  ## Un théologien de l’Écriture
-
-  La théologie d’Hilaire est profondément enracinée dans les Saintes Écritures.
-
-  Il fait constamment appel aux paroles de la Bible pour expliquer la doctrine chrétienne. Pour lui, la théologie doit rester fidèle à la révélation donnée par Dieu.
-
-  Il écrivit également des commentaires et des homélies sur différents livres bibliques, notamment un commentaire important sur l’Évangile selon saint Matthieu.
-
-  Ses écrits manifestent une profonde conviction : les Saintes Écritures possèdent une unité qui peut être comprise toujours plus profondément à la lumière de la foi.
-
-  Hilaire développe aussi des interprétations spirituelles de nombreux passages bibliques, cherchant non seulement à en expliquer le sens littéral, mais également à montrer leur portée pour la vie chrétienne.
-
-  ## Le courage face à l’opposition
-
-  Hilaire n’était pas un théologien éloigné des difficultés concrètes de l’Église.
-
-  Il s’opposa ouvertement aux tentatives d’affaiblir ou de réinterpréter la foi de Nicée. Son courage le plaça parfois dans des situations politiques et ecclésiastiques difficiles.
-
-  Il critiqua les évêques qui avaient compromis l’enseignement de Nicée et fit appel à la conscience chrétienne de l’Église.
-
-  Son opposition ne semblait pas motivée par le désir d’obtenir une influence personnelle. Ses écrits manifestent plutôt la conviction profonde que les évêques ont la responsabilité de préserver fidèlement la foi apostolique et de la transmettre aux générations futures.
-
-  ## Le retour en Gaule
-
-  Après plusieurs années d’exil, Hilaire retourna finalement en Gaule.
-
-  Sa réputation avait considérablement grandi et il poursuivit ses efforts pour défendre la foi de Nicée.
-
-  Il travailla également à favoriser l’unité entre les chrétiens qui confessaient la divinité du Christ mais différaient parfois dans leur vocabulaire ou dans certaines formulations théologiques.
-
-  Hilaire comprenait que l’Église avait besoin à la fois de fidélité à la vérité et de charité entre les chrétiens.
-
-  Son travail théologique contribua également à transmettre à l’Occident latin certains des développements théologiques élaborés dans les Églises grecques.
-
-  ## Sa relation avec saint Martin de Tours
-
-  Hilaire est traditionnellement considéré comme l’un des maîtres spirituels du jeune Martin de Tours, qui devint par la suite l’un des saints les plus célèbres de la Gaule.
-
-  Hilaire reconnut la vocation de Martin et le soutint dans son désir de consacrer sa vie au Christ.
-
-  Leur relation contribua au développement de la vie monastique et missionnaire en Gaule.
-
-  Martin devint ensuite évêque de Tours et une figure majeure de l’évangélisation de la région.
-
-  ## Un pasteur et un maître
-
-  La grande intelligence théologique d’Hilaire ne le détourna jamais de ses responsabilités pastorales.
-
-  Comme évêque, il resta profondément attentif à la foi et à la vie spirituelle des chrétiens qui lui étaient confiés.
-
-  Il comprenait la mission de l’évêque comme celle d’un maître et d’un pasteur chargé de transmettre fidèlement l’Évangile.
-
-  Ses écrits reviennent constamment au mystère du Christ et à la vie de la grâce car, pour Hilaire, la doctrine et la vie chrétienne ne pouvaient être séparées.
-
-  La vérité sur Dieu devait transformer la manière dont les chrétiens adorent, prient et vivent.
-
-  ## Le mystère du Christ
-
-  Au cœur de la théologie d’Hilaire se trouve le mystère de l’Incarnation.
-
-  Il proclame que le Fils éternel est véritablement devenu homme sans cesser d’être Dieu.
-
-  Le Christ possède donc pleinement la nature divine et pleinement la nature humaine.
-
-  Cette vérité était essentielle pour comprendre le salut chrétien. Le Fils de Dieu est entré dans la condition humaine afin d’unir l’humanité à Dieu et de conduire les hommes à la vie de la grâce divine.
-
-  Les écrits d’Hilaire manifestent un profond émerveillement devant ce mystère.
-
-  Il comprenait que le langage humain ne pourrait jamais saisir complètement Dieu, mais il croyait également que les chrétiens devaient confesser fidèlement ce que Dieu avait révélé.
-
-  ## Une vie consacrée à la vérité
-
-  La vie d’Hilaire montre le prix que peut coûter la défense de la foi durant une période de division dans l’Église.
-
-  Il connut l’exil, l’opposition et les conflits avec des personnages puissants. Pourtant, il continua à écrire, à prêcher et à défendre la foi qui lui avait été confiée.
-
-  Son courage s’accompagnait d’une profonde humilité intellectuelle. Il reconnaissait que le mystère de Dieu dépasse l’intelligence humaine, tout en affirmant fermement que l’Église avait reçu une véritable révélation.
-
-  Pour Hilaire, foi et raison n’étaient pas ennemies. L’intelligence devait chercher à comprendre ce que la foi reçoit, tout en demeurant humble devant le mystère de Dieu.
-
-  ## Sa mort et son héritage
-
-  Hilaire mourut vers l’année 367 à Poitiers.
-
-  Son influence continua de grandir après sa mort. Ses écrits théologiques devinrent des références importantes pour le christianisme occidental, particulièrement pour l’enseignement sur la Trinité et la divinité du Christ.
-
-  L’Église le vénère comme évêque, théologien et défenseur de la foi.
-
-  Il fut proclamé Docteur de l’Église par le pape Pie IX en 1851.
-
-  Sa fête liturgique est célébrée le 13 janvier.
-
-  ## Docteur de l’Église
-
-  Saint Hilaire est l’un des grands Pères latins du IVe siècle.
-
-  Son titre de Docteur de l’Église témoigne de l’importance durable de son enseignement théologique.
-
-  Il contribua à aider les chrétiens d’Occident à comprendre et à défendre la foi de Nicée à une époque où l’Église traversait de profondes controverses doctrinales.
-
-  Son œuvre permit également de transmettre au monde latin des éléments importants de la réflexion théologique développée dans les Églises d’Orient.
-
-  ## Un modèle de courage chrétien
-
-  Saint Hilaire de Poitiers demeure un remarquable exemple de fidélité chrétienne.
-
-  Il fut un intellectuel devenu évêque, un époux et un père qui s’engagea profondément au service de l’Église, et un exilé qui transforma l’épreuve en occasion de prière et de réflexion théologique.
-
-  Sa vie enseigne que défendre la foi ne signifie pas s’appuyer sur la puissance humaine ou politique. Il s’agit avant tout de demeurer fidèle au Christ lorsque la vérité devient difficile à proclamer.
-
-  Ses écrits invitent les chrétiens à contempler le mystère de la Sainte Trinité et à approfondir leur connaissance de Jésus-Christ, Fils éternel du Père devenu homme pour notre salut.
-
-  Saint Hilaire demeure ainsi un témoin de la vérité selon laquelle la foi chrétienne n’est pas simplement un ensemble d’idées. Elle est la révélation du Dieu vivant, reçue dans la foi, contemplée par l’intelligence et vécue avec courage.
-
-  Son héritage rappelle encore aujourd’hui à l’Église que la fidélité au Christ exige à la fois la clarté intellectuelle et l’humilité spirituelle, et que les vérités théologiques les plus profondes doivent toujours conduire le croyant vers l’adoration, la prière et la sainteté.
-  $desc$
+Saint Hilaire de Poitiers a profondément marqué la théologie chrétienne par sa défense de la Trinité et son interprétation des Écritures. Honoré comme **Docteur de l’Église**, il est reconnu pour avoir uni la profondeur intellectuelle au courage pastoral et à une foi inébranlable. Sa vie démontre que la défense de la vérité chrétienne exige à la fois un esprit solidement formé et un cœur entièrement consacré au Christ. Par ses écrits et son exemple, saint Hilaire demeure un témoin durable de la puissance de la foi, de la persévérance et de la recherche de la vérité divine.
+$desc$
 ),
 (
-	'saint-hilary-of-poitiers',
-		'la',
-		'S. Hilarius Pictaviensis fuit episcopus, theologus et Doctor Ecclesiae saeculi quarti. Unus ex praecipuis defensoribus fidei in divinitatem Christi, Arianismo fortiter restitit atque ad fidem Nicaenam defendendam magnopere contulit. Inter praecipua eius opera est *De Trinitate*, in quo mysterium Patris, Filii et Spiritus Sancti ex revelatione Sacrarum Scripturarum alte meditatur.',
-  $desc$
-  ## Sanctus Hilarius Pictaviensis
+    'saint-hilary-of-poitiers',
+    'la',
+    'Sanctus Hilarius Pictaviensis episcopus, theologus et Ecclesiae Doctor saeculi quarti fuit, qui unus ex magnis defensoribus fidei catholicae in divinitatem Christi factus est. « Athanasius Occidentis » appellatus, Arianismo fortiter restitit atque magni momenti munus in defensione fidei Nicaenae egit. Praeterea opera theologica profunda de Trinitate et christiana Scripturarum interpretatione conscripsit.',
+$desc$
+Sanctus Hilarius Pictaviensis unus ex magnis fidei christianae defensoribus saeculo quarto fuit, fortitudine sua contra Arianismum et profunda doctrina de divinitate Iesu Christi celebratus. **« Athanasius Occidentis »** appellatus, magni momenti munus egit in conservanda Ecclesiae doctrina de Sanctissima Trinitate, tempore quo divisiones theologicae eius unitatem minabantur. Per scripta sua, ministerium episcopale et voluntatem pro veritate patiendi, unus ex theologis potentissimis primaevae Ecclesiae occidentalis factus est.
 
-  Sanctus Hilarius Pictaviensis unus ex magnis defensoribus fidei christianae saeculi quarti fuit. Episcopus, theologus, praedicator et Doctor Ecclesiae, vitam suam veritati consecravit quae Iesum Christum vere Filium Dei et vere Deum confitetur.
+### Conversio ad fidem christianam
 
-  Vixit tempore quo Ecclesia gravibus doctrinalibus controversiis agitata est. Praesertim controversia Ariana christianos per Imperium Romanum dividebat. Multi episcopi et theologi de ratione qua relatio inter Patrem et Filium intellegenda esset disputabant. Hilarius inter praecipuos defensores fidei a Concilio Nicaeno proclamatae numeratus est.
+Hilarius Pictavis, in Gallia, familia pagana natus est atque amplam educationem in philosophia et litteris classicis accepit. Investigatio eius veritatis tandem eum ad Scripturarum studium perduxit, per quod in unum Deum, in Iesu Christo revelatum, credere coepit. Adultus christianam fidem amplexus est, deinde episcopus Pictaviensis electus. Dona intellectualia eius et profunda eius persuasio ei facultatem dederunt controversias theologicas aetatis suae clare et constanter tractandi.
 
-  Propter eius fortitudinem et doctrinam interdum « Athanasius Occidentis » appellatur, ob similitudinem cum sancto Athanasio Alexandrino, magno fidei Nicaenae defensore in Oriente.
+### Defensor divinitatis Christi
 
-  ## Conversio ad fidem
+Tempore episcopatus Hilarii, Arianismus fons gravis divisionis intra Ecclesiam manebat. Eius fautores plenam Filii divinitatem negabant, docentes Christum Patri aequalem non esse eiusdem naturae divinae. Hilarius huic doctrinae firmiter restitit, fidem Ecclesiae defendens Christum vere Deum et vere hominem esse. Praecipuum eius opus theologicum, *De Trinitate*, accuratam defensionem necessitudinis inter Patrem et Filium praebuit, Scriptura late innixum. Per doctrinam suam, Hilarius intellectum Trinitatis confirmare adiuvit, qui postea in traditione doctrinali Ecclesiae expressus est.
 
-  Hilarius probabiliter ineunte saeculo quarto, circa annum 310, in Gallia natus est, in regione quae hodie ad Franciam pertinet.
+### Exsilium et fidelitas
 
-  Non videtur a parentibus christianis educatus esse, sed ad fidem christianam adultus pervenit.
+Oppositio Hilarii Arianismo eum in conflictum cum potentibus huius doctrinae fautoribus adduxit, atque in Phrygiam, Asiam Minorem, exsulatus est. Exsilium eum silere non coegit; potius opus theologicum continuavit atque controversias in Ecclesia Orientali agitatas cognovit. Hoc tempore multa scripsit ad fidem Nicaenam defendendam et eos reconciliandos studuit qui ad doctrinam orthodoxam reduci poterant. Fortitudo eius altam erga unitatem Ecclesiae dedicationem demonstravit, quae non in compromissis circa doctrinam essentialem, sed in fidelitate erga veritatem fundabatur.
 
-  Conversio eius cum sincera veritatis inquisitione coniuncta erat. Philosophiam et Sacras Scripturas studens, paulatim ad cognitionem unius veri Dei pervenit, qui in fide christiana revelatur.
+Tandem Hilarius in Galliam redire potuit, ubi ministerium episcopale repetivit atque Arianismo per praedicationem et scripta opponi perrexit. Commentarios quoque biblicos composuit, praesertim in Psalmos, demonstrans se subtilitatem theologicam cum meditatione spirituali coniungere posse.
 
-  Praesertim verba initii Evangelii secundum Ioannem de Verbo Dei eum profunde moverunt.
+### Permanens hereditas theologica
 
-  Hilarius intellexit Deum in Iesu Christo revelatum non esse simpliciter summum quoddam ens a mundo remotum, sed Deum vivum qui historiam humanam intravit ut hominem salvaret.
-
-  Ex hac fide paulatim vocatio eius ad plenum Christo et Ecclesiae servitium orta est.
-
-  ## Episcopus Pictaviensis
-
-  Ante episcopatum Hilarius matrimonio iunctus erat atque filiam habebat. Vita eius familiaris igitur partem itineris christiani constituit antequam ad episcopale ministerium vocaretur.
-
-  Circa annum 350 episcopus Pictaviensis factus est.
-
-  Episcopus, curam habebat doctrinae fidei et vitae spiritualis populi sibi commissi. Sed eius episcopatus brevi tempore implicatus est in magna controversia theologica quae Ecclesiam perturbabat.
-
-  Arianismus per magnam partem Imperii Romani diffusus erat. Ariani plenam Christi divinitatem negabant vel minuebant, Filiumque ita a Patre distinguebant ut ei inferiorem condicionem tribuerent.
-
-  Hilarius intellexit quaestionem non esse mere intellectualem. Veritas de Christo ad ipsum mysterium salutis pertinebat.
-
-  Si Christus vere Deus non esset, ipsum nuntium christianum de salute hominis funditus mutaretur.
-
-  ## Defensor fidei Nicaenae
-
-  Concilium Nicaenum, anno 325 celebratum, professum est Filium Patri esse *consubstantialem*, id est eiusdem divinae substantiae.
-
-  Hilarius fortissimus huius doctrinae defensor factus est.
-
-  Docuit Filium non esse creaturam a Deo factam, sed ab aeterno a Patre genitum atque vere Deum esse.
-
-  In scriptis suis quaesivit explicare quomodo christiani unum Deum confiteri possent, dum simul Patrem et Filium tamquam Personas distinctas crederent.
-
-  Pro Hilario mysterium Sanctissimae Trinitatis ad rationes humanas reduci non poterat. Attamen Ecclesia de Deo vere loqui poterat et debebat, secundum revelationem quae in Sacris Scripturis tradita est.
-
-  ## Exilium in Phrygia
-
-  Fidelis defensio fidei Nicaenae Hilarium in conflictum cum quibusdam episcopis et auctoritatibus politicis adduxit, qui doctrinas Nicaenae contrarias sustinebant.
-
-  Circa annum 356 ab imperatore Constantio II in Phrygiam, in Asia Minore, exsulatus est.
-
-  Exilium eius per aliquot annos duravit.
-
-  Quamvis a Pictavis remotus esset, Hilarius scribere et Ecclesiae servire non desiit. Tempus exilii studio, orationi et meditationi theologicae impendit.
-
-  Cum theologis Orientalibus congressus est et profundius cognovit controversias quae tunc Ecclesias Graecas dividebant.
-
-  Exilium igitur ei factum est tempus magni momenti ad maturationem intellectualem et spiritualem.
-
-  ## *De Trinitate*
-
-  Tempore exilii Hilarius opus suum celeberrimum composuit, quod *De Trinitate* inscribitur.
-
-  Hoc opus monumentale inter praecipua scripta theologica Latina saeculi quarti numeratur.
-
-  Hilarius in eo testimonia Sacrarum Scripturarum de Patre, Filio et Spiritu Sancto diligenter considerat. Ostendere conatur fidem christianam in Trinitatem non esse inventionem philosophicam, sed ex ipsa revelatione divina oriri.
-
-  Firmiter affirmat Filium vere eamdem naturam divinam quam Pater habet possidere, dum tamen a Patre ut Filius distinctus manet.
-
-  De oratione christiana et Baptismo quoque alte meditatur. Christiani baptizantur in nomine Patris et Filii et Spiritus Sancti. Fides igitur trinitaria non est simplex formula theologica, sed ipsum cor vitae christianae.
-
-  ## Theologus Sacrarum Scripturarum
-
-  Theologia Hilarii penitus in Sacris Scripturis radicata est.
-
-  Ad verba Bibliae constanter recurrit ut doctrinam christianam explicet. Pro eo theologia fidelis revelationi Dei esse debet.
-
-  Commentarios quoque et homilias in libros biblicos composuit, inter quos praecipuum locum habet commentarius in Evangelium secundum Matthaeum.
-
-  Scripta eius ostendunt profundam persuasionem Sacras Scripturas unitatem quandam habere, quae sub lumine fidei semper profundius intellegi potest.
-
-  Hilarius etiam sensum spiritualem multorum locorum biblicorum investigavit, non solum eorum significationem litteralem explicare quaerens, sed etiam quid verba divina pro vita christiana significarent ostendens.
-
-  ## Fortitudo inter oppositiones
-
-  Hilarius theologus non fuit qui a difficultatibus Ecclesiae se separaret.
-
-  Aperte restitit conatibus quibus doctrina Nicaena debilitari vel mutari conabatur. Propter hanc fortitudinem in difficilibus condicionibus ecclesiasticis et politicis versatus est.
-
-  Episcopos quoque reprehendit qui doctrinam Nicaenam compromiserant atque conscientiam Ecclesiae christianae ad fidelitatem erga apostolicam fidem provocavit.
-
-  Oppositio eius non ex cupiditate honoris vel potentiae orta videtur. Immo scripta eius manifestant profundam persuasionem episcopos officium habere fidem ab Apostolis traditam fideliter servandi atque posteris transmittendi.
-
-  ## Reditus in Galliam
-
-  Post aliquot annos exilii Hilarius in Galliam rediit.
-
-  Fama eius iam multum creverat, et ipse defensionem fidei Nicaenae continuavit.
-
-  Simul unitatem inter christianos quaerebat qui divinitatem Christi confitebantur, quamvis in terminologia vel quibusdam expressionibus theologicis inter se differrent.
-
-  Hilarius intellexit Ecclesiae necessariam esse simul fidelitatem veritati et caritatem erga fratres.
-
-  Opus eius theologicum etiam adiuvi ut quaedam divitiarum doctrinae Orientalis Ecclesiae ad christianitatem Latinam Occidentis transferrentur.
-
-  ## Relatio cum sancto Martino Turonensi
-
-  Traditio sanctum Hilarium cum iuvene Martino, qui postea sanctissimus episcopus Turonensis factus est, arcte coniungit.
-
-  Hilarius vocationem Martini agnovisse atque eum in desiderio Christo consecrandi sustentavisse traditur.
-
-  Eorum relatio ad incrementum vitae monasticae et missionariae in Gallia contulisse existimatur.
-
-  Martinus postea episcopus Turonensis factus est et inter praecipuos evangelizationis Galliae testes numeratus est.
-
-  ## Pastor et magister
-
-  Praeclara Hilarii doctrina numquam eum a pastoralibus officiis separavit.
-
-  Ut episcopus, fidei et vitae spirituali christianorum sibi commissorum diligenter prospiciebat.
-
-  Episcopi munus intellegit tamquam magistri et pastoris, cuius officium est Evangelium fideliter docere et tradere.
-
-  In scriptis suis ad mysterium Christi et vitam gratiae constanter redit, quia doctrina et vita christiana, secundum eum, separari non possunt.
-
-  Veritas de Deo debet mutare modum quo christiani Deum adorant, orant et vivunt.
-
-  ## Mysterium Christi
-
-  In corde theologiae Hilarii mysterium Incarnationis invenitur.
-
-  Docet Filium aeternum vere hominem factum esse, divinitatem suam non amittentem.
-
-  Christus igitur vere Deus et vere homo est.
-
-  Haec veritas essentialis erat ad mysterium salutis intellegendum. Filius Dei condicionem humanam suscepit ut hominem Deo coniungeret et ad vitam divinae gratiae perduceret.
-
-  Scripta Hilarii magnum admirationis sensum ante hoc mysterium manifestant.
-
-  Intellexit linguam humanam numquam Deum perfecte comprehendere posse, sed simul firmiter credidit christianos fideliter profiteri debere id quod Deus revelavit.
-
-  ## Vita veritati consecrata
-
-  Vita Hilarii ostendit quam magnum pretium interdum defensio fidei exigat tempore divisionum ecclesiasticarum.
-
-  Exilium, oppositiones et conflictus cum hominibus potentibus passus est. Nihilominus scribere, praedicare et fidem sibi commissam defendere perseveravit.
-
-  Fortitudo eius cum profunda humilitate intellectuali coniungebatur. Agnovit mysterium Dei humanam intellegentiam superare, simul tamen firmiter tenuit Ecclesiam veram revelationem a Deo accepisse.
-
-  Pro Hilario fides et ratio non inimicae erant. Intellectus quaerere debet quid fides recipiat, semper tamen humilis coram mysterio Dei permanens.
-
-  ## Mors et hereditas spiritualis
-
-  Hilarius circa annum 367 Pictavis mortuus est.
-
-  Post mortem eius auctoritas crescere perrexit. Scripta eius theologica magni momenti facta sunt pro christianitate occidentali, praesertim in doctrina de Sanctissima Trinitate et de divinitate Christi.
-
-  Ecclesia eum tamquam episcopum, theologum et fidei defensorem veneratur.
-
-  A Pio IX papa anno 1851 Doctor Ecclesiae declaratus est.
-
-  Eius memoria liturgica die 13 Ianuarii celebratur.
-
-  ## Doctor Ecclesiae
-
-  Sanctus Hilarius unus ex magnis Patribus Latinis saeculi quarti est.
-
-  Titulus Doctoris Ecclesiae momentum perpetuum doctrinae eius theologicae testatur.
-
-  Ecclesiam occidentalem adiuvit ad fidem Nicaenam intellegendam et defendendam tempore quo graves controversiae doctrinales eam perturbabant.
-
-  Opus eius etiam ad transmissionem doctrinae theologicae Orientis ad Ecclesiam Latinam contulit.
-
-  ## Exemplar fortitudinis christianae
-
-  Sanctus Hilarius Pictaviensis permanet insigne exemplum fidelitatis christianae.
-
-  Vir doctus episcopus factus est, maritus et pater qui se penitus Ecclesiae servitio dedit, atque exsul qui dolorem suum in tempus orationis et meditationis theologicae transformavit.
-
-  Vita eius docet defensionem fidei non inniti debere potentiae humanae vel politicae. Primum requirit ut homo Christo fidelis permaneat etiam cum veritas difficilis ad annuntiandum fit.
-
-  Scripta eius christianos invitant ad contemplationem mysterii Sanctissimae Trinitatis et ad altiorem cognitionem Iesu Christi, Filii aeterni Patris, qui propter nostram salutem homo factus est.
-
-  Sanctus Hilarius testis permanet fidei christianae quae non est mera collectio opinionum vel idearum. Est revelatio Dei viventis, fide recepta, intellectu contemplata et fortiter in vita impleta.
-
-  Eius hereditas Ecclesiae etiam hodie commemorat fidelitatem Christo simul claritatem intellectualem et humilitatem spiritualem postulare, atque altissima mysteria fidei semper adorationem, orationem et sanctitatem in corde credentis excitare debere.
-  $desc$
+Sanctus Hilarius Pictaviensis vestigium duraturum in theologia christiana reliquit per defensionem Trinitatis et interpretationem Scripturarum. **Doctor Ecclesiae** honoratus, memoria tenetur quod profundam doctrinam intellectualem cum fortitudine pastorali et fide inconcussa coniunxit. Vita eius demonstrat defensionem veritatis christianae et mentem bene formatam et cor Christo firmiter devotum requirere. Per scripta sua et exemplum vitae, sanctus Hilarius testis perennis manet virtutis fidei, perseverantiae et investigationis veritatis divinae.
+$desc$
 ),
 (
 	'saint-anthony-abbot',
 		'en',
 		'Saint Anthony the Abbot, also known as Saint Anthony the Great or Saint Anthony of the Desert, was a fourth-century Egyptian Christian ascetic and one of the fathers of Christian monasticism. After giving his possessions to the poor, he withdrew into the desert to seek God through prayer, fasting and solitude. His life became a model of Christian asceticism and profoundly influenced the development of monastic life throughout the Christian world.',
   $desc$
-  ## Saint Anthony the Abbot
+  Saint Anthony the Great, also known as Saint Anthony Abbot or Anthony of the Desert, is regarded as one of the founding fathers of Christian monasticism. Renowned for his extraordinary asceticism, his spiritual struggles and his complete trust in God, he abandoned worldly possessions to devote himself entirely to prayer and contemplation. His life became a powerful example of Christian detachment and perseverance, inspiring generations of monks and religious communities throughout the Church.
 
-  Saint Anthony the Abbot, also known as Saint Anthony the Great or Saint Anthony of the Desert, is one of the most important figures in the history of Christian monasticism.
+  ### A Call to Solitude
 
-  He lived in Egypt during the fourth century, at a time when Christianity was undergoing profound changes. The age of the great Roman persecutions was coming to an end, but for Anthony, the Christian struggle did not disappear with the conversion of emperors. He understood that the disciple of Christ was still called to renounce sin, resist temptation and give his whole life to God.
+  Anthony was born in Egypt into a wealthy Christian family. After the death of his parents, he was deeply moved by Christ's words in the Gospel: *“If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven.”* Taking these words as a personal calling, he distributed his inheritance to the poor, provided for his younger sister and withdrew from ordinary life to seek God in solitude. He initially lived near his village, learning from experienced ascetics, before moving farther into the desert to embrace a life of prayer, fasting and spiritual discipline.
 
-  By embracing poverty, solitude, prayer and ascetic discipline, Anthony became one of the great fathers of the desert. His example inspired generations of monks and hermits and helped shape Christian spirituality in both East and West.
+  ### Trials in the Desert
 
-  ## A young man called by the Gospel
+  Anthony's solitary life was marked by severe temptations, which Christian tradition describes as fierce spiritual battles against the devil. Through prayer, fasting and unwavering faith, he resisted these trials and grew in spiritual strength. Seeking greater solitude, he withdrew into an abandoned fortress and later into the remote desert, where he lived for many years. Although he desired to remain hidden from the world, his reputation for holiness spread, and people began seeking him for spiritual guidance, healing and counsel. Anthony eventually accepted that his vocation was not only to pursue his own sanctification, but also to help others grow in faith.
 
-  Anthony was born around the year 251 in Egypt, probably near Heracleopolis.
+  ### Father of Monastic Life
 
-  His parents were wealthy Christians, and Anthony grew up in a family that possessed considerable property. From his childhood, however, he was deeply attached to the Christian faith.
+  Many disciples gathered around Anthony, inspired by his example of asceticism and devotion. He taught them to persevere in prayer, resist temptation and place their confidence entirely in God. These communities helped lay the foundations of Christian monastic life, in which solitude and contemplation were joined to spiritual discipline and fraternal support. During the Arian controversy, Anthony also left his retreat to encourage the faithful in Alexandria and support the defence of Christ's divinity, demonstrating that even a hermit's life of seclusion could serve the wider Church.
 
-  When he was still a young man, his parents died, leaving him responsible for his inheritance and for the care of his younger sister.
+  ### A Lasting Spiritual Legacy
 
-  His life changed when he heard the words of Christ in the Gospel:
-
-  "If you would be perfect, go, sell what you possess and give to the poor."
-
-  Anthony received these words as a personal invitation from God.
-
-  He sold his possessions and distributed much of his wealth among the poor. He also arranged for his sister to be cared for within a community of Christian women.
-
-  He then began a life devoted to prayer and asceticism.
-
-  This renunciation was not motivated by contempt for the created world. Anthony simply desired to possess Christ above every earthly treasure.
-
-  ## Learning the way of holiness
-
-  Anthony initially remained near his village and practiced a demanding life of prayer, fasting and manual labour.
-
-  He sought the company of other Christians who were known for their holiness and learned from their example.
-
-  From some he learned perseverance, from others prayer, discipline, humility or charity.
-
-  His spiritual journey was therefore gradual. He did not become a great hermit overnight.
-
-  He learned through experience how to discipline his desires, resist distractions and keep his heart directed towards God.
-
-  His ascetic practices were demanding. He fasted, slept little and spent long periods in prayer. Yet these practices were never intended as suffering for its own sake.
-
-  Anthony sought freedom from everything that could prevent him from giving himself completely to God.
-
-  ## Into the Egyptian desert
-
-  As his desire for solitude grew, Anthony withdrew farther into the Egyptian desert.
-
-  He lived for a time near an abandoned tomb and later settled in an old fortress, where he remained in solitude for many years.
-
-  The desert became the setting for his spiritual battle and his search for God.
-
-  For Anthony, solitude was not simply geographical isolation. It was a way of placing himself entirely before God, away from wealth, distraction and worldly security.
-
-  In the silence of the desert, he confronted his own weaknesses and learned to depend upon divine grace.
-
-  His withdrawal therefore became a radical expression of faith: he wanted nothing to stand between his heart and God.
-
-  ## The struggle against temptation
-
-  The ancient accounts of Anthony's life describe numerous temptations, visions and spiritual attacks during his years in the desert.
-
-  These accounts belong to the spiritual language of early Christian monastic literature, which understood the Christian life as a struggle against sin and the powers that seek to separate the human heart from God.
-
-  Anthony responded through prayer, fasting, Scripture and perseverance.
-
-  He believed that temptation was not proof that God had abandoned a person.
-
-  On the contrary, moments of spiritual struggle could become opportunities to grow in trust and faithfulness.
-
-  Anthony's example therefore teaches Christians not to give up when confronted with temptation, discouragement or spiritual dryness.
-
-  ## A father of hermits
-
-  Although Anthony had sought solitude, his reputation for holiness gradually attracted others.
-
-  Men came to the desert to seek his counsel and imitate his way of life.
-
-  Anthony became a spiritual father to many of them.
-
-  Groups of hermits eventually settled near him, forming communities of prayer and ascetic life.
-
-  Anthony did not invent Christian monasticism. Other forms of ascetic life already existed before him. Nevertheless, his example became one of the most influential models of the desert tradition.
-
-  His disciples sought to imitate his dedication to prayer, simplicity, manual work and perseverance.
-
-  In this way, the solitude of one man became the beginning of a wider spiritual movement.
-
-  ## Prayer and manual labour
-
-  Anthony combined prayer with work.
-
-  He worked with his hands to provide for his needs and to avoid becoming a burden to others.
-
-  Manual labour also helped him maintain discipline and avoid idleness.
-
-  Yet prayer remained the centre of his existence.
-
-  His life expressed an important Christian principle: holiness is not achieved simply through extraordinary experiences. It grows through perseverance in prayer and fidelity to God, even when the believer receives no obvious spiritual consolation.
-
-  ## A hermit who cared for the Church
-
-  Anthony's withdrawal from society did not mean that he was indifferent to the Church or to the suffering of other Christians.
-
-  During times of persecution, he left his solitude to encourage those who were suffering for the faith.
-
-  Around the year 311, during the persecution under Emperor Maximin, Anthony travelled to Alexandria.
-
-  He encouraged Christians who were imprisoned or facing death and strengthened them in their witness to Christ.
-
-  He did not seek martyrdom for himself, but he was willing to stand beside those who were suffering.
-
-  His example shows that Christian solitude is not selfish isolation. It can become a deeper form of prayer and service to the Church.
-
-  ## Saint Anthony and Saint Paul the First Hermit
-
-  One of the best-known traditions surrounding Anthony is his encounter with Saint Paul of Thebes, traditionally regarded as one of the earliest Christian hermits.
-
-  According to the ancient account, Anthony was inspired to seek Paul in the desert.
-
-  The two hermits eventually met and spoke about their lives of prayer and solitude.
-
-  Their meeting became a powerful symbol of the spiritual tradition of the desert.
-
-  According to the tradition, when Paul died, Anthony received his cloak and returned to his disciples carrying the memory of the holy hermit.
-
-  Whether considered as historical narrative or as part of the spiritual tradition surrounding the desert fathers, the story expresses the importance of humility and mutual spiritual encouragement.
-
-  ## The *Life of Antony*
-
-  Much of what Christians know about Anthony comes from the *Life of Antony*, written by Saint Athanasius of Alexandria.
-
-  Written relatively soon after Anthony's death, the work became one of the most influential Christian biographies of late antiquity.
-
-  Athanasius presents Anthony as a man transformed by God's grace.
-
-  He emphasizes his faith, humility, perseverance and spiritual courage.
-
-  The work also presents Anthony as a model for Christians seeking to dedicate themselves completely to God.
-
-  The *Life of Antony* was translated into several languages and played an enormous role in spreading the ideals of Egyptian monasticism throughout the Christian world.
-
-  ## A defender of the faith
-
-  Anthony was also associated with Saint Athanasius, the great defender of the Nicene faith against Arianism.
-
-  Anthony supported Athanasius during the theological conflicts of the fourth century.
-
-  His connection with Athanasius demonstrates that his vocation to solitude was not separated from the life of the universal Church.
-
-  The monk in the desert could still serve the Church through prayer, witness and fidelity to the apostolic faith.
-
-  ## The final years
-
-  Anthony lived to an exceptionally advanced age.
-
-  According to the traditional account, he died around the year 356 at approximately 105 years of age.
-
-  Before his death, he encouraged his disciples to remain faithful to prayer and to persevere in the Christian life.
-
-  He asked that his burial place remain secret, reflecting his humility and his desire to avoid earthly honour.
-
-  His disciples respected his wishes, although devotion to his memory quickly spread throughout the Christian world.
-
-  ## Father of Christian monasticism
-
-  Saint Anthony became one of the foundational figures of Christian monasticism.
-
-  His life profoundly influenced the Egyptian desert tradition and, through it, later monastic movements throughout the Mediterranean world.
-
-  His example helped establish a pattern of Christian life centred on prayer, poverty, solitude, fasting, manual work and spiritual warfare.
-
-  His influence can also be seen in the development of communal monasticism associated with Saint Pachomius and in later Western monastic traditions.
-
-  The monk who sought to disappear from the world became one of the most influential spiritual fathers in Christian history.
-
-  ## A model of Christian detachment
-
-  Anthony's radical poverty reminds Christians that earthly possessions can easily become obstacles when they take the place that belongs to God.
-
-  He did not regard material creation as evil. Rather, he wanted to be free from attachment to wealth so that his heart could belong completely to Christ.
-
-  His life expresses the Gospel's invitation to seek first the Kingdom of God.
-
-  Christian detachment, however, is not an end in itself. Anthony's renunciation was ultimately ordered towards love of God and love of neighbour.
-
-  By simplifying his life, he sought to become more available to God and more attentive to those who came to him seeking help and spiritual guidance.
-
-  ## The traditional image of Saint Anthony
-
-  Saint Anthony is often represented in Christian art with a staff shaped like a cross, a small bell and a pig.
-
-  These symbols are largely connected with later traditions surrounding his cult and the Order of Saint Anthony rather than with the historical details of his life in fourth-century Egypt.
-
-  He became particularly associated with protection against certain diseases and with care for the sick and poor in medieval Christian Europe.
-
-  His image therefore came to represent not only the solitary monk of the desert, but also Christian charity and trust in God's protection.
-
-  ## A life centred on Christ
-
-  The greatness of Saint Anthony does not ultimately lie in the extraordinary stories told about him.
-
-  It lies in his complete desire to belong to Christ.
-
-  He heard the Gospel and took it seriously. He gave away his possessions, embraced solitude, endured temptation and became a spiritual father to those who sought God.
-
-  His life reminds Christians that holiness begins with a response to God's call.
-
-  Anthony's path was radical, but the heart of his message remains universal: God must be loved above all things, and the Christian must persevere even when the road to holiness becomes difficult.
-
-  ## A lasting spiritual legacy
-
-  Saint Anthony the Abbot died in the solitude of the Egyptian desert, but his spiritual influence reached far beyond the place where he lived.
-
-  His life inspired monks, hermits, bishops, theologians and countless ordinary Christians throughout the centuries.
-
-  He remains a powerful witness to the importance of prayer, silence, detachment, perseverance and trust in God.
-
-  His example also reminds the Church that holiness does not depend upon worldly success, wealth or recognition.
-
-  A man who chose the hidden life of the desert became one of the most widely venerated saints in Christian history.
-
-  Saint Anthony the Abbot remains a father of Christian monasticism and a model of radical faith. His life invites every Christian to examine what truly occupies the heart and to seek, above all earthly things, the Kingdom of God and communion with Jesus Christ.
+  Saint Anthony lived to an advanced age, remaining faithful to his vocation of prayer and detachment until his death. His life became widely known through Saint Athanasius's *Life of Anthony*, which profoundly influenced the development of monasticism in both the East and the West. Remembered as the **Father of Monks**, he remains a model of spiritual perseverance, humility and freedom from worldly attachments. His example reminds Christians that the pursuit of holiness requires a heart turned towards God, strengthened through prayer and willing to surrender everything that stands in the way of divine love.
   $desc$
 ),
 
 (
-	'saint-anthony-abbot',
-		'fr',
-		'Saint Antoine le Grand, également appelé saint Antoine du Désert ou saint Antoine l’Abbé, fut un ascète chrétien égyptien du IVe siècle et l’un des pères du monachisme chrétien. Après avoir distribué ses biens aux pauvres, il se retira dans le désert pour rechercher Dieu dans la prière, le jeûne et la solitude. Son exemple devint un modèle de vie ascétique et influença profondément le développement de la vie monastique dans tout le monde chrétien.',
-  $desc$
-  ## Saint Antoine le Grand
+    'saint-anthony-abbot',
+    'fr',
+    'Saint Antoine abbé, également connu sous le nom de saint Antoine le Grand ou saint Antoine du Désert, était un ascète chrétien égyptien du IVe siècle et l’un des pères du monachisme chrétien. Après avoir distribué ses biens aux pauvres, il se retira dans le désert pour chercher Dieu par la prière, le jeûne et la solitude. Sa vie devint un modèle d’ascèse chrétienne et influença profondément le développement de la vie monastique dans tout le monde chrétien.',
+$desc$
+Saint Antoine le Grand, également connu sous le nom de saint Antoine abbé ou Antoine du Désert, est considéré comme l’un des pères fondateurs du monachisme chrétien. Réputé pour son ascèse extraordinaire, ses combats spirituels et sa confiance absolue en Dieu, il renonça aux biens du monde pour se consacrer entièrement à la prière et à la contemplation. Sa vie devint un exemple puissant de détachement chrétien et de persévérance, inspirant des générations de moines et de communautés religieuses à travers l’Église.
 
-  Saint Antoine le Grand, également appelé saint Antoine du Désert ou saint Antoine l’Abbé, est l’une des grandes figures de l’histoire du monachisme chrétien.
+### Un appel à la solitude
 
-  Il vécut en Égypte au IVe siècle, à une époque où le christianisme connaissait de profondes transformations. Les grandes persécutions de l’Empire romain commençaient à prendre fin, mais pour Antoine, la fin des persécutions ne signifiait pas que le combat chrétien était terminé. Il comprit que le disciple du Christ était toujours appelé à renoncer au péché, à résister à la tentation et à consacrer toute sa vie à Dieu.
+Antoine naquit en Égypte au sein d’une riche famille chrétienne. Après la mort de ses parents, il fut profondément touché par les paroles du Christ dans l’Évangile : *« Si tu veux être parfait, va, vends ce que tu possèdes, donne-le aux pauvres, et tu auras un trésor dans les cieux. »* Considérant ces paroles comme un appel personnel, il distribua son héritage aux pauvres, prit soin de sa jeune sœur et se retira de la vie ordinaire pour chercher Dieu dans la solitude. Il vécut d’abord près de son village, où il apprit auprès d’ascètes expérimentés, avant de s’enfoncer davantage dans le désert pour embrasser une vie de prière, de jeûne et de discipline spirituelle.
 
-  En embrassant la pauvreté, la solitude, la prière et l’ascèse, Antoine devint l’un des grands pères du désert. Son exemple inspira des générations de moines et d’ermites et contribua profondément à façonner la spiritualité chrétienne en Orient comme en Occident.
+### Les épreuves du désert
 
-  ## Un jeune homme appelé par l’Évangile
+La vie solitaire d’Antoine fut marquée par de fortes tentations, que la tradition chrétienne décrit comme de violents combats spirituels contre le démon. Par la prière, le jeûne et une foi inébranlable, il résista à ces épreuves et grandit en force spirituelle. En quête d’une solitude plus profonde, il se retira dans une forteresse abandonnée, puis dans une région reculée du désert, où il vécut de nombreuses années. Bien qu’il désirât rester caché du monde, sa réputation de sainteté se répandit et les gens commencèrent à venir le trouver pour recevoir des conseils spirituels, demander des guérisons et solliciter son accompagnement. Antoine finit par comprendre que sa vocation ne consistait pas seulement à poursuivre sa propre sanctification, mais aussi à aider les autres à grandir dans la foi.
 
-  Antoine naquit vers l’année 251 en Égypte, probablement dans la région d’Héracléopolis.
+### Père de la vie monastique
 
-  Ses parents étaient des chrétiens aisés et Antoine grandit dans une famille qui possédait d’importants biens. Dès son enfance, cependant, il fut profondément attaché à la foi chrétienne.
+De nombreux disciples se rassemblèrent autour d’Antoine, inspirés par son exemple d’ascèse et de dévotion. Il leur enseigna à persévérer dans la prière, à résister aux tentations et à placer toute leur confiance en Dieu. Ces communautés contribuèrent à poser les fondements de la vie monastique chrétienne, dans laquelle la solitude et la contemplation s’unissaient à la discipline spirituelle et au soutien fraternel. Durant la controverse arienne, Antoine quitta également sa retraite pour encourager les fidèles à Alexandrie et soutenir la défense de la divinité du Christ, démontrant ainsi que même la vie retirée d’un ermite pouvait servir l’ensemble de l’Église.
 
-  Alors qu’il était encore jeune, ses parents moururent, le laissant responsable de son héritage et de sa jeune sœur.
+### Un héritage spirituel durable
 
-  Sa vie changea lorsqu’il entendit les paroles du Christ dans l’Évangile :
-
-  « Si tu veux être parfait, va, vends ce que tu possèdes et donne-le aux pauvres. »
-
-  Antoine reçut ces paroles comme une invitation personnelle de Dieu.
-
-  Il vendit ses biens et distribua une grande partie de sa fortune aux pauvres. Il veilla également à ce que sa sœur soit confiée aux soins d’une communauté de femmes chrétiennes.
-
-  Il commença alors une vie consacrée à la prière et à l’ascèse.
-
-  Ce renoncement n’était pas motivé par un mépris de la création. Antoine désirait simplement posséder le Christ au-dessus de toutes les richesses et de toutes les sécurités terrestres.
-
-  ## Apprendre le chemin de la sainteté
-
-  Antoine demeura d’abord près de son village et pratiqua une vie exigeante de prière, de jeûne et de travail manuel.
-
-  Il recherchait la compagnie de chrétiens réputés pour leur sainteté et apprenait de leur exemple.
-
-  Des uns, il apprit la persévérance ; des autres, la prière, la discipline, l’humilité ou la charité.
-
-  Son chemin spirituel fut donc progressif. Il ne devint pas immédiatement le grand ermite que la tradition chrétienne devait connaître.
-
-  Il apprit peu à peu à discipliner ses désirs, à résister aux distractions et à garder son cœur tourné vers Dieu.
-
-  Son ascèse était exigeante. Il jeûnait, dormait peu et consacrait de longues heures à la prière. Pourtant, ces pratiques n’avaient jamais pour but la souffrance pour elle-même.
-
-  Antoine cherchait à se libérer de tout ce qui pouvait empêcher son cœur de se donner entièrement à Dieu.
-
-  ## Dans le désert d’Égypte
-
-  À mesure que grandissait son désir de solitude, Antoine s’enfonça davantage dans le désert égyptien.
-
-  Il vécut quelque temps près d’un tombeau abandonné, puis s’installa dans une ancienne forteresse où il demeura pendant de nombreuses années.
-
-  Le désert devint le lieu de son combat spirituel et de sa recherche de Dieu.
-
-  Pour Antoine, la solitude n’était pas seulement un éloignement géographique. Elle était une manière de se placer entièrement devant Dieu, loin des richesses, des distractions et des sécurités du monde.
-
-  Dans le silence du désert, il affronta ses propres faiblesses et apprit à dépendre de la grâce divine.
-
-  Son retrait devint ainsi une expression radicale de sa foi : il ne voulait rien laisser s’interposer entre son cœur et Dieu.
-
-  ## Le combat contre la tentation
-
-  Les récits anciens de la vie d’Antoine racontent de nombreuses tentations, visions et épreuves spirituelles durant ses années dans le désert.
-
-  Ces récits appartiennent au langage spirituel de la littérature monastique chrétienne des premiers siècles, qui comprenait la vie chrétienne comme un combat contre le péché et contre tout ce qui cherche à séparer le cœur humain de Dieu.
-
-  Antoine répondait à ces épreuves par la prière, le jeûne, les Saintes Écritures et la persévérance.
-
-  Il croyait que la tentation n’était pas la preuve que Dieu avait abandonné l’homme.
-
-  Au contraire, les moments de combat spirituel pouvaient devenir des occasions de grandir dans la confiance et la fidélité.
-
-  Son exemple invite ainsi les chrétiens à ne pas se décourager lorsqu’ils rencontrent la tentation, l’épreuve ou la sécheresse spirituelle.
-
-  ## Le père des ermites
-
-  Bien qu’Antoine ait recherché la solitude, sa réputation de sainteté attira progressivement d’autres hommes.
-
-  Ils venaient dans le désert pour recevoir ses conseils et imiter son mode de vie.
-
-  Antoine devint ainsi un père spirituel pour de nombreux disciples.
-
-  Des groupes d’ermites s’installèrent progressivement autour de lui et formèrent des communautés consacrées à la prière et à l’ascèse.
-
-  Antoine n’inventa pas le monachisme chrétien, puisque différentes formes de vie ascétique existaient déjà avant lui. Cependant, son exemple devint l’un des modèles les plus influents de la tradition du désert.
-
-  Ses disciples cherchaient à imiter son dévouement à la prière, à la simplicité, au travail manuel et à la persévérance.
-
-  Ainsi, la solitude d’un homme devint le point de départ d’un vaste mouvement spirituel.
-
-  ## La prière et le travail manuel
-
-  Antoine unissait la prière au travail.
-
-  Il travaillait de ses mains pour subvenir à ses besoins et éviter de devenir une charge pour les autres.
-
-  Le travail manuel l’aidait également à rester discipliné et à éviter l’oisiveté.
-
-  Mais la prière demeurait le centre de toute son existence.
-
-  Sa vie exprimait une vérité importante : la sainteté ne s’acquiert pas seulement à travers des expériences extraordinaires. Elle grandit dans la persévérance quotidienne, dans la fidélité à la prière et dans la confiance en Dieu, même lorsque le croyant ne reçoit aucune consolation spirituelle particulière.
-
-  ## Un ermite au service de l’Église
-
-  Le retrait d’Antoine dans le désert ne signifiait pas qu’il était indifférent à l’Église ou aux souffrances des autres chrétiens.
-
-  Pendant les périodes de persécution, il quitta sa solitude pour encourager ceux qui souffraient à cause de leur foi.
-
-  Vers l’année 311, durant la persécution menée sous l’empereur Maximin, Antoine se rendit à Alexandrie.
-
-  Il encouragea les chrétiens emprisonnés ou menacés de mort et les fortifia dans leur témoignage pour le Christ.
-
-  Il ne rechercha pas lui-même le martyre, mais il accepta de se tenir aux côtés de ceux qui souffraient.
-
-  Son exemple montre que la solitude chrétienne n’est pas un isolement égoïste. Elle peut devenir une forme plus profonde de prière et de service de l’Église.
-
-  ## Saint Antoine et saint Paul, premier ermite
-
-  L’une des traditions les plus connues concernant Antoine est sa rencontre avec saint Paul de Thèbes, traditionnellement considéré comme l’un des premiers ermites chrétiens.
-
-  Selon le récit ancien, Antoine fut inspiré à rechercher Paul dans le désert.
-
-  Les deux ermites finirent par se rencontrer et échangèrent sur leur vie de prière et de solitude.
-
-  Leur rencontre devint un symbole important de la tradition spirituelle du désert.
-
-  Selon cette tradition, lorsque Paul mourut, Antoine reçut son manteau et retourna auprès de ses disciples en conservant la mémoire de cet ermite vénérable.
-
-  Qu’elle soit considérée comme un récit historique ou comme une partie de la tradition spirituelle entourant les pères du désert, cette histoire exprime l’importance de l’humilité et de l’encouragement mutuel dans la recherche de Dieu.
-
-  ## La *Vie d’Antoine*
-
-  Une grande partie de ce que les chrétiens connaissent d’Antoine provient de la *Vie d’Antoine*, écrite par saint Athanase d’Alexandrie.
-
-  Rédigée relativement peu de temps après la mort d’Antoine, cette œuvre devint l’une des biographies chrétiennes les plus influentes de l’Antiquité tardive.
-
-  Athanase y présente Antoine comme un homme transformé par la grâce de Dieu.
-
-  Il insiste sur sa foi, son humilité, sa persévérance et son courage spirituel.
-
-  L’ouvrage présente également Antoine comme un modèle pour les chrétiens qui souhaitent consacrer entièrement leur vie à Dieu.
-
-  La *Vie d’Antoine* fut traduite dans plusieurs langues et joua un rôle immense dans la diffusion des idéaux du monachisme égyptien à travers le monde chrétien.
-
-  ## Un défenseur de la foi
-
-  Antoine fut également lié à saint Athanase, le grand défenseur de la foi de Nicée contre l’arianisme.
-
-  Il soutint Athanase durant les conflits théologiques du IVe siècle.
-
-  Son lien avec Athanase montre que sa vocation à la solitude n’était pas séparée de la vie de l’Église universelle.
-
-  Le moine du désert pouvait encore servir l’Église par sa prière, son témoignage et sa fidélité à la foi apostolique.
-
-  ## Les dernières années
-
-  Antoine vécut jusqu’à un âge exceptionnellement avancé.
-
-  Selon la tradition, il mourut vers l’année 356, à l’âge d’environ 105 ans.
-
-  Avant sa mort, il encouragea ses disciples à demeurer fidèles à la prière et à persévérer dans la vie chrétienne.
-
-  Il demanda que le lieu de sa sépulture reste secret, par humilité et afin d’éviter les honneurs terrestres.
-
-  Ses disciples respectèrent sa volonté, même si la dévotion envers sa mémoire se répandit rapidement dans tout le monde chrétien.
-
-  ## Père du monachisme chrétien
-
-  Saint Antoine devint l’une des figures fondatrices du monachisme chrétien.
-
-  Sa vie influença profondément la tradition du désert égyptien et, à travers elle, les mouvements monastiques qui se développèrent ensuite dans tout le monde méditerranéen.
-
-  Son exemple contribua à établir un idéal de vie chrétienne centré sur la prière, la pauvreté, la solitude, le jeûne, le travail manuel et le combat spirituel.
-
-  Son influence se retrouve également dans le développement du monachisme communautaire associé à saint Pachôme ainsi que dans les traditions monastiques occidentales ultérieures.
-
-  Le moine qui cherchait à disparaître du monde devint ainsi l’un des pères spirituels les plus influents de l’histoire chrétienne.
-
-  ## Un modèle de détachement chrétien
-
-  La pauvreté radicale d’Antoine rappelle aux chrétiens que les biens terrestres peuvent facilement devenir des obstacles lorsqu’ils prennent la place qui revient à Dieu.
-
-  Il ne considérait pas la création matérielle comme mauvaise. Il voulait plutôt être libre de tout attachement aux richesses afin que son cœur appartienne entièrement au Christ.
-
-  Sa vie exprime l’appel de l’Évangile à rechercher d’abord le Royaume de Dieu.
-
-  Le détachement chrétien n’est cependant pas une fin en lui-même. Le renoncement d’Antoine était finalement ordonné à l’amour de Dieu et du prochain.
-
-  En simplifiant son existence, il cherchait à devenir davantage disponible pour Dieu et plus attentif à ceux qui venaient lui demander aide et conseil spirituel.
-
-  ## L’image traditionnelle de saint Antoine
-
-  Saint Antoine est souvent représenté dans l’art chrétien avec un bâton en forme de croix, une petite clochette et un cochon.
-
-  Ces symboles sont principalement liés aux traditions plus tardives entourant son culte et l’Ordre de Saint-Antoine plutôt qu’aux éléments historiques de sa vie dans l’Égypte du IVe siècle.
-
-  Au Moyen Âge, il fut notamment associé à la protection contre certaines maladies ainsi qu’au soin des malades et des pauvres dans la chrétienté européenne.
-
-  Son image en vint ainsi à représenter non seulement l’ermite du désert, mais aussi la charité chrétienne et la confiance en la protection de Dieu.
-
-  ## Une vie centrée sur le Christ
-
-  La grandeur de saint Antoine ne réside finalement pas dans les récits extraordinaires qui entourent sa vie.
-
-  Elle réside dans son désir total d’appartenir au Christ.
-
-  Il entendit l’Évangile et le prit au sérieux. Il donna ses biens, embrassa la solitude, affronta les tentations et devint un père spirituel pour ceux qui vinrent chercher Dieu auprès de lui.
-
-  Sa vie rappelle aux chrétiens que la sainteté commence par une réponse à l’appel de Dieu.
-
-  Le chemin d’Antoine fut radical, mais le cœur de son message demeure universel : Dieu doit être aimé par-dessus toute chose et le chrétien doit persévérer même lorsque le chemin de la sainteté devient difficile.
-
-  ## Un héritage spirituel durable
-
-  Saint Antoine le Grand mourut dans la solitude du désert égyptien, mais son influence spirituelle dépassa largement le lieu où il avait vécu.
-
-  Sa vie inspira des moines, des ermites, des évêques, des théologiens et d’innombrables chrétiens au cours des siècles.
-
-  Il demeure un puissant témoin de l’importance de la prière, du silence, du détachement, de la persévérance et de la confiance en Dieu.
-
-  Son exemple rappelle également à l’Église que la sainteté ne dépend ni de la réussite terrestre, ni de la richesse, ni de la reconnaissance humaine.
-
-  Un homme qui avait choisi la vie cachée du désert devint l’un des saints les plus largement vénérés de toute l’histoire chrétienne.
-
-  Saint Antoine le Grand demeure ainsi un père du monachisme chrétien et un modèle de foi radicale. Sa vie invite chaque chrétien à examiner ce qui occupe véritablement son cœur et à rechercher, au-dessus de toutes les réalités terrestres, le Royaume de Dieu et la communion avec Jésus-Christ.
-  $desc$
+Saint Antoine vécut jusqu’à un âge avancé, demeurant fidèle à sa vocation de prière et de détachement jusqu’à sa mort. Sa vie devint largement connue grâce à la *Vie d’Antoine* de saint Athanase, qui influença profondément le développement du monachisme en Orient comme en Occident. Reconnu comme le **Père des moines**, il demeure un modèle de persévérance spirituelle, d’humilité et de liberté à l’égard des attachements terrestres. Son exemple rappelle aux chrétiens que la recherche de la sainteté exige un cœur tourné vers Dieu, fortifié par la prière et prêt à renoncer à tout ce qui fait obstacle à l’amour divin.
+$desc$
 ),
 (
-	'saint-anthony-abbot',
-		'la',
-		'S. Antonius Magnus, qui etiam S. Antonius Abbas vel S. Antonius de Deserto appellatur, fuit asceta christianus Aegyptius saeculi quarti atque unus ex patribus monachismi christiani. Postquam bona sua pauperibus distribuit, in desertum secessit ut Deum per orationem, ieiunium et solitudinem quaereret. Eius exemplum exemplar vitae asceticae factum est atque ad monachismi propagationem per totum orbem christianum magnopere contulit.',
-  $desc$
-  ## Sanctus Antonius Magnus
+    'saint-anthony-abbot',
+    'la',
+    'Sanctus Antonius Abbas, etiam sanctus Antonius Magnus vel Antonius Eremita appellatus, asceta christianus Aegyptius saeculi quarti fuit atque unus ex Patribus monasticae vitae christianae. Postquam bona sua pauperibus distribuit, in desertum secessit ut Deum per orationem, ieiunium et solitudinem quaereret. Vita eius exemplar asceseos christianae facta est atque progressionem vitae monasticae per universum orbem christianum magnopere influexit.',
+$desc$
+Sanctus Antonius Magnus, etiam sanctus Antonius Abbas vel Antonius Eremita appellatus, unus ex Patribus fundatoribus monasticae vitae christianae habetur. Ascese extraordinaria, certaminibus spiritualibus et absoluta fiducia in Deum celebratus, possessionibus mundanis renuntiavit ut se totum orationi et contemplationi dedicaret. Vita eius exemplum praeclarum renuntiationis christianae et perseverantiae facta est, generationes monachorum et communitatum religiosarum per Ecclesiam inspirans.
 
-  Sanctus Antonius Magnus, qui etiam Sanctus Antonius Abbas vel Sanctus Antonius de Deserto appellatur, inter praecipuas figuras historiae monachismi christiani numeratur.
+### Vocatio ad solitudinem
 
-  Saeculo quarto in Aegypto vixit, tempore quo christianismus magnas mutationes experiebatur. Persecutiones Romanae paulatim desinebant, sed pro Antonio finis persecutionum non significabat finem certaminis christiani. Intellexit discipulum Christi adhuc vocari ad renuntiandum peccato, ad resistendum tentationi atque totam vitam Deo consecrandam.
+Antonius in Aegypto, in familia christiana opulenta, natus est. Post mortem parentum, verbis Christi in Evangelio vehementer commotus est: *« Si vis perfectus esse, vade, vende quae habes et da pauperibus, et habebis thesaurum in caelo. »* Haec verba tamquam vocationem personalem accipiens, hereditatem suam pauperibus distribuit, sorori iuniori providit atque a vita ordinaria secessit ut Deum in solitudine quaereret. Primo prope vicum suum habitavit, ab ascetis peritis discens, deinde altius in desertum se contulit ut vitam orationis, ieiunii et disciplinae spiritualis amplecteretur.
 
-  Paupertatem, solitudinem, orationem et asceticam disciplinam amplectens, Antonius unus ex magnis Patribus Desertorum factus est. Eius exemplum generationes monachorum et eremitarum inspiravit atque spiritualitatem christianam tam in Oriente quam in Occidente profunde formavit.
+### Tentationes in deserto
 
-  ## Iuvenis Evangelii vocationem audiens
+Vita solitaria Antonii gravibus tentationibus insignita est, quas traditio christiana tamquam vehementia certamina spiritualia contra diabolum describit. Per orationem, ieiunium et fidem inconcussam, his probationibus restitit atque spiritualiter roboratus est. Maiorem solitudinem quaerens, in arcem desertam secessit, deinde in remotam deserti regionem, ubi multos annos vixit. Quamquam a mundo latere cupiebat, fama sanctitatis eius diffusa est, et homines ad eum venire coeperunt ut consilium spirituale, sanationem et directionem peterent. Antonius tandem intellexit vocationem suam non solum in propria sanctificatione quaerenda consistere, sed etiam in aliis adiuvandis ut in fide crescerent.
 
-  Antonius circa annum 251 in Aegypto natus est, probabiliter in regione Heracleopolitana.
+### Pater vitae monasticae
 
-  Parentes eius christiani et divites erant, atque Antonius in familia bonis materialibus abundantem crevit. Ab infantia tamen fidei christianae penitus adhaerebat.
+Multi discipuli circa Antonium congregati sunt, eius exemplum asceseos et devotionis secuti. Eos docuit in oratione perseverare, tentationibus resistere atque omnem fiduciam suam in Deo ponere. Hae communitates fundamenta vitae monasticae christianae iacere adiuvaverunt, in qua solitudo et contemplatio cum disciplina spirituali et fraterno auxilio coniungebantur. Tempore controversiae Arianae, Antonius etiam e solitudine sua discessit ut fideles Alexandrinos confirmaret et defensionem divinitatis Christi sustineret, demonstrans vitam etiam eremitae a mundo remotam toti Ecclesiae inservire posse.
 
-  Cum adhuc iuvenis esset, parentes eius mortui sunt, eumque hereditatis et sororis suae curae reliquerunt.
+### Permanens hereditas spiritualis
 
-  Vita eius mutata est cum verba Christi in Evangelio audivit:
-
-  «Si vis perfectus esse, vade, vende quae habes et da pauperibus.»
-
-  Antonius haec verba tamquam invitationem personalem a Deo accepit.
-
-  Bona sua vendidit et magnam partem divitiarum pauperibus distribuit. Sorori quoque suae providit, eam curae mulierum christianarum commendans.
-
-  Deinde vitam orationi et asceseos dedicatam inchoavit.
-
-  Haec renuntiatio non ex contemptu creationis orta est. Antonius simpliciter Christum super omnes divitias et omnes terrenas securitates possidere desiderabat.
-
-  ## Discere viam sanctitatis
-
-  Antonius initio prope vicum suum mansit atque vitam orationis, ieiunii et laboris manualis severam exercuit.
-
-  Societatem christianorum sanctitate insignium quaerebat et ab eorum exemplo discebat.
-
-  Ab aliis perseverantiam, ab aliis orationem, disciplinam, humilitatem vel caritatem didicit.
-
-  Itaque iter eius spirituale paulatim evolutum est. Non statim magnus eremita factus est quem postea traditio christiana venerata est.
-
-  Sensim didicit desideria sua moderari, distractionibus resistere et cor suum ad Deum dirigere.
-
-  Ascetica eius disciplina severa erat. Ieiunabat, parum dormiebat et multas horas orationi impendebat. Haec tamen exercitia numquam propter dolorem ipsum suscipiebat.
-
-  Antonius a rebus omnibus quae cor eius impedire poterant quaerebat liberari, ut se Deo perfecte tradere posset.
-
-  ## In desertum Aegypti
-
-  Cum desiderium solitudinis eius cresceret, Antonius ulterius in desertum Aegypti secessit.
-
-  Aliquamdiu prope sepulcrum desertum habitavit, deinde in antiqua arce se collocavit, ubi per multos annos solitarius mansit.
-
-  Desertum locus certaminis spiritualis et quaerendi Deum factum est.
-
-  Solitudo pro Antonio non tantum distantiam geographicam significabat. Erat modus quo se totum coram Deo collocare volebat, longe a divitiis, distractionibus et securitatibus mundi.
-
-  In silentio deserti suas infirmitates agnovit et didicit in gratia divina niti.
-
-  Recessus eius ita expressio fidei radicalis factus est: nihil inter Deum et cor suum interponi volebat.
-
-  ## Certamen contra tentationem
-
-  Narrationes antiquae de vita Antonii multas tentationes, visiones et probationes spirituales describunt quas annis solitudinis in deserto sustinuit.
-
-  Hae narrationes ad linguam spiritualem litterarum monasticarum antiquarum pertinent, quae vitam christianam tamquam certamen contra peccatum et contra omnia quae cor humanum a Deo separare conantur intellegunt.
-
-  Antonius his probationibus oratione, ieiunio, Sacris Scripturis et perseverantia respondebat.
-
-  Credebat tentationem non esse signum quod Deus hominem reliquisset.
-
-  Immo tempora certaminis spiritualis occasiones crescendi in fiducia et fidelitate fieri poterant.
-
-  Eius exemplum christianos igitur hortatur ne deficiant cum tentationem, tribulationem vel ariditatem spiritualem experiuntur.
-
-  ## Pater eremitarum
-
-  Quamquam Antonius solitudinem quaerebat, fama sanctitatis eius paulatim alios homines ad eum attraxit.
-
-  Viri in desertum veniebant ut consilium eius acciperent eiusque vitae rationem imitarentur.
-
-  Antonius sic pater spiritualis multorum discipulorum factus est.
-
-  Circa eum coetus eremitarum paulatim consederunt atque communitates orationi et asceticae vitae dicatas formaverunt.
-
-  Antonius monachismum christianum ex nihilo non invenit, cum variae formae vitae asceticae iam antea exstitissent. Attamen eius exemplum unum ex potentissimis exemplaribus traditionis deserticae factum est.
-
-  Discipuli eius eius devotionem ad orationem, simplicitatem, laborem manualem et perseverantiam imitari conabantur.
-
-  Sic solitudo unius hominis initium magni motus spiritualis facta est.
-
-  ## Oratio et labor manualis
-
-  Antonius orationem cum labore coniungebat.
-
-  Manibus suis laborabat ut sibi necessaria provideret et ne aliis oneri esset.
-
-  Labor manualis etiam eum ad disciplinam et diligentiam servabat atque ab otio prohibebat.
-
-  Oratio tamen centrum totius vitae eius manebat.
-
-  Vita eius veritatem magni momenti exprimit: sanctitas non solum per experientias extraordinarias acquiritur. Crescit per perseverantiam cotidianam, per fidelitatem orationi et per fiduciam in Deo, etiam cum credens nullam consolationem spiritualem manifestam recipit.
-
-  ## Eremita Ecclesiae serviens
-
-  Recessus Antonii in desertum non significabat eum Ecclesiae aut passionibus aliorum christianorum indifferentem esse.
-
-  Tempore persecutionum solitudinem suam reliquit ut eos qui propter fidem patiebantur consolaretur.
-
-  Circa annum 311, durante persecutione sub imperatore Maximino, Antonius Alexandriam profectus est.
-
-  Christianos qui in carcere erant vel mortem patiebantur confirmavit atque eos in testimonio Christi confortavit.
-
-  Ipse martyrium non quaesivit, sed paratus erat iuxta eos stare qui propter Christum patiebantur.
-
-  Eius exemplum ostendit solitudinem christianam non esse isolationem egoisticam. Potest potius fieri forma profundior orationis et servitii Ecclesiae.
-
-  ## Sanctus Antonius et sanctus Paulus primus eremita
-
-  Una ex notissimis traditionibus de Antonio est eius congressus cum sancto Paulo Thebano, qui traditionaliter unus ex primis eremitis christianis habetur.
-
-  Secundum narrationem antiquam, Antonius ad Paulum in deserto quaerendum divinitus incitatus est.
-
-  Duo eremitae tandem convenerunt atque de vita sua orationis et solitudinis locuti sunt.
-
-  Eorum occursus magni momenti symbolum traditionis spiritualis deserticae factus est.
-
-  Secundum traditionem, post mortem Pauli Antonius pallium eius accepit et ad discipulos suos rediit, memoriam sancti eremitae secum ferens.
-
-  Sive haec historia tamquam narratio historica sive tamquam pars traditionis spiritualis de Patribus Desertorum consideretur, momentum humilitatis et mutui encouragementi in quaerendo Deum exprimit.
-
-  ## Vita Antonii
-
-  Magna pars eorum quae christiani de Antonio sciunt ex *Vita Antonii* provenit, quam sanctus Athanasius Alexandrinus scripsit.
-
-  Paulo post Antonii mortem composita, haec opera una ex gravissimis biographiis christianis antiquitatis posterioris facta est.
-
-  Athanasius Antonium tamquam hominem gratia Dei transformatum exhibet.
-
-  Fidem, humilitatem, perseverantiam et fortitudinem spiritualem eius illustrat.
-
-  Opus etiam Antonium tamquam exemplar christianis proponit qui vitam suam Deo omnino consecrare desiderant.
-
-  *Vita Antonii* in plures linguas translata est et maximum momentum habuit in propagatione idealium monachismi Aegyptii per orbem christianum.
-
-  ## Fidei defensor
-
-  Antonius etiam cum sancto Athanasio, magno fidei Nicaenae contra Arianismum defensore, coniungitur.
-
-  Athanasium in contentionibus theologicis saeculi quarti sustinuit.
-
-  Relatio eius cum Athanasio ostendit vocationem eius ad solitudinem a vita Ecclesiae universalis non esse separatam.
-
-  Monachus in deserto Ecclesiae etiam oratione, testimonio et fidelitate fidei apostolicae servire poterat.
-
-  ## Ultimi anni
-
-  Antonius ad aetatem extraordinariam pervenit.
-
-  Secundum traditionem circa annum 356 mortuus est, annos circiter centum quinque natus.
-
-  Ante mortem discipulos suos hortatus est ut orationi fideles manerent et in vita christiana perseverarent.
-
-  Sepulturam suam occultam esse postulavit, propter humilitatem et ne honoribus terrenis afficeretur.
-
-  Discipuli eius voluntati obtemperaverunt, quamvis memoria eius cito per orbem christianum propagata sit.
-
-  ## Pater monachismi christiani
-
-  Sanctus Antonius unus ex fundamentis monachismi christiani factus est.
-
-  Vita eius traditionem deserticam Aegypti profundissime movit atque, per eam, motus monasticos qui postea per totum orbem Mediterraneum orti sunt.
-
-  Exemplum eius ad formandum vitae christianae idealem contulit, cuius centrum sunt oratio, paupertas, solitudo, ieiunium, labor manualis et certamen spirituale.
-
-  Eius auctoritas etiam in progressu monachismi communitari, cum sancto Pachomio coniuncti, atque in posterioribus traditionibus monasticis occidentalibus conspicitur.
-
-  Monachus qui a mundo abscondi cupiebat unus ex gravissimis patribus spiritualibus historiae christianae factus est.
-
-  ## Exemplar christianae abrenuntiationis
-
-  Paupertas radicalis Antonii christianos admonet bona terrena facile impedimenta fieri posse cum locum Deo debitum occupare incipiunt.
-
-  Creationem materialem malam non existimabat. Potius a vinculis divitiarum liber esse volebat, ut cor eius Christo perfecte appartineret.
-
-  Vita eius Evangelii invitationem exprimit ut imprimis Regnum Dei quaeramus.
-
-  Abrenuntiatio christiana tamen finis per se ipsa non est. Renuntiatio Antonii ad amorem Dei et proximi ordinabatur.
-
-  Vitam suam simpliciorem reddens, magis Deo praesto et attentior iis fieri cupiebat qui ad eum auxilium vel consilium spirituale quaerendum veniebant.
-
-  ## Imago traditionalis sancti Antonii
-
-  Sanctus Antonius in arte christiana saepe cum baculo in modum crucis formato, parva campanula et porco repraesentatur.
-
-  Haec symbola praesertim ad traditiones posteriores eius cultus et Ordinis Sancti Antonii pertinent, potius quam ad elementa historica vitae eius in Aegypto saeculi quarti.
-
-  Medio Aevo praesertim cum protectione contra quasdam morbos atque cum cura infirmorum et pauperum in christianitate Europaea coniunctus est.
-
-  Imago eius ita non solum eremitam deserti, sed etiam caritatem christianam et fiduciam in protectione Dei repraesentare coepit.
-
-  ## Vita Christo centrata
-
-  Magnitudo sancti Antonii non in narrationibus extraordinariis quae eius vitam circumdant consistit.
-
-  In desiderio eius totaliter Christo pertinendi consistit.
-
-  Evangelium audivit et serio accepit. Bona sua dedit, solitudinem amplexus est, tentationes sustinuit atque pater spiritualis factus est iis qui Deum quaerebant.
-
-  Vita eius christianos admonet sanctitatem responsione ad vocationem Dei incipere.
-
-  Iter Antonii radicale fuit, sed cor nuntii eius universale manet: Deus super omnia diligendus est et christianus perseverare debet etiam cum via ad sanctitatem difficilis fit.
-
-  ## Hereditas spiritualis permanens
-
-  Sanctus Antonius Magnus in solitudine deserti Aegyptii mortuus est, sed influxus eius spiritualis longe ultra locum in quo vixit pervenit.
-
-  Vita eius monachos, eremitas, episcopos, theologos et innumerabiles christianos per saecula inspiravit.
-
-  Permanet testis potens momenti orationis, silentii, abrenuntiationis, perseverantiae et fiduciae in Deo.
-
-  Eius exemplum etiam Ecclesiam admonet sanctitatem non pendere a prosperitate terrena, divitiis aut hominum recognitione.
-
-  Vir qui vitam absconditam deserti elegit unus ex sanctis historiae christianae maxime veneratis factus est.
-
-  Sanctus Antonius Magnus igitur pater monachismi christiani et exemplar fidei radicalis permanet. Vita eius unumquemque christianum invitat ut consideret quid vere cor eius occupet atque, super omnes res terrenas, Regnum Dei et communionem cum Iesu Christo quaerat.
-  $desc$
+Sanctus Antonius ad provectam aetatem vixit, vocationi suae orationis et renuntiationis fidelis usque ad mortem permanens. Vita eius late cognita est per opus sancti Athanasii, *Vita Antonii*, quod progressionem monasticae vitae tam in Oriente quam in Occidente magnopere influexit. **Pater Monachorum** appellatus, exemplar perseverantiae spiritualis, humilitatis et libertatis ab affectibus mundanis manet. Exemplum eius christianis commemorat sanctitatis studium cor ad Deum conversum requirere, oratione roboratum et paratum ad omnia relinquenda quae amori divino impedimento sunt.
+$desc$
 )
 ) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
 WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
@@ -8022,7 +4902,7 @@ WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
 -- BIOGRAPHIES_APRIL
 UPDATE saint_translations AS st
 SET short_description = x.short_description,
-    full_biography = x.full_biography
+	full_biography = x.full_biography
 FROM saints AS s
 JOIN (VALUES
 ('saint-francis-of-paola', 'en',
