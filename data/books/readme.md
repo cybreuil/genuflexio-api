@@ -54,3 +54,47 @@ Exactitude : Respecte les faits historiques et la doctrine catholique. N'invente
 Le résultat doit être élégant, cohérent, bien paragraphié et directement utilisable dans un ouvrage religieux.
 
 Whenever you mention a feast day, liturgical celebration date associated with a saint, specify which calendar it refers to if the distinction is relevant.
+
+// SCRIPT ACTUEL biographies gpt
+
+est ce que tu peux m'ecrire des biographies de saints un peu dans ce style:
+Saint Raymond of Penyafort was a Spanish Dominican priest, theologian and jurist whose learning and devotion made him one of the most influential figures in the development of canon law. Renowned for his wisdom, humility and pastoral charity, he devoted his life to the service of the Church, helping to guide both clergy and faithful through his teaching and counsel. His work combined a profound understanding of ecclesiastical law with a sincere concern for the salvation of souls, reflecting his conviction that knowledge must always be placed at the service of God.
+
+### A Life of Study and Religious Vocation
+
+Raymond was born near Barcelona, in Catalonia, into a noble family. Gifted with exceptional intellectual abilities, he pursued the study of philosophy and law before becoming a teacher. He later joined the Dominican Order, attracted by its commitment to preaching, learning and the spiritual renewal of the Church. Embracing religious life with humility, he devoted himself to prayer, study and the formation of others, seeking to unite intellectual excellence with personal holiness.
+
+### A Great Teacher of Canon Law
+
+Raymond's legal knowledge brought him to the attention of Pope Gregory IX, who entrusted him with the important task of collecting and organising papal decrees. The resulting work, known as the _Decretals of Gregory IX_, became a foundational text of canon law and remained influential for centuries. Raymond's scholarship helped bring greater order and consistency to the Church's legal tradition, while his practical wisdom made him a trusted adviser in matters of ecclesiastical discipline. Despite his learning and reputation, he remained deeply humble, regarding his gifts as a responsibility rather than a source of personal glory.
+
+### Master General of the Dominicans
+
+Raymond was elected Master General of the Dominican Order in 1238. During his leadership, he worked to strengthen religious discipline, encourage study and support the Order's mission of preaching. He also contributed to the development of moral theology, particularly through his writings on the duties of confessors and the administration of the sacrament of Penance. After resigning from his office, he returned to Spain, where he continued to devote himself to teaching, pastoral guidance and the spiritual welfare of others.
+
+### Charity and Apostolic Zeal
+
+Raymond showed particular concern for the conversion of non-Christians and the instruction of those who wished to understand the Christian faith. Tradition associates him with the establishment of centres for the study of Arabic and Hebrew, intended to prepare missionaries for their work. He also encouraged Saint Peter Nolasco in the mission of the Order of Our Lady of Mercy, dedicated to the redemption of Christians held in captivity. His apostolic zeal was accompanied by a life of prayer and penance, revealing a spirituality rooted in both intellectual discipline and compassion.
+
+### A Legacy of Wisdom and Holiness
+
+Saint Raymond of Penyafort is remembered as a model of Dominican learning, pastoral responsibility and humility. His contribution to canon law shaped the governance of the Church for generations, while his dedication to the sacrament of Penance reflected his desire to lead souls towards reconciliation with God. Honoured as a patron of canonists and lawyers, he remains an example of how scholarship, justice and charity can serve a common spiritual purpose. His life teaches that true wisdom is not measured by knowledge alone, but by the fidelity and love with which that knowledge is offered in the service of God and neighbour.
+
+Grosso modo ton catholique, et long paragraphe bien construit, on vise 500 mots, mais ne remplis surtout pas, si jamais tu as moins d'infos, n'hesite pas a faire que 200 quoi , tu le sens bien ?
+
+Source par exemple:
+Sources for the historical details:
+
+    Vatican News — Saint Agnes, Virgin and Martyr
+
+    Vatican State — 21 January: Saint Agnes, Martyr
+
+    Catholic Encyclopedia — St. Agnes of Rome
+
+https://www.newadvent.org/cathen/12671b.htm?utm_source=chatgpt.com
+The Catholic Church in France — Saint Agnes
+
+https://www.britannica.com/biography/Saint-Raymond-of-Penyafort?utm_source=chatgpt.com
+https://www.vaticanstate.va/en/component/content/article/january-22-saint-vincent-of-saragossa-martyr.html?Itemid=216&catid=51&utm_source=chatgpt.com
+
+parfait continuons comme ca, n'hesite pas a raccourcir si jamais on a pas assez d'infos evidemment :

@@ -17,33 +17,31 @@ JOIN (VALUES
 		'en',
 		'Saint Mary, also known as the Virgin Mary, is the mother of Jesus Christ and one of the central figures of Christian faith. Honoured by Catholics as the Mother of God and the Mother of the Church, she is remembered for her humility, faith and complete trust in God.',
   $desc$
-  Saint Mary, also known as the Virgin Mary, the Blessed Virgin and Our Lady, holds a unique place in the Christian faith as the Mother of Jesus Christ, the Son of God and Saviour of the world. Chosen by God for the mystery of the Incarnation, she became a model of **faith, humility and obedience**. Throughout her life, Mary remained devoted to God, accepting His will with trust and following her Son through both joy and suffering.
+  The Blessed Virgin Mary holds a unique place in the life and faith of the Catholic Church as the Mother of Jesus Christ, the Son of God, and the most eminent of all the saints. Chosen by God to bear the Saviour of the world, she responded to the divine invitation with humility, faith and complete trust in His providence. Her words, “Behold, I am the handmaid of the Lord; let it be to me according to your word,” express the spirit of loving obedience that shaped her entire life. From the Annunciation to the foot of the Cross, Mary remained united to her Son, sharing in the mystery of His earthly life and entrusting herself to the will of the Father. Honoured by the Church as the Mother of God, she is also revered as a model of discipleship, the perfect example of Christian faith and the spiritual mother of the faithful. Her life reveals the beauty of a heart wholly surrendered to God and the extraordinary fruitfulness of a humble and faithful response to His grace.
 
-  ### The Annunciation and the Birth of Jesus
+  ### The Annunciation and the Divine Motherhood
 
-  Mary lived in Nazareth and was betrothed to Joseph, a descendant of the house of David. Her life changed when the Angel Gabriel announced that she would conceive and give birth to Jesus, the Son of the Most High. With humility and faith, she answered: *“Behold, I am the handmaid of the Lord; let it be to me according to your word.”* Through her consent, Mary accepted the extraordinary mission of becoming the Mother of the Saviour.
+  The story of the Virgin Mary is presented in the Gospels as beginning with the mystery of the Annunciation, when the Archangel Gabriel was sent by God to Nazareth to announce that she would conceive and bear Jesus, the Son of the Most High. Although troubled by the angel's greeting and conscious of the mystery being revealed to her, Mary received the message with faith and freely accepted the vocation entrusted to her. Her *fiat*, her willing consent to God's plan, stands at the heart of Christian understanding of her holiness. Through her obedience, the Word became flesh, and the eternal Son of God entered human history, taking His human nature from the woman who would become His mother. The Church therefore honours Mary under the title *Theotokos*, meaning “God-bearer” or “Mother of God,” solemnly affirmed at the Council of Ephesus in 431. This title does not mean that Mary existed before God or is the source of Christ's divinity; rather, it safeguards the truth that the child she bore is one divine Person, Jesus Christ, truly God and truly man. Mary's dignity thus arises entirely from her relationship with her Son and from the grace by which God prepared her for her unique mission in the history of salvation.
 
-  After the Annunciation, Mary visited her relative Elizabeth and proclaimed the *Magnificat*, a hymn of praise celebrating God's mercy and faithfulness. She later gave birth to Jesus in Bethlehem, where He was laid in a manger. Throughout these events, Mary treasured God's works in her heart, contemplating their meaning in silence and prayer.
+  ### A Life of Faith, Humility and Contemplation
 
-  ### Mary, Mother and Disciple of Christ
+  The Gospels offer only limited details about Mary's daily life, yet the episodes they preserve reveal a woman of deep faith, charity and interior prayer. Shortly after the Annunciation, she travelled to visit her cousin Elizabeth, who recognised the extraordinary grace bestowed upon her and greeted her as the mother of her Lord. In response, Mary proclaimed the *Magnificat*, a hymn of praise that celebrates God's mercy, His faithfulness to Israel and His concern for the humble and the poor. At Bethlehem, she gave birth to Jesus and laid Him in a manger, receiving the shepherds who came to worship the newborn child. Later, when the Magi visited the Holy Family, Mary witnessed the homage offered to her Son by men who had come from distant lands. Saint Luke records that she treasured these events and pondered them in her heart, a detail that has profoundly shaped Christian reflection on her contemplative spirit. Her life was not free from uncertainty or hardship: she experienced the poverty of Bethlehem, the flight into Egypt to escape Herod's violence and the anxiety of searching for Jesus when He remained behind in Jerusalem at the age of twelve. Through each experience, Mary continued to trust in God's providence, accepting that the mystery of her Son's mission would unfold gradually and sometimes painfully.
 
-  Mary accompanied Jesus throughout His childhood and remained attentive to His mission. At the wedding feast of Cana, when the wine ran out, she brought the need before her Son and told the servants: *“Do whatever he tells you.”* These words express the heart of Marian devotion: Mary always leads the faithful towards Christ and encourages them to trust in His word.
+  ### The Mother Who Shared in the Sufferings of Christ
 
-  Her faith was tested most profoundly during the Passion. Mary remained near Jesus as He suffered and died upon the Cross, sharing in His sorrow with a mother's love and unwavering fidelity. According to the Gospel of Saint John, Jesus entrusted His mother to the beloved disciple, saying: *“Behold, your mother.”* In Catholic tradition, this moment also expresses Mary's spiritual motherhood towards the disciples of Christ.
+  Mary's vocation reached one of its most profound moments at Calvary, where she stood at the foot of the Cross as her Son endured His Passion and death. The Gospel of Saint John presents her there alongside the beloved disciple, bearing witness to the sacrifice through which Christ would redeem the world. Simeon's prophecy, spoken when Jesus was presented in the Temple as an infant, found its fulfilment in this moment: a sword would pierce Mary's soul. Her suffering was not identical to the redemptive sacrifice of Christ, which alone reconciles humanity to the Father, but her maternal love united her intimately to the sorrow of His Passion. At the Cross, Jesus entrusted His mother to the beloved disciple, traditionally understood by the Church as a sign of Mary's spiritual motherhood towards all Christians. In remaining beside her Son during His final hours, Mary exemplified a faith that perseveres even when confronted with suffering, apparent defeat and the limits of human understanding. Her presence at Calvary reveals the depth of her love and the cost of her complete surrender to God's will. Christian devotion has therefore long contemplated Mary as *Mater Dolorosa*, the Sorrowful Mother, whose grief is inseparable from her hope in the promises of God.
 
-  ### Mary and the Early Church
+  ### Mary and the Birth of the Church
 
-  After the Resurrection and Ascension of Jesus, Mary remained with the apostles, united with them in prayer as they awaited the coming of the Holy Spirit. Her presence among the first disciples reveals her enduring devotion to Christ and His Church. For Catholics, she is honoured as the **Mother of the Church** and as an example of prayer, perseverance and faithfulness.
+  Following Christ's Resurrection and Ascension, the Acts of the Apostles places Mary among the disciples gathered in prayer in Jerusalem as they awaited the coming of the Holy Spirit. Her presence at Pentecost connects the beginning of the Church's public mission with the woman who had first welcomed the Incarnation through the power of the Holy Spirit. Although the New Testament says relatively little about her later years, Christian tradition has consistently understood her as a motherly presence within the apostolic community. Her faith, which had accompanied Jesus from His conception to His death and Resurrection, continued to serve as an example to the disciples who were called to proclaim the Gospel throughout the world. The Catholic Church recognises Mary as the pre-eminent member of the communion of saints and honours her with a particular devotion that differs essentially from the adoration owed to God alone. This distinction, known as *hyperdulia*, reflects her unique dignity as the Mother of God without placing her on the same level as the divine Persons. Catholics seek her intercession because of her maternal relationship with Christ, trusting that her prayers lead them more deeply into communion with Him. As the Church teaches, authentic Marian devotion always directs the faithful towards Jesus, in whom alone salvation is found.
 
-  ### The Blessed Virgin and Her Place in Heaven
+  ### The Assumption and the Glory of the Blessed Virgin
 
-  The Catholic Church honours Mary under many titles, including *Mother of God*, *Queen of Heaven* and *Mother of Mercy*. The title *Theotokos*, meaning “Mother of God”, expresses the belief that Jesus Christ, whom she bore, is truly the Son of God, both divine and human. The Church also teaches the **Immaculate Conception**, according to which Mary was preserved from original sin from the first moment of her conception, and the **Assumption**, which proclaims that she was taken up body and soul into heavenly glory at the end of her earthly life.
+  The Catholic Church professes that, at the end of her earthly life, the Blessed Virgin Mary was assumed body and soul into heavenly glory. This belief, solemnly defined as a dogma by Pope Pius XII in 1950, expresses the conviction that Mary, uniquely associated with her Son's victory over sin and death, was brought into the fullness of life with God. The dogma does not define whether Mary died before her Assumption, and Christians have historically expressed different traditions concerning the end of her earthly life. In the Eastern Christian tradition, this mystery is celebrated as the Dormition of the Mother of God. The Assumption is understood as a special participation in Christ's Resurrection and a sign of the destiny promised to the faithful, whose bodies too are called to share in the final victory over death. Mary's heavenly glory does not separate her from the Church on earth; rather, she remains a motherly intercessor for those who seek to follow Christ. Her life, from the humble house of Nazareth to the glory of Heaven, reveals the fulfilment of God's promise to raise up those who place their hope in Him.
 
-  Through the Rosary, the Hail Mary and many other prayers, Catholics seek Mary's intercession and look to her as a model of holiness. Her veneration does not replace the worship owed to God; rather, authentic Marian devotion always leads towards Christ.
+  ### A Lasting Legacy of Faith and Maternal Love
 
-  ### A Life of Faith and Love
-
-  The life of the Virgin Mary is marked by her humble and unwavering **“yes” to God**. From the Annunciation to the foot of the Cross and her presence among the apostles, she remained faithful even when she could not fully understand the divine plan. Her greatness lies in her humility, her complete trust in God and her enduring love for her Son. For Catholics, Mary remains the Mother of God and a spiritual mother to the faithful, continually inviting them to follow Christ through the words she spoke at Cana: **“Do whatever he tells you.”**
+  The Blessed Virgin Mary has inspired Christian prayer, theology, art and devotion throughout the centuries. The many Marian feasts and traditions of the Church celebrate the mysteries of her vocation and her unique place in the history of salvation. The Rosary, one of the Church's most cherished forms of prayer, invites the faithful to contemplate the life of Christ through the eyes of His mother. Marian shrines throughout the world bear witness to the enduring confidence of Christians who seek her intercession in times of suffering, gratitude and spiritual need. Yet the deepest lesson of Mary's life lies not simply in the honours bestowed upon her, but in the faith with which she received God's word and allowed it to shape her entire existence. She teaches the faithful to listen attentively to the Lord, to serve others with humility and to remain faithful even when His purposes are difficult to understand. As the Mother of Christ and the spiritual mother of the Church, Mary continues to point beyond herself towards her Son, inviting every generation to receive Him with faith and to do whatever He tells them. Her life remains a luminous testimony to the power of divine grace and to the extraordinary holiness that can flourish in a heart wholly given to God.
   $desc$
 ),
 (
@@ -120,27 +118,23 @@ $desc$
 	'en',
 	'Saint Joseph, the husband of the Virgin Mary and foster father of Jesus Christ, is honoured by the Catholic Church as a model of faith, humility, obedience and devoted fatherhood. A descendant of King David and a carpenter of Nazareth, he faithfully protected Mary and Jesus and entrusted his entire life to the will of God.',
 $desc$
-Saint Joseph, the husband of the Virgin Mary and foster father of Jesus Christ, holds a special place in the Catholic Church as a model of faith, humility and obedience to God. Although little is known about his life from the Gospels, his quiet presence in the history of salvation reveals a man of profound righteousness, whose love and fidelity allowed him to fulfil the extraordinary mission entrusted to him by God. Through his work, his silence and his unwavering trust in divine providence, Saint Joseph became a lasting example of fatherhood, devotion and holiness.
+Saint Joseph is honoured by the Catholic Church as the husband of the Blessed Virgin Mary, the foster father of Jesus Christ and the faithful guardian of the Holy Family. Though the Gospels record few words spoken by him, his life stands as a remarkable testimony to humility, obedience and quiet fidelity to the will of God. Chosen to protect and provide for the Son of God during His earthly life, Joseph accepted a vocation of extraordinary importance without seeking recognition or distinction. Through his work as a carpenter, his care for Mary and Jesus, and his readiness to follow God's guidance even in moments of uncertainty, he embodied the dignity of ordinary labour and the holiness of daily responsibilities. The Church venerates him as a model of fatherhood, a patron of workers and a powerful example of trusting obedience. His life reveals that sanctity does not always announce itself through great words or public deeds, but often flourishes in silence, sacrifice and faithful love.
 
-### A Righteous Man Chosen by God
+### A Just Man Called to Serve God's Plan
 
-Joseph was a descendant of King David and lived in Nazareth, in Galilee. A carpenter by trade, he was betrothed to Mary when he learned that she was expecting a child through the power of the Holy Spirit. Being a righteous man, Joseph initially intended to dismiss her quietly, unwilling to expose her to public disgrace. However, an angel of the Lord appeared to him in a dream, revealing the divine origin of the child and instructing him to take Mary as his wife. Joseph obeyed without hesitation, accepting God's will with humility and becoming the protector of Mary and the child Jesus.
+The Gospel of Saint Matthew describes Joseph as a “just man,” a phrase that expresses his righteousness, compassion and fidelity to the Law of God. When he discovered that Mary was expecting a child before they had begun their life together, Joseph faced a situation he could not fully understand. Unwilling to expose her to public disgrace, he resolved to separate from her quietly. Before he could carry out this decision, however, an angel appeared to him in a dream, revealing that the child had been conceived through the Holy Spirit and instructing him to take Mary as his wife. Joseph responded without hesitation, accepting the divine mystery entrusted to him. By welcoming Mary and naming the child Jesus, he assumed his paternal responsibility within the Holy Family and became the legal guardian of the Messiah. His obedience reveals a faith that does not demand complete understanding before acting, but rests upon confidence in God's wisdom and goodness.
 
-### The Guardian of the Holy Family
+### Guardian of the Holy Family
 
-Following the birth of Jesus in Bethlehem, Joseph received the shepherds and the Magi alongside Mary, witnessing the first manifestations of the Saviour's presence in the world. When an angel warned him of King Herod's intention to destroy the child, Joseph took Mary and Jesus and fled to Egypt, protecting them from danger. After Herod's death, he brought his family back to the land of Israel and eventually settled in Nazareth. Throughout these events, Joseph acted with courage and discretion, placing the safety of his family above his own comfort and demonstrating complete trust in God's guidance.
+Joseph's vocation required him to protect Mary and Jesus through circumstances that demanded courage, vigilance and sacrifice. After the visit of the Magi, an angel warned him in a dream that King Herod intended to destroy the child. Joseph immediately took Mary and Jesus and fled to Egypt, remaining there until the danger had passed. His willingness to leave his homeland illustrates the practical and selfless character of his love: he placed the safety of his family above his own comfort and security. Following Herod's death, Joseph obeyed another divine instruction and returned with them to the land of Israel, eventually settling in Nazareth in Galilee. There, away from the political and religious centres of the time, the Holy Family lived a largely hidden life. Joseph provided for their needs through his work and ensured that Jesus grew within the traditions and faith of the people of Israel. His guardianship was not marked by worldly power, but by the daily fidelity of a husband and father entrusted with an extraordinary responsibility.
 
-### The Foster Father of Jesus
+### The Dignity of Work and the Hidden Life of Nazareth
 
-In Nazareth, Joseph provided for the Holy Family through the humble work of his hands. As a carpenter, he taught Jesus the value of labour, patience and responsibility, while offering Him the love and protection of an earthly father. The Gospels recount the pilgrimage to Jerusalem when Jesus was twelve years old and was later found in the Temple after Mary and Joseph had searched for Him in anguish. This episode reveals Joseph's loving concern for the child entrusted to his care. Though Scripture records no spoken words of his, his actions bear witness to a life of faithful service, in which obedience to God was expressed through daily work and quiet devotion.
+The Gospels identify Joseph as a *tekton*, a Greek term commonly understood to refer to a craftsman or builder, traditionally rendered as “carpenter.” Through his labour, he supported the Holy Family and taught Jesus the practical skills and responsibilities of ordinary life. Joseph's example has become central to Catholic reflection on the dignity of human work, demonstrating that manual labour can be a genuine expression of vocation and service to God. The years spent in Nazareth remain largely hidden from the historical record, yet their spiritual significance is considerable. Within the simplicity of family life, Jesus grew in wisdom and stature, while Joseph fulfilled his calling through patience, discipline and devoted care. When Jesus was twelve years old and remained behind in Jerusalem after the Passover feast, Joseph shared Mary's anxiety in searching for Him. This episode offers a rare glimpse of Joseph's personal experience as a father, revealing the concern and affection that accompanied his responsibility. His life reminds the faithful that the ordinary duties of family, work and community can become paths to holiness when undertaken with love and fidelity.
 
-### Saint Joseph, Patron of the Universal Church
+### A Lasting Legacy of Faithful Fatherhood
 
-The Church has long honoured Saint Joseph as a model of Christian virtue and a powerful intercessor. His special role in protecting Christ and the Virgin Mary led to his recognition as the **Patron of the Universal Church**, a title formally proclaimed by Pope Pius IX in 1870. He is also venerated as the patron of fathers, workers, families and those approaching death, according to Christian tradition. His feast is celebrated on 19 March, while 1 May is dedicated to Saint Joseph the Worker, honouring the dignity of labour and the sanctification of ordinary life.
-
-### A Life of Silence and Faith
-
-The greatness of Saint Joseph lies in his willingness to serve God without seeking recognition or glory. He accepted the mysteries entrusted to him, protected the Saviour during His childhood and devoted himself entirely to the care of the Holy Family. His life reminds the faithful that holiness is often found not in extraordinary deeds performed before the world, but in the quiet fulfilment of daily duties with love and fidelity. For Catholics, Saint Joseph remains a fatherly protector and an enduring example of humility, courage and trust in divine providence, teaching all Christians to serve God faithfully, even when His plans remain hidden from human understanding.
+Although the Gospels do not describe Joseph's death, Christian tradition generally holds that he died before Jesus began His public ministry, with Mary and Jesus at his side. This tradition has contributed to his particular association with a peaceful and holy death, supported by the presence of Christ and His mother. Joseph is venerated as the patron of fathers, families, workers and the universal Church, reflecting the breadth of his spiritual example. His life also offers a model of chastity, understood not simply as restraint but as a love that respects the dignity of others and gives itself entirely to God's purposes. In Joseph, the Church recognises a man whose greatness lay in his willingness to serve rather than to command, to protect rather than to possess, and to obey rather than to seek his own glory. His silence in Scripture is itself a powerful testimony: he allowed his actions to express the faith that governed his life. Through his humble service to Jesus and Mary, Saint Joseph continues to remind Christians that true fatherhood is rooted in responsibility, tenderness and self-giving love, and that even the most hidden life can play an indispensable part in the unfolding of God's plan.
 $desc$
 ),
 
@@ -207,49 +201,28 @@ Magnitudo Sancti Ioseph in voluntate eius consistit Deo serviendi, neque agnitio
 		'en',
 		'Saint John the Baptist was the prophet who prepared the way for Jesus Christ. Son of Zechariah and Elizabeth and a relative of Jesus, he preached repentance, baptized those who turned back to God in the Jordan River, and courageously proclaimed the coming of the Messiah. He is honoured by Christians as the forerunner of Christ and one of the greatest prophets.',
   $desc$
-  Saint John the Baptist holds a unique place in the Christian faith as the **Forerunner of Jesus Christ**, called by God to prepare the people for the coming of the Saviour. Through his austere life, fearless preaching and unwavering devotion to the truth, he became the last great prophet before Christ and a model of humility, repentance and spiritual courage. His mission was not to draw attention to himself, but to announce the coming of the One whose presence would fulfil the promises of God.
+  Saint John the Baptist was one of the most important prophetic figures in the history of salvation, chosen by God to prepare the people of Israel for the coming of Jesus Christ. Recognised by the Catholic Church as the Forerunner of the Lord, he devoted his life to preaching repentance, calling sinners to conversion and bearing witness to the Messiah whose arrival fulfilled the promises of the prophets. His austere life in the wilderness, his fearless proclamation of the truth and his willingness to suffer martyrdom rather than compromise his mission made him an enduring example of spiritual courage and fidelity to God. Although John attracted great crowds and was regarded by many as a prophet, he never sought glory for himself, insisting that his purpose was to prepare the way for One greater than himself. His life stands as a powerful testimony to humility, repentance and the essential mission of directing every heart towards Jesus Christ.
 
-  ### The Birth and Early Life of the Precursor
+  ### A Miraculous Birth and a Divine Calling
 
-  John was the son of Saint Zechariah, a priest, and Saint Elizabeth, a relative of the Virgin Mary. According to the Gospel of Saint Luke, the Archangel Gabriel announced his birth to Zechariah, promising that the child would be filled with the Holy Spirit and prepare a people ready for the Lord. When Mary visited Elizabeth, the unborn John leapt in his mother's womb, an event traditionally understood as his first recognition of Christ. After his birth, John grew in the spirit and eventually withdrew into the wilderness, where he prepared himself through prayer and an austere life for the mission entrusted to him by God.
+  The Gospel of Saint Luke recounts the extraordinary circumstances surrounding John's birth. His parents, Zechariah and Elizabeth, were righteous before God but had remained childless into old age. While Zechariah was serving as a priest in the Temple of Jerusalem, the Archangel Gabriel appeared to him and announced that Elizabeth would bear a son who was to be named John. The angel foretold that the child would be filled with the Holy Spirit from his mother's womb and would prepare a people for the Lord. Because Zechariah struggled to believe this announcement, he was struck unable to speak until the promise was fulfilled. During Mary's visit to Elizabeth, the child leapt in his mother's womb, an event traditionally understood as an early recognition of the presence of Christ. When John was born, Zechariah's speech returned after he confirmed the child's name, and he proclaimed a prophetic hymn praising God's mercy and the coming of salvation. These events reveal the providential character of John's mission from its very beginning. His life was not directed towards personal achievement, but towards the preparation of Israel for the arrival of the Saviour.
 
-  ### The Voice Crying in the Wilderness
+  ### A Voice Crying Out in the Wilderness
 
-  John began preaching in the region of the Jordan, calling the people to repentance and announcing that the Kingdom of Heaven was at hand. Clothed in camel's hair and living on locusts and wild honey, he embodied the simplicity and detachment he proclaimed. Crowds came to hear him, and he baptised those who confessed their sins as a sign of repentance. When Jesus came to be baptised, John recognised the greatness of the One before him, despite his own sense of unworthiness. He bore witness to Christ as the Lamb of God, declaring that his own mission was to prepare the way for Him.
+  As an adult, John withdrew into the wilderness of Judea, where he lived an austere life and proclaimed a baptism of repentance for the forgiveness of sins. Clothed in camel's hair and sustained, according to the Gospel accounts, by locusts and wild honey, he embodied the spirit of the ancient prophets, particularly Elijah, whose zeal for God's truth had challenged the unfaithfulness of Israel. His preaching called the people to genuine conversion, warning that outward religious observance was insufficient without a transformation of the heart. He urged those who came to him to practise justice, share their possessions with the needy and abandon dishonest conduct. His message attracted people from Jerusalem and the surrounding regions, including tax collectors and soldiers seeking guidance on how to live rightly. John did not promise an easy path or flatter his listeners; instead, he insisted that repentance must produce visible fruits in their lives. His ministry prepared the spiritual ground for Christ by awakening consciences and reminding the people of their need for God's mercy. Through his preaching, the wilderness became a place of renewal, where hearts were called to turn away from sin and prepare to receive the Lord.
 
-  ### His Martyrdom and Lasting Legacy
+  ### The Baptism of Jesus and the Humility of the Forerunner
 
-  John's fearless defence of God's law eventually brought him into conflict with Herod Antipas, whom he rebuked for his unlawful union with Herodias. Imprisoned, John remained faithful to his calling and was ultimately beheaded at Herodias's request, following the dance of her daughter at Herod's banquet. His martyrdom became a lasting testimony to his courage and fidelity to the truth.
+  The defining moment of John's ministry came when Jesus approached him at the River Jordan to be baptised. Although John recognised the extraordinary holiness of Jesus and expressed his own unworthiness, Christ insisted on receiving baptism in order to fulfil all righteousness. As Jesus emerged from the water, the heavens opened, the Spirit of God descended like a dove, and the voice of the Father declared Him to be His beloved Son. This event revealed the identity of Christ and marked the beginning of His public ministry. In the Gospel of John, the Baptist identifies Jesus as the Lamb of God who takes away the sin of the world, directing his own disciples towards the One for whom he had been preparing them. His greatness lay precisely in his willingness to step aside once Christ had appeared. When some of his followers became concerned that people were turning to Jesus instead of him, John answered with the memorable declaration that Christ must increase while he must decrease. His response expresses the essence of authentic Christian ministry: the purpose of preaching, teaching and spiritual leadership is not to gather admiration for oneself, but to lead others into a deeper relationship with the Lord.
 
-  ### A Life of Humility and Truth
+  ### A Martyr for Truth and Righteousness
 
-  The greatness of Saint John the Baptist lies in his complete devotion to Christ. He understood that his purpose was to prepare hearts for the Saviour, famously declaring: *“He must increase, but I must decrease.”* His Nativity is celebrated on 24 June and his martyrdom is commemorated on 29 August, in both the current Roman calendar and the traditional Roman calendar. Throughout the centuries, John has remained an enduring example of repentance, humility and fearless witness to the truth, reminding the faithful that the greatest mission is to lead others towards Christ rather than towards oneself.
+  John's fearless defence of God's law eventually brought him into conflict with Herod Antipas, the ruler of Galilee. John publicly condemned Herod's relationship with Herodias, the wife of his half-brother, regarding it as contrary to the law of God. Herodias harboured resentment against the prophet, and John was arrested and imprisoned. According to the Gospel of Saint Mark, during a banquet held for Herod's birthday, Herodias's daughter danced before the ruler and his guests. Pleased by her performance, Herod rashly promised to grant her whatever she requested. At her mother's prompting, she asked for the head of John the Baptist on a platter. Although Herod was distressed by the request, he ordered the execution to proceed rather than withdraw his promise before his guests. John was beheaded in prison, and his disciples came to take his body and lay it in a tomb. The circumstances of his death reveal the cost of his uncompromising fidelity to the truth. He neither softened his message to preserve his freedom nor abandoned his prophetic responsibility to avoid suffering. The Church therefore honours him as a martyr whose death bore witness to the enduring demands of divine justice and moral courage.
+
+  ### A Lasting Legacy of Repentance and Faithfulness
+
+  Saint John the Baptist occupies a unique place in Christian tradition as the final great prophet of the Old Covenant and the immediate Forerunner of Christ. His ministry forms a bridge between the prophetic expectation of Israel and the fulfilment of God's promises in Jesus. Throughout the centuries, his example has inspired preachers, penitents and all those called to prepare their hearts for a deeper encounter with God. He is particularly associated with repentance, humility and the courageous proclamation of moral truth. His life also offers a profound lesson about the relationship between spiritual greatness and self-forgetfulness: John fulfilled his mission not by drawing attention to himself, but by pointing faithfully towards Christ. His austere existence reminds the faithful of the importance of prayer, self-discipline and detachment from worldly comforts, while his martyrdom demonstrates that fidelity to God's commandments must not be surrendered for the sake of earthly approval. Above all, Saint John the Baptist calls every Christian to prepare the way of the Lord through sincere conversion, to recognise Christ as the centre of faith and to serve Him with the humility of one who knows that the Saviour alone must increase.
   $desc$
-),
-
-(
-    'saint-john-the-baptist',
-    'fr',
-    'Saint Jean-Baptiste était le prophète qui prépara la venue de Jésus-Christ. Fils de Zacharie et d’Élisabeth, et parent de Jésus, il prêcha la repentance, baptisa dans le Jourdain ceux qui se tournaient de nouveau vers Dieu et proclama avec courage la venue du Messie. Les chrétiens l’honorent comme le précurseur du Christ et l’un des plus grands prophètes.',
-$desc$
-Saint Jean-Baptiste occupe une place unique dans la foi chrétienne en tant que **Précurseur de Jésus-Christ**, appelé par Dieu à préparer le peuple à la venue du Sauveur. Par sa vie austère, sa prédication intrépide et son dévouement inébranlable à la vérité, il devint le dernier grand prophète avant le Christ et un modèle d’humilité, de repentance et de courage spirituel. Sa mission n’était pas d’attirer l’attention sur lui-même, mais d’annoncer la venue de Celui dont la présence accomplirait les promesses de Dieu.
-
-### La naissance et les premières années du Précurseur
-
-Jean était le fils de saint Zacharie, prêtre, et de sainte Élisabeth, une parente de la Vierge Marie. Selon l’Évangile de saint Luc, l’archange Gabriel annonça sa naissance à Zacharie, lui promettant que l’enfant serait rempli du Saint-Esprit et préparerait un peuple disposé à accueillir le Seigneur. Lorsque Marie rendit visite à Élisabeth, Jean, encore à naître, tressaillit dans le sein de sa mère, un événement traditionnellement interprété comme sa première reconnaissance du Christ. Après sa naissance, Jean grandit en esprit et se retira finalement dans le désert, où il se prépara, par la prière et une vie austère, à la mission que Dieu lui avait confiée.
-
-### La voix qui crie dans le désert
-
-Jean commença à prêcher dans la région du Jourdain, appelant le peuple à la repentance et annonçant que le Royaume des Cieux était proche. Vêtu de poil de chameau et se nourrissant de sauterelles et de miel sauvage, il incarnait la simplicité et le détachement qu’il prêchait. Les foules venaient l’écouter, et il baptisait ceux qui confessaient leurs péchés en signe de repentance. Lorsque Jésus vint se faire baptiser, Jean reconnut la grandeur de Celui qui se tenait devant lui, malgré le sentiment de sa propre indignité. Il rendit témoignage au Christ en le désignant comme l’Agneau de Dieu, déclarant que sa propre mission consistait à préparer le chemin pour Lui.
-
-### Son martyre et son héritage durable
-
-La défense intrépide de la loi de Dieu par Jean le conduisit finalement à entrer en conflit avec Hérode Antipas, qu’il reprit pour son union illégitime avec Hérodiade. Emprisonné, Jean demeura fidèle à sa vocation et fut finalement décapité à la demande d’Hérodiade, à la suite de la danse de sa fille lors du banquet d’Hérode. Son martyre devint un témoignage durable de son courage et de sa fidélité à la vérité.
-
-### Une vie d’humilité et de vérité
-
-La grandeur de saint Jean-Baptiste réside dans son dévouement absolu au Christ. Il comprenait que sa mission consistait à préparer les cœurs à accueillir le Sauveur, déclarant avec ces mots célèbres : *« Il faut qu’il grandisse et que moi, je diminue. »* Sa Nativité est célébrée le 24 juin et son martyre est commémoré le 29 août, aussi bien dans le calendrier romain actuel que dans le calendrier romain traditionnel. Au fil des siècles, Jean est resté un exemple durable de repentance, d’humilité et de témoignage courageux de la vérité, rappelant aux fidèles que la plus grande des missions consiste à conduire les autres vers le Christ plutôt que vers soi-même.
-$desc$
 ),
 
 (
@@ -289,23 +262,29 @@ FROM saints s JOIN (VALUES
 	'saint-basil-the-great',
 		'en',
 		'Saint Basil the Great was a fourth-century bishop, theologian and Doctor of the Church. Born in Cappadocia, he became one of the great defenders of the Christian faith, particularly the divinity of the Holy Spirit. He founded communities devoted to prayer, study and service to the poor, and his writings profoundly influenced Christian theology and monastic life.',
-  $desc$
-  Saint Basil the Great was one of the most influential bishops and theologians of the early Church, renowned for his wisdom, his defence of the Catholic faith and his extraordinary charity towards the poor. As Bishop of Caesarea in Cappadocia, he devoted his life to the service of Christ, combining profound theological learning with a deep concern for the spiritual and material needs of his people. Together with Saint Gregory of Nazianzus and his brother Saint Gregory of Nyssa, he became one of the great Cappadocian Fathers, whose writings helped shape Christian theology and the Church's understanding of the Holy Trinity.
+$desc$
+Saint Basil the Great was one of the most influential bishops and theologians of the early Christian Church, renowned for his defence of the Catholic faith, his wisdom in spiritual matters and his extraordinary commitment to the poor. Born in Cappadocia in the fourth century, he became a leading figure in the theological controversies surrounding the divinity of the Holy Spirit and played a decisive role in the development of Christian monasticism. His learning, pastoral courage and profound understanding of Scripture earned him a place among the great Fathers of the Church. Yet Basil's greatness was not confined to theological debate: he also devoted himself to the practical needs of the suffering, establishing charitable institutions that provided assistance to the sick, the poor and the abandoned. His life united intellectual depth with active charity, demonstrating that authentic Christian doctrine must bear fruit in holiness, compassion and service to one's neighbour.
 
-  ### A Life Devoted to God
+### A Family Rooted in Faith and Holiness
 
-  Basil was born around 330 in Caesarea, into a distinguished Christian family known for its learning and holiness. Several members of his family, including his grandmother Macrina, his mother Emmelia and his siblings, became important figures in Christian tradition. He received an excellent education in Caesarea, Constantinople and Athens, where he formed a lasting friendship with Saint Gregory of Nazianzus. Despite his intellectual gifts and promising worldly prospects, Basil gradually turned away from public ambition, inspired in part by the example of his sister Macrina. After visiting monastic communities in Egypt, Palestine and Syria, he embraced an ascetic life devoted to prayer, study and the pursuit of Christian holiness.
+Basil was born around 329 or 330 in Caesarea, the principal city of Cappadocia in Asia Minor, into a family distinguished for its Christian faith. Several members of his family became saints, including his grandmother Macrina the Elder, his sister Macrina the Younger, and his brothers Gregory of Nyssa and Peter of Sebaste. His parents, Basil the Elder and Emmelia, raised their children in an atmosphere of prayer, learning and devotion to Christ. Basil received an excellent education, studying first in Caesarea and later in Constantinople and Athens, where he developed a lasting friendship with Saint Gregory of Nazianzus. Both men were deeply interested in philosophy and classical literature, but their intellectual ambitions were ultimately placed at the service of Christian wisdom. After returning to Cappadocia, Basil initially pursued a career in rhetoric before experiencing a profound spiritual awakening. Influenced by the example of his sister Macrina and by encounters with ascetics in the East, he began to question the value of worldly honours and professional success. He eventually travelled through regions known for their monastic communities, seeking to understand how a life of prayer, discipline and self-denial could be faithfully lived in the service of God.
 
-  ### Bishop and Defender of the Faith
+### The Father of Eastern Monasticism
 
-  Basil was ordained a priest and became Bishop of Caesarea in 370. At a time when the Arian controversy deeply divided the Church, he courageously defended the divinity of Christ and worked to preserve the Church's teaching on the Holy Trinity. His theological writings, particularly his work *On the Holy Spirit*, became important contributions to Christian doctrine. Yet Basil's episcopal ministry extended far beyond theological debate. He established charitable institutions that provided food, shelter and care for the poor, the sick and strangers. His concern for those in need reflected his conviction that love of God must be expressed through practical service to one's neighbour.
+Basil withdrew from public life to establish a community of ascetics in Pontus, near the Iris River, where he devoted himself to prayer, study and the common life. Unlike forms of solitary asceticism that placed great emphasis on individual withdrawal, Basil encouraged monks to live together, supporting one another through obedience, work, worship and mutual charity. He believed that Christian perfection was best pursued within a community where pride could be challenged and love practised through daily service. His guidance on monastic life, later collected in writings known as the *Longer Rules* and *Shorter Rules*, became foundational for Eastern Christian monasticism. Basil insisted that prayer must be joined to practical labour and that religious communities should remain attentive to the needs of the wider Church. His approach helped shape the enduring tradition of communal monastic life in the Christian East, particularly within the Orthodox Church and the Eastern Catholic Churches. Although he is often called the father of Eastern monasticism, his influence also extended to the Latin West, where his writings contributed to the broader Christian understanding of religious discipline and communal charity.
 
-  ### A Lasting Spiritual Legacy
+### A Defender of the Divinity of the Holy Spirit
 
-  Saint Basil also played a fundamental role in the development of Christian monasticism. His teachings on communal religious life, obedience, prayer and charity influenced Eastern monastic traditions and continue to shape religious life today. Through his writings and pastoral example, he showed that holiness requires both contemplation and active love, uniting the pursuit of truth with the service of others.
+Basil's theological gifts soon drew him back into the public life of the Church. In 370, he was elected Bishop of Caesarea, becoming responsible for a large ecclesiastical territory during a period of intense controversy over the doctrine of the Trinity. The Arian crisis had divided Christians over the relationship between the Father and the Son, while disputes also arose concerning the divinity of the Holy Spirit. Basil defended the full divinity of the Son and worked to establish the Church's teaching that the Holy Spirit belongs to the same divine life as the Father and the Son. In his influential treatise *On the Holy Spirit*, he carefully explained the theological and liturgical grounds for confessing the Spirit's divine dignity. His arguments helped prepare the way for the fuller clarification of Trinitarian doctrine at the First Council of Constantinople in 381, held after his death. Basil's approach combined doctrinal firmness with prudence, seeking unity among those who shared the essential faith even when differences of language and emphasis remained. His correspondence and theological writings reveal a bishop deeply conscious that the defence of truth was not an abstract exercise, but a responsibility entrusted to him for the spiritual good of the faithful.
 
-  Remembered as Basil the Great, he remains an enduring example of intellectual courage, pastoral devotion and generous charity. Honoured as a **Doctor of the Church**, he demonstrated how faith can illuminate the mind while transforming the lives of those most in need.
-  $desc$
+### Charity and the Service of the Poor
+
+Basil's holiness was expressed not only through prayer and theological teaching, but also through his extraordinary concern for those living in poverty. He regarded care for the needy as an essential consequence of Christian faith, insisting that material possessions carried a moral responsibility towards those who lacked the necessities of life. During periods of famine and hardship in Cappadocia, he preached against greed and indifference, urging the wealthy to share their resources with the hungry. Near Caesarea, he established a large charitable complex traditionally known as the *Basileias*, which provided assistance to the poor, hospitality to travellers and care for the sick. The institution included facilities for the treatment of illness and became an important expression of organised Christian charity. Basil also encouraged the clergy and monastic communities to participate actively in works of mercy, making service to the suffering an integral part of ecclesiastical life. His concern for the poor arose from a profound theological conviction: every human being bears a dignity that demands respect, and love of God cannot be separated from love of one's neighbour. Through his preaching and practical initiatives, Basil helped establish a lasting model of Christian social responsibility in which charity was understood not as an optional virtue, but as a fundamental expression of the Gospel.
+
+### A Legacy of Wisdom and Holiness
+
+Saint Basil died in Caesarea in 379, after years of strenuous pastoral service, theological controversy and physical hardship. Although his episcopate lasted less than a decade, his influence extended far beyond Cappadocia. His writings on the Holy Spirit, his contributions to Trinitarian theology and his guidance on monastic life shaped Christian thought for generations. Together with his close friend Saint Gregory of Nazianzus and his brother Saint Gregory of Nyssa, he is honoured among the great Cappadocian Fathers, whose theological work helped articulate the Church's understanding of the Trinity. Basil is remembered as a model of episcopal leadership in which intellectual discipline, doctrinal fidelity and practical charity belong together. His life demonstrates that the defence of Christian truth must be accompanied by humility, prayer and concrete concern for the suffering. Whether instructing monks, guiding the faithful or caring for those abandoned by society, he sought to make the love of Christ visible in the life of the Church. Saint Basil the Great remains an enduring example of Christian wisdom put at the service of God and neighbour, reminding the faithful that genuine holiness transforms both the heart of the believer and the world around him.
+$desc$
 ),
 (
     'saint-basil-the-great',
@@ -355,30 +334,32 @@ $desc$
 	'saint-gregory-nazianzen',
 		'en',
 		'Saint Gregory of Nazianzus was a fourth-century bishop, theologian and Doctor of the Church. One of the Cappadocian Fathers, he played a major role in defending the Christian faith in the Trinity and the divinity of the Holy Spirit. Known for his eloquent preaching and profound theological writings, he was also a close friend of Saint Basil the Great.',
-  $desc$
-  Saint Gregory of Nazianzus was one of the greatest theologians of the early Church, renowned for his eloquence, his profound understanding of the Christian faith and his unwavering defence of the divinity of the Holy Spirit. Together with Saint Basil the Great and Saint Gregory of Nyssa, he became one of the **Cappadocian Fathers**, whose teachings played a decisive role in the development of Christian doctrine. His life was marked by a constant tension between his love of solitude and contemplation and the demands of a Church deeply troubled by theological disputes.
+$desc$
+Saint Gregory of Nazianzus was one of the greatest theologians of the early Christian Church, renowned for his eloquence, profound understanding of the mystery of the Holy Trinity and unwavering devotion to the truth of the Gospel. Born in Cappadocia in the fourth century, he became a bishop and a leading defender of orthodox Christian doctrine during the theological controversies that followed the Council of Nicaea. His exceptional preaching and theological writings earned him the title “The Theologian,” a distinction shared by only a few figures in the Christian tradition. Yet Gregory's life was also marked by an inner struggle between his love of contemplation and the demanding responsibilities of ecclesiastical leadership. A close friend of Saint Basil the Great, he devoted himself to prayer, study and the service of the Church, seeking to express the deepest mysteries of faith with both intellectual precision and spiritual reverence. His life remains a powerful example of theological wisdom, humility and fidelity to Christ.
 
-  ### A Life of Learning and Prayer
+### A Life Shaped by Faith and Learning
 
-  Gregory was born into a Christian family in Cappadocia, in Asia Minor. He received an extensive education in Caesarea, Alexandria and Athens, where he formed a lifelong friendship with Saint Basil the Great. Both shared a deep love of learning and a desire to devote their lives to God. Although Gregory initially pursued an intellectual career, he eventually embraced the priesthood, while continuing to long for the quiet life of prayer and contemplation. His spiritual journey reflected his conviction that the search for divine truth required not only intellectual study, but also humility, purity of heart and a life devoted to God.
+Gregory was born around 329 or 330 at Arianzus, near Nazianzus in Cappadocia, in a family deeply rooted in Christianity. His father, also named Gregory, was a bishop, while his mother, Saint Nonna, was remembered for her piety and influence on her son's spiritual formation. Gregory received an extensive education, studying in Caesarea, Alexandria and Athens, where he developed a lasting friendship with Saint Basil the Great. Their shared intellectual interests and Christian convictions created a bond that would profoundly shape both their lives and their contributions to the Church. In Athens, Gregory acquired a thorough knowledge of rhetoric, philosophy and classical literature, disciplines that later enriched his theological writing and preaching. Despite his intellectual gifts, he increasingly felt drawn towards a life of prayer and contemplation rather than public distinction. His friendship with Basil strengthened this aspiration, and the two men spent time together pursuing an ascetic life. Nevertheless, Gregory's family responsibilities and the needs of the Church repeatedly called him away from the solitude he desired, placing him between his personal longing for contemplation and his sense of duty towards God and the Christian community.
 
-  ### Defender of the Holy Trinity
+### A Reluctant Priest and Bishop
 
-  Gregory's theological gifts became especially important during the Arian controversy, when disputes over the nature of Christ threatened the unity of the Church. In Constantinople, he delivered his celebrated **Five Theological Orations**, defending the divinity of Christ and the Holy Spirit with remarkable clarity and depth. These sermons earned him a lasting reputation as one of the Church's greatest theologians. His teaching helped articulate the mystery of the Holy Trinity: one God in three distinct Persons, Father, Son and Holy Spirit. Through his eloquence and fidelity to the apostolic faith, Gregory played a significant role in the theological debates surrounding the First Council of Constantinople.
+Gregory's father eventually ordained him a priest, a responsibility that Gregory initially received with reluctance. He later explained his hesitation in his *Apologeticus de fuga*, often translated as *In Defence of His Flight*, in which he reflected on the immense spiritual responsibility of priestly ministry. He believed that those entrusted with guiding souls must first cultivate their own holiness, and he feared undertaking such a demanding vocation without sufficient preparation. After withdrawing for a time, he returned to assist his father in the pastoral care of the community. His understanding of the priesthood was marked by a profound sense of accountability before God: preaching and sacramental ministry were not positions of honour, but sacred responsibilities requiring prayer, discipline and moral integrity. In 372, Basil, then Bishop of Caesarea, consecrated Gregory bishop of Sasima as part of his efforts to strengthen the Church's position in a contested ecclesiastical territory. Gregory, however, never fully assumed the responsibilities of that difficult appointment. He subsequently assisted his elderly father at Nazianzus, continuing to serve the Church despite his reservations about public office. These experiences revealed a man who accepted ecclesiastical responsibilities out of obedience rather than ambition, even when they conflicted with his desire for a quieter spiritual life.
 
-  ### Bishop of Constantinople
+### The Theologian of the Holy Trinity
 
-  Gregory was appointed Bishop of Constantinople during a period of intense religious division. His preaching helped strengthen the position of Nicene Christianity in a city where opposing theological movements remained influential. However, his appointment and authority became the subject of controversy, and Gregory eventually resigned his episcopal office rather than allow personal disputes to further disturb the Church. He returned to Cappadocia, where he devoted his remaining years to prayer, writing and poetry, finding in a quieter life the freedom to pursue his spiritual and literary work.
+Gregory's most influential work emerged during the Arian controversy, when Christians continued to debate the relationship between the Father and the Son and the divinity of the Holy Spirit. In 379, he was invited to Constantinople to support the small Nicene Christian community in a city where Arian theology had enjoyed considerable influence. There, Gregory preached a series of five celebrated discourses on the Trinity, later known as his *Theological Orations*. With remarkable clarity and spiritual depth, he defended the full divinity of the Son and the Holy Spirit, explaining how the three divine Persons share one divine nature without confusion or division. His teaching helped prepare the way for the reaffirmation and further clarification of Trinitarian doctrine at the First Council of Constantinople in 381. Gregory's achievement lay not merely in his ability to answer theological objections, but in his insistence that speaking about God requires reverence, purity of heart and a recognition of the limits of human understanding. For him, theology was not simply an intellectual discipline: it was a form of service to the Church, rooted in prayer and directed towards the contemplation of the living God.
 
-  ### A Lasting Theological Legacy
+### Leadership in Constantinople and Withdrawal from Public Life
 
-  Saint Gregory left behind a remarkable collection of theological orations, letters and poems that reveal both his intellectual brilliance and his deeply personal faith. His writings explore the mystery of God, the dignity of Christ and the spiritual struggles of the Christian life. Honoured as a **Doctor of the Church**, he is also traditionally known as *Gregory the Theologian*, a title reflecting the exceptional importance of his teaching.
+Gregory's preaching gradually strengthened the Nicene community in Constantinople, and his theological reputation grew throughout the Eastern Church. Following the death of Emperor Valens in 378, the political circumstances became more favourable to those defending Nicene Christianity. When Emperor Theodosius I entered Constantinople in 380, Gregory was recognised as the leader of the city's orthodox Christian community and took possession of the Church of the Holy Apostles. He presided for a time over the gathering of bishops that became the First Council of Constantinople in 381. However, disputes concerning his appointment and the governance of the Church created difficulties, and Gregory eventually resigned from his position. In a farewell address, he urged the assembled bishops to put aside their divisions and seek peace for the good of the Church. He then returned to Cappadocia, where he devoted his remaining years to prayer, writing and contemplation. His withdrawal was not an abandonment of his vocation, but an attempt to serve God in a manner more consistent with his spiritual temperament. Even after leaving public office, he continued to contribute to Christian theology through his letters, poems and spiritual reflections.
 
-  His life remains a powerful example of the union between learning, contemplation and fidelity to the truth. Through his words and his witness, Saint Gregory of Nazianzus reminds the faithful that the deepest understanding of God requires not merely the power of the intellect, but also a heart transformed by prayer, humility and love.
-  $desc$
+### A Legacy of Theological Wisdom and Holiness
+
+Saint Gregory of Nazianzus died around 390, leaving behind a body of work that profoundly influenced Christian theology and spirituality. His theological orations, sermons, letters and poems reveal a remarkable combination of intellectual precision, rhetorical skill and personal sensitivity. Together with Saint Basil the Great and Saint Gregory of Nyssa, he is honoured as one of the three great Cappadocian Fathers, whose writings helped shape the Church's understanding of the Holy Trinity. His title, “The Theologian,” reflects the exceptional importance of his teaching, particularly his defence of the divinity of the Holy Spirit and his insistence that theological reflection must remain rooted in worship and holiness. Gregory's life also offers a compelling example of humility: despite his gifts and influence, he repeatedly struggled with the burdens of leadership and sought the silence of contemplation rather than worldly recognition. His witness reminds the faithful that intellectual excellence finds its true purpose in the service of divine truth, and that the pursuit of holiness requires both courage and self-knowledge. Through his writings and his example, Saint Gregory continues to teach the Church that the mystery of God is approached most faithfully through a union of sound doctrine, prayer and a heart transformed by divine grace.
+$desc$
 ),
 (
-    'saint-gregory-nazianzen',
+	'saint-gregory-nazianzen',
     'fr',
     'Saint Grégoire de Nazianze était un évêque, théologien et Docteur de l’Église du IVe siècle. L’un des Pères cappadociens, il joua un rôle majeur dans la défense de la foi chrétienne en la Sainte Trinité et de la divinité du Saint-Esprit. Réputé pour son éloquence dans la prédication et la profondeur de ses écrits théologiques, il était également un proche ami de saint Basile le Grand.',
 $desc$
@@ -438,29 +419,29 @@ FROM saints s JOIN (VALUES
 	'saint-raymond-of-penyafort',
 		'en',
 		'Saint Raymond of Penyafort was a thirteenth-century Spanish Dominican friar, priest, theologian and canon lawyer. Known for his deep learning, humility and dedication to the Church, he helped organize the Church''s canon law and served as Master of the Order of Preachers. He is also remembered for his work in preaching, the conversion of Muslims and Jews, and the spiritual formation of priests and missionaries.',
-  $desc$
-  Saint Raymond of Penyafort was a Spanish Dominican priest, theologian and jurist whose learning and devotion made him one of the most influential figures in the development of canon law. Renowned for his wisdom, humility and pastoral charity, he devoted his life to the service of the Church, helping to guide both clergy and faithful through his teaching and counsel. His work combined a profound understanding of ecclesiastical law with a sincere concern for the salvation of souls, reflecting his conviction that knowledge must always be placed at the service of God.
+$desc$
+Saint Raymond of Penyafort was a Spanish Dominican priest, theologian and jurist whose learning and devotion made him one of the most influential figures in the development of canon law. Renowned for his wisdom, humility and pastoral charity, he devoted his life to the service of the Church, helping to guide both clergy and faithful through his teaching and counsel. His work combined a profound understanding of ecclesiastical law with a sincere concern for the salvation of souls, reflecting his conviction that knowledge must always be placed at the service of God. As a trusted adviser to popes and a devoted servant of the Dominican Order, Raymond united intellectual excellence with a life of prayer, discipline and apostolic zeal. His example remains a testament to the harmony between justice, mercy and Christian charity.
 
-  ### A Life of Study and Religious Vocation
+### A Life of Study and Religious Vocation
 
-  Raymond was born near Barcelona, in Catalonia, into a noble family. Gifted with exceptional intellectual abilities, he pursued the study of philosophy and law before becoming a teacher. He later joined the Dominican Order, attracted by its commitment to preaching, learning and the spiritual renewal of the Church. Embracing religious life with humility, he devoted himself to prayer, study and the formation of others, seeking to unite intellectual excellence with personal holiness.
+Raymond was born around 1175 in the region of Penyafort, near Barcelona, in Catalonia. Coming from a family of some distinction, he displayed exceptional intellectual ability from an early age and pursued advanced studies in philosophy and law. He later taught at the schools of Barcelona and, according to traditional accounts, became known for both his learning and his personal integrity. His growing reputation led him to Bologna, one of the principal centres of legal study in medieval Europe, where he deepened his knowledge of civil and ecclesiastical law. Despite his academic success, Raymond was increasingly drawn towards a life of religious service. Around 1222, he entered the Dominican Order, attracted by its commitment to preaching, theological study and the salvation of souls. Embracing religious life with humility, he placed his considerable intellectual gifts at the service of the Church, seeking to unite scholarly discipline with personal holiness. His formation as both a jurist and a Dominican would shape his subsequent work, allowing him to approach questions of ecclesiastical law with a rare combination of technical knowledge and pastoral sensitivity.
 
-  ### A Great Teacher of Canon Law
+### A Great Teacher of Canon Law
 
-  Raymond's legal knowledge brought him to the attention of Pope Gregory IX, who entrusted him with the important task of collecting and organising papal decrees. The resulting work, known as the *Decretals of Gregory IX*, became a foundational text of canon law and remained influential for centuries. Raymond's scholarship helped bring greater order and consistency to the Church's legal tradition, while his practical wisdom made him a trusted adviser in matters of ecclesiastical discipline. Despite his learning and reputation, he remained deeply humble, regarding his gifts as a responsibility rather than a source of personal glory.
+Raymond's legal expertise brought him to the attention of Pope Gregory IX, who entrusted him with the important task of collecting and organising papal decretals, the authoritative decisions and letters that formed an essential part of the Church's legal tradition. Completed around 1234, this compilation became known as the *Decretals of Gregory IX* and served as a foundational text of canon law for centuries. By gathering and arranging a large body of legal material, Raymond helped bring greater coherence to ecclesiastical jurisprudence and provided clerics, judges and scholars with a more systematic framework for resolving questions of Church discipline and governance. His contribution was not simply administrative: it reflected his conviction that sound legal structures could promote justice, protect the faithful and support the Church's spiritual mission. Raymond also wrote influential works on moral theology and the sacrament of Penance, especially the duties and responsibilities of confessors. He understood that pastoral decisions required more than a knowledge of rules; they demanded prudence, discernment and compassion towards those seeking reconciliation with God. His scholarship therefore remained closely connected to the practical needs of Christian life.
 
-  ### Master General of the Dominicans
+### Master General of the Dominican Order
 
-  Raymond was elected Master General of the Dominican Order in 1238. During his leadership, he worked to strengthen religious discipline, encourage study and support the Order's mission of preaching. He also contributed to the development of moral theology, particularly through his writings on the duties of confessors and the administration of the sacrament of Penance. After resigning from his office, he returned to Spain, where he continued to devote himself to teaching, pastoral guidance and the spiritual welfare of others.
+In 1238, Raymond was elected Master General of the Dominican Order, becoming responsible for guiding a rapidly expanding religious community. Although he accepted the office out of obedience, he approached its duties with characteristic diligence, working to strengthen religious discipline and preserve the Order's commitment to study, preaching and poverty. He travelled to visit Dominican communities and encouraged the friars to combine intellectual formation with spiritual integrity. His leadership helped consolidate the Order's identity during an important period in its development. Nevertheless, Raymond did not regard authority as a personal privilege. After approximately two years, he resigned from the office, seeking to return to a more direct form of pastoral and intellectual service. His decision reflected a willingness to place the needs of the Church above personal ambition and demonstrated his conviction that leadership must always remain ordered towards the spiritual good of others. Even after his resignation, he continued to exercise considerable influence within the Dominican Order and the wider Church.
 
-  ### Charity and Apostolic Zeal
+### Charity and Apostolic Zeal
 
-  Raymond showed particular concern for the conversion of non-Christians and the instruction of those who wished to understand the Christian faith. Tradition associates him with the establishment of centres for the study of Arabic and Hebrew, intended to prepare missionaries for their work. He also encouraged Saint Peter Nolasco in the mission of the Order of Our Lady of Mercy, dedicated to the redemption of Christians held in captivity. His apostolic zeal was accompanied by a life of prayer and penance, revealing a spirituality rooted in both intellectual discipline and compassion.
+Raymond showed particular concern for the conversion of non-Christians and the instruction of those who wished to understand the Christian faith. He encouraged the study of Arabic and Hebrew as a means of preparing missionaries to engage more effectively with Jewish and Muslim communities. His approach reflected the Dominican conviction that preaching should be supported by learning and a serious understanding of those to whom the Gospel was proclaimed. Raymond also supported Saint Peter Nolasco and the Order of Our Lady of Mercy in their work to redeem Christians held captive, helping to advance a mission rooted in compassion for those suffering imprisonment and enslavement. According to tradition, he encouraged the development of institutions dedicated to the study of languages and the preparation of missionaries. His apostolic zeal was accompanied by a deep concern for moral integrity, and he sought to ensure that the Church's mission was carried out with both doctrinal fidelity and pastoral responsibility. For Raymond, the pursuit of truth, the administration of justice and the exercise of charity were inseparable dimensions of Christian service.
 
-  ### A Legacy of Wisdom and Holiness
+### A Legacy of Wisdom and Holiness
 
-  Saint Raymond of Penyafort is remembered as a model of Dominican learning, pastoral responsibility and humility. His contribution to canon law shaped the governance of the Church for generations, while his dedication to the sacrament of Penance reflected his desire to lead souls towards reconciliation with God. Honoured as a patron of canonists and lawyers, he remains an example of how scholarship, justice and charity can serve a common spiritual purpose. His life teaches that true wisdom is not measured by knowledge alone, but by the fidelity and love with which that knowledge is offered in the service of God and neighbour.
-  $desc$
+Raymond spent his later years in Barcelona, continuing to offer counsel, support the Dominican Order and serve the spiritual needs of the faithful. He died in 1275, having lived to an advanced age for his time. His reputation for holiness and learning endured long after his death, and he was canonised by Pope Clement VIII in 1601. Remembered as a patron of canonists and lawyers, Saint Raymond remains an example of how intellectual gifts can be placed at the service of the Church without becoming a source of pride. His contribution to canon law helped shape ecclesiastical governance for generations, while his writings on confession and moral theology reflected his desire to guide souls towards reconciliation with God. His life demonstrates that justice must be exercised with prudence, that knowledge finds its highest purpose in service, and that authority becomes fruitful when guided by humility and charity. Through his scholarship, pastoral wisdom and dedication to the salvation of souls, Saint Raymond of Penyafort continues to inspire those who seek to unite professional excellence with Christian faith and a sincere commitment to the common good.
+$desc$
 ),
 (
     'saint-raymond-of-penyafort',
@@ -523,27 +504,29 @@ $desc$
 	'saint-hilary-of-poitiers',
 		'en',
 		'Saint Hilary of Poitiers was a fourth-century bishop, theologian and Doctor of the Church who became one of the great defenders of the Catholic faith in the divinity of Christ. Known as the "Athanasius of the West", he courageously opposed Arianism and played an important role in defending the Nicene faith, while also writing profound works on the Trinity and the Christian understanding of Scripture.',
-  $desc$
-  Saint Hilary of Poitiers was one of the great defenders of the Christian faith during the fourth century, renowned for his courage in opposing Arianism and his profound teaching on the divinity of Jesus Christ. Known as the **“Athanasius of the West”**, he played an important role in preserving the Church's understanding of the Holy Trinity at a time when theological divisions threatened its unity. Through his writings, his episcopal ministry and his willingness to suffer for the truth, he became one of the most influential theologians of the early Western Church.
+$desc$
+Saint Hilary of Poitiers was one of the great theologians and bishops of the early Western Church, renowned for his defence of the divinity of Jesus Christ and his courageous opposition to Arianism. Living during the theological controversies of the fourth century, he devoted his learning, pastoral authority and literary gifts to defending the faith proclaimed at the Council of Nicaea. His profound understanding of Scripture and his ability to explain difficult theological questions earned him a lasting place among the Fathers of the Church and the title of Doctor of the Church. Yet Hilary's greatness lay not only in his intellectual achievements, but also in his pastoral courage and his determination to preserve the unity of the Church without compromising the truth of the Gospel. Even when his convictions led to exile, he continued to defend the Christian faith through his writings and appeals for reconciliation. His life remains a powerful example of theological wisdom, perseverance and fidelity to Christ.
 
-  ### A Conversion to the Christian Faith
+### A Search for Truth and a Journey to Faith
 
-  Hilary was born in Poitiers, in Gaul, into a pagan family and received an extensive education in philosophy and classical literature. His search for truth eventually led him to the study of Scripture, through which he came to believe in the one God revealed in Jesus Christ. He embraced Christianity as an adult and was later chosen as Bishop of Poitiers. His intellectual gifts and deep conviction enabled him to address the theological controversies of his age with both clarity and determination.
+Hilary was born in Poitiers, in Roman Gaul, around the beginning of the fourth century, probably into a prosperous pagan family. He received an excellent education in literature and philosophy, developing the intellectual discipline that would later distinguish his theological writings. Although his early life remains only partially documented, Hilary himself described a personal search for the truth about God, human existence and the destiny of the soul. The philosophical traditions available to him did not fully satisfy his desire to understand the meaning of life and the prospect of death. His reading of Scripture, particularly the opening of the Gospel of Saint John, gradually led him towards the Christian understanding of God as the eternal Creator and the Word who became flesh for the salvation of humanity. He eventually embraced Christianity and received Baptism, probably around 345. His conversion transformed the direction of his life, giving his intellectual pursuits a new purpose rooted in the revelation of God through Jesus Christ. Hilary is traditionally understood to have been married and to have had a daughter before becoming a bishop, a reminder that his path to holiness began within the ordinary circumstances of family life. His learning and reputation for wisdom eventually brought him to the attention of the Christian community in Poitiers, and around 353 or 354 he was elected bishop of his native city.
 
-  ### Defender of the Divinity of Christ
+### A Bishop Defending the Divinity of Christ
 
-  During Hilary's episcopacy, Arianism remained a major source of division within the Church. Its supporters denied the full divinity of the Son, teaching that Christ was not equal to the Father in the same divine nature. Hilary firmly opposed this doctrine, defending the Church's faith in Christ as truly God and truly man. His most important theological work, *De Trinitate* (*On the Trinity*), offered a detailed defence of the relationship between the Father and the Son, drawing deeply upon Scripture. Through his teaching, Hilary helped strengthen the understanding of the Trinity that would be expressed in the Church's doctrinal tradition.
+Hilary became a bishop at a time when the Church was deeply divided by the Arian controversy. Following the Council of Nicaea in 325, which confessed the Son to be of the same divine substance as the Father, disputes continued over the relationship between Christ's divinity and His humanity. Arian teachings, which denied the Son's full equality with the Father, gained considerable influence in parts of the Roman Empire, sometimes with the support of imperial authorities. Hilary recognised that this controversy concerned the very heart of Christian salvation. If Christ were not truly God, the Church's understanding of the Incarnation and humanity's reconciliation with the Father would be fundamentally compromised. He therefore devoted himself to defending the Nicene faith through preaching, theological writing and pastoral leadership. His approach was marked by both firmness and discernment: he opposed teachings that diminished Christ's divinity while seeking to guide those who were confused by the disputes towards a clearer understanding of the truth. For Hilary, the doctrine of the Trinity was not merely a matter of philosophical precision, but a confession of the God who had revealed Himself in Christ and offered humanity the gift of eternal life.
 
-  ### Exile and Faithfulness
+### Exile and the Writing of *On the Trinity*
 
-  Hilary's opposition to Arianism brought him into conflict with powerful supporters of the doctrine, and he was exiled to Phrygia, in Asia Minor. Rather than allowing exile to silence him, he continued his theological work and became familiar with the debates taking place in the Eastern Church. During this period, he wrote extensively in defence of the Nicene faith and sought to reconcile those who could be brought back to orthodox teaching. His courage revealed a deep commitment to the unity of the Church, grounded not in compromise over essential doctrine, but in fidelity to the truth.
+In 356, Hilary was exiled to Phrygia, in Asia Minor, following the Council of Béziers, where bishops sympathetic to Arianism sought his condemnation. Far from silencing him, exile provided the opportunity to deepen his study of Eastern Christian theology and to compose some of his most important works. During this period, he wrote *De Trinitate* (*On the Trinity*), a major theological treatise defending the full divinity of the Son and His equality with the Father. Drawing extensively upon Scripture, Hilary showed how biblical passages must be interpreted in their proper context, taking into account both Christ's divine nature and the genuine humanity He assumed for our salvation. He also wrote *De Synodis* (*On the Synods*), examining the various creeds and theological statements produced during the controversies of his time. His writings reveal a theologian capable of combining rigorous argument with a profound sense of reverence for the mystery of God. Although separated from his own diocese, Hilary continued to exercise his episcopal responsibility through correspondence, teaching and appeals for the restoration of unity in the Church. His years of exile became among the most fruitful of his life, demonstrating that suffering and displacement need not prevent a Christian from serving the truth.
 
-  Eventually, Hilary was able to return to Gaul, where he resumed his episcopal ministry and continued to oppose Arianism through preaching and writing. He also composed biblical commentaries, particularly on the Psalms, showing his ability to unite theological precision with spiritual reflection.
+### The Return to Gaul and the Restoration of Unity
 
-  ### A Lasting Theological Legacy
+Hilary was eventually permitted to return to Gaul around 360 or 361, bringing with him a deeper knowledge of Eastern theology and a renewed determination to defend the Nicene faith. His return to Poitiers strengthened the cause of orthodox Christianity in the West, where Arian teachings had continued to influence several bishops and imperial officials. Rather than seeking personal revenge against those who had opposed him, Hilary worked to restore doctrinal clarity and ecclesiastical unity. His influence extended beyond his own diocese, and he played an important role in encouraging the bishops of Gaul to reaffirm the faith proclaimed at Nicaea. He also maintained a relationship with Saint Martin of Tours, who had been drawn to the Christian life and whose monastic foundation at Ligugé became an important centre of spiritual renewal. Hilary's pastoral leadership combined firmness in matters of doctrine with a willingness to engage patiently with those who remained uncertain or mistaken. He understood that genuine unity could not be achieved by abandoning the truth, but neither should theological disagreements become an excuse for pride or hostility. His work helped strengthen Nicene Christianity in Gaul and established him as one of the most influential defenders of the faith in the Latin-speaking Church.
 
-  Saint Hilary of Poitiers left a lasting mark on Christian theology through his defence of the Trinity and his interpretation of Scripture. Honoured as a **Doctor of the Church**, he is remembered for combining intellectual depth with pastoral courage and unwavering faith. His life demonstrates that defending Christian truth requires both a well-formed mind and a heart firmly devoted to Christ. Through his writings and his example, Saint Hilary remains an enduring witness to the power of faith, perseverance and the search for divine truth.
-  $desc$
+### A Legacy of Theological Wisdom and Holiness
+
+Saint Hilary died around 367, leaving behind a substantial body of theological writings that continued to shape Christian thought long after his death. In addition to *On the Trinity*, he composed a commentary on the Gospel of Matthew, the earliest surviving Latin commentary on that Gospel, and wrote extensive reflections on the Psalms. In these works, he consistently interpreted Scripture in the light of Christ's Incarnation, Passion and Resurrection, recognising the unity of God's saving plan throughout the biblical revelation. His theological achievements earned him recognition as one of the great Fathers of the Western Church, and Pope Pius IX proclaimed him a Doctor of the Church in 1851. Hilary is remembered not only for his defence of orthodox doctrine, but also for his ability to unite intellectual conviction with pastoral charity. His life demonstrates that fidelity to Christ sometimes demands the courage to stand against powerful authorities, while Christian wisdom requires patience, humility and a genuine desire for reconciliation. Through his teaching, his writings and his steadfast episcopal ministry, Saint Hilary of Poitiers remains an enduring example of a faith that seeks understanding and a theological mind placed entirely at the service of the Church.
+$desc$
 ),
 (
     'saint-hilary-of-poitiers',
@@ -601,25 +584,29 @@ $desc$
 	'saint-anthony-abbot',
 		'en',
 		'Saint Anthony the Abbot, also known as Saint Anthony the Great or Saint Anthony of the Desert, was a fourth-century Egyptian Christian ascetic and one of the fathers of Christian monasticism. After giving his possessions to the poor, he withdrew into the desert to seek God through prayer, fasting and solitude. His life became a model of Christian asceticism and profoundly influenced the development of monastic life throughout the Christian world.',
-  $desc$
-  Saint Anthony the Great, also known as Saint Anthony Abbot or Anthony of the Desert, is regarded as one of the founding fathers of Christian monasticism. Renowned for his extraordinary asceticism, his spiritual struggles and his complete trust in God, he abandoned worldly possessions to devote himself entirely to prayer and contemplation. His life became a powerful example of Christian detachment and perseverance, inspiring generations of monks and religious communities throughout the Church.
+$desc$
+Saint Anthony the Great, also known as Saint Anthony the Abbot or Anthony of Egypt, was one of the founding figures of Christian monasticism and one of the most influential ascetics in the history of the Church. Born in Egypt in the third century, he renounced his worldly possessions to devote himself entirely to God, embracing a life of prayer, solitude and spiritual combat in the desert. His extraordinary austerity and perseverance attracted numerous disciples, who sought his guidance in the pursuit of holiness. Through his example, Anthony helped establish the ideal of the monk as one who withdraws from worldly distractions in order to seek God with an undivided heart. His life became widely known through the writings of Saint Athanasius of Alexandria, whose account presented Anthony as a model of Christian virtue and spiritual courage. Revered in both Eastern and Western Christianity, Saint Anthony remains an enduring witness to the power of prayer, detachment and complete trust in divine providence.
 
-  ### A Call to Solitude
+### A Calling to Renounce the World
 
-  Anthony was born in Egypt into a wealthy Christian family. After the death of his parents, he was deeply moved by Christ's words in the Gospel: *“If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven.”* Taking these words as a personal calling, he distributed his inheritance to the poor, provided for his younger sister and withdrew from ordinary life to seek God in solitude. He initially lived near his village, learning from experienced ascetics, before moving farther into the desert to embrace a life of prayer, fasting and spiritual discipline.
+Anthony was born around 251 in the village of Coma, near Heracleopolis in Upper Egypt, into a Christian family of some means. His parents died when he was still young, leaving him responsible for the care of his younger sister and the management of the family inheritance. According to Saint Athanasius, Anthony was deeply affected by Christ's words in the Gospel: “If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven; and come, follow me.” Taking these words as a personal invitation, he distributed much of his property to the poor, arranged for his sister's care and renounced the security offered by his former life. He then began to pursue a more radical form of Christian discipleship, learning from experienced ascetics who lived in prayer and simplicity on the outskirts of their communities. Anthony did not initially establish a monastery or seek to become a spiritual leader. Instead, he gradually withdrew from society, desiring to place his entire life under the guidance of God. His vocation arose from a conviction that the Christian life demanded more than outward observance: it required the conversion of the heart and the willingness to surrender everything that might hinder a person's relationship with the Lord.
 
-  ### Trials in the Desert
+### The Desert and the Spiritual Struggle
 
-  Anthony's solitary life was marked by severe temptations, which Christian tradition describes as fierce spiritual battles against the devil. Through prayer, fasting and unwavering faith, he resisted these trials and grew in spiritual strength. Seeking greater solitude, he withdrew into an abandoned fortress and later into the remote desert, where he lived for many years. Although he desired to remain hidden from the world, his reputation for holiness spread, and people began seeking him for spiritual guidance, healing and counsel. Anthony eventually accepted that his vocation was not only to pursue his own sanctification, but also to help others grow in faith.
+Anthony eventually withdrew into increasingly remote places, seeking solitude in which to devote himself to prayer, fasting and manual labour. He first lived near his village before moving into an abandoned burial place and later taking up residence in an old fortress in the desert. Saint Athanasius describes his life as one of extraordinary perseverance, marked by severe ascetic discipline and intense spiritual trials. Traditional accounts recount temptations and spiritual assaults through which Anthony learned to resist fear, pride and despair by placing his confidence in Christ. These narratives became foundational to Christian reflection on spiritual warfare, illustrating the belief that the pursuit of holiness involves a struggle against sin and disordered desires. Anthony's austerity was not an attempt to despise the body or escape God's creation, but a disciplined effort to free himself from distractions and become more completely available to divine grace. Through prayer, fasting and perseverance, he sought to cultivate humility and interior freedom. His example inspired generations of Christians to understand asceticism not as an end in itself, but as a means of deepening their love of God and strengthening their capacity to serve others.
 
-  ### Father of Monastic Life
+### A Father to the Monks
 
-  Many disciples gathered around Anthony, inspired by his example of asceticism and devotion. He taught them to persevere in prayer, resist temptation and place their confidence entirely in God. These communities helped lay the foundations of Christian monastic life, in which solitude and contemplation were joined to spiritual discipline and fraternal support. During the Arian controversy, Anthony also left his retreat to encourage the faithful in Alexandria and support the defence of Christ's divinity, demonstrating that even a hermit's life of seclusion could serve the wider Church.
+Although Anthony sought solitude, his reputation for holiness gradually attracted others who wished to learn from his example. Disciples settled near his dwelling, forming communities of ascetics who looked to him for spiritual guidance. Anthony taught them that perseverance in prayer, humility and obedience were essential to the Christian life, and he encouraged them to resist pride even when they experienced spiritual progress. His influence helped establish the foundations of Egyptian monasticism, in which monks pursued holiness through a combination of solitude, common prayer and spiritual discipline. Anthony himself continued to favour a life of relative seclusion, but he did not regard withdrawal from society as a rejection of Christian charity. Those who came to him received counsel, encouragement and instruction in the faith. His wisdom was valued because it arose not simply from intellectual study, but from years of prayer and personal struggle. Through his example, Anthony demonstrated that a life devoted to God could bear fruit far beyond the individual soul, inspiring others to seek the same freedom from worldly attachments and the same wholehearted love of Christ.
 
-  ### A Lasting Spiritual Legacy
+### A Witness to the Faith in Times of Persecution
 
-  Saint Anthony lived to an advanced age, remaining faithful to his vocation of prayer and detachment until his death. His life became widely known through Saint Athanasius's *Life of Anthony*, which profoundly influenced the development of monasticism in both the East and the West. Remembered as the **Father of Monks**, he remains a model of spiritual perseverance, humility and freedom from worldly attachments. His example reminds Christians that the pursuit of holiness requires a heart turned towards God, strengthened through prayer and willing to surrender everything that stands in the way of divine love.
-  $desc$
+Anthony's life of solitude did not prevent him from responding when the Church faced persecution. During the persecution under Emperor Maximinus Daia, around 311, he travelled to Alexandria to encourage imprisoned Christians and support those who were facing trial for their faith. According to Saint Athanasius, Anthony desired to share the dangers endured by the faithful, although he was not himself put to death. When the persecution subsided, he returned to the desert, where he continued his ascetic life and welcomed those seeking his guidance. He also defended the Christian faith against teachings he regarded as contrary to the Gospel, particularly Arianism, which denied the full divinity of the Son. Later in life, Anthony visited Alexandria again to support Athanasius in his defence of Nicene Christianity. These episodes reveal that his commitment to solitude was never absolute indifference to the needs of the Church. When the circumstances required it, he left his retreat to strengthen his fellow Christians, demonstrating that contemplation and active charity belong together in the life of faith.
+
+### A Legacy of Prayer and Spiritual Courage
+
+Saint Anthony died around 356, traditionally at the age of 105, after spending decades devoted to prayer and ascetic life. Before his death, he is said to have instructed his disciples to preserve his solitude and to avoid allowing his burial place to become an object of worldly display. His life became widely known through Saint Athanasius's *Life of Anthony*, a work that profoundly influenced the development of monasticism throughout the Christian world. Its account of Anthony's renunciation, spiritual struggles and perseverance inspired countless men and women to embrace religious life, including Saint Augustine, who later reflected on the transformative power of Anthony's example. In Christian art, Anthony is often depicted with a pig or other symbols associated with his later patronage, although these traditions developed long after his lifetime. He is particularly remembered as the patron saint of monastics and as a model for those seeking spiritual discipline and freedom from disordered attachments. His enduring legacy lies in the conviction that holiness requires a heart wholly turned towards God, sustained by prayer, humility and perseverance. Saint Anthony the Great reminds the faithful that silence can become a place of encounter with the Lord, that temptation can be met through trust in divine grace, and that a life hidden from the world can nevertheless bear extraordinary fruit for the Church.
+$desc$
 ),
 
 (
@@ -679,175 +666,29 @@ FROM saints s JOIN (VALUES
 	'saint-fabian-pope',
 		'en',
 		'Saint Fabian was Pope and Bishop of Rome from around 236 until his martyrdom in 250 during the persecution of Emperor Decius. Remembered as a courageous pastor and martyr, he guided the Church of Rome for many years, organized its clergy and helped strengthen Christian communities during a period of relative peace before the persecution that cost him his life.',
-  $desc$
-  ## Saint Fabian, Pope and Martyr
+$desc$
+Saint Fabian was an early pope and martyr whose unexpected election to the papacy and steadfast service to the Church made him a memorable figure in the history of Christianity. He became Bishop of Rome during the third century, at a time when the Church was growing despite periods of uncertainty and persecution within the Roman Empire. Remembered for his administrative wisdom, pastoral care and commitment to the organisation of the Christian community, Fabian helped strengthen the Church's structures and support its clergy. His pontificate was marked by a period of relative peace before persecution intensified under Emperor Decius. When confronted with the danger facing Christians, Fabian remained faithful to Christ and ultimately gave his life rather than abandon his faith. His witness embodies the courage of the early Church, reminding the faithful that true leadership is founded not on earthly authority, but on service, fidelity and the willingness to suffer for the Gospel.
 
-  Saint Fabian was Pope and Bishop of Rome from around the year 236 until his death as a martyr in 250. He lived during the third century, when the Christian Church was growing despite periods of hostility and persecution within the Roman Empire.
+### An Unexpected Election to the Papacy
 
-  Although little is known with certainty about his early life, the ancient Christian tradition remembers Fabian as a faithful shepherd of the Church of Rome, a capable organizer and, above all, a martyr who remained faithful to Christ when persecution broke out.
+Fabian became pope in 236, succeeding Pope Anterus during a period when the Christian community in Rome was developing its organisation and influence. According to the account preserved by the early Church historian Eusebius of Caesarea, Fabian was a layman who had come to Rome from the countryside. During the gathering of the Christian community to choose a new bishop, a dove is said to have descended upon his head. Those present interpreted this extraordinary occurrence as a sign of divine providence, recalling the descent of the Holy Spirit upon Christ at His Baptism, and Fabian was unanimously chosen as bishop. Although this account belongs to the early Christian tradition, it reflects the importance attached to his election and the conviction that ecclesiastical leadership should be guided by the Holy Spirit. Fabian accepted this demanding responsibility at a time when the Church needed both spiritual guidance and effective organisation. His election marked the beginning of a pontificate that would be remembered for its stability, pastoral care and contribution to the life of the Roman Church.
 
-  His pontificate lasted approximately fourteen years. During this time, the Church enjoyed a period of relative peace, allowing Fabian to strengthen the organization of the Roman Christian community and to encourage the faithful in their life of faith.
+### Strengthening the Life of the Church
 
-  ## An unexpected choice for the papacy
+During his pontificate, Fabian worked to improve the organisation of the Christian community in Rome. Later ecclesiastical accounts credit him with dividing the city into seven ecclesiastical districts, each entrusted to a deacon responsible for assisting the poor and caring for the needs of the faithful. This arrangement reflected the growing importance of charitable service within the Church and helped ensure that vulnerable members of the Christian community received practical support. Fabian also paid attention to the clergy and the preservation of the Church's traditions. According to early sources, he arranged for the collection and honourable burial of the bodies of martyrs, helping preserve the memory of those who had died for their faith. Such practices strengthened the spiritual identity of the Christian community, which understood the martyrs not simply as victims of persecution, but as witnesses to the victory of Christ over sin and death. Fabian's leadership therefore combined administrative responsibility with pastoral charity, demonstrating that the Church's growth required both sound organisation and a deep commitment to the dignity of every believer.
 
-  Fabian was not originally a leading figure in the Roman clergy.
+### A Period of Peace and Growing Uncertainty
 
-  According to the ancient historian Eusebius of Caesarea, Fabian was present in Rome when the Christian community gathered to choose a new bishop after the death of Pope Anterus.
+Fabian's pontificate began during a period of relative calm for the Church, allowing Christian communities to develop their worship, charitable activities and internal organisation. Relations between Christians and Roman authorities, however, remained uncertain, and the situation changed dramatically when Emperor Decius came to power in 249. Determined to strengthen traditional Roman religious practices, Decius introduced measures requiring citizens to demonstrate their religious loyalty through public sacrifice. Christians who refused to participate faced serious consequences, as their refusal was regarded as a challenge to the religious unity and authority of the empire. Fabian, as bishop of Rome, occupied a particularly vulnerable position because of his prominence within the Christian community. The persecution that followed became one of the most severe trials faced by the Church during the third century, testing the courage of clergy and faithful alike. Although the precise circumstances of Fabian's final days are not fully documented, early Christian tradition consistently remembers him as a martyr who remained faithful to Christ during this period of persecution.
 
-  Tradition tells that, while the Christians were discerning their choice, a dove descended and rested upon Fabian's head. The assembly interpreted this unexpected sign as an indication of God's will, and Fabian was chosen as Bishop of Rome.
+### Martyrdom and Fidelity to Christ
 
-  Whether every detail of this account can be historically established, the story reflects how early Christians understood the selection of their pastors: not simply as an administrative decision, but as a responsibility placed under the providence of God.
+Saint Fabian died in 250, during the persecution under Decius. Early Christian sources record his death and honour him among the martyrs of the Roman Church, although the exact circumstances of his execution remain uncertain. His burial in the cemetery of Callixtus on the Appian Way, where many early Christian martyrs and bishops were laid to rest, became an enduring testimony to the reverence in which he was held. His death illustrates the difficult position of Christian leaders in a society where allegiance to Christ could bring imprisonment, suffering and execution. As bishop of Rome, Fabian had guided his community through years of relative peace, strengthening its structures and encouraging its charitable mission. His martyrdom gave a final expression to the faith that had shaped his ministry. Rather than treating his authority as a source of personal privilege, he accepted the risks associated with his responsibility to the Church. His witness became part of the spiritual memory of the early Christians, who saw in the martyrs a powerful example of steadfastness and hope in the promises of God.
 
-  Fabian was ordained and became the twentieth Bishop of Rome according to the traditional succession of the early Church.
+### A Legacy of Pastoral Service and Courage
 
-  ## A long period of pastoral service
-
-  Fabian's pontificate lasted from approximately 236 to 250.
-
-  This was a relatively long period for a third-century pope and gave him time to develop the organization of the Roman Church.
-
-  According to later traditions, Fabian divided the city of Rome into seven ecclesiastical regions, each entrusted to a deacon. These deacons were responsible for serving the Christian community and, according to some accounts, for caring for the poor and preserving records of the martyrs.
-
-  This tradition reflects the growing organization of the Church in Rome during the third century.
-
-  The Christian community was no longer a small and hidden group. It had become a substantial body of believers with clergy, charitable responsibilities, places of worship and a growing memory of those who had given their lives for Christ.
-
-  ## Care for the Church and its martyrs
-
-  Fabian is remembered as a bishop who cared deeply for the order and unity of the Roman Church.
-
-  One important aspect of early Christian life was the remembrance of martyrs. Christians preserved the memory of those who had died for their faith, honoured their witness and gathered around their tombs in prayer.
-
-  Fabian is traditionally associated with the careful organization of the burial places of martyrs in the Roman catacombs.
-
-  His pontificate therefore belongs to a period in which the Church was developing structures for pastoral care while also preserving the memory of those who had already given their lives for Christ.
-
-  This concern would become particularly important when persecution returned with great force.
-
-  ## Relations with the wider Church
-
-  Fabian was also involved in the wider life of the Christian Church.
-
-  During his pontificate, questions concerning the reconciliation of Christians who had fallen away during persecution remained important.
-
-  The Church of Rome maintained relationships with Christian communities in other regions, and Fabian's leadership formed part of this broader network of bishops and churches.
-
-  Ancient sources also mention correspondence between Fabian and bishops elsewhere in the Christian world.
-
-  His ministry therefore illustrates the growing sense of communion between local Christian communities, united by the same faith and by their bishops.
-
-  ## The return of persecution
-
-  The peaceful period of Fabian's pontificate came to an end in the year 250.
-
-  The Roman emperor Decius ordered a major persecution of Christians throughout the Empire.
-
-  The persecution was different from earlier local outbreaks because it was intended to involve Christians across the Roman world.
-
-  Citizens were required to perform public religious acts and obtain certificates proving that they had fulfilled the requirement.
-
-  Christians who refused could face imprisonment, torture or death.
-
-  For the Church, this created an enormous spiritual crisis.
-
-  Some Christians remained faithful and accepted martyrdom. Others fled. Some complied with the imperial demands out of fear, creating difficult questions about their eventual reconciliation with the Church.
-
-  ## Fabian's martyrdom
-
-  Fabian refused to renounce his Christian faith.
-
-  According to the ancient tradition, he was arrested and imprisoned during the persecution of Decius.
-
-  He died as a martyr on 20 January 250.
-
-  His death became an example of episcopal fidelity. The bishop of Rome did not abandon his community when persecution became dangerous.
-
-  Instead, he shared the suffering of the Christians entrusted to his pastoral care.
-
-  His martyrdom is therefore remembered not simply as the death of an important church leader, but as the witness of a shepherd who remained faithful to Christ until the end.
-
-  ## Honoured among the martyrs
-
-  Fabian was buried in the Catacomb of Callixtus on the Appian Way.
-
-  His tomb became an important place of Christian remembrance.
-
-  An inscription discovered in the catacomb bears his name and the title of bishop, providing an important archaeological witness to his historical existence and to his burial among the early Roman Christians.
-
-  His memory was preserved in the Roman Church and he was honoured as a martyr.
-
-  His feast is traditionally celebrated on 20 January.
-
-  ## Saint Fabian and Saint Sebastian
-
-  Saint Fabian's feast is shared with Saint Sebastian, another famous martyr of the early Church.
-
-  The two saints are commemorated on the same day in the Roman liturgical calendar.
-
-  Their association is particularly striking because both are remembered as witnesses who remained faithful to Christ during times of persecution.
-
-  Fabian represents the shepherd of the Church who gave his life for his flock, while Sebastian became one of the most widely known martyr figures in Christian art and devotion.
-
-  ## A shepherd faithful to Christ
-
-  The life of Saint Fabian reminds Christians that pastoral leadership is ultimately a form of service.
-
-  During the years of peace, he worked to strengthen the organization of the Church, care for the faithful and preserve the memory of the martyrs.
-
-  When persecution came, he did not abandon the people entrusted to him.
-
-  His courage was therefore not limited to a single moment of martyrdom. It was prepared by years of faithful service.
-
-  His example reflects the Christian understanding that a shepherd is called to remain with his flock not only in times of peace, but also in moments of suffering.
-
-  ## A witness of perseverance
-
-  Saint Fabian lived in a time when Christians could not take their freedom for granted.
-
-  His pontificate demonstrates how quickly circumstances could change. A period of relative peace was followed by a severe persecution that placed the entire Christian community under pressure.
-
-  Fabian's response was one of fidelity.
-
-  He remained faithful to the Gospel and accepted the consequences of his confession of Christ.
-
-  For Christians today, his life is a reminder that faith is not simply a matter of words. It calls for perseverance, courage and trust in God, especially when remaining faithful becomes difficult.
-
-  ## His place in the history of the Church
-
-  Saint Fabian's pontificate belongs to an important period in the development of the early Church.
-
-  The Christian community in Rome was becoming increasingly organized. Bishops, priests and deacons served growing numbers of believers, charitable work was expanding and the memory of the martyrs was carefully preserved.
-
-  Fabian contributed to this development through his pastoral leadership.
-
-  His martyrdom then placed his name among the witnesses whose lives helped strengthen the faith of later generations.
-
-  The Church remembered him not because he left behind extensive writings, but because his life and death testified to the faith he had received.
-
-  ## A martyr and pastor
-
-  Saint Fabian can therefore be remembered through two closely connected aspects of his vocation.
-
-  He was a pastor who served the Church during a period of relative peace, helping organize its life and strengthen its community.
-
-  He was also a martyr who remained faithful when the political situation changed and Christians were required to choose between obedience to imperial religious demands and fidelity to Christ.
-
-  His life shows that ordinary pastoral service and heroic witness are not separate realities. The daily work of strengthening the Church prepared him for the moment when he would be called to give everything.
-
-  ## A lasting Christian witness
-
-  Saint Fabian died in Rome in the year 250, but his witness continued to live in the Church.
-
-  He is remembered as one of the early bishops of Rome who sealed his ministry with his blood.
-
-  His name remains associated with the Catacombs of Callixtus and with the memory of the martyrs of the early Roman Church.
-
-  His life invites Christians to pray for the grace of faithful perseverance.
-
-  Saint Fabian teaches that Christian leadership is a service entrusted by God, that the memory of the martyrs should strengthen the faith of the living, and that the disciple of Christ is called to remain faithful even when circumstances become difficult.
-
-  As Pope and martyr, Saint Fabian remains a witness of courage, pastoral fidelity and hope in Christ. His life reminds the Church that the faith received from the apostles is worth preserving, proclaiming and, when necessary, defending at the cost of one's own life.
-  $desc$
+Saint Fabian is remembered as one of the important early bishops of Rome, a shepherd who helped organise the Church and preserve the memory of its martyrs before giving his own life for the faith. His pontificate demonstrates how the Church continued to develop its pastoral and charitable structures even amid the uncertainties of the Roman Empire. Although few details of his personal life have survived, the traditions associated with him reveal a leader whose service was marked by practical wisdom, concern for the poor and fidelity to Christ. His martyrdom places him among the witnesses who strengthened the early Church through their perseverance in times of persecution. Fabian's example reminds the faithful that Christian leadership is ultimately a form of service, requiring both the responsibility to care for others and the courage to remain faithful when that service becomes costly. Through his ministry and his death, Saint Fabian stands as a witness to the enduring strength of a faith rooted in Christ and sustained by the hope of eternal life.
+$desc$
 ),
 (
 	'saint-fabian-pope',
@@ -1197,229 +1038,21 @@ FROM saints s JOIN (VALUES
 	'saint-sebastian',
 		'en',
 		'Saint Sebastian was an early Christian martyr who lived in Rome during the reign of Emperor Diocletian. According to Christian tradition, he was a soldier who secretly remained faithful to Christ and encouraged other Christians during a time of persecution. He is remembered for his courage, steadfast faith and willingness to suffer for the Gospel.',
-  $desc$
-  ## Saint Sebastian
+$desc$
+Saint Sebastian was an early Christian martyr whose courage, faith and steadfast loyalty to Jesus Christ made him one of the most celebrated saints of the ancient Church. Traditionally remembered as a Roman soldier serving under Emperor Diocletian, he used his position to support persecuted Christians and strengthen those who faced imprisonment and death for their faith. Although he lived within the imperial military establishment, Sebastian remained unwavering in his Christian convictions, refusing to allow worldly authority to take precedence over his allegiance to God. His story is marked by extraordinary courage in the face of suffering and by a determination to remain faithful even when confronted with death. Revered throughout Christian history as a model of fortitude, Saint Sebastian reminds the faithful that authentic courage is not simply the absence of fear, but the willingness to remain steadfast in truth and charity despite the greatest dangers.
 
-  Saint Sebastian is one of the most beloved martyrs of the early Christian Church. According to ancient Christian tradition, he lived in Rome during the reign of the Emperor Diocletian and served as a soldier while secretly remaining faithful to Jesus Christ.
+### A Soldier Faithful to Christ
 
-  His life is surrounded by traditions that have been handed down through the centuries, and his martyrdom made him one of the most recognizable saints in Christian art. He is especially remembered for his courage, his concern for persecuted Christians and his unwavering fidelity to Christ.
+According to Christian tradition, Sebastian was born in the third century, possibly in Gaul, and eventually became an officer in the Roman army. He is traditionally associated with the Praetorian Guard, an elite military unit responsible for protecting the emperor. His position gave him access to prisoners and members of the Christian community who were suffering under imperial persecution. Although he served within the Roman military structure, Sebastian secretly professed the Christian faith at a time when Christianity could bring suspicion, imprisonment and execution. Rather than treating his rank as a means of personal advancement, he used his influence to encourage fellow Christians and assist those who were imprisoned for refusing to abandon their beliefs. Tradition recounts that he strengthened the faith of Christian prisoners, urging them to remain faithful to Christ and to place their hope in eternal life. His conduct reveals a man who understood his responsibilities as a soldier without allowing them to override his conscience. For Sebastian, loyalty to earthly authority could never be greater than fidelity to God, whose truth and promises remained the foundation of his life.
 
-  Although many details of his life cannot be established with certainty, the Church has preserved his memory as that of a Christian who preferred suffering and death to abandoning his faith.
+### Courage in the Face of Persecution
 
-  ## A Christian in the Roman army
+Sebastian's Christian activities eventually came to the attention of Emperor Diocletian, under whose rule the persecution of Christians intensified at the beginning of the fourth century. When his faith was discovered, Sebastian was condemned to death. According to the traditional account, he was bound to a tree or stake and shot with arrows by soldiers, who left him for dead. Christian tradition relates that a woman named Irene, who had come to recover his body for burial, discovered that he was still alive and cared for him until he recovered. Rather than fleeing the danger, Sebastian subsequently confronted Diocletian and openly rebuked him for persecuting Christians. The emperor, astonished to find him alive, ordered his execution once more. This time, Sebastian was beaten to death, and his body was thrown into a sewer. Christians later recovered his remains and buried them in the catacombs associated with the Apostle Peter along the Appian Way. Although the details of his martyrdom come primarily from later accounts rather than contemporary historical records, the central tradition of Sebastian's witness has remained deeply rooted in Christian devotion. His story expresses the conviction that faithfulness to Christ can endure even the most brutal attempts to destroy it.
 
-  According to tradition, Sebastian was born in the third century, probably in Milan, although some ancient accounts associate his origins with other places.
+### A Lasting Example of Fortitude
 
-  He eventually came to Rome and entered military service.
-
-  Christian tradition relates that Sebastian rose to a position of importance within the Roman army and became an officer in the imperial guard.
-
-  His position gave him access to members of the imperial court and allowed him to assist Christians who were suffering because of their faith.
-
-  Sebastian did not publicly abandon his military responsibilities, but he remained a committed Christian.
-
-  His situation placed him in a difficult position. He belonged to an institution serving an empire that increasingly demanded participation in pagan religious practices, while his own faith required him to worship the one true God.
-
-  According to the traditional account, Sebastian used his position to encourage Christians who were imprisoned and awaiting execution.
-
-  ## Encouraging those who suffered
-
-  Sebastian is particularly remembered for his ministry of encouragement.
-
-  During the persecutions, many Christians were imprisoned because they refused to sacrifice to the Roman gods.
-
-  Sebastian visited some of these prisoners and strengthened them in their faith.
-
-  He encouraged them not to lose hope and reminded them of the promise of eternal life in Christ.
-
-  Christian tradition associates him with the conversion or spiritual strengthening of several people who would later become martyrs.
-
-  Among them are traditionally remembered Saint Mark and Saint Marcellian, two brothers who were imprisoned for their Christian faith.
-
-  According to the ancient story, Sebastian encouraged them to remain faithful even when their family members pleaded with them to renounce Christianity.
-
-  His role was therefore not simply that of a soldier who happened to be Christian. He became a witness who strengthened other believers when their faith was being tested.
-
-  ## Discovered as a Christian
-
-  Sebastian's Christian faith could not remain hidden forever.
-
-  According to tradition, the emperor Diocletian eventually discovered that Sebastian was a Christian and that he had been encouraging other Christians.
-
-  The emperor was angered by what he regarded as a betrayal.
-
-  Sebastian was condemned to death.
-
-  The traditional account describes him being tied to a tree or post and shot with arrows by soldiers.
-
-  His executioners believed that he had been killed and left his body.
-
-  Yet according to Christian tradition, a woman named Irene discovered that Sebastian was still alive.
-
-  She secretly took care of him and helped him recover from his wounds.
-
-  This episode became one of the most famous parts of the traditional story of Saint Sebastian.
-
-  ## Returning to confront the emperor
-
-  After recovering, Sebastian did not flee Rome.
-
-  Instead, according to tradition, he went before the emperor once again.
-
-  He openly condemned the persecution of Christians and urged Diocletian to abandon his hostility toward the followers of Christ.
-
-  The emperor was astonished to see the man he believed to be dead standing before him.
-
-  This time, Sebastian was condemned to death without being given the possibility of survival.
-
-  He was beaten and killed, and his body was thrown into the Cloaca Maxima, an ancient sewer in Rome.
-
-  According to tradition, Christians recovered his body and buried it in the catacomb that later became associated with his name.
-
-  ## A martyr who refused to remain silent
-
-  One of the most striking elements of Sebastian's traditional life is that he survived his first execution only to return and openly profess his faith.
-
-  His courage is therefore remembered as more than physical bravery.
-
-  He had already endured suffering and could have chosen to escape. Instead, he returned to bear witness to Christ.
-
-  For Christians, this reflects the meaning of martyrdom: a witness to the truth of the Gospel that remains faithful even when faithfulness carries a great cost.
-
-  Sebastian's courage was not based on hatred of his persecutors. His witness was directed toward Christ and toward the salvation of souls.
-
-  ## Saint Sebastian and the early Church
-
-  Sebastian lived during one of the most difficult periods in the history of the early Church.
-
-  The persecutions of the third and early fourth centuries placed Christians under enormous pressure.
-
-  Some were imprisoned, others were exiled, and many were killed.
-
-  Yet these persecutions also produced a generation of martyrs whose testimony became a source of strength for later Christians.
-
-  Sebastian belongs to this tradition of witnesses.
-
-  His story expresses the conviction that earthly suffering cannot overcome the hope offered by Christ.
-
-  ## Patron of those affected by disease
-
-  In the Middle Ages, devotion to Saint Sebastian became particularly associated with protection against plague and other epidemics.
-
-  This association developed partly because Christians remembered the saint as a powerful intercessor during times of widespread disease.
-
-  The imagery of arrows piercing his body also contributed to this association, since arrows had long been used symbolically to represent sudden calamity or divine punishment.
-
-  Christian communities throughout Europe turned to Saint Sebastian in prayer during times of epidemic illness.
-
-  His intercession became especially popular in Italy, France, Spain and other parts of Europe.
-
-  This devotion does not mean that the Church teaches that Saint Sebastian replaces medical care. Rather, Christian prayer asks for God's help, protection and consolation through the intercession of the saints.
-
-  ## Saint Sebastian in Christian art
-
-  Saint Sebastian became one of the most frequently represented martyrs in Christian art.
-
-  He is usually portrayed as a young man tied to a tree or column, with arrows piercing his body.
-
-  This image became especially famous during the Renaissance, when artists used the figure of Sebastian to represent courage, suffering, beauty and the hope of Christian resurrection.
-
-  Many great painters depicted him, and his image can be found in churches, chapels and works of sacred art throughout Europe.
-
-  Yet behind the artistic representation stands the memory of a Christian martyr.
-
-  The arrows are not the heart of his story. They are signs of the suffering he endured because of his fidelity to Christ.
-
-  ## A model of courage
-
-  Saint Sebastian's life speaks particularly strongly about Christian courage.
-
-  Courage in the Christian sense does not mean the absence of fear or suffering.
-
-  It means remaining faithful to God even when circumstances become frightening or painful.
-
-  Sebastian's traditional story shows a man who used the position he possessed to help others rather than to protect himself.
-
-  He encouraged prisoners, strengthened Christians who were afraid and eventually accepted martyrdom rather than abandon the Gospel.
-
-  His example reminds Christians that faith can be expressed through concrete acts of charity and encouragement.
-
-  ## Faith in the midst of persecution
-
-  Sebastian also represents the importance of supporting others in times of trial.
-
-  The martyrs of the early Church did not always face persecution alone. They were often strengthened by the prayers, friendship and courage of other Christians.
-
-  Sebastian's ministry among imprisoned believers illustrates this spiritual solidarity.
-
-  He did not simply tell others to be courageous; he shared their danger and eventually suffered the same fate.
-
-  His life therefore presents Christian courage as something communal.
-
-  The faithful are called to strengthen one another, especially when someone is suffering, discouraged or tempted to abandon hope.
-
-  ## The memory of a martyr
-
-  Saint Sebastian's cult became widespread throughout the Christian world.
-
-  His traditional burial place in Rome became an important site of devotion, and the Basilica of San Sebastiano fuori le Mura became associated with his memory.
-
-  Christians continued to invoke him as a martyr and intercessor.
-
-  His feast is celebrated on 20 January, together with the memory of Saint Fabian, Pope and martyr.
-
-  The proximity of their feasts recalls the many martyrs who gave their lives for Christ during the early centuries of the Church.
-
-  ## A witness to Christ
-
-  The deepest meaning of Saint Sebastian's life is found in his fidelity to Christ.
-
-  He lived in a society where publicly confessing Christianity could have serious consequences.
-
-  Yet he did not allow fear to determine his choices.
-
-  His faith led him to encourage others, to remain close to those who suffered and finally to accept martyrdom.
-
-  The Church remembers him because his life became a testimony to the words of Christ: the disciple is called to remain faithful even when following the Gospel becomes costly.
-
-  ## Hope beyond suffering
-
-  Saint Sebastian's martyrdom also points toward the Christian hope of eternal life.
-
-  The martyrs of the early Church did not believe that death was the final word.
-
-  They trusted in the resurrection of Christ and hoped to share in His eternal life.
-
-  Sebastian's memory therefore does not focus only on the violence of his death. It points beyond suffering toward the victory of Christ.
-
-  For Christians, the martyr is not ultimately a defeated person. The martyr is a witness whose earthly life has become a testimony to the hope of Heaven.
-
-  ## A saint remembered throughout the centuries
-
-  More than seventeen centuries after his death, Saint Sebastian remains widely known among Christians.
-
-  His image continues to appear in churches, paintings, sculptures and sacred art.
-
-  His name has been given to churches, towns, confraternities and charitable institutions.
-
-  Yet the enduring reason for his veneration remains simple: he is remembered as a Christian who remained faithful.
-
-  His story invites believers to ask for the grace to remain steadfast in their own trials, to encourage those who suffer and to place their hope in Christ rather than in earthly security.
-
-  ## A life offered to Christ
-
-  Saint Sebastian's traditional life can ultimately be understood as a journey from service in the Roman world to complete witness to the Gospel.
-
-  He used the position he possessed to serve persecuted Christians, encouraged those who were afraid and refused to abandon his faith when his own life was threatened.
-
-  His courage was finally sealed by martyrdom.
-
-  For Catholics, Saint Sebastian remains a powerful example of Christian fidelity, courage and charity. His life teaches that following Christ means remaining faithful not only when faith is easy, but also when it demands sacrifice.
-
-  His memory continues to invite Christians to pray for courage in suffering, compassion toward those who are persecuted and unwavering trust in Jesus Christ.
-
-  Saint Sebastian, martyr of Rome, remains a witness to the strength of faith and to the hope that no suffering endured for Christ is ever without meaning in the light of eternal life.
-  $desc$
+Saint Sebastian became especially revered as a model of courage and a heavenly protector against epidemics, particularly during periods when plague and other infectious diseases devastated Christian communities. This association developed in part through the widespread belief that his intercession could offer protection during times of collective suffering. His traditional representation in Christian art, bound and pierced by arrows, became one of the most recognisable images of martyrdom in Western Christianity. Yet the spiritual significance of his witness extends beyond the physical suffering depicted in these images. Sebastian's courage was rooted in his conviction that Christ remained worthy of fidelity even when the cost was extreme. His life also demonstrates that Christian witness can take place in unexpected circumstances: within the army, among prisoners and before those who exercise political power. Although the historical details of his life remain uncertain, his enduring place in the devotion of the Church reflects the power of his example. Saint Sebastian continues to inspire the faithful to stand firm in their convictions, to encourage those undergoing trials and to remember that no earthly threat can extinguish the hope founded upon the promises of Christ.
+$desc$
 ),
 (
 	'saint-sebastian',
@@ -1879,253 +1512,25 @@ $desc$
 	'saint-agnes-of-rome',
 		'en',
 		'Saint Agnes of Rome was a young Christian virgin and martyr who lived in Rome during the early centuries of the Church. According to Christian tradition, she remained faithful to Christ despite persecution and refused to renounce her consecration to God. She is remembered for her purity, courage, humility and steadfast faith, and is especially honoured as a patron saint of young women and chastity.',
-  $desc$
-  ## Saint Agnes of Rome
+$desc$
+Saint Agnes of Rome was an early Christian virgin and martyr whose purity, courage and unwavering devotion to Jesus Christ made her one of the most beloved saints of the ancient Church. Martyred at a young age during the persecutions of the Roman Empire, she became a powerful witness to the conviction that faithfulness to Christ surpasses every earthly attachment, including personal safety and social standing. Although the historical details of her life are limited, early Christian devotion remembers Agnes as a young woman who remained steadfast in her consecration to God despite threats, humiliation and violence. Her name became associated with innocence, spiritual strength and the dignity of a life wholly offered to Christ. Venerated from the earliest centuries of Christianity, Saint Agnes continues to inspire the faithful through her example of purity of heart, fearless conviction and complete trust in the Lord.
 
-  Saint Agnes of Rome is one of the most beloved virgin martyrs of the early Christian Church. She lived in Rome during the third century, at a time when Christians could face imprisonment and death because of their faith.
+### A Young Woman Consecrated to Christ
 
-  According to ancient Christian tradition, Agnes was a young girl who had consecrated herself entirely to Christ. Although still very young, she possessed a remarkable strength of faith. When confronted with pressure to abandon her Christian vocation, she remained faithful to the Lord and accepted suffering rather than deny Him.
+According to Christian tradition, Agnes was born in Rome around the end of the third century into a Christian family of some distinction. From an early age, she is said to have consecrated herself to Jesus Christ, choosing to remain a virgin as a sign of her undivided love for God. In Roman society, marriage and family alliances often carried considerable social and economic importance, particularly for young women from prosperous households. Agnes's decision to dedicate herself to Christ therefore represented a deeply personal commitment that challenged the expectations of those around her. Tradition relates that her beauty and noble origins attracted the attention of young men who wished to marry her, including the son of a Roman official. When Agnes refused their advances, explaining that she belonged to Christ, her rejection was interpreted not simply as a personal choice but as a challenge to the authority and expectations of her suitors. Her steadfastness ultimately exposed her to persecution at a time when Christians could face severe punishment for refusing to conform to Roman religious customs. Although the precise circumstances of her early life remain uncertain, the enduring Christian account presents Agnes as a young woman whose spiritual freedom rested upon her conviction that her life belonged entirely to God.
 
-  The Church has remembered her for centuries as a model of purity, courage and complete trust in God.
+### Courage in the Face of Persecution
 
-  ## A young woman consecrated to Christ
+Agnes's refusal to abandon her Christian commitment is traditionally associated with the persecutions of the early fourth century, although the exact date and circumstances of her martyrdom remain uncertain. According to later accounts, she was denounced to the Roman authorities and threatened with punishment unless she renounced her faith. Some traditions describe attempts to force her into a brothel or subject her to public humiliation, intended to destroy the honour she sought to preserve through her consecration to Christ. Agnes, however, remained resolute, believing that no external coercion could separate her from the love of God. Christian accounts emphasise that she faced these threats not with hatred or despair, but with a remarkable calm and confidence in divine grace. Her courage was particularly striking because of her youth: she possessed neither political influence nor military power, yet she refused to surrender her conscience to those who sought to control her. In the eyes of the early Christian community, her witness demonstrated that spiritual strength does not depend upon age, social position or physical power. Agnes's fidelity became a testimony to the dignity of a person whose deepest allegiance belongs to God alone.
 
-  The ancient traditions concerning Saint Agnes give different details about her family and early life, and not all of these details can be established with certainty.
+### Martyrdom and the Victory of Faith
 
-  What remains at the heart of her story is her consecration to Christ.
+The traditional accounts of Agnes's death differ in their details, but they agree that she was executed because she refused to renounce her Christian faith and consecration. Some ancient and later sources describe her as having been beheaded, while other accounts portray her death in different ways. What remains central to the tradition is her acceptance of suffering rather than the abandonment of her commitment to Christ. Her martyrdom became a source of encouragement for Christians living under persecution, who recognised in her death a powerful expression of hope in the Resurrection. Rather than interpreting martyrdom as a defeat, the early Church understood the witness of its martyrs as a participation in Christ's victory over sin and death. Agnes's youth and courage made her particularly memorable, and her name was included in the Roman Canon, one of the most ancient Eucharistic prayers of the Latin Church. This early liturgical honour demonstrates how deeply her memory became embedded in Christian worship. Through her witness, Agnes came to represent the conviction that fidelity to Christ is more precious than earthly security and that even a life cut short by violence can bear lasting spiritual fruit.
 
-  Agnes is traditionally described as a young Christian who had chosen to give herself entirely to God. At a time when marriage and family arrangements were an important part of Roman society, her dedication to Christ represented a profound commitment.
+### A Lasting Legacy of Purity and Holiness
 
-  Her name itself became associated with purity and innocence. For Christians, however, her holiness was not simply a matter of outward purity. It came from the complete gift of her heart to God.
-
-  Agnes believed that Christ was worthy of her whole life.
-
-  ## Faith in the midst of persecution
-
-  Agnes lived during a period when the Christian faith could expose believers to serious danger.
-
-  The Roman Empire was religiously diverse, but Christians were often regarded with suspicion because they refused to participate in pagan sacrifices and insisted on worshipping the one true God.
-
-  According to tradition, Agnes was eventually brought before authorities because of her Christian faith.
-
-  She was still very young, yet she refused to renounce Christ.
-
-  Her courage is one of the most striking aspects of her story. She did not possess military power or political influence. Her strength came from faith.
-
-  She trusted that the Lord whom she had chosen would remain faithful to her.
-
-  ## Refusing to abandon her vocation
-
-  Ancient accounts connect Agnes's martyrdom with her refusal to marry a man who sought her hand.
-
-  According to tradition, she had already consecrated herself to Christ and regarded Him as her heavenly Bridegroom.
-
-  Her refusal was therefore not simply a rejection of a particular marriage. It was understood by the early Christians as a sign of her complete dedication to God.
-
-  Her persecutors attempted to force her to abandon her Christian identity, but Agnes remained firm.
-
-  The tradition surrounding her life emphasizes that no earthly promise or threat could make her exchange Christ for the things of this world.
-
-  ## The witness of a child
-
-  One of the most remarkable elements of the devotion to Saint Agnes is her youth.
-
-  She is traditionally believed to have been only a young adolescent when she suffered martyrdom.
-
-  Her story therefore became especially meaningful to Christian families and young people.
-
-  Agnes shows that holiness is not reserved for old age or for those who have spent many years in religious life.
-
-  A young person can also give the whole of his or her heart to God.
-
-  Her example reminds Christians that faith is not measured by the number of years one has lived, but by the love and fidelity with which one responds to God's grace.
-
-  ## Her martyrdom
-
-  According to the ancient tradition, Agnes endured various forms of humiliation and suffering because she refused to deny Christ.
-
-  The precise historical details of her execution are uncertain, and later accounts developed different versions of her martyrdom.
-
-  Nevertheless, the central tradition is consistent: Agnes remained faithful to Christ and died as a martyr.
-
-  Her death was understood by the early Church not as defeat, but as the ultimate testimony of her faith.
-
-  The word "martyr" comes from the Greek word meaning "witness."
-
-  Agnes became a witness to Christ through the gift of her life.
-
-  ## The Lamb of God
-
-  Saint Agnes has a particularly beautiful connection with the image of the lamb.
-
-  Her Latin name, *Agnes*, was traditionally associated by Christians with the Latin word *agnus*, meaning "lamb."
-
-  This connection helped inspire the artistic representation of Agnes holding a lamb.
-
-  The lamb also recalls Jesus Christ, the Lamb of God, who offers Himself for the salvation of the world.
-
-  Thus, the traditional image of Agnes with a lamb expresses both her name and the Christian meaning of her martyrdom.
-
-  She followed Christ, the Lamb of God, and remained faithful to Him even through suffering.
-
-  ## Saint Agnes and Christian purity
-
-  Saint Agnes has long been honoured as a patron saint of purity and chastity.
-
-  Her example teaches that Christian purity is not merely the avoidance of sin. It is a positive orientation of the heart toward God.
-
-  To live chastely, according to Christian teaching, means to receive one's body, one's relationships and one's sexuality as gifts belonging to God's good creation, and to live them according to His will.
-
-  Agnes represents a heart that refuses to treat love as possession.
-
-  Her life points toward the deeper Christian conviction that every human person belongs first and foremost to God.
-
-  ## A witness of courage
-
-  The courage of Saint Agnes is particularly striking because she was young and apparently without worldly power.
-
-  She could not defend herself through political influence or military strength.
-
-  Her defence was her faith.
-
-  She trusted Christ more than she feared those who threatened her.
-
-  This courage has made her an enduring example for Christians facing difficult choices.
-
-  Her life reminds believers that courage does not necessarily mean possessing great strength in human terms. Sometimes courage means simply remaining faithful to what one knows to be true.
-
-  ## Saint Agnes and the Church of Rome
-
-  The memory of Saint Agnes became deeply rooted in the Church of Rome.
-
-  She was buried along the Via Nomentana, where a basilica was later built in her honour.
-
-  The Basilica of Sant'Agnese fuori le Mura remains one of the ancient churches associated with her memory.
-
-  Another important church dedicated to her stands in Rome's historic centre, Sant'Agnese in Agone, although its present building belongs to a much later period.
-
-  Her cult spread throughout the Christian world, and her name became familiar far beyond Rome.
-
-  ## Saint Agnes in the liturgy
-
-  The Church celebrates the feast of Saint Agnes on 21 January.
-
-  Her feast follows immediately after the feast of Saint Sebastian, another famous martyr of Rome.
-
-  Saint Agnes is also remembered in the Roman Canon, one of the oldest Eucharistic prayers of the Roman Rite.
-
-  Her name is therefore heard during the celebration of the Mass throughout the Catholic world.
-
-  This liturgical memory is a sign of the importance that the Church has attached to her witness from ancient times.
-
-  ## The blessing of the lambs
-
-  One of the most beautiful traditions associated with Saint Agnes takes place in Rome on her feast day.
-
-  Lambs are traditionally blessed at the Basilica of Saint Agnes Outside the Walls.
-
-  Their wool is later used to make the *pallia*, the white woolen vestments associated with the pastoral office of metropolitan archbishops.
-
-  The symbolism is deeply Christian.
-
-  The lamb recalls both the name of Saint Agnes and Jesus Christ, the Lamb of God.
-
-  The wool also becomes associated with the pastoral mission of the Church, reminding Christians that the Church's shepherds are called to care for the flock entrusted to them.
-
-  ## A patron saint of young women
-
-  Saint Agnes has traditionally been regarded as a patron saint of young girls and young women.
-
-  Her youth and fidelity make her a particularly meaningful example for those who are discovering their vocation and seeking to place their lives in God's hands.
-
-  She reminds young Christians that holiness is not something to postpone until later in life.
-
-  God calls every person, regardless of age, to love Him and to live according to the Gospel.
-
-  Agnes responded to that call with remarkable generosity.
-
-  ## A bride of Christ
-
-  Christian tradition often describes Saint Agnes as a bride of Christ.
-
-  This expression reflects the biblical image of the Church as the Bride of Christ and the ancient Christian understanding of consecrated virginity.
-
-  Agnes's virginity was therefore understood not simply as something she preserved, but as a sign of her total belonging to Christ.
-
-  Her life points toward the heavenly Bridegroom and the eternal communion for which every Christian is called.
-
-  This spiritual meaning explains why the Church has honoured her not merely as a young martyr, but as a model of consecrated love.
-
-  ## A saint of simplicity and faith
-
-  Saint Agnes did not leave behind theological writings or famous sermons.
-
-  Her testimony is simpler and, in some ways, more profound.
-
-  She believed in Christ.
-
-  She belonged to Him.
-
-  She remained faithful.
-
-  Her sanctity was expressed through a life that was entirely oriented toward God.
-
-  This simplicity is part of what has made her witness so enduring.
-
-  Christians do not remember Agnes because of worldly achievements. They remember her because she loved Christ above everything else.
-
-  ## A message for Christians today
-
-  The world in which Saint Agnes lived was very different from the modern world, but her spiritual example remains relevant.
-
-  Christians today also face pressures that can make faith difficult.
-
-  The temptation may not always be direct persecution. It can take the form of fear, social pressure, the desire for approval or the temptation to place worldly success above fidelity to God.
-
-  Agnes reminds believers that Christian identity is something precious.
-
-  Her example encourages Christians to remain faithful without hatred or violence, to live with purity of heart and to place their trust in Christ.
-
-  ## A martyr whose youth became a testimony
-
-  Saint Agnes shows that a young life can bear extraordinary spiritual fruit.
-
-  Her age did not prevent her from becoming a witness of remarkable courage.
-
-  The Church has therefore looked to her for centuries as an example of youthful holiness.
-
-  She reminds parents, families and young people that the grace of God can transform even a seemingly ordinary life into a beautiful testimony of faith.
-
-  Her story also reminds Christians that holiness is ultimately God's work in a human soul.
-
-  ## A beloved virgin martyr
-
-  Saint Agnes remains one of the great virgin martyrs of the early Church.
-
-  Her name is remembered in the Eucharistic liturgy, her feast is celebrated throughout the Catholic Church, and churches around the world bear her name.
-
-  She is represented with the lamb, the palm branch of martyrdom and sometimes a crown, symbols of her purity, victory and eternal life.
-
-  These images all point beyond Agnes herself toward Christ.
-
-  Her greatness lies in the fact that she belonged entirely to Him.
-
-  ## Faith stronger than fear
-
-  The life of Saint Agnes can ultimately be understood as a testimony to the strength of faith.
-
-  She was young, but she was not alone.
-
-  She trusted in Christ, and that trust gave her the courage to remain faithful when confronted with suffering.
-
-  Her martyrdom became a proclamation that the love of God is worth more than every earthly possession, honour or security.
-
-  For Catholics, Saint Agnes remains a tender yet powerful example of purity, courage and fidelity.
-
-  She teaches that holiness can begin at any age, that a heart completely given to God can remain strong even in the face of suffering, and that Christ is worthy of our complete trust.
-
-  Saint Agnes, young virgin and martyr of Rome, continues to invite Christians to follow Christ with an undivided heart, to preserve the purity of their faith and to place their lives confidently in the hands of God.
-  $desc$
+Saint Agnes has been honoured by Christians for centuries as a model of virginity, courage and complete dedication to God. A basilica bearing her name was established on the Via Nomentana in Rome, near the traditional site associated with her burial, and her tomb became a place of prayer and pilgrimage. Christian art frequently depicts her with a lamb, a symbol connected both to the meaning of her name in Latin and to the innocence traditionally associated with her life. The image also evokes Christ as the Lamb of God, reminding the faithful that Agnes's holiness was rooted in her relationship with the Saviour. Her example should not be understood as a rejection of marriage or ordinary family life, but as a particular vocation through which she expressed her love for God with undivided devotion. The Church honours her because she remained faithful to her conscience and to Christ despite the threats of a hostile world. Her life reminds Christians that holiness can flourish even in youth, that purity involves the integrity of the whole person, and that genuine freedom comes from belonging to God. Saint Agnes of Rome continues to stand as a witness to the enduring power of faith, showing that love offered to Christ with sincerity and courage can never be rendered meaningless by suffering or death.
+$desc$
 ),
 
 (
@@ -2642,254 +2047,23 @@ FROM saints s JOIN (VALUES
 'en',
 'Saint Vincent of Saragossa was a Spanish Christian deacon and martyr who lived during the early fourth century. He served the Church in Saragossa and remained faithful to Christ during the persecution under the Roman emperor Diocletian. Remembered for his courage, steadfast faith and willingness to suffer for the Gospel, he became one of the most widely venerated martyrs of ancient Hispania.',
 $desc$
+Saint Vincent of Saragossa was an early Christian deacon and martyr whose courage, eloquence and unwavering fidelity to Jesus Christ made him one of the most celebrated saints of ancient Spain. Serving the Church during the persecution of Christians under Emperor Diocletian, he devoted himself to assisting his bishop, proclaiming the Gospel and strengthening the faith of the Christian community. When the Roman authorities demanded that he renounce his beliefs, Vincent remained steadfast despite imprisonment and terrible suffering. His martyrdom became a powerful testimony to the victory of faith over fear and of Christian hope over the threat of death. Remembered alongside Saint Stephen and Saint Lawrence as one of the great deacon martyrs of the early Church, Vincent embodied the true meaning of Christian service: a life offered to God and neighbour without reservation. His example continues to inspire the faithful through its combination of pastoral dedication, spiritual courage and complete trust in Christ.
 
-Saint Vincent of Saragossa
+### A Life Dedicated to the Service of the Church
 
-Saint Vincent of Saragossa, also known as Saint Vincent the Deacon, was one of the most celebrated Christian martyrs of ancient Hispania. He lived during the early fourth century, when the Christian faith was still subject to persecution in parts of the Roman Empire.
+Vincent was born in Spain during the third century, traditionally associated with Huesca, in the region of present-day Aragon. Although the details of his early life remain uncertain, Christian tradition remembers him as a young man of considerable ability who received a careful education and developed a deep commitment to the Christian faith. He eventually came under the guidance of Saint Valerius, Bishop of Saragossa, who recognised his gifts and ordained him a deacon. In the early Church, deacons played an essential role in the life of Christian communities, assisting bishops in pastoral responsibilities, caring for the poor and supporting the liturgical life of the faithful. Vincent was entrusted with preaching and helping to guide the people of his diocese. According to traditional accounts, Valerius had a speech impediment, and Vincent frequently served as his spokesman. Through this ministry, Vincent combined a gift for proclaiming the Gospel with a practical concern for the spiritual welfare of others. His vocation was not centred on personal recognition, but on supporting his bishop and strengthening the Church through faithful service. These responsibilities prepared him for the trial that would eventually reveal the depth of his devotion to Christ.
 
-According to Christian tradition, Vincent served as a deacon in the Church of Saragossa, in present-day Spain. He assisted the bishop Valerius of Saragossa and was entrusted with preaching and caring for the Christian community.
+### Persecution Under the Roman Empire
 
-His life became a testimony of faith, courage and perseverance. For centuries, Christians have remembered him as a servant of the Church who remained faithful to Christ even when that fidelity led to suffering and death.
+Vincent's ministry unfolded during a difficult period for Christians in the Roman Empire. Around the beginning of the fourth century, Emperor Diocletian and his co-rulers launched a severe persecution intended to suppress Christianity and restore traditional Roman religious practices. Churches were destroyed, sacred books were confiscated and Christians were pressured to sacrifice to the pagan gods. Vincent and Bishop Valerius were arrested and brought before the Roman governor Dacian, traditionally associated with the persecution of Christians in Spain. They were taken to Valencia, where they were ordered to abandon their faith and comply with the demands of the imperial authorities. Valerius was eventually sent into exile, while Vincent was subjected to interrogation and torture. The surviving accounts of these events differ in their details, and many of the more dramatic episodes belong to later Christian tradition. Nevertheless, Vincent's martyrdom is attested by early Christian witnesses, including the poet Prudentius, and his reputation spread widely throughout the Church. His story became a reminder that the Gospel could demand extraordinary courage from those called to defend it in the face of political power and violence.
 
-A servant of the Church
+### A Martyr Who Refused to Renounce His Faith
 
-Vincent was born in the region of Hispania, although the exact details of his birthplace and early life are uncertain.
+According to the traditional account, Vincent endured repeated tortures intended to break his resistance and force him to deny Christ. He was subjected to severe physical punishment and imprisoned under harsh conditions, yet he refused to abandon his convictions or surrender the sacred trust placed in him as a minister of the Church. His perseverance deeply impressed later Christian writers. Saint Augustine, in his preaching on Vincent, reflected on the contrast between the cruelty inflicted upon the martyr and the spiritual strength with which he endured it. For the Christian tradition, Vincent's courage did not arise from a desire for suffering, but from his conviction that Christ remained faithful even in the darkest moments of human existence. His witness expressed the belief that earthly authorities could injure the body but could not destroy the soul of one who remained united to God. Vincent eventually died from the sufferings inflicted upon him, traditionally around 304 or 305. His death was understood by the early Church not as a defeat, but as a testimony to the promise of eternal life. Through his steadfastness, he demonstrated that Christian fidelity is measured not by freedom from suffering, but by the love and hope that endure through it.
 
-He eventually became a deacon in Saragossa, one of the important cities of Roman Hispania.
+### A Lasting Legacy of Courage and Service
 
-In the early Church, the ministry of a deacon involved serving the community in practical and spiritual ways. Deacons assisted bishops and priests, cared for the poor and helped distribute the Church's charitable resources.
-
-According to tradition, Vincent was especially gifted in preaching and teaching the Christian faith.
-
-He served under Valerius, bishop of Saragossa, who is traditionally remembered as an elderly man whose speech was affected by age. Vincent therefore became an important voice in the proclamation of the Gospel.
-
-His ministry combined service, preaching and care for the Christian community.
-
-The persecution under Diocletian
-
-Vincent lived during the great persecution of Christians under the Roman emperor Diocletian.
-
-At the beginning of the fourth century, imperial authorities ordered Christians in various parts of the Empire to renounce their faith and participate in pagan religious practices.
-
-Churches and sacred books were targeted, and Christians who refused to obey could face imprisonment, torture or execution.
-
-Vincent and Bishop Valerius were arrested because of their Christian faith.
-
-According to tradition, they were brought before the governor Dacian in Valencia.
-
-Valerius was eventually sent into exile, while Vincent was kept in captivity because of his role as a deacon and preacher.
-
-The authorities sought to make him abandon his faith, but Vincent remained steadfast.
-
-Faith stronger than suffering
-
-The ancient traditions about Saint Vincent describe him as enduring severe suffering during his imprisonment.
-
-The details of his torture vary between different early accounts, and some later narratives contain dramatic elements that cannot be established historically with certainty.
-
-What remains central to Christian tradition is Vincent's refusal to deny Christ.
-
-He was offered the possibility of saving his life by renouncing his faith, but he would not do so.
-
-His courage was not understood as hatred toward his persecutors. Rather, it was the courage of a Christian who believed that fidelity to Christ was worth more than earthly security.
-
-The witness of a deacon
-
-Vincent's story has a particular significance because he was a deacon.
-
-His ministry had already been one of service before his martyrdom.
-
-He had been called to assist the Church, proclaim the Gospel and care for those entrusted to the Christian community.
-
-His martyrdom became the ultimate expression of that same vocation.
-
-He offered not only his work but his entire life to Christ.
-
-For the early Christians, this gave his martyrdom a profound spiritual meaning. The servant of the Church became a witness to the Gospel through his suffering.
-
-His martyrdom in Valencia
-
-According to the traditional account, Vincent was imprisoned in Valencia and subjected to cruel torture.
-
-Ancient sources describe various forms of suffering, including imprisonment, physical abuse and prolonged deprivation.
-
-The exact historical details are difficult to verify, but the early and widespread devotion to Vincent confirms the importance of his martyr memory.
-
-He eventually died from the injuries and suffering he endured.
-
-His body was honoured by Christians, and his memory quickly spread throughout Hispania and beyond.
-
-The date traditionally associated with his martyrdom is 22 January.
-
-A martyr of ancient Hispania
-
-Saint Vincent became one of the most important martyrs of the early Spanish Church.
-
-His cult spread rapidly after his death, particularly in the Iberian Peninsula and throughout the Christian communities of the western Mediterranean.
-
-Churches were dedicated to him, and his name became associated with cities, monasteries and charitable institutions.
-
-His fame also reached Gaul, North Africa and other parts of the Christian world.
-
-By the Middle Ages, Vincent was recognized as one of the great deacons and martyrs of the universal Church.
-
-Saint Vincent and charity
-
-Because Vincent was a deacon, his memory has always been connected with Christian service.
-
-The diaconate in the early Church was closely associated with care for the poor, the sick, widows and those in need.
-
-Vincent's life therefore presents martyrdom and charity as deeply connected.
-
-A Christian servant is called not only to speak about Christ but also to serve Christ in others.
-
-The martyrdom of Vincent sealed a life that had already been devoted to service.
-
-His example reminds Christians that charity is not simply an occasional act of generosity. It is a way of living according to the Gospel.
-
-A preacher of the Gospel
-
-Vincent was also remembered as a powerful preacher.
-
-His role alongside Bishop Valerius gave him particular responsibility for communicating the Christian faith to the people of Saragossa.
-
-His preaching prepared him, in a spiritual sense, for his final testimony.
-
-The Greek word martyr means witness, and the Christian understanding of martyrdom is closely connected with this idea.
-
-Vincent witnessed to Christ first through his ministry and later through his death.
-
-His life and martyrdom therefore form a single testimony: the Gospel he proclaimed was the Gospel for which he was willing to give everything.
-
-The spread of his cult
-
-Devotion to Saint Vincent spread remarkably quickly after his death.
-
-Churches dedicated to him appeared across Spain and other parts of Europe.
-
-His relics became objects of Christian devotion, although their later history is complex and different traditions developed concerning their location.
-
-One of the most important centres of his cult became Lisbon, where a longstanding tradition associates his relics with the city's cathedral.
-
-Vincent consequently became one of the principal patron saints of Lisbon, despite his martyrdom having taken place in Valencia.
-
-Saint Vincent and Portugal
-
-Saint Vincent has a particularly important place in the religious history of Portugal.
-
-According to tradition, his relics were transferred to Lisbon in the twelfth century after the Christian reconquest of the city.
-
-The famous legend of the ravens accompanying his relics became part of the city's Christian identity.
-
-For this reason, the raven became associated with Saint Vincent and appears in the coat of arms and symbols of Lisbon.
-
-The tradition reflects the extraordinary development of Vincent's cult centuries after his martyrdom.
-
-The palm of martyrdom
-
-Saint Vincent is commonly represented in Christian art with the palm branch of martyrdom.
-
-Other representations show him wearing the vestments of a deacon.
-
-He may also be depicted holding a book, recalling his preaching and service of the Gospel.
-
-Some images include instruments associated with the traditional accounts of his torture.
-
-These symbols do not glorify suffering itself. Rather, they recall the faith with which Vincent endured suffering and the victory of Christ that Christians believe lies beyond death.
-
-A model of Christian courage
-
-Saint Vincent's life offers Christians a powerful example of courage.
-
-His courage did not come from worldly authority or physical strength.
-
-He was a servant of the Church who placed his confidence in Christ.
-
-When confronted with persecution, he refused to abandon the faith he had preached.
-
-His example reminds Christians that courage can take many forms: serving the poor, proclaiming the truth, remaining faithful under pressure and trusting God in suffering.
-
-Fidelity to Christ
-
-At the heart of Saint Vincent's story is fidelity.
-
-He did not know how his final testimony would unfold, but he remained faithful to his vocation.
-
-As a deacon, he served the Church.
-
-As a preacher, he proclaimed the Gospel.
-
-As a martyr, he gave his life for the Christ whom he had proclaimed.
-
-These different aspects of his life belong together.
-
-His martyrdom was not an isolated heroic moment. It was the culmination of a life directed toward Christ.
-
-A saint remembered across the centuries
-
-More than seventeen centuries after his death, Saint Vincent remains widely honoured in the Catholic Church.
-
-His feast is celebrated on 22 January.
-
-He is especially venerated in Spain and Portugal, but his name is also found throughout Europe and in many parts of the world.
-
-Churches, parishes and charitable works continue to bear his name.
-
-His enduring popularity reflects the importance of his witness to the early Church and the continuing Christian desire to imitate the courage and charity of the saints.
-
-A servant who became a martyr
-
-Saint Vincent's life can ultimately be understood through the vocation of service.
-
-He was a deacon before he was a martyr.
-
-He served the Church, helped proclaim the Gospel and stood alongside his bishop.
-
-When persecution came, he remained faithful to the same Lord whom he had served.
-
-His death therefore became the final expression of his Christian vocation.
-
-He teaches that every Christian vocation, whether hidden or public, is ultimately a call to belong entirely to Christ.
-
-Hope beyond suffering
-
-The Church's memory of Saint Vincent is not centred only on the cruelty of his death.
-
-Christian remembrance looks beyond martyrdom toward the resurrection of Christ and the promise of eternal life.
-
-Vincent suffered and died, but Christians believe that death does not have the final word.
-
-His martyrdom therefore becomes a testimony of hope.
-
-The saint who gave his life for Christ is remembered as one who received the fullness of life with God.
-
-A witness for the Church today
-
-Saint Vincent's example continues to speak to Christians today.
-
-Most Christians will never face the kind of persecution that he endured, but every Christian is called to fidelity.
-
-That fidelity may be expressed through ordinary acts of service, generosity toward the poor, courage in defending the truth and perseverance during times of difficulty.
-
-Vincent reminds believers that Christian faith is not merely an idea to be accepted. It is a life to be lived.
-
-His example encourages Christians to serve others with humility, proclaim Christ with courage and remain faithful when following the Gospel becomes difficult.
-
-A life given to Christ
-
-Saint Vincent of Saragossa remains one of the great deacons and martyrs of the early Church.
-
-His story brings together service, preaching, charity, courage and martyrdom.
-
-He served the Christian community as a deacon, proclaimed the Gospel alongside his bishop and finally gave his life rather than renounce his faith.
-
-For Catholics, his memory is a reminder that true Christian strength comes from Christ.
-
-Saint Vincent teaches that the servant of God is called to remain faithful in both ordinary service and extraordinary trial.
-
-His life continues to invite Christians to serve the poor, proclaim the Gospel, remain steadfast in faith and place their hope in Jesus Christ.
-
-Saint Vincent of Saragossa, deacon and martyr, remains a powerful witness of Christian courage and charity, reminding the faithful that a life given to Christ can become a lasting testimony of faith for generations to come.
+The memory of Saint Vincent spread rapidly throughout the Christian world, particularly in Spain and North Africa. His martyrdom was celebrated in the writings and sermons of early Christian authors, and churches were dedicated to his honour in places far beyond his native region. According to later tradition, his body was buried near Valencia, where his tomb became a place of Christian devotion. Other traditions recount the subsequent transfer of his relics to Portugal, eventually connecting him closely with Lisbon, whose coat of arms includes a ship accompanied by ravens associated with the legends surrounding his remains. In Christian art, Vincent is often depicted wearing a deacon's vestments and holding a palm branch, the traditional symbol of martyrdom. He is also associated with the gridiron and ravens, which recall elements of the later accounts of his suffering and burial. Yet the heart of his legacy lies not in these symbols, but in the example of a man who remained faithful to his vocation when it demanded the greatest sacrifice. Saint Vincent of Saragossa reminds the faithful that Christian service requires both charity in ordinary responsibilities and courage in times of trial. His life bears witness to the enduring power of a faith rooted in Christ, whose victory over death gives meaning and hope even to the most difficult sacrifices.
 $desc$
 ),
 (
@@ -3407,298 +2581,31 @@ $desc$
 'en',
 'Saint Francis de Sales was a French bishop, spiritual writer and Doctor of the Church who became one of the great teachers of Christian devotion. Known for his gentleness, patience and deep love for God, he taught that holiness is possible in every state of life and that ordinary Christians are called to grow in charity, prayer and virtue. He is especially remembered for his pastoral work, his writings and his spiritual friendship with Saint Jane Frances de Chantal.',
 $desc$
+Saint Francis de Sales was a French-speaking Savoyard bishop, theologian and spiritual writer whose gentleness, wisdom and profound love of God made him one of the most influential spiritual teachers in the Catholic Church. Living during a period of religious division and conflict, he devoted himself to preaching the Gospel, guiding souls and encouraging Christians to pursue holiness through the ordinary responsibilities of daily life. Renowned for his patience and charity, he believed that people could be drawn towards God more effectively through kindness, understanding and personal example than through harshness or coercion. His writings, particularly *Introduction to the Devout Life* and *Treatise on the Love of God*, offered a vision of Christian spirituality accessible to people of every social condition and vocation. Declared a Doctor of the Church, Francis remains a model of pastoral gentleness and spiritual wisdom, teaching that holiness is not reserved for those who withdraw from the world, but is possible wherever a heart sincerely seeks to love and serve God.
 
-Saint Francis de Sales
+### A Life of Faith and Intellectual Formation
 
-Saint Francis de Sales was a French bishop, priest, spiritual writer and Doctor of the Church who lived at the end of the sixteenth and beginning of the seventeenth century. He is one of the most beloved spiritual teachers in the Catholic tradition, especially known for his gentle manner, his wisdom and his insistence that every Christian is called to holiness.
+Francis was born on 21 August 1567 at the Château de Sales, near Thorens in Savoy, into a noble family. His father intended him for a distinguished career in public life and therefore arranged for him to receive an excellent education. Francis studied in Paris, where he developed a strong interest in theology and philosophy, before travelling to the University of Padua to study law. He completed his legal studies with distinction, acquiring a thorough knowledge of both civil and ecclesiastical law. Despite his father's ambitions, Francis increasingly felt called to the priesthood. His decision was not made without interior struggle, but his desire to serve God gradually became the guiding purpose of his life. After returning to Savoy, he overcame his family's opposition and was ordained a priest in 1593. He soon accepted a difficult missionary assignment in the Chablais region, where many inhabitants had embraced Calvinism and Catholic life had been severely weakened by religious conflict. Francis approached this mission with determination, recognising that restoring confidence in the Catholic faith would require patience, careful instruction and a willingness to meet people where they were.
 
-Francis was born into a noble family, but his life was marked not by a desire for worldly distinction but by a profound search for God's will. Through study, prayer and pastoral service, he gradually discovered his vocation as a priest and missionary.
+### A Missionary of Patience and Charity
 
-His writings would later become classics of Catholic spirituality, teaching generations of Christians how to seek God in the midst of ordinary life.
+Francis's mission in the Chablais proved demanding. He travelled through villages where Catholic priests were often unwelcome, facing hostility, insults and considerable personal hardship. Rather than relying solely on public preaching or theological confrontation, he sought to explain Catholic teaching in a clear and accessible manner. He studied the beliefs of his Calvinist opponents carefully, hoping to understand their objections and respond to them with accuracy and charity. When direct encounters proved difficult, he began writing short explanations of Catholic doctrine and distributing them as printed leaflets, placing them in public spaces and slipping them beneath the doors of homes. This innovative approach allowed his arguments to reach people who might otherwise have refused to listen to him. His perseverance gradually helped rebuild relationships between Catholics and their neighbours, and his mission contributed to the return of many people to Catholic practice. Francis believed that truth should never be separated from charity, and that the purpose of evangelisation was not to humiliate opponents but to lead souls towards Christ. His work in the Chablais revealed the qualities that would define his ministry throughout his life: courage without bitterness, conviction without cruelty, and an enduring confidence in the transforming power of divine grace.
 
-A noble family and a serious vocation
+### Bishop of Geneva and Shepherd of Souls
 
-Francis was born on 21 August 1567 at the Château de Sales in the Duchy of Savoy, in a region that is now part of France.
+In 1602, Francis became Bishop of Geneva, although the city itself was firmly associated with Calvinism, forcing him to establish his residence in Annecy. He embraced his episcopal responsibilities with remarkable energy, visiting parishes, instructing the clergy, preaching regularly and attending to the needs of the poor and the sick. He worked to implement the reforms of the Council of Trent, seeking to strengthen religious education and renew the spiritual life of his diocese. Yet Francis became especially renowned for his work as a spiritual director. He possessed a rare ability to understand the struggles of the human heart and to guide people towards holiness without overwhelming them with fear or discouragement. He encouraged the faithful to practise patience, humility and charity in their daily relationships, reminding them that Christian perfection consists above all in loving God and neighbour faithfully. His spiritual guidance extended to people living in the world, including those with family responsibilities and demanding professional lives. He rejected the idea that holiness belonged exclusively to monks, priests or religious communities, teaching instead that every Christian could grow in sanctity through the faithful fulfilment of his or her particular vocation. His episcopal ministry thus combined doctrinal fidelity with a deeply personal and compassionate understanding of the spiritual life.
 
-His family belonged to the nobility, and his father hoped that Francis would pursue a distinguished worldly career. Francis therefore received an excellent education and studied at the University of Paris before continuing his studies in law and theology at the University of Padua.
+### A Teacher of the Devout Life
 
-His intellectual formation was extensive, but it was accompanied by an increasingly serious spiritual life.
+Francis's spiritual teaching reached a much wider audience through his writings. In 1608, he published *Introduction to the Devout Life*, a work initially inspired by his spiritual guidance of a woman seeking to deepen her relationship with God. Addressed to an imagined reader named Philothea, the book explains how prayer, virtue, self-discipline and charity can become part of ordinary life. Francis insisted that devotion should not make people neglect their responsibilities, but should help them fulfil those responsibilities with greater love and fidelity. He also taught that spiritual progress requires patience with oneself, sincere repentance and confidence in God's mercy. His later work, *Treatise on the Love of God*, explored the nature of divine love and the human soul's response to God's grace. Throughout his writings, Francis presented love as the heart of Christian holiness, shaping both the believer's relationship with God and the way he or she treats others. His clear language and practical wisdom made his teaching accessible beyond academic and religious circles, establishing him as one of the most influential spiritual authors of his time.
 
-During his youth, Francis experienced periods of intense interior struggle. He became deeply concerned about his salvation and wrestled with questions about God's will and eternal life.
+### Saint Jane Frances de Chantal and the Order of the Visitation
 
-His faith eventually led him to a deeper confidence in God's mercy.
+One of the most important relationships in Francis's life was his spiritual friendship with Saint Jane Frances de Chantal, whom he met in 1604. A widow and mother, Jane sought his guidance as she discerned how best to dedicate her life to God while responding faithfully to her existing responsibilities. Their correspondence and spiritual collaboration became the foundation of a lasting religious undertaking. In 1610, they founded the Order of the Visitation of Holy Mary in Annecy, initially intended to welcome women who wished to pursue a life of prayer and charity without the severe physical demands imposed by some contemporary religious communities. Francis hoped that the congregation would embody humility, gentleness and compassionate service, particularly towards those in need. The community later developed into a contemplative religious order, while retaining the spiritual character he had sought to establish. His collaboration with Jane illustrates his understanding that holiness flourishes through faithful friendship and the shared pursuit of God's will. Together, they created a spiritual tradition that would continue to influence religious life long after their deaths.
 
-Rather than allowing fear to dominate his spiritual life, he learned to place himself in God's hands.
+### A Lasting Legacy of Love and Holiness
 
-This experience would later influence his teaching about trust, humility and the love of God.
-
-Becoming a priest
-
-Despite his father's hopes for a secular career, Francis felt increasingly drawn toward the priesthood.
-
-He was ordained a priest in 1593.
-
-Shortly afterwards, he accepted a difficult missionary assignment in the Chablais region, where the Catholic faith had been weakened by the religious conflicts of the Reformation.
-
-Francis devoted himself to preaching and teaching, often under difficult circumstances.
-
-The mission was not easy. He faced opposition and sometimes personal danger, but he continued to serve with patience.
-
-Rather than responding to hostility with anger, he sought to persuade through clarity, charity and personal example.
-
-His missionary work eventually brought many people back into communion with the Catholic Church.
-
-A missionary of patience
-
-Francis became particularly known for his gentle approach.
-
-He believed that the Christian faith should be communicated with truth but also with charity.
-
-His method was not based on harshness. He understood that a person's heart cannot be forced into faith.
-
-He therefore relied on preaching, conversation, written explanations and patient personal contact.
-
-Tradition associates him with the phrase, "A spoonful of honey attracts more flies than a barrelful of vinegar," expressing the principle that gentleness can accomplish what severity cannot.
-
-Although the exact wording belongs to a later formulation of his teaching, the principle reflects the spirit for which Francis became famous.
-
-His gentleness was not weakness. It was a deliberate Christian virtue rooted in patience and charity.
-
-Bishop of Geneva
-
-In 1599, Francis was appointed coadjutor bishop of Geneva, and in 1602 he became bishop.
-
-Geneva itself was then a strong centre of the Reformed tradition, so Francis governed his diocese from Annecy rather than from Geneva.
-
-As bishop, he devoted himself to pastoral reform and the spiritual formation of clergy and laity.
-
-He preached, catechized, visited communities and worked to strengthen Catholic life in the region.
-
-His episcopal ministry was characterized by personal presence and careful spiritual guidance.
-
-He believed that a bishop was called not simply to govern but to teach, encourage and lead people toward Christ.
-
-Introduction to the Devout Life
-
-Francis de Sales became especially famous through his spiritual writings.
-
-His most well-known work, Introduction to the Devout Life, was first published in 1609.
-
-The book was remarkable because it was written not only for priests or religious people but for ordinary Christians living in the world.
-
-Francis taught that holiness was not reserved for monasteries.
-
-A married person, a parent, a professional, a soldier or someone engaged in ordinary daily responsibilities could seek holiness through faithful Christian living.
-
-He encouraged readers to develop a life of prayer while remaining faithful to their particular duties.
-
-This teaching became one of the defining characteristics of Salesian spirituality.
-
-Holiness in everyday life
-
-Francis understood that God calls different people through different circumstances.
-
-He compared souls to different kinds of flowers, each capable of flourishing according to its own nature.
-
-The Christian vocation is therefore not about becoming someone else. It is about becoming the person God calls us to be.
-
-Prayer, charity, patience, humility and self-discipline should enter ordinary life.
-
-A Christian can encounter God in family responsibilities, work, friendship and service to others.
-
-Francis's spirituality therefore brought a deeply practical dimension to Catholic teaching on holiness.
-
-The Treatise on the Love of God
-
-Another major work of Francis was the Treatise on the Love of God, published in 1616.
-
-In this work, he explored the mystery of divine love and the soul's response to God's grace.
-
-For Francis, the Christian life begins and ends with love.
-
-God loves the human person first, and the believer responds by freely returning that love.
-
-Christian perfection therefore does not consist simply in performing external religious practices. It consists in allowing God's love to transform the heart.
-
-This love leads to prayer, obedience, charity and trust in God's providence.
-
-Spiritual friendship with Jane Frances de Chantal
-
-One of the most important relationships in Francis's life was his spiritual friendship with Saint Jane Frances de Chantal.
-
-They met in 1604, and their friendship became the foundation of a remarkable spiritual collaboration.
-
-Francis became Jane's spiritual director, and together they developed a vision of religious life centered on humility, charity and the love of God.
-
-Their collaboration eventually led to the foundation of the Order of the Visitation of Holy Mary in 1610.
-
-The new community was intended to cultivate a life of prayer, humility and charitable service.
-
-Francis and Jane remained spiritually close, and their correspondence became an important part of Catholic spiritual literature.
-
-The Visitation
-
-The Order of the Visitation was founded at Annecy.
-
-Francis wanted the community to reflect the humility and charity of the Virgin Mary, especially through the mystery of the Visitation to Elizabeth.
-
-The sisters were called to a life of prayer, community and service.
-
-The order would eventually spread widely and become an enduring expression of the spirituality of Francis de Sales and Jane Frances de Chantal.
-
-A spiritual father
-
-Francis became known as a compassionate spiritual director.
-
-He believed that spiritual guidance should respect the individual person.
-
-Not every soul follows the same path, and not everyone grows in holiness at the same pace.
-
-He encouraged people patiently, helping them recognize God's action in their lives while also confronting their faults honestly.
-
-His letters reveal a deep understanding of human weakness.
-
-He did not expect Christians to become perfect overnight. Instead, he taught them to progress patiently, returning to God after every failure.
-
-Trust in God's providence
-
-Divine providence was central to Francis's spirituality.
-
-He encouraged Christians to fulfill their present duties faithfully while trusting God with the future.
-
-Anxiety about things outside one's control could become an obstacle to peace.
-
-Francis therefore taught believers to remain attentive to God's will in the present moment.
-
-This did not mean passivity. Christians should work, pray and act responsibly, but they should entrust the final outcome to God.
-
-His teaching remains one of the most recognizable features of Salesian spirituality.
-
-A gentle teacher of holiness
-
-Francis's teaching on holiness is notable for its warmth.
-
-He did not present Christian perfection as something reserved for a spiritual elite.
-
-Instead, he encouraged ordinary believers to practice small acts of patience, kindness, humility and charity.
-
-Holiness grows through repeated acts of love.
-
-A person does not need extraordinary experiences to become holy.
-
-Faithfulness in ordinary circumstances can itself become a path toward God.
-
-His death
-
-Francis died in Lyon on 28 December 1622, at the age of fifty-five.
-
-His body was later transferred to Annecy, where he was buried.
-
-His death did not end his influence.
-
-His books continued to circulate widely, and his spiritual teaching reached Christians across Europe and eventually throughout the world.
-
-His gentle approach to Christian life made his writings accessible to people from many different backgrounds.
-
-Canonization and Doctor of the Church
-
-Francis de Sales was beatified in 1661 and canonized by Pope Alexander VII in 1665.
-
-In 1877, Pope Pius IX declared him a Doctor of the Church.
-
-This title recognizes saints whose teaching has made an especially significant contribution to Catholic theology and spirituality.
-
-His writings remain important sources for understanding Catholic teaching on prayer, holiness, charity and the spiritual life.
-
-Patron of writers and journalists
-
-Because of his extensive correspondence and spiritual writings, Francis de Sales became associated with writers, journalists and Catholic communicators.
-
-He is regarded as the patron saint of writers and journalists.
-
-His example is especially relevant to the Christian use of words: truth should be communicated with charity, clarity and respect for the dignity of others.
-
-His missionary experience had already taught him the importance of communicating difficult truths patiently.
-
-A spirituality for every Christian
-
-Perhaps the most enduring aspect of Francis de Sales's teaching is his conviction that every Christian can become holy.
-
-The Christian does not need to abandon ordinary responsibilities in order to love God.
-
-Instead, those responsibilities can become places where charity is practiced.
-
-A mother caring for her children, a worker fulfilling daily duties, a person serving the poor or a Christian patiently bearing difficulties can all grow closer to God.
-
-Holiness begins with love and is lived through faithful action.
-
-The gentle strength of charity
-
-Francis de Sales demonstrates that gentleness and strength are not opposites.
-
-His patience required discipline.
-
-His kindness was rooted in conviction.
-
-His willingness to forgive did not mean that he was indifferent to truth.
-
-He sought to unite truth and charity, believing that Christian witness becomes fruitful when it reflects the love of Christ.
-
-This balance became one of the defining characteristics of his spiritual legacy.
-
-A saint for ordinary life
-
-Saint Francis de Sales remains a particularly beloved saint because his spirituality speaks directly to ordinary Christian life.
-
-He reminds believers that holiness is not reserved for extraordinary people or extraordinary circumstances.
-
-God can be loved in the home, at work, in friendship, in suffering and in the responsibilities of each day.
-
-The Christian vocation is to seek God faithfully wherever He has placed us.
-
-A life centered on divine love
-
-At the heart of Francis de Sales's teaching is a simple but profound conviction: God is love, and the human heart is made to respond to that love.
-
-Prayer opens the heart to God.
-
-Charity turns that love toward others.
-
-Patience teaches the soul to persevere.
-
-Humility allows the believer to recognize dependence upon grace.
-
-Trust in divine providence gives peace in the midst of uncertainty.
-
-These virtues formed the foundation of Francis's understanding of Christian holiness.
-
-His lasting legacy
-
-More than four centuries after his birth, Saint Francis de Sales remains one of the great spiritual teachers of the Catholic Church.
-
-His books continue to be read, his feast is celebrated on 24 January, and the spirituality associated with his name continues through the religious communities and movements inspired by his teaching.
-
-His influence extends especially through the Salesian tradition, which later found a major expression in the work of Saint John Bosco.
-
-Yet Francis's message belongs far beyond any one religious family.
-
-His invitation is addressed to every Christian: seek God with love, remain faithful in ordinary duties, practice charity patiently and trust in divine providence.
-
-A saint of gentleness and love
-
-Saint Francis de Sales did not teach Christians to flee from ordinary life.
-
-He taught them how to sanctify it.
-
-He showed that prayer can coexist with work, that holiness can grow through small acts of love and that every human vocation can become a path toward God.
-
-His life as priest, missionary, bishop, spiritual director and writer was united by one desire: to lead souls to the love of Christ.
-
-For Catholics, Saint Francis de Sales remains a beautiful model of pastoral charity, spiritual wisdom and Christian gentleness.
-
-His message continues to invite the faithful to seek holiness not through extraordinary displays, but through faithful love lived each day.
-
-Saint Francis de Sales, bishop and Doctor of the Church, remains a gentle teacher of the Christian life, reminding believers that every heart is called to love God, every vocation can become a path to holiness, and every ordinary day can be offered to God as an act of love.
+Francis de Sales died in Lyon on 28 December 1622, after a life devoted to preaching, spiritual direction and the pastoral care of his diocese. His influence continued to grow through his writings and the religious communities inspired by his teaching. He was canonised in 1665 and proclaimed a Doctor of the Church in 1877. He is also recognised as the patron saint of writers and journalists, reflecting his conviction that words should communicate truth with clarity, responsibility and charity. His spirituality influenced numerous later Christian teachers, including Saint John Bosco, who placed his educational and apostolic mission under Francis's patronage. At the heart of his legacy is the conviction that love must guide every aspect of the Christian life. Francis taught that patience is not weakness, gentleness does not exclude firmness, and holiness does not require extraordinary circumstances. Instead, it grows through the daily choice to serve God faithfully, treat others with compassion and accept one's responsibilities with a generous heart. Saint Francis de Sales continues to remind the faithful that the path to holiness begins in the heart and becomes visible through the quiet, persevering practice of love.
 $desc$
 ),
 (
@@ -4281,50 +3188,30 @@ WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
 UPDATE saint_translations AS st
 SET short_description = x.short_description, full_biography = x.full_biography
 FROM saints AS s JOIN (VALUES
-('saint-blaise','en','Blaise is venerated as a bishop of Sebaste and an early fourth-century martyr. His widespread remembrance rests on ancient liturgical tradition, while the surviving accounts of his sufferings contain details that cannot be established as contemporary history.',$desc$## Identity and historical limits
+(
+'saint-blaise',
+'en',
+'Blaise is venerated as a bishop of Sebaste and an early fourth-century martyr. His widespread remembrance rests on ancient liturgical tradition, while the surviving accounts of his sufferings contain details that cannot be established as contemporary history.',
+$desc$
+Saint Blaise was an early Christian bishop and martyr whose faith, pastoral charity and reputation for miraculous healing made him one of the most beloved saints of the ancient Church. Traditionally associated with the city of Sebaste in Armenia, he lived during a period when Christians faced persecution for their refusal to abandon their faith. Remembered both as a courageous shepherd of his people and as a compassionate healer, Blaise became especially renowned for his intercession on behalf of those suffering from diseases of the throat. Although the historical details of his life are limited, the Christian tradition presents him as a man whose holiness was expressed through prayer, care for the sick and steadfast devotion to Jesus Christ. His witness unites the responsibilities of pastoral leadership with the courage of martyrdom, reminding the faithful that Christian holiness is revealed through both the service of others and fidelity to God in times of trial.
 
-Blaise belongs to the ancient Christian memory of Sebaste, in the region historically called Lesser Armenia, now Sivas in Turkey. He is honored as a bishop and martyr in both Eastern and Western Christianity. No securely contemporary biography survives, and his birth, family, education, and episcopal activity cannot be reconstructed. The distinction between the antiquity of his veneration and the date of the narratives about him is essential.
+### A Bishop Dedicated to His People
 
-Alban Butler, despite writing within a devotional tradition, explicitly describes the surviving Greek acts as having little authority. His account places the martyrdom under Licinius, conventionally in 316, and names the governor Agricolaus. These particulars belong to the received chronology, not to an independently established contemporary judicial record. A precise year should consequently remain qualified.
+According to Christian tradition, Blaise was a physician before becoming Bishop of Sebaste, a city in the region of Armenia Minor, in present-day Turkey. His medical knowledge and Christian faith are remembered as complementary expressions of his desire to care for the human person, both in body and in soul. As bishop, he was responsible for guiding the Christian community, celebrating the sacraments and encouraging the faithful to remain steadfast in their beliefs. His ministry took place during a period of uncertainty for Christians in the Roman Empire, when imperial policies could expose bishops and other religious leaders to serious danger. Tradition relates that Blaise eventually withdrew to a cave in the mountains, where he devoted himself to prayer and solitude. Even in this secluded setting, he was said to have welcomed visitors and helped those who sought his counsel. Stories describe wild animals approaching him peacefully and gathering near his dwelling, reflecting the harmony between the saint and God's creation. Although these accounts belong to the hagiographical tradition rather than securely documented history, they express the enduring image of Blaise as a man of prayer whose compassion extended to all living creatures.
 
-## The martyrdom tradition
+### A Healer of the Sick
 
-Later narratives portray Blaise as steadfast under interrogation and bodily torment. The tradition of iron combs used against him became especially memorable. Such details explain how later Christians imagined and represented his ordeal, but their repetition does not supply independent confirmation. The historical claim underlying the commemoration is that a bishop associated with Sebaste died for his Christian allegiance.
+Saint Blaise became particularly associated with the healing of illnesses of the throat through a celebrated tradition concerning a young boy who was choking on a fish bone. According to the account, the child's mother brought him to Blaise, who prayed for his recovery and helped save his life. This episode became the foundation of the saint's enduring reputation as a protector against throat ailments. The story also illustrates a central aspect of Christian devotion to Blaise: his concern for those who suffer and his confidence in the power of prayer. His healing ministry is understood not as a source of personal glory, but as an expression of God's mercy working through the compassion of His servants. Over the centuries, Christians have sought Blaise's intercession for the sick, especially those experiencing difficulties involving the throat. The traditional blessing of throats associated with his name reflects this devotion, reminding the faithful to entrust their health to God while recognising the importance of care, compassion and prayer in times of illness.
 
-Another connection, reported by Butler from the acts of Eustratius, credits Blaise with receiving and preserving that martyr's relics. This is evidence of how separate martyr traditions came to be linked, rather than a secure basis for reconstructing his pastoral calendar. It is preferable to preserve the limited testimony than to create a continuous life from these scattered episodes.
+### Persecution and Martyrdom
 
-## Remembrance
+Blaise's pastoral ministry eventually came to an end during a period of persecution traditionally associated with the Roman authorities in the early fourth century. According to later accounts, he was discovered in his mountain retreat and arrested by officials acting under the orders of Agricolaus, the governor of Cappadocia. Brought before the authorities, Blaise was urged to sacrifice to the pagan gods and abandon his Christian faith. He refused, remaining faithful to Christ despite threats and physical suffering. Traditional narratives describe his imprisonment, during which he continued to encourage fellow Christians and pray for those in need. He was eventually subjected to torture and executed, becoming a martyr whose death bore witness to the strength of his convictions. The precise circumstances of his martyrdom cannot be established with certainty, as the surviving accounts were written long after the events they describe. Nevertheless, his veneration spread widely throughout the Christian world, particularly during the Middle Ages, when his intercession was sought for protection against illness and sudden dangers. His martyrdom came to symbolise the victory of spiritual fidelity over worldly power and the conviction that suffering cannot separate the faithful from the love of God.
 
-Western martyrologies and the Byzantine calendar attest a durable remembrance, although their commemorative dates differ. His cult spread widely in the medieval West as relics were circulated. The blessing of throats associated with his feast belongs to this history of devotion and healing prayer; it is not documentation of his medical training or of a modern clinical cure.
+### A Lasting Legacy of Faith and Compassion
 
-Blaise's significance therefore lies chiefly in the Church's memory of a persecuted pastor. The comparatively short surviving historical record should neither be dismissed because it is incomplete nor enlarged by presenting later hagiography as eyewitness testimony.
-
-## Sources
-
-- [Alban Butler, Lives of the Saints, February 3: Saint Blase; consulted public-domain edition](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
-$desc$),
-('saint-blaise','fr','Blaise est vénéré comme évêque de Sébaste et martyr du début du IVe siècle. Son souvenir largement répandu repose sur une ancienne tradition liturgique, tandis que les récits conservés de ses souffrances comportent des détails invérifiables comme histoire contemporaine.',$desc$## Identité et limites historiques
-
-Blaise appartient à l'ancienne mémoire chrétienne de Sébaste, dans la région historiquement appelée Petite Arménie, aujourd'hui Sivas en Turquie. Les chrétientés orientale et occidentale l'honorent comme évêque et martyr. Aucune biographie certainement contemporaine ne subsiste, et sa naissance, sa famille, sa formation et son activité épiscopale ne peuvent être reconstituées. Il importe de distinguer l'ancienneté de sa vénération de la date des récits qui le concernent.
-
-Alban Butler, bien qu'écrivant dans une tradition dévote, reconnaît expressément la faible autorité des actes grecs conservés. Il situe le martyre sous Licinius, traditionnellement en 316, et nomme le gouverneur Agricolaus. Ces précisions appartiennent à la chronologie reçue, non à un procès-verbal judiciaire contemporain établi indépendamment. L'année exacte doit donc rester incertaine.
-
-## La tradition du martyre
-
-Les récits postérieurs présentent Blaise comme constant dans les interrogatoires et les tourments corporels. La tradition des peignes de fer employés contre lui devint particulièrement mémorable. Ces détails expliquent comment les chrétiens ultérieurs imaginèrent et représentèrent son épreuve, mais leur répétition ne fournit pas de confirmation indépendante. L'affirmation historique fondamentale de la commémoration est qu'un évêque associé à Sébaste mourut pour sa fidélité chrétienne.
-
-Un autre rapprochement, rapporté par Butler d'après les actes d'Eustrate, attribue à Blaise l'accueil et la conservation des reliques de ce martyr. Il montre comment différentes traditions martyriales furent liées, plutôt qu'il ne permet de reconstituer sûrement son activité pastorale. Mieux vaut conserver ce témoignage limité que fabriquer une vie continue à partir de ces épisodes épars.
-
-## Mémoire
-
-Les martyrologes occidentaux et le calendrier byzantin attestent une mémoire durable, malgré des dates de commémoration différentes. Son culte se répandit largement dans l'Occident médiéval avec la circulation des reliques. La bénédiction des gorges associée à sa fête appartient à cette histoire de dévotion et de prière pour la guérison ; elle ne documente ni sa formation médicale ni une guérison clinique moderne.
-
-L'importance de Blaise tient donc surtout au souvenir ecclésial d'un pasteur persécuté. Le dossier historique relativement bref ne doit être ni rejeté pour son caractère incomplet ni augmenté en présentant l'hagiographie tardive comme témoignage oculaire.
-
-## Sources
-
-- [Alban Butler, Vies des saints, 3 février : saint Blaise ; édition du domaine public consultée](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
-$desc$),
+Saint Blaise's reputation spread throughout both Eastern and Western Christianity, and numerous churches came to honour him as a patron of the sick, particularly those suffering from diseases of the throat. His cult became especially prominent in medieval Europe, where his intercession was sought not only for physical healing but also for protection in times of danger. Christian art frequently depicts him wearing episcopal vestments and holding the instruments associated with his martyrdom, while images of crossed candles recall the traditional blessing of throats. These symbols express the two dimensions of his enduring witness: the courage of a bishop who remained faithful to Christ and the compassion of a saint remembered for helping the suffering. Although much of his biography remains uncertain, the devotion surrounding him reflects a deeply rooted Christian conviction that holiness must bear fruit in charity. Saint Blaise continues to remind the faithful that prayer and practical care belong together, that the sick deserve tenderness and attention, and that genuine courage comes from trusting God even when the future is uncertain. His life remains an invitation to serve others generously and to place both body and soul under the loving providence of God.
+$desc$
+),
 ('saint-blaise','la','Blasius tamquam episcopus Sebastenus et martyr ineuntis saeculi quarti colitur. Eius memoria late diffusa antiqua traditione liturgica nititur, dum narrationes superstites de passionibus eius singula continent quae ut historia coaetanea comprobari nequeunt.',$desc$## Identitas et limites historiae
 
 Blasius ad antiquam memoriam christianam Sebastes pertinet, in regione olim Armenia Minore appellata, quae urbs hodie Sivas in Turcia est. Episcopus et martyr in christianitate orientali et occidentali honoratur. Nulla vita certo coaetanea superest; nativitas, familia, institutio et actio episcopalis restitui nequeunt. Antiquitas cultus a tempore narrationum de eo diligenter distinguenda est.
@@ -4347,40 +3234,36 @@ Momentum igitur Blasii praecipue in memoria ecclesiali pastoris persecutionem pa
 
 - [Albanus Butler, Vitae sanctorum, die 3 Februarii: sanctus Blasius; editio publici iuris consulta](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
 $desc$),
-('saint-ansgar','en','Ansgar, a Frankish monk and missionary bishop, established Christian communities in Denmark and Sweden and served Hamburg and Bremen. His work survived political reversals and violence, although the lasting Christianization of Scandinavia extended far beyond his lifetime.',$desc$## Formation and sources
+(
+'saint-ansgar',
+'en',
+'Ansgar, a Frankish monk and missionary bishop, established Christian communities in Denmark and Sweden and served Hamburg and Bremen. His work survived political reversals and violence, although the lasting Christianization of Scandinavia extended far beyond his lifetime.',
+$desc$
+Saint Ansgar, also known as Saint Anskar or Saint Oscar, was a Benedictine monk, bishop and missionary whose tireless efforts to proclaim the Gospel in Scandinavia earned him the title of Apostle of the North. Living during the ninth century, when Christianity was still largely unfamiliar in Denmark and Sweden, he devoted his life to bringing the faith to peoples beyond the traditional boundaries of Western Christendom. His mission demanded extraordinary perseverance, as he faced dangerous journeys, political instability, opposition to Christianity and the destruction of the communities he had worked to establish. Yet Ansgar continued to preach, baptise converts and encourage the small Christian communities entrusted to his care. His life was marked by humility, prayer and a deep concern for the spiritual and material welfare of others. Although he did not witness the widespread Christianisation of Scandinavia, his missionary work laid important foundations for the later growth of the Church in Northern Europe. His example remains a testimony to the patience and courage required to proclaim the Gospel in unfamiliar lands.
 
-Ansgar was born about 801 in the Frankish world, traditionally near Amiens. He received his formation at Corbie, the monastery in Picardy, and subsequently joined its new foundation at Corvey in Saxony. There he taught and preached. His movement from an established western monastery to a recently Christianized frontier supplied the setting for his later work in Scandinavia. Monastic discipline remained central to his identity after he became a bishop.
+### A Life Shaped by Prayer and Monastic Learning
 
-The principal narrative source is the Life written by Rimbert, his disciple and successor. It is unusually close to its subject, but it is also a work intended to demonstrate sanctity and encourage a precarious mission. Dreams, visions, and providential interpretations are integral to its presentation. Butler's later account draws upon this tradition. The missionary's basic itinerary is better documented than many early medieval saints' lives, while particular conversations and visionary experiences remain dependent on his biographer's testimony.
+Ansgar was born around 801 in the region of Picardy, near Amiens in what is now northern France. After the death of his mother during his childhood, he was entrusted to the Benedictine monastery of Corbie, where he received his education and gradually developed a deep attachment to religious life. Within the monastery, he studied Scripture, learned the discipline of prayer and became familiar with the intellectual and spiritual traditions of Benedictine monasticism. He eventually became a monk and was recognised for his learning, devotion and aptitude for teaching. Around 822, Ansgar was sent to the newly established monastery of Corvey in Saxony, where he served as a teacher and preacher. The region itself had only recently undergone a process of Christianisation, and the monks were involved in strengthening the faith among its inhabitants. This experience prepared Ansgar for a more distant and demanding mission. Rather than remaining within the relative security of monastic life, he accepted the possibility of travelling into regions where Christianity had gained little influence. His vocation was shaped by the conviction that the Gospel was meant for all peoples and that the call to serve Christ could require leaving behind familiar surroundings and embracing considerable uncertainty.
 
-## First northern missions
+### The First Mission to Denmark
 
-In 826 the Danish ruler Harald Klak received baptism at the court of Louis the Pious. Ansgar accompanied him north with the monk Autbert. Political protection made the undertaking possible, but also exposed it to the ruler's instability. Harald's loss of power soon interrupted the work. The establishment of a school and the care of young converts did not create a secure Christian kingdom, and Ansgar returned to the Frankish territories.
+Ansgar's missionary journey towards Scandinavia began around 826, when he accompanied Harald Klak, a Danish ruler who had received Christian baptism while seeking the support of the Frankish emperor Louis the Pious. Ansgar travelled with the intention of establishing Christian teaching among the people of Denmark, where traditional Norse religious practices remained dominant. He and his fellow missionary, Autbert, worked to instruct converts and establish a school where young people could receive a Christian education. Their efforts were modest but significant, introducing the Gospel into a region where organised Christian communities were still rare. However, the political situation soon deteriorated. Harald lost his position, and the missionaries could no longer continue their work under the same conditions. Autbert also became seriously ill and was forced to withdraw. Ansgar returned to the Frankish territories, but the failure of this first mission did not extinguish his desire to evangelise the North. His willingness to begin again reveals one of the defining characteristics of his spirituality: he did not measure the value of missionary work solely by immediate success, but by fidelity to the task entrusted to him. For Ansgar, even a small beginning could become the foundation of a greater work under God's providence.
 
-A subsequent invitation from Sweden opened another field. Around 829 Ansgar traveled with Witmar to Birka, a trading settlement on Lake Mälaren. The mission established a small Christian community with support from individuals including Hergeir, a royal official. These beginnings mattered precisely because they were modest: a congregation and a place of worship within a predominantly non-Christian society, rather than the conversion of an entire nation. Sustained access depended on local acceptance as well as royal permission.
+### Bringing the Gospel to Sweden
 
-## Hamburg and the destruction of a center
+Around 829, Ansgar was given the opportunity to travel to Sweden after a request for Christian missionaries reached the court of Louis the Pious. Accompanied by the monk Witmar, he undertook a dangerous journey to Birka, an important trading settlement on an island in Lake Mälaren. The voyage was marked by difficulties, including an attack by pirates that resulted in the loss of many of the travellers' possessions. Nevertheless, Ansgar continued towards his destination and received permission from the local authorities to preach. His mission brought him into contact with people whose religious customs and social traditions differed greatly from those of the Christian world in which he had been formed. Among the early converts was Hergeir, a prominent local official who supported the Christian community and helped establish a place of worship. Ansgar's work in Sweden demonstrated that missionary activity depended not only upon preaching, but also upon patience, personal relationships and the willingness of local people to receive a new faith. His success remained limited, and Christianity did not immediately become firmly established across the region. Yet the small community at Birka represented an important beginning, showing that the Gospel could take root even in societies where its message was initially unfamiliar.
 
-Around 831–832 Ansgar was appointed to Hamburg and received a papal commission for the northern mission. The dates and institutional descriptions differ in later summaries, and the subsequent union with Bremen should not be projected backward as an already settled arrangement. Hamburg provided a base for education, worship, and the support of missionaries. Ansgar's responsibilities now required both pastoral leadership and negotiations across ecclesiastical and political boundaries.
+### Archbishop of Hamburg and Shepherd of the Northern Mission
 
-The death of Louis the Pious in 840 and the division of his dominions weakened the material basis of the enterprise. In 845 raiders destroyed Hamburg, including its ecclesiastical buildings and books. The catastrophe deprived Ansgar of resources and scattered helpers. It demonstrated that missionary institutions remained vulnerable to warfare and changing patronage. His response was not to abandon northern Christianity, but to seek another foundation from which its small communities could be supported.
+In 831, Ansgar was appointed bishop of Hamburg and entrusted with responsibility for the Church's missionary efforts among the northern peoples. Pope Gregory IV also recognised his role in the evangelisation of these regions, giving his mission a broader ecclesiastical significance. Hamburg became a centre from which missionaries could be sent into Denmark, Sweden and neighbouring territories. Ansgar understood, however, that establishing the Church required more than isolated journeys. He sought to develop stable Christian communities, train clergy and provide the foundations for lasting pastoral care. His work was severely disrupted in 845, when a Viking raid devastated Hamburg and destroyed much of the church's property and resources. Ansgar lost the practical base of his mission and was forced to rebuild his work under difficult circumstances. He eventually established himself in Bremen, where he became bishop and continued to oversee missionary activity in the North. The destruction of Hamburg could easily have ended his efforts, but Ansgar persevered, adapting his plans to changing political circumstances. His experience reveals the fragility of early missionary foundations and the importance of patience when religious work is repeatedly interrupted by violence and instability.
 
-## Bremen and renewed journeys
+### Charity and Perseverance in the Gospel
 
-Bremen eventually supplied that base. Ansgar took responsibility there in the later 840s, while the union of Hamburg and Bremen required prolonged negotiation because Bremen had belonged to the ecclesiastical province of Cologne. Papal confirmation came under Nicholas I. These administrative difficulties were not separate from evangelization: jurisdiction and income determined whether priests could be sent and communities maintained.
+Ansgar's missionary vocation was accompanied by a deep commitment to charity. He established or supported institutions for the care of the poor and sick, helped ransom captives and sought to improve the treatment of vulnerable people. Christian tradition also remembers his opposition to the slave trade, which remained widespread in the northern regions he visited. His concern for those who suffered reflected his conviction that the proclamation of Christ must be accompanied by practical acts of mercy. Ansgar also continued travelling to Denmark and Sweden, working to preserve existing Christian communities and secure permission for churches and priests to remain. His relationship with local rulers required patience and diplomatic skill, since their support could change with political circumstances. Although the number of converts remained relatively small during his lifetime, he helped establish a lasting Christian presence in important centres of trade and communication. His mission reminds the faithful that evangelisation is not simply a matter of achieving rapid results, but of bearing witness to Christ through perseverance, service and respect for those one seeks to reach.
 
-Ansgar cultivated relations with Danish rulers and obtained room for churches, including at Schleswig. He also returned to Sweden, where Christian worship again needed authorization. Rimbert describes the consultation of lots and public deliberation before permission was granted. Whatever the literary shaping of individual scenes, the account makes clear that Ansgar could not simply impose a religion. The mission advanced through preaching, diplomacy, hospitality, and the perseverance of local believers, and it remained exposed to renewed opposition.
+### A Lasting Legacy as the Apostle of the North
 
-## Pastoral character and legacy
-
-Rimbert and the tradition dependent on him emphasize fasting, prayer, and direct service to poor people. Ansgar is described as washing their feet and serving them at table. These practices connect the missionary bishop with the monastic life in which he had been formed. His longing for martyrdom belongs to the same spiritual portrait; he interpreted patient endurance of failure and illness within that aspiration, rather than measuring his vocation solely by visible expansion.
-
-He died at Bremen on 3 February 865, and Rimbert succeeded him. His achievement was neither a completed conversion of Scandinavia nor the establishment of institutions immune to collapse. It was the creation and repeated restoration of links between northern communities and the wider Church. The later endurance of Christian life in Denmark and Sweden should not obscure the fragility of his own beginnings or the indispensable work of unnamed local Christians.
-
-## Sources
-
-- [Alban Butler, Lives of the Saints, February 3: Saint Anscharius; consulted edition](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
-- [Ansgar: consulted Wikipedia text mirror, with references to Rimbert](https://github.com/kirito-0512/data/blob/main/dump/Ansgar.txt).
+Saint Ansgar died in Bremen in 865, after decades devoted to monastic life, missionary work and episcopal service. He did not live to see Scandinavia become predominantly Christian, a transformation that would unfold gradually over the following centuries. Nevertheless, his journeys and the communities he helped establish laid important foundations for that later development. His successor and biographer, Rimbert, preserved an account of his life that reveals both the hardships of his mission and the depth of his spiritual commitment. Ansgar is remembered as the Apostle of the North because he carried the Gospel into regions where the Church had only begun to take root. His life demonstrates that the work of evangelisation often demands patience beyond the limits of one person's lifetime. He faced setbacks without surrendering his vocation, rebuilt after destruction and continued to serve the people entrusted to his care. Through his humility, courage and concern for the poor, Saint Ansgar remains an example of missionary fidelity, reminding Christians that the fruits of faithful service may appear long after the work itself has been completed.
 $desc$),
 ('saint-ansgar','fr','Anschaire, moine franc et évêque missionnaire, établit des communautés chrétiennes au Danemark et en Suède et servit Hambourg et Brême. Son œuvre traversa violences et revers politiques, bien que la christianisation durable de la Scandinavie dépassât largement sa vie.',$desc$## Formation et sources
 
@@ -4452,35 +3335,30 @@ Bremae die 3 Februarii 865 mortuus est, Rimberto successore. Neque conversionem 
 - [Albanus Butler, Vitae sanctorum, die 3 Februarii: sanctus Ansgarius; editio consulta](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
 - [Ansgarius: exemplar textus Vicipaediae consultum, cum relationibus ad Rimbertum](https://github.com/kirito-0512/data/blob/main/dump/Ansgar.txt).
 $desc$),
-('saint-agatha','en','Agatha is an early Sicilian martyr whose ancient veneration centers on Catania. The Church remembers her Christian fidelity and resistance to coercion; later accounts of her trial and sufferings must be distinguished from the firmer evidence of her longstanding cult.',$desc$## An ancient Sicilian martyr
+(
+'saint-agatha',
+'en',
+'Agatha is an early Sicilian martyr whose ancient veneration centers on Catania. The Church remembers her Christian fidelity and resistance to coercion; later accounts of her trial and sufferings must be distinguished from the firmer evidence of her longstanding cult.',
+$desc$
+Saint Agatha of Sicily was an early Christian virgin and martyr whose purity, courage and unwavering devotion to Jesus Christ made her one of the most venerated saints of the ancient Church. She is traditionally associated with the city of Catania, in Sicily, where she suffered martyrdom during the Roman persecutions of the third century. Remembered for refusing to abandon her faith despite threats, humiliation and terrible suffering, Agatha became a powerful witness to the conviction that love for God must remain greater than every earthly fear. Although many details of her life come from later Christian traditions and cannot be established with certainty, her martyrdom and the widespread devotion that arose around her are firmly rooted in the early history of the Church. Her name was included in the ancient Roman Eucharistic prayer, reflecting the importance of her witness among the first generations of Christians. Saint Agatha remains an enduring example of spiritual strength, purity of heart and fidelity to Christ in the face of persecution.
 
-Agatha is remembered as a virgin and martyr of Sicily, especially associated with Catania. Tradition places her death during the persecution of Decius, usually in 251. Her family background and birthplace are not securely established: Palermo and Catania both claimed her birth. The existence of an ancient cult is considerably better attested than the detailed narrative of her life.
+### A Young Woman Consecrated to God
 
-Her surviving passion belongs to hagiography rather than to a demonstrably contemporary court transcript. Butler discusses different textual traditions and later praises of the saint. His account is valuable as a witness to the received tradition, but its confidence in individual episodes should not erase the distance between the martyrdom and the surviving literary record. A responsible biography can describe that narrative without treating every speech or miracle as independently documented.
+The precise circumstances of Agatha's birth and early life remain uncertain. Both Catania and Palermo have traditionally claimed the honour of being her birthplace, although her enduring association with Catania is particularly strong. According to Christian tradition, she came from a prosperous family and consecrated her life to Jesus Christ while still young, choosing to preserve her virginity as a sign of her undivided love for God. Such a commitment expressed a profound spiritual conviction: that her life belonged ultimately to Christ and that no earthly promise or social expectation could take precedence over her vocation. Little reliable information survives about her family, education or daily life before her persecution. Nevertheless, the Christian memory of Agatha has consistently emphasised her determination to remain faithful to her consecration. Her example reflects the understanding of the early Church that holiness was not reserved for those possessing worldly authority or influence, but could be revealed through the steadfast faith of an ordinary believer. In a society where young women could face strong expectations concerning marriage and family alliances, Agatha's traditional choice represented a courageous affirmation of her spiritual freedom and her desire to belong entirely to God.
 
-## The received passion
+### Persecution and Courage in the Face of Suffering
 
-The traditional account makes Agatha a young woman of wealth and standing who had dedicated herself to Christ. Quintianus, exercising public authority at Catania, seeks possession of both her person and her property. The persecution provides him with a means of coercion. The story therefore links the public demand for religious conformity with the misuse of power against a vulnerable Christian woman.
+Agatha's martyrdom is traditionally placed during the persecution under Emperor Decius, around the middle of the third century, although the precise date remains uncertain. According to the later accounts of her Passion, a Roman official named Quintianus became determined to force her to abandon her Christian faith after she rejected his advances. When threats and attempts at persuasion failed, he subjected her to imprisonment and torture. These accounts describe particularly cruel treatment, including injuries inflicted upon her body, and relate that she endured her suffering without renouncing Christ. Although the dramatic details of these narratives cannot all be verified historically, they express the central conviction preserved by the Church: Agatha died because she remained faithful to her Christian commitment. Her courage was not presented as a desire for suffering, but as the fruit of a love that could not be overcome by violence or intimidation. According to tradition, she prayed for strength and entrusted herself entirely to God's mercy. Her martyrdom became a source of encouragement for Christians facing persecution, reminding them that earthly authorities could inflict suffering but could not destroy the hope of eternal life promised by Christ. Through her witness, Agatha came to embody the spiritual freedom of those who refuse to surrender their conscience, even when fidelity demands the greatest sacrifice.
 
-Agatha is placed in the custody of Aphrodisia, whose household is intended to break her resistance. When that attempt fails, interrogation and imprisonment follow. In the speeches attributed to her, Agatha identifies service to Christ as genuine freedom and nobility. These declarations express the theological meaning of the passion: external domination cannot compel an inward abandonment of faith.
+### A Martyr Honoured Throughout the Church
 
-The narrative describes severe torture, including mutilation of her breast, followed by a vision in which the apostle Peter brings healing. Further punishment leads to her death in prison. The violence should not be embellished, and the visionary episode should remain identified as part of the religious narrative. No independent medical or judicial documentation establishes these details.
+The veneration of Saint Agatha spread rapidly beyond Sicily and was established in the Christian world from an early period. By the fifth century, her name appeared in ancient Christian martyrologies, and she was honoured in the liturgical traditions of the Church. Her inclusion among the saints commemorated in the Roman Canon, one of the oldest Eucharistic prayers of the Latin Church, testifies to the enduring importance of her memory. In Catania, devotion to Agatha became particularly profound, and a church was established in connection with the place traditionally associated with her burial. Over the centuries, Christians came to invoke her intercession during times of danger, especially during volcanic eruptions of Mount Etna. Local traditions recount that her veil was carried before advancing lava as an appeal for her protection. These accounts helped establish her reputation as a heavenly protector of her native city. Her devotion also spread throughout other parts of Italy and beyond, demonstrating how the witness of an early martyr could unite communities across generations. Through prayer, pilgrimage and the celebration of the Eucharist, the faithful continued to remember Agatha not simply as a figure from the distant past, but as a sister in Christ whose example remained spiritually alive.
 
-## Evidence of early remembrance
+markdown
 
-Agatha's name entered the Roman Canon, the central Eucharistic prayer of the Latin liturgical tradition. Butler also notes her presence in the ancient calendar of Carthage and the development of churches dedicated to her at Rome. Such testimony demonstrates that her remembrance spread beyond Sicily at an early date. It does not, by itself, authenticate every episode in the passion.
+### A Lasting Legacy of Purity and Faith
 
-Roman devotion included the church associated with Gregory the Great, who restored a formerly Arian place of worship to Catholic use. The circulation of relics further extended her remembrance. Medieval accounts relate the removal of her relics to Constantinople and their eventual return to Catania. These episodes belong to the history of the cult, many centuries after her death.
-
-## Catania and enduring significance
-
-At Catania, devotion to Agatha became closely connected with communal prayer during eruptions of Etna. Stories of her veil averting danger express the city's understanding of her intercession. They should be described as devotional traditions, not as a scientific explanation of volcanic events.
-
-The enduring center of her commemoration is fidelity to Christ under coercion. Her ancient liturgical presence supports that remembrance even where the historian must suspend judgment about dates, family circumstances, and narrated miracles. Keeping these distinctions preserves both the gravity of the martyr tradition and the integrity of historical inquiry.
-
-## Sources
-
-- [Alban Butler, Lives of the Saints, February 5: Saint Agatha; consulted edition](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
+Saint Agatha is remembered as a model of virginity, courage and unwavering fidelity to God. In Christian art, she is frequently depicted holding a palm branch, the traditional symbol of martyrdom, and sometimes carrying a small plate associated with the later accounts of her torture. These images recall both the suffering she endured and the spiritual victory that Christians believe she attained through her union with Christ. Her example should not be understood merely as a story of endurance, but as a testimony to the dignity of a person whose deepest identity is rooted in the love of God. Agatha's life reminds the faithful that holiness can flourish even amid oppression, that purity involves the integrity of the whole person, and that genuine freedom cannot be taken away by external force. Her enduring place in Christian worship also demonstrates the Church's conviction that the martyrs remain members of the communion of saints, united in Christ with those who continue their earthly pilgrimage. Although the details of her biography remain limited, the strength of her historical veneration ensures her lasting place among the great witnesses of early Christianity. Saint Agatha continues to inspire Christians to remain faithful to their convictions, to protect the dignity of others and to place their trust in the Lord, whose love remains stronger than suffering and death.
 $desc$),
 ('saint-agatha','fr','Agathe est une martyre ancienne de Sicile dont la vénération se concentre à Catane. L’Église rappelle sa fidélité chrétienne et sa résistance à la contrainte ; les récits tardifs de son procès et de ses souffrances se distinguent des témoignages plus solides de son culte ancien.',$desc$## Une ancienne martyre sicilienne
 
@@ -4547,39 +3425,32 @@ WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
 UPDATE saint_translations AS st
 SET short_description=x.short_description, full_biography=x.full_biography
 FROM saints AS s JOIN (VALUES
-('saint-paul-miki','en','Paul Miki was a Japanese Jesuit preacher executed with twenty-five other Christians at Nagasaki in 1597. His martyrdom belongs to the early history of the Japanese Church and must be distinguished from the larger persecutions of the following century.',$desc$## A Japanese Christian preacher
+(
+'saint-paul-miki',
+'en',
+'Paul Miki was a Japanese Jesuit preacher executed with twenty-five other Christians at Nagasaki in 1597. His martyrdom belongs to the early history of the Japanese Church and must be distinguished from the larger persecutions of the following century.',
+$desc$
+Saint Paul Miki was a Japanese Jesuit, preacher and martyr whose eloquence, courage and unwavering devotion to Jesus Christ made him one of the most celebrated witnesses of the Catholic faith in Japan. Living during a period of profound political change and growing hostility towards Christianity, he devoted himself to proclaiming the Gospel to his own people, drawing upon his knowledge of Japanese culture to explain the Christian faith with clarity and conviction. His ministry was marked by a deep concern for the salvation of souls and a willingness to remain faithful to Christ even when doing so threatened his life. Arrested during the persecution ordered by the ruler Toyotomi Hideyoshi, Paul continued to encourage his fellow Christians and proclaim the Gospel until his death by crucifixion in Nagasaki. He was executed alongside twenty-five other Christians, now honoured as the Twenty-Six Martyrs of Japan. His final witness, marked by forgiveness and hope, remains a powerful example of missionary zeal, spiritual courage and the Christian conviction that love must overcome hatred.
 
-Paul Miki was born in Japan in the sixteenth century, conventionally around 1564. He became a member of the Society of Jesus and was known for preaching the Christian faith to his compatriots. He was Japanese, not a European missionary, and was not an ordained priest. That distinction matters when describing a group frequently remembered through its European religious leaders: Japanese Christians were active teachers and interpreters of the faith, not merely recipients of foreign instruction.
+### A Life of Faith and Religious Vocation
 
-The surviving account used here is Butler's synthesis of histories of the Japanese mission, drawing on earlier missionary narratives. It preserves important information about the execution but also contains outdated names, imprecise political titles, and hostile generalizations about Japanese religion. Those judgments should not be repeated as neutral historical description. The evidence supports an account of a Christian preacher's persecution without requiring a caricature of the society in which he lived.
+Paul Miki was born around the middle of the sixteenth century, traditionally around 1564, into a family of some distinction in Japan. His father was associated with the samurai class, and his family embraced Christianity when Paul was still young. The arrival of Saint Francis Xavier in Japan in 1549 had begun a period of missionary activity that led to the establishment of Christian communities, schools and places of worship in several regions of the country. Paul grew up within this developing Japanese Church and received his education from Jesuit missionaries. As he matured, he felt called to dedicate his life to the proclamation of the Gospel and entered the Society of Jesus. He devoted himself to religious formation, theological study and the demanding work of evangelisation. Although he was not yet a priest when he was arrested, he became a gifted catechist and preacher, renowned for his ability to explain Christian teaching in a way that resonated with his fellow Japanese. His vocation reflected the emergence of a Church no longer dependent exclusively upon foreign missionaries, but increasingly sustained by men and women who understood their own people's language, traditions and concerns. Paul became one of the most prominent examples of this growing Japanese Christian community, demonstrating that the Gospel could take root deeply within a culture while remaining faithful to the universal message of Christ.
 
-## The mission and political suspicion
+### A Preacher in a Time of Political Uncertainty
 
-Christian missionary activity had developed in Japan after Francis Xavier's arrival in 1549. Jesuits and later Franciscans worked within a complicated environment of regional rulers, trade, diplomacy, and changing central authority. Conversions included people from different social backgrounds. The presence of foreign merchants and missionaries, however, meant that religious activity could become entangled with fears of outside intervention.
+During Paul's lifetime, Japan was undergoing a prolonged process of political unification. Toyotomi Hideyoshi, the powerful military ruler who sought to consolidate his authority over the country, became increasingly suspicious of Christianity and the influence of foreign missionaries. In 1587, he issued an order expelling missionaries, although its implementation was inconsistent and Christian communities continued to grow in several regions. The authorities feared that religious allegiance to foreign powers might threaten Japan's independence and political stability. In this uncertain environment, Paul continued his missionary work, preaching to people from different social backgrounds and engaging in discussions with those who followed Buddhist and Shinto traditions. His knowledge of Japanese society enabled him to communicate the Christian message with particular effectiveness, and his reputation as a preacher grew. He did not understand evangelisation as an imposition of foreign customs, but as an invitation to discover the truth of Christ and the hope offered through His Resurrection. Nevertheless, the political tensions surrounding Christianity gradually intensified. The authorities' suspicions eventually gave way to renewed persecution, placing Paul and the Christian communities he served in increasing danger. His perseverance during these years reveals a missionary who remained committed to his vocation even when the future of the Church in Japan appeared uncertain.
 
-Under Toyotomi Hideyoshi, restrictions and episodes of persecution reflected this unstable relationship. Butler reports suspicions that missionaries might prepare the way for Portuguese or Spanish conquest. Such suspicions help explain the political context but do not establish that Paul himself served a colonial project. His Japanese identity and preaching vocation should remain distinct from competing European commercial interests and from accusations used against the Christian communities.
+### Arrest and the Road to Martyrdom
 
-## Arrest and public punishment
+In December 1596, Paul Miki was arrested alongside other Christians as the persecution ordered by Hideyoshi intensified. The group included Jesuit and Franciscan missionaries, as well as Japanese laypeople who had devoted themselves to the Christian faith. After their arrest, they were subjected to public humiliation, including the mutilation of part of the left ear, and paraded through the streets as a warning to others. They were then forced to undertake a long journey to Nagasaki, where the authorities intended to execute them. Throughout their imprisonment and the journey, Paul remained a source of encouragement to his companions, strengthening their resolve and reminding them of the hope they shared in Christ. Rather than allowing fear to silence him, he continued to proclaim the Gospel, even to those who opposed Christianity. His courage was rooted not in contempt for his persecutors, but in the conviction that the love of God was stronger than suffering and death. For Paul and his companions, martyrdom became the ultimate expression of their fidelity to Christ, following the example of the Saviour who had accepted the Cross for the salvation of humanity.
 
-Paul was included among the Christians condemned in the persecution of 1596–1597. The final group comprised twenty-six people: three associated with the Jesuits, six Franciscans, and seventeen other Christians. The companions included Japanese lay believers and young boys as well as religious. They were not all priests, and their varied positions in the Church are important to understanding the collective witness.
+### A Final Witness of Forgiveness
 
-Butler describes mutilation of the prisoners' ears and their display in public places before the journey to Nagasaki. The authorities intended the punishment to warn spectators and discourage adherence to Christianity. The long transfer through towns therefore formed part of the coercion, not merely transportation to a place of execution. Accounts of the prisoners' constancy belong to the missionary testimony through which their deaths became known.
+On a hill overlooking Nagasaki, Paul Miki was crucified alongside twenty-five other Christians on 5 February 1597. The group included religious men and laypeople, among them young Japanese Christians who had remained faithful despite the threat of death. According to the traditional account, Paul used his final moments to address those gathered around him, proclaiming his faith in Jesus Christ and affirming that he died as a Christian and a Japanese man. He declared that the Christian way led to salvation and urged his hearers to recognise the truth of the Gospel. Most strikingly, he forgave those responsible for his execution, following Christ's example of mercy towards His persecutors. His final words embodied the heart of the Gospel he had spent his life proclaiming: love of God must be accompanied by love of neighbour, even when that neighbour becomes an enemy. Paul died united to Christ in His Passion, bearing witness to the hope of the Resurrection. His martyrdom, together with that of his companions, became a defining moment in the history of Japanese Christianity. The Church would later honour all twenty-six as saints, recognising in their deaths a powerful testimony to the courage and spiritual freedom that faith in Christ can inspire.
 
-## Execution at Nagasaki
+### A Legacy of Missionary Zeal and Faithfulness
 
-On 5 February 1597 the twenty-six were executed on a hill outside Nagasaki. The account describes crosses fixed in a row, the prisoners secured with cords, chains, and iron collars, and executioners completing the sentence with spears. This Japanese method should not be confused in every detail with Roman crucifixion. The shared term identifies a related form of public execution, not an identical procedure in different historical settings.
-
-The narrative also reports that priests were able to hear the condemned Christians' confessions. Their preparation was understood sacramentally and communally, as a final act of fidelity rather than a military confrontation. Later remembrance emphasizes Paul's continued profession of faith at the place of death. Where exact speeches are transmitted in martyr narratives, their religious meaning can be recognized without assuming the existence of a verbatim official transcript.
-
-## Memory and historical distinctions
-
-The twenty-six became an enduring point of reference for Japanese Catholicism. Their commemoration preserves the names of Japanese Christians alongside those of foreign missionaries. Paul is especially remembered as a preacher whose final witness continued the work of his life. The event belongs to 1597; it must not be merged with the execution of Charles Spinola and many others in 1622, or with subsequent campaigns against the Church.
-
-Butler places these events within a much longer history of persecution and missionary endurance. Reading them separately prevents the details of later imprisonments and tortures from being mistakenly assigned to Paul. It also avoids the impression that the death of the twenty-six immediately ended Christianity in Japan. Christian communities continued, although increasingly severe repression later forced many believers into concealment. Paul's biography ends at Nagasaki, while the history of the Church that remembered him continued through profound change.
-
-## Sources
-
-- [Alban Butler, Lives of the Saints, February 5: The Martyrs of Japan; consulted edition](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
+Saint Paul Miki and his companions were canonised by Pope Pius IX in 1862. Their witness has remained central to the memory of the Catholic Church in Japan, where Christianity survived further periods of severe persecution. For more than two centuries, many Japanese Christians preserved their faith in secret, often without priests or access to the ordinary structures of the Church. When missionaries returned to Japan in the nineteenth century, they discovered communities that had maintained elements of Christian belief and practice across generations. Although Paul did not live to see this remarkable perseverance, his martyrdom became part of the spiritual foundation upon which the Japanese Church continued to build. He is remembered not only for the courage with which he faced death, but also for his gifts as a preacher and his ability to communicate the Gospel within his own culture. His life demonstrates that missionary work requires both fidelity to the truth of Christ and a sincere understanding of the people to whom that truth is proclaimed. Through his final act of forgiveness, Saint Paul Miki also reminds the faithful that Christian witness reaches its fullest expression when conviction is joined to charity. His example continues to inspire those who seek to proclaim the Gospel courageously, remain faithful amid adversity and respond to hostility with the merciful love of Jesus Christ.
 $desc$),
 ('saint-paul-miki','fr','Paul Miki était un prédicateur jésuite japonais exécuté avec vingt-cinq autres chrétiens à Nagasaki en 1597. Son martyre appartient aux débuts de l’Église japonaise et doit être distingué des persécutions plus étendues du siècle suivant.',$desc$## Un prédicateur chrétien japonais
 
@@ -4649,46 +3520,36 @@ Butler hos eventus in multo longiore historia persecutionis et patientiae missio
 
 - [Albanus Butler, Vitae sanctorum, die 5 Februarii: Martyres Iaponiae; editio consulta](https://raw.githubusercontent.com/GITenberg/The-Lives-of-the-Fathers-Martyrs-and-Principal-SaintsJanuary-February-March_20450/master/20450-8.txt).
 $desc$),
-('saint-jerome-emiliani','en','Jerome Emiliani, a Venetian layman transformed by captivity and conversion, organized care and education for abandoned children in northern Italy. His charitable communities became the Somascan family, whose later clerical organization should not be confused with the founder’s own lay vocation.',$desc$## A Venetian lay vocation
+(
+'saint-jerome-emiliani',
+'en',
+'Jerome Emiliani, a Venetian layman transformed by captivity and conversion, organized care and education for abandoned children in northern Italy. His charitable communities became the Somascan family, whose later clerical organization should not be confused with the founder’s own lay vocation.',
+$desc$
+Saint Jerome Emiliani was an Italian nobleman, priest and founder whose profound conversion and tireless charity made him one of the great pioneers of Christian care for orphans and abandoned children. Born into a distinguished Venetian family, he initially pursued a military career before a period of captivity led him to reconsider the direction of his life and turn himself more completely towards God. From that experience emerged a vocation centred on serving the poor, caring for the sick and providing abandoned children with both education and spiritual formation. Jerome believed that Christian charity required more than temporary relief: it demanded a lasting commitment to restoring dignity, offering guidance and helping the most vulnerable build a better future. He founded the Company of the Servants of the Poor, which later developed into the Somascan religious order, dedicated especially to the care and education of disadvantaged young people. His life remains a powerful witness to the transforming grace of God and to the conviction that genuine holiness is expressed through practical love for those most in need.
 
-Jerome Emiliani, also called Girolamo Miani, came from a Venetian family and initially pursued public and military responsibilities. His life belongs to the upheavals of early sixteenth-century Italy, when warfare, disease, and poverty left many children without protection. Accounts differ over his birth year and some details of his early career. More importantly, older biographies sometimes describe him as a priest, whereas Benedict XVI's 2011 message explicitly identifies him as a layman.
+### A Life Transformed by Captivity
 
-That correction is essential to understanding the foundation associated with him. Jerome's authority arose from conversion, practical charity, and his capacity to gather collaborators, rather than from priestly ordination. Priests worked beside him, and the community later became an order of clerks regular. Its subsequent institutional identity must not be projected backward onto the founder.
+Jerome Emiliani was born in Venice, Italy, in the late fifteenth century, into a noble family. Like many young men of his social position, he entered military service and took part in the conflicts that troubled northern Italy. His early years were shaped by worldly ambitions and the responsibilities associated with his rank. Around 1511, while defending the fortress of Castelnuovo near the River Piave, he was captured by enemy forces and imprisoned. According to Christian tradition, his time in captivity became a decisive turning point in his spiritual life. Facing fear, isolation and uncertainty, Jerome turned to prayer and entrusted himself particularly to the Blessed Virgin Mary, promising to change his life if he were delivered from his imprisonment. Tradition recounts that he was miraculously freed and subsequently fulfilled his vow by visiting a Marian shrine in Treviso. This experience awakened in him a deeper awareness of God's presence and a desire to live according to the Gospel. Although he initially returned to public responsibilities, his priorities gradually changed. He began devoting increasing attention to prayer, the study of the Christian faith and works of charity, discovering that lasting fulfilment could not be found in worldly success alone. His conversion was not simply a moment of gratitude for his deliverance, but the beginning of a lifelong transformation that would eventually lead him to dedicate himself entirely to the service of others.
 
-## Captivity and conversion
+### A Heart Dedicated to the Poor
 
-The decisive event in his spiritual memory was imprisonment during the wars affecting Venetian territory. The Somascan tradition dates his liberation to the night of 27 September 1511. According to that tradition, he promised to change his life and attributed his release to the intercession of the Virgin Mary. He afterward brought his chains to the Marian shrine at Treviso as a sign of thanksgiving.
+Jerome's growing faith became visible through his concern for those who suffered. After returning to Venice, he helped care for members of his family and increasingly devoted his free time to charitable works. He eventually became particularly concerned with the needs of the poor, the sick and children who had lost their parents. This concern became especially urgent during the famine and plague that devastated parts of northern Italy in 1528, leaving many families impoverished and countless children without protection. Jerome placed himself at the service of those affected, using his own resources and encouraging others to join him. He visited the sick, assisted the destitute and worked to provide abandoned children with food, shelter and instruction. Rather than treating these children as a burden on society, he recognised their dignity as beloved children of God, deserving of both material care and opportunities for growth. His charitable work also extended to hospitals and institutions serving those whose needs were often neglected. Jerome's approach reflected a deeply Christian understanding of mercy: love of God must become concrete through the care of one's neighbour. His own conversion had taught him that divine grace could renew a human life, and he sought to offer vulnerable people the same possibility of a new beginning through compassion, education and faithful guidance.
 
-Benedict XVI recalled this episode on its fifth centenary, interpreting physical release as the beginning of an interior freedom from ambition and self-interest. The miraculous circumstances belong to Jerome's received religious testimony; they should not be presented as independently reconstructed military evidence. What the subsequent career makes clear is a sustained reorientation toward the needs of people whom war and social disruption had left unprotected.
+### The Father of Orphans
 
-## Responsibility for children
+The care of orphans gradually became the central mission of Jerome's life. He established homes where abandoned children could receive food, clothing, shelter and religious instruction, while also learning practical skills that would help them support themselves. His approach combined spiritual formation with education and work, seeking to prepare young people for responsible participation in society rather than leaving them dependent on charity. He believed that children needed not only protection from hunger and danger, but also the affection, discipline and encouragement necessary to develop their abilities. Jerome extended his work beyond Venice, establishing charitable institutions in cities including Bergamo and Brescia. In Bergamo, he created separate homes for boys and girls and helped provide assistance to women seeking to rebuild their lives. His efforts attracted the support of other priests and laypeople who shared his concern for the disadvantaged. Through their collaboration, his charitable initiatives became more organised and increasingly capable of reaching those in need. Jerome's work was remarkable for its practical vision: he sought to address immediate suffering while also creating the conditions in which children could grow in faith, knowledge and independence. His ministry helped establish an enduring model of Christian social care, rooted in the belief that every person deserves to be treated with dignity and given the opportunity to flourish.
 
-Jerome's care for his orphaned nephews provided a concrete experience of guardianship. It helped connect family responsibility with a wider concern for children lacking stable homes. His charitable work did not consist only of occasional almsgiving. He sought arrangements in which children could receive food, shelter, human formation, and Christian instruction over time.
+### The Foundation of the Somascan Congregation
 
-During the famine and epidemic of 1528, he became deeply involved in relief in Venice. He gathered abandoned children and obtained accommodation for them, assisted by other lay people. He also worked with institutions caring for the sick. These undertakings required organization, money, cooperation, and daily service; the needs were too extensive for a single generous gesture or a merely private religious practice.
+As his charitable work expanded, Jerome gathered companions who wished to dedicate themselves to the service of the poor and abandoned. Around 1532, he established a religious community at Somasca, a small settlement between Milan and Bergamo. The group became known as the Company of the Servants of the Poor and eventually developed into the Congregation of the Somascan Clerics Regular. Its principal mission was the care and education of orphans, poor children and other vulnerable people. Jerome insisted that those who joined him should embrace a life of simplicity, prayer and service, ensuring that the community's resources remained directed towards the people it had been founded to help. He did not seek prestige or comfort through his work; instead, he wished his companions to share something of the poverty and insecurity experienced by those in their care. The community's spirituality was deeply Marian, and Jerome encouraged his followers to look to the Blessed Virgin Mary as a mother and model of faithful service. Although the congregation developed further after his death, its essential purpose remained rooted in his vision of charity as both a spiritual vocation and a practical responsibility. Through this foundation, Jerome helped establish a lasting institution devoted to continuing the work that had transformed his own life.
 
-## A network in northern Italy
+### A Final Act of Charity
 
-His activity expanded beyond Venice. Accounts associate him with charitable foundations at Verona, Brescia, and Bergamo, including provision for boys and girls. At Bergamo, assistance also extended to women seeking to leave prostitution. These different works responded to related forms of insecurity, although the circumstances and needs of the people concerned were not identical.
+Jerome's dedication to the sick and the poor eventually cost him his life. While caring for victims of an epidemic in the region of Bergamo, he contracted an illness and withdrew to Somasca, where his condition worsened. He died in 1537, having spent his final years in the service of those who were most vulnerable. His death reflected the same spirit that had guided his conversion: he had come to understand his life not as something to preserve for his own comfort, but as a gift to be offered to God and neighbour. His companions continued the work he had begun, and the community gradually gained ecclesiastical recognition before developing into a religious order. Jerome was canonised in 1767, and his example became especially associated with the protection and education of orphans and abandoned youth.
 
-Jerome attracted collaborators, including the priests Alessandro Besuzio and Agostino Bariso. A common form of life developed in the early 1530s, with Somasca, between Milan and Bergamo, becoming the community's enduring geographical center. The aim was not to withdraw from vulnerable people but to sustain service through shared prayer, discipline, and responsibility. Simplicity in accommodation, food, and clothing was part of that commitment.
+### A Lasting Legacy of Mercy and Renewal
 
-## Service, illness, and death
-
-The spiritual interpretation offered by Benedict XVI places love at the heart of Jerome's educational work. Technical instruction alone could not supply what abandoned children lacked. They needed patient attention and reliable relationships. This is a description of the founder's charitable purpose, not evidence that every later institution always realized it perfectly; the history of an order and the intentions of its founder remain distinguishable.
-
-Jerome continued caring for the sick and contracted the illness from which he died at Somasca on 8 February 1537. Describing him as a martyr of charity expresses the religious meaning of his service, not a judicial execution for the faith. His death also exposed the vulnerability of the young community, whose survival depended upon collaborators able to maintain its work without his personal leadership.
-
-## The community after its founder
-
-The Somascan family acquired ecclesiastical approvals and a more definite religious organization after Jerome's death. Periods of association with other reforming communities preceded its establishment as an order of clerks regular. This development explains both the clerical form known later and the importance of remembering the lay initiative at its origin.
-
-Jerome was canonized in 1767. His historical significance lies in linking conversion with sustained institutions of care, especially for children who had lost family protection. The papal description of him as a layman who animated other lay people offers a precise corrective to accounts that make holiness in this work dependent upon a priesthood he did not possess.
-
-## Sources
-
-- [Benedict XVI, Message to the Somascan order, 20 July 2011; consulted Vatican text mirror](https://raw.githubusercontent.com/lologhi/vatican/master/benedict-xvi/messages/pont-messages/2011/2011-07-20-moscone.md).
-- [Catholic Encyclopedia, Saint Jerome Emiliani; consulted historical article, with its priesthood claim corrected by the papal message](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/08343a.htm).
+Saint Jerome Emiliani is remembered as a pioneer of Christian charitable education and as a model of conversion expressed through concrete acts of love. His life demonstrates how a personal encounter with God's grace can redirect even the most established ambitions towards a vocation of service. Rather than limiting charity to immediate assistance, he sought to restore dignity, encourage independence and nurture the spiritual lives of those entrusted to his care. The religious community he founded continued his mission, helping generations of disadvantaged children and young people. Jerome's example remains particularly relevant to all who work to protect vulnerable children, support families in difficulty and offer hope to those who have been abandoned. His life reminds the faithful that no past is beyond the possibility of conversion and that holiness often begins when a person learns to recognise Christ in the suffering of others. Through his perseverance, humility and generous love, Saint Jerome Emiliani continues to bear witness to the transforming power of the Gospel and to the truth that serving the most forgotten is a profound way of serving God Himself.
 $desc$),
 ('saint-jerome-emiliani','fr','Jérôme Émilien, laïc vénitien transformé par la captivité et la conversion, organisa l’accueil et l’éducation d’enfants abandonnés en Italie du Nord. Ses communautés charitables devinrent la famille somasque, dont l’organisation cléricale ultérieure ne doit pas être confondue avec sa vocation laïque.',$desc$## Une vocation laïque vénitienne
 
@@ -4772,45 +3633,40 @@ Hieronymus anno 1767 canonizatus est. Momentum eius historicum in conversione cu
 - [Benedictus XVI, Nuntius Ordini Somasco, die 20 Iulii 2011; exemplar textus Vaticani consultum](https://raw.githubusercontent.com/lologhi/vatican/master/benedict-xvi/messages/pont-messages/2011/2011-07-20-moscone.md).
 - [Encyclopaedia Catholica, Sanctus Hieronymus Aemilianus; articulus historicus consultus, cuius assertio de sacerdotio nuntio pontificio emendatur](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/08343a.htm).
 $desc$),
-('saint-josephine-bakhita','en','Josephine Bakhita survived enslavement in Sudan before gaining freedom and entering the Canossian religious family in Italy. Her remembered experience of violence, Christian conversion, and freely chosen service became an important Catholic witness to human dignity, forgiveness, and hope.',$desc$## A childhood interrupted by slavery
+(
+'saint-josephine-bakhita',
+'en',
+'Josephine Bakhita survived enslavement in Sudan before gaining freedom and entering the Canossian religious family in Italy. Her remembered experience of violence, Christian conversion, and freely chosen service became an important Catholic witness to human dignity, forgiveness, and hope.',
+$desc$
+Saint Josephine Bakhita was a Sudanese Canossian religious sister whose life became a remarkable testimony to the transforming power of faith, forgiveness and the love of God. Born in Africa during the nineteenth century, she was kidnapped as a child and sold into slavery, enduring years of humiliation, violence and uncertainty before eventually discovering Christianity and entering religious life in Italy. Despite the suffering she had experienced, Bakhita gradually came to know a God whom she understood not as a master who inflicted fear, but as a loving Father who had always accompanied her, even in the darkest moments of her life. Her encounter with Christ brought her a profound sense of freedom and dignity, allowing her to embrace her past without allowing it to define her future. As a Canossian sister, she devoted herself to prayer, humble service and the care of others, becoming especially beloved for her gentleness, simplicity and joyful spirit. Canonised by Pope John Paul II, Saint Josephine Bakhita remains an enduring witness to human dignity, Christian hope and the freedom that comes from discovering oneself loved by God.
 
-Josephine Bakhita was born in the Darfur region of Sudan around 1869. Her exact birth date was unknown to her. The remembered story of her childhood was marked by abduction, sale, and the loss of the secure family world in which she had begun life. Her biography therefore cannot be narrated with the ordinary continuity of school records and family papers. Much of the early story comes from recollections preserved after she reached freedom.
+### A Childhood Stolen by Slavery
 
-Enslavers repeatedly sold her within Sudan. She experienced beatings and other forms of deliberate bodily injury. Benedict XVI's account in Spe salvi recalls the lasting scars of those abuses. Such violence should be described soberly, without turning the suffering of a child into a spectacle. Nor does the later Christian interpretation of her life make the enslavement a good or necessary event.
+Josephine Bakhita was born around 1869 in the Darfur region of present-day Sudan, into a family belonging to the Daju people. Her original name has not been preserved with certainty, and the name Bakhita, meaning "fortunate" or "fortunate one" in Arabic, was given to her by those who enslaved her. When she was approximately seven or nine years old, she was kidnapped by slave traders, separated from her family and forced into a life of captivity. She was sold several times and subjected to severe physical and psychological suffering. The trauma was so profound that she eventually forgot the name given to her at birth and much of her early life. She later recalled the fear and humiliation she had endured, including the brutal treatment inflicted upon her by some of her captors. Her childhood, which should have been a time of safety and growth, was marked instead by the denial of her freedom and the destruction of her family ties. Yet even after these experiences, Bakhita's story would not end in bitterness or despair. The suffering she endured reveals the terrible reality of slavery, while her later life demonstrates that a person's dignity cannot be erased by the cruelty of others. Her journey towards freedom would gradually lead her to discover a faith that transformed her understanding of herself, of suffering and of the God who calls every human being by name.
 
-## From Sudan to Italy
+### The Road Towards Freedom
 
-Bakhita eventually came into the household of the Italian consul Callisto Legnani. This change brought relief from the worst treatment she had known, but a less violent household was not equivalent to freedom. She subsequently traveled to Italy, where she learned the Venetian language and encountered people and institutions that opened possibilities previously denied to her.
+After years of captivity, Bakhita was sold to an Italian official who eventually brought her to Italy. There, she was entrusted to the care of the Canossian Sisters in Venice while the family she had been serving was temporarily away. It was through this encounter that she began to learn about Christianity. The sisters introduced her to the story of Jesus Christ, the God who had suffered for humanity and offered His love to all people without distinction. For Bakhita, who had experienced the cruelty of those who claimed ownership over her, this revelation was deeply moving. She later described her growing awareness of God as the discovery of a Lord whom she had known without knowing His name, a presence who had accompanied her throughout her suffering. Her desire to receive Christian instruction deepened, and she began preparing for baptism. Meanwhile, when the Italian family returned and wished to take her back to Africa, Bakhita chose to remain in Italy. A legal dispute followed, and the Italian authorities determined that she could not be compelled to return to a condition of slavery, which was not legally recognised in Italy. She was declared free to choose her own future. This decision marked a decisive turning point in her life: for the first time since childhood, she could determine her own path. Her freedom was not simply a change in legal status, but the beginning of a new life in which faith, dignity and personal choice could flourish.
 
-The distinction between improved conditions and personal liberty is important. Bakhita's life was not simply a succession of owners, ending with a kinder one. Her later refusal to return to Sudan and her decision to remain in Italy expressed her own will. A biography that records only the actions of Europeans around her would miss the agency that became decisive in the direction of her life.
+### Baptism and a New Life in Christ
 
-## Encounter with Christianity
+On 9 January 1890, Bakhita received baptism in Venice, taking the Christian names Josephine Margaret and Fortunata. She also received the sacraments of Confirmation and First Holy Communion. Her entry into the Church marked the culmination of a spiritual journey that had begun with curiosity and developed into a profound personal relationship with Christ. Josephine came to understand Christianity not merely as a set of teachings, but as an encounter with the God who loved her and had never abandoned her. Her gratitude for this discovery grew into a desire to dedicate her entire life to Him. After prayerful discernment, she entered the Canossian Institute, a religious congregation devoted to education, charity and the service of the poor. Despite the extraordinary suffering of her earlier years, Josephine did not allow hatred to become the centre of her identity. Instead, she sought to live according to the Gospel, embracing humility, obedience and a spirit of forgiveness. Her vocation was not an escape from the world, but a way of offering her life in gratitude for the freedom and love she had discovered in Christ. Through religious life, she found a spiritual home and a community in which she could serve others with the same compassion that had helped restore her own sense of belonging.
 
-In Italy Bakhita came to know the Canossian sisters and received instruction in the Christian faith. Benedict XVI explains her conversion through the contrast between the human masters who had treated her as property and the God whom she understood to know and love her personally. In the Venetian dialect she called this divine Lord her Paron. The word acquired a different meaning from the domination she had suffered.
+### A Religious Life of Humility and Service
 
-For her, Christ's suffering also meant that the Lord she encountered was not indifferent to bodily humiliation. The theological interpretation in Spe salvi describes her as recognizing herself as a beloved daughter rather than a disposable possession. This account concerns her understanding of faith; it does not replace the legal and social reality of emancipation with a merely inward freedom, or excuse the institutions that had denied her dignity.
+In 1893, Josephine entered the novitiate of the Canossian Sisters, a congregation founded by Saint Magdalene of Canossa and dedicated to education, charity and the service of the poor. She made her religious profession in 1896, consecrating herself to God through a life of prayer, obedience and humble work. In the years that followed, she served in various roles, including cooking, sacristy duties and caring for the needs of the convent. In 1902, she was transferred to the Canossian community in Schio, in northern Italy, where she would remain for the rest of her life. There, she became known affectionately as *Madre Moretta*, an Italian expression meaning approximately “little Black mother,” reflecting the affection of the local community. Her duties eventually included welcoming visitors and assisting those who came to the convent. Although her responsibilities were often ordinary and hidden from public view, Josephine carried them out with remarkable kindness and patience. Children were especially drawn to her gentle manner, while the poor and suffering found comfort in her presence. She did not seek recognition for her past or attempt to distinguish herself through extraordinary deeds. Instead, she embraced the conviction that holiness grows through the faithful performance of everyday responsibilities and through the love with which each task is offered to God.
 
-## Baptism and a chosen religious life
+### Forgiveness and the Freedom of the Heart
 
-When a return to Sudan was proposed, Bakhita refused. Her desire to continue Christian formation and remain close to the community in which she had found support was a personal decision. On 9 January 1890 she received baptism, confirmation, and first Communion from the patriarch of Venice. These events publicly marked her entrance into the Catholic Church.
+One of the most striking aspects of Josephine Bakhita's spirituality was her capacity for forgiveness. Having endured kidnapping, enslavement and severe abuse, she possessed every human reason to remain consumed by bitterness towards those who had harmed her. Yet she gradually came to understand her life through the mercy of God, whose love had restored her sense of dignity and given her a new future. When asked what she would do if she encountered those who had enslaved and tortured her, she reportedly answered that she would kneel and kiss their hands, because without the events of her past she might never have come to know Christ and become a religious sister. These words do not diminish the injustice of slavery or suggest that the suffering inflicted upon her was acceptable. Rather, they reveal her extraordinary freedom to refuse hatred and entrust the wounds of her past to God. Her forgiveness was rooted in the Gospel, particularly in Christ's command to love one's enemies and pray for those who persecute us. Josephine's example offers a profound Christian witness to the possibility of healing without denying the reality of evil. She demonstrates that forgiveness is not the same as forgetting injustice, but can be a way of refusing to let injustice possess the heart forever. Through her life, she showed that the grace of God can bring hope even into memories marked by profound suffering.
 
-She subsequently entered the Canossian religious family. On 8 December 1896 she pronounced her vows at Verona. Religious commitment was thus a freely embraced form of belonging after a childhood in which belonging to others had meant coercion. Her profession should not be described as the simple replacement of one dependency with another: its meaning in her own religious testimony rested upon consent, faith, and service.
+### A Witness of Hope to the End
 
-## Ordinary service and public testimony
+During her later years, Josephine became increasingly known beyond the convent. Beginning in the 1930s, she travelled with another Canossian sister to speak about missionary work and share something of her extraordinary spiritual journey. Her testimony encouraged many people, particularly those who were suffering or searching for meaning in difficult circumstances. As her health deteriorated, she was eventually unable to continue travelling and devoted herself more fully to prayer. The painful memories of her captivity sometimes returned during periods of illness, reminding those around her that her spiritual peace did not mean she had been untouched by trauma. Nevertheless, she continued to place her trust in God with humility and perseverance. Josephine died in Schio on 8 February 1947, surrounded by her religious sisters. Her death was deeply mourned by the local community, whose members had come to love her for her goodness, simplicity and enduring smile. Her reputation for holiness continued to spread after her death, and she was beatified by Pope John Paul II in 1992 before being canonised by him on 1 October 2000. Through this recognition, the Church affirmed the extraordinary Christian witness of a woman whose life had been marked by suffering but ultimately defined by faith, charity and hope.
 
-Her work included responsibilities in the sacristy and at the convent door. These duties placed her within the ordinary rhythm of a religious household, rather than a succession of dramatic public achievements. Hospitality, worship, and the practical needs of a community gave concrete form to the life she had chosen. The years following her profession were therefore not merely an epilogue to the story of captivity.
+### A Lasting Legacy of Dignity and Christian Freedom
 
-Bakhita also traveled in Italy in connection with the missionary work of her congregation. Her experience became a way of communicating the hope she associated with Christian faith. Benedict XVI stresses that she did not regard this hope as a private possession. Her willingness to speak and to serve connected personal liberation with concern for other people, without erasing the historical difference between her circumstances and theirs.
-
-## Remembrance and interpretation
-
-Bakhita died in 1947 and was canonized by John Paul II. Her remembrance has become especially important in Catholic reflection on slavery, the dignity of persons, and Christian hope. The encyclical Spe salvi offers a theological reading rather than a complete critical biography, and its details about the earliest years depend on the transmitted recollections of an experience that slavery itself had disrupted.
-
-Her enduring witness should therefore be expressed without sentimentalizing captivity or minimizing its injuries. The narrative moves toward an adult woman's freedom, convictions, relationships, and work. Forgiveness in that setting is not a declaration that abuse was harmless. It belongs to the way Bakhita understood her life after violence, while the obligation to recognize and resist the degradation of human beings remains intact.
-
-## Sources
-
-- [Benedict XVI, Spe salvi, 30 November 2007, especially section 3; consulted Vatican text mirror](https://raw.githubusercontent.com/lologhi/vatican/master/benedict-xvi/encyclicals/2007-11-30-spe-salvi.md).
+Saint Josephine Bakhita is remembered as a powerful witness to the dignity of every human person and to the freedom that comes from knowing oneself loved by God. Her life speaks with particular force against slavery and human trafficking, reminding the world that no person can rightly be treated as property or deprived of their fundamental dignity. Yet her legacy extends beyond her experience as a survivor of slavery. She is also honoured as a religious sister whose quiet service, deep prayer and capacity for forgiveness transformed the lives of those around her. Bakhita did not allow the violence of her past to have the final word over her identity. Instead, she discovered in Christ a love that could not be taken away and a freedom deeper than any external circumstance. Her example invites the faithful to recognise the suffering of others, to defend those who are vulnerable and to seek the grace to forgive without ever excusing injustice. Saint Josephine Bakhita remains a reminder that holiness can emerge from the most painful circumstances and that a heart touched by God's mercy can become a source of consolation and hope for the whole world.
 $desc$),
 ('saint-josephine-bakhita','fr','Joséphine Bakhita survécut à l’esclavage au Soudan avant de trouver la liberté et d’entrer chez les Canossiennes en Italie. Son expérience de la violence, sa conversion chrétienne et son service librement choisi devinrent un important témoignage catholique de dignité humaine, de pardon et d’espérance.',$desc$## Une enfance interrompue par l'esclavage
 
@@ -4907,38 +3763,28 @@ FROM saints AS s
 JOIN (VALUES
 ('saint-francis-of-paola', 'en',
 'Francis of Paola was a Calabrian hermit and founder of the Minims. His communities combined poverty, humility and rigorous abstinence; summoned to France, he became a spiritual counsellor at the royal court while preserving his penitential vocation.',
-$desc$## A Calabrian vocation
+$desc$
+Saint Francis of Paola was an Italian hermit and founder of the Order of Minims whose humility, austere life and concern for the poor made him a renowned spiritual figure of the fifteenth century. Born in Calabria, in southern Italy, he devoted himself to prayer and penance from a young age, seeking to follow Christ through simplicity and detachment from worldly comforts. His reputation for holiness gradually attracted disciples, and the small community that formed around him developed into a religious order dedicated to humility, charity and rigorous abstinence. Despite his desire for solitude, Francis became a trusted spiritual guide and a courageous defender of those suffering under the abuses of the powerful. His reputation eventually reached the royal court of France, where he was called upon to advise King Louis XI. Throughout his life, Francis remained faithful to his conviction that true greatness is found not in wealth or authority, but in humility, self-denial and complete trust in God.
 
-Francis of Paola founded the Order of Minims, a religious family whose name expressed the desire to be the least among Christ's servants. Born at Paola in Calabria in 1416, according to the commonly accepted chronology, he died at Plessis-les-Tours in France on 2 April 1507. His long life linked a local movement of hermits in southern Italy with the courts and religious institutions of western Europe. The sources combine identifiable foundations and papal approvals with devotional narratives; these different kinds of evidence should not be treated as interchangeable.
+### A Childhood Marked by Faith
 
-His parents' devotion to Francis of Assisi shaped the account of his childhood. According to the early religious tradition, they promised that he would spend a year wearing the Franciscan habit if an illness threatening his eyesight was healed. At about thirteen he fulfilled this promise in a Franciscan house. This temporary residence was not the beginning of a career as a Franciscan friar. Afterward he travelled with his parents to places of pilgrimage, including Assisi and Rome, and returned to Calabria with a strong attraction to solitude.
+Francis was born on 27 March 1416 in Paola, in Calabria, into a devout Christian family. According to tradition, his parents prayed to Saint Francis of Assisi for a child and promised that their son would spend a year with the Franciscan friars if he recovered from a serious eye infection. After his recovery, Francis fulfilled this promise by entering a Franciscan convent at San Marco Argentano as a young adolescent. There, he developed a strong attraction to prayer and religious discipline. Later, during a pilgrimage with his parents to important Christian sites, including Rome and Assisi, he became increasingly drawn to the austere life of hermits. Troubled by the splendour he encountered in Rome, he felt called to pursue a simpler and more contemplative way of life. Returning to Calabria, he withdrew to a secluded place near his hometown, determined to dedicate himself to God through prayer, fasting and solitude.
 
-## Solitude becomes a community
+### The Life of a Hermit
 
-Francis first withdrew on his family's property and later occupied a cave near the coast. Prayer, fasting and a materially austere existence defined this period. The traditional chronology gives approximately six years to his initial solitude and places the arrival of two companions in 1435. Cells and a chapel provided the first common buildings. What became an international order therefore began without an elaborate institutional plan: other people wished to share the life of a hermit whose reputation had spread beyond his retreat.
+Francis began his life as a hermit in a simple dwelling on land belonging to his family. He embraced poverty and rigorous penance, seeking to discipline his desires and grow in humility before God. His reputation for holiness gradually spread, and others came to him for spiritual guidance. Some eventually chose to share his way of life, building simple dwellings and a chapel near his hermitage. Although Francis valued solitude, he accepted the responsibility of guiding these companions, recognising that their common vocation required prayer, discipline and mutual charity. Their community received ecclesiastical recognition in 1474 and became the foundation of the Order of Minims. The name *Minims*, meaning “the least ones,” expressed Francis's desire that his followers should consider themselves humble servants of God and neighbour. Their rule emphasised poverty, obedience and an especially rigorous form of abstinence, intended to foster self-discipline and a deeper dependence on divine providence. For Francis, penance was not an end in itself, but a means of turning the heart away from selfishness and towards the love of God.
 
-As the community grew, Francis obtained local ecclesiastical permission to build a larger monastery and church near Paola. The Catholic Encyclopedia places this development about 1454 under the archbishop of Cosenza. Local support was important, with laypeople contributing labour and resources. Francis's withdrawal from society did not make the community indifferent to its neighbours. Those who approached him sought counsel, prayer and help, while the foundation depended on relationships with the surrounding population and with the bishops responsible for its recognition.
+### A Defender of the Poor
 
-## The Minims and their rule
+Despite his austere life, Francis did not withdraw from the needs of society. He became known for defending the poor and speaking against abuses committed by powerful figures in the Kingdom of Naples. His reputation attracted people from many backgrounds, who sought his prayers, counsel and assistance. Traditional accounts also attribute numerous miracles to his intercession, reflecting the devotion inspired by his life. One famous story recounts that, after a boatman refused to take him across the Strait of Messina, Francis spread his cloak upon the water and crossed with his companions. Although such accounts belong to the tradition surrounding his sanctity, they express the confidence Christians placed in his faith and his trust in God's providence. Francis's concern for the poor revealed that his commitment to penance was inseparable from charity. He renounced comfort for himself while remaining attentive to the suffering of others, convinced that authentic devotion must bear fruit in practical love and a courageous defence of human dignity.
 
-The emerging religious family joined poverty and humility to unusually strict abstinence. The name Minims, from the Latin for “least,” carried a deliberate spiritual meaning rather than a claim to worldly distinction. The brothers were to renounce self-importance as well as possessions. Their superiors were called correctors, terminology consistent with a community devoted to conversion of life. The rule developed over time; recognition of the community and approval of its definitive legislation were separate stages rather than one founding act.
+### A Mission at the French Court
 
-Sixtus IV authorized the community in 1474, and later approvals under Alexander VI and Julius II gave its observance a settled form. The definitive rule received approval in 1506. Its distinctive fourth vow committed the religious to a perpetual Lenten form of abstinence, in addition to poverty, chastity and obedience. This excluded meat and animal products from their ordinary diet. Francis also provided for women religious and for lay followers living in the world. The resulting religious family was related spiritually to the Franciscan tradition without being simply another Franciscan province.
+Francis's reputation eventually reached France, where King Louis XI, gravely ill, asked Pope Sixtus IV to send the hermit to him. Reluctant to leave his community, Francis nevertheless accepted the journey out of obedience to the pope. He arrived in France in 1483 and remained there for the rest of his life. Although the king hoped that Francis might restore his health, Louis XI did not recover. Francis instead encouraged him to prepare for death with humility and trust in God's mercy. Despite his proximity to royal power, the hermit continued to live simply, maintaining his habits of prayer and penance. He offered spiritual counsel to people of every social rank and helped establish new communities of his order in France. His presence at court demonstrated that spiritual authority does not depend upon wealth, education or political influence. Francis remained faithful to his vocation, reminding even the most powerful rulers that earthly status is temporary and that every person is called to seek reconciliation with God.
 
-## A hermit at the French court
+### A Lasting Legacy of Humility and Holiness
 
-Louis XI, gravely ill and impressed by reports of Francis's holiness, requested his presence in France. Francis did not readily abandon Calabria; papal intervention finally brought him to the king at Plessis-les-Tours. The encounter illustrates both the reach of his reputation and the difference between royal expectations and religious counsel. He remained with Louis until the king's death. His historical significance at court lay in spiritual assistance and moral authority, not in holding a governmental office or guaranteeing a miraculous cure.
-
-Charles VIII continued to value his advice and supported Minim foundations, including houses at Plessis and in Rome. Louis XII likewise wanted him to remain in France. Francis consequently spent his final years far from the Calabrian solitude where his vocation had begun. His order expanded into several European regions during his lifetime. Accounts of prophecy and wonders, especially the story that he crossed the Strait of Messina on his cloak, belong to the hagiographic tradition; they should be presented as such rather than as independently documented episodes.
-
-## Death and remembrance
-
-In his final illness Francis gathered his community and urged mutual charity and fidelity to its observance. The traditional account describes his reception of the sacraments and the reading of John's Passion as he died on Good Friday 1507. Leo X canonized him in 1519. His tomb was violated and his remains largely destroyed during the French religious conflicts of 1562. The enduring institutional legacy is the Minim family, with its demanding penitential rule and its insistence that humility must shape communal relationships as well as individual prayer.
-
-## Sources
-
-- [Catholic Encyclopedia, “St. Francis of Paula,” consulted digital text](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/06231a.md).
-- [Encyclopaedia Britannica (1911), “Francis of Paola,” consulted digital text](https://github.com/shaqmughal/seekstone/blob/main/packages/harness/fixtures/vault/Encyclopedia/F/Francis%20Of%20Paola.md).
+Saint Francis of Paola died in France in 1507, after a lifetime devoted to prayer, penance and the service of others. He was canonised by Pope Leo X in 1519, and the Order of Minims continued to spread his spirituality of humility, abstinence and charity. He is particularly remembered as a patron of sailors, a devotion associated with the traditional account of his crossing of the Strait of Messina. Yet his enduring significance lies above all in the example of a man who combined a demanding life of prayer with a courageous concern for the poor and oppressed. Francis understood humility not as weakness, but as freedom from pride and the desire for worldly recognition. His life reminds the faithful that holiness grows through perseverance, simplicity and a sincere willingness to serve others. Saint Francis of Paola continues to bear witness to the transforming power of a life centred on Christ, teaching that true greatness is found in becoming small in the service of God and neighbour.
 $desc$),
 ('saint-francis-of-paola', 'fr',
 'François de Paule, ermite calabrais, fonda les Minimes. Ses communautés unirent pauvreté, humilité et abstinence rigoureuse ; appelé en France, il devint conseiller spirituel à la cour royale tout en conservant sa vocation pénitentielle et sa fidélité à la prière.',
@@ -5012,40 +3858,28 @@ In ultimo morbo Franciscus communitatem congregavit et caritatem mutuam fidelita
 $desc$),
 ('saint-isidore', 'en',
 'Isidore, bishop of Seville, joined pastoral leadership to an ambitious preservation of learning in Visigothic Spain. His Etymologies transmitted ancient knowledge to medieval readers, while his theological writings and conciliar work shaped Christian education and ecclesiastical discipline.',
-$desc$## Bishop in a changing society
+$desc$
+Saint Isidore of Seville was a Spanish bishop, theologian and scholar whose extraordinary learning and pastoral wisdom made him one of the most influential figures in the history of the early Church. Living during a period of profound political and cultural change in the Iberian Peninsula, he devoted his life to preserving Christian learning, strengthening the faith and guiding his people towards greater unity within the Church. Renowned for his intellectual gifts and his dedication to education, Isidore sought to bring together the wisdom of classical antiquity and the teachings of Christian tradition. His writings covered an extraordinary range of subjects, from theology and history to grammar, science and the liberal arts. Yet his scholarship was never separated from his pastoral responsibilities: as Archbishop of Seville, he worked to educate the clergy, care for the poor and encourage the spiritual renewal of Christian society. Remembered as one of the last great Latin Fathers of the Church, Saint Isidore remains a model of wisdom, learning and faithful service.
 
-Isidore of Seville was a bishop, theologian, historian and compiler whose writings became fundamental resources for medieval education. Born about 560, traditionally at Cartagena, he died on 4 April 636. His family belonged to the Christian society of southern Spain. His elder brother Leander preceded him as bishop of Seville, another brother, Fulgentius, was a bishop, and his sister Florentina was a religious woman. This family setting connected his education and vocation with the development of the Church in the Visigothic kingdom.
+### A Childhood Shaped by Faith and Learning
 
-The details of his earliest education are less certain than his later literary activity. He was formed in the learned ecclesiastical environment of Seville, where Leander played a decisive role. Whether Isidore himself became a monk remains disputed; his esteem for monastic life does not establish that he made a monastic profession. He succeeded Leander around the end of the sixth century. His episcopate belonged to a period when Roman cultural inheritance, Gothic political power and Catholic institutions were being brought into new relationships.
+Isidore was born around 560 in Cartagena, in present-day Spain, into a Hispano-Roman family deeply rooted in the Christian faith. His family produced several important figures in the Church: his elder brother, Leander, became Archbishop of Seville; his younger brother, Fulgentius, served as a bishop; and his sister, Florentina, embraced religious life. After their family settled in Seville, Isidore received his education under the guidance of Leander, who played a decisive role in his intellectual and spiritual formation. He studied Scripture, classical literature and the liberal arts, developing a remarkable breadth of knowledge. His education took place during a period when the Visigothic rulers of Spain largely adhered to Arian Christianity, which differed from the Catholic faith on the divinity of Christ. The religious divisions of the time made the work of Catholic bishops particularly important. Through his studies, Isidore came to understand that learning could serve not only personal development but also the defence of Christian doctrine and the strengthening of the Church. His formation prepared him for a life in which intellectual discipline, pastoral responsibility and fidelity to Catholic teaching would remain closely united.
 
-## Councils and education
+### Archbishop of Seville
 
-Isidore's responsibilities were not confined to writing. He presided at the Second Council of Seville in 619 and played a leading role at the Fourth Council of Toledo in 633. Such assemblies addressed doctrine, clerical discipline, worship and relations between the Church and the kingdom. His work continued the consolidation of Catholic Christianity after the Visigothic monarchy's abandonment of Arianism. This was a religious and political process, not simply an intellectual dispute settled by one scholar's books.
+Following the death of his brother Leander, Isidore succeeded him as Archbishop of Seville around the beginning of the seventh century. He inherited a Church facing significant challenges, including religious divisions, uneven levels of education among the clergy and the need to strengthen Christian life throughout the kingdom. As bishop, Isidore worked to improve clerical formation, encouraging the establishment of schools where future priests could study Scripture, theology and the liberal arts. He also supported monastic communities and promoted a disciplined spiritual life grounded in prayer, learning and obedience. His pastoral leadership extended beyond his own diocese. In 633, he presided over the Fourth Council of Toledo, an important gathering of Spanish bishops that addressed questions of ecclesiastical discipline, education and the organisation of the Church. Isidore played a major role in shaping its decisions, particularly those concerning the formation of clergy. He also contributed to the strengthening of Catholic unity in Visigothic Spain, continuing the work of reconciliation between the Church and the kingdom's rulers. Throughout his episcopate, he sought to combine doctrinal fidelity with practical wisdom, convinced that a well-formed clergy and a properly instructed faithful were essential to the flourishing of Christian life.
 
-Education was central to his pastoral programme. The council of 633 required episcopal centres to provide instruction for clergy, building on practices represented by Seville. Knowledge of Scripture and ecclesiastical duties needed the support of grammar and the liberal arts. Isidore's educational activity should not be confused with the modern university or the seminaries established many centuries later. Its importance lay in sustaining trained Christian ministry and maintaining access to Latin learning within the institutions available in his own society.
+### A Scholar in the Service of the Church
 
-## The Etymologies
+Isidore's most enduring intellectual achievement was the *Etymologiae*, an extensive encyclopaedia arranged in twenty books. In this work, he gathered and organised knowledge from classical authors and Christian writers, covering subjects such as grammar, rhetoric, mathematics, medicine, law, history and theology. At a time when political upheaval threatened the transmission of ancient learning, his efforts helped preserve important elements of the intellectual heritage of the ancient world. The *Etymologiae* became one of the most widely used reference works of the Middle Ages, influencing education in monasteries and schools for centuries. Isidore also wrote theological commentaries, historical works and treatises intended to instruct Christians in their faith. His scholarship reflected the conviction that human knowledge, properly understood, could illuminate the created order and lead the mind towards its Creator. He did not regard learning as an end in itself, but as a means of serving truth, strengthening Christian understanding and preparing people for a life of virtue. His example demonstrates how intellectual excellence can become a form of religious service when it is guided by humility and directed towards the good of others.
 
-His best-known work, the Etymologiae or Origines, assembled a remarkably broad range of knowledge. Prepared late in his life and associated with his friend Braulio of Zaragoza, it circulated in twenty books. It covered language, rhetoric and dialectic, mathematical subjects, medicine, law, Scripture, ecclesiastical life, peoples, geography, animals, agriculture, buildings, clothing and everyday tools. The scope makes clear that his interest in learning extended beyond narrowly theological questions. Knowledge of the created world and human activity belonged within an ordered Christian intellectual life.
+### Charity and Pastoral Devotion
 
-The method often approached things through the explanation of their names. Many proposed derivations are not accepted by modern linguistics, and inherited natural history sometimes preserved errors alongside valuable observations. Isidore was primarily a compiler rather than an experimental investigator. He drew on Christian and classical authors, sometimes directly and sometimes through earlier collections. These limitations do not cancel the work's importance: it preserved material that might otherwise have become inaccessible and provided an exceptionally usable framework for subsequent teachers and readers.
+Despite his considerable learning and responsibilities, Isidore remained deeply concerned with the practical needs of the people entrusted to him. He was known for his generosity towards the poor and his willingness to share the resources of the Church with those experiencing hardship. He also encouraged a disciplined liturgical and spiritual life, helping to strengthen the traditions of worship that developed in the Iberian Peninsula. His concern for education extended to the conviction that priests must be able to teach the faith clearly and guide their communities with wisdom. For Isidore, pastoral care required both knowledge and compassion: doctrine had to be understood faithfully, but it also had to be communicated in a way that helped people grow in holiness. His life united the responsibilities of a scholar, teacher and shepherd, showing that intellectual work and charity belong together in the service of Christ.
 
-The book's success also had an ambiguous consequence. Readers could consult the convenient synthesis instead of returning to the longer works from which it drew. Yet its very accessibility made it one of the most influential educational books of the Middle Ages. Its transmission continued into the age of printing. Understanding that reception requires distinguishing Isidore's actual achievement in selection and organization from the outdated claim that a single author rescued all ancient learning from universal disappearance.
+### A Lasting Legacy of Wisdom and Holiness
 
-## Theology, worship and history
-
-Isidore wrote much more than an encyclopedia. His Sentences organized moral and doctrinal teaching, drawing particularly on Augustine and Gregory the Great. On Ecclesiastical Offices explained worship, ecclesiastical ministries and states of life, preserving information about the Spanish liturgical tradition. His monastic rule combined practical regulation with an insistence on the shared standing before God of people entering from different social conditions. These writings show an author concerned with the formation and daily responsibilities of Christian communities.
-
-His historical works included a universal chronicle, a history of the Goths with accounts of Vandals and Sueves, and notices of Christian writers. On the Nature of Things, written for King Sisebut, presented inherited accounts of the physical world. His anti-Jewish apologetic belongs to the polemical environment of his time and should not be treated as a neutral description of Judaism. Some works later circulated under his name without secure attribution. A careful account distinguishes those uncertain ascriptions from writings that can confidently be used to understand his thought.
-
-## Death and intellectual legacy
-
-Isidore died after a long episcopate and was praised by Braulio and later Spanish councils. The Church venerates him as a saint and Doctor of the Church. His lasting influence rests on the combination of episcopal service, Christian instruction and the transmission of inherited learning. Neither modern scientific standards nor uncritical admiration adequately describes that work. He made the resources available to him serve a pastoral and educational project whose books continued to shape readers far beyond the political world in which he lived.
-
-## Sources
-
-- [Catholic Encyclopedia, “St. Isidore of Seville,” consulted digital text](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/08186a.md).
-- [Encyclopaedia Britannica (1911), “Isidore of Seville,” consulted digital text](https://github.com/shaqmughal/seekstone/blob/main/packages/harness/fixtures/vault/Encyclopedia/I/Isidore%20Of%20Seville.md).
+Saint Isidore died in Seville in 636, leaving behind a legacy that shaped Christian education and scholarship throughout the Middle Ages. His learning and pastoral leadership were recognised by later generations, and he was declared a Doctor of the Church by Pope Innocent XIII in 1722. He is remembered as one of the great Latin Fathers, a man who helped preserve the intellectual inheritance of the ancient world while placing it at the service of Christian truth. His life reminds the faithful that genuine wisdom involves more than the accumulation of knowledge: it requires the discernment to use that knowledge responsibly, the humility to seek truth and the charity to serve others. Through his writings, his care for the Church and his dedication to education, Saint Isidore of Seville continues to inspire scholars, teachers and pastors. His example bears witness to the enduring value of a faith that welcomes the pursuit of knowledge while remaining firmly rooted in the Gospel.
 $desc$),
 ('saint-isidore', 'fr',
 'Isidore, évêque de Séville, unit le gouvernement pastoral à la conservation du savoir dans l’Espagne wisigothique. Ses Étymologies transmirent les connaissances antiques aux lecteurs médiévaux ; ses écrits théologiques et son œuvre conciliaire contribuèrent à l’éducation chrétienne et à la discipline ecclésiastique.',
@@ -5123,40 +3957,28 @@ Isidorus post longum episcopatum mortuus est atque a Braulione conciliisque Hisp
 $desc$),
 ('saint-vincent-ferrer', 'en',
 'Vincent Ferrer was a Dominican preacher whose missions called large audiences to repentance during the Western Schism. Initially a committed supporter of the Avignon obedience, he eventually helped announce its abandonment and spent his final years preaching in France.',
-$desc$## Formation of a Dominican
+$desc$
+Saint Vincent Ferrer holds an important place in the history of the Catholic Church as one of the most celebrated Dominican preachers of the late Middle Ages. Born in Valencia, Spain, in 1350, he devoted his life to proclaiming the Gospel, calling sinners to repentance and encouraging Christians to prepare their hearts for the coming of God's Kingdom. Renowned for his eloquence, austere way of life and missionary zeal, he travelled extensively throughout Western Europe, drawing crowds through his powerful sermons and urging them to return to a sincere practice of the Christian faith. His ministry unfolded during the Western Schism, a period of deep division within the Church that profoundly affected his own spiritual journey. Known traditionally as the “Angel of the Apocalypse” because of his preaching on divine judgment and eternal salvation, Vincent sought above all to awaken consciences and lead souls towards Christ. His life remains a testimony to the power of preaching, the necessity of conversion and the courage required to proclaim the truth of the Gospel.
 
-Vincent Ferrer was born at Valencia in 1350 and died at Vannes in Brittany on 5 April 1419. His public life combined theological teaching, itinerant preaching and involvement in the political and ecclesiastical crises of his age. The Western Schism, during which rival claimants asserted the papal office, was not a distant background to his vocation. It directly shaped his allegiances, employment and eventual decisions. His career therefore cannot be accurately reduced either to a sequence of miracles or to a simple narrative of uninterrupted political foresight.
+### Early Life and Dominican Vocation
 
-He entered the Order of Preachers in 1367. His Dominican formation included study at Barcelona and Toulouse and teaching philosophy at Lérida. Later he taught theology at Valencia. The combination of disciplined intellectual formation and public proclamation was characteristic of his order. His surviving or attributed works address logic, spiritual life and the schism, while collections of sermons preserve the broader memory of his preaching. The popular missionary was thus also a trained theologian who had spent substantial years in study and teaching.
+Vincent Ferrer was born on 23 January 1350 in Valencia, then part of the Crown of Aragon, into a Christian family. From an early age, he demonstrated a strong inclination towards prayer, study and the service of God. His intellectual abilities led him to pursue an extensive education, particularly in philosophy and theology, disciplines that would later shape his preaching and spiritual writings. Drawn to the religious life, he entered the Order of Preachers, commonly known as the Dominicans, in 1367. The Dominican vocation, founded upon prayer, study and the proclamation of the Gospel, provided the ideal setting for his gifts to develop. After completing his formation, Vincent taught philosophy and theology and became known for his intellectual discipline and spiritual seriousness. Yet his learning was never an end in itself: he understood theological knowledge as a means of bringing people closer to God. His commitment to the Dominican ideal would eventually lead him away from the relative stability of academic life towards an extensive apostolate among the people of Europe.
 
-## Allegiance during the schism
+### The Western Schism and a Difficult Ecclesial Mission
 
-Vincent became associated with Cardinal Pedro de Luna, an energetic advocate of the Avignon obedience. Convinced that the Avignon claim was legitimate, he defended it publicly. When Pedro became the claimant Benedict XIII, Vincent served at Avignon as confessor and penitentiary. Catholic historical usage calls Benedict an antipope; Vincent's sincere belief at the time must be distinguished from the Church's eventual judgment about the rival successions. Sanctity did not give him immediate exemption from the confusion shared by many contemporaries.
+Vincent lived during one of the most troubled periods in the history of the medieval Church. Beginning in 1378, the Western Schism divided Catholic Christendom between rival papal claimants, creating confusion and weakening confidence in ecclesiastical unity. Vincent became closely associated with Benedict XIII, the Avignon claimant, serving as his confessor and counsellor. For a time, he believed that his support could contribute to the resolution of the crisis. Eventually, however, he became convinced that God was calling him to a different mission. Around 1399, he began a new phase of his ministry as an itinerant preacher, travelling through regions of France, Italy and Spain. His experience of the Schism illustrates the difficulties faced by sincere Christians when ecclesiastical divisions obscure the visible unity of the Church. Vincent's later preaching placed increasing emphasis on repentance, fidelity to Christ and the urgency of spiritual renewal. His life reminds the faithful that even amid institutional confusion and human weakness, the proclamation of the Gospel must remain directed towards conversion and holiness.
 
-A grave illness in 1398 became an important turning point in the traditional account of his vocation. His biographers describe an apparition of Christ with Dominic and Francis, followed by recovery and a commission to preach repentance. The vision belongs to the religious testimony about his experience, not to independently verifiable medical history. In 1399 he obtained permission to begin the extended missionary journeys that occupied much of the remainder of his life. These journeys carried him away from court service into repeated encounters with large public audiences.
+### The Angel of the Apocalypse and the Call to Repentance
 
-## An itinerant mission
+Vincent's preaching became the defining work of his life. For approximately twenty years, he travelled through much of Western Europe, proclaiming the need for repentance, the reality of divine judgment and the hope of eternal salvation. His sermons were direct and emotionally powerful, calling his listeners to examine their consciences, abandon sin and return wholeheartedly to God. It was this emphasis on the last things that earned him the traditional title *Angel of the Apocalypse*. Yet his message was not intended merely to inspire fear; its deeper purpose was to awaken the soul to the seriousness of its choices and the mercy offered through conversion. Vincent preached in churches, public squares and open fields, often addressing enormous crowds. His ministry was accompanied, according to contemporary accounts and later traditions, by reports of extraordinary events and miraculous healings. Behind his forceful public presence stood a life of prayer, fasting and personal austerity. He understood that the preacher must first seek holiness himself, allowing the truth proclaimed through his words to be reflected in his own conduct.
 
-Provence, the Alpine regions, parts of northern Italy and France, and extensive areas of the Iberian Peninsula received his preaching. Crowds could exceed the capacity of churches, requiring sermons in open spaces. Penitents travelled with him, and his influence involved the ordering of this mobile following as well as individual sermons. Traditional descriptions emphasize fasting, prayer, daily Mass and assistance to the sick. These practices linked his public call to conversion with a demanding personal and communal religious discipline.
+### A Spirituality Rooted in Charity and the Salvation of Souls
 
-Judgment, repentance and the need to change one's life gave his preaching its urgency. Reports that listeners of different languages understood him helped create the tradition of a miraculous gift of tongues. The scale of crowds and conversions in early biographies cannot always be verified, and numerical claims should not be repeated as statistical records. What is clear is that his reputation crossed political boundaries and that his sermons reached people well beyond the audiences ordinarily served by a local Dominican convent.
+Although Vincent is remembered for the severity of his preaching, his spiritual writings reveal that charity was essential to his understanding of Christian ministry. In his treatise *On the Spiritual Life*, he taught that those who correct others must speak from genuine love rather than pride, contempt or a desire to humiliate. The preacher, he explained, should care for sinners as a father cares for suffering children, seeking their healing and rejoicing in their spiritual progress. This principle offers an important insight into his apostolic mission: repentance was not an end in itself, but a return to the love of God. Vincent also understood preaching as a service that required prayer, humility and concern for the eternal destiny of others. His missionary journeys brought him into contact with people from many different backgrounds, and his influence extended across political and social boundaries. At the same time, his ministry must be understood within the complex religious and political circumstances of the fourteenth and fifteenth centuries, when relations between Christian, Jewish and Muslim communities were often marked by coercion and conflict. His historical legacy therefore includes both his celebrated dedication to preaching and the difficult context in which medieval missionary activity took place.
 
-His missions also addressed Jews and Muslims within societies where religious inequality and pressure to convert were real. Older devotional accounts celebrate very large numbers of conversions without adequately separating persuasion from coercive circumstances. Such reports require caution, not repetition of triumphalist language. The Catholic Encyclopedia itself acknowledges an environment in which Jews faced baptism or loss of property. This context matters when assessing claims about missionary success, even where the precise relationship between Vincent's preaching and particular restrictive measures requires further historical investigation.
+### His Final Years, Death and Canonisation
 
-## Public decisions and church unity
-
-His authority brought responsibilities in temporal affairs. After the death of Martin of Aragon, Vincent was among those charged with judging the disputed succession. He supported the decision known as the Compromise of Caspe, which brought Ferdinand of Castile to the throne. This involvement shows that his counsel was not limited to private spirituality. His standing as a preacher and religious adviser could affect decisions concerning the government and future of an entire kingdom.
-
-For years he remained loyal to Benedict XIII while urging an end to the schism. In January 1416, at Perpignan, he publicly announced the withdrawal of the Aragonese king's territories from Benedict's obedience because Benedict would not resign for the Church's peace. The change was painful and did not simply erase his earlier convictions. Vincent did not attend the Council of Constance. He resumed preaching in France, leaving the formal conciliar settlement to others while contributing to the wider movement away from a divided obedience.
-
-## Final years and reception
-
-Vincent spent his last years in Brittany and died at Vannes, where his memory remained closely associated with the cathedral. Callistus III canonized him in 1455. His enduring place in Catholic history rests on the preaching of conversion and the effort to restore ecclesial unity amid profound uncertainty. A balanced biography retains both his extraordinary pastoral energy and the historical difficulties of his choices, without presenting every later miracle narrative or every reported number of converts as equally secure evidence.
-
-## Sources
-
-- [Catholic Encyclopedia, “St. Vincent Ferrer,” consulted digital text](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/15437a.md).
-- [Roman Breviary lessons for 5 April, consulted English text](https://github.com/DivinumOfficium/divinum-officium/blob/master/web/www/horas/English/Sancti/04-05.txt).
+In the final years of his life, Vincent continued preaching in southern France, eventually reaching Brittany. Despite advancing age and the physical demands of his travels, he remained committed to his mission until his strength began to fail. He died in Vannes on 5 April 1419, leaving behind a reputation for extraordinary holiness and an enduring influence on the religious life of his age. His sanctity was formally recognised when Pope Callixtus III canonised him on 3 June 1455. The Church celebrates his feast on 5 April, remembering him as a priest whose life was dedicated to proclaiming the Gospel and encouraging the conversion of hearts. Saint Vincent Ferrer remains an example of the Dominican vocation in its union of prayer, study and preaching. His legacy calls Christians to take their faith seriously, to examine their lives in the light of the Gospel and to speak the truth with charity. Above all, his life teaches that the proclamation of divine judgment must never be separated from the invitation to repentance and the hope of salvation offered through Jesus Christ.
 $desc$),
 ('saint-vincent-ferrer', 'fr',
 'Vincent Ferrier, prédicateur dominicain, appela de vastes auditoires à la conversion durant le Grand Schisme d’Occident. D’abord défenseur convaincu de l’obédience avignonnaise, il contribua finalement à annoncer son abandon et consacra ses dernières années à la prédication en France.',
@@ -5240,39 +4062,28 @@ FROM saints AS s
 JOIN (VALUES
 ('saint-john-baptist-de-la-salle', 'en',
 'John Baptist de La Salle, a priest of Reims, founded the Brothers of the Christian Schools. He devoted his resources and life to educating children, forming teachers and establishing a community of religious brothers whose teaching was a Christian vocation.',
-$desc$## From canon to educator
+$desc$
+Saint John Baptist de La Salle holds a distinguished place in the history of the Catholic Church as a priest, educator and founder of the Institute of the Brothers of the Christian Schools. Born in Reims, France, in 1651, he devoted his life to the Christian education of children, particularly those from poor and disadvantaged families who had little access to formal schooling. At a time when education was often reserved for the privileged, he recognised that teaching was not merely an intellectual pursuit, but an essential work of charity and a means of leading young people towards a life of faith and virtue. Through prayer, perseverance and a profound trust in divine providence, he established a community of educators dedicated to serving God through the instruction of the young. His work transformed the organisation of Christian schools and contributed significantly to the development of modern education. Canonised in 1900 and proclaimed patron saint of teachers in 1950, Saint John Baptist de La Salle remains an enduring example of how faith, dedication and a generous love for others can transform the lives of generations.
 
-John Baptist de La Salle was born at Reims on 30 April 1651 and died at Saint-Yon near Rouen on 7 April 1719. A priest from a prosperous family, he became the founder of the Institute of the Brothers of the Christian Schools. His transformation from cathedral canon to companion of poorly supported schoolteachers was gradual. The resulting institute united religious community with the daily work of education, especially for children whose families could not provide the advantages enjoyed by the wealthy.
+### Early Life and the Call to Priesthood
 
-He received a substantial education at Reims and became a cathedral canon while still young. In 1670 he entered Saint-Sulpice in Paris and studied theology. The deaths of his parents interrupted this formation and required him to return to responsibility for his younger brothers and sisters. He continued preparing for the priesthood while managing family affairs. Ordained in 1678, he subsequently obtained a doctorate in theology. Nicolas Roland, a priest concerned with education and the Sisters of the Child Jesus, was an important spiritual guide.
+John Baptist de La Salle was born on 30 April 1651 into a prosperous family in Reims, a city in northeastern France. As the eldest of ten children, he received a careful education and displayed an early aptitude for study and religious devotion. At the age of eleven, he received the tonsure, marking his initial commitment to ecclesiastical life, and at sixteen he was appointed a canon of the cathedral of Reims. He subsequently pursued theological studies, including a period of formation at the Seminary of Saint-Sulpice in Paris. The death of both his parents interrupted his studies and placed upon him the responsibility of caring for his younger siblings and managing the family affairs. Despite these difficulties, he persevered in his vocation and was ordained a priest on 9 April 1678. Two years later, he obtained a doctorate in theology. His early life had prepared him for a respected ecclesiastical career, yet God's providence would gradually lead him towards a mission that demanded the sacrifice of his social position, personal comfort and established expectations.
 
-## A vocation discovered through service
+### Discovering the Mission of Christian Education
 
-After Roland's death, La Salle helped secure the continuation of the sisters' work. In 1679 he encountered Adrien Nyel, who sought to establish free schools at Reims. La Salle initially offered practical assistance rather than intending to found a new religious congregation. He gradually saw that opening classrooms was insufficient if the teachers lacked formation, stability and support. Visiting them, advising them and helping with their material needs drew him into a commitment much deeper than that of a distant benefactor.
+De La Salle's involvement in education began through his encounter with Adrien Nyel, a layman devoted to establishing schools for poor children. Initially, John Baptist offered assistance somewhat reluctantly, but his growing contact with teachers and disadvantaged families gradually transformed his understanding of his vocation. He became increasingly aware that many teachers lacked adequate preparation and that children from poorer backgrounds were frequently deprived of the intellectual and spiritual formation necessary for their development. Convinced that this situation demanded a lasting response, he began supporting the teachers more directly, eventually sharing his life with them and committing himself to their work. In doing so, he gradually relinquished the privileges associated with his position as a canon and devoted his resources and energy to the educational mission. His decision was an act of faith: rather than seeking prestige or security, he chose to serve those whose needs were often overlooked. He came to understand that the Christian educator must do more than communicate knowledge; teachers must also form character, cultivate virtue and help children recognise the presence of God in their lives.
 
-He began to share meals and eventually his home with the teachers. This challenged the expectations of his social position and created tension with his family. He relinquished his canonry and distributed his inherited resources to the poor rather than making personal wealth the permanent security of the enterprise. The decision joined his circumstances to those of the men he was asking to trust in Providence. It also made clear that their common life was becoming a vocation rather than a temporary charitable arrangement.
+### The Foundation of the Brothers of the Christian Schools
 
-## A community of teaching brothers
+As the educational work expanded, De La Salle established a community that would become the Institute of the Brothers of the Christian Schools, commonly known as the Christian Brothers or the De La Salle Brothers. His vision was distinctive because it placed the education of the poor at the centre of a dedicated religious community composed of laymen rather than ordained priests. He believed that teachers should receive proper formation, live in a spirit of fraternity and regard their profession as a genuine vocation of service. Under his guidance, the Brothers developed schools in which instruction was organised, disciplined and adapted to the needs of children. He encouraged teaching in the vernacular rather than relying exclusively on Latin, promoted collective classroom instruction and insisted upon the importance of preparing teachers for their responsibilities. His educational approach sought to unite intellectual development with Christian formation, making learning accessible to children who might otherwise have been excluded. These innovations did not emerge without opposition. De La Salle faced financial difficulties, institutional resistance and disputes with established educational interests. Nevertheless, he continued to trust in God's providence, convinced that the work would endure if it remained faithful to its spiritual purpose.
 
-The emerging institute faced deaths, departures, uncertainty and opposition. La Salle sought a stable religious commitment that would sustain the schools through these difficulties. The brothers' identity was not that of priests using classrooms as an additional apostolate. Although the founder himself was a priest, he determined that the institute's members would remain lay religious, devoted to teaching. This choice preserved their particular work and distinguished the community from congregations organized around sacramental ministry and clerical careers.
+### A Spirituality of Faith, Zeal and Abandonment to God
 
-Shared prayer, obedience, regular observance and mutual responsibility supported the educational mission. The community was intended to be more than a supply of inexpensive labour for separate schools. Teachers needed formation and a way of life that would sustain patient attention to children. La Salle's spiritual writings repeatedly connected classroom responsibility with the service of God. Intellectual instruction and Christian formation belonged together, but the practical demands of organizing lessons and understanding pupils were not thereby made unimportant.
+At the heart of De La Salle's educational mission lay a profound spirituality centred on faith, charity and the recognition of God's presence in everyday life. He encouraged the Brothers to see their work not simply as a profession, but as a ministry entrusted to them by divine providence. In his understanding, every child possessed a dignity that demanded patience, respect and genuine concern for their spiritual and intellectual growth. He insisted that teachers should lead by example, combining firmness with gentleness and discipline with compassion. His spirituality was particularly attentive to the needs of children who experienced poverty, neglect or social exclusion. By offering them free education and religious instruction, he sought to give them both the knowledge necessary for life and the foundations of a lasting relationship with God. His own journey was marked by trials, misunderstandings and periods of discouragement, yet he repeatedly returned to prayer and surrender to the divine will. His example reveals that Christian holiness can flourish through ordinary responsibilities when they are undertaken with extraordinary love and fidelity.
 
-## Educational methods and institutions
+### His Final Years, Death and Canonisation
 
-His schools developed instruction suited to groups of pupils rather than relying only on individual recitation before a master. Children working at similar levels followed a common lesson, while the teacher corrected errors and monitored attention. Reading in the vernacular made learning more immediately accessible. Preparation, clear explanations, progression from simpler to harder material and attention to less able pupils were important elements. These methods grew through experience and collaboration; calling La Salle the sole inventor of every later classroom practice would exaggerate his achievement.
-
-Teacher formation was equally important. He provided training for men who would not necessarily become brothers, responding to requests for competent teachers in other communities. Educational experiments included Sunday instruction for working people and institutions adapted to more advanced or practical studies. Saint-Yon became an important centre. His Conduct of the Christian Schools brought together detailed guidance on classroom organization and teaching. Other writings addressed Christian duties, civility, prayer and meditation, showing how broadly he understood the formation of teachers and their pupils.
-
-## Trials, succession and legacy
-
-The work encountered opposition from established teaching interests and difficulties with ecclesiastical authorities. La Salle experienced removal from leadership, litigation and periods when the institute's survival appeared uncertain. These conflicts were not merely decorative episodes in an otherwise effortless foundation. They tested whether the brothers could preserve a common mission independently of the founder's personal standing. In 1717 Brother Barthélemy was elected superior, establishing leadership by a brother while La Salle was still alive.
-
-La Salle spent his final years at Saint-Yon, revising texts and supporting the community without retaining its highest office. He died on Good Friday 1719. Papal approval of the institute followed in 1725, and Leo XIII canonized him in 1900. His legacy lies in a durable form of consecrated teaching life and in educational practices attentive to both learning and character. The expansion of Lasallian education after his death should be distinguished from the smaller, frequently precarious network he personally helped build.
-
-## Sources
-
-- [Catholic Encyclopedia, “St. John Baptist de la Salle,” consulted digital text](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/08444a.md).
+During the final years of his life, De La Salle continued to guide the Brothers and strengthen the foundations of the institute he had established. His work encountered opposition from various ecclesiastical and civil authorities, and he experienced the pain of seeing his leadership questioned. Rather than abandoning his mission, he sought refuge in prayer, penance and contemplation, entrusting the future of the community to God. He eventually withdrew from active leadership, leaving the Brothers to continue their work according to the principles he had established. On Good Friday, 7 April 1719, he died at Saint-Yon, near Rouen, after a life marked by sacrifice and unwavering dedication to Christian education. His cause of holiness was recognised by the Church, and Pope Leo XIII canonised him on 24 May 1900. In 1950, Pope Pius XII proclaimed him the patron saint of all teachers. His feast is celebrated on 7 April in the Roman calendar, while the Lasallian educational family also commemorates him on 15 May. Saint John Baptist de La Salle remains a powerful example of a life transformed by faith and devoted to the service of others. His legacy reminds Christians that education, when guided by charity and rooted in the Gospel, becomes a lasting work of mercy and a means of helping young people discover their dignity, their vocation and their place in God's plan.
 $desc$),
 ('saint-john-baptist-de-la-salle', 'fr',
 'Jean-Baptiste de La Salle, prêtre de Reims, fonda les Frères des écoles chrétiennes. Il consacra ses ressources et sa vie à l’éducation des enfants, à la formation des maîtres et à une communauté de frères religieux vivant l’enseignement comme vocation chrétienne.',
@@ -5348,31 +4159,28 @@ Ultimos annos apud Sanctum Ionem egit, scripta recognoscens et communitatem adiu
 $desc$),
 ('saint-stanislaus', 'en',
 'Stanislaus, bishop of Kraków, was killed in 1079 after conflict with King Bolesław II. Venerated as a martyr, he became an important figure in Polish Christian memory, although surviving narratives do not securely establish every circumstance of his life and death.',
-$desc$## A bishop known through disputed narratives
+$desc$
+Saint Stanislaus of Kraków holds a distinguished place in the history of the Catholic Church as one of Poland's most revered bishops and martyrs. Born in Szczepanów in the eleventh century, he devoted his life to the service of God, the spiritual care of his people and the defence of Christian morality. As Bishop of Kraków, he became known for his pastoral dedication, his courage in confronting injustice and his unwavering commitment to the principles of the Gospel. His ministry unfolded during the reign of King Boleslaus II the Bold, whose conflicts with the bishop eventually led to a tragic confrontation. According to the traditional account, Stanislaus was killed by the king while celebrating Mass, becoming a witness to the truth he had courageously proclaimed. Canonised by Pope Innocent IV in 1253, he became one of the principal patrons of Poland and a lasting symbol of fidelity to God above earthly power. His life remains a powerful testimony to the responsibilities of spiritual leadership, the defence of human dignity and the courage required to remain faithful to one's conscience even in the face of persecution.
 
-Stanislaus of Kraków was an eleventh-century Polish bishop whose death in 1079 became central to his veneration as a martyr. He is associated with Szczepanów as his birthplace and with the episcopal church of Kraków as his principal field of service. Precise details of his early life come largely from later tradition. No contemporary biography survives, and the extended life prepared around the period of his canonization contains substantial legendary material. This limits how confidently a continuous personal narrative can be reconstructed.
+### Early Life and the Call to Priesthood
 
-The traditional account names his parents as members of a devout family and describes his education, ordination and service under Bishop Lambert. Reports that he studied at Paris are uncertain. Stories of distributing his inheritance to the poor portray a pastoral ideal, but they do not have the same evidentiary standing as his historical episcopate. His memory should not be made more definite by assigning secure dates or motives to events for which the surviving witnesses are late.
+Stanislaus was born around 1030 in the village of Szczepanów, in southern Poland, into a family remembered by tradition for its Christian faith and devotion. Although reliable contemporary records of his early life are scarce, later accounts describe him as a man of deep piety and considerable learning. He received an education that prepared him for ecclesiastical service and eventually became a priest in the Diocese of Kraków. His intellectual abilities, eloquence and spiritual seriousness earned him recognition within the local Church. He served as a canon and preacher at the cathedral and became known for his commitment to the formation of the faithful. Following the death of Bishop Lambert Suła, Stanislaus was chosen to succeed him and assumed the episcopal office around 1072. As bishop, he understood his responsibilities not simply as matters of administration or religious ceremony, but as a sacred duty to guide souls, defend the vulnerable and ensure that Christian principles were respected throughout society. His appointment marked the beginning of a ministry that would place him at the centre of one of the most significant conflicts in medieval Polish religious history.
 
-## Conflict with royal power
+### A Bishop Committed to Justice and Moral Integrity
 
-As bishop, Stanislaus came into serious conflict with King Bolesław II. The later ecclesiastical narrative presents him as a shepherd who rebuked the ruler's cruelty and sexual misconduct and defended people suffering under royal power. It also describes disputes involving church property and the punishment of nobles. These accounts preserve the Church's interpretation of his resistance, but they cannot by themselves resolve every political question surrounding the confrontation.
+As Bishop of Kraków, Stanislaus sought to strengthen the spiritual life of his diocese and encourage both clergy and laity to live according to the teachings of Christ. His pastoral mission required him to address the moral failings of individuals from every level of society, including those who exercised political authority. During this period, Poland was ruled by Boleslaus II the Bold, a powerful monarch whose military achievements had strengthened the kingdom. Relations between the king and the bishop eventually deteriorated, however, amid disputes concerning the king's conduct and his treatment of his subjects. Traditional accounts portray Stanislaus as a courageous defender of those who suffered under royal oppression, unwilling to remain silent when confronted with injustice. He understood that the authority entrusted to a bishop carried with it a responsibility to speak the truth, even when doing so threatened his personal safety. His opposition to the king was therefore rooted in his understanding of pastoral duty and the moral demands of the Christian faith. Stanislaus became a symbol of the conviction that earthly authority, however powerful, remains subject to the law of God and the demands of justice.
 
-According to the developed hagiographic tradition, repeated admonitions failed and Stanislaus excommunicated the king. The bishop then withdrew to the church of Saint Michael, where Bolesław ordered his death. When attendants would not strike him, the king is said to have killed him personally during Mass. The familiar scene expresses the memory of a bishop attacked in the exercise of his sacred ministry. Its detailed staging should nevertheless be identified as later tradition rather than an eyewitness report.
+### The Conflict with King Boleslaus and His Martyrdom
 
-## Death and the growth of veneration
+The conflict between Stanislaus and Boleslaus II eventually reached a tragic conclusion. According to the traditional narrative, the bishop confronted the king over his unjust actions and called him to repentance. When these admonitions failed, Stanislaus excommunicated the monarch, an act that further intensified their hostility. On 11 April 1079, the bishop was killed in Kraków. The traditional account relates that Boleslaus himself struck Stanislaus while the bishop was celebrating Mass in a chapel dedicated to Saint Michael, after the king's guards had refused to carry out the killing. Although some details of the narrative come from later hagiographical sources rather than contemporary documentation, the central memory of Stanislaus as a bishop who died in conflict with royal authority became firmly established in Polish Christian tradition. His death was understood as martyrdom because of his unwavering witness to the moral obligations of Christian leadership. By remaining faithful to his pastoral responsibilities despite the danger, Stanislaus embodied the conviction that loyalty to God must take precedence over fear of human power. His martyrdom consequently became a defining moment in the religious memory and national identity of Poland.
 
-The secure core is the bishop's violent death in the conflict of 1079, not every detail of the subsequent narrative. Even the calendar traditions associated with his death and feast differ. A responsible biography can acknowledge those differences without altering the independent liturgical or chronological data maintained elsewhere in this inventory. Calling him a martyr states the Church's recognition of his witness; it does not remove the need to distinguish that recognition from historical certainty about each accusation exchanged between bishop and king.
+### Canonisation and the Patron Saint of Poland
 
-His body was first associated with Saint Michael's and was transferred to Kraków's cathedral in 1088 according to the ecclesiastical account. Innocent IV canonized him at Assisi in 1253. The interval between death and canonization was also the period in which his story acquired fuller literary form. Later Polish devotion made him an enduring example of episcopal responsibility and moral opposition to abuses of power.
+Following his death, Stanislaus was venerated as a martyr, and his tomb in Kraków became an important centre of devotion. In 1088, according to historical tradition, his relics were transferred to Wawel Cathedral, where they would remain closely associated with the spiritual life of the Polish nation. His cult gradually spread, and in 1253 Pope Innocent IV canonised him at Assisi. The Church honours him as Saint Stanislaus, Bishop and Martyr, and his feast is celebrated on 11 April in the universal Roman calendar, while 8 May remains the traditional date of his principal celebration in Poland. Over the centuries, he became a patron of Poland and a model for bishops, priests and all Christians called to defend the truth with courage. His legacy is particularly significant because it unites religious faith with the responsibilities of public life, reminding believers that authentic leadership must be guided by justice, humility and moral integrity.
 
-## Remembering without embellishment
+### A Lasting Legacy of Faith and Courage
 
-Stanislaus's importance does not depend on inventing a complete childhood, reconstructing private conversations or treating miraculous episodes as documentary evidence. The surviving tradition supports a shorter, qualified biography. It preserves the memory of a real bishop, a lethal confrontation with royal authority and a lasting cult centred on Kraków. Historical restraint allows those elements to remain visible while avoiding the mistaken impression that the richly developed medieval legend is a contemporary record.
-
-## Sources
-
-- [Catholic Encyclopedia, “St. Stanislaus of Cracow,” consulted digital text](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/14246a.md).
+Saint Stanislaus continues to inspire Christians through his example of pastoral fidelity and fearless commitment to the Gospel. His life reminds the faithful that the Church's mission cannot be reduced to preserving peace with those who hold power, but must include the courageous proclamation of moral truth and the defence of those who suffer injustice. At the same time, his witness calls for discernment, humility and a sincere concern for the spiritual welfare of others. For the people of Poland, he remains a powerful symbol of Christian identity and unity, while for the universal Church, he stands as an enduring example of a shepherd who accepted the ultimate cost of his vocation. His martyrdom reveals that holiness sometimes demands difficult choices and that fidelity to Christ may require standing against the prevailing powers of the world. Through his life and death, Saint Stanislaus bears witness to the enduring truth that genuine spiritual authority is rooted not in domination, but in service, justice and unwavering faithfulness to God.
 $desc$),
 ('saint-stanislaus', 'fr',
 'Stanislas, évêque de Cracovie, fut tué en 1079 après un conflit avec le roi Boleslas II. Vénéré comme martyr, il occupa une place importante dans la mémoire chrétienne polonaise, bien que les récits conservés ne fixent pas sûrement toutes les circonstances.',
@@ -5432,39 +4240,28 @@ Momentum Stanislai non postulat pueritiam integram fingere, colloquia privata re
 $desc$),
 ('saint-martin-i', 'en',
 'Martin I, pope and martyr, defended the teaching that Christ has both a divine and a human will. Arrested by imperial authority after the Lateran council of 649, he endured imprisonment, public humiliation and exile, dying at Cherson in 655.',
-$desc$## Pope in a Christological controversy
+$desc$
+Pope Saint Martin I holds a distinguished place in the history of the Catholic Church as one of the last popes to suffer martyrdom for the defence of the Christian faith. Elected Bishop of Rome in 649, he served the Church during a period of intense theological controversy and political tension between Rome and the Byzantine Empire. At the heart of this conflict was the question of how the divine and human wills of Jesus Christ should be understood, a debate that threatened the integrity of Christian teaching concerning the mystery of the Incarnation. Martin courageously opposed the imperial policy that sought to suppress discussion of the controversy, insisting that the truth of the faith could not be sacrificed for the sake of political unity. His resistance brought him into direct conflict with Emperor Constans II, who ordered his arrest and arranged for his removal from Rome. After enduring imprisonment, public humiliation and exile to Crimea, Martin died in 655, weakened by suffering and deprivation. Venerated as a martyr and confessor of the faith, he remains an enduring example of courage, doctrinal fidelity and steadfast devotion to Christ in the face of persecution.
 
-Martin I was a native of Todi in Italy and became bishop of Rome in 649. He died in exile at Cherson in the Crimea in 655. The exact chronology of some stages of his election, transportation and imprisonment is disputed in the historical literature, but the central sequence is clear. His pontificate brought a direct confrontation between the Roman Church's doctrinal judgment and an imperial policy intended to control a controversy over the person and activity of Jesus Christ.
+### Early Life and Service to the Church
 
-Before his election Martin had represented Pope Theodore I at Constantinople. That experience acquainted him with the imperial court and the theological disputes troubling the eastern churches. Little securely established information survives about his childhood, and later statements about a particular monastic affiliation are not needed to explain his public career. After succeeding Theodore, he was consecrated without waiting for the customary imperial confirmation. His decision indicated the urgency with which he understood the Church's situation.
+Martin was born around the end of the sixth century in or near Todi, in central Italy. Although relatively little is known about his childhood, historical accounts portray him as a learned and devout cleric who gradually assumed important responsibilities within the Roman Church. Before his election to the papacy, he served as a representative of Pope Theodore I in Constantinople, the capital of the Byzantine Empire. This position brought him into direct contact with the theological disputes and political negotiations that shaped relations between the Eastern and Western Churches. Through his experience at the imperial court, Martin became familiar with attempts to reconcile opposing interpretations of Christ's divine and human natures. His service prepared him for the difficult responsibilities he would later face as pope. Following the death of Theodore I, Martin was elected Bishop of Rome in 649. Unlike many of his predecessors, he proceeded with his consecration without waiting for imperial confirmation, a decision that reflected both the urgency of the situation and his determination to exercise the responsibilities of his office freely. From the beginning of his pontificate, he demonstrated a willingness to defend the Church's teaching despite the political consequences.
 
-## Two wills in the one Christ
+### Theological Controversy and the Defence of Christ's Two Wills
 
-The immediate controversy concerned Monothelitism, the teaching that Christ has only one will. The Catholic position defended by Martin affirmed both a divine will and a genuinely human will in the one person of the incarnate Son. This did not mean two competing persons or a sinful opposition within Christ. It safeguarded the completeness of the human nature assumed by the Word. A human nature without its proper willing would not adequately express the humanity confessed by the Church.
+The principal challenge of Martin's pontificate was the controversy known as Monothelitism, a doctrine that maintained that Christ possessed only one will, despite acknowledging His divine and human natures. The issue was particularly sensitive because it concerned the full reality of Christ's humanity and His relationship with the Father. If Christ's human will were denied, an essential dimension of His humanity and His saving obedience would be compromised. Seeking to impose religious unity throughout the empire, Emperor Constans II supported an imperial decree known as the *Typos*, issued in 648, which prohibited further public discussion of the question. Martin refused to accept this restriction as a satisfactory solution to the doctrinal dispute. In October 649, he convened the Lateran Council in Rome, attended by more than one hundred bishops, which condemned Monothelitism and reaffirmed that Jesus Christ possesses both a divine will and a human will. These two wills are not opposed to one another; rather, Christ's human will acts in perfect harmony with His divine will. Martin's defence of this teaching was rooted in the conviction that Christ must be confessed as fully God and fully man for the mystery of salvation to be properly understood. His determination to uphold this doctrine would ultimately cost him his freedom and his life.
 
-Imperial attempts at settlement had included the Ecthesis associated with Heraclius and the Type issued under Constans II. The latter sought to prohibit further public argument about one or two wills and operations. Martin judged that imposing silence could not resolve a doctrinal error. The conflict was therefore not merely a preference for debate over peace. It concerned whether political authority could prevent bishops from teaching what they considered necessary to the faithful confession of Christ.
+### Arrest, Imprisonment and Exile
 
-## The Lateran council
+Martin's opposition to imperial religious policy provoked the anger of Constans II, who regarded the pope's actions as a challenge to his authority. In 653, imperial officials arrived in Rome with orders to arrest him and bring him to Constantinople. Although seriously ill, Martin refused to encourage armed resistance, seeking to avoid further bloodshed among the Roman people. He was taken from the city and transported to the imperial capital, where he endured a long and difficult journey under harsh conditions. Upon his arrival, he was accused of political crimes and treated as a traitor rather than as the spiritual leader of the Western Church. He was publicly humiliated, deprived of his ecclesiastical dignity in the eyes of the imperial authorities and imprisoned. Despite these sufferings, Martin remained steadfast in his refusal to endorse the *Typos*. His sentence was eventually commuted from death to exile, and in 654 he was sent to Cherson, in the Crimean region of the Byzantine Empire. There he lived in conditions of extreme hardship, suffering from hunger, illness and isolation. His letters from exile reveal a man deeply distressed by his physical condition and the difficulties facing the Church, yet still committed to the truth he had defended. He died on 16 September 655, having endured persecution rather than abandon his convictions.
 
-In October 649 Martin assembled a council at the Lateran attended by more than a hundred bishops. Its sessions rejected the disputed imperial measures, condemned prominent representatives of the erroneous teaching and set out the doctrine of Christ's two wills. The decrees were circulated beyond Rome, and the acts were also sent to the emperor. Although later ecumenical teaching confirmed the doctrine, the Lateran gathering should not itself be confused with the subsequent ecumenical Council of Constantinople.
+### A Martyr and Confessor of the Faith
 
-Martin also attempted to uphold ecclesiastical discipline in the East through representatives and correspondence. His position challenged the imperial expectation that the western bishops would accept the Type. The emperor first sent the exarch Olympius to Italy, but that intervention did not secure the desired compliance. Accounts of an attempt to kill the pope during Communion belong to the narrative tradition surrounding this mission. The decisive action came under a later exarch, Theodore Calliopas.
+Martin's death in exile was understood by the Church as the culmination of his courageous witness to the Christian faith. Although he was not executed directly by his persecutors, the suffering imposed upon him because of his defence of orthodox teaching led to his enduring veneration as a martyr. He is also honoured as a confessor of the faith, a title given to Christians who endured persecution for their beliefs without necessarily suffering execution. His witness demonstrates that martyrdom is not defined solely by the manner of death, but also by fidelity to Christ under conditions of grave suffering and coercion. Martin's refusal to yield to imperial pressure illustrates the responsibility of the Church's pastors to safeguard the faith entrusted to them. His life also reveals the human cost of the theological conflicts that divided the Christian world during the seventh century. By insisting upon the full humanity and divinity of Christ, he defended a doctrine central to Christian understanding of redemption and the relationship between God and humanity.
 
-## Arrest and imprisonment
+### A Lasting Legacy of Courage and Fidelity
 
-In June 653 imperial forces entered Rome and arrested Martin, who was already ill. He refused to encourage armed resistance and was taken away with only a small following. The journey to Constantinople involved suffering and a stop at Naxos, whose length is one of the disputed chronological points. His removal was not simply a change of papal residence. Imperial officials treated him as deposed and sought the election of another bishop of Rome in his place.
-
-At Constantinople he endured confinement, illness and public degradation. The proceedings against him emphasized political accusations, including rebellion, rather than allowing the theological issue to determine the terms of the hearing. He was exposed before crowds, stripped of much of his clothing and placed in chains. Surviving letters and the early narrative of his suffering give the episode a more substantial documentary basis than the late legends surrounding many early martyrs. Nevertheless, particular dates and interpretations in later histories require comparison rather than automatic harmonization.
-
-## Exile and witness
-
-The sentence became exile rather than immediate execution. Martin was sent to Cherson, where shortages and harsh conditions aggravated his weakened health. His letters express the pain of deprivation and abandonment as well as continued concern for the Church. He died there in 655 and was buried locally. The tradition of later translations of his relics is less secure in its details than the basic fact of his death in exile.
-
-Martin is venerated as a martyr because the suffering imposed for his defence of the faith brought him to death, though he was not killed by a single executioner's stroke. His witness also belongs to the history of relations between church and empire. It shows a pope accepting the personal consequences of a doctrinal judgment that imperial authority would not tolerate. The Catholic remembrance of his courage does not require erasing the political complexity, uncertain chronology or human loneliness preserved in the account of his final years.
-
-## Sources
-
-- [Catholic Encyclopedia, “Pope St. Martin I,” consulted digital text](https://github.com/gustavo-depaula/ember/blob/main/content/books/catholic-encyclopedia/en-US/09723c.md).
+Saint Martin I remains an important example of pastoral courage and doctrinal integrity. His pontificate reminds Christians that the pursuit of peace and unity must remain firmly rooted in truth, and that political authority cannot determine the content of divine revelation. His suffering also illustrates the vulnerability of the Church when spiritual convictions become entangled with the ambitions of political power. Venerated in both the Catholic and Eastern Orthodox traditions, Martin is remembered as a pope who remained faithful to his mission even when abandoned, imprisoned and sent far from the community he had served. His feast is celebrated on 13 April in the current Roman calendar. Through his life and death, Saint Martin I bears witness to the conviction that fidelity to Christ demands courage, perseverance and a willingness to endure hardship for the sake of the Gospel. His example continues to inspire those who are called to defend the truth with humility and steadfastness, trusting that faithfulness to God remains more important than earthly security or human approval.
 $desc$),
 ('saint-martin-i', 'fr',
 'Martin Ier, pape et martyr, défendit l’enseignement selon lequel le Christ possède une volonté divine et une volonté humaine. Arrêté sur ordre impérial après le concile du Latran de 649, il subit prison, humiliations publiques et exil, puis mourut à Cherson en 655.',
@@ -5546,35 +4343,51 @@ WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
 UPDATE saint_translations AS st
 SET short_description = x.short_description, full_biography = x.full_biography
 FROM saints AS s JOIN (VALUES
-('saint-athanasius','en','Athanasius, bishop of Alexandria, defended the full divinity of Christ amid fourth-century theological and imperial conflicts. Repeated exile shaped his ministry, while his writings on the Incarnation and monastic life influenced Christian teaching across the Mediterranean.',$desc$## Alexandria and the Nicene faith
+('saint-athanasius','en','Athanasius, bishop of Alexandria, defended the full divinity of Christ amid fourth-century theological and imperial conflicts. Repeated exile shaped his ministry, while his writings on the Incarnation and monastic life influenced Christian teaching across the Mediterranean.',
+$desc$
+Saint Athanasius of Alexandria holds a distinguished place in the history of the Catholic Church as one of the greatest defenders of the divinity of Jesus Christ and a leading witness to the faith proclaimed at the Council of Nicaea. Born in Alexandria, Egypt, around the year 300, he devoted his life to defending the truth that the Son of God is eternally one in being with the Father. As a bishop and theologian, Athanasius endured false accusations, opposition and repeated exiles rather than abandon the Nicene faith. His steadfastness earned him a lasting reputation as a great Father of the Church. Deeply devoted to the mystery of the Incarnation, he also helped spread the ideals of Christian monasticism through his friendship with Saint Anthony the Great. His life remains a powerful example of fidelity to Christ, showing that the defence of Christian truth requires courage, perseverance and a heart firmly rooted in God.
 
-Athanasius was born about 296, probably at Alexandria. The precise year and his family circumstances remain uncertain. His education gave him a command of Greek argument and biblical interpretation, but picturesque accounts of his childhood belong to later biography rather than secure documentation. He became a deacon and close collaborator of Alexander, bishop of Alexandria. This placed him at the centre of the controversy provoked by Arius, whose teaching distinguished the Son from the eternal, uncreated being of the Father.
+### Early Life and Formation in the Faith
 
-In 325 Athanasius accompanied Alexander to the Council of Nicaea. He was not yet a bishop, and later admiration should not obscure that subordinate position. The council confessed the Son as consubstantial with the Father. For Athanasius, the issue was not merely a dispute about terminology: Christian salvation depended on the identity of the one who had become human. A creature could not bestow the divine life that the Church proclaimed as the gift of Christ. His subsequent career made him a principal defender of that conviction.
+Athanasius was born in Alexandria, one of the great intellectual and cultural centres of the ancient world. Although little is known about his childhood, he received a good education and entered the service of the Church, becoming a deacon and secretary to Saint Alexander, the Bishop of Alexandria. Through this close collaboration, he gained a deep understanding of Scripture and theology while preparing for the responsibilities of ecclesiastical leadership.
 
-## Bishop and exile
+During these formative years, Athanasius also became acquainted with the ascetic movement flourishing in the Egyptian desert. The example of men such as Saint Anthony the Great impressed upon him the importance of prayer, humility and spiritual discipline. These influences helped shape a life in which intellectual conviction and personal holiness remained closely united.
 
-He succeeded Alexander as bishop in 328. Alongside controversy, his responsibilities included preaching, correspondence, pastoral visits and the ordering of the Egyptian churches. His episcopate also connected Alexandria with the developing Church in Ethiopia through the consecration of Frumentius. Relations with Egyptian ascetics provided spiritual friendship and practical support. Athanasius was therefore more than a controversial writer: he governed an extensive Christian community whose local disputes became entangled with the policies of successive emperors.
+### The Council of Nicaea and the Divinity of Christ
 
-Opposition came from several directions, including opponents of Nicene theology and the Meletian schism in Egypt. Accusations concerning his administration and conduct culminated in proceedings at Tyre in 335. Athanasius challenged the fairness of his judges and appealed to Constantine, but the emperor sent him into exile at Trier. His own apologetic writings preserve much of the evidence, and must be read as an interested participant’s defence, not as a neutral court record. After Constantine died in 337, Athanasius returned to Alexandria.
+In 325, Athanasius accompanied Bishop Alexander to the Council of Nicaea, convened by Emperor Constantine to address a serious controversy concerning the nature of Jesus Christ. The priest Arius taught that the Son of God was not eternal in the same sense as the Father, but was a created being.
 
-His restoration did not settle the conflict. A rival bishop was imposed, and Athanasius sought support in Rome from Pope Julius. Western bishops defended him, notably at Sardica, while eastern opponents rejected their judgment. He returned again in 346, beginning approximately a decade of relatively stable leadership. The conflict illustrates how episcopal communion, imperial authority and doctrinal formulas interacted. It cannot be reduced to one uniformly organized party confronting another: positions and alliances shifted, even among those dissatisfied with the language of Nicaea.
+Athanasius understood that this question concerned the very foundation of Christian salvation. If Christ were merely a creature, He could not fully reveal God or unite humanity to the divine life. The bishops at Nicaea therefore affirmed that the Son is *homoousios* with the Father, meaning that He shares the same divine substance. This confession safeguarded the Church's belief that Jesus Christ is truly God, eternally begotten of the Father and not a created intermediary.
 
-## Writing amid conflict
+Although Athanasius was still a deacon at the time, the Nicene faith became the defining conviction of his life. He recognised that the truth of the Incarnation could not be separated from the full divinity of the One who became man for the salvation of the world.
 
-In 356 troops interrupted a church service in Alexandria, and Athanasius escaped into hiding. For several years he lived under the protection of supporters, particularly Egyptian monks. This enforced separation from his episcopal city became a productive period of writing. His apologies explained his conduct and defended his refusal to surrender; his theological works argued from Scripture for the Son’s eternal relation to the Father. Polemical severity in these writings reflects real struggles, but also requires readers to distinguish theological argument from judgments on individual adversaries.
+### Bishop of Alexandria and Years of Exile
 
-Against the Gentiles and On the Incarnation present a connected account of creation, humanity’s estrangement from God and the saving work of the incarnate Word. Their exact dating has been debated. Athanasius argues that the Word who made the world restores humanity through taking human nature, dying and rising. His Life of Antony communicated the example of Egyptian asceticism far beyond Egypt. It is a religious biography shaped to teach, not a modern diary; its narratives of spiritual combat should be understood within that literary and theological purpose.
+Following the death of Saint Alexander in 328, Athanasius succeeded him as Bishop of Alexandria. His episcopate began during a period of intense theological conflict, as Arian ideas continued to receive support from influential bishops and imperial authorities. Despite the decision of Nicaea, divisions within the Church persisted, and Athanasius became a principal target of those who opposed the Nicene confession.
 
-## Final years and inheritance
+Over the course of his ministry, he was forced into exile on five occasions, spending many years away from his diocese. These hardships did not silence him. During his periods of exile, he continued writing, corresponding with other Christians and defending the faith he believed had been handed down by the Apostles. His presence in the West, including stays in Trier and Rome, also helped strengthen support for the Nicene position.
 
-The death of Constantius II allowed another return in 362. Athanasius then supported an Alexandrian council that sought agreement among Christians divided partly by differing theological vocabulary. This readiness to clarify meanings qualifies the popular image of an entirely inflexible controversialist. Further expulsions under Julian and Valens followed. His five exiles occupied a substantial portion of his episcopate, but did not erase the durable attachment of his Alexandrian supporters or his influence beyond his own province.
+Athanasius's perseverance demonstrated his conviction that the Church could not compromise the truth about Christ merely to achieve temporary peace. His life became a witness to the courage required to remain faithful amid misunderstanding, political pressure and suffering.
 
-Athanasius died on 2 May 373. His importance rests on the union of sustained pastoral responsibility with a theology centred on Christ’s saving identity. Later Christian tradition honoured him as a Doctor of the Church. That reception does not require treating every accusation against him as independently disproved, every anecdote as literal history or every later work bearing his name as authentic. His surviving career already offers ample evidence of intellectual determination, institutional resilience and the decisive place of the Incarnation in fourth-century Christian reflection.
+### A Theologian of the Incarnation
 
-## Sources
+Athanasius's most celebrated theological work, *On the Incarnation of the Word*, explains why the eternal Son of God became man. He taught that humanity, created for communion with God, had fallen into corruption and death through sin. In His goodness, God did not abandon His creation but sent His Word to assume human nature and restore humanity to life.
 
-- [Catholic Encyclopedia, “St. Athanasius” (consulted digital mirror)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/02035a.htm)
+For Athanasius, Christ's Incarnation, death and Resurrection reveal God's victory over sin and death. His famous teaching that the Word became man so that humanity might be made divine expresses the Christian hope of *theosis*, or divinisation. This does not mean that human beings become God by nature, but that, through grace, they are brought into communion with Him.
+
+His theology therefore rested upon the conviction that Christ is truly God and truly man. Only the divine Son could reveal the Father fully and restore humanity to the life for which it was created. The mystery of the Incarnation was not simply an abstract doctrine, but the foundation of Christian hope and salvation.
+
+### Friendship with Saint Anthony and the Monastic Tradition
+
+Athanasius also made a lasting contribution to Christian spirituality through his work *The Life of Anthony*, written in honour of Saint Anthony the Great. This biography presented the Egyptian hermit's life of prayer, asceticism and trust in God, helping introduce the ideals of monasticism to Christians throughout the East and West.
+
+Although Athanasius was primarily a bishop and theologian, his friendship with Anthony revealed his deep appreciation for contemplative prayer and the pursuit of holiness. He understood that defending Christian truth must be accompanied by a life shaped by humility, devotion and love of God.
+
+### His Final Years and Lasting Legacy
+
+After years of controversy and exile, Athanasius was able to return to Alexandria and devote himself more peacefully to his pastoral responsibilities. He continued to strengthen the Nicene faith and wrote on important theological questions, including the divinity of the Holy Spirit. He died on 2 May 373, leaving behind a profound legacy of theological teaching and spiritual courage.
+
+The Catholic Church honours Saint Athanasius as a Doctor of the Church and remembers him as one of the great defenders of orthodox Christian faith. His life teaches that fidelity to Christ may demand patience, sacrifice and perseverance, especially when the truth is challenged. Through his writings and witness, he continues to direct Christians towards the central mystery of their faith: that the eternal Son of God became man for the salvation of the world.
 $desc$),
 ('saint-athanasius','fr','Athanase, évêque d’Alexandrie, défendit la pleine divinité du Christ au milieu des conflits théologiques et impériaux du IVe siècle. Ses exils répétés marquèrent son ministère, tandis que ses écrits sur l’Incarnation et la vie monastique influencèrent durablement l’enseignement chrétien.',$desc$## Alexandrie et la foi de Nicée
 
@@ -5636,29 +4449,41 @@ Athanasius die 2 Maii 373 mortuus est. Momentum eius in coniunctione constantis 
 
 - [Catholic Encyclopedia, “St. Athanasius” (exemplar digitale consultum)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/02035a.htm)
 $desc$),
-('saint-philip-apostle','en','Philip, one of the Twelve, appears in John’s Gospel as a disciple who brings others to Jesus and asks searching questions. Later traditions describe his missionary work and death, but their details are less secure than the biblical witness.',$desc$## A disciple from Bethsaida
+('saint-philip-apostle',
+'en',
+'Philip, one of the Twelve, appears in John’s Gospel as a disciple who brings others to Jesus and asks searching questions. Later traditions describe his missionary work and death, but their details are less secure than the biblical witness.',
+$desc$
+Saint Philip the Apostle holds an important place among the Twelve Apostles chosen by Jesus Christ to witness to His life, proclaim His Gospel and continue His mission throughout the world. Originally from Bethsaida in Galilee, Philip was among the first disciples called by Jesus, responding to the simple yet powerful invitation, “Follow me.” Although the Gospels preserve relatively few details about his life, the episodes in which he appears reveal a sincere seeker of truth, a disciple eager to share his faith and a man whose understanding of Christ deepened through personal encounter. Philip brought Nathanael to Jesus, participated in the events surrounding the multiplication of the loaves and fishes, and asked Christ to show the disciples the Father during the Last Supper. His questions reveal both the limitations of human understanding and the opportunity offered by faith to discover the mystery of God. Honoured by the Church as one of the foundational witnesses of the apostolic age, Saint Philip remains an example of the simplicity, courage and missionary spirit required of those who follow Christ.
 
-Philip belongs to the Twelve named in the Gospel lists and in Acts. John identifies his home as Bethsaida, also associated with Peter and Andrew. His Greek name reflects the multilingual environment of the region, although it does not establish a detailed biography or prove what languages he spoke. His family, birth date and occupation are not securely recorded. Most of the individual scenes concerning him occur in the Fourth Gospel, whose narrative is concerned with revealing Jesus through encounters with his disciples.
+### The Call of Jesus and the Discovery of the Messiah
 
-In John 1, Jesus calls Philip, who then approaches Nathanael. Philip interprets his discovery through the Law and the prophets, identifying Jesus of Nazareth as the one to whom they point. When Nathanael objects to Nazareth, Philip invites him to encounter Jesus personally. The scene presents witness as an invitation rather than a complete argument. It also shows Philip already drawing someone else into discipleship, without implying that he yet understands everything about the master whom he follows.
+The Gospel of Saint John presents Philip as one of the first disciples called by Jesus. A native of Bethsaida, the same town associated with Peter and Andrew, Philip received the direct invitation of Christ: “Follow me.” The Gospel does not describe a lengthy deliberation or a dramatic conversion. Instead, Philip's response appears immediate, suggesting a readiness to follow the One in whom he recognised the promise of God's salvation.
 
-## Questions in the Gospel
+Following his call, Philip sought out Nathanael and announced that they had found the One foretold by Moses and the prophets: Jesus of Nazareth, the son of Joseph. When Nathanael expressed doubt that anything good could come from Nazareth, Philip did not attempt to overcome his scepticism through argument alone. He simply invited him to “Come and see.” This brief exchange captures an enduring aspect of Christian evangelisation: the invitation to encounter Christ personally rather than rely solely on the testimony of others. Philip's enthusiasm demonstrates that discipleship naturally gives rise to the desire to share the discovery of faith with those around us.
 
-Before the feeding of the crowd in John 6, Jesus asks Philip where bread can be obtained. The evangelist explains that the question is a test, since Jesus already knows what he will do. Philip calculates the inadequacy of the available money: even a substantial sum would not provide enough for everyone. His reply gives the narrative its practical starting point. It should not be enlarged into a permanent judgment about his character, for the Gospel preserves only this particular exchange.
+### A Disciple Learning to Trust in Christ
 
-In John 12, Greeks who have come to worship at the feast ask Philip for access to Jesus. Philip consults Andrew, and together they present the request. Benedict XVI’s catechesis notes the appropriateness of Philip’s intermediary role while treating his possible knowledge of Greek as a probability, not a demonstrated fact. The encounter introduces Jesus’ teaching about his approaching glorification and death. Philip thus stands at a narrative meeting point between the immediate circle of disciples and people seeking Jesus from outside it.
+During Jesus' public ministry, Philip appears in several episodes that reveal his developing understanding of the Lord. Before the miraculous feeding of the five thousand, Jesus asked Philip where bread could be obtained to feed the assembled crowd. Philip responded by calculating the enormous expense that would be required, observing that even a substantial sum of money would not provide enough for everyone to receive a little. The Gospel presents this question as part of Jesus' preparation for the miracle, through which He would demonstrate His divine power and provide abundantly for the people.
 
-During the farewell discourse in John 14, Philip asks Jesus to show the Father. The answer directs him from the wish for another revelation to the person already before him: knowledge of Jesus is inseparable from knowledge of the Father. Christian theology has repeatedly returned to this exchange when explaining the revelation of God in Christ. Philip’s incomplete understanding is not hidden. The narrative makes his question the occasion for teaching that reaches beyond him to the whole community of readers.
+Philip's response reflects the natural tendency to approach difficulties through the limits of human resources and practical reasoning. Yet the miracle that followed revealed that Christ's power surpassed those limitations. The episode invites Christians to recognise that faith does not require the rejection of reason, but rather an openness to God's action beyond what human calculations alone can achieve.
 
-## Tradition and its limits
+Another significant moment occurred when certain Greeks who had come to Jerusalem for the feast of Passover expressed their desire to see Jesus. They approached Philip, whose Greek name may have made him a natural intermediary, and Philip brought their request to Andrew before the two disciples informed Jesus. This episode hints at the widening horizon of Christ's mission, anticipating the gathering of peoples from every nation into the community of His disciples.
 
-The New Testament does not provide a continuous account of Philip’s later mission or his death. Nor should the apostle automatically be identified with Philip the evangelist, one of the Seven in Acts. Later narratives associated with the apostle place preaching in Greece and Phrygia and his death at Hierapolis. They differ over the manner of his death, describing crucifixion or stoning. These are traditions of reception, not contemporary documentation establishing a precise itinerary.
+### “Lord, Show Us the Father”
 
-Benedict XVI explicitly distinguishes those later narratives from the Gospel testimony. A responsible biography therefore leaves the gaps open rather than combining every story into a single chronology. Philip’s securely transmitted importance lies in his place among the Twelve and in the Johannine episodes: bringing Nathanael, confronting the crowd’s need, receiving the Greeks and asking about the Father. Together these scenes portray discipleship as proximity to Jesus, questioning and mediation, without requiring invented episodes to make an otherwise fragmentary life appear complete.
+One of the most profound encounters involving Philip took place during the Last Supper. As Jesus spoke to His disciples about His relationship with the Father, Philip asked Him, “Lord, show us the Father, and it is enough for us.” His request expressed a genuine desire to know God more fully, yet it also revealed that he had not completely grasped the mystery of Christ's identity.
 
-## Sources
+Jesus answered, “Whoever has seen me has seen the Father.” Through these words, Christ revealed the unique unity between Himself and the Father, making clear that His own person and works disclose the character and presence of God. Philip's question thus provided the occasion for one of the Gospel of John's clearest teachings about the relationship between Jesus and the Father.
 
-- [Benedict XVI, general audience, 6 September 2006 (consulted Vatican text mirror)](https://github.com/lologhi/vatican/blob/main/benedict-xvi/audiences/2006/2006-09-06.md)
+This exchange also offers an enduring lesson in Christian discipleship. Even those who walk closely with Christ may struggle to understand the fullness of His mystery. Philip's question was not the end of his journey of faith, but part of the process through which he was invited to grow in understanding, trust and love.
+
+### The Apostolic Mission and His Lasting Legacy
+
+After the Resurrection and Ascension of Jesus, Philip is named among the Apostles gathered in Jerusalem as they awaited the coming of the Holy Spirit. The Acts of the Apostles provides little further information about his individual ministry. Later Christian traditions associate his missionary work and martyrdom with Hierapolis in Phrygia, in present-day Turkey, although the historical details remain uncertain and some ancient accounts may confuse him with Philip the Evangelist, one of the seven appointed to serve the early Christian community.
+
+According to these later traditions, Philip proclaimed the Gospel in Asia Minor and ultimately suffered martyrdom for his faith. While the precise circumstances of his death cannot be established with certainty, the Church honours him as an Apostle who bore witness to Christ and contributed to the earliest proclamation of the Christian faith.
+
+Saint Philip's life teaches that faith often begins with a simple response to Christ's invitation and matures through questions, encounters and an ever-deepening understanding of God's presence. His example encourages Christians to bring others to Jesus, to trust in divine providence when human resources seem insufficient and to seek the Father through the Son. Like Philip, the faithful are called not merely to hear about Christ, but to follow Him, encounter Him personally and become witnesses to His truth and love.
 $desc$),
 ('saint-philip-apostle','fr','Philippe, l’un des Douze, apparaît dans l’Évangile de Jean comme un disciple qui conduit autrui à Jésus et pose des questions décisives. Les traditions postérieures décrivent sa mission et sa mort, mais leurs détails sont moins assurés que le témoignage biblique.',$desc$## Un disciple de Bethsaïde
 
@@ -5708,29 +4533,49 @@ Benedictus XVI has posteriores narrationes a testimonio evangelico expresse dist
 
 - [Benedictus XVI, audientia generalis diei 6 Septembris 2006 (exemplar textus Vaticani consultum)](https://github.com/lologhi/vatican/blob/main/benedict-xvi/audiences/2006/2006-09-06.md)
 $desc$),
-('saint-james-the-less-apostle','en','James the Less is traditionally identified with James son of Alphaeus, one of the Twelve. His further identification with James, the Lord’s brother and Jerusalem church leader, has shaped Western devotion but remains historically disputed.',$desc$## A name requiring distinction
+('saint-james-the-less-apostle',
+'en',
+'James the Less is traditionally identified with James son of Alphaeus, one of the Twelve. His further identification with James, the Lord’s brother and Jerusalem church leader, has shaped Western devotion but remains historically disputed.',
+$desc$
+Saint James the Less holds an important place among the Twelve Apostles chosen by Jesus Christ to continue His mission and proclaim the Gospel to the world. Known as James the son of Alphaeus, he is distinguished from Saint James the Greater, the son of Zebedee and brother of Saint John. Although the Gospels provide few details about his personal life and ministry during the earthly life of Jesus, James became associated in Christian tradition with the leadership of the early Church in Jerusalem. Revered for his faithfulness to Christ and his commitment to the apostolic community, he represents the many disciples whose quiet service helped establish the foundations of Christianity. His example reminds the faithful that holiness does not depend upon public recognition, but upon perseverance in faith, fidelity to God's will and a willingness to serve the Church with humility.
 
-Several men called James appear in the New Testament. The apostolic lists name James son of Alphaeus separately from James son of Zebedee. Mark also names a Mary as mother of James the younger, or less, and of Joses. Western tradition has commonly brought the son of Alphaeus, this James and James the Lord’s brother into one biography. The identification is not demonstrated by an explicit statement in the biblical texts, and a responsible account must preserve that distinction.
+### Called to Be One of the Twelve Apostles
 
-The older Catholic Encyclopedia argues in favour of the traditional identification while acknowledging uncertainty and competing interpretations. Its reconstruction is therefore useful evidence for the history of Catholic interpretation, not proof that the question has been settled. If James son of Alphaeus is considered independently, very little can be said beyond his membership in the Twelve. No securely documented childhood, occupation, individual call narrative or missionary itinerary survives for him.
+Saint James the Less appears in the lists of the Twelve Apostles recorded in the Gospels of Matthew, Mark and Luke, as well as in the Acts of the Apostles. He is consistently identified as the son of Alphaeus, distinguishing him from the other Apostle named James, whose father was Zebedee. The designation *the Less* is traditionally understood as distinguishing him from James the Greater, although its precise original meaning remains uncertain.
 
-## The Jerusalem James
+The New Testament reveals little about James's life before his calling. Like the other Apostles, he was chosen by Jesus to accompany Him, learn from His teaching and become a witness to His ministry. The Apostles were entrusted with a mission that extended beyond their own lives: they were to proclaim the coming of God's Kingdom, announce the forgiveness of sins and bear witness to the death and Resurrection of Christ.
 
-The following details concern James the Lord’s brother and apply to the son of Alphaeus only if the traditional identification is accepted. Paul records an appearance of the risen Christ to James and describes meeting him in Jerusalem. In Galatians, James appears with Cephas and John among the recognized pillars of the community. These references establish the importance of the Jerusalem leader; they do not by themselves resolve every relationship among the men sharing his name.
+Although James is not associated with any extended dialogue or individual miracle in the Gospels, his inclusion among the Twelve testifies to the importance of his vocation. His discipleship would have involved listening to Jesus, witnessing His works and gradually coming to understand the mystery of His identity. Like the other Apostles, he would also have had to overcome his own limitations and grow in faith through the events of Christ's Passion and Resurrection.
 
-In Acts 15, James speaks during the deliberation over Gentile converts and the Mosaic law. He supports their reception without circumcision while proposing requirements intended to make common life possible between believers of different backgrounds. Later, in Acts 21, Paul meets James and the elders, reports his ministry and receives advice intended to address suspicions about his attitude towards Jewish observance. These scenes depict leadership exercised through deliberation, scriptural reasoning and concern for communion, rather than through an isolated authority detached from the community.
+### James and the Early Church in Jerusalem
 
-The Epistle of James has traditionally been associated with this Jerusalem figure. Its exhortations emphasize integrity between faith and conduct, care for the poor, restraint in speech and perseverance. Attribution of the letter, however, belongs to a distinct literary question and cannot simply establish that its author was the son of Alphaeus. Likewise, the expression “brother of the Lord” has received different interpretations concerning family relationship. Neither issue should be silently converted into an undisputed personal detail.
+Christian tradition has often identified James the Less with James, the brother of the Lord, who became one of the principal leaders of the Church in Jerusalem. The precise relationship between these biblical figures remains a subject of historical discussion, but the James described in the Acts of the Apostles unquestionably played a significant role in guiding the early Christian community.
 
-## Death and remembrance
+Following the Resurrection, the disciples gathered in Jerusalem to pray and await the coming of the Holy Spirit. As the Christian community grew, the Apostles faced important questions concerning the relationship between the Gospel and the Jewish Law, particularly as increasing numbers of Gentiles embraced the faith.
 
-Ancient accounts of the death of Jerusalem’s James are not identical. Josephus and the Christian tradition transmitted through Hegesippus provide different narratives and emphases; the latter also portrays James as exceptionally ascetical and devoted to prayer. Those traditions help explain his remembrance as the Just, but their details must be evaluated rather than indiscriminately combined. They do not securely supply a separate account of the death of James son of Alphaeus.
+James emerged as a respected leader during this period. At the Council of Jerusalem, described in Acts 15, he spoke in favour of welcoming Gentile converts without requiring them to undergo circumcision and observe the entirety of the Mosaic Law. His judgement helped the early Church recognise that salvation was offered through the grace of the Lord Jesus and that people from every nation could become members of God's people.
 
-The Church’s remembrance of James the Less thus joins an assured apostolic name to a complex interpretive inheritance. It is possible to honour that inheritance while admitting the limits of historical reconstruction. What is certain about the apostle need not be enlarged by invented travel or speeches. What is richly attested about the Jerusalem leader should remain clearly labelled whenever it is associated with the apostle commemorated under the name James the Less.
+This decision was essential to the spread of Christianity beyond its original Jewish setting. James demonstrated a spirit of discernment, seeking to preserve the unity of the Church while recognising the work of God among different peoples. His leadership reveals the importance of wisdom, charity and fidelity to the Gospel when the Christian community faces difficult questions.
 
-## Sources
+### A Witness to Faith and Practical Holiness
 
-- [Catholic Encyclopedia, “St. James the Less” (consulted digital mirror)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/08280a.htm)
+The Letter of James, traditionally attributed to James the brother of the Lord, offers a powerful expression of the practical character of Christian faith. Although the precise relationship between its author and James the son of Alphaeus is not established beyond dispute, the letter has long been associated with the apostolic tradition surrounding James.
+
+Its teaching insists that genuine faith must be expressed through good works, care for those in need and a life marked by integrity. The author warns against favouritism towards the wealthy, calls Christians to control their speech and urges them to seek heavenly wisdom rather than be guided by envy or selfish ambition.
+
+One of its most memorable teachings declares that faith without works is dead. This does not suggest that human beings earn salvation independently of God's grace, but that authentic faith must bear fruit in a transformed life. Love of God must be made visible through compassion, justice and practical service to one's neighbour.
+
+These teachings reflect the spiritual qualities traditionally associated with James: a commitment to the truth, concern for the poor and a desire to build a community whose actions correspond to its profession of faith. His example encourages Christians to recognise that holiness is lived not only through prayer and worship, but also through everyday acts of mercy and obedience.
+
+### His Final Witness and Lasting Legacy
+
+The New Testament does not provide a detailed account of the death of James the son of Alphaeus. Later Christian traditions associate James, the leader of the Church in Jerusalem, with martyrdom, but the precise circumstances of his death and the relationship between these traditions and the Apostle remain uncertain.
+
+Nevertheless, the Church remembers Saint James the Less as one of the Twelve chosen by Christ and as a figure associated with the apostolic foundations of Christian faith. His legacy is inseparable from the mission entrusted to the Apostles: to proclaim the Gospel, strengthen the community of believers and bear witness to the saving power of Jesus Christ.
+
+Saint James the Less reminds the faithful that God's work often unfolds through people whose lives are not extensively recorded in history. His place among the Apostles demonstrates that every vocation matters, even when its details remain hidden from later generations. Through his traditional association with the early Church in Jerusalem, he also exemplifies the wisdom needed to preserve unity while welcoming people from different backgrounds into the Christian community.
+
+His life invites Christians to pursue a faith that is steadfast, humble and fruitful in good works. By remaining faithful to Christ and serving His Church, Saint James the Less stands as a witness to the enduring truth that authentic discipleship is measured not by worldly recognition, but by love of God, service to others and perseverance in the Gospel.
 $desc$),
 ('saint-james-the-less-apostle','fr','Jacques le Mineur est traditionnellement identifié à Jacques, fils d’Alphée, l’un des Douze. Son identification supplémentaire avec Jacques, frère du Seigneur et responsable de l’Église de Jérusalem, a marqué la dévotion occidentale, mais demeure historiquement discutée.',$desc$## Un nom à distinguer
 
@@ -5786,25 +4631,47 @@ WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
 UPDATE saint_translations AS st
 SET short_description = x.short_description, full_biography = x.full_biography
 FROM saints AS s JOIN (VALUES
-('saint-nereus','en','Nereus was a Roman martyr commemorated with Achilleus near the Via Ardeatina. An early inscription remembers their conversion from military service; later stories about imperial household service cannot securely establish the circumstances of their lives.',$desc$## The earliest evidence
+('saint-nereus',
+'en',
+'Nereus was a Roman martyr commemorated with Achilleus near the Via Ardeatina. An early inscription remembers their conversion from military service; later stories about imperial household service cannot securely establish the circumstances of their lives.',
+$desc$
+Saint Nereus is honoured by the Catholic Church as an early Christian martyr who bore witness to Jesus Christ during the first centuries of Christianity. He is traditionally remembered alongside Saint Achilleus, his companion in martyrdom, and both are associated with the ancient Christian community of Rome. Although little is known with certainty about their personal lives, an inscription commissioned by Pope Saint Damasus I in the fourth century preserves an important account of their conversion and courageous rejection of military service. Their story reflects the transformative power of Christian faith, which led them to abandon a life of obedience to earthly authority when it conflicted with their conscience. By choosing fidelity to Christ over personal security, Nereus and Achilleus became enduring examples of courage, conversion and unwavering devotion to the Gospel.
 
-Nereus is known principally through a shared commemoration with Achilleus in Rome. Their burial place was venerated in the cemetery of Domitilla near the Via Ardeatina. Ancient calendars and later pilgrim itineraries identify this cult, while the remains of a basilica erected over their burial place provide material evidence of its importance. These witnesses establish a remembered martyr and a place of worship more firmly than they establish the details of his lifetime.
+### Early Life and Service in the Roman Army
 
-The most important early narrative witness is an inscription composed by Pope Damasus in the fourth century. It describes Nereus and Achilleus as soldiers who had obeyed a tyrant, then embraced Christian faith, abandoned their military service and accepted death. A fragment of the inscription was recovered among the basilica’s remains, and its fuller text was also preserved through an ancient copy. The poem does not name the ruler responsible or supply a year for the martyrdom.
+The precise circumstances of Saint Nereus's birth and early life are unknown. According to the earliest surviving historical testimony, he and Saint Achilleus served as soldiers in the Roman army. Pope Damasus I, writing in the fourth century, describes them as men who had once obeyed the orders of a powerful ruler and participated in the duties expected of soldiers.
 
-## Later narrative
+Christian tradition places their lives during a period when professing the Christian faith could expose believers to persecution and death. The Roman Empire experienced several waves of persecution, although the exact date of Nereus's life and martyrdom cannot be established with certainty. Later accounts associate their deaths with the persecution under Emperor Diocletian, but the earliest evidence does not identify the emperor or specify the precise circumstances.
 
-A much later account presents the two men as eunuchs and chamberlains of Flavia Domitilla, associates them with exile on Pontia and places their execution at Terracina. The Catholic Encyclopedia explains that this narrative links numerous otherwise distinct figures and has the character of a religious romance. Its household setting differs from the military identity given by Damasus. The two accounts should therefore not be merged into a confidently dated career.
+What distinguishes Nereus and Achilleus in the historical record is not their military rank or worldly achievements, but the decisive change that followed their conversion. Their story illustrates how the encounter with Christ could transform the loyalties, values and priorities of those who embraced the Christian faith.
 
-Nor is there sufficient evidence to identify this martyr with the Nereus greeted by Paul in Romans, or to establish a family connection between them. Similar names do not demonstrate personal continuity. Birthplace, age, relatives and the precise circumstances of conversion remain unknown. Admitting these limits prevents later narrative detail from displacing the earlier evidence.
+### Conversion and the Decision to Follow Christ
 
-## Remembered with Achilleus
+According to the inscription of Pope Damasus, Nereus and Achilleus were converted to Christianity and came to recognise that their military service conflicted with their newly formed religious convictions. They consequently abandoned their weapons and military duties, choosing to follow Christ rather than continue a life that could require them to act against their conscience.
 
-Nereus’s surviving historical identity is inseparable from Achilleus’s. Their joint remembrance concerns a change of allegiance expressed through costly Christian confession. The ancient devotion does not require a reconstructed speech, invented journey or exact chronology. The burial tradition, Damasus’s poem and the archaeological remains together preserve the essential outline, while leaving much of the personal story beyond recovery.
+Their decision represented a profound break with their former existence. In the Roman world, military service was closely connected with civic duty, social standing and loyalty to imperial authority. To renounce that position could bring serious personal consequences. Yet Nereus and Achilleus considered their allegiance to Christ more important than the security and status they had previously enjoyed.
 
-## Sources
+Their conversion reveals an essential aspect of Christian discipleship: faith is not simply an intellectual conviction, but a response that can reshape a person's entire life. The example of these two soldiers demonstrates that following Christ may require difficult choices, particularly when earthly obligations conflict with the demands of conscience and fidelity to God.
 
-- [Catholic Encyclopedia, “Sts. Nereus and Achilleus, Domitilla and Pancratius” (consulted digital mirror)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/10751a.htm)
+### Martyrdom and Witness to the Faith
+
+The ancient Christian tradition honours Nereus and Achilleus as martyrs who gave their lives rather than abandon their faith. The precise circumstances of their deaths remain uncertain, but archaeological evidence and early Christian testimony establish the antiquity of their veneration in Rome.
+
+Their burial place was associated with the Catacomb of Domitilla along the Via Ardeatina, where an early Christian basilica was later erected over their tombs. A fragmentary inscription attributed to Pope Damasus commemorates their witness and records their transformation from soldiers obedient to earthly authority into Christians who freely accepted the consequences of their conversion.
+
+Later accounts connect their martyrdom with Saint Flavia Domitilla, describing them as members of her household who suffered persecution alongside her. These narratives contain legendary elements and cannot be accepted as entirely reliable historical records. Nevertheless, the longstanding association between their names and their burial place demonstrates the importance of their memory within the early Roman Church.
+
+For early Christians, the martyrs were not remembered merely as victims of persecution, but as witnesses whose faith revealed the strength of God's grace. Nereus and Achilleus exemplified this conviction through their willingness to remain faithful even when their decision brought suffering and death.
+
+### A Lasting Legacy of Courage and Conversion
+
+Saint Nereus continues to be remembered as a witness to the transforming power of Christian faith. His story, preserved alongside that of Saint Achilleus, reminds the faithful that genuine conversion involves more than adopting new beliefs: it requires the courage to allow Christ to shape one's decisions, priorities and understanding of duty.
+
+Their example is particularly meaningful because their holiness emerged not from a life of public prominence, but from a decisive act of conscience. Having once served the authority of the Roman Empire, they chose instead to place their lives in the hands of God. Their fidelity illustrates the conviction that no earthly power can take precedence over the ultimate demands of faith.
+
+Although the historical details of Nereus's life remain limited, the testimony preserved by Pope Damasus ensures that his witness has not been forgotten. Together with Saint Achilleus, he stands as a reminder that the Church was strengthened by men and women who embraced the Gospel with courage and remained faithful through persecution.
+
+The life of Saint Nereus invites Christians to examine their own loyalties and to consider whether their choices reflect the values of Christ. His example teaches that holiness often begins with the willingness to turn away from what is incompatible with the Gospel and to follow God with an undivided heart. Through his witness, Saint Nereus continues to embody the courage, sacrifice and enduring hope that characterise the Christian call to discipleship.
 $desc$),
 ('saint-nereus','fr','Nérée était un martyr romain commémoré avec Achillée près de la voie Ardéatine. Une ancienne inscription rappelle leur conversion et leur abandon du service militaire ; les récits postérieurs de service dans une maison impériale ne permettent pas de reconstruire sûrement leur vie.',$desc$## Les premiers témoignages
 
@@ -5846,27 +4713,45 @@ Identitas historica Nerei quae superest ab Achilleo separari nequit. Communis me
 
 - [Catholic Encyclopedia, “Sts. Nereus and Achilleus, Domitilla and Pancratius” (exemplar digitale consultum)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/10751a.htm)
 $desc$),
-('saint-achilleus','en','Achilleus was a Roman martyr whose remembrance is joined to Nereus. A Damasian inscription and remains of their cemetery basilica preserve early testimony, while later accounts of their household positions, exile and execution are historically uncertain.',$desc$## A martyr at the Via Ardeatina
+('saint-achilleus',
+'en',
+'Achilleus was a Roman martyr whose remembrance is joined to Nereus. A Damasian inscription and remains of their cemetery basilica preserve early testimony, while later accounts of their household positions, exile and execution are historically uncertain.',
+$desc$
+Saint Achilleus is venerated by the Catholic Church as an early Christian martyr who gave his life in witness to Jesus Christ. Remembered alongside Saint Nereus, his companion in faith and martyrdom, he belongs to the ancient Christian tradition of Rome, where the memory of the martyrs played a central role in the life of the Church. Although little is known with certainty about his personal history, an inscription commissioned by Pope Saint Damasus I in the fourth century preserves a remarkable account of his conversion. According to this early testimony, Achilleus served as a soldier before embracing Christianity and abandoning his former duties rather than remain bound to a life incompatible with his faith. His witness illustrates the transforming power of the Gospel and the courage required to place allegiance to Christ above worldly authority. Through his steadfastness in the face of persecution, Saint Achilleus remains an example of conversion, fidelity and the hope that sustains Christians in times of trial.
 
-Achilleus was honoured with Nereus at a burial place in the cemetery of Domitilla outside Rome. The ancient commemoration is supported by calendars, pilgrimage itineraries and a basilica constructed over the graves. His life is not preserved in contemporary personal records. What survives most securely is the existence of a local martyr cult that became part of Rome’s wider liturgical memory.
+### Early Life and Service in the Roman Army
 
-Archaeological evidence gives Achilleus an unusually concrete presence within that fragmentary record. Among the remains of the basilica were pillars associated with its sanctuary canopy, bearing representations of the martyrs’ execution. One preserved pillar carries the name Achilleus. Such a monument witnesses how the community represented and honoured him; it does not by itself establish the year, legal proceedings or complete sequence of the death it depicts.
+The historical details of Saint Achilleus's early life are largely unknown. The oldest surviving testimony concerning him comes from an inscription written by Pope Damasus I, who served as Bishop of Rome during the fourth century and devoted considerable attention to preserving the memory of the martyrs. This inscription identifies Achilleus and Nereus as soldiers who had once obeyed the commands of an earthly ruler.
 
-## The poem of Damasus
+The Roman army offered its soldiers a recognised position within imperial society, but military service could also involve duties that conflicted with Christian convictions. The precise circumstances of Achilleus's service are not recorded, and the date of his birth remains uncertain. Nevertheless, the early inscription preserves the essential outline of his spiritual journey: he underwent a profound conversion and chose to abandon his military position in order to follow Christ.
 
-Pope Damasus’s fourth-century inscription presents Achilleus and Nereus as soldiers once obedient to a tyrant. Converted to Christianity, they abandoned that service and accepted martyrdom. Its wording emphasizes the contrast between former obedience and their changed commitment. The poem is the principal early narrative testimony, but it leaves the responsible ruler and exact date unnamed.
+His story belongs to the wider experience of early Christians who had to discern how their faith should shape their responsibilities within Roman society. For Achilleus, conversion meant more than an inward change of belief. It required a concrete decision that altered the course of his life and placed his future in God's hands.
 
-Later acts instead make them eunuchs in the household of Flavia Domitilla, exiled with her to Pontia and eventually beheaded at Terracina. The consulted Catholic Encyclopedia treats those acts as legendary, noting their combination of numerous martyrs in an elaborate narrative. Their details cannot simply be added to the poem to produce a fuller, supposedly verified biography. Even an attractive reconciliation of the two versions would remain conjectural.
+### Conversion and the Courage to Follow Christ
 
-## A shared remembrance
+According to Pope Damasus's inscription, Achilleus and Nereus experienced a decisive change after embracing Christianity. Having previously obeyed the commands of their superiors, they renounced their military service and chose the path of Christian discipleship.
 
-No reliable separate account supplies Achilleus’s birthplace, family or age. The common celebration of Nereus and Achilleus reflects their shared burial and cult, not proof of every later claim concerning their relationship. Their significance in the earliest commemorative text lies in a conversion expressed by renunciation and endurance.
+Their decision expressed a new understanding of loyalty and duty. Rather than allowing their lives to be defined by their former position, they sought to place themselves entirely at the service of Christ. Their conversion demonstrates how the Gospel can transform a person's priorities, challenging established habits and demanding choices that require courage and sacrifice.
 
-The historical restraint required here is substantial but not destructive. Achilleus is not known merely from an unattested modern story: ancient worship and material remains support his remembrance. They preserve a meaningful outline without authorizing an invented childhood or a detailed persecution narrative. His biography must remain shorter than those of saints whose letters, writings and contemporary lives survive.
+For early Christians, faith was not simply a private conviction. It shaped their understanding of justice, obedience, worship and the ultimate authority of God. The example of Achilleus reminds believers that genuine conversion must reach into the practical decisions of everyday life. Following Christ may require relinquishing security, status or personal advantage when these conflict with the demands of conscience.
 
-## Sources
+Although the surviving evidence does not describe the details of Achilleus's spiritual formation, the memory preserved by the early Church presents him as a man whose faith led him to act decisively. His witness is therefore not only a story of martyrdom, but also one of the courage that can accompany a sincere and wholehearted conversion.
 
-- [Catholic Encyclopedia, “Sts. Nereus and Achilleus, Domitilla and Pancratius” (consulted digital mirror)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/10751a.htm)
+### Martyrdom and the Witness of the Early Church
+
+Saint Achilleus is traditionally honoured as a martyr who remained faithful to Christ until death. The exact date and circumstances of his martyrdom cannot be established from the earliest sources. Later accounts provide more elaborate narratives, connecting him and Nereus with Saint Flavia Domitilla and describing their persecution and execution. These stories contain legendary elements and should be distinguished from the earlier historical testimony.
+
+Archaeological discoveries nevertheless confirm the ancient veneration of Nereus and Achilleus in Rome. Their tombs were associated with the Catacomb of Domitilla along the Via Ardeatina, where a basilica was built in their honour during the fourth century. Excavations uncovered fragments of the inscription commissioned by Pope Damasus and a carved architectural element bearing Achilleus's name and depicting the martyrdom of the two saints.
+
+These discoveries demonstrate that their memory was already firmly established within the Roman Christian community in late antiquity. The faithful honoured them not simply as victims of persecution, but as witnesses whose courage embodied the conviction that Christ was worth more than earthly security or even life itself.
+
+### A Lasting Legacy of Faith and Perseverance
+
+Saint Achilleus's legacy is inseparable from that of Saint Nereus, with whom he is remembered as a companion in conversion and martyrdom. Together, they represent the many Christians of the early Church whose names and personal histories have only partially survived, yet whose witness helped shape the faith of later generations.
+
+Their story reminds Christians that holiness can begin with a decisive turning towards God. Achilleus's renunciation of military service, as recorded in the ancient inscription, illustrates the willingness to reorder one's life according to the demands of faith. His example also reveals that Christian courage does not consist merely in facing suffering, but in choosing what is right even when that choice carries a personal cost.
+
+The Catholic Church preserves the memory of Saint Achilleus as a witness to the enduring power of the Gospel. His life invites the faithful to examine their own commitments, to place Christ at the centre of their decisions and to remain steadfast when their convictions are tested. Though the details of his earthly journey remain largely hidden, his witness continues to express a central truth of Christian discipleship: a life surrendered to God can bear fruit far beyond what history is able to record.
 $desc$),
 ('saint-achilleus','fr','Achillée était un martyr romain dont la mémoire est unie à celle de Nérée. Une inscription damasienne et les vestiges de leur basilique funéraire conservent des témoignages anciens ; les récits postérieurs de service domestique, d’exil et d’exécution restent historiquement incertains.',$desc$## Un martyr de la voie Ardéatine
 
@@ -5912,25 +4797,44 @@ Moderatio historica hic necessaria magna quidem est, non tamen destructiva. Achi
 
 - [Catholic Encyclopedia, “Sts. Nereus and Achilleus, Domitilla and Pancratius” (exemplar digitale consultum)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/10751a.htm)
 $desc$),
-('saint-pancras','en','Pancras was an early Roman martyr venerated at a burial place on the Via Aurelia. His ancient cult is well attested, but the familiar narrative of his youth and trial belongs to a later, historically uncertain tradition.',$desc$## A Roman burial and cult
+('saint-pancras',
+'en',
+'Pancras was an early Roman martyr venerated at a burial place on the Via Aurelia. His ancient cult is well attested, but the familiar narrative of his youth and trial belongs to a later, historically uncertain tradition.',
+$desc$
 
-Pancras, also called Pancratius, was commemorated in Rome at a burial place on the Via Aurelia. Ancient calendars record his remembrance on 12 May, and seventh-century itineraries direct pilgrims to his grave. A church erected over the site became an enduring centre of devotion. These records are evidence for an early and established cult, even though they do not preserve a contemporary narrative of his life.
+Saint Pancras of Rome is honoured by the Catholic Church as an early Christian martyr who remained faithful to Jesus Christ despite the threat of death. Traditionally remembered as a young man who suffered martyrdom during the persecutions of the Roman Empire, he became a powerful symbol of courage, innocence and unwavering devotion to the Gospel. Although the details of his life are preserved primarily through later Christian traditions, the ancient veneration of his tomb in Rome bears witness to the importance of his memory within the early Church. According to his traditional biography, Pancras embraced Christianity while still a teenager and refused to renounce his faith when challenged by the Roman authorities. His willingness to sacrifice his life rather than abandon Christ has inspired generations of Christians, reminding them that true strength is found not in worldly power, but in fidelity to God.
 
-His commemoration eventually appeared beside those of Nereus and Achilleus, but the burial places were different. Nereus and Achilleus were associated with the Via Ardeatina, whereas Pancras belonged to the Via Aurelia. Their common date does not show that they were companions, were tried together or died in the same persecution. The consulted source explains the separate local celebrations behind their later association in the calendar.
+### Early Life and Conversion to Christianity
 
-## The limits of biography
+According to Christian tradition, Pancras was born into a wealthy Roman family in Phrygia, a region of Asia Minor corresponding largely to parts of modern-day Turkey. His parents died while he was still young, and he was entrusted to the care of his uncle, Dionysius. The two eventually travelled to Rome, where they encountered the Christian community and became interested in the faith.
 
-The familiar narrative of Pancras’s martyrdom is later than the earliest evidence for his cult. The Catholic Encyclopedia explicitly judges that legend unreliable as historical testimony. Consequently, a precise age, reconstructed dialogue with an emperor and a detailed family story should not be presented here as established facts. They belong to the development of his religious memory rather than to a secure personal record.
+Pancras was reportedly baptised and embraced Christianity with remarkable conviction for someone of his age. The Christian message of salvation, eternal life and the love of God transformed his understanding of the world and gave him a new sense of purpose. Although his youth and social position might have offered him a relatively secure future, his commitment to Christ would soon place him in danger.
 
-Even the persecution in which he died cannot be fixed confidently from the evidence consulted. The source suggests either the persecution under Valerian in the third century or that under Diocletian in the early fourth. These alternatives are historical proposals, not two episodes in one life. Choosing an exact death year merely because later accounts supply one would conceal the uncertainty.
+The precise details of Pancras's childhood and conversion cannot be independently verified, as they come primarily from later hagiographical accounts. Nevertheless, these traditions have consistently presented him as a young believer whose faith became the defining commitment of his life.
 
-## An enduring remembrance
+### Courage During the Persecution of Christians
 
-Pancras’s historical outline is therefore brief: a Roman martyr, an ancient grave, a church and a continuing liturgical remembrance. The absence of a detailed biography does not negate those witnesses. It does, however, require restraint about his personal circumstances and the manner in which later generations imagined his courage. His place among the remembered martyrs can be described faithfully without turning an uncertain legend into contemporary history.
+Pancras is traditionally associated with the persecution of Christians under the Roman emperors, particularly during the severe persecutions of the early fourth century. Under imperial orders, Christians could be pressured to offer sacrifices to the traditional Roman gods as a demonstration of loyalty to the state. Those who refused risked imprisonment, torture or execution.
 
-## Sources
+According to his traditional *Passio*, Pancras was brought before the authorities and urged to renounce Christianity. Despite his youth, he refused to abandon his faith. The narrative portrays him as steadfast in the face of threats and promises of worldly rewards, preferring fidelity to Christ over the prospect of a comfortable life.
 
-- [Catholic Encyclopedia, “Sts. Nereus and Achilleus, Domitilla and Pancratius” (consulted digital mirror)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/10751a.htm)
+Pancras was eventually condemned to death and traditionally said to have been beheaded along the Via Aurelia in Rome. His precise age and the circumstances of his execution remain uncertain, and the surviving historical evidence does not establish every detail of this account. Nevertheless, his ancient cult confirms that the Roman Christian community preserved his memory as a martyr.
+
+### Martyrdom and the Witness of the Early Church
+
+The veneration of Saint Pancras became firmly established in Rome during the early centuries of Christianity. His tomb was located along the Via Aurelia, outside the ancient city, and became an important destination for Christian pilgrims. A basilica was built over or near the burial site under Pope Symmachus, who served as Bishop of Rome from 498 to 514. The church was later enlarged, reflecting the enduring devotion of the faithful to the young martyr.
+
+The significance of Pancras's memory lies not only in the traditional account of his death, but also in the way his witness was preserved by the Church. Early Christians honoured martyrs because their willingness to suffer for Christ testified to their hope in the Resurrection and the promise of eternal life. Pancras came to embody this conviction: death could not overcome the faith of those who trusted in the victory of Christ.
+
+His story also illustrates how Christian courage is not determined by age, strength or social position. Even a young believer, with little worldly authority, could bear witness to a faith stronger than the fear of death.
+
+### A Lasting Legacy of Faith and Courage
+
+Saint Pancras has remained an enduring figure in Christian devotion, particularly as an example of youthful fidelity and moral courage. His traditional biography has inspired believers to remain steadfast in their convictions, even when doing so requires sacrifice or places them at odds with the expectations of society.
+
+His life reminds Christians that holiness does not depend upon reaching old age or accomplishing great public works. A sincere response to God's grace, expressed through faithfulness and love, can become a powerful witness to others. Pancras's example encourages young people especially to recognise that they are capable of living the Gospel with conviction and courage.
+
+Although many details of his earthly life remain uncertain, the ancient memory of Saint Pancras continues to testify to the strength of the early Christian faith. His witness invites the faithful to place their trust in Christ above all earthly securities and to remember that authentic courage is rooted in love of God. Through his example, Saint Pancras remains a symbol of perseverance, hope and the enduring power of a faith that refuses to be overcome by fear.
 $desc$),
 ('saint-pancras','fr','Pancrace était un ancien martyr romain vénéré auprès d’une sépulture de la voie Aurélienne. Son culte ancien est bien attesté, mais le récit familier de sa jeunesse et de son procès appartient à une tradition postérieure historiquement incertaine.',$desc$## Une sépulture et un culte romains
 
@@ -5983,35 +4887,50 @@ FROM saints AS s
 JOIN (VALUES
 ('saint-justin-martyr', 'en',
 $desc$Justin was a second-century Christian philosopher and apologist whose writings explain the faith, worship, and moral life of early Christians. His search for truth led to Christian conversion, teaching in Rome, and martyrdom under the prefect Rusticus.$desc$,
-$desc$## Life and evidence
+$desc$
+Saint Justin Martyr holds a distinguished place in the history of the Catholic Church as one of the most important Christian thinkers and defenders of the faith during the second century. Born around the year 100 in Flavia Neapolis, in the region of Samaria, he devoted his early life to the pursuit of wisdom through Greek philosophy. His search for truth eventually led him to Christianity, which he came to recognise as the fulfilment of humanity's deepest longing for knowledge of God. As a philosopher, teacher and Christian apologist, Justin sought to explain the faith in terms that his contemporaries could understand, demonstrating that Christianity was not a threat to reason but the true wisdom towards which reason ultimately points. Through his writings, he defended Christians against unjust accusations and offered one of the earliest detailed accounts of Christian worship. His refusal to renounce his faith ultimately led to his martyrdom in Rome, making him an enduring example of intellectual courage, spiritual conviction and fidelity to Jesus Christ.
 
-Justin was born around the beginning of the second century at Flavia Neapolis, near ancient Shechem in Roman Palestine. His references to his father Priscus and grandfather Bacchius, together with his own account of being uncircumcised, indicate a non-Jewish background. Neither his exact birth date nor a detailed childhood history is securely known. His surviving works contain autobiographical material, but they are arguments for Christianity rather than neutral memoirs. Their literary arrangement must therefore be distinguished from independently established chronology.
+### A Search for Truth Through Philosophy
 
-In the opening of the Dialogue with Trypho, Justin describes successive encounters with Stoic, Peripatetic, Pythagorean, and Platonic teachers. Each stage dramatizes the question of whether philosophical study can bring a person to knowledge of God. Platonism attracted him most strongly, but a conversation with an elderly stranger directed him toward the biblical prophets. The account gives a coherent interpretation of his conversion without necessarily reproducing every conversation exactly. His Apologies also attribute importance to Christians who faced execution courageously: their conduct undermined allegations that Christian communities practised shameful crimes.
+Justin was born into a pagan family in Flavia Neapolis, a Roman city near ancient Shechem in Samaria. From an early age, he developed a deep desire to understand the meaning of existence and to discover the truth about God. He studied several schools of Greek philosophy, including Stoicism and Platonism, hoping that one of them would provide the answers he sought.
 
-## A Christian philosopher
+Although these philosophical traditions introduced him to important questions about morality, knowledge and the nature of reality, Justin remained dissatisfied. He longed for a knowledge of God that went beyond abstract speculation and could offer a true understanding of the human soul and its ultimate destiny.
 
-His conversion is generally placed around 130, though the evidence does not establish an exact year. He retained the philosopher's vocation after becoming Christian, presenting the new faith as the fulfilment rather than the abandonment of the search for truth. He spent time in the Greek-speaking eastern Mediterranean and eventually taught at Rome. The record of his trial indicates that he had visited Rome twice and received people wishing to hear his teaching. Christianity in this setting spread through personal instruction as well as through established assemblies.
+According to his *Dialogue with Trypho*, a decisive moment occurred when he encountered an elderly Christian near the seashore. The man challenged Justin's confidence in philosophy alone and directed his attention towards the Hebrew prophets, whose writings proclaimed God's revelation and anticipated the coming of Christ. Through this conversation, Justin began to understand that divine truth was not reached solely through human reasoning, but was revealed by God Himself.
 
-Three substantial works are securely associated with him: the First Apology, the Second Apology, and the Dialogue with Trypho. Other compositions are known through ancient references, while several writings transmitted under his name are not authentic. The surviving textual tradition has gaps and corruptions; consequently, apparent completeness in a modern edition should not conceal the precarious transmission of an important early Christian author. The relationship between the two Apologies, including whether the second functioned as a supplement, has also occasioned scholarly discussion.
+He eventually embraced Christianity, probably around the year 130. Justin came to regard Christ as the eternal Word, or *Logos*, through whom God reveals Himself to humanity. His conversion did not lead him to reject philosophy entirely; instead, he believed that whatever was true and good in philosophical thought found its fullest meaning in Jesus Christ.
 
-## Defence of Christian belief
+### A Philosopher in the Service of the Gospel
 
-The First Apology, normally dated to the middle of the second century, appeals to imperial authorities for reasoned judgement. Justin argues that the name Christian should not itself establish guilt. Crimes should be investigated as crimes, while refusal to worship the traditional gods should not be confused with moral corruption. His defence combines criticism of persecution with an account of Christian ethics, divine judgement, and the significance of Jesus. Its setting is an unequal relationship between a vulnerable religious minority and the power that could condemn its members.
+After his conversion, Justin continued to wear the distinctive clothing of a philosopher and travelled to different places, teaching and discussing the Christian faith. He eventually established himself in Rome, where he instructed students and defended Christianity against the misunderstandings and hostility it encountered.
 
-Justin interprets Christ as the divine Logos, the Word through whom truth becomes accessible. He can therefore recognize partial insights among Greek philosophers while affirming that their fulfilment is found in Christ. This is not an assertion that all systems teach the same thing. He criticizes philosophical error and insists on revelation through the prophets. His language belongs to a period before the later conciliar definitions of Trinitarian doctrine; its formulations should be read historically rather than treated as if they already used the technical vocabulary of fourth-century theology.
+Justin believed that faith and reason were not enemies. He argued that the human search for wisdom could prepare people to recognise the truth revealed in Christ. He also developed the idea of the *Logos spermatikos*, or the seed of the Word, according to which glimpses of divine truth could be found among people who had not yet encountered the fullness of the Christian revelation.
 
-The Dialogue presents an extended Christian reading of Israel's Scriptures in conversation and controversy with a Jewish interlocutor. It argues for Jesus as Messiah and explores prophecy, law, and the identity of God's people. Its polemical claims belong to the developing differentiation of Christian and Jewish communities. The work is a major witness to early Christian interpretation, but its literary dialogue cannot simply be used as a transcript of Jewish teaching or as an impartial description of Judaism.
+For Justin, however, these partial insights found their completion in Jesus, the incarnate Word of God. Christianity was not simply another philosophical school, but the revelation of the truth towards which humanity had long been searching.
 
-## Worship and martyrdom
+His writings, especially the *First Apology* and *Second Apology*, were addressed to Roman authorities and sought to correct false accusations against Christians. He argued that believers should not be condemned merely because they bore the name Christian, but should be judged according to their actual conduct. He explained that Christians rejected idolatry and sought to live morally upright lives, practising charity, prayer and fidelity to God.
 
-Justin's account of baptism and the Sunday assembly is exceptionally valuable. He describes scriptural readings, instruction, common prayer, the offering of bread and wine, thanksgiving, and distribution by deacons, including to absent members. He connects Eucharistic food with the flesh and blood of the incarnate Jesus and mentions voluntary assistance for people in need. These passages show worship and material solidarity together, without establishing that every second-century congregation everywhere followed an identical arrangement.
+Justin's approach was remarkable for its combination of intellectual argument and personal conviction. He sought not merely to defend Christians from persecution, but to help others understand the beauty and reasonableness of their faith.
 
-Around 165 Justin and six companions were tried before the Roman prefect Rusticus. The martyrdom account records their refusal to sacrifice and their condemnation to scourging and beheading. A hostile philosopher, Crescens, was later associated with Justin's downfall, but his precise responsibility is uncertain. Justin's enduring importance rests on the conjunction of intellectual argument, observation of Christian communal life, and personal fidelity under prosecution. His writings preserve a distinctive stage in the Church's encounter with classical philosophy and Roman public authority.
+### Witness to Christian Worship and the Eucharist
 
-## Sources
+One of Justin's most important contributions to Christian history is his description of the Church's worship in the second century. In his *First Apology*, he explained how Christians gathered on Sunday, the day associated with Christ's Resurrection, for prayer, readings from the Scriptures and the celebration of the Eucharist.
 
-- G. Archambault, “St. Justin Martyr,” Catholic Encyclopedia (1910), consulted digital edition: https://github.com/CWilsonTSP/cathen/blob/master/cathen/08580c.htm.
+He described the reading of the writings of the Apostles and the prophets, the exhortation given by the presiding minister, communal prayers, the exchange of peace and the presentation of bread and wine mixed with water. He also explained that the Eucharistic food was not regarded as ordinary bread and drink, but as the Body and Blood of Jesus Christ.
+
+Justin further emphasised the Church's responsibility towards the poor. Those who possessed resources contributed according to their ability, and the community used these offerings to assist orphans, widows, the sick, prisoners and others in need.
+
+His testimony provides invaluable evidence for the continuity of Christian worship and belief from the earliest generations of the Church. It also reveals a community in which prayer, the Eucharist and practical charity were inseparably united.
+
+### Martyrdom and Lasting Legacy
+
+Justin's public defence of Christianity brought him into conflict with those who opposed the Christian faith. Ancient accounts associate his trial with the Roman prefect Junius Rusticus, under the reign of Emperor Marcus Aurelius. Along with several companions, Justin was interrogated and ordered to sacrifice to the Roman gods. He refused to abandon his Christian convictions and was condemned to death.
+
+According to the traditional account of his martyrdom, Justin and his companions were executed in Rome around the year 165. His willingness to die rather than deny Christ gave lasting significance to the name by which he is remembered: *Justin Martyr*.
+
+The Catholic Church honours him as one of the great early Christian apologists. His writings remain essential witnesses to the Church's understanding of Christ, the Eucharist and the relationship between faith and reason.
+
+Saint Justin's life teaches that the search for truth need not end when a person encounters Christ; rather, it finds its deepest fulfilment in Him. He reminds Christians that intellectual inquiry, prayer and moral integrity belong together, and that the defence of faith should be guided by both courage and charity. Through his writings and martyrdom, Justin continues to testify that truth is worth seeking, proclaiming and, when necessary, defending at the cost of one's life.
 $desc$),
 ('saint-justin-martyr', 'fr',
 $desc$Justin, philosophe chrétien et apologiste du deuxième siècle, explique dans ses écrits la foi, le culte et la morale des premiers chrétiens. Sa recherche de la vérité le conduisit à la conversion, à l’enseignement à Rome et au martyre sous le préfet Rusticus.$desc$,
@@ -6079,26 +4998,46 @@ Circa annum 165 Iustinus cum sex sociis coram Rustico praefecto Romano iudicatus
 $desc$),
 ('saint-marcellinus', 'en',
 $desc$Marcellinus was a Roman priest remembered with Peter the exorcist as a martyr of the Diocletianic persecution. Their shared burial and longstanding liturgical commemoration are better established than the detailed conversion and prison stories preserved in later tradition.$desc$,
-$desc$## Identity and historical limits
+$desc$
+Saint Marcellinus of Rome is honoured by the Catholic Church as an early Christian priest and martyr who gave his life in witness to Jesus Christ during the persecution under Emperor Diocletian. Remembered alongside Saint Peter the Exorcist, he belonged to the Christian community of Rome at a time when professing the faith could bring imprisonment and death. Although the details of his life are preserved partly through later traditions, the memory of his martyrdom is supported by the testimony of Pope Saint Damasus I, who commemorated the two saints in an inscription during the fourth century. According to Christian tradition, Marcellinus remained steadfast in his faith despite persecution and helped bring others to Christ through his priestly ministry. His life reflects the courage of the early Church, the importance of the sacraments and the conviction that fidelity to God must remain stronger than fear of suffering or death.
 
-Marcellinus is venerated as a priest and martyr together with Peter, traditionally described as an exorcist. He should not be confused with Pope Marcellinus, whose life belongs to the same broad period. The tradition places their execution at Rome during Diocletian's persecution, in the early fourth century. A precise birth date, family history, and chronological account of his priestly ministry cannot be reconstructed from the sources consulted. Their shared commemoration on 2 June preserves a relationship in Christian memory rather than two independently documented careers.
+### A Priest in the Early Christian Community
 
-## The narrative tradition
+Little is known with certainty about the early life of Saint Marcellinus. He served as a priest in Rome during the late third and early fourth centuries, when Christianity was spreading throughout the Roman Empire despite periods of hostility and persecution. As a priest, he would have been responsible for teaching the faith, celebrating the sacraments and guiding the Christian community entrusted to his care.
 
-The Roman Breviary's historical lesson tells how Peter, imprisoned for confessing Christianity, delivered Paulina, daughter of the prison keeper Artemius, from an evil spirit. Artemius, his household, and other witnesses then sought Christian initiation. Peter brought them to Marcellinus, who baptized them. In this narrative the priest and exorcist exercise complementary ministries: Peter's witness occasions conversion, while Marcellinus receives the converts into the Church.
+The Church in Rome faced growing danger under Emperor Diocletian, whose persecution of Christians intensified from the year 303 onwards. Imperial decrees ordered the destruction of churches, the confiscation of sacred Scriptures and the arrest of Christian clergy. Believers were pressured to sacrifice to the traditional Roman gods, and those who refused risked severe punishment.
 
-The same lesson describes their interrogation before a judge named Serenus. Marcellinus answers courageously, is struck, and is confined in harsh conditions apart from Peter. Both refuse to abandon their confession and are eventually beheaded. These episodes belong to the developed hagiographical account transmitted for liturgical reading. They should not be presented as independently verified courtroom proceedings, and the miraculous elements are reported as religious tradition rather than established observations.
+It was in this difficult setting that Marcellinus is traditionally remembered as a courageous witness to Christ. His priestly vocation placed him at the heart of a community that needed spiritual strength and pastoral care. Although the surviving sources provide few details about his daily ministry, his enduring association with the early Roman Church reflects the importance of priests who continued to serve the faithful during times of danger.
 
-## Burial and remembrance
+### His Encounter with Saint Peter the Exorcist
 
-The Roman cemetery associated with Peter and Marcellinus lay on the Via Labicana and also bore the designation ad duas lauros, referring to two laurel trees. The consulted archaeological overview identifies their burial as a focus of the cemetery's Christian identity. Such topographical evidence is important because it anchors their remembrance in a real burial landscape, whereas the later narrative supplies details that the archaeological setting cannot itself prove.
+Christian tradition closely links Marcellinus with Saint Peter the Exorcist, another member of the Roman Christian community who was arrested during the persecution. Peter's ministry involved the early Church's rite of exorcism, and the two saints are remembered as companions who proclaimed Christ even when imprisoned.
 
-Their cult therefore rests on more than the survival of an edifying story, but the evidence does not justify a lengthy reconstruction of Marcellinus's private life. His historical profile remains that of a Roman martyr remembered as a priest, inseparably associated with Peter. Keeping the distinction between established commemoration and elaborated narrative allows both the antiquity of their remembrance and the limits of surviving knowledge to remain visible.
+According to their traditional *Passio*, Peter encountered Marcellinus during his imprisonment, and together they continued to announce the Gospel. Their witness reportedly contributed to the conversion of their jailer, Artēmius, and members of his household. One account describes the miraculous deliverance of the jailer's daughter, whose healing led the family to embrace Christianity and receive baptism from Marcellinus.
 
-## Sources
+These details belong to later hagiographical accounts and cannot all be verified independently. Nevertheless, they express an important theme in the Church's memory of the two martyrs: even imprisonment could not prevent them from carrying out their mission. Their faith became an occasion for others to encounter Christ, demonstrating how Christian witness can bear fruit in circumstances that appear hopeless.
 
-- Roman Breviary, lesson for 2 June, consulted English edition: https://github.com/DivinumOfficium/divinum-officium/blob/master/web/www/horas/English/Sancti/06-02.txt.
-- “Roman Catacombs,” Catholic Encyclopedia, consulted digital edition: https://github.com/CWilsonTSP/cathen/blob/master/cathen/03417b.htm.
+Marcellinus's role as a priest is especially significant in this tradition. While Peter is remembered for his ministry as an exorcist, Marcellinus represents the sacramental and pastoral service through which new believers were welcomed into the Church.
+
+### Martyrdom During the Persecution of Diocletian
+
+The ancient tradition identifies Marcellinus and Peter as martyrs who died during the persecution under Diocletian, around the beginning of the fourth century. According to their *Passio*, the authorities condemned them to death because they refused to renounce their Christian faith and continued to encourage others to believe in Christ.
+
+The account describes their execution as deliberately concealed: they were taken to a wooded area outside Rome and forced to prepare the place where they would be buried before being beheaded. Their bodies were subsequently recovered by Christians and laid to rest along the Via Labicana, in the cemetery known as *Ad Duas Lauros*, or “At the Two Laurels.”
+
+Although the more dramatic details of the narrative must be treated cautiously, the ancient veneration of the two martyrs is well established. Pope Damasus I later commemorated their witness in an inscription, helping preserve their memory for subsequent generations. Their burial place became an important site of Christian devotion, and a basilica was eventually erected in their honour.
+
+Their martyrdom illustrates the central conviction of the early Christian community: earthly suffering and death could not destroy the hope founded upon the Resurrection of Jesus Christ.
+
+### A Lasting Legacy of Faith and Pastoral Courage
+
+Saint Marcellinus remains an enduring example of priestly fidelity and Christian courage. Remembered alongside Saint Peter the Exorcist, he represents the many clergy of the early Church who continued to proclaim the Gospel despite the threat of persecution.
+
+His traditional role in baptising new converts also highlights the importance of the sacraments in the life of the Church. Even in a time of danger, the Christian community continued to welcome those who turned towards Christ, trusting in God's grace and the promise of eternal life.
+
+The witness of Saint Marcellinus reminds Christians that holiness is often expressed through steadfast service rather than public recognition. His life encourages priests and all the faithful to remain devoted to their vocation, to support others in their journey towards God and to persevere when faithfulness becomes difficult.
+
+Although many details of his earthly life remain uncertain, the ancient memory of his martyrdom continues to bear witness to the strength of the early Church. Through his example, Saint Marcellinus invites the faithful to place their trust in Christ, to serve His Church with courage and to remain steadfast in the hope that no earthly power can overcome the life promised by God.
 $desc$),
 ('saint-marcellinus', 'fr',
 $desc$Marcellin, prêtre romain, est commémoré avec Pierre l’exorciste comme martyr de la persécution de Dioclétien. Leur sépulture commune et leur ancienne mémoire liturgique sont mieux établies que les récits détaillés de conversions et d’emprisonnement transmis par la tradition.$desc$,
@@ -6148,26 +5087,46 @@ Cultus igitur non sola narratione aedificanti servata nititur; testimonia tamen 
 $desc$),
 ('saint-peter-exorcist', 'en',
 $desc$Peter the exorcist is remembered with the priest Marcellinus among Rome’s early Christian martyrs. Later accounts describe his prison ministry and steadfast confession; their shared cemetery preserves a firmer historical setting than the detailed episodes of the martyrdom narrative.$desc$,
-$desc$## Identity and evidence
+$desc$
+Saint Peter the Exorcist is honoured by the Catholic Church as an early Christian martyr who proclaimed the Gospel during the persecution under Emperor Diocletian. Remembered alongside Saint Marcellinus, a priest of the Church of Rome, Peter served the Christian community through his ministry as an exorcist, helping prepare people for baptism and their entrance into the life of the Church. Although the details of his life are preserved mainly through ancient traditions and later accounts, his memory is firmly rooted in the early Christian veneration of the martyrs of Rome. According to tradition, Peter continued to proclaim Jesus Christ even while imprisoned, encouraging others to embrace the faith despite the threat of death. His courage and spiritual dedication make him an enduring example of Christian service, missionary zeal and unwavering fidelity to Christ.
 
-Peter, conventionally called the exorcist, is a Roman martyr commemorated with the priest Marcellinus. He is not the apostle Peter. Christian tradition places the companions in the persecution of Diocletian at the beginning of the fourth century, but the sources consulted do not supply a securely documented birth, family background, or sequence of ministerial appointments. His designation identifies a role in the Christian community; it should not be expanded into an otherwise unattested personal history.
+### His Ministry in the Early Church
 
-## Ministry in the received account
+Little is known with certainty about Saint Peter's origins or early life. The ancient Christian tradition identifies him as an *exorcist* serving the Church in Rome during the late third and early fourth centuries. In the early Church, the ministry of exorcist was associated with prayer for those believed to be under demonic influence and with the preparation of catechumens for baptism. It formed part of the wider pastoral care through which Christians sought to help people turn away from evil and embrace the freedom offered by Christ.
 
-The Roman Breviary's lesson for 2 June describes Peter as a prisoner who continued to confess Christianity. According to that narrative, he freed Paulina, daughter of the prison keeper Artemius, from an evil spirit. The event moved her family and other witnesses to seek Christian initiation. Peter brought the prospective converts to Marcellinus, who baptized them. The story thus distinguishes the exorcist's activity from the priest's sacramental ministry while presenting both as part of one Christian witness.
+Peter lived at a time when the Christian community in Rome was growing but remained vulnerable to imperial hostility. Christians gathered for prayer, celebrated the Eucharist and instructed new believers, often under difficult circumstances. The clergy and other ministers played an essential role in preserving the faith and supporting those preparing to join the Church.
 
-The judge Serenus subsequently confronts the two men, threatening punishment unless they abandon Christ. Peter and Marcellinus remain steadfast, endure imprisonment, and are finally beheaded. These particulars survive within a developed hagiographical and liturgical tradition, not as independently checked contemporary reports. In particular, the deliverance of Paulina is a claim of the religious narrative, and the conversations should not be treated as verbatim records. A responsible biography can explain the tradition's meaning without asserting that every scene is historically recoverable.
+Peter's title distinguishes him from the better-known Saint Peter the Apostle, the disciple of Jesus and first leader of the apostolic community. Although the surviving sources provide little information about Peter the Exorcist's personal character, his place in the Roman Christian tradition reveals the importance attached to the service of those who helped strengthen the faith of others.
 
-## A shared Roman remembrance
+### Imprisonment and the Encounter with Saint Marcellinus
 
-Their cemetery on the Via Labicana, also known as ad duas lauros, provides an identifiable geographical setting for their veneration. The archaeological account consulted lists Peter and Marcellinus among the martyrs whose burial places gave a Christian cemetery its identity. Their continuing association is therefore not merely a feature of the later prison story. Burial tradition and liturgical commemoration offer distinct kinds of evidence from the dramatic details of their passion.
+According to the traditional account of their lives, Peter was arrested during the persecution of Christians under Emperor Diocletian, which intensified from 303 onwards. During this persecution, imperial authorities ordered churches to be destroyed, Scriptures to be confiscated and Christian clergy to be arrested. Those who refused to offer sacrifices to the Roman gods risked severe punishment.
 
-Peter's surviving profile is consequently brief: a Roman Christian remembered as an exorcist and martyr, consistently linked with Marcellinus. The lack of a fuller securely established biography should be acknowledged rather than filled with imagined childhood, journeys, or speeches. His remembrance illustrates how early Christian communities preserved the names and places of their dead even when subsequent generations possessed only limited evidence about their individual lives.
+While imprisoned, Peter is said to have encountered Saint Marcellinus, a priest who had also been arrested for his Christian faith. The two men formed a spiritual partnership and continued to proclaim the Gospel despite their confinement. Rather than allowing imprisonment to silence them, they encouraged those around them to believe in Christ.
 
-## Sources
+Their traditional *Passio* recounts that Peter and Marcellinus helped convert their jailer, Artemius, and members of his household. One of the most famous episodes describes the miraculous healing of Artemius's daughter, who was believed to be troubled by an evil spirit. According to the account, Peter prayed for her deliverance, and the resulting conversion of the family led Marcellinus to baptise them.
 
-- Roman Breviary, lesson for 2 June, consulted English edition: https://github.com/DivinumOfficium/divinum-officium/blob/master/web/www/horas/English/Sancti/06-02.txt.
-- “Roman Catacombs,” Catholic Encyclopedia, consulted digital edition: https://github.com/CWilsonTSP/cathen/blob/master/cathen/03417b.htm.
+These details belong to a later hagiographical narrative and cannot all be independently verified. Nevertheless, they express an important aspect of the Church's memory of Peter: his ministry continued even under persecution, and his faith became an occasion for others to encounter Christ.
+
+### Martyrdom During the Persecution of Diocletian
+
+Christian tradition places the martyrdom of Peter and Marcellinus around the year 304, during the severe persecution ordered by Diocletian. Their refusal to renounce Christianity and their continued efforts to encourage new believers reportedly led the authorities to condemn them to death.
+
+According to their traditional account, the two men were taken to an isolated wooded area outside Rome so that their execution and burial place would remain unknown to the Christian community. They were forced to prepare their own graves before being beheaded. Their bodies were later recovered by Christian women and buried along the Via Labicana, in the cemetery known as *Ad Duas Lauros*, meaning “At the Two Laurels.”
+
+Although some details of this narrative remain uncertain, the ancient veneration of the two martyrs is well documented. Pope Damasus I, who served as Bishop of Rome in the fourth century, commemorated Peter and Marcellinus in an inscription at their tomb. Their names subsequently became firmly established in the Church's liturgical and devotional tradition.
+
+Their witness reflects the conviction of early Christians that death could not overcome the hope offered by Christ's Resurrection. Peter's ministry as an exorcist, traditionally associated with spiritual liberation, also took on a deeper meaning through his martyrdom: his life and death testified to the victory of Christ over sin, evil and death.
+
+### A Lasting Legacy of Faith and Spiritual Service
+
+Saint Peter the Exorcist remains an example of the courage and dedication of the early Christian ministers who served their communities during times of persecution. His association with Saint Marcellinus highlights the unity of different ministries within the Church and the importance of working together to proclaim the Gospel.
+
+His traditional role in the conversion and baptism of others reminds Christians that spiritual service is directed towards bringing people into a deeper relationship with God. Even in circumstances marked by fear and suffering, Peter is remembered as a man who continued to serve others rather than abandon his vocation.
+
+The life of Saint Peter teaches that Christian witness is not limited to public preaching or extraordinary deeds. It can also be expressed through prayer, pastoral care and steadfast commitment to those seeking faith. His example encourages the faithful to remain courageous in difficult circumstances, to help others discover the freedom offered by Christ and to place their hope in God's promises.
+
+Although many details of his earthly life remain uncertain, the enduring memory of Saint Peter the Exorcist testifies to the faith of the early Church. Together with Saint Marcellinus, he stands as a witness to the power of the Gospel and to the conviction that a life devoted to Christ can bear fruit even in the face of persecution and death.
 $desc$),
 ('saint-peter-exorcist', 'fr',
 $desc$Pierre l’exorciste est commémoré avec le prêtre Marcellin parmi les martyrs chrétiens de Rome. Les récits postérieurs décrivent son ministère en prison et sa fidélité ; leur cimetière commun fournit un cadre historique plus assuré que les épisodes détaillés de leur passion.$desc$,
@@ -6225,41 +5184,54 @@ FROM saints AS s
 JOIN (VALUES
 ('saint-charles-lwanga', 'en',
 $desc$Charles Lwanga instructed and protected young Christians at the court of Buganda before his execution in 1886. Canonized with twenty-one companions, he represents the Ugandan martyrs’ shared witness of faith, personal integrity, and solidarity under royal persecution.$desc$,
-$desc$## Historical setting and sources
+$desc$
+Saint Charles Lwanga holds a distinguished place in the history of the Catholic Church as one of the most courageous witnesses to the Christian faith in nineteenth-century Africa. Born around 1860 in the Kingdom of Buganda, in present-day Uganda, he served at the royal court of King Mwanga II, where he became the leader of the young royal pages. After embracing Christianity, Charles devoted himself to protecting and encouraging the faith of his companions, particularly those who were younger and more vulnerable. When the king began persecuting Christians, Charles refused to renounce his faith, choosing fidelity to Jesus Christ over his own safety. His courage culminated in his martyrdom by fire, alongside other Christian believers. Remembered as a patron of Christian youth in Africa, Saint Charles Lwanga remains an enduring example of moral courage, spiritual leadership and unwavering devotion to Christ.
 
-Charles Lwanga belonged to the Christian community that emerged in the kingdom of Buganda during the late nineteenth century. Anglican missionaries and the Catholic Missionaries of Africa, commonly called the White Fathers, introduced competing Christian missions into an already complex political and religious environment. Christianity was not merely a foreign institution imposed on passive recipients: African converts learned, taught, formed relationships, and made decisions that shaped the new communities. Charles's activity among younger court members is particularly important evidence of this local responsibility.
+### Early Life and Discovery of the Christian Faith
 
-The principal sources consulted here are Benedict XV's beatification letter of 1920, Paul VI's canonization homily of 1964, and Francis's Namugongo homily of 2015. They preserve the Catholic interpretation of the martyrs and selected information from their cause. They are not politically neutral histories. Their older colonial and religious generalizations should not be repeated as objective descriptions of African societies or other faiths. Even their chronological and personal details need discrimination: the broad sequence of conversion, persecution, and death is firmer than every reported age or speech.
+Charles Lwanga was born around 1860 in the Kingdom of Buganda, a powerful kingdom in the region of the African Great Lakes. Little is known with certainty about every detail of his childhood, but he belonged to the Ganda people and grew up within a society shaped by royal authority, established customs and strong communal traditions.
 
-## Conversion and service at court
+Christianity began spreading in Buganda during the nineteenth century, particularly through the work of Catholic missionaries known as the White Fathers, founded by Cardinal Charles Lavigerie. Their preaching introduced the Christian faith to members of the royal court and encouraged the formation of a growing community of converts.
 
-The beatification letter identifies Charles as a native of Bulimu and dates his baptism to 15 November 1885. It describes him as a trusted court servant who supervised royal pages and performed his responsibilities diligently. Exact birth dating is less secure, and the consulted accounts do not justify a detailed reconstruction of his childhood. His importance emerges most clearly in the months between his Christian initiation and the persecution that ended his life.
+Charles became interested in Christianity through contact with people who had encountered the missionaries. He eventually entered royal service and rose to a position of responsibility among the young pages who attended the king. His intelligence, strength of character and concern for others helped him earn their trust.
 
-At the court of Mwanga II, Christian allegiance could become politically suspect when obedience to the ruler encountered moral or religious limits. The Catholic account connects the persecution both with accusations of Christian disloyalty and with the refusal of young attendants to submit to the king's sexual demands. These were situations of coercion within a sharply unequal household hierarchy, not simply disputes about abstract doctrine. The sources also preserve court rivalries; reducing the violence to a single motive would therefore flatten its political setting.
+In November 1885, after the execution of Joseph Mukasa, a Catholic official who had challenged the king's treatment of Christians, Charles sought baptism. He received the sacrament from a Catholic missionary and committed himself to following Christ. This decision would soon shape not only his own destiny but also the lives of the young people entrusted to his care.
 
-## Teaching and solidarity
+### Leadership at the Royal Court
 
-Charles encouraged the pages entrusted to him to remain faithful and protected younger Christians in dangerous circumstances. Benedict XV's account credits him with baptizing several catechumens shortly before their arrest or condemnation, including Kizito, Mbaga Tuzindé, and others. Such actions illustrate how a recently baptized layman could assume responsibility when ordinary access to missionaries became difficult. They do not require an imagined lengthy clerical education or an ecclesiastical office for which there is no evidence.
+Following the death of Joseph Mukasa, Charles became the leading figure among the royal pages. His position placed him close to King Mwanga II, but it also gave him an opportunity to support the young Christians serving at court.
 
-Francis, speaking at Namugongo in 2015, explicitly joined Charles with Joseph Mkasa as men who passed on the faith they had themselves received. His interpretation emphasizes responsibility for younger people, not solitary heroism. The martyrs were linked by instruction, friendship, prayer, and mutual encouragement. Charles's biography consequently cannot be separated entirely from the companions whose names and individual experiences belong to the same history, even though not all were arrested together or killed in the same manner.
+As the king grew increasingly hostile towards Christianity, Charles sought to protect his companions from pressure and intimidation. According to historical accounts, Mwanga demanded that some of the pages submit to his sexual advances and became enraged when Christian converts refused to comply. Charles encouraged the young men to remain faithful to their convictions and defended them against the king's demands.
 
-## Execution and companions
+His leadership was marked by a particular concern for the vulnerable. Rather than treating his position as a means of personal advancement, he used his influence to strengthen others and prepare them to face the consequences of their faith. He also instructed the younger pages in Christian teaching and encouraged those preparing for baptism.
 
-Charles was killed at Namugongo on 3 June 1886, in the burning associated with the best-known collective execution of the Ugandan martyrs. The beatification document describes the condemned being bound and taken to the execution ground, where they continued praying. Its presentation is explicitly a passion narrative: it interprets suffering through Christian fidelity and sacrifice. The historical fact of execution should be distinguished from the literary shaping of remembered gestures, exact words, and the arrangement of individual deaths.
+Charles's example demonstrates that Christian leadership is not measured simply by authority or status, but by the willingness to protect others and serve the truth. His courage helped sustain a community of young believers whose faith was being tested under increasingly dangerous circumstances.
 
-The canonized group comprises twenty-two Catholics, Charles and twenty-one companions, including Matthias Mulumba. It is not identical with everyone who died in the wider persecution. Some companions suffered other forms of execution, and Anglican Christians were also killed. Paul VI acknowledged the Anglican dead in the canonization homily, and Francis renewed that recognition in 2015. Keeping these distinctions avoids both erasing other victims and suggesting that all twenty-two Catholics shared one identical final episode.
+### Persecution and the Courage to Remain Faithful
 
-## Recognition and significance
+During 1886, King Mwanga's hostility towards Christians intensified. He viewed the growing influence of Christianity with suspicion, particularly because converts refused to obey certain royal demands when these conflicted with their religious convictions. Both Catholic and Anglican Christians suffered persecution.
 
-Benedict XV beatified the group on 6 June 1920; Paul VI canonized them on 18 October 1964. Their recognition connected a relatively recent African Christian history with the Church's older remembrance of martyrdom. Later papal interpretation increasingly foregrounded common Christian witness and the responsibility of African believers within their own societies.
+In May 1886, Charles and a group of Christian pages were arrested after openly acknowledging their faith. They were given the opportunity to abandon Christianity, but Charles remained steadfast. According to tradition, before his arrest he baptised several catechumens who had not yet received the sacrament, determined that they should enter the Christian community even as persecution threatened their lives.
 
-Charles's enduring historical significance lies in lay leadership under pressure. The surviving record presents someone whose conversion quickly became a commitment to teaching and protecting others, and whose loyalty to Christian conscience brought him into conflict with royal power. A careful account honours that witness without endorsing the dated cultural assumptions of some sources or inventing private experiences that those sources cannot establish.
+Among the young believers associated with Charles was Kizito, a particularly young convert whom he encouraged and supported. Their relationship reveals the pastoral dimension of Charles's courage: he sought not only to preserve his own faith but also to help others remain faithful to Christ.
 
-## Sources
+The prisoners were condemned to death and forced to travel towards Namugongo, a place used for executions. During this journey, they endured hardship and violence, yet many refused to renounce their beliefs. Their determination became a powerful testimony to the strength of the Christian community in Buganda.
 
-- Benedict XV, In Africam, 6 June 1920: https://github.com/lologhi/vatican/blob/master/benedict-xv/apost_letters/1920-06-06-in-africam.latin.md.
-- Paul VI, canonization homily, 18 October 1964: https://github.com/lologhi/vatican/blob/master/paul-vi/homilies/1964/1964-10-18-martiri-uganda.latin.md.
-- Francis, Namugongo homily, 28 November 2015: https://github.com/lologhi/vatican/blob/master/francesco/homilies/2015/2015-11-28-uganda-omelia-martiri.md.
+### Martyrdom at Namugongo
+
+Charles Lwanga was executed in 1886 at Namugongo, where he was burned alive for refusing to abandon his Christian faith. Traditional accounts describe him as remaining calm and prayerful despite the terrible suffering inflicted upon him. His death preceded the execution of many of his companions, who were also burned at the same site.
+
+The group included young Catholic believers who had chosen to remain faithful despite threats from the king. Other Christians, including Anglicans, were also killed during the wider persecution. Their witness demonstrates that the suffering endured by Christians in Buganda crossed denominational boundaries, united by their common commitment to Christ.
+
+The martyrdom of Charles and his companions became a defining moment in the history of Christianity in Uganda. Their courage strengthened the memory of the early Christian community and contributed to the continued growth of the faith in the region.
+
+### A Lasting Legacy of Faith and Courage
+
+Saint Charles Lwanga and his Catholic companions were canonised by Pope Paul VI in 1964. Their recognition honoured not only their personal fidelity but also the wider witness of the Ugandan Christians who suffered persecution during this period. Charles is especially remembered as a model for young people and for those entrusted with the responsibility of guiding and protecting others.
+
+His life teaches that courage is not simply the absence of fear, but the decision to remain faithful to what is right even when the consequences are severe. By protecting the younger pages, encouraging converts and refusing to deny Christ, Charles demonstrated that Christian holiness can flourish even in circumstances marked by injustice and violence.
+
+His example continues to inspire Christians to defend the dignity of others, to remain steadfast in their convictions and to place their trust in God rather than worldly power. Saint Charles Lwanga stands as a lasting witness to the transforming power of the Gospel and to the hope that sustains those who give their lives in love and fidelity to Jesus Christ.
 $desc$),
 ('saint-charles-lwanga', 'fr',
 $desc$Charles Lwanga instruisit et protégea de jeunes chrétiens à la cour du Buganda avant son exécution en 1886. Canonisé avec vingt et un compagnons, il représente leur témoignage commun de foi, d’intégrité personnelle et de solidarité sous la persécution royale.$desc$,
@@ -6339,37 +5311,56 @@ Momentum historicum Caroli in ductu laicali sub oppressionibus consistit. Docume
 $desc$),
 ('saint-boniface', 'en',
 $desc$Boniface, born Winfrid in Anglo-Saxon England, became a missionary bishop and organizer of churches in the Frankish and German regions. His correspondence, reforming councils, and monastic foundations illuminate his work before his death among the Frisians in the eighth century.$desc$,
-$desc$## Formation and missionary decision
+$desc$
+Saint Boniface holds a distinguished place in the history of the Catholic Church as one of the greatest missionaries of medieval Europe and the man remembered as the *Apostle of the Germans*. Born in Anglo-Saxon England around 675 under the name Winfrid, he devoted his life to proclaiming the Gospel among the Germanic peoples and strengthening the organisation of the Church in Central Europe. A Benedictine monk, gifted scholar and courageous bishop, he combined a deep love of Scripture with a remarkable ability to establish monasteries, reform ecclesiastical life and train new generations of missionaries. His mission was marked by both setbacks and extraordinary achievements, but he remained faithful to his calling until his martyrdom in Frisia. Saint Boniface's life reveals the power of perseverance, the importance of Christian education and the courage required to bring the Gospel to people unfamiliar with its message.
 
-Boniface was born Winfrid in Anglo-Saxon England during the later seventh century. His exact birthplace and year remain uncertain; the association with Crediton belongs to a tradition less secure than his English origin. He entered monastic life, received an education in Scripture and Latin learning, and taught at Nursling. The intellectual preparation evident in his surviving correspondence is essential to his biography. He was not simply an adventurous traveller, but a monk formed by a culture of reading, teaching, disciplined worship, and ecclesiastical relationships.
+### Early Life and Monastic Formation
 
-His first attempt to work among the Frisians, in 716, was interrupted by political conditions. After returning to England, he again left the opportunities available within his own monastic community. In Rome, Gregory II authorized his mission in 719. The name Boniface became associated with this continental vocation, although older accounts differ about precisely when it replaced Winfrid. The papal commission linked missionary initiative to responsibility for doctrine, sacramental practice, and communication with the Roman Church.
+Boniface was born around 675 in Wessex, in southern England, and was baptised with the name Winfrid. From a young age, he felt drawn to the monastic life and entered a Benedictine monastery, where he received an education in Scripture, theology and the liberal arts. His intellectual gifts soon became evident, and he distinguished himself as a teacher of Latin grammar and a writer.
 
-## Mission and public authority
+Winfrid could have remained in England, pursuing a respected career as a scholar and monk. However, he developed a strong desire to bring the Christian faith to peoples beyond his homeland. England itself had received missionaries only a few generations earlier, and its growing Christian communities were now sending monks abroad to proclaim the Gospel.
 
-Boniface worked for a time with Willibrord in Frisia and subsequently developed missions in Hesse and Thuringia. These regions were not uniformly untouched by Christianity. Some communities had existing churches and Christian rulers, while others combined inherited religious customs with elements of Christian observance. His task therefore included both evangelization and reform. The hostile descriptions of rival clergy in older Catholic sources should be understood within disputes over authority and discipline, rather than repeated as an impartial verdict on every competing missionary tradition.
+In 716, Winfrid undertook his first missionary journey to Frisia, a region corresponding largely to parts of the present-day Netherlands and northern Germany. His efforts encountered resistance from the local ruler, Radbod, and the mission made little progress. Rather than abandon his vocation, Winfrid returned to England and prepared for a new beginning.
 
-Gregory II consecrated him bishop in 722, and Gregory III later granted him the pallium and wider organizing responsibilities. Boniface sought protection from Frankish rulers, including Charles Martel. That protection made travel, foundations, and reform more practicable, but it also placed missionary work within expanding political power. His career cannot be described adequately either as independent of rulers or as merely their instrument. His letters reveal an ecclesiastical programme maintained through negotiation with several centres of authority.
+### A Mission Entrusted by the Pope
 
-## Communities and reform
+In 718, Winfrid travelled to Rome to seek guidance from Pope Gregory II. The pope recognised his missionary zeal and entrusted him with the task of evangelising the Germanic peoples. During this encounter, Winfrid received the name Boniface, under which he would become known throughout Christian history.
 
-The famous story of the sacred oak at Geismar recounts Boniface felling a tree associated with the thunder god and using its timber for a Christian church. It expresses a public challenge to traditional worship. The narrative's account of divine protection and immediate religious consequences belongs to its hagiographical interpretation; it should not become a claim that a single act instantly ended non-Christian religion across a whole region. Christianization involved continuing instruction, institutions, and changing social relationships.
+Strengthened by papal support, Boniface returned to the continent and resumed his missionary work. He preached in regions where Christian communities were small or poorly organised, often travelling through difficult territory and facing cultural and religious opposition. His approach combined preaching with the establishment of lasting structures that could support the growth of the Church.
 
-Boniface depended on a broad network of helpers rather than working alone. English correspondents supplied books, practical assistance, and encouragement; men and women joined the continental foundations. Monastic communities, including those associated with Lioba, sustained teaching and religious life. Fulda, founded under Sturm with Boniface's support, became particularly important. These houses provided durable settings in which religious formation could continue beyond the movement or death of an individual missionary.
+Boniface understood that evangelisation required more than individual conversions. Communities needed priests, monasteries, sound teaching and stable pastoral leadership if the faith was to take root. His mission therefore developed into a broad programme of preaching, education and ecclesiastical organisation.
 
-His organizing work extended to episcopal structures and councils. In Bavaria he helped regularize diocesan government, while new centres developed elsewhere in the German regions. With Frankish support he promoted synods that addressed clerical conduct, episcopal supervision, religious discipline, and marriage. Such decisions show that reform involved everyday administration as much as preaching. They also disclose the distance between an ecclesiastical ideal expressed in legislation and the conditions reformers believed required correction.
+### Evangelisation and the Oak of Donar
 
-## Mainz and the final journey
+One of the most famous episodes associated with Saint Boniface is the felling of a sacred oak dedicated to Donar, a Germanic deity, near Fritzlar. According to the traditional account, Boniface cut down the tree to demonstrate that the pagan gods were powerless to prevent the act. When the tree fell without the expected divine punishment, the event helped strengthen the Christian message among those who witnessed it.
 
-Boniface eventually occupied the see of Mainz while continuing his wider responsibilities. His surviving letters are a major source for the practical pressures of this work: requests for advice, reports to Rome, disagreements over jurisdiction, and reliance on friends belong to the same life as public missionary achievement. The consulted older encyclopedia contains disputed chronological details, so its individual dates should not all be treated as equally secure.
+Although this episode has often been retold as a dramatic turning point, Boniface's wider mission depended on much more than a single symbolic gesture. He travelled extensively, preached the Gospel and worked with local communities to establish Christian worship and instruction. His purpose was to replace fear of pagan powers with trust in the one God revealed in Jesus Christ.
 
-In old age he returned to missionary work among the Frisians, leaving continuing responsibilities to associates such as Lullus. He and his companions were killed near Dokkum on 5 June, conventionally dated 754, although older scholarship also argued for 755. The narrative places the attack during preparations for the confirmation of converts. Accounts differ concerning the number of companions, and the exact circumstances should not be embellished beyond the evidence.
+Boniface's missionary work also involved patience and adaptation. He recognised that the Christian faith needed to be communicated in ways that people could understand, while remaining faithful to the teaching and sacramental life of the Church. His efforts helped establish a stronger Christian presence throughout parts of central and southern Germany.
 
-His body was ultimately brought to Fulda, which became a major centre of his remembrance. Boniface's significance lies in the conjunction of monastic learning, missionary preaching, episcopal organization, and attachment to Rome. The Christian institutions he strengthened outlasted him, while his correspondence preserves the less triumphant dimensions of reform: dependence, uncertainty, disagreement, and sustained effort within a difficult political landscape.
+### Reforming the Church and Founding Monasteries
 
-## Sources
+Boniface's influence extended beyond missionary preaching. With the support of successive popes, he became a bishop and later an archbishop, receiving authority to organise and strengthen the Church across extensive territories. He worked to improve clerical discipline, convened synods and encouraged closer cooperation between local churches and the See of Rome.
 
-- K. Löffler, “St. Boniface,” Catholic Encyclopedia (1907), consulted digital edition: https://github.com/CWilsonTSP/cathen/blob/master/cathen/02656a.htm.
+He also recognised the importance of monasteries as centres of prayer, education and evangelisation. With the assistance of monks and nuns from England, he helped establish religious communities that served as places of spiritual formation and cultural learning. Among the most significant was the monastery of Fulda, founded around 744, which became an important centre of Christian life and scholarship.
+
+Boniface's work was not limited to the spiritual sphere. Monastic communities preserved books, taught languages, cultivated land and helped transmit learning across generations. By bringing together prayer, intellectual study and practical labour, they contributed to the development of Christian culture in regions where ecclesiastical institutions were still taking shape.
+
+### Martyrdom in Frisia
+
+Despite his many achievements, Boniface never abandoned his desire to evangelise Frisia, where his earliest missionary efforts had met with failure. In old age, he returned to the region accompanied by a group of fellow missionaries. He understood the dangers involved but remained determined to complete the work he believed God had entrusted to him.
+
+In 754, while preparing to celebrate Mass near Dokkum, in what is now the Netherlands, Boniface and his companions were attacked by armed men. According to his early biographical tradition, he urged his followers not to resist violently, reminding them of the Christian command to overcome evil with good. He was killed alongside his companions, giving his life in the service of the Gospel.
+
+His body was eventually brought to the monastery of Fulda, where he was buried. His tomb became a major destination for pilgrims, and his memory endured as that of a missionary bishop who remained faithful to his calling until death.
+
+### A Lasting Legacy of Faith and Mission
+
+Saint Boniface's legacy extends far beyond the regions he personally evangelised. He helped establish lasting Christian communities, strengthened ecclesiastical organisation and encouraged the growth of monasteries that became centres of prayer and learning. His writings and correspondence also reveal a man deeply committed to Scripture, pastoral responsibility and unity within the Church.
+
+The Catholic Church remembers him as a model of missionary courage and perseverance. His life teaches that the proclamation of the Gospel requires patience, sound formation and a willingness to continue despite setbacks. He also demonstrates that evangelisation and culture can enrich one another when learning, prayer and service are placed at the disposal of the faith.
+
+Saint Boniface remains an inspiring example for all Christians called to share their faith with others. His journey from a monastery in England to the mission fields of continental Europe shows how a life rooted in prayer can become an instrument of profound transformation. Through his preaching, reforms and final sacrifice, he bore witness to the enduring power of the Gospel and to the courage of those who dedicate themselves entirely to the service of Christ.
 $desc$),
 ('saint-boniface', 'fr',
 $desc$Boniface, né Winfrid dans l’Angleterre anglo-saxonne, devint évêque missionnaire et organisateur des Églises franques et germaniques. Sa correspondance, ses conciles réformateurs et ses fondations monastiques éclairent son action avant sa mort parmi les Frisons au huitième siècle.$desc$,
@@ -6441,41 +5432,56 @@ Corpus tandem Fuldam translatum est, quae praecipuum memoriae centrum facta est.
 $desc$),
 ('saint-norbert', 'en',
 $desc$Norbert of Xanten founded the community at Prémontré and later became archbishop of Magdeburg. His life joined penitential preaching, the common life of canons, ecclesiastical reform, and involvement in the political and papal conflicts of the early twelfth century.$desc$,
-$desc$## Background and conversion
+$desc$
+Saint Norbert of Xanten holds an important place in the history of the Catholic Church as the founder of the Premonstratensian Order and a tireless advocate of ecclesiastical reform. Born around 1080 into a noble family in the Rhineland, he initially enjoyed the privileges of aristocratic life and served at the court of the Holy Roman Emperor. However, a profound conversion transformed his priorities, leading him to embrace poverty, dedicate himself to preaching and devote his life to the renewal of the Church. As a priest, missionary and eventually Archbishop of Magdeburg, Norbert worked to strengthen Christian faith through prayer, the reform of the clergy and the establishment of religious communities. His devotion to the Eucharist and his determination to defend the Church's spiritual mission became defining features of his ministry. His life reveals how a sincere conversion can redirect even the most comfortable existence towards a vocation of service, sacrifice and lasting spiritual fruitfulness.
 
-Norbert was born around 1080 in the region of Xanten on the Lower Rhine. Connected with an aristocratic family, he became a canon at Xanten and moved within episcopal and imperial court circles. His early position belongs to a world in which ecclesiastical office, family standing, and political service were closely connected. The medieval accounts contrast the comfort of these circumstances with the demanding penitential life he later adopted, although their moral portrait should not be confused with a complete documentary record of his youth.
+### Early Life and Conversion
 
-His conversion is traditionally associated with a violent storm during a journey near Xanten. The frightened horse throws its rider, and the experience becomes a summons to change his life. This episode is a hagiographical explanation of a decisive religious reorientation; its dramatic details should be identified as such. More securely, Norbert abandoned his courtly prospects, sought spiritual guidance, received priestly ordination, and adopted a life of prayer, renunciation, and preaching during the second decade of the twelfth century.
+Norbert was born around 1080 in Xanten, near the Rhine in present-day Germany. Coming from a noble family, he received opportunities that eventually brought him into ecclesiastical and political circles. Although he had entered clerical life and received the minor orders, he initially enjoyed the privileges of courtly society more than the demands of a serious spiritual vocation. He served at the court of the Archbishop of Cologne and later became associated with Emperor Henry V.
 
-## A preacher seeking a stable community
+According to the traditional account of his life, a dramatic event brought about his conversion. While travelling on horseback, Norbert was caught in a violent storm, and a sudden flash of lightning caused his horse to throw him to the ground. Confronted with his own vulnerability, he began to reconsider the direction of his life and the responsibilities of his calling.
 
-He consulted religious figures such as Cono of Siegburg and attempted reform among his fellow canons. His austere expectations encountered resistance. Accusations at Fritzlar brought the question of his unconventional preaching and manner of life before ecclesiastical authorities. Norbert relinquished benefices and property, distributing resources to the poor, and sought papal authorization. Gelasius II permitted him to preach, giving an ecclesiastical framework to an itinerant vocation that could otherwise appear independent of established structures.
+This experience became a turning point. Norbert renounced the pursuit of worldly advancement and embraced a life of penance, prayer and spiritual discipline. He sought guidance from experienced religious men and eventually prepared himself for the priesthood. After his ordination, he began preaching about repentance, the fleeting nature of earthly pleasures and the importance of living according to the Gospel.
 
-After Gelasius's death, Norbert sought the support of Calixtus II. Bartholomew, bishop of Laon, also encouraged him to establish a permanent religious community. Prémontré, near Laon, became its setting around 1120. The choice answered a practical problem: the preaching and spiritual discipline of an individual needed institutions if they were to endure. Hugh of Fosses and other companions helped transform a small beginning into a continuing common life.
+His transformation was striking: a man who had once enjoyed the comforts of aristocratic life became a travelling preacher committed to simplicity and service. His conversion would provide the foundation for the reforming mission that occupied the remainder of his life.
 
-## The Premonstratensian foundation
+### A Preacher of Repentance and Reform
 
-The community belonged to the movement of canons regular, combining a shared religious discipline with clerical ministry. Its subsequent identity should not be reduced either to isolated eremitism or to courtly church administration. Common prayer, renunciation, and service were intended to reinforce one another. Women also joined the wider religious movement, while lay supporters endowed foundations and sought forms of disciplined Christian living suited to their circumstances. The early expansion therefore involved several kinds of participation.
+Norbert believed that the renewal of the Church had to begin with a sincere return to the Gospel. During the twelfth century, some members of the clergy were criticised for worldly behaviour, neglect of their pastoral responsibilities and excessive attachment to wealth. Norbert sought to address these problems by encouraging priests to live in accordance with their vocation through prayer, discipline and service.
 
-New houses developed rapidly, including foundations supported by aristocratic benefactors in the German regions. Norbert obtained papal confirmation of the order from Honorius II in 1126. The institutional development was not simply a multiplication of his personal journeys: property, local patrons, trained members, and recognized government were required. Hugh of Fosses became especially important for the order's continuing organization when Norbert's responsibilities moved beyond its original centre.
+He renounced his personal possessions and embraced a life of poverty, travelling through parts of France and the Low Countries to preach. His message called Christians to conversion and challenged clergy to recover the spiritual purpose of their ministry. Although his strict approach sometimes met with opposition, he continued his work with determination.
 
-Norbert also preached at Antwerp against a movement associated with Tanchelm. The consulted older biography describes this controversy from the standpoint of Catholic sacramental reform. Its hostile characterization of opponents is not a neutral account of everything they believed. What can be stated without reproducing its polemical language is that Norbert defended ecclesiastical and sacramental authority and sought to restore communities to the religious discipline he considered legitimate.
+Norbert also sought the approval of the pope for his preaching mission. This support enabled him to continue travelling and eventually establish a religious community whose members would carry on his work after his death. His ministry illustrates the importance of combining personal holiness with practical efforts to renew the wider Church.
 
-## Archbishop and public responsibilities
+### The Foundation of the Premonstratensian Order
 
-In 1126 he became archbishop of Magdeburg. This appointment brought the former itinerant preacher into a position involving substantial property, political relationships, and institutional conflict. He attempted to recover alienated church possessions and reform clerical life. Resistance was serious; the biographical tradition reports attempts against his life. His archiepiscopal career illustrates the tension between a rigorous religious programme and the established interests that such a programme threatened.
+Around 1120, Norbert established a religious community at Prémontré, near Laon in northern France. The community developed into the Premonstratensian Order, also known as the Norbertines. Its members followed the Rule of Saint Augustine and combined common prayer and community life with priestly ministry and preaching.
 
-During the papal schism beginning in 1130, Norbert supported Innocent II against Anacletus II. He worked with King Lothair and accompanied the expedition to Rome. His activity placed him within disputes concerning legitimate papal authority and relations between spiritual and secular powers. These responsibilities are part of his biography, not an interruption of it: the founder who had renounced worldly advancement nevertheless accepted a public office demanding negotiation with rulers.
+Norbert's vision brought together elements of monastic spirituality and the active responsibilities of ordained ministry. He wanted his followers to live simply, celebrate the liturgy faithfully and serve the surrounding communities through pastoral care. The order attracted numerous disciples and expanded into different parts of Europe.
 
-## Death and remembrance
+In 1126, Pope Honorius II formally confirmed the order, allowing its foundations to develop with greater stability. Monasteries became centres of worship, education and missionary activity, extending Norbert's influence beyond the places he could personally visit.
 
-Norbert returned north in weakened health and died at Magdeburg on 6 June 1134. He was buried in the Premonstratensian community of Saint Mary there. Gregory XIII canonized him in 1582; his remains were transferred to Strahov near Prague in 1627. The older encyclopedia explicitly warns against unsupported claims of an earlier formal canonization.
+The establishment of the Premonstratensians remains one of his most enduring achievements. Through this community, his commitment to prayer, poverty and pastoral service became a lasting tradition within the Catholic Church.
 
-His surviving image depends largely on medieval lives whose relationship and differences require critical attention. Within those limits, his enduring achievement is clear: he joined the reform of clerical life to a durable community of canons, while his later episcopate reveals the difficult passage from charismatic preaching to institutional responsibility.
+### Archbishop of Magdeburg and Defender of the Church
 
-## Sources
+In 1126, Norbert was appointed Archbishop of Magdeburg, in present-day Germany. The appointment brought new responsibilities and placed him in a position to reform the Church on a larger scale. He sought to restore ecclesiastical property that had been taken by powerful individuals, improve the conduct of the clergy and strengthen the discipline of religious life.
 
-- F. M. Geudens, “St. Norbert,” Catholic Encyclopedia (1911), consulted digital edition: https://github.com/CWilsonTSP/cathen/blob/master/cathen/11100b.htm.
+His reforms provoked resistance, and traditional accounts report that he faced serious hostility and attempts on his life. Nevertheless, he continued to insist that Church leadership should be directed towards spiritual responsibilities rather than personal gain.
+
+Norbert also became involved in the political and ecclesiastical conflicts of his time, particularly the dispute over the papacy during the schism involving Antipope Anacletus II. He supported Pope Innocent II and worked to strengthen the Church's unity. These activities reflected his conviction that the Church needed sound leadership and freedom to fulfil its religious mission.
+
+Despite the demands of his office, Norbert remained committed to prayer and the spiritual ideals that had shaped his conversion. His life as an archbishop demonstrated that the pursuit of holiness could continue even amid complex political responsibilities.
+
+### Devotion to the Eucharist and His Lasting Legacy
+
+Norbert developed a particular devotion to the Eucharist, which he regarded as central to the life and unity of the Church. Later traditions associate his preaching in Antwerp with opposition to teachings that challenged the Church's understanding of Christ's presence in the Blessed Sacrament. For this reason, he became known as the Apostle of Antwerp.
+
+His Eucharistic devotion was inseparable from his wider spiritual vision. He believed that Christian life must be rooted in the worship of God and expressed through charity, discipline and fidelity to the teachings of the Church.
+
+Norbert died in Magdeburg in 1134, leaving behind a reformed ecclesiastical community and a flourishing religious order. His body was later transferred to the Strahov Monastery in Prague, where his memory continued to be honoured.
+
+Saint Norbert remains an example of how conversion can lead to a lifetime of service. His journey from courtly privilege to poverty, preaching and episcopal responsibility demonstrates the transforming power of grace. Through the Premonstratensian Order, his devotion to the Eucharist and his efforts to renew the Church, he left a lasting legacy of faith, discipline and pastoral courage. His life encourages Christians to place God above worldly ambitions and to seek holiness through prayer, humility and faithful service to others.
 $desc$),
 ('saint-norbert', 'fr',
 $desc$Norbert de Xanten fonda la communauté de Prémontré avant de devenir archevêque de Magdebourg. Sa vie unit prédication pénitentielle, vie commune des chanoines, réforme ecclésiale et participation aux conflits politiques et pontificaux du début du douzième siècle.$desc$,
@@ -6566,36 +5572,54 @@ SET short_description = x.short_description,
 FROM saints AS s
 JOIN (VALUES
 ('saint-thomas-apostle', 'en', 'Thomas, one of the Twelve, confesses the risen Jesus as his Lord and God in John''s Gospel. Remembered for courageous discipleship as well as doubt, he is associated by ancient Christian traditions with missions eastward, particularly with the Christian heritage of India.',
-$desc$## The apostle in the sources
+$desc$
+Saint Thomas the Apostle holds a special place in the history of the Catholic Church as one of the Twelve Apostles chosen by Jesus Christ. Often remembered as “Doubting Thomas” because of his initial difficulty in believing in the Resurrection, he is also the apostle who made one of the most profound professions of faith in the Gospels: “My Lord and my God!” His journey reveals the movement from uncertainty to conviction, showing that sincere questions can lead to a deeper encounter with divine truth. Through his presence during Christ's ministry, his response to the Resurrection and the missionary traditions associated with his later life, Thomas became a powerful witness to the reality of the risen Lord. Christian tradition also remembers him as an evangeliser who carried the Gospel eastwards, particularly to India, where ancient Christian communities continue to honour him as their spiritual founder.
 
-Thomas belongs to the Twelve apostles in all four New Testament lists. The Synoptic Gospels name him without recounting his call or describing his family, whereas John preserves several distinctive encounters with Jesus. John also calls him Didymus, the Greek equivalent of the Semitic name Thomas: both mean twin. The sources do not identify his twin. His birthplace, occupation before becoming a disciple, and age cannot be established from these texts. The familiar expression “doubting Thomas” therefore describes one episode, not the whole person disclosed by the Gospel.
+### Called to Follow Jesus Christ
 
-Two different kinds of evidence shape his biography. The canonical writings present an apostle who follows Jesus and witnesses his resurrection. Later Christian literature associates Thomas with missions in the East and especially India. These traditions matter deeply to the communities that transmitted them, but they do not supply an independently verifiable itinerary. Benedict XVI's catechesis of 27 September 2006 treats both the Gospel scenes and the missionary traditions, while distinguishing the apocryphal writings that subsequently circulated under Thomas's name from the New Testament.
+The New Testament provides relatively little information about Thomas's origins, but his name appears in all four lists of the Twelve Apostles. The name *Thomas* comes from an Aramaic word meaning “twin,” while the Gospel of John also gives him the Greek name *Didymus*, which has the same meaning. The identity of his twin is not revealed in Scripture.
 
-## Following Jesus through uncertainty
+Thomas appears particularly prominently in the Gospel of John, where several episodes reveal his character. When Jesus decided to return to Judea despite the danger posed by His opponents, Thomas told the other disciples, “Let us also go, that we may die with him” (John 11:16). His words suggest a determined loyalty to Jesus, even when the consequences appeared frightening.
 
-In John 11, Jesus decides to return to Judaea after hearing that Lazarus has died. The disciples know that this journey will expose him to danger: there had already been attempts to stone him. Thomas urges his companions to go too, so that they may die with Jesus. The statement can express a sombre expectation, but it also discloses solidarity with his master. He is not presented as a detached critic demanding safety before offering loyalty. He accepts a road whose outcome he fears and does not yet understand.
+On another occasion, during the Last Supper, Jesus spoke of going to prepare a place for His disciples in the Father's house. When He explained that they knew the way, Thomas honestly admitted his uncertainty: “Lord, we do not know where you are going. How can we know the way?” (John 14:5). Jesus responded by declaring, “I am the way, and the truth, and the life” (John 14:6).
 
-At the final meal, the scene changes from a dangerous journey to Jesus' coming departure. Jesus tells the disciples that they know the way to where he is going. Thomas answers that they do not know his destination and asks how they can know the way. This frank admission occasions Jesus' declaration that he is the way, the truth and the life. Thomas's intervention is important precisely because it does not pretend to understanding. The Gospel places the answer in a relationship with Jesus rather than in geographical directions or secret information.
+This exchange reveals Thomas's desire to understand what Jesus was teaching. Rather than pretending to comprehend a mystery that remained unclear to him, he expressed his question openly and received an answer that has become central to Christian faith.
 
-## The encounter with the risen Christ
+### The Doubt That Led to Faith
 
-Thomas is absent when Jesus first appears to the assembled disciples in John 20. When they say they have seen the Lord, he demands to see the wounds of the nails and to put his hand into Jesus' side. His difficulty concerns whether the one reported alive is truly the crucified Jesus. Eight days later, Jesus comes again while Thomas is present, offers him the evidence he had demanded, and calls him to faith. The narrative moves immediately to Thomas's confession: “My Lord and my God.”
+Thomas is most famously associated with his reaction to the Resurrection. When the risen Jesus first appeared to the disciples, Thomas was absent. The others later told him that they had seen the Lord, but he struggled to accept their testimony. He declared that unless he could see the marks of the nails and place his hand in Jesus' side, he would not believe.
 
-John does not explicitly say that Thomas actually touches the wounds. Depictions of the scene and later commentary often show or assume that action, but the written account records the invitation and the confession without narrating a touch. Jesus then pronounces blessed those who believe without having seen. This places later readers, who receive the apostles' testimony rather than their immediate experience, within the scope of the episode. In Catholic interpretation, Thomas's words confess the divine identity of the risen Christ; they are not merely relief at the recovery of a beloved teacher.
+Eight days later, Jesus appeared again while Thomas was present. Rather than rejecting him for his doubts, Christ invited him to examine His wounds and called him to believe. The Gospel does not explicitly say that Thomas touched the wounds; instead, it records his immediate response in a remarkable confession of faith: “My Lord and my God!” (John 20:28).
 
-John 21 names Thomas among the disciples at the Sea of Tiberias when the risen Jesus appears after an unsuccessful night's fishing. Acts 1 also includes him with the apostles gathered in Jerusalem after the Ascension. These notices prevent his biography from ending with a moment of hesitation. They locate him in the continuing apostolic community. The New Testament, however, does not narrate his subsequent preaching, give the circumstances of his death, or establish a year for either his birth or martyrdom.
+These words are among the clearest declarations of Christ's divinity in the New Testament. Thomas recognised that the risen Jesus was not merely alive again, but truly his Lord and God. Jesus then spoke of the blessedness of those who believe without having seen Him, extending the message beyond Thomas to future generations of Christians.
 
-## Eastern traditions and enduring memory
+The episode is therefore not simply a warning against doubt. It also reveals Christ's patience with human weakness and His willingness to lead His disciples towards a deeper faith. Thomas's experience reminds Christians that uncertainty need not be the end of belief when it is met with honesty, openness and a willingness to encounter the truth.
 
-Ancient traditions connect Thomas with Syria, Persia and India. The apocryphal Acts of Thomas, transmitted in Syriac and Greek, describe an Indian mission in a narrative containing spectacular wonders and literary constructions. Some names and settings have historical parallels, but that does not authenticate every adventure or prove the whole account. Nor does the Gospel of Thomas, another work attributed to him, establish his authorship merely by carrying his name. Such writings are evidence for the reception of his memory as well as material requiring historical criticism.
+### Missionary Traditions and the Journey to India
 
-The Christians of India who preserve his name understand their ecclesial origins in relation to his apostolic mission. The tradition of his martyrdom and burial near Mylapore belongs to that heritage; precise dates and a continuous travel narrative cannot be recovered from the canonical evidence. His liturgical remembrance on 3 July brings these missionary associations together with the Gospel's more firmly attested portrait. Thomas is remembered not simply as an example of disbelief overcome, but as a disciple whose questions, courage and confession direct attention to the crucified and risen Lord.
+After the Resurrection and Ascension of Jesus, the Apostles were sent to proclaim the Gospel throughout the world. The Acts of the Apostles places Thomas among the disciples gathered in Jerusalem, but it does not describe his later missionary journeys in detail.
 
-## Sources
+Ancient Christian tradition, however, associates Thomas with the evangelisation of the East, particularly Persia and India. The *Acts of Thomas*, a work dating from the early centuries of Christianity, recounts a missionary journey to India, although it contains legendary elements and cannot be treated as a fully reliable historical record. Traditions preserved by Indian Christians identify Thomas as the founder of their ancient communities, especially along the Malabar Coast in present-day Kerala.
 
-- Benedict XVI, general audience, 27 September 2006, “Thomas” ([consulted French Vatican text, digital mirror](https://raw.githubusercontent.com/lologhi/vatican/master/benedict-xvi/audiences/2006/2006-09-27.md)).
-- Catholic Encyclopedia, “St. Thomas the Apostle” ([consulted digital mirror](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/14658b.htm)).
+These Christians, often known as Saint Thomas Christians, have maintained a distinctive liturgical and spiritual heritage over many centuries. Their longstanding devotion to the Apostle reflects the importance of the tradition that he brought the Christian faith to India during the earliest generations of the Church.
+
+Although the precise details of Thomas's travels remain difficult to establish, his association with the Christian communities of India has become an enduring part of his legacy. He is remembered as a missionary who carried the message of Christ beyond the boundaries of the Mediterranean world, bearing witness to the universal mission entrusted to the Apostles.
+
+### Martyrdom and the Witness of the Apostle
+
+According to longstanding Indian Christian tradition, Thomas eventually suffered martyrdom near Mylapore, in the region of present-day Chennai, India. The traditional account states that he was killed with a spear while praying, after his preaching had provoked opposition. His tomb became an important place of Christian devotion, and traditions concerning his relics also connect him with Edessa, an ancient Christian centre in the Near East.
+
+The precise circumstances of his death cannot be established with complete historical certainty. Nevertheless, the tradition of his martyrdom has remained deeply rooted in the spiritual life of the Church, particularly among Christians in India who regard him as their founding apostle.
+
+Thomas's witness demonstrates that the faith he professed after encountering the risen Christ became the foundation of his missionary life. The apostle who once struggled to believe ultimately became a symbol of conviction and courage, willing to carry the Gospel far from his homeland and, according to tradition, to give his life for Christ.
+
+### A Lasting Legacy of Faith and Evangelisation
+
+Saint Thomas the Apostle remains an enduring example of the journey from uncertainty to faith. His questions during Christ's earthly ministry and his response to the Resurrection reveal a disciple who sought to understand the truth and was transformed by encountering the risen Lord.
+
+His famous confession, “My Lord and my God,” continues to express the heart of Christian belief in Jesus Christ. His missionary legacy, especially among the Saint Thomas Christians of India, also reminds the Church that the Gospel was entrusted to the Apostles for the salvation of all peoples.
+
+The life of Saint Thomas encourages Christians not to hide their sincere questions, but to bring them honestly before God and remain open to His grace. His story teaches that faith can grow through struggle, that Christ meets His disciples with patience and that an encounter with the risen Lord can transform uncertainty into courageous witness. Through his confession, missionary tradition and enduring place in the Church's memory, Saint Thomas continues to invite believers to recognise Jesus as their Lord and God and to proclaim His Gospel with conviction.
 $desc$),
 ('saint-thomas-apostle', 'fr', 'Thomas, l''un des Douze, reconnaît en Jésus ressuscité son Seigneur et son Dieu dans l''Évangile de Jean. Son courage de disciple autant que son doute demeure dans la mémoire chrétienne, tandis que des traditions anciennes rattachent son apostolat à l''Orient, particulièrement à l''Inde.',
 $desc$## L'apôtre dans les sources
@@ -6669,38 +5693,59 @@ SET short_description = x.short_description,
     full_biography = x.full_biography
 FROM saints AS s
 JOIN (VALUES
-('saint-elizabeth-of-portugal', 'en', 'Elizabeth of Portugal, an Aragonese princess and Portuguese queen, joined royal responsibilities to sustained religious devotion and care for poor and sick people. As a wife and widow she became remembered especially for mediating dynastic conflicts and supporting Franciscan religious life.',
-$desc$## An Aragonese princess in Portugal
+('saint-elizabeth-of-portugal',
+'en',
+'Elizabeth of Portugal, an Aragonese princess and Portuguese queen, joined royal responsibilities to sustained religious devotion and care for poor and sick people. As a wife and widow she became remembered especially for mediating dynastic conflicts and supporting Franciscan religious life.',
+$desc$
+Saint Elizabeth of Portugal, also known as Saint Isabel, is honoured by the Catholic Church as a queen whose life was marked by deep faith, generous charity and an extraordinary commitment to peace. Born into the royal family of Aragon in the thirteenth century, she became Queen of Portugal through her marriage to King Denis. Although she lived amid the privileges and political tensions of the royal court, Elizabeth devoted herself to prayer, the care of the poor and the reconciliation of those divided by conflict. She became particularly known for intervening in disputes between members of her own family, seeking peace when anger and ambition threatened to lead to violence. After the death of her husband, she embraced a simpler life inspired by Franciscan spirituality and continued serving those in need. Remembered as the *Peacemaker*, Saint Elizabeth demonstrates how Christian holiness can flourish in positions of authority when power is placed at the service of charity, justice and reconciliation.
 
-Elizabeth of Portugal was born in 1271, the daughter of Peter III of Aragon and Constance. Her name recalled her great-aunt Elizabeth of Hungary; in Portuguese memory she is Isabel, the holy queen. She grew up in a royal environment in which marriage linked households, territories and political ambitions. Her early religious formation, as remembered in the Catholic Encyclopedia, emphasized regular prayer, fasting and self-discipline. Accounts of such practices describe the pattern of devotion attributed to her rather than provide a day-by-day record of childhood.
+### Early Life and Royal Marriage
 
-She married Denis, king of Portugal, while still very young. He was an active ruler, associated with the development of his kingdom and remembered also as a poet. Their marriage brought Elizabeth into a court whose pressures were both political and personal. They had a daughter, Constance, and a son, Afonso, the future Afonso IV. Denis also had children outside the marriage. His conduct and the favours he showed these children became sources of pain within the household and ultimately contributed to conflict over succession and royal authority.
+Elizabeth was born in 1271 into the royal family of Aragon, in the Iberian Peninsula. She was the daughter of King Peter III of Aragon and Queen Constance of Sicily. Named after Saint Elizabeth of Hungary, she received a religious upbringing and developed a strong devotion to prayer from an early age.
 
-## Religious life and practical charity
+In 1282, when she was still a young girl, Elizabeth married King Denis of Portugal, beginning a union that connected two important royal families. As queen, she was expected to fulfil the responsibilities of court life, support the monarchy and contribute to the stability of the kingdom. Yet Elizabeth understood her position not simply as a privilege, but as an opportunity to serve God and her people.
 
-Elizabeth retained a disciplined religious life amid these responsibilities. The consulted account describes her devotion to the Divine Office, fasting and works of mercy. It also emphasizes service to poor and sick people, in which she involved women of her court. Such activity belongs to the history of royal charity: a queen could use the resources, influence and organization of her household to assist people who lacked access to security or treatment. Her piety was therefore not limited to private observance, although its interior dimensions cannot be reconstructed from institutional deeds alone.
+Despite the demands of royal life, she maintained a disciplined spiritual routine that included prayer, fasting and acts of charity. She supported churches and religious communities while providing assistance to the poor, the sick and those who lacked the necessities of life. Her generosity extended beyond occasional gifts: she sought to ensure that vulnerable people received practical help and compassionate attention.
 
-Her marriage is remembered for patience and efforts at reconciliation. The hagiographical account understands her influence on Denis in terms of prayer, gentleness and perseverance, and reports his repentance late in life. That religious interpretation should not turn his misconduct into a virtue or imply that those injured by a spouse must accept mistreatment. It describes the particular moral meaning later writers found in Elizabeth's response. A biography can acknowledge her fidelity and charitable action without claiming knowledge of every conversation or attributing a simple cause to the king's eventual change.
+Her marriage also brought personal difficulties. King Denis was known for his relationships outside the marriage, and tensions developed within the royal family. Elizabeth responded with patience and restraint, seeking to preserve peace rather than allow resentment to dominate her life. Her conduct became an expression of her conviction that Christian charity must be practised even in painful and imperfect circumstances.
 
-## Peacemaking within the dynasty
+### A Queen Devoted to the Poor
 
-The quarrel between Denis and their son Afonso became an armed confrontation. Afonso resented the position enjoyed by the king's other sons, and by 1323 father and heir were opposing one another. Elizabeth's intervention is central to her reputation as a peacemaker. The traditional account pictures her riding between the armies and helping restore agreement. Behind this memorable image lay the difficult position of a woman related to both parties, whose royal standing allowed her to appeal to obligations that political rivalry had endangered.
+Elizabeth used her royal position to help those who were frequently overlooked by society. She supported hospitals, cared for the sick and provided food and assistance to people living in poverty. She also encouraged charitable works and supported religious institutions that served the needs of the wider community.
 
-The conflict shows that her peace work was not simply a general preference for harmony. It concerned concrete disputes over power, inheritance and the treatment of family members, with consequences for the wider kingdom. Her role should nevertheless not be enlarged into sole responsibility for every settlement. The sources honour her mediation; they do not make the political negotiations surrounding it fully visible. Denis died in 1325 and Afonso succeeded him. Elizabeth's widowhood opened a different phase of religious dedication without entirely ending the public responsibilities attached to her family.
+Her generosity was accompanied by a deep personal spirituality. Although surrounded by wealth and political influence, she remained committed to humility and prayer. She understood that material possessions were temporary and that the true purpose of Christian life was to love God and neighbour.
 
-## Widowhood and the final journey
+Elizabeth's charity was not limited to those who were easy to help. Her concern extended to people suffering from illness, poverty and social exclusion. Through her actions, she demonstrated that authority could become an instrument of mercy rather than domination.
 
-After Denis's death, Elizabeth withdrew toward the Poor Clare community she had founded at Coimbra and adopted the Franciscan tertiary habit. This affiliation should not automatically be described as a profession as an enclosed Poor Clare. Her desire for a quieter life, given to prayer and care for the needy, coexisted with continuing royal connections. Coimbra became an important centre of her memory, joining her support for religious women with her own later years and eventual burial.
+Her example was especially significant in a royal environment where dynastic interests and political ambition often threatened personal relationships. Elizabeth sought to place the Gospel above rivalry and self-interest, believing that reconciliation and generosity were essential expressions of Christian faith.
 
-In 1336 a new dispute drew her into peacemaking. Afonso IV moved against the king of Castile, whose treatment of his wife Maria, Afonso's daughter and Elizabeth's granddaughter, had provoked the Portuguese king. Elizabeth travelled to Estremoz despite weakness and advancing age. The consulted narrative credits her with helping avert fighting and secure peace. The exertion was followed by fever and her death in 1336. Her final journey illustrates the continuity between the family relationships that had defined her queenship and the reconciliation for which she was remembered after it.
+### The Peacemaker Between Husband and Son
 
-## Veneration and the limits of legend
+One of the defining aspects of Elizabeth's life was her work to reconcile members of her own family. Her son Afonso, who would later become King Afonso IV of Portugal, became involved in a serious conflict with his father, King Denis. The dispute threatened the stability of the kingdom and eventually led to armed confrontation.
 
-Elizabeth was buried at Coimbra, where reports of miracles helped sustain her cult. Urban VIII canonized her in 1625, and her remembrance falls on 4 July. Popular stories also grew around her, including an account in which a malicious accuser suffers the punishment intended for an innocent servant. Such narratives belong to the devotional transmission of her reputation and should not be treated as securely documented court proceedings. Her historical significance does not require accepting every marvel attached to her: royal charity, Franciscan affiliation and repeated mediation offer the firmer framework of her life.
+Elizabeth intervened to prevent the conflict from becoming more destructive. According to traditional accounts, she travelled between the opposing sides and worked to restore peace between her husband and son. Her willingness to place herself in the midst of political danger reflected her determination to protect lives and preserve family unity.
 
-## Sources
+Her efforts were not always welcomed. At times, her interventions exposed her to suspicion and hostility, particularly when political factions accused her of supporting one side against another. Nevertheless, she continued to seek reconciliation, convinced that peace was worth pursuing even when it demanded personal sacrifice.
 
-- Catholic Encyclopedia, “St. Elizabeth of Portugal” ([consulted digital mirror](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/05391a.htm)).
+Her role as mediator became the foundation of her enduring reputation as the Peacemaker. Elizabeth's example reveals that peace is not simply the absence of conflict, but the result of patient efforts to overcome resentment, listen to opposing parties and restore broken relationships.
+
+### A Life of Prayer and Franciscan Simplicity
+
+After King Denis died in 1325, Elizabeth gradually withdrew from the responsibilities of royal life. She had already supported the foundation of a community of Poor Clare sisters at Coimbra, and she chose to spend her later years in closer association with the Franciscan spiritual tradition.
+
+Rather than seeking further political influence, she embraced a simpler way of life and devoted herself more fully to prayer, charity and the service of others. She adopted the habit of a Franciscan tertiary, joining the spiritual family inspired by Saint Francis of Assisi without becoming a cloistered nun.
+
+Her retirement, however, did not mean that she abandoned her responsibilities towards others. In 1336, when renewed political tensions threatened to provoke war between Portugal and the neighbouring Kingdom of Castile, Elizabeth once again intervened. Despite her age and declining strength, she travelled to help secure peace between the opposing rulers.
+
+This final mission reflected the consistency of her vocation. Whether as a young queen, a mother caught between conflicting loyalties or a widow devoted to prayer, Elizabeth continued to seek reconciliation wherever hatred and ambition threatened human lives.
+
+### A Lasting Legacy of Peace and Charity
+
+Elizabeth died in 1336 at Estremoz, Portugal, after her final journey to reconcile the opposing parties. Her body was taken to Coimbra, where she had established her religious community. Her reputation for holiness spread, and reports of miracles associated with her intercession contributed to the growth of her cult. Pope Urban VIII canonised her in 1625.
+
+Saint Elizabeth of Portugal remains an enduring model of Christian charity and peacemaking. Her life demonstrates that holiness is not confined to monasteries or removed from public affairs. It can also flourish in the heart of political life, within family relationships and through the daily responsibilities of caring for others.
+
+Her example invites Christians to use whatever influence they possess to defend the vulnerable, resolve conflicts and promote reconciliation. She teaches that true greatness is found not in power or prestige, but in humility, patience and love. Through her lifelong commitment to peace, Saint Elizabeth continues to remind the faithful that the work of reconciliation is a vital expression of the Gospel and a path towards the love of God.
 $desc$),
 ('saint-elizabeth-of-portugal', 'fr', 'Élisabeth de Portugal, princesse aragonaise et reine portugaise, unit ses responsabilités royales à une vie religieuse soutenue et au service des pauvres et des malades. Épouse puis veuve, elle demeure surtout connue pour ses médiations dans les conflits dynastiques et son soutien à la vie franciscaine.',
 $desc$## Une princesse aragonaise au Portugal
@@ -6775,38 +5820,60 @@ SET short_description = x.short_description,
     full_biography = x.full_biography
 FROM saints AS s
 JOIN (VALUES
-('saint-anthony-zaccaria', 'en', 'Anthony Mary Zaccaria, a physician who became a priest, helped establish the Clerics Regular of Saint Paul and the Angelic Sisters in sixteenth-century Italy. His brief ministry joined preaching, sacramental renewal and Eucharistic devotion to practical care for people affected by sickness and poverty.',
-$desc$## From medicine to priesthood
+('saint-anthony-zaccaria',
+'en',
+'Anthony Mary Zaccaria, a physician who became a priest, helped establish the Clerics Regular of Saint Paul and the Angelic Sisters in sixteenth-century Italy. His brief ministry joined preaching, sacramental renewal and Eucharistic devotion to practical care for people affected by sickness and poverty.',
+$desc$
 
-Anthony Mary Zaccaria was born at Cremona in 1502. His father died during his infancy, leaving his upbringing to his mother. The Catholic Encyclopedia describes her teaching him compassion by involving him in distributing assistance to people in need. This early association between religious formation and practical charity is important to his later biography. His subsequent change of profession did not mean abandoning concern for suffering bodies in favour of a purely inward religion: care for sick and poor people remained integral to his priestly work.
+Saint Anthony Mary Zaccaria holds an important place in the history of the Catholic Church as a priest, physician and founder who devoted his life to the spiritual renewal of Christian society. Born in Cremona, Italy, in 1502, he initially studied medicine but gradually recognised a deeper calling to serve God through the care of souls. Living during a period of religious and social upheaval, he sought to revive Christian devotion through preaching, charitable service and a renewed commitment to the Eucharist. He founded the Clerics Regular of Saint Paul, commonly known as the Barnabites, and helped establish communities dedicated to prayer, education and apostolic work. His spirituality was marked by a passionate love for Christ crucified and a conviction that authentic Christian life required continual conversion. Though his ministry was relatively brief, Saint Anthony Mary Zaccaria left a lasting legacy of religious renewal, Eucharistic devotion and selfless service.
 
-After schooling in Cremona, he studied philosophy and medicine at Padua. He obtained his medical qualification at about twenty-two and returned home to practise. The experience placed him in contact with illness and the vulnerabilities of ordinary life, although the surviving summary does not provide medical case histories or justify attributing particular clinical innovations to him. He subsequently undertook theological studies and was ordained priest in 1528. The movement from physician to priest marks a change of vocation, not evidence that he rejected medicine or regarded bodily care as spiritually unimportant.
+### Early Life and Medical Formation
 
-## The needs of northern Italy
+Anthony Mary Zaccaria was born in 1502 into a noble family in Cremona, in northern Italy. His father died when he was still an infant, leaving his mother, Antonia Pescaroli, to raise him. She played an important role in his spiritual formation, teaching him compassion for the poor and encouraging him to recognise the needs of those who suffered.
 
-Zaccaria's early ministry included preaching, administering the sacraments and visiting sick people and prisoners. He later moved to Milan, a larger setting in which to pursue religious renewal. Northern Italy had suffered the effects of recurrent warfare, with famine and epidemic disease accompanying social disruption. The consulted encyclopedia uses the polemical language of its period when assigning blame for these conditions. The historical point that can be retained without repeating that hostility is the conjunction of material misery, pastoral need and a desire for reform within Catholic life.
+From an early age, Anthony displayed a generous spirit. According to tradition, he once gave his cloak to a poor man whom he encountered in the cold, an episode that reflected the charity his mother had encouraged in him.
 
-In Milan he joined the Confraternity of Eternal Wisdom and worked with the priests Bartolomeo Ferrari and Giacomo Antonio Morigia. Their project was a community of clergy committed to renewed Christian living through preaching and faithful sacramental ministry. It grew from cooperation rather than from an isolated founder acting without companions. Its reference to Saint Paul expressed an apostolic orientation: the reform of personal conduct and the service of congregations belonged together. The resulting foundation was one expression of Catholic renewal before the Council of Trent, not merely a later response to its decrees.
+Anthony pursued his education at the University of Padua, where he studied philosophy and medicine. He graduated in medicine around 1524 and returned to Cremona, intending to practise his profession. He treated the sick, particularly those who could not afford medical care, and came to understand that suffering involved not only the body but also the human spirit.
 
-## Religious foundations and pastoral work
+His experience among the poor gradually deepened his desire to serve God more directly. He began teaching Christian doctrine to children and later extended his instruction to adults, helping people rediscover the foundations of their faith. Through these activities, Anthony increasingly recognised his vocation to the priesthood.
 
-Clement VII approved the Clerics Regular of Saint Paul in 1533. Zaccaria served as their first superior. The name Barnabites, by which the community became widely known, came from the Milanese church of Saint Barnabas; the arrangements concerning that church were not completed before his death. Distinguishing the original title from the later familiar name avoids projecting the entire subsequent institutional history into the few years of his leadership. The congregation's purpose was pastoral: to revive divine worship and Christian conduct through sustained ministry rather than ceremonial prestige.
+### A Calling to the Priesthood and Spiritual Renewal
 
-Zaccaria preached in churches and public places, emphasizing Christ's Passion, conversion and repentance. He also helped establish the Angelic Sisters of Saint Paul. Their participation belongs to the broader network of renewal around him and should not disappear behind the history of the male congregation. In 1536 he relinquished the superiorship to Morigia. At the invitation of Cardinal Ridolfi he worked in Vicenza, where his efforts included assisting religious communities of women to renew their observance. The Angelic Sisters supported that work, illustrating the collaborative character of his reforming activity.
+Anthony was ordained a priest in 1528 and devoted himself more fully to preaching, pastoral care and charitable works. He believed that the Church needed a renewed commitment to the Gospel, particularly at a time when religious division and widespread social hardship were challenging Christian life in Europe.
 
-## Eucharistic devotion and the final years
+His approach to reform began with personal conversion. Anthony urged Christians to examine their consciences, overcome sinful habits and cultivate a more sincere relationship with God. He placed particular emphasis on the Passion of Christ, encouraging the faithful to contemplate Jesus' suffering and respond with repentance, gratitude and love.
 
-The consulted account associates his ministry in Vicenza with the Forty Hours devotion. He helped spread this sustained period of prayer before the Eucharist; such promotion should not be confused with a claim that no comparable practice existed before him. Eucharistic devotion, preaching on the cross and the frequent administration of the sacraments formed complementary elements of his programme. They sought a practical change in Christian life, not simply the multiplication of ceremonies. His surviving literary legacy also includes sermons and material connected with the constitutions of his religious community.
+In 1530, Anthony moved to Milan, where he became involved with a group devoted to spiritual formation and worked alongside other reform-minded Christians. There he developed a vision for communities of priests who would combine disciplined common life with active ministry among the people.
 
-His last years were chiefly spent in Milan, with continuing missionary and charitable work. During a mission he developed a fever and returned to Cremona, where he died in his mother's house on 5 July 1539, aged thirty-seven. The encyclopedia interprets his failing health in relation to strenuous work and severe penances; it does not provide a modern medical diagnosis. His short life left institutions whose development continued through his collaborators. A responsible account therefore distinguishes his own initiatives from the later achievements of the communities that preserved his name.
+His preaching was direct and demanding, but it was rooted in the conviction that God's grace could transform human hearts. He sought to awaken Christians from spiritual indifference and help them live their faith with greater seriousness, charity and devotion.
 
-## Recognition and historical legacy
+### The Foundation of the Barnabites
 
-Reports about the preservation of his body belong to the devotional history following his death, not to an independently established medical account. His cult received papal recognition in the nineteenth century, and Leo XIII canonized him on 15 May 1897. His feast recalls both a distinctive personal vocation and a wider movement of religious renewal. Zaccaria's significance lies in the integration of learned preparation, priestly ministry, community formation and concrete mercy, with Saint Paul's apostolic example providing a common reference for activities that might otherwise appear separate.
+Anthony's most enduring achievement was the foundation of the Clerics Regular of Saint Paul, a religious congregation formally approved by Pope Clement VII in 1533. Its members later became known as the Barnabites, after the Church of Saint Barnabas in Milan, where the congregation established itself.
 
-## Sources
+The Barnabites were dedicated to preaching, the administration of the sacraments and the renewal of Christian life. Anthony wanted his companions to be well formed spiritually and intellectually, capable of serving the Church with zeal while remaining detached from worldly ambition.
 
-- Catholic Encyclopedia, “St. Antonio Maria Zaccaria” ([consulted digital mirror](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/01588a.htm)).
+He also helped establish the Angelic Sisters of Saint Paul, a community of women devoted to religious life and apostolic service. In addition, he encouraged married Christians to pursue holiness within family life and their ordinary responsibilities. His vision of reform therefore extended beyond priests and religious communities to include the wider Christian population.
+
+Anthony believed that the renewal of society depended on the transformation of individual hearts. Through preaching, education and the example of a disciplined spiritual life, he sought to make the Gospel a living force within families, parishes and communities.
+
+### Eucharistic Devotion and the Forty Hours
+
+A defining feature of Anthony's spirituality was his profound devotion to the Eucharist. He regarded the presence of Christ in the Blessed Sacrament as a central source of strength for the Church and a means of renewing the faith of believers.
+
+He strongly encouraged frequent reception of Holy Communion and promoted sustained prayer before the Eucharist. He is particularly associated with the development and spread of the *Forty Hours Devotion*, a period of solemn Eucharistic adoration that became an important feature of Catholic spiritual life.
+
+Anthony also encouraged the ringing of church bells on Fridays at three o'clock in the afternoon, inviting Christians to remember the hour traditionally associated with Christ's death on the Cross. This practice expressed his desire to keep the Passion of Jesus at the centre of Christian consciousness.
+
+For Anthony, devotion was never meant to remain separate from everyday life. Prayer and contemplation had to lead to charity, self-discipline and a renewed commitment to serving others.
+
+### His Final Years and Lasting Legacy
+
+Anthony's intense apostolic activity and personal austerities gradually weakened his health. In 1539, while seriously ill, he returned to Cremona, where he was received by his mother. Surrounded by those close to him, he received the sacraments and died at the age of thirty-seven.
+
+Although his life was short, the communities he founded continued his work and helped spread his spirituality throughout the Church. Pope Leo XIII canonised him in 1897, recognising his enduring contribution to Christian renewal.
+
+Saint Anthony Mary Zaccaria remains an example of a life entirely devoted to God and neighbour. His journey from medicine to the priesthood demonstrates how professional knowledge and personal talents can become instruments of divine service. Through the Barnabites, his Eucharistic devotion and his call to continual conversion, he reminds Christians that the renewal of the Church begins with hearts transformed by the love of Christ. His legacy continues to inspire the faithful to unite prayer with action, deepen their devotion to the Eucharist and serve others with generosity and courage.
 $desc$),
 ('saint-anthony-zaccaria', 'fr', 'Antoine-Marie Zaccaria, médecin devenu prêtre, contribua à fonder les Clercs réguliers de Saint-Paul et les Sœurs angéliques dans l''Italie du XVIe siècle. Son bref ministère associa prédication, renouveau sacramentel et dévotion eucharistique au service concret des personnes éprouvées par la maladie et la pauvreté.',
 $desc$## De la médecine au sacerdoce
@@ -6883,39 +5950,54 @@ SET short_description = x.short_description,
 FROM saints AS s
 JOIN (VALUES
 ('saint-camillus-de-lellis', 'en', 'Camillus de Lellis, an Italian former soldier, became a priest and founded a religious community devoted to sick and dying people. His experience of illness and conversion shaped a ministry combining attentive bodily care, spiritual assistance and service during dangerous epidemics.',
-$desc$## A difficult early life
+$desc$
+Saint Camillus de Lellis holds a distinguished place in the history of the Catholic Church as a priest and founder who dedicated his life to the care of the sick and suffering. Born in Italy in 1550, he spent his youth as a soldier, struggling with gambling and a restless temperament before experiencing a profound conversion that transformed his understanding of life. His own prolonged illness brought him into contact with the harsh conditions of hospitals, where he discovered a vocation to serve those who were neglected or abandoned. Through prayer, perseverance and an extraordinary love for the suffering, he founded the Order of the Ministers of the Sick, known as the Camillians, whose members devoted themselves to caring for the ill as though they were serving Christ Himself. His life reveals how personal suffering can become a source of compassion and how Christian charity can transform the care of the sick into a genuine expression of faith.
 
-Camillus de Lellis was born at Bucchianico in the Abruzzo in 1550. His father was a military officer, and his mother died during his childhood. The consulted biography describes an unsettled upbringing followed by service as a soldier. Gambling became a destructive habit, at times leaving him destitute. These details matter because his later commitment to disciplined care did not emerge from an untroubled early religious career. His life involved repeated failures, changes of direction and a gradual confrontation with habits that harmed both his livelihood and his relationships.
+### Early Life and a Troubled Youth
 
-He also suffered from a persistent physical infirmity, especially ulceration affecting his lower limbs. He sought help at the Roman hospital of San Giacomo, associated with the care of people considered incurable, and at one stage worked there. His troublesome conduct and gambling led to dismissal. The older source's ordering of his military episodes is not sufficiently consistent to support a precise itinerary for every year. Its clear outline is nevertheless that soldiering, poverty, illness and unsuccessful attempts at religious life preceded his enduring vocation to hospital service.
+Camillus de Lellis was born on 25 May 1550 in Bucchianico, in the Abruzzo region of Italy. His father was a military officer, and Camillus grew up attracted to the life of a soldier. His mother died when he was still young, and his early years were marked by instability and a lack of consistent guidance.
 
-## Conversion and the hospital vocation
+As a teenager, Camillus entered military life and eventually served in campaigns involving the Venetian and Neapolitan forces. However, his character was troubled by a passion for gambling, which repeatedly brought him into financial difficulties. He sometimes lost everything he possessed and found himself reduced to poverty. Despite his intelligence and determination, he struggled to control his impulses and seemed far removed from the life of holiness for which he would later become known.
 
-While employed on building work for the Capuchins at Manfredonia, Camillus was moved by a friar's exhortation to change his life. He sought admission to the Capuchins, but his continuing illness prevented him from remaining. The obstacle was not the end of his religious vocation. Returning to Rome and the hospital, he became an increasingly responsible nurse. His conduct won trust, and he eventually received charge of the institution. The man who had once needed treatment and been dismissed thus learned to organize care from within the same world of vulnerability.
+A persistent wound on his leg also caused him considerable suffering. This injury would affect him throughout much of his life and eventually become an important factor in his spiritual journey. His early experiences of hardship, military life and personal failure prepared the way for a conversion that would radically change his future.
 
-Hospital experience made him attentive to the quality of service given to patients. His project was not simply to establish another place where sick people could be housed, but to gather people whose commitment would sustain reliable care. He initially envisaged a community of lay attendants. The proposal encountered opposition, and his advisers encouraged priestly preparation. Philip Neri was among those who guided him spiritually. Beginning serious Latin studies as an adult required persistence and shows that his later priesthood followed, rather than preceded, the discovery of his central charitable work.
+### Conversion and the Discovery of His Vocation
 
-## Founding the Ministers of the Sick
+After losing his possessions through gambling, Camillus found work among the Capuchins at a friary in Manfredonia. There, a conversation with a religious superior profoundly affected him and led him to reconsider the direction of his life. During this period, he experienced a deep conversion and recognised the need to turn away from his former habits.
 
-The community that developed around Camillus combined bodily nursing with spiritual assistance to the sick and dying. Its early establishment belongs to the 1580s; Sixtus V approved the congregation in 1586, and Gregory XIV raised it to the status of a religious order in 1591. Further confirmation followed under Clement VIII. These stages distinguish the gradual formation of a living community from a single administrative act. Camillus served as its first superior, but the work depended on companions willing to undertake demanding and often dangerous service.
+He sought admission to the Capuchin Order, hoping to dedicate himself entirely to God. However, the persistent wound in his leg prevented him from remaining in religious formation. Forced to abandon this path, he returned to Rome to receive medical treatment.
 
-The members' commitment included tending people stricken by epidemic disease, even at serious personal risk. Their ministry was not confined to institutions: they also cared for sick people in their homes. This scope is significant because poverty and illness could isolate patients from both ordinary assistance and the sacraments. For Camillus, spiritual care did not replace practical nursing. The two belonged together within a Christian understanding of the person, without suggesting that prayer alone could substitute for the attentive bodily help an ill person needed.
+Camillus entered the Hospital of San Giacomo degli Incurabili, where he initially sought care for his own condition. While there, he became increasingly aware of the suffering endured by patients and the inadequate attention many received. He eventually began working at the hospital, and his attitude changed dramatically. The man who had once been consumed by gambling and personal ambition developed a deep compassion for the sick.
 
-## Expansion, service and personal suffering
+His experience taught him that caring for the suffering required more than professional competence: it demanded patience, tenderness and respect for each person's dignity. Camillus gradually recognised that serving the sick could become his life's vocation.
 
-A house was established at Naples, and members served sick people aboard a quarantined fleet outside its harbour. The consulted account remembers two who died during this work as early witnesses of the congregation's costly charity. Such service exposed caregivers to dangers that could not be eliminated by goodwill. Their willingness to remain with the sick became part of the order's identity. It should not, however, be redescribed using modern clinical claims that the source does not substantiate, such as inventing a particular medical technique or establishing contemporary standards of infection control.
+### A New Vision for the Care of the Sick
 
-Camillus himself continued to suffer from chronic illness over many years. The biography emphasizes his persistence in visiting patients even when physically weakened. These accounts express the intensity of his commitment, but they should not imply that responsible caregivers must disregard their own health. He founded houses in several Italian cities and oversaw the community's growth. In 1607 he resigned its general leadership so that he could give more time to direct service. This choice illustrates the lasting priority of the sick over the prestige of institutional office.
+Camillus became increasingly troubled by the poor conditions he witnessed in hospitals. Many patients received inadequate care, and some attendants lacked the compassion or training needed to serve them properly. He believed that the sick deserved to be treated with dignity and that Christian love should guide every aspect of their care.
 
-## Death and recognition
+He began organising groups of men who shared his desire to serve the ill. Their work went beyond providing basic assistance; they sought to care for each patient with the same love they would show to Christ. Camillus encouraged his companions to see the suffering person not as a burden, but as someone worthy of attention, patience and mercy.
 
-Camillus died in Rome on 14 July 1614, aged sixty-four, and was buried in the church of Saint Mary Magdalene. Traditions of extraordinary gifts and healing miracles developed around his memory and were considered in the ecclesiastical recognition of his cult. Benedict XIV beatified him in 1742 and canonized him in 1746. These acts belong to Catholic recognition of sanctity, not to proof that every later anecdote about him is equally well documented.
+Under the spiritual guidance of Saint Philip Neri, Camillus also discerned a call to the priesthood. Despite being older than many students and having limited formal education, he undertook the necessary studies and was ordained a priest in 1584.
 
-His historical importance rests on a durable form of organized religious service that kept the suffering person at the centre. The sequence of his life—soldier, patient, nurse, priest and founder—helps explain why bodily need and spiritual hope were inseparable in his ministry. The community he founded continued beyond his personal leadership and lifetime. Its origins remain rooted in the conviction that neglected or dying people should receive competent attention and human presence rather than abandonment.
+His priesthood strengthened his mission by allowing him to unite practical care with prayer, the sacraments and spiritual accompaniment. He wanted patients to receive both physical assistance and the comfort of knowing that they were loved by God.
 
-## Sources
+### The Foundation of the Camillians
 
-- Catholic Encyclopedia, “St. Camillus de Lellis” ([consulted digital mirror](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/03217b.htm)).
+In 1586, Pope Sixtus V approved Camillus's community, which became known as the Ministers of the Sick. In 1591, Pope Gregory XIV raised it to the status of a religious order. Its members, commonly called Camillians, committed themselves to serving the sick, including those suffering from contagious diseases and those abandoned by others.
+
+Camillus introduced a distinctive sign for his religious family: a red cross worn on their habits. This symbol expressed their dedication to Christ and their willingness to serve the sick even when doing so involved danger or personal sacrifice.
+
+The Camillians worked in hospitals, cared for patients in their homes and assisted those affected by epidemics. Their mission was especially evident during outbreaks of disease, when fear and danger could cause others to withdraw from the suffering. Camillus insisted that his companions remain faithful to their vocation, treating the sick with courage and compassion.
+
+He also worked to improve standards of care, emphasising cleanliness, attentiveness and the humane treatment of patients. His vision helped establish a distinctive tradition of Christian healthcare in which practical service and spiritual charity belonged together.
+
+### A Life of Suffering and Lasting Legacy
+
+Throughout his ministry, Camillus continued to suffer from his leg condition and other illnesses. Yet he refused to let his physical limitations prevent him from visiting the sick and supporting his religious community. Even when he was in considerable pain, he remained determined to serve those whose suffering he understood so well.
+
+In 1607, he resigned from the leadership of his order to devote more time to prayer and the care of the sick. He died in Rome on 14 July 1614, leaving behind a flourishing religious community dedicated to Christian healthcare. Pope Benedict XIV canonised him in 1746, and Pope Pius XI later declared him, alongside Saint John of God, a principal patron of the sick, hospitals and nurses.
+
+Saint Camillus de Lellis remains an enduring model of compassion, perseverance and service. His life demonstrates that even profound personal struggles can become the beginning of a new vocation when they are met with humility and openness to God's grace. Through his work, he helped transform the care of the sick into a ministry of Christian love, reminding the faithful that every act of genuine compassion can become an encounter with Christ Himself.
 $desc$),
 ('saint-camillus-de-lellis', 'fr', 'Camille de Lellis, ancien soldat italien, devint prêtre et fonda une communauté religieuse au service des malades et des mourants. Son expérience de la maladie et sa conversion façonnèrent un ministère unissant soins corporels attentifs, accompagnement spirituel et service pendant les épidémies.',
 $desc$## Une jeunesse difficile
@@ -6998,33 +6080,56 @@ SET short_description = x.short_description, full_biography = x.full_biography
 FROM saints AS s
 JOIN (VALUES
 ('saint-eusebius-of-vercelli', 'en', 'Eusebius, bishop of Vercelli in the fourth century, united pastoral ministry with the common life of his clergy. Exiled for defending the Nicene faith, he maintained contact with his people and worked for ecclesial reconciliation after his return.',
-$desc$## A bishop in northern Italy
+$desc$
+Saint Eusebius of Vercelli holds an important place in the history of the Catholic Church as a bishop, spiritual leader and courageous defender of the divinity of Jesus Christ. Born in Sardinia in the early fourth century, he lived during a period when the Church faced intense theological disputes and political pressure over the nature of Christ. As the first bishop of Vercelli in northern Italy, Eusebius devoted himself to evangelisation, the formation of the clergy and the defence of the faith proclaimed at the Council of Nicaea. His commitment to Christian truth brought him into conflict with powerful imperial authorities and eventually led to years of exile and suffering. Yet he remained steadfast in his convictions and continued to serve the Church after his return. Remembered for his courage, his communal way of life with his priests and his loyalty to Christ, Saint Eusebius stands as an example of pastoral dedication and fidelity to the truth even in the face of persecution.
 
-Eusebius of Vercelli belongs to the generation of bishops who defended the Nicene confession of Christ during the fourth century. Benedict XVI's catechesis identifies him as the first bishop of northern Italy about whom definite information survives. Born in Sardinia early in that century, he moved with his family to Rome while still young. There he became a lector, entering the Roman clergy before his election to the see of Vercelli in 345. The available evidence does not justify a precise birthday or a detailed reconstruction of his childhood.
+### Early Life and Formation in the Faith
 
-His episcopate began in a region where Christianity was established in towns but much of the countryside remained pagan. Evangelization therefore involved more than maintaining an existing congregation. The bishop had to strengthen Christian communities and prepare ministers capable of sustained service. Eusebius drew inspiration from the ascetic movement associated with Antony of Egypt and made known in the West through Athanasius. Rather than withdrawing permanently from his city, he adapted the discipline of common religious life to the responsibilities of clergy living and working within it.
+Eusebius was born in Sardinia, an island belonging to the Roman Empire, during the early fourth century. The precise details of his childhood are not fully known, but his family eventually moved to Rome, where he received his religious formation. He became a *lector*, a member of the clergy entrusted with reading Scripture during Christian worship.
 
-## Clergy and common life
+At this time, Christianity was emerging from periods of persecution and gaining greater public recognition within the Roman Empire. However, the Church faced serious disagreements about the relationship between Jesus Christ and God the Father. These debates would shape Eusebius's ministry and require him to defend the central teachings of Christian faith.
 
-At Vercelli he gathered his clergy into a community shaped by prayer, ascetic discipline and shared life. This was not an abandonment of episcopal government for a separate monastic vocation. It was an attempt to make the ministers' daily conduct consistent with the faith they preached. Ambrose of Milan, writing to the people of Vercelli after Eusebius's death, particularly admired this union of ecclesiastical ministry and monastic observance. His testimony provides important evidence for the lasting impression Eusebius made on northern Italian Christianity.
+His spiritual and intellectual formation prepared him for a life of service to the Church. Eusebius developed a reputation for holiness and sound teaching, qualities that would eventually lead the Christian community of Vercelli to choose him as its bishop.
 
-The community also helped form later bishops. Benedict names among the figures associated with its influence Eusebius's successors Limenius and Honoratus, together with bishops of other northern Italian churches. Such influence should not be confused with proof that every later local institution was personally founded by Eusebius. The better-attested point is his example: a bishop and his priests could share the concerns of their neighbors while ordering their own lives toward prayer and the heavenly city. Common discipline was meant to support, not replace, public service.
+### Bishop of Vercelli and a New Model of Clerical Life
 
-## The Nicene controversy and exile
+Around 340–345, Eusebius became the first bishop of Vercelli, a city in the region of Piedmont in northern Italy. His appointment marked the beginning of an important ministry in a territory where Christianity still needed to become more firmly established, particularly in rural communities.
 
-The central conflict of his career concerned the identity of Jesus Christ. Eusebius upheld the Nicene teaching that the Son is of the same substance as the Father. He stood alongside Athanasius and other bishops who resisted imperial pressure favoring opponents of that confession. These disputes involved difficult theological distinctions as well as the emperor's efforts to secure religious unity. Eusebius's refusal to yield led to exile, separating him from the church whose pastoral life he had begun to organize.
+Eusebius devoted himself to preaching the Gospel and strengthening the faith of the people entrusted to his care. He understood that the growth of the Church depended not only on public teaching but also on the holiness and preparation of its ministers.
 
-From 355 to 360 he was confined at Scythopolis in Palestine. Even there he maintained a small community of disciples and corresponded with his people. He was subsequently sent to Cappadocia and the Egyptian Thebaid, enduring severe mistreatment. His surviving correspondence is more valuable than later embellishment because it shows how he understood his responsibility during enforced absence. Exile did not make him cease to be a pastor. He continued to encourage fidelity, prayer and concord among communities that could not count on his physical presence.
+Inspired by the monastic communities of the East, and particularly by the example associated with Saint Athanasius and Saint Anthony the Great, Eusebius encouraged his clergy to live together in a disciplined community. They shared prayer, spiritual formation and the responsibilities of pastoral ministry. This approach was unusual in the Western Church at the time and helped establish a model in which the common life of priests supported their service to the faithful.
 
-## Return and pastoral memory
+Saint Ambrose of Milan later praised this tradition, recognising Eusebius's important contribution to the development of communal clerical life. His example influenced other Church leaders in northern Italy and helped prepare the way for later traditions of priests living according to a common rule.
 
-After Constantius II died in 361, Julian permitted exiled bishops to return. Eusebius participated in the Alexandrian council of 362, associated with Athanasius and efforts to restore ecclesial unity after the controversies. He then resumed ministry in northern Italy for approximately another decade. His defense of Nicene faith and his concern for reconciliation belonged together: fidelity was not simply the maintenance of a personal opposition, but service to the communion of the Church. The surviving outline does not supply a continuous itinerary of his final years.
+### Defender of the Nicene Faith
 
-His second authentic letter addresses the churches of Vercelli, Novara, Ivrea and Tortona with evident affection. Particularly striking is his request that greetings also reach people outside the Church who held him in friendship. His relationship with the city was therefore wider than an exclusively internal ecclesiastical constituency. Ambrose's later appeal to his example confirms that Eusebius remained a standard by which episcopal leadership was judged. Remembered as a defender of Christ's divinity, he was also a builder of community whose endurance, common life and pastoral correspondence gave concrete shape to that belief.
+One of the defining struggles of Eusebius's life was his opposition to Arianism, a theological movement that denied the full divinity of the Son of God. The Council of Nicaea, held in 325, had affirmed that Jesus Christ is truly divine and of the same substance as the Father. Nevertheless, the controversy continued for decades, supported at various times by influential bishops and imperial officials.
 
-## Sources
+Eusebius firmly defended the Nicene teaching that Jesus Christ is not a created being but the eternal Son of God. He became an ally of Saint Athanasius of Alexandria, one of the most prominent defenders of this doctrine, and opposed attempts to weaken or abandon the Nicene confession for political convenience.
 
-- Benedict XVI, general audience, 17 October 2007, on Eusebius of Vercelli; includes discussion of Eusebius's second letter and Ambrose's testimony. [French text consulted in a digital mirror](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2007/2007-10-17.md).
+In 355, Eusebius took part in the Council of Milan, where imperial pressure was exerted upon bishops to condemn Athanasius. Eusebius refused to support this demand and remained committed to the orthodox faith. His resistance placed him in direct conflict with Emperor Constantius II, who sought greater religious uniformity under a theological position favourable to Arianism.
+
+For Eusebius, the controversy was not simply a dispute over words. The identity of Jesus Christ was central to the Christian understanding of salvation: only if Christ is truly God can the Church fully confess the mystery of God entering human history to redeem humanity.
+
+### Exile, Suffering and Perseverance
+
+Because of his refusal to yield to imperial demands, Eusebius was condemned to exile. He was sent to Scythopolis in Palestine, where he endured isolation and harsh treatment. His exile later extended to other regions of the East, including Cappadocia and the Thebaid in Egypt.
+
+Despite these hardships, Eusebius remained faithful to his beliefs and maintained contact with the Christian community in Vercelli through correspondence. His letters reveal his continuing concern for the spiritual welfare of his people, even when he was physically separated from them.
+
+His suffering illustrates the cost of defending religious conviction when political power attempts to dictate matters of faith. Eusebius did not seek conflict for its own sake, but he refused to compromise what he understood to be essential Christian truth.
+
+Following the death of Constantius II in 361, the new emperor, Julian, permitted exiled bishops to return. Eusebius regained his freedom and participated in the efforts to restore unity within the Church. In 362, he attended the Council of Alexandria, where Church leaders sought ways to reconcile those involved in the Arian controversy while remaining faithful to the Nicene confession.
+
+### Return to Vercelli and Lasting Legacy
+
+After returning to Italy, Eusebius resumed his episcopal ministry and continued working for the strengthening of the Church. He collaborated with Saint Hilary of Poitiers and other defenders of the Nicene faith, helping to resist Arian influence in the Western Church.
+
+His later years were devoted to pastoral service, the formation of clergy and the spiritual renewal of his community. He died in Vercelli around 371, having endured years of hardship without abandoning his vocation.
+
+Saint Eusebius of Vercelli remains an enduring example of courage, pastoral responsibility and fidelity to Christian doctrine. His life demonstrates that genuine leadership requires both spiritual discipline and the willingness to defend the truth when it becomes unpopular or politically inconvenient.
+
+Through his communal approach to priestly life, his defence of Christ's divinity and his perseverance during exile, Eusebius helped shape the development of the Church in northern Italy. His example encourages Christians to deepen their understanding of the faith, remain steadfast in times of trial and unite conviction with charity. His legacy reminds the Church that fidelity to Christ must remain at the heart of its teaching, its worship and its service to the world.
 $desc$),
 ('saint-eusebius-of-vercelli', 'fr', 'Eusèbe, évêque de Verceil au quatrième siècle, unit le ministère pastoral à la vie commune de son clergé. Exilé pour sa défense de la foi de Nicée, il reste proche des fidèles et œuvre à la réconciliation ecclésiale après son retour.',
 $desc$## Un évêque dans l'Italie du Nord
@@ -7092,35 +6197,58 @@ SET short_description = x.short_description, full_biography = x.full_biography
 FROM saints AS s
 JOIN (VALUES
 ('saint-peter-julian-eymard', 'en', 'Peter Julian Eymard was a French priest who founded religious communities centered on the Eucharist. His ministry joined adoration, sacramental life and evangelization, inviting priests, religious and lay people to recognize Christ''s presence as the source of Christian charity.',
-$desc$## From parish ministry to religious life
+$desc$
+Saint Peter Julian Eymard holds a distinguished place in the history of the Catholic Church as a French priest and founder whose life was entirely devoted to the mystery of the Eucharist. Born in the small town of La Mure in southeastern France in 1811, he developed a profound love for Jesus Christ in the Blessed Sacrament from an early age. After serving as a diocesan priest and later joining the Society of Mary, known as the Marists, he became increasingly convinced that Eucharistic worship could renew the spiritual life of the Church and bring people closer to Christ. This conviction led him to establish the Congregation of the Blessed Sacrament and, with the help of Marguerite Guillot, the Servants of the Blessed Sacrament. Remembered as the *Apostle of the Eucharist*, Saint Peter Julian Eymard dedicated his life to prayer, preaching and the spiritual formation of others, showing that a profound encounter with Christ in the Eucharist must inspire a life of charity, self-giving and apostolic service.
 
-Peter Julian Eymard was born in 1811 in the French department of Isère, into a family of modest means. The biographical account attributed to the Daughters of Saint Paul describes a devout household, early attraction to the priesthood and practical resistance from his father, who needed his help in the family business. Such difficulties delayed rather than extinguished his vocation. He was ordained a diocesan priest in 1834. His later work grew out of actual parish ministry, not only from the development of a private devotional ideal.
+### Early Life and the Desire for the Priesthood
 
-In 1839 he entered the Society of Mary, commonly called the Marists. He remained with them for seventeen years and held positions of responsibility. This substantial period matters: his Eucharistic vocation did not appear as a complete institutional plan at the beginning of his priesthood. It matured within another religious community, through ministry, prayer and discernment. Later devotional accounts describe Mary's guidance in this development. That language expresses his spiritual understanding of the call; it should not be converted into an independently documented supernatural event or an invented conversation.
+Peter Julian Eymard was born on 4 February 1811 in La Mure, in the French Alps. He grew up in a modest but deeply religious family, and his devotion to the Eucharist appeared remarkably early. According to accounts of his childhood, he was fascinated by the presence of Jesus in the tabernacle and felt drawn to prayer before the Blessed Sacrament.
 
-## A congregation centered on the Eucharist
+From a young age, he expressed a desire to become a priest. His father, however, opposed this vocation, hoping that his son would remain involved in the family business. Peter Julian continued to nurture his spiritual aspirations while helping his father and studying whenever he could. His determination reflected a conviction that his life belonged to God, even when circumstances made his calling difficult to pursue.
 
-Eymard became increasingly concerned about the distance between many people and the Church. He sought a form of religious life in which the Eucharist would be central to prayer and apostolic service. After seeking advice, he recognized that this particular project would require an institution distinct from the Marists. He left their society and went to Paris. With the support of the archbishop, he founded the Congregation of the Blessed Sacrament in 1856. The new community began modestly, and its later international development should not obscure the limited resources of its beginnings.
+After his father's death in 1831, he was finally able to enter the major seminary of Grenoble. He was ordained a priest in 1834 and began serving the Church in his home region. As a young priest, he devoted himself to preaching, catechesis and pastoral care, developing a reputation for seriousness of purpose and spiritual dedication.
 
-A women's congregation followed three years later, and he also promoted the participation of lay people in Eucharistic worship. Paul VI's centenary letter confirms the breadth of this work: Eymard founded institutes for men and women and encouraged initiatives among priests and believers of different ages and circumstances. His purpose was not to reserve adoration for a small circle of specialists. He wanted the Eucharistic presence of Christ to shape the daily life of Christians and to become a principle of renewal in the wider Church.
+Although he was committed to his parish ministry, Peter Julian increasingly felt drawn towards religious life. He desired a deeper form of communal prayer and a vocation that would allow him to devote himself more completely to the spiritual renewal of the Church.
 
-## Adoration and apostolic service
+### A Priest Formed by Prayer and the Eucharist
 
-His spirituality centered on Jesus Christ encountered in the Eucharist, celebrated in the Mass and contemplated in prayer. In Catholic belief this sacrament is not merely an object that recalls an absent teacher: Christ gives himself to his people. Eymard's emphasis on adoration must be understood within that faith. The time devoted to prayer was meant to deepen a relationship expressed in worship, communion and self-giving, rather than to detach a religious community from the needs of others.
+In 1839, Peter Julian joined the Society of Mary, commonly known as the Marists. Within the congregation, he served in several positions of responsibility, including roles involving the formation of religious and the organisation of apostolic work. His years among the Marists strengthened his spiritual life and deepened his understanding of the relationship between prayer, community and mission.
 
-John Paul II's message to the congregation in 1993 interprets the founder's legacy through precisely this connection. It describes a life rich in different ministries and identifies the Eucharist as a renewing force for both Church and society. The pope asks Eymard's successors to form communities open to sharing and particularly attentive to the dignity of the poor. Those instructions were written long after the founder's death and are not a diary of his actions. They nevertheless show how the Church receives his work without separating contemplation from practical charity.
+A decisive moment occurred in 1845 during a Eucharistic procession in Lyon on the feast of Corpus Christi. While carrying the Blessed Sacrament, Peter Julian experienced a powerful attraction towards the mystery of Christ's presence in the Eucharist. He became increasingly convinced that the Church needed to help people rediscover the central place of the Eucharist in Christian life.
 
-## Final years and enduring influence
+This experience did not immediately lead to the foundation of a new congregation. Over the following years, he continued his responsibilities among the Marists while reflecting on how his growing spiritual conviction might become a lasting apostolic mission.
 
-Eymard traveled in France to communicate his Eucharistic message and left numerous spiritual writings. His activity combined preaching, religious leadership and the effort to make a particular spiritual conviction accessible to others. Illness eventually brought his work to an end. He died in his native town on 1 August 1868, aged fifty-seven. Pius XI beatified him in 1925, and John XXIII canonized him in 1962. His Roman liturgical memorial is observed on 2 August, distinct from the anniversary of his death.
+For Peter Julian, the Eucharist was not simply an object of private devotion. He saw it as the heart of the Church's life, the source of Christian unity and a powerful expression of Christ's love for humanity. Prayer before the Blessed Sacrament, he believed, should lead Christians towards greater charity, deeper faith and a more generous service of others.
 
-The centenary of his death gave Paul VI an occasion to recall both the institutions he founded and the wider movement of Eucharistic devotion that he encouraged. His importance cannot be measured simply by the number of communities established during his lifetime. He helped articulate a vocation in which the Mass, sacramental communion, adoration and apostolic action belonged to a single Christian life. The sources consulted establish that basic trajectory, while leaving many details of his daily activities unrecorded here. His continuing legacy rests on that integration of prayer and mission, rather than on an embellished catalogue of marvels.
+### The Foundation of the Congregation of the Blessed Sacrament
 
-## Sources
+Gradually, Peter Julian became convinced that his vocation required him to establish a community specifically dedicated to Eucharistic worship and evangelisation. In 1856, after receiving the necessary permissions to leave the Marists, he moved to Paris to begin this new work.
 
-- Daughters of Saint Paul, biographical notice attributed to Paulinas. [Portuguese text consulted in a digital mirror](https://github.com/Mazokazorb/Biblioteca-Catolica-Br/blob/main/santos/pedroeymard.htm).
-- Paul VI, letter *Annuus temporis*, dated 19 July 1968. [Latin text consulted](https://github.com/lologhi/vatican/blob/master/paul-vi/letters/1968/1968-08-01-padre-huot.latin.md).
-- John Paul II, message to the Congregation of the Blessed Sacrament, 2 June 1993. [French text consulted](https://github.com/lologhi/vatican/blob/master/john-paul-ii/letters/1993/1993-06-02-ss-sacramento.md).
+On 13 May 1856, he founded the Congregation of the Blessed Sacrament, a religious institute for men devoted to Eucharistic adoration, preaching and the spiritual formation of the faithful. The early years were difficult. The community faced financial insecurity, limited resources and uncertainty about its future. Nevertheless, Peter Julian persevered, trusting that the mission would develop through prayer and faithful service.
+
+His vision extended beyond the practice of adoration itself. He wanted people to encounter Christ in the Eucharist and allow that encounter to transform their lives. He therefore organised preaching, spiritual retreats and initiatives to help people deepen their understanding of the Mass and the sacraments.
+
+One particularly important aspect of his work was the preparation of adults and young workers for their First Holy Communion. Many had received little religious instruction or had become distant from the Church. Peter Julian believed that they, too, should be welcomed and helped to discover the love of Christ present in the Eucharist.
+
+### The Servants of the Blessed Sacrament and a Wider Mission
+
+Peter Julian's vision also inspired the foundation of a religious community for women. Working with Marguerite Guillot, he established the Servants of the Blessed Sacrament, whose mission centred on Eucharistic adoration and prayer for the spiritual renewal of the Church.
+
+Together, these communities expressed his conviction that the Eucharist should shape every dimension of Christian existence. The celebration of Mass, prayer before the Blessed Sacrament and service to the poor were not separate activities, but different expressions of the same love for Christ.
+
+Peter Julian encouraged his religious to cultivate an interior life rooted in humility and self-giving. He believed that authentic devotion required a willingness to surrender personal ambitions to God and to recognise Christ in the needs of others.
+
+His spirituality also included a strong concern for those who felt forgotten or excluded. Through his apostolic work, he sought to bring the benefits of religious formation and sacramental life to people who might otherwise have remained on the margins of the Church.
+
+### His Final Years and Lasting Legacy
+
+Peter Julian's work demanded considerable physical and spiritual energy, and his health gradually deteriorated. He experienced periods of exhaustion, financial difficulties and interior suffering, yet he continued to guide his communities and encourage their mission.
+
+In his later years, he became increasingly focused on the spiritual meaning of self-surrender. He sought to unite his own life more completely with Christ, trusting that holiness depended not on personal achievement but on allowing God's grace to transform the heart.
+
+He returned to his hometown of La Mure, where he died on 1 August 1868, at the age of fifty-seven. His religious communities continued to develop after his death, spreading Eucharistic devotion and his spiritual vision to other parts of the world. Pope Pius XI beatified him in 1925, and Pope John XXIII canonised him in 1962.
+
+Saint Peter Julian Eymard remains an enduring example of Eucharistic faith and apostolic generosity. His life teaches that contemplation must lead to action, that prayer should deepen our love for others and that the presence of Christ in the Eucharist is a source of strength for the whole Christian life. Through his foundations and his spiritual teaching, he continues to invite the faithful to approach the Eucharist with reverence, receive Christ with love and allow that encounter to transform their hearts and their service to the world.
 $desc$),
 ('saint-peter-julian-eymard', 'fr', 'Pierre-Julien Eymard, prêtre français, fonda des communautés religieuses centrées sur l''Eucharistie. Son ministère unit adoration, vie sacramentelle et évangélisation, invitant prêtres, religieux et laïcs à reconnaître dans la présence du Christ la source de la charité chrétienne.',
 $desc$## Du ministère paroissial à la vie religieuse
@@ -7192,34 +6320,66 @@ SET short_description = x.short_description, full_biography = x.full_biography
 FROM saints AS s
 JOIN (VALUES
 ('saint-alphonsus-liguori', 'en', 'Alphonsus Liguori, a Neapolitan lawyer who became a priest and bishop, founded the Redemptorists to evangelize neglected communities. His moral theology and spiritual writings unite serious conversion with confidence in divine mercy, emphasizing prayer and compassionate sacramental ministry.',
-$desc$## A lawyer becomes a priest
+$desc$
+Saint Alphonsus Liguori holds a distinguished place in the history of the Catholic Church as a bishop, theologian, missionary and founder whose life was devoted to proclaiming the mercy of God. Born near Naples, Italy, in 1696, he initially pursued a successful career as a lawyer before recognising a deeper vocation to serve Christ through the priesthood. He became one of the most influential moral theologians of the eighteenth century, teaching that Christian moral life must be guided by truth, a well-formed conscience and confidence in God's mercy. Deeply concerned for the spiritual needs of the poor and those living in remote communities, he founded the Congregation of the Most Holy Redeemer, known as the Redemptorists. He was also a prolific spiritual writer whose works on prayer, the love of Jesus Christ and devotion to the Blessed Virgin Mary have influenced generations of Catholics. Remembered as a Doctor of the Church and a patron of confessors and moral theologians, Saint Alphonsus remains an example of intellectual excellence united with pastoral charity and profound trust in divine grace.
 
-Alphonsus Maria de Liguori was born near Naples on 27 September 1696 into a prosperous Christian family. His education included intellectual and artistic pursuits, and he obtained qualifications in civil and ecclesiastical law while still very young. He entered legal practice in Naples, where he gained a substantial reputation. This background remained important after he changed his profession: the habits of careful distinction, argument and attention to concrete circumstances would later serve his work as a moral theologian. His vocation did not require him to abandon the intelligence developed in his earlier life.
+### Early Life and a Brilliant Legal Career
 
-A serious professional disappointment contributed to his decision to leave the law. The biographical source consulted presents the loss of an important lawsuit as a decisive experience of disillusionment. It is safer to distinguish that remembered turning point from claims to know every motive in his interior life or every political detail of the case. His father initially opposed the change. Alphonsus nevertheless undertook theological preparation and was ordained in 1726. His subsequent ministry drew him toward preaching, spiritual guidance and the sacrament of reconciliation, especially among people who lacked sustained pastoral attention.
+Alphonsus Maria Liguori was born on 27 September 1696 in Marianella, near Naples, into a noble family. His father, Giuseppe, was an officer in the Neapolitan navy, while his mother encouraged the religious formation of her children. Alphonsus displayed exceptional intellectual abilities from an early age and received an excellent education in languages, literature, philosophy and the arts.
 
-## The mission to neglected communities
+At just sixteen, he obtained degrees in civil and canon law at the University of Naples. He subsequently became a successful lawyer, earning a reputation for his intelligence, diligence and eloquence. For several years, he practised law with considerable success, and his family expected him to continue along a distinguished professional path.
 
-In 1732 Alphonsus founded the Congregation of the Most Holy Redeemer, whose members became known as Redemptorists. Its characteristic work was the preaching of missions and retreats, particularly among poor and neglected populations. He himself traveled widely in southern Italy. The congregation gave institutional form to a concern that could not be met by occasional visits alone: people outside centers of wealth and education needed clear teaching, access to the sacraments and ministers willing to remain attentive to their spiritual lives.
+However, a major legal defeat in 1723 profoundly affected him. After discovering that he had made a serious mistake in a case involving a territorial dispute, Alphonsus experienced deep disappointment and began reconsidering the purpose of his life. The experience helped him recognise that professional achievement and worldly recognition could not satisfy his deepest spiritual desires.
 
-His preaching aimed at intelligibility rather than display. The same concern shaped his devotional writing, in which theological conviction was expressed in language ordinary readers could use for prayer. His musical and literary gifts belonged to this broader pastoral effort. The foundation of a congregation and the writing of books were therefore not unrelated achievements. Both sought to bring the Christian message within reach of people for whom formal theological learning was unavailable, without treating them as incapable of a serious spiritual life.
+Gradually, he turned away from his legal career and devoted himself more fully to prayer and charitable service. He began visiting hospitals and caring for the sick, including those who were poor and neglected. These experiences strengthened his desire to serve God and prepared him for the priesthood.
 
-## Moral theology, mercy and prayer
+### The Call to the Priesthood and Missionary Work
 
-Alphonsus became one of Catholicism's most influential moral theologians. His work grew from the responsibilities of confessors who had to guide real people rather than merely settle abstract questions. Benedict XVI places his teaching against a background of severe rigorism influenced by Jansenism. Alphonsus did not dismiss sin or the need for repentance; he insisted that sacramental ministry should communicate the mercy of God toward those who return to him. Compassion was not an alternative to conversion, but the manner in which a penitent could be helped to seek it.
+Alphonsus was ordained a priest in 1726. He devoted himself particularly to preaching, hearing confessions and teaching Christian doctrine to people who had received little religious instruction. Rather than limiting his ministry to educated or wealthy audiences, he sought to reach ordinary people in the streets, villages and poorer districts around Naples.
 
-His writings include *Moral Theology*, *The Glories of Mary*, visits to the Blessed Sacrament and a major treatment of prayer. Benedict particularly discusses the 1759 work commonly called *The Great Means of Prayer*. Alphonsus regarded prayer as indispensable because human beings depend on grace for salvation and for the strength to do good. This is a theological claim about the relationship between God and human freedom, not a promise that every requested worldly outcome will occur. Prayer acknowledges weakness while expressing confidence that divine assistance is not reserved for an accomplished spiritual elite.
+He possessed a gift for communicating complex spiritual truths in accessible language. His preaching emphasised repentance, prayer, the love of Christ and the possibility of conversion for every person. He believed that the Church had a particular responsibility towards those who were spiritually neglected and that priests should bring them the Gospel with patience and compassion.
 
-## Episcopate and final years
+During his early ministry, Alphonsus became increasingly concerned about the religious needs of rural populations. Many people living in isolated communities had limited access to priests, catechesis and the sacraments. He recognised that lasting evangelisation required missionaries willing to travel beyond established centres of religious life.
 
-In 1762 he became bishop of Sant'Agata dei Goti and served that diocese for thirteen years. Episcopal responsibility added the government of a local church to his already extensive work of preaching and writing. Severe illness, including disabling arthritis and deteriorating sight, marked his later life. After leaving diocesan office, he lived among his religious brethren and continued literary work as his condition permitted. His final years therefore cannot be reduced either to uninterrupted public success or to inactivity: physical limitation became part of the setting in which his vocation continued.
+This concern eventually led him to establish a new religious congregation dedicated to preaching the Gospel to the most abandoned. His missionary vision would become the defining purpose of the Redemptorist order.
 
-He died at Nocera dei Pagani on 1 August 1787, before his ninety-first birthday. Gregory XVI canonized him in 1839, and Pius IX declared him a Doctor of the Church in 1871. His enduring influence lies in the combination of missionary concern, practical moral reasoning and accessible spiritual teaching. The sources considered here emphasize above all the confidence with which he directed people toward God. His legacy asks confessors and preachers to take both human frailty and the possibility of conversion seriously, joining clear instruction to patient mercy rather than making either one unnecessary.
+### The Foundation of the Redemptorists
 
-## Sources
+In 1732, Alphonsus founded the Congregation of the Most Holy Redeemer at Scala, near Amalfi in southern Italy. Its members became known as the Redemptorists, and their mission was to proclaim the abundant redemption offered by Jesus Christ, especially to the poor and those living in neglected rural areas.
 
-- Archdiocese of São Paulo, biographical notice attributed to its *Santo do Dia*. [Portuguese text consulted in a digital mirror](https://github.com/Mazokazorb/Biblioteca-Catolica-Br/blob/main/santos/santoafonso.htm).
-- Benedict XVI, general audience, 1 August 2012, on Alphonsus and prayer. [French text consulted](https://github.com/lologhi/vatican/blob/master/benedict-xvi/audiences/2012/2012-08-01.md).
+The congregation combined common prayer, religious discipline and missionary preaching. Alphonsus wanted his companions to imitate Christ the Redeemer by bringing hope to people who might otherwise be overlooked by society and the Church. Their work included parish missions, catechesis, sacramental ministry and the formation of Christian communities.
+
+The foundation did not develop without difficulties. Alphonsus faced opposition, misunderstandings and disagreements concerning the organisation and future of the congregation. Nevertheless, he persevered, convinced that the mission had been entrusted to him by God.
+
+The Redemptorists gradually expanded their work and became an important missionary congregation within the Catholic Church. Alphonsus's vision continues through their ministry of preaching, pastoral care and evangelisation among people who need spiritual support.
+
+### A Doctor of the Church and Teacher of Moral Theology
+
+One of Alphonsus's greatest contributions was his work in moral theology. During his lifetime, theological debates were strongly influenced by rigorous approaches that could place excessive emphasis on strictness and fear. Alphonsus sought a balanced understanding of Christian moral responsibility, one that respected God's commandments while recognising the complexity of human conscience and the importance of divine mercy.
+
+His major work, *Moral Theology*, examined practical questions faced by priests and confessors. He encouraged those exercising pastoral responsibility to remain faithful to the Church's teaching while treating penitents with patience, understanding and charity. He believed that the sacrament of Penance should help people return to God with confidence rather than leave them overwhelmed by fear.
+
+His approach became highly influential, and he was eventually recognised as one of the Church's foremost moral theologians. His pastoral teaching emphasised that truth and mercy must not be separated: authentic Christian guidance calls people towards holiness while helping them recognise the possibility of forgiveness and spiritual growth.
+
+In 1762, Alphonsus was appointed Bishop of Sant'Agata dei Goti. Despite his reluctance to accept the position, he carried out his responsibilities with dedication, working to improve the formation of priests and the spiritual life of his diocese. During a severe famine in 1763–1764, he also demonstrated considerable concern for the poor, organising assistance for those suffering from hunger and deprivation.
+
+### Devotion to Jesus Christ and the Blessed Virgin Mary
+
+Alphonsus's theological work was inseparable from a deep spiritual life. He wrote extensively about prayer, the love of Jesus Christ and devotion to the Blessed Virgin Mary. Among his best-known works are *The Practice of the Love of Jesus Christ*, *The Great Means of Prayer* and *The Glories of Mary*.
+
+He taught that prayer was essential to perseverance in faith because it enabled Christians to seek God's help, grow in charity and remain faithful during trials. His devotion to Christ focused particularly on the mystery of the Incarnation, the Passion and the Eucharist.
+
+His Marian spirituality likewise reflected his confidence in God's mercy. Alphonsus encouraged Christians to turn to Mary as a motherly intercessor who leads the faithful towards her Son. His writings helped shape Catholic devotional life and remain influential in the Church's spiritual tradition.
+
+He was also a gifted musician and composer. His best-known hymn, *Tu scendi dalle stelle*, became one of the most beloved Italian Christmas songs, expressing the wonder of God's humility in becoming human for the salvation of the world.
+
+### His Final Years and Lasting Legacy
+
+In 1775, declining health led Alphonsus to resign from his episcopal responsibilities and retire to Pagani, where he continued to guide the Redemptorists and write spiritual works. His final years were marked by considerable physical suffering, yet he remained committed to prayer and the spiritual welfare of his congregation.
+
+He died on 1 August 1787, at the age of ninety. Pope Gregory XVI canonised him in 1839, and Pope Pius IX declared him a Doctor of the Church in 1871. Pope Pius XII later proclaimed him the patron of confessors and moral theologians.
+
+Saint Alphonsus Liguori remains an enduring model of pastoral compassion, intellectual dedication and trust in divine mercy. His life demonstrates that holiness can unite scholarship with practical service and that the Church's teaching must always be communicated with both fidelity and charity. Through his missionary work, his writings and the congregation he founded, he continues to encourage Christians to deepen their prayer, seek God's forgiveness and share the hope of the Gospel with those most in need.
 $desc$),
 ('saint-alphonsus-liguori', 'fr', 'Alphonse de Liguori, avocat napolitain devenu prêtre et évêque, fonda les Rédemptoristes pour évangéliser les communautés délaissées. Sa théologie morale et ses écrits spirituels unissent conversion véritable et confiance en la miséricorde divine, en soulignant la prière et un ministère sacramentel compatissant.',
 $desc$## Un avocat devient prêtre
@@ -7289,34 +6449,57 @@ SET short_description = x.short_description, full_biography = x.full_biography
 FROM saints AS s
 JOIN (VALUES
 ('saint-john-vianney', 'en', 'John Mary Vianney, the Curé of Ars, renewed a small French parish through prayer, teaching, charity and tireless service in the confessional. His life made an obscure village a place of pilgrimage and offered the Church an enduring example of pastoral dedication.',
-$desc$## A difficult preparation
+$desc$
 
-John Mary Vianney was born at Dardilly, near Lyon, on 8 May 1786. He grew up in a rural family during a period when the French Revolution disrupted religious practice and education. Work in the fields and limited schooling made his later studies unusually difficult. His desire for priesthood therefore encountered obstacles that were practical and intellectual as well as familial. The familiar description of him as an unlearned peasant can become misleading if it suggests that he did not study, think carefully or acquire a substantial knowledge of the faith.
+Saint John Mary Vianney holds a distinguished place in the history of the Catholic Church as a French priest whose holiness, humility and tireless pastoral dedication transformed a small rural parish into one of the most renowned centres of spiritual pilgrimage in nineteenth-century France. Known throughout the world as the *Curé of Ars*, he devoted his life to the conversion of sinners, the celebration of the sacraments and the spiritual care of ordinary people. Born into a farming family during the turbulent years of the French Revolution, he overcame considerable educational difficulties to fulfil his vocation to the priesthood. His ministry was marked by extraordinary devotion to the Eucharist, long hours spent hearing confessions and a profound confidence in God's mercy. Although he possessed neither great wealth nor exceptional academic training, his spiritual wisdom attracted countless people seeking forgiveness and guidance. Canonised in 1925, Saint John Vianney became the patron saint of parish priests, and his life remains a powerful example of how humility, prayer and perseverance can transform an entire community.
 
-With priestly encouragement he persevered in preparation and was ordained in 1815. His difficulties with formal education were not the final measure of his pastoral ability. The demands of preaching and the guidance of consciences required continuing effort. His later reputation as a confessor is especially striking against that background, but it should not be presented as an argument that training is unnecessary. Rather, his life demonstrates that perseverance, sound guidance and gifts not immediately recognized by conventional examinations can belong to the formation of an effective minister.
+### Early Life and a Difficult Path to the Priesthood
 
-## The parish of Ars
+John Mary Vianney was born on 8 May 1786 in Dardilly, near Lyon, France, into a devout farming family. His parents, Matthieu Vianney and Marie Béluse, raised their children in a spirit of Christian faith, charity and hard work. From an early age, John helped with agricultural tasks and developed a simple but sincere spirituality, nourished by his mother's prayers and religious instruction.
 
-Vianney arrived at Ars in 1818. It was a small community whose religious practice needed renewal. Benedict XVI's account of his ministry recalls a village of approximately 230 inhabitants. Vianney made Christian formation a central responsibility rather than assuming that a nominally Christian population already understood and practiced its faith. He preached, taught children, encouraged prayer and sought to make the church a place where parishioners could encounter a pastor who was consistently available. Renewal depended on patient local work, not on the immediate achievement of national celebrity.
+His childhood unfolded during the French Revolution, a period of intense upheaval for the Catholic Church. Religious persecution and restrictions on public worship meant that some priests continued their ministry in secret. John received his First Communion in a barn during a clandestine Mass, an experience that deepened his appreciation for the sacraments.
 
-His ministry extended beyond the church building. He visited families and sick people, organized parish activities, received and administered donations, and supported charitable works. He took particular care of the girls served by the institution known as the Providence and of those who educated them. Benedict explicitly warns against reading a biographer's description of his constant presence in church as though he never went elsewhere. Vianney's prayer and activity belonged together. He also encouraged lay cooperation, recognizing that the life of the parish was not the work of the priest alone.
+At the age of seventeen, he expressed his desire to become a priest, believing that he could dedicate his life to bringing people closer to God. However, his path was far from easy. His limited formal education made the study of Latin and philosophy particularly difficult, and his progress through seminary formation was slow. His studies were also interrupted by military conscription during the Napoleonic era, although he eventually returned to his religious vocation.
 
-## Eucharist and reconciliation
+With the support of Abbé Charles Balley, a priest who recognised his spiritual gifts and encouraged his perseverance, John continued his studies despite repeated difficulties. He was ordained a priest in 1815, at the age of twenty-nine. His journey demonstrated that intellectual limitations need not prevent a sincere vocation from bearing fruit when accompanied by perseverance, humility and the guidance of others.
 
-The Mass and prayer before the Blessed Sacrament occupied the center of his spirituality. He invited people to see prayer as opening their hearts to God, not merely producing many words. His preaching on the Eucharist emphasized the need for Christ's life and the gift offered in sacramental communion. Benedict presents Vianney's movement from the altar to the confessional as an expression of one pastoral purpose: helping people receive God's mercy and live in a relationship renewed by grace. Worship was not detached from the conversion of everyday conduct.
+### The Curé of Ars and His Mission
 
-As his reputation spread, penitents came from across France and beyond. He sometimes spent as many as sixteen hours in the confessional in a day. This extraordinary labor did not consist of giving identical advice to everyone. The papal account distinguishes his encouragement of those sincerely seeking forgiveness, his concern for people afraid of repeated failure and his efforts to awaken repentance in the indifferent. His seriousness about sin was joined to confidence in divine mercy. The confessional became the most visible expression of a larger ministry of listening, instruction and reconciliation.
+In 1818, Father Vianney was appointed parish priest of Ars, a small village in southeastern France. The community was modest, and religious practice among some inhabitants had weakened following the upheavals of the Revolution. He arrived with few outward advantages, yet he approached his ministry with a determination to renew the spiritual life of the parish.
 
-## Cost of ministry and enduring memory
+He began by visiting families, caring for the poor, instructing children and encouraging people to return to prayer and the sacraments. He restored the church and sought to make its worship more reverent and beautiful. He also founded *La Providence*, a charitable institution that provided care and education for girls from poor families.
 
-Vianney lived austerely and gave generously to others. Large donations for parish and charitable purposes did not become personal wealth. His severe fasting and other penitential practices belong to the particular ascetic setting of his life, not to a universal prescription for the physical health of every priest. He also experienced a deep sense of inadequacy and repeatedly wished to escape parish responsibility for solitude. His perseverance was therefore not effortless confidence. It involved remaining faithful to people entrusted to him despite exhaustion and doubts about his own capacity.
+John Vianney believed that the renewal of a parish began with the conversion of individual hearts. His preaching called people to repentance, prayer and a deeper relationship with Christ. He spoke plainly about sin, but his message was rooted in the conviction that God's mercy was always available to those who sincerely sought forgiveness.
 
-He died at Ars on 4 August 1859, aged seventy-three, and Pius XI canonized him in 1925. The continued remembrance of his ministry is visible in the pilgrimages to Ars and in later papal teaching, including Benedict XVI's proclamation of a Year for Priests on the 150th anniversary of his death. His significance is not that every pastor must reproduce the exact conditions of his village. It is the unity of personal prayer, sacramental service, practical charity and responsibility for particular people. An obscure parish became the setting for an influence much wider than he could have planned.
+His austere lifestyle reinforced his teaching. He practised fasting, spent long periods in prayer and lived with remarkable simplicity. Rather than seeking recognition, he regarded himself as a servant entrusted with the spiritual welfare of his parishioners. Over time, the religious life of Ars changed significantly, and the reputation of its humble priest began to spread far beyond the village.
 
-## Sources
+### The Confessional and the Mercy of God
 
-- Archdiocese of São Paulo, biographical notice attributed to its *Santo do Dia*. [Portuguese text consulted in a digital mirror](https://github.com/Mazokazorb/Biblioteca-Catolica-Br/blob/main/santos/saojmvianney.htm).
-- Benedict XVI, letter proclaiming the Year for Priests, 2009, biographical and pastoral passages. [French text consulted in a digital mirror](https://github.com/lologhi/vatican/blob/master/_manually%20cleaned%20up/Beno%C3%AEt%20XVI/2009-06-16-Lettre-150-ans-Cure-d-Ars.txt).
+Saint John Vianney is especially remembered for his extraordinary ministry in the sacrament of Reconciliation. He understood confession as a privileged encounter with the mercy of God, through which sinners could receive forgiveness and begin again in their Christian lives.
+
+As news of his holiness spread, people travelled from across France to seek his counsel. The small village of Ars gradually became a major destination for pilgrims, many of whom waited for hours to speak with him. During the later years of his ministry, he spent extraordinarily long periods in the confessional, sometimes hearing confessions for up to sixteen hours a day.
+
+His approach combined spiritual seriousness with compassion. He encouraged penitents to recognise their sins honestly while reminding them of God's desire to forgive and restore them. For those burdened by guilt, he offered encouragement; for those struggling to change their lives, he provided spiritual guidance and urged them to persevere.
+
+His ministry revealed his understanding of the priesthood as a vocation of self-giving. He did not see confession merely as a religious obligation, but as a means through which Christ continued to seek out the lost and reconcile them with the Father. His patience and dedication made the sacrament a central feature of his pastoral mission.
+
+### Eucharistic Devotion and a Life of Prayer
+
+At the heart of John Vianney's spirituality was his profound love for the Eucharist. He celebrated Mass with deep reverence and spent long periods praying before the Blessed Sacrament. He believed that the Eucharist was the source and summit of Christian life and that priests needed to remain closely united to Christ if their ministry was to bear lasting fruit.
+
+His devotion was accompanied by a strong commitment to personal prayer, penance and simplicity. He understood these practices not as ends in themselves, but as ways of growing in love for God and becoming more attentive to the needs of others.
+
+Although his austere practices were sometimes extreme, his central message remained accessible: holiness is possible for everyone who sincerely seeks God. Through prayer, participation in the sacraments and faithful fulfilment of daily responsibilities, ordinary Christians could grow in virtue and become witnesses to the Gospel.
+
+His spiritual influence also extended beyond his parish. Priests and seminarians looked to him as an example of pastoral dedication, while countless laypeople found encouragement in his teaching and personal witness.
+
+### His Final Years and Lasting Legacy
+
+The demands of his ministry gradually exhausted John Vianney's physical strength. Despite declining health, he continued hearing confessions and serving his parish until shortly before his death. He died in Ars on 4 August 1859, at the age of seventy-three, after more than four decades of priestly service.
+
+His reputation for holiness continued to grow after his death. Pope Pius X beatified him in 1905, and Pope Pius XI canonised him in 1925. In 1929, he was proclaimed the heavenly patron of parish priests throughout the world.
+
+Saint John Vianney remains an enduring model of priestly holiness, pastoral charity and confidence in divine mercy. His life teaches that effective Christian leadership does not depend primarily on intellectual brilliance, social influence or worldly success, but on a heart wholly devoted to God and to the people entrusted to one's care. Through his example, he continues to remind priests of the importance of prayer, faithful celebration of the sacraments and compassionate service. For all Christians, his life is an invitation to seek forgiveness, persevere in faith and allow God's grace to transform both the individual heart and the wider community.
 $desc$),
 ('saint-john-vianney', 'fr', 'Jean-Marie Vianney, le curé d''Ars, renouvela une petite paroisse française par la prière, l''enseignement, la charité et un service inlassable au confessionnal. Sa vie fit d''un village obscur un lieu de pèlerinage et offrit à l''Église un exemple durable de dévouement pastoral.',
 $desc$## Une préparation difficile
@@ -7389,36 +6572,61 @@ SET short_description=x.short_description, full_biography=x.full_biography
 FROM saints AS s
 JOIN (VALUES
 ('saint-gregory-the-great','en','Gregory the Great, Roman monk and pope from 590 to 604, united biblical teaching with practical government during a period of war and insecurity. His pastoral writings, care for the poor, and support for the English mission profoundly influenced Western Christianity.',
-$desc$## A Roman formation
+$desc$
+Saint Gregory the Great holds a distinguished place in the history of the Catholic Church as a pope, theologian, missionary and Doctor of the Church whose leadership helped shape Western Christianity during a period of profound political and social upheaval. Born into a wealthy Roman family around 540, he initially pursued a distinguished career in public administration before abandoning worldly honours to embrace monastic life. His gifts for leadership, his profound knowledge of Scripture and his concern for the poor eventually led him to become Bishop of Rome. As pope, Gregory worked tirelessly to care for the people of Rome, reform the clergy, strengthen the Church and spread the Gospel beyond the boundaries of the former Roman Empire. He is particularly remembered for sending missionaries to England, encouraging sacred music and writing influential works on pastoral leadership and the spiritual life. Known as the *Servant of the Servants of God*, Saint Gregory exemplifies a form of Christian authority rooted in humility, charity and service to Christ and His people.
 
-Gregory was born at Rome about 540 into a prosperous Christian family. His father was Gordianus and his mother Silvia. His education belonged to the world of late Roman public service, and he became prefect of the city, probably in 573. Rome had already endured destructive warfare between imperial and Gothic armies. The political institutions whose traditions shaped him survived in a much weakened society. His later concern for administration was therefore not separate from his religious vocation: he understood how public responsibilities affected the daily security of ordinary people.
+### Early Life and the Call to Monastic Life
 
-He eventually relinquished office and wealth to become a monk. He established monasteries on family property in Sicily and converted his Roman house on the Caelian hill into the monastery of Saint Andrew. He remembered the contemplative life with affection, but his withdrawal was not permanent. Called into ecclesiastical service, he became a deacon and served as the pope's representative at Constantinople. There he combined diplomacy with the prayer and biblical study of a small monastic community. His acquaintance with Leander of Seville helped to initiate the exposition of Job subsequently known as the Moralia.
+Gregory was born in Rome around 540 into a prominent Christian family. His father, Gordianus, held an important position in Roman society, while his mother, Silvia, was known for her religious devotion. Gregory grew up in an environment that combined public responsibility with a strong Christian tradition, and he received an excellent education in the language, law and administration of his time.
 
-## The burden of the papacy
+His abilities soon became evident, and by approximately 573 he had attained the important position of prefect of Rome, one of the highest civil offices in the city. In this role, he was responsible for aspects of public administration during a period marked by political instability, poverty and the consequences of repeated invasions.
 
-Gregory returned to Rome and the monastery before being elected to succeed Pelagius II, who died during the epidemic of 590. His consecration took place on 3 September. His own writings show how painfully he felt the loss of contemplative freedom. Later stories elaborated his reluctance into dramatic attempts to hide or escape; these details should not be treated as contemporary evidence. His resistance to ambition is better documented by his sustained reflection on the dangers of ecclesiastical authority.
+Despite his professional success, Gregory increasingly felt drawn towards a life devoted entirely to God. Influenced by the Gospel and the example of monastic spirituality, he gradually turned away from public honours and worldly ambition. He transformed his family residence on the Caelian Hill into a monastery dedicated to Saint Andrew and embraced the monastic life.
 
-The circumstances of his pontificate required unusually extensive practical action. Lombard warfare threatened Rome, refugees needed assistance, and imperial protection was unreliable. Gregory employed the revenues and organizational resources of the Roman Church to distribute provisions and maintain relief. His correspondence follows the management of landed estates, especially in Sicily, down to questions of rents, measures, and the conduct of agents. He insisted that ecclesiastical property be administered justly rather than used as an excuse to exploit vulnerable tenants. Material provision belonged to the bishop's responsibilities, not merely to an optional private generosity.
+Gregory also used his family resources to establish monasteries in Sicily, supporting communities devoted to prayer and contemplation. He found profound peace in monastic discipline, where Scripture, silence and prayer could shape the heart towards God. Nevertheless, his talents would soon call him back into public service for the good of the Church.
 
-His dealings with secular authorities and other bishops could be forceful. He worked for peace and defended Roman ecclesiastical responsibilities while remaining within the complicated political world of the eastern empire. It would be misleading to imagine him already governing a fully developed medieval papal state. His importance lies partly in the practical adaptations made when older forms of public protection no longer adequately served the population.
+### Service to the Church and Election as Pope
 
-## A teacher of pastors
+Although Gregory preferred the solitude of monastic life, Pope Pelagius II appointed him as a papal representative in Constantinople around 579. There, he served the interests of the Roman Church and became familiar with the political and ecclesiastical challenges facing the Christian world.
 
-The Pastoral Rule, issued near the beginning of his pontificate, examines who should accept pastoral government, how a pastor should live, and how instruction must suit different hearers. Its final warning concerns the teacher's own pride. Gregory does not reduce ministry to administrative efficiency or eloquence: the shepherd must know human weakness, attend to individual circumstances, and continually examine himself. The book became a foundational manual for bishops in the medieval West.
+After returning to Rome, Gregory resumed monastic life and eventually became abbot of his community. His experience in administration, combined with his spiritual formation, prepared him for responsibilities that extended far beyond the monastery.
 
-His Moralia on Job joins biblical interpretation to a searching account of conduct, temptation, and the interior life. His homilies likewise explain Scripture to communities facing uncertainty and suffering. In these writings he reads biblical events historically, morally, and spiritually, according to the interpretive habits of the ancient Church. Their purpose is not modern critical reconstruction but the formation of Christians. His reputation as a Doctor of the Church rests on this sustained transmission of Christian teaching as well as on his government.
+In 590, following the death of Pope Pelagius II, Gregory was elected Bishop of Rome. He initially resisted the appointment, reluctant to leave the contemplative life he loved. However, he accepted the responsibility, recognising that his personal preferences had to give way to the needs of the Church.
 
-## Mission and enduring influence
+His pontificate began during a period of severe hardship. Rome faced famine, disease and the continuing threat of invasion by the Lombards. Gregory responded with prayer, practical organisation and an extraordinary commitment to the welfare of the population. He organised assistance for the hungry, directed Church resources towards those in need and sought diplomatic solutions to conflicts that threatened the city.
 
-Gregory supported the mission led by Augustine to the English peoples. His directions encouraged attention to local customs when they could be reconciled with Christian faith. Mission was therefore accompanied by practical discernment rather than an instruction simply to reproduce every Roman usage. The enterprise became one of the most consequential undertakings of his pontificate, linking monastic life, papal correspondence, and the emergence of new Christian communities beyond the Mediterranean.
+For Gregory, the Church's material possessions were not privileges to be enjoyed by its leaders but resources entrusted to them for the service of the poor. His administration reflected his conviction that spiritual leadership must be demonstrated through concrete acts of mercy.
 
-He also influenced Roman worship, although the extent of particular liturgical reforms remains debated. The later designation “Gregorian chant” must not be taken to mean that he personally composed the entire surviving repertory. Such traditions express his remembered authority more securely than they establish individual musical authorship. Gregory died on 12 March 604 after years of recurrent illness. His achievement joined contemplation, scriptural teaching, practical charity, and institutional responsibility without eliminating the tensions between them. Those tensions help explain both the difficulty of his life and the lasting interest of his writings.
+### A Pope Devoted to the Poor and the Clergy
 
-## Sources
+Gregory regarded the care of the poor as an essential responsibility of the Church. He supervised the administration of Church estates, ensuring that their resources supported people suffering from hunger, displacement and illness. He also helped organise charitable assistance and sought to preserve the dignity of those who received it.
 
-- [Catholic Encyclopedia, “Pope St. Gregory I”, consulted digital edition](https://github.com/gustavo-depaula/ember/blob/master/content/books/catholic-encyclopedia/en-US/06780a.md).
-- [John Paul II, message for the fourteenth centenary of Gregory, 22 October 2003, Vatican text mirror](https://github.com/lologhi/vatican/blob/master/john-paul-ii/speeches/2003/october/2003-10-25-scienze-storiche.md).$desc$),
+His concern extended to the spiritual welfare of the faithful. He preached regularly, encouraged reverent worship and worked to strengthen the discipline and formation of priests and bishops. He believed that those entrusted with pastoral authority had to lead by example, combining sound teaching with humility, patience and personal holiness.
+
+One of his most influential works, *Pastoral Care* (*Regula Pastoralis*), explained the responsibilities of spiritual leadership. Gregory taught that a pastor must understand the needs and weaknesses of different people, instruct them wisely and remain conscious of his own imperfections. Authority, in his understanding, was not a privilege but a demanding vocation of service.
+
+This vision became closely associated with his preferred title, *Servant of the Servants of God*. The expression reflected his conviction that Christian leadership should imitate Christ, who came not to be served but to serve. Gregory's pastoral teaching influenced generations of bishops and priests throughout the Church.
+
+### The Mission to England and the Spread of the Gospel
+
+Saint Gregory's influence extended beyond Rome through his commitment to missionary evangelisation. According to a well-known tradition, before becoming pope he encountered young Anglo-Saxon slaves in a Roman marketplace. Struck by their appearance, he expressed the desire that their people should come to know the Christian faith.
+
+As pope, Gregory acted on this missionary concern. Around 596, he sent a group of monks led by Augustine, later known as Saint Augustine of Canterbury, to evangelise the Anglo-Saxons in England. The mission eventually established an important Christian presence in the kingdom of Kent and contributed significantly to the development of Christianity in England.
+
+Gregory instructed the missionaries to proclaim the Gospel with prudence, patience and respect for local circumstances. Rather than demanding that every existing custom be immediately abandoned, he encouraged the missionaries to redirect suitable customs towards Christian worship, provided they did not contradict the faith.
+
+His missionary vision demonstrated his conviction that the Gospel was intended for every people and culture. Through the mission to England, Gregory helped establish connections that would profoundly influence the religious and cultural development of medieval Europe.
+
+### Scripture, Sacred Music and Lasting Legacy
+
+Gregory was also an important spiritual writer whose works shaped Christian thought for centuries. His biblical commentaries, sermons and *Dialogues* reveal his interest in the power of Scripture, the transformation of the soul and the examples of holy men and women. His writings combined practical wisdom with a deep conviction that contemplation must lead to charity.
+
+He also encouraged the development of liturgical worship and is traditionally associated with the history of Gregorian chant. Although the chant tradition developed over time and cannot be attributed entirely to him, his name remains closely connected with the musical heritage of the Roman liturgy.
+
+Gregory's health gradually deteriorated during his later years, yet he continued to guide the Church with determination. He died in Rome in 604, leaving behind a legacy of pastoral reform, missionary activity and spiritual teaching. He was later recognised as one of the four great Doctors of the Latin Church, alongside Saints Ambrose, Augustine and Jerome.
+
+Saint Gregory the Great remains an enduring model of Christian leadership and humble service. His life demonstrates that authority finds its true purpose in the care of others, that the resources of the Church must serve those in need and that the proclamation of the Gospel requires both conviction and pastoral wisdom. Through his writings, missionary vision and commitment to the poor, he continues to remind Christians that genuine greatness is measured not by power or prestige, but by faithfulness to Christ and love for His people.
+$desc$),
 ('saint-gregory-the-great','fr','Grégoire le Grand, moine romain et pape de 590 à 604, unit enseignement biblique et gouvernement concret dans une époque de guerre et d’insécurité. Ses écrits pastoraux, son secours aux pauvres et son soutien à la mission anglaise marquèrent profondément le christianisme occidental.',
 $desc$## Une formation romaine
 
@@ -7482,36 +6690,57 @@ Cultum Romanum quoque formavit, quamquam ambitus singularum reformationum liturg
 - [Catholic Encyclopedia, « Pope St. Gregory I », editio digitalis consulta](https://github.com/gustavo-depaula/ember/blob/master/content/books/catholic-encyclopedia/en-US/06780a.md).
 - [Ioannes Paulus II, nuntius de quarto decimo centenario Gregorii, 22 Octobris 2003, exemplar textus Vaticani](https://github.com/lologhi/vatican/blob/master/john-paul-ii/speeches/2003/october/2003-10-25-scienze-storiche.md).$desc$),
 ('saint-peter-claver','en','Peter Claver was a Catalan Jesuit who ministered to enslaved Africans arriving at Cartagena in the seventeenth century. His sustained work of relief, religious instruction, and personal advocacy confronted their abandonment within a society enriched by the Atlantic slave trade.',
-$desc$## From Catalonia to Cartagena
+$desc$
+Saint Peter Claver holds a distinguished place in the history of the Catholic Church as a Spanish Jesuit priest and missionary who devoted his life to serving enslaved Africans brought to the Americas. Known as the *Apostle of the Slaves*, he ministered for nearly four decades in Cartagena, in present-day Colombia, one of the principal ports of the transatlantic slave trade during the seventeenth century. At a time when countless men, women and children were torn from their homelands and subjected to horrific conditions, Peter Claver welcomed them with compassion, bringing food, medicine, comfort and spiritual support to those who had been treated as property rather than human beings. He understood his vocation as a call to recognise the dignity of every person and to serve Christ in those who suffered most. His famous declaration, *“Petrus Claver, slave of the Africans forever,”* expressed the extraordinary humility with which he embraced his mission. Although he could not bring an end to the institution of slavery, his life stands as a powerful testimony to Christian charity, sacrificial service and the obligation to defend the dignity of the vulnerable.
 
-Peter Claver was born at Verdú in Catalonia in 1581, the son of a farming family. After studies in Barcelona, he entered the Society of Jesus at Tarragona around the age of twenty. During his philosophical formation in Majorca he became acquainted with the Jesuit brother Alphonsus Rodriguez. Later accounts describe Rodriguez as an important influence upon his missionary vocation. Their language sometimes attributes supernatural knowledge to Rodriguez; the historically central point is the encouragement Claver received to undertake service overseas.
+### Early Life and the Call to Missionary Service
 
-Claver reached Cartagena in 1610 and would spend the remainder of his life in Spanish America. The Caribbean port was a major point of arrival and sale for Africans transported by force across the Atlantic. The people he encountered had endured captivity, overcrowding, disease, hunger, and terrifying uncertainty. Their treatment cannot be explained as an unfortunate background to an otherwise neutral commercial system: human beings themselves were being bought and sold. Claver's work took place inside that system, which he could relieve in particular instances but did not dismantle.
+Peter Claver was born on 26 June 1580 in Verdú, Catalonia, Spain, into a family of modest rural means. He received his early education before studying at the University of Barcelona, where he developed a strong interest in religious life. Although his future vocation was not immediately clear, he increasingly desired to dedicate himself entirely to God.
 
-## A ministry among enslaved people
+In 1602, he entered the Society of Jesus, commonly known as the Jesuits. During his formation, he studied philosophy at the Jesuit college in Palma de Mallorca, where he encountered Saint Alphonsus Rodriguez, an elderly Jesuit lay brother renowned for his humility and spiritual wisdom.
 
-The Jesuit Alonso de Sandoval helped form Claver's approach to ministry. When ships arrived, Claver sought out their passengers with food, practical supplies, and assistance for the sick. He entered spaces that others avoided and attended people whose bodies bore the consequences of the crossing. His activity began with immediate needs, not solely with formal instruction. Pope Francis, speaking at Cartagena in 2017, emphasized the importance of gestures of kindness when a common spoken language was unavailable.
+Their friendship proved decisive for Peter's future. Alphonsus encouraged the young religious to consider missionary service in the Americas, where many people had little access to Christian instruction and where the suffering caused by colonial exploitation was immense. Peter gradually recognised that his vocation lay in serving those whose dignity and humanity were being disregarded.
 
-Language remained a major practical difficulty. Africans arriving at the port did not constitute a single linguistic community. Claver therefore relied on interpreters and catechists drawn from different backgrounds. Through them he offered Christian instruction and prepared people for baptism. Older biographies give extraordinarily large totals for those instructed or baptized. Such figures communicate the scale of his remembered ministry but should not be treated as precise statistical records. The reliable outline is one of sustained activity over decades rather than an independently verifiable numerical achievement.
+In 1610, he was sent to Cartagena, a major Caribbean port in the Spanish colonial territories. He continued his theological formation in the Americas and was ordained a priest in 1616. By then, he had begun to understand the scale of the suffering experienced by Africans forcibly transported across the Atlantic. Under the influence of earlier Jesuit missionary Alonso de Sandoval, who had also ministered to enslaved Africans, Peter prepared himself for a lifetime of service among them.
 
-Claver's concern did not stop at the moment of arrival. He gathered enslaved Christians for instruction and worship, inquired into their circumstances, and intervened with those exercising power over them. His profession of being their servant expressed a deliberate reversal of the social hierarchy surrounding him. It did not mean that the institution of slavery had ceased to operate or that baptism brought civil freedom. Religious recognition and material assistance could be significant without removing the coercion under which his hearers continued to live.
+### The Mission to Enslaved Africans
 
-## Opposition and historical limits
+Cartagena was one of the principal entry points for enslaved Africans arriving in Spanish America. Many endured a brutal transatlantic crossing in overcrowded ships, where disease, hunger, violence and dehydration claimed numerous lives. Those who survived often arrived exhausted, traumatised and in urgent need of medical assistance.
 
-This ministry exposed the contradictions of a colonial Christian society. Claver faced criticism from merchants and others who regarded his attention to enslaved people as disruptive or excessive. Accounts also record objections to sharing churches with the Africans he gathered. Such hostility demonstrates that his work challenged actual habits of exclusion, not merely an abstract lack of generosity. Francis recalled both persistent opposition and accusations that Claver's zeal was indiscreet.
+Peter Claver made it his mission to meet these people as soon as their ships reached the harbour. He gathered food, water, medicine and clothing through charitable donations and boarded the vessels to assist those confined in their holds. Accompanied by interpreters who helped him communicate with people speaking different African languages, he offered practical relief and attempted to reassure them that they had not been abandoned.
 
-At the same time, a responsible biography must distinguish personal service from a modern programme of political abolition. The consulted sources establish courageous care and advocacy; they do not establish that Claver secured abolition or transformed the legal foundations of colonial slavery. The older Catholic Encyclopedia itself acknowledges that missionaries failed to suppress the trade. Its language about African peoples also reflects the prejudices of its own period. Those expressions need not be repeated to retain the information it preserves about Claver's formation and practical methods.
+His work required extraordinary courage and perseverance. He entered filthy and overcrowded spaces, tended wounds, comforted the sick and remained close to those who were frightened or dying. He understood that words alone were insufficient when people were overwhelmed by suffering. His approach is captured in the expression traditionally associated with him: *“We must speak to them with our hands before we speak to them with our lips.”*
 
-## Illness, death, and remembrance
+Through these acts of compassion, Peter sought to demonstrate that every human being possessed a dignity that no system of oppression could erase. He did not regard the enslaved as anonymous victims or instruments of labour, but as individual persons deserving of love, attention and respect.
 
-Claver's final years differed sharply from the public honor later given to him. Francis describes four years of illness and painful neglect, during which the man who had accompanied so many abandoned people himself experienced abandonment. He died at Cartagena on 8 September 1654. His long residence there connected a European religious vocation with the realities of an American port and the forced displacement of African communities.
+### A Ministry Rooted in Faith and Human Dignity
 
-He was beatified in 1850 and canonized by Leo XIII in 1888, together with Alphonsus Rodriguez. The Church remembers him for making sustained personal service the concrete expression of religious commitment. His history also demands remembrance of the enslaved people whose suffering made that service necessary, rather than allowing the missionary alone to occupy the narrative. Read in that way, his life witnesses both to the possibilities of human solidarity and to the limits of individual charity within an enduring structure of exploitation. These two aspects belong together in any serious account of his achievement.
+Peter's missionary work combined practical assistance with religious instruction. With the help of interpreters and catechists, he taught Christian doctrine to those who wished to learn about the faith and prepared many for baptism. He continued to accompany people after their arrival, visiting them where they were held and attempting to support their spiritual and material needs.
 
-## Sources
+His ministry was not limited to the harbour. He visited hospitals, including institutions caring for people suffering from leprosy, and ministered to prisoners and other marginalised individuals. His willingness to approach those whom society feared or rejected reflected his understanding of Christ's command to love one's neighbour.
 
-- [Catholic Encyclopedia, “St. Peter Claver”, consulted digital edition](https://github.com/gustavo-depaula/ember/blob/master/content/books/catholic-encyclopedia/en-US/11763a.md).
-- [Francis, Angelus at Cartagena, 10 September 2017, Vatican text mirror](https://github.com/lologhi/vatican/blob/master/francesco/angelus/2017/2017-09-10.md).$desc$),
+Peter also confronted the attitudes of the colonial society around him. His insistence on caring for enslaved Africans challenged the prejudices of people who considered them inferior and sometimes objected to his treatment of them as fellow human beings. Nevertheless, he continued his work, believing that Christian faith required more than religious observance: it demanded concrete acts of mercy.
+
+It is important to understand his historical context carefully. Peter Claver worked within a society structured by slavery, and his principal efforts focused on relieving suffering, providing pastoral care and affirming the humanity of enslaved people rather than abolishing the entire system. Yet his sustained service to those whom others neglected remains a significant witness to the Christian duty to protect human dignity and oppose indifference to injustice.
+
+### A Life of Sacrifice and Perseverance
+
+Peter's ministry demanded considerable physical and emotional strength. He repeatedly exposed himself to dangerous conditions and infectious diseases while caring for people who had little protection against illness. His commitment was not based on the expectation of recognition or reward, but on his conviction that serving the suffering was a way of serving Christ Himself.
+
+In 1650, he contracted a serious illness during an epidemic in Cartagena. Although he survived the initial illness, his health deteriorated, and he became increasingly dependent on others. For the final years of his life, he was largely confined to his room and unable to continue his demanding apostolate.
+
+The man who had spent decades caring for abandoned people now experienced weakness and dependence himself. His final years were difficult, and the care he received was not always adequate. Nevertheless, his earlier ministry had left a profound impression on Cartagena, where many remembered his extraordinary dedication.
+
+Peter Claver died on 8 September 1654. His reputation for holiness spread throughout the Catholic world, and Pope Pius IX beatified him in 1850. Pope Leo XIII canonised him in 1888 and later recognised him as a special patron of Catholic missions among African peoples.
+
+### A Lasting Legacy of Compassion and Justice
+
+Saint Peter Claver remains an enduring example of selfless service, missionary zeal and respect for human dignity. His life demonstrates that Christian charity must extend beyond words and become visible through practical assistance, personal sacrifice and solidarity with those who suffer.
+
+He reminds the faithful that no person should be reduced to a social category, treated as disposable or denied compassion because of their origin or circumstances. His example also invites Christians to examine the injustices of their own societies and consider how faith can inspire a more courageous defence of those who are vulnerable.
+
+Through his ministry in Cartagena, Peter Claver showed that holiness can be expressed in humble and often unseen acts of service: feeding the hungry, tending the wounded, comforting the frightened and accompanying those whom others have abandoned. His legacy continues to challenge Christians to recognise the image of God in every human being and to place love into action, especially where human dignity is most threatened.
+$desc$),
 ('saint-peter-claver','fr','Pierre Claver, jésuite catalan, se consacra aux Africains réduits en esclavage qui arrivaient à Carthagène au XVIIe siècle. Son œuvre durable de secours, d’instruction religieuse et de défense personnelle affronta leur abandon dans une société enrichie par la traite atlantique.',
 $desc$## De la Catalogne à Carthagène
 
@@ -7576,6 +6805,10 @@ Anno 1850 beatificatus et anno 1888 a Leone XIII una cum Alphonso Rodriguez cano
 - [Franciscus, Angelus Carthagine, 10 Septembris 2017, exemplar textus Vaticani](https://github.com/lologhi/vatican/blob/master/francesco/angelus/2017/2017-09-10.md).$desc$)
 ) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
 WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
+
+
+
+--WIPPPPPPPP
 UPDATE saint_translations AS st
 SET short_description=x.short_description, full_biography=x.full_biography
 FROM saints AS s JOIN (VALUES
