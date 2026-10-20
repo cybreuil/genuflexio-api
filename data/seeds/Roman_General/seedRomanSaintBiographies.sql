@@ -4657,6 +4657,463 @@ WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
 -- END_BIOGRAPHIES_FEBRUARY
 
 -- BIOGRAPHIES_MARCH
+UPDATE saint_translations AS st
+SET short_description = x.short_description,
+	full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-casimir', 'en',
+$desc$Saint Casimir was a Polish prince renowned for his deep faith, personal austerity and concern for the poor. Despite his royal position, he preferred prayer and service to worldly ambition, becoming a model of Christian virtue and a patron saint of Poland and Lithuania.$desc$,
+$desc$
+Saint Casimir holds a distinguished place in the history of the Catholic Church as a Polish prince who chose to place his faith above political ambition and royal privilege. Born into the powerful Jagiellonian dynasty in the fifteenth century, he lived at a court marked by wealth and political responsibility, yet remained devoted to prayer, charity and the pursuit of holiness. As the son of King Casimir IV of Poland, he was expected to participate in the affairs of state, but he consistently sought to exercise his responsibilities with justice and compassion. He became particularly known for his generosity towards the poor and his deep devotion to the Virgin Mary. His refusal to pursue power at the expense of peace, together with his commitment to a disciplined spiritual life, made him an enduring example of Christian holiness within public life. He is venerated as a patron saint of Poland and Lithuania.
+
+### Early Life and Royal Education
+
+Casimir was born on 3 October 1458 at Wawel Castle in Kraków, Poland. He was the third child and second son of King Casimir IV Jagiellon and Elizabeth of Austria. His family ruled an extensive realm that included Poland and Lithuania, placing him at the centre of European political affairs.
+
+Casimir received a careful education under the supervision of respected tutors, including the historian and diplomat Jan Długosz, a priest known for his learning and moral seriousness. His upbringing combined preparation for royal responsibilities with religious instruction. From an early age, he developed a strong devotion to prayer and an appreciation for the teachings of the Church.
+
+Although his position offered the prospect of wealth, influence and political advancement, Casimir did not allow courtly life to determine his priorities. He cultivated moderation in his habits, gave generously to those in need and sought to treat people of different social positions with dignity.
+
+His faith was not separated from his public responsibilities. Rather, he understood his royal standing as an opportunity to practise justice and protect those who lacked influence. This conviction would become one of the defining features of his short life.
+
+### The Hungarian Crown and His Commitment to Peace
+
+In 1471, when Casimir was about thirteen years old, a group of Hungarian nobles opposed to King Matthias Corvinus offered him the Hungarian crown. His father supported the expedition, hoping to strengthen the political position of the Jagiellonian dynasty.
+
+Casimir travelled with an army towards Hungary, but the campaign encountered serious difficulties. Pope Sixtus IV opposed the attempt to seize the throne, and political support for the expedition weakened. Casimir eventually withdrew and returned to Poland.
+
+The episode demonstrated the tension between dynastic ambition and the responsibilities of Christian leadership. Although the young prince had initially participated in his family's political plans, he did not continue pursuing the crown at any cost.
+
+His later reputation for prudence and concern for peace reflects the conviction that political power should serve the common good rather than become an end in itself. Casimir's conduct helped establish the image of a prince who valued justice and Christian responsibility above personal advancement.
+
+### A Prince Devoted to Justice and the Poor
+
+After returning from Hungary, Casimir gradually assumed greater responsibilities in the government of Poland. Between 1481 and 1483, while his father was frequently away in Lithuania, he helped administer the kingdom from Kraków. Contemporary accounts and later traditions remember him as prudent, conscientious and attentive to the needs of his subjects.
+
+Casimir was particularly concerned about injustice committed against the poor and vulnerable. Rather than treating royal authority as a privilege, he understood it as a responsibility to protect those who could not easily defend themselves. His generosity earned him a reputation as a defender of the poor, and his conduct offered an example of Christian charity within political life.
+
+Despite the splendour of the royal court, he maintained a simple personal lifestyle. He devoted considerable time to prayer, attended Mass regularly and practised fasting and other forms of penance. His spiritual discipline was not motivated by contempt for the world, but by a desire to keep his heart free from excessive attachment to wealth, pleasure and ambition.
+
+Casimir also embraced a life of chastity. Although marriage could have strengthened his family's political alliances, he remained committed to his personal vocation and did not pursue the marriage arrangements proposed for him. His choices reflected his conviction that fidelity to Christ should take precedence over the expectations associated with royal status.
+
+### Devotion to the Virgin Mary
+
+One of the defining features of Casimir's spirituality was his deep devotion to the Blessed Virgin Mary. He regarded her as a model of purity, humility and complete trust in God, seeking to imitate her virtues in his own life.
+
+He was particularly associated with the Latin hymn *Omni die dic Mariae*, traditionally translated as *“Every day, sing praises to Mary.”* The hymn expresses a desire to honour the Mother of God continually and to seek her intercession throughout the Christian life. According to tradition, a copy of this hymn was placed in Casimir's tomb after his death, reflecting the importance of Marian devotion in his spirituality.
+
+His devotion was closely connected to his love for Christ. For Casimir, honouring Mary meant drawing closer to her Son and learning to follow Him with a sincere and undivided heart. Prayer, participation in the Eucharist and the practice of charity formed the centre of his religious life.
+
+His example also demonstrates that holiness can flourish within demanding circumstances. Although he lived amid political responsibilities and the temptations of royal life, he sought to maintain a constant orientation towards God.
+
+### His Final Years and Death
+
+In 1483, Casimir travelled to Lithuania to assist in the administration of the Grand Duchy, serving as vice-chancellor. His health was already fragile, and the demands of his responsibilities, combined with his austere lifestyle, contributed to his physical decline.
+
+He died at Grodno, in present-day Belarus, on 4 March 1484, at only twenty-five years of age. Tuberculosis is traditionally identified as the illness that caused his death. His body was buried in Vilnius, where devotion to him gradually grew.
+
+His reputation for holiness spread throughout Poland and Lithuania. Many came to admire the contrast between his royal position and his humility, as well as his commitment to justice, chastity and prayer.
+
+Pope Leo X canonised Casimir in 1521, recognising the enduring witness of his Christian life. He subsequently became an important patron of both Poland and Lithuania, countries whose histories and religious traditions remain closely associated with his memory.
+
+### A Lasting Legacy of Faith and Justice
+
+Saint Casimir remains an inspiring example of holiness exercised within public responsibility. His life demonstrates that wealth, authority and social position need not become obstacles to Christian discipleship when they are approached with humility and a genuine concern for others.
+
+His generosity towards the poor reminds Christians that charity requires more than good intentions: it demands a willingness to use one's resources and influence for the benefit of those in need. His commitment to peace also illustrates the importance of placing justice and the common good above personal ambition.
+
+Through his devotion to prayer, his Marian spirituality and his conscientious service to his people, Casimir showed that holiness can be lived even in the midst of political life. His example continues to invite Christians to exercise responsibility with integrity, resist the temptations of privilege and place their gifts at the service of God and neighbour.
+
+Saint Casimir's legacy is ultimately that of a young prince who sought to govern himself before governing others, choosing faithfulness to Christ over the pursuit of earthly glory.
+$desc$),
+('saint-perpetua', 'en',
+$desc$Saint Perpetua was an early Christian martyr from Carthage whose courage and spiritual writings became among the most remarkable testimonies of the early Church. Executed around 203 alongside Saint Felicity and other companions, she is remembered for her unwavering faith, her visions in prison and her refusal to renounce Christ despite the pleas of her family.$desc$,
+$desc$
+Saint Perpetua holds a distinguished place in the history of the Catholic Church as one of the most remarkable martyrs of early Christianity. A young Christian woman from Carthage, in Roman North Africa, she faced execution around 203 because she refused to abandon her faith in Jesus Christ. Her story is preserved in the *Passion of Saints Perpetua and Felicity*, one of the most important surviving accounts of early Christian martyrdom. Particularly remarkable is the first-person testimony attributed to Perpetua herself, which recounts her imprisonment, her spiritual visions and the anguish of separating from her infant son. Together with Saint Felicity and their companions, she demonstrated extraordinary courage in the face of persecution. Her life remains a powerful witness to the strength of faith, the hope of eternal life and the conviction that fidelity to Christ can transcend even the deepest human fears.
+
+### Early Life and Christian Faith
+
+Perpetua, whose full name was Vibia Perpetua, was born around the end of the second century, probably in Roman North Africa. She belonged to a family of respectable social standing and received an education that was unusual for many women of her time. According to the ancient account of her martyrdom, she was approximately twenty-two years old when she was arrested and was the mother of a young child whom she was still nursing.
+
+She lived in Carthage, an important centre of Roman administration, commerce and intellectual life. Christianity had already taken root in North Africa, where Christian communities were growing despite periods of hostility and uncertainty. Perpetua embraced the Christian faith as a catechumen, someone receiving instruction in preparation for baptism.
+
+Her decision to follow Christ brought her into conflict with her family, particularly her father, who desperately wanted her to renounce Christianity. He feared the consequences of her religious commitment and repeatedly appealed to her affection for him and her responsibility towards her child.
+
+Perpetua's response reveals the depth of her conviction. She understood that faith was not merely a private preference that could be abandoned under pressure, but a commitment to the truth she had come to recognise. Although she loved her family, she refused to deny Christ, even when doing so meant accepting the possibility of death.
+
+### Imprisonment and Spiritual Visions
+
+Around 203, Perpetua was arrested alongside several other Christians, including Felicity, an enslaved woman who was pregnant, and their companions Revocatus, Saturninus and Secundulus. Saturus, their religious instructor, also joined them in imprisonment. Their arrest took place during a period of persecution in Roman North Africa.
+
+The conditions of their confinement were harsh. Perpetua described the darkness and distress of the prison, where the prisoners initially struggled with overcrowding and fear. Christian supporters eventually secured some relief, and Perpetua was able to nurse her infant son. Nevertheless, the prospect of execution and separation from her family weighed heavily upon her.
+
+During her imprisonment, Perpetua experienced a series of visions that she understood as signs of God's presence and preparation for martyrdom. In one of the most famous, she saw a ladder reaching towards heaven, with dangerous obstacles along the way. At its base was a serpent, but she overcame it and reached a beautiful garden. She interpreted the vision as reassurance that she would endure her suffering and enter into eternal life.
+
+Another vision concerned her deceased younger brother, Dinocrates. She saw him suffering from thirst and distress, then later experienced a vision in which he appeared comforted and restored. The account presents these experiences as deeply significant to her spiritual life, revealing her concern for the dead and her trust in God's mercy.
+
+These visions form an extraordinary part of the *Passion of Saints Perpetua and Felicity*. They offer a rare glimpse into the personal religious experience of an early Christian woman and show how prayer sustained her during a period of intense suffering.
+
+### Saint Felicity and the Courage of Christian Fellowship
+
+Perpetua's story is inseparable from that of Saint Felicity, her fellow prisoner and companion in martyrdom. Although they occupied very different positions in Roman society, one a free woman of respectable family and the other an enslaved woman, their shared faith united them as sisters in Christ.
+
+Felicity was pregnant when she was imprisoned. According to the account, she feared that she might be prevented from suffering martyrdom alongside her companions because Roman law restricted the execution of pregnant women. She gave birth to a daughter shortly before their scheduled execution, and the child was entrusted to the care of another Christian.
+
+Their friendship offers a powerful testimony to the unity of the early Church. Social distinctions that structured Roman society became secondary in the face of their common commitment to Christ. Perpetua and Felicity faced persecution together, supported one another through suffering and remained faithful despite their different personal circumstances.
+
+Their example demonstrates that Christian holiness is not determined by wealth, social status or public recognition. Both women displayed the same courage and spiritual conviction, showing that the dignity of each person rests deeper than the divisions imposed by society.
+
+### The Trial and Martyrdom
+
+Perpetua and her companions were brought before the Roman authorities and ordered to renounce their Christian faith. Perpetua's father appeared during the proceedings, pleading with her to reconsider. The authorities also pressured the prisoners to offer sacrifices to the Roman gods, an act intended to demonstrate religious and civic loyalty.
+
+Perpetua refused. The ancient account records her determination to remain faithful, even as she witnessed her father's distress and understood what her decision would mean for her family. She and her companions were condemned to die in the arena.
+
+They were executed at Carthage around 203, traditionally on 7 March. According to the *Passion*, the prisoners were exposed to wild animals during public games before being killed by the sword. The account describes Perpetua facing her final moments with remarkable composure, encouraging those around her and remaining steadfast to the end.
+
+Her death became a defining example of Christian martyrdom. She did not seek suffering for its own sake, but refused to save her life by denying the One in whom she believed. For the early Church, her courage demonstrated that death could not overcome the Christian hope of resurrection.
+
+### The *Passion of Saints Perpetua and Felicity*
+
+One of the most significant aspects of Perpetua's legacy is the written testimony associated with her imprisonment. The *Passion of Saints Perpetua and Felicity* contains passages traditionally understood to preserve Perpetua's own account of her experiences, alongside a narrative of the martyrs' deaths written by an editor.
+
+This text is exceptionally important in early Christian literature. It provides insight into the beliefs, fears, relationships and spiritual experiences of Christians living under Roman rule. Perpetua's first-person narrative is especially remarkable because relatively few writings by women from this period have survived.
+
+Her account combines personal emotion with profound theological conviction. She does not conceal the pain of separation from her child or the pressure exerted by her father. Instead, these human struggles make her faith more compelling: her courage emerges not from an absence of fear or affection, but from her determination to remain faithful despite them.
+
+The text also helped shape Christian understanding of martyrdom, presenting the martyrs as witnesses whose fidelity reflected the suffering and victory of Christ.
+
+### A Lasting Legacy of Courage and Faith
+
+Saint Perpetua remains one of the most influential female martyrs of the early Church. Her story preserves the memory of a young mother who faced persecution with extraordinary courage and entrusted her life to God. Together with Saint Felicity, she became a symbol of Christian fidelity and the spiritual equality of believers across social boundaries.
+
+Their names were included in the ancient Roman tradition of commemorating the martyrs, and they continue to be remembered in Catholic worship. Their witness reminds Christians that faith may demand difficult choices, but that love for Christ can sustain believers through suffering and uncertainty.
+
+Perpetua's example is particularly powerful because it reveals both the humanity and the strength of a martyr. She experienced fear, loved her family and grieved the prospect of separation from her child, yet remained convinced that her ultimate hope rested in God.
+
+Through her testimony and her martyrdom, Saint Perpetua continues to inspire the faithful to remain steadfast in adversity, support one another in times of trial and trust in the promise of eternal life. Her story stands as an enduring reminder that holiness can shine brightly even in the darkest circumstances.
+$desc$),
+('saint-felicity', 'en',
+$desc$Saint Felicity was an early Christian martyr from Carthage who was executed alongside Saint Perpetua and their companions around 203. An enslaved woman and a mother, she remained steadfast in her faith despite imprisonment and the prospect of death. Her courage remains a powerful witness to Christian hope, spiritual equality and fidelity to Christ.$desc$,
+$desc$
+Saint Felicity holds a distinguished place in the history of the Catholic Church as one of the courageous martyrs of early Christianity. Living in Roman North Africa during the third century, she was an enslaved Christian woman who faced imprisonment and execution because of her faith in Jesus Christ. Her story is inseparably linked with that of Saint Perpetua, a young noblewoman who shared her imprisonment and martyrdom. Despite their different social circumstances, the two women stood together as sisters in Christ, united by a faith that transcended the divisions of Roman society. Pregnant when she was arrested, Felicity remained steadfast through imprisonment and childbirth, ultimately giving her life rather than renouncing her faith. Remembered through the ancient *Passion of Saints Perpetua and Felicity*, she remains an enduring example of perseverance, spiritual equality and hope in the promise of eternal life.
+
+### Early Life and Christian Faith
+
+Very little is known about Felicity's early life beyond what is preserved in the account of her martyrdom. She lived in Carthage, an important city in Roman North Africa and a significant centre of early Christianity. The surviving narrative identifies her as an enslaved woman who had embraced Christianity and was preparing to face persecution alongside other members of her community.
+
+In Roman society, enslaved people occupied a vulnerable position and possessed few of the rights enjoyed by free citizens. Felicity's story is therefore particularly striking: despite her social circumstances, she became one of the most remembered witnesses to the Christian faith. Her identity as a believer placed her within a community that recognised a spiritual dignity deeper than the distinctions imposed by society.
+
+Around 203, Felicity was arrested alongside several Christians, including Perpetua, Revocatus, Saturninus and Secundulus. Their religious instructor, Saturus, also shared their fate. They had refused to abandon their Christian beliefs and comply with the religious expectations imposed by the Roman authorities.
+
+For these believers, following Christ was not simply a private conviction. It shaped their understanding of life, death and their responsibilities towards one another. Even when imprisonment and execution became real possibilities, they remained committed to the faith they had embraced.
+
+### Imprisonment and the Trial of Faith
+
+Felicity and her companions endured difficult conditions while awaiting trial and execution. Despite their suffering, they drew strength from prayer, mutual encouragement and their shared hope in Christ.
+
+The *Passion of Saints Perpetua and Felicity* provides a particularly moving account of Felicity's situation. She was pregnant when she was arrested, and her companions feared that she might be unable to suffer martyrdom with them. Roman law generally prohibited the execution of pregnant women until after childbirth, meaning that Felicity risked being separated from the others and executed later.
+
+This possibility distressed her deeply. She desired to remain with her fellow Christians during their final witness, not because she sought suffering for its own sake, but because she understood their martyrdom as a shared testimony of faith. Her concern reveals the importance of Christian fellowship in the early Church: the prisoners supported one another through prayer and encouraged one another to remain faithful.
+
+According to the ancient account, the community prayed that Felicity might give birth in time to join her companions. Their concern reflected both their affection for her and their conviction that they were called to face their final trial together.
+
+### Motherhood and the Courage to Persevere
+
+Felicity gave birth to a daughter shortly before the scheduled execution. According to the account, her labour was difficult, and a prison guard questioned how she would endure the suffering of the arena if childbirth was already so painful.
+
+Felicity replied that she was suffering then, but that in the arena another would suffer with her, referring to Christ's presence and strength. Her words express a central conviction of Christian martyrdom: believers do not endure suffering through their own strength alone, but can find courage through their relationship with God.
+
+After the birth, her daughter was entrusted to the care of another Christian. Felicity could therefore prepare to face execution alongside Perpetua and their companions.
+
+Her story brings together the vulnerability of motherhood and the courage of martyrdom. She remained a mother who loved her child, even as she accepted that she might never raise her. Her decision was not a rejection of family affection, but an expression of her conviction that her ultimate hope rested in God. She entrusted both her own future and that of her daughter to His care.
+
+### The Martyrdom of Saint Felicity
+
+Felicity and her companions were condemned to die in the arena at Carthage around 203. According to the *Passion*, they were exposed to wild animals during public spectacles before being killed by the sword.
+
+The account describes the martyrs encouraging one another and remaining united throughout their ordeal. Perpetua and Felicity, despite their different social backgrounds, faced death together. Their solidarity offered a striking contrast to Roman society, where distinctions of class and legal status shaped everyday life.
+
+Their deaths were understood by early Christians as a participation in the suffering of Christ. The martyrs believed that their execution could not destroy the hope of eternal life promised by the Resurrection. Felicity's perseverance became particularly significant because she had endured imprisonment and childbirth shortly before her death.
+
+Her story does not portray a woman untouched by suffering. Instead, it presents someone whose trust in Christ enabled her to face extraordinary hardship with determination and hope.
+
+### A Lasting Legacy of Faith and Spiritual Equality
+
+Saint Felicity remains an enduring example of Christian courage, perseverance and trust in divine grace. Her life reminds Christians that human dignity cannot be measured by social position and that those who appear powerless in the eyes of the world may possess extraordinary spiritual strength.
+
+Her companionship with Saint Perpetua illustrates the unity that faith can create across social divisions. Their friendship was rooted not in similar circumstances, but in their shared commitment to Christ. Together, they bore witness to a Christian community in which every believer was called to holiness.
+
+Felicity's experience of motherhood gives her story a deeply human dimension. Faced with the prospect of leaving her child behind, she entrusted her life and her daughter's future to God. Her example invites Christians to combine love for their families with a hope that reaches beyond earthly life.
+
+Through her martyrdom, Saint Felicity continues to inspire the faithful to remain steadfast in adversity, support those who suffer and recognise the equal dignity of every human being. Her witness stands as a lasting reminder that Christian hope can endure even in the face of death, sustained by the conviction that nothing can separate believers from the love of Christ.
+$desc$),
+('saint-john-of-god', 'en',
+$desc$Saint John of God was a Portuguese-born religious figure who dedicated his life to caring for the sick, the poor and the abandoned in Granada, Spain. Remembered for his extraordinary charity and personal humility, he founded a hospital that inspired the Hospitaller Order of Saint John of God, whose members continue his mission of compassionate healthcare.$desc$,
+$desc$
+Saint John of God holds a distinguished place in the history of the Catholic Church as a model of charity, humility and compassionate service to the suffering. Born in Portugal in the late fifteenth century, he spent much of his early life searching for his purpose before experiencing a profound religious conversion in Spain. From that moment onward, he devoted himself to people whom society frequently neglected: the sick, the homeless, the poor and those suffering from mental illness. In Granada, he established a hospital where he personally cared for patients, treating them with a dignity and tenderness that were remarkable for his time. His conviction that serving the suffering meant serving Christ became the foundation of a lasting tradition of Christian healthcare. Through his example, Saint John of God demonstrated that holiness is expressed not only through prayer, but also through practical love for those most in need.
+
+### Early Life and a Search for Purpose
+
+John of God was born João Cidade on 8 March 1495 in Montemor-o-Novo, Portugal. The circumstances of his early life are not entirely clear, but he eventually left his family and grew up in Spain, where he worked as a shepherd. As a young adult, he served as a soldier in several military campaigns, experiencing the uncertainties and hardships of life in the army.
+
+His early years were marked by movement and a search for direction rather than a settled religious vocation. After his military service, he worked in different occupations, including selling books. Eventually, he settled in Granada, where he began a small business selling religious and other literature.
+
+Although his life had not yet taken a clearly religious direction, John was gradually drawn towards deeper questions of faith and purpose. His encounter with the preaching of Saint John of Ávila, a renowned Spanish priest, proved decisive. The sermon moved him so profoundly that he experienced an intense spiritual crisis, publicly expressing his repentance and desire to change his life.
+
+His behaviour initially led others to believe that he had lost his reason, and he was placed in an institution where people with mental illness were confined. The harsh treatment he witnessed there, together with his own experience of suffering, deeply affected him. He came to recognise the urgent need for greater compassion towards those who were sick or considered incapable of caring for themselves.
+
+This painful period became a turning point. Rather than allowing his suffering to embitter him, John gradually discerned a vocation to serve others who endured similar hardship.
+
+### Founding a Hospital in Granada
+
+After his conversion, John travelled to the shrine of Our Lady of Guadalupe, where he sought spiritual guidance and a clearer understanding of his vocation. He eventually returned to Granada and began dedicating himself entirely to the sick and the poor.
+
+He rented a modest house and transformed it into a place of care for people who had nowhere else to turn. He walked through the streets collecting those who were ill, homeless or abandoned, sometimes carrying them himself when they were unable to walk. He provided food, clothing, shelter and medical attention, while also offering prayer and spiritual encouragement.
+
+John's approach was remarkable because he sought to care for each person with dignity. He did not distinguish between patients according to their wealth, social standing or reputation. He recognised Christ in those who suffered and believed that every person deserved compassionate treatment.
+
+His hospital gradually attracted the support of priests, physicians and benefactors. Nevertheless, John remained personally involved in the daily work, helping patients and seeking donations to provide for their needs. He famously called out to the people of Granada to do good for themselves through charity, encouraging them to recognise that serving the poor was also a way of serving God.
+
+### A Ministry of Extraordinary Charity
+
+John's compassion extended far beyond the walls of his hospital. He helped widows, orphans, unemployed people and those whom society rejected. He was especially attentive to people suffering from mental illness, whose treatment in his time was often marked by neglect and cruelty.
+
+His own experience of humiliation and harsh treatment had deepened his understanding of their suffering. He sought to replace indifference with personal attention, believing that caring for the sick required patience, respect and practical action.
+
+John also displayed remarkable generosity in his personal life. According to traditional accounts, he sometimes gave away his own clothing to people in need, leaving himself exposed to the cold. His charity was not simply a matter of distributing resources; it involved sharing in the vulnerability of those he served.
+
+His work gradually attracted companions, including Antón Martín and Pedro Velasco, who joined him in caring for the sick. Their collaboration laid the foundations of the religious community that would later become the Hospitaller Order of Saint John of God.
+
+Although John did not establish a formal religious order himself in the way later founders did, his example inspired a lasting institution dedicated to healthcare, hospitality and service to vulnerable people. His legacy would eventually extend far beyond Granada, influencing charitable and medical work throughout the world.
+
+### His Final Years and Death
+
+John continued serving the sick with extraordinary dedication, despite the physical demands of his work. One traditional account relates that he entered a burning hospital to rescue patients trapped inside, demonstrating the courage with which he placed the safety of others before his own.
+
+In 1550, he attempted to rescue a young man from drowning in the river Genil. Although he was unable to save the man, the incident is traditionally associated with the illness that led to his death.
+
+John died in Granada on 8 March 1550, after years of demanding charitable service. His death deeply affected the city, where people from different social backgrounds had come to admire his generosity and devotion. He was remembered not as a powerful public figure, but as a humble servant who had given himself entirely to those in need.
+
+His reputation for holiness spread after his death. Pope Alexander VIII canonised him in 1690, and Pope Leo XIII later declared him a patron of hospitals and the dying.
+
+### A Lasting Legacy of Compassion and Hospitality
+
+Saint John of God remains one of the great examples of Christian charity in action. His life demonstrates that caring for the sick is not merely a practical responsibility, but a profound expression of love for Christ. By welcoming people whom others neglected, he gave visible form to the Gospel's call to serve the vulnerable.
+
+His legacy continues through the Hospitaller Order of Saint John of God, whose members work in hospitals, healthcare facilities and social services around the world. Their mission reflects his conviction that every patient deserves care that respects both physical needs and spiritual dignity.
+
+John's example reminds Christians that holiness often begins with recognising suffering that others have learned to ignore. His life invites the faithful to respond with generosity, courage and practical compassion, especially towards those who are isolated or forgotten.
+
+Through his service in Granada, Saint John of God showed that even a modest hospital, sustained by prayer and charity, can become an extraordinary expression of Christian love. His witness continues to inspire those who dedicate their lives to healing, hospitality and the dignity of every human person.
+
+$desc$),
+('saint-frances-of-rome', 'en',
+$desc$Saint Frances of Rome was an Italian wife, mother and religious founder who devoted her life to prayer, charity and service to the poor. Despite the responsibilities of family life and the challenges of fifteenth-century Rome, she became renowned for her humility, care for the sick and the establishment of the Oblates of Mary.$desc$,
+$desc$
+Saint Frances of Rome holds a distinguished place in the history of the Catholic Church as a woman who united the responsibilities of family life with an extraordinary commitment to prayer and charitable service. Born into a noble Roman family in the fourteenth century, she longed for the religious life from an early age. However, in obedience to her parents, she married Lorenzo Ponziani, a nobleman with whom she raised a family while remaining deeply devoted to God. Rather than withdrawing from the world, Frances transformed her household and social position into instruments of Christian charity. She cared for the sick, assisted the poor and supported those affected by war, famine and disease. Following the death of her husband, she founded a religious community of women known as the Oblates of Mary, dedicated to prayer and service without abandoning their responsibilities in the world. Her life remains an inspiring example of holiness lived through family commitment, humility and practical love for one's neighbour.
+
+### Early Life and Marriage
+
+Frances was born in Rome in 1384 into a wealthy and influential family. From childhood, she displayed a strong religious inclination and expressed a desire to become a nun. Her parents, however, arranged her marriage to Lorenzo Ponziani, a member of another prominent Roman family. Frances accepted this decision and entered married life, seeking to remain faithful to God within the circumstances entrusted to her.
+
+Her marriage was generally a happy one, and Lorenzo respected her religious convictions. Together they had several children, although the family also experienced the sorrow of losing some of them at a young age. These experiences deepened Frances's understanding of human suffering and strengthened her desire to place her family under God's care.
+
+Frances did not consider marriage an obstacle to holiness. She sought to fulfil her duties as a wife and mother while cultivating a disciplined spiritual life. She devoted time to prayer, attended church regularly and practised moderation despite the comforts available to her through her social position.
+
+Her sister-in-law, Vannozza, shared many of her spiritual aspirations, and the two women supported one another in prayer and charitable work. Together, they sought to serve those in need, demonstrating that Christian devotion could flourish within ordinary family responsibilities.
+
+### A Life of Charity in a Troubled Rome
+
+Frances lived during a period of political instability and conflict in Rome. Rival noble families competed for influence, while warfare and disease brought hardship to many inhabitants. Although her social position offered her protection from some of these difficulties, she refused to remain indifferent to the suffering around her.
+
+She opened her home to people in need and distributed food, clothing and other necessities to the poor. During periods of famine and epidemic disease, she gave away provisions and valuable possessions to help those who had little means of survival. Traditional accounts describe her taking grain and wine from her own household stores to assist the hungry.
+
+Her charitable work was not limited to material assistance. Frances also visited the sick, comforted the distressed and cared for people who had been abandoned by their families. She understood Christian charity as a personal responsibility that required time, sacrifice and genuine concern for others.
+
+Her husband initially had to accommodate the practical consequences of her generosity, particularly when household resources were given away. Yet Frances's reputation for holiness and compassion gradually grew, and her work became a source of inspiration to others in Roman society.
+
+Through her example, she demonstrated that wealth and influence could be used not for personal prestige, but for the service of those most vulnerable.
+
+### Trials, Family Suffering and Spiritual Growth
+
+Frances's life was not free from suffering. During the political conflicts that affected Rome, her husband became involved in the struggles between powerful factions. Their family endured serious difficulties, including the occupation of their property and the temporary separation of family members.
+
+Their son Battista was at one point required to be handed over as a hostage under the political circumstances of the time. Frances accepted this painful situation with faith, entrusting her child to God's protection while continuing to fulfil her responsibilities at home.
+
+She also experienced the death of loved ones and the hardships caused by disease and instability. These trials strengthened her commitment to prayer and increased her sensitivity to the suffering of others.
+
+Frances was known for her intense devotional life and her belief that spiritual discipline should lead to greater love and humility. Accounts of her life describe mystical experiences and a particular devotion to her guardian angel. Such traditions became an important part of her spiritual reputation, although her holiness was expressed above all through her practical service.
+
+Her example reveals a spirituality rooted not in escape from hardship, but in fidelity to God through the changing circumstances of everyday life.
+
+### The Foundation of the Oblates of Mary
+
+As Frances grew older, her desire to dedicate herself more fully to God developed alongside her responsibilities as a wife and mother. She did not abandon her family in pursuit of a religious vocation; instead, she gradually established a way of life that brought together prayer, community and service.
+
+In 1425, she founded a group of women known as the Oblates of Mary. The community was formally established in 1433 and became associated with the Benedictine tradition. Its members sought to live in a spirit of prayer and charity while remaining connected to their families and ordinary responsibilities.
+
+This approach was distinctive because it offered women a path of consecrated service without requiring all of them to withdraw entirely from their homes and communities. The Oblates supported the poor, cared for the sick and cultivated a spiritual life shaped by humility and devotion.
+
+After the death of her husband in 1436, Frances joined the community more fully and became its superior. She spent her remaining years in prayer and service, encouraging the women who shared her vocation.
+
+Her foundation reflected her conviction that holiness could be lived in different circumstances. Whether within marriage, family life or a religious community, the essential calling remained the same: to love God and serve one's neighbour.
+
+### Her Final Years and Death
+
+Frances spent her final years in Rome, continuing her charitable work and guiding the community she had founded. Her reputation for sanctity grew among people who admired her generosity, humility and spiritual wisdom.
+
+She died in Rome on 9 March 1440, after a life marked by family devotion, personal sacrifice and service to the poor. Her death was mourned by those who had benefited from her care and by the wider Christian community.
+
+Pope Paul V canonised her in 1608, recognising her enduring example of Christian holiness. She became known as Saint Frances of Rome, and her life continued to inspire married women, mothers and those engaged in charitable service.
+
+### A Lasting Legacy of Holiness in Everyday Life
+
+Saint Frances of Rome remains a powerful example of how holiness can flourish within the ordinary responsibilities of life. She did not begin her vocation by leaving the world behind, but by transforming her household, wealth and social position into opportunities for service.
+
+Her life demonstrates that family commitments and spiritual growth need not be opposed. Through her marriage, motherhood and charitable work, she showed that faith becomes most meaningful when expressed in concrete acts of generosity, patience and compassion.
+
+Her foundation of the Oblates of Mary extended this vision beyond her own lifetime, offering a model of consecrated life rooted in prayer and service. Her devotion to the poor also reminds Christians that those who possess resources have a responsibility to use them for the good of others.
+
+Through her example, Saint Frances invites the faithful to recognise opportunities for holiness in daily life, to care for those who suffer and to remain faithful to God through both joy and adversity. Her legacy continues to affirm that genuine sanctity is measured not by status or recognition, but by the depth of one's love for God and neighbour.
+$desc$),
+('saint-patrick', 'en',
+$desc$Saint Patrick was a fifth-century missionary bishop who played a decisive role in the spread of Christianity in Ireland. Captured and enslaved as a teenager, he later returned to Ireland to preach the Gospel, becoming one of the most influential figures in Irish Christian history.$desc$,
+$desc$
+Saint Patrick holds a distinguished place in the history of the Catholic Church as the missionary bishop traditionally regarded as the principal apostle of Ireland. Born in Roman Britain during the late fourth or early fifth century, he experienced a profound transformation of faith after being captured by Irish raiders and forced into slavery as a young man. Following his escape, he eventually returned to Ireland, not to seek revenge, but to proclaim the Gospel among the people who had once held him captive. His missionary work helped establish and strengthen Christian communities throughout the island, shaping Ireland's religious identity for centuries. Patrick's surviving writings reveal a man whose faith was formed through suffering, prayer and an extraordinary trust in divine providence. His life remains a powerful testimony to forgiveness, perseverance and the courage to follow God's call.
+
+### Early Life and Captivity
+
+Patrick was born in Roman Britain into a Christian family. His father, Calpurnius, was a local official and a deacon, while his grandfather was a priest. Despite his Christian upbringing, Patrick later admitted in his autobiographical work, the *Confessio*, that he had not taken his faith seriously during his youth.
+
+His life changed dramatically when Irish raiders attacked his homeland and carried him away to Ireland. Still a teenager, he was separated from his family and forced into slavery. He spent approximately six years tending animals in unfamiliar and often harsh conditions.
+
+During this period of isolation, Patrick turned increasingly towards prayer. In the *Confessio*, he describes how suffering awakened his awareness of God and led him to pray frequently throughout the day and night. What had begun as a traumatic experience became a turning point in his spiritual life.
+
+Patrick eventually experienced what he understood as a divine instruction to escape. He travelled to the coast, found a ship and returned to his family after a difficult journey. Although he had regained his freedom, his experience in Ireland had transformed his understanding of faith and his sense of purpose.
+
+### His Call to Return to Ireland
+
+After returning home, Patrick devoted himself to religious study and eventually became a bishop. During this period, he developed a strong desire to return to Ireland as a missionary.
+
+In his *Confessio*, Patrick recounts a vision in which he heard the voices of the Irish people calling him to return and walk among them once more. He interpreted this experience as a call from God, despite the painful memories associated with his captivity.
+
+His decision to return was remarkable. Rather than allowing resentment to define his future, he chose to dedicate himself to the spiritual welfare of the people among whom he had suffered. His vocation became a profound expression of forgiveness and Christian charity.
+
+Patrick returned to Ireland during the fifth century, traditionally around 432, and began preaching the Gospel. He travelled among local communities, baptised converts and helped establish Christian centres. His mission was demanding, and he sometimes encountered hostility from local rulers and other groups. Nevertheless, he persevered, convinced that God had entrusted him with this responsibility.
+
+### Missionary Work and the Growth of Christianity
+
+Patrick's missionary activity contributed significantly to the development of Christianity in Ireland. He preached to rulers and ordinary people, encouraged the formation of Christian communities and supported the work of other clergy.
+
+His approach required patience and adaptability. Ireland had its own political structures, cultural traditions and religious practices, and Patrick had to navigate these circumstances while proclaiming the Christian faith. Support from local leaders could facilitate his work, but his ministry also exposed him to danger and uncertainty.
+
+Patrick understood his mission as a service rather than an exercise of power. Having experienced the vulnerability of captivity himself, he knew what it meant to live without freedom or security. His writings express a deep awareness of his own limitations and a conviction that his missionary work depended on God's grace.
+
+Although Patrick was not the first Christian missionary to reach Ireland, his influence became central to the island's Christian history. The tradition connecting him with the Church of Armagh reflects his lasting importance in the organisation of Irish Christianity.
+
+### His Writings and Spiritual Legacy
+
+Two surviving works provide valuable insight into Patrick's life and beliefs.
+
+The *Confessio* is a personal spiritual testimony in which he recounts his conversion, vocation and missionary experiences. Written in humble Latin, it repeatedly emphasises that his mission was made possible by God's mercy rather than his own abilities. Patrick presents himself not as a great intellectual or powerful leader, but as a sinner called to serve Christ.
+
+His second important work, the *Epistola ad Coroticum*, commonly known as the *Letter to the Soldiers of Coroticus*, condemns the actions of soldiers who attacked a Christian community, killing some believers and carrying others into captivity. The letter reveals Patrick's concern for the vulnerable and his willingness to confront those responsible for violence and injustice.
+
+These writings are particularly valuable because they allow us to hear Patrick's own voice rather than relying exclusively on later legends. They reveal a man marked by humility, missionary determination and a deep conviction that God could transform suffering into an opportunity for service.
+
+A popular tradition associates Patrick with the shamrock, which he supposedly used to explain the mystery of the Holy Trinity. Although this story is not confirmed by his surviving writings, it reflects his enduring association with the Christian identity of Ireland.
+
+### His Final Years and Death
+
+The exact circumstances of Patrick's final years and death remain uncertain. He is traditionally believed to have died during the fifth century, often around 461, although the precise date cannot be established with confidence.
+
+His missionary work left a lasting legacy. The Christian communities that developed in Ireland eventually became centres of religious learning, monastic life and missionary activity. Irish missionaries would later travel throughout Europe, contributing to the preservation and transmission of Christian learning.
+
+Patrick's reputation grew over the centuries, and he became the principal patron saint of Ireland. His influence extends across Catholic and other Christian traditions, making him one of the most widely recognised figures in Irish religious history.
+
+### A Lasting Legacy of Faith and Forgiveness
+
+Saint Patrick remains an extraordinary example of how suffering can become the beginning of a vocation. His experience of captivity did not lead him to reject the people who had taken him from his family. Instead, he returned to Ireland to share the faith that had sustained him through hardship.
+
+His life demonstrates that forgiveness does not require forgetting suffering, but can transform how one responds to it. Patrick chose service over resentment and dedicated himself to people who might otherwise have remained associated in his memory with his captivity.
+
+His writings also remind Christians that missionary work requires humility, perseverance and trust in divine grace. Patrick repeatedly attributed his achievements to God rather than to personal strength or intelligence.
+
+Through his courage and devotion, Saint Patrick helped shape the Christian history of Ireland. His example continues to invite the faithful to respond generously to God's call, overcome bitterness and bring hope to others through practical service and the proclamation of the Gospel.
+$desc$),
+('saint-cyril-of-jerusalem', 'en',
+$desc$Saint Cyril of Jerusalem was a fourth-century bishop and Doctor of the Church renowned for his defence of the Christian faith and his catechetical teachings. Through his *Catechetical Lectures*, he explained the Creed, the sacraments and the Christian life to those preparing for baptism, leaving an enduring legacy in Catholic theology and liturgy.$desc$,
+$desc$
+Saint Cyril of Jerusalem holds a distinguished place in the history of the Catholic Church as a bishop, theologian and Doctor of the Church whose teachings helped shape Christian understanding of the faith during the fourth century. Living in a period marked by intense theological controversy, particularly disputes concerning the divinity of Jesus Christ, Cyril devoted himself to instructing new Christians, defending orthodox doctrine and guiding the Church of Jerusalem through difficult times. He is best known for his *Catechetical Lectures*, a remarkable collection of teachings explaining the Creed, the sacraments and the moral responsibilities of Christian life. His writings provide valuable insight into the worship and beliefs of the early Church, particularly its understanding of baptism and the Eucharist. Despite facing exile and opposition, Cyril remained committed to his pastoral mission. His life stands as an example of theological clarity, perseverance and fidelity to the apostolic faith.
+
+### Early Life and Formation
+
+Cyril was born around 313, probably in or near Jerusalem, shortly after the conversion of Emperor Constantine began to transform the position of Christianity within the Roman Empire. Little is known with certainty about his family or early education, but he received a formation that prepared him for service in the Church.
+
+He was ordained a priest by Bishop Maximus of Jerusalem and became particularly involved in instructing catechumens, people preparing to receive Christian baptism. This ministry required not only knowledge of Scripture and doctrine, but also the ability to explain the faith clearly to people approaching an important turning point in their spiritual lives.
+
+Around 350, Cyril succeeded Maximus as Bishop of Jerusalem. His episcopate began during a period of significant theological tension. Although the Council of Nicaea had affirmed in 325 that the Son was of the same divine substance as the Father, disagreements about the precise meaning of this teaching continued to divide bishops and Christian communities.
+
+Cyril's position within these controversies has been the subject of historical discussion. His principal concern was to preserve the Church's faith in the Father, Son and Holy Spirit while guiding his flock through a period of uncertainty. As bishop of a city central to the life of Christ, he also bore responsibility for a community deeply connected to the places associated with Jesus' ministry, death and Resurrection.
+
+### The *Catechetical Lectures*: Teaching the Christian Faith
+
+Cyril's most enduring contribution is his collection of *Catechetical Lectures*, delivered to people preparing for baptism in Jerusalem. These teachings are among the most valuable surviving sources for understanding how Christians were instructed during the fourth century.
+
+The lectures explain the essential elements of Christian belief, drawing extensively on Scripture. Cyril guides his listeners through the Creed, explaining the identity of God the Father, the divinity of Jesus Christ, His Incarnation, Passion and Resurrection, and the work of the Holy Spirit. He also addresses repentance, moral conversion and the responsibilities that accompany baptism.
+
+His method is both theological and pastoral. Rather than presenting Christian doctrine as abstract speculation, Cyril connects it to prayer, worship and the transformation of daily life. He encourages those preparing for baptism to examine their consciences, abandon sinful habits and approach the sacraments with sincerity.
+
+His teaching is particularly notable for its explanation of the Eucharist. In his *Mystagogical Catecheses*, traditionally associated with instruction given to newly baptised Christians, Cyril explains the significance of the liturgy and the real presence of Christ in the consecrated bread and wine. These passages offer important evidence of the Eucharistic faith and sacramental practices of the early Church.
+
+Cyril also describes baptism as a profound participation in the death and Resurrection of Christ. Through this sacrament, believers are cleansed from sin and incorporated into the Christian community. His writings demonstrate that the early Church understood the sacraments not merely as symbolic ceremonies, but as essential encounters with God's grace.
+
+### Theological Controversies and Exile
+
+Cyril's episcopate was marked by repeated conflict, both theological and political. His relationship with Acacius, the influential bishop of Caesarea, became particularly strained. Disagreements over ecclesiastical authority and theological positions contributed to a prolonged dispute.
+
+Cyril was deposed and exiled on several occasions. He spent periods away from Jerusalem, returning when political circumstances changed, only to face further opposition. These interruptions made his pastoral responsibilities difficult, but they did not erase his influence on the Church.
+
+The controversies of this period were complex, and Cyril's precise theological alignment has sometimes been debated. Nevertheless, he is remembered within Catholic tradition for his eventual recognition as a defender of orthodox Christian doctrine.
+
+His perseverance is especially significant because he continued to serve the Church amid uncertainty and division. He did not abandon his responsibility as a bishop when his authority was challenged, but remained committed to teaching the faith and caring for the Christian community entrusted to him.
+
+### The Bishop of Jerusalem and the Holy Places
+
+Cyril's ministry was closely connected to Jerusalem, a city of extraordinary importance for Christians because of its association with the life, death and Resurrection of Jesus Christ.
+
+During his episcopate, Christian pilgrimage to Jerusalem was becoming increasingly significant. The construction and development of churches at sites associated with Christ's life, including the Church of the Holy Sepulchre, reflected the growing importance of the city within the Christian world.
+
+Cyril's teaching helped connect the biblical events commemorated in these sacred places with the liturgical and sacramental life of the Church. His catecheses reveal a Christianity deeply rooted in Scripture, communal worship and the transmission of the faith from one generation to the next.
+
+He understood the bishop's role as more than the administration of a local community. It involved preserving the apostolic tradition, instructing believers and helping them recognise the meaning of the mysteries celebrated in Christian worship.
+
+### His Final Years and Death
+
+Cyril's final years were marked by the continuing theological disputes of the fourth century. He participated in the Council of Constantinople in 381, which reaffirmed the Nicene faith and contributed to the formulation of the doctrine of the Holy Spirit expressed in the Niceno-Constantinopolitan Creed.
+
+The council was a decisive moment in the consolidation of orthodox Trinitarian teaching. Cyril's presence reflected his enduring importance among the bishops of the Eastern Church and his commitment to the faith proclaimed by the ecumenical councils.
+
+He died around 386 or 387, having spent much of his episcopate navigating controversy while continuing his work of instruction and pastoral care.
+
+His writings survived him and became important resources for later generations of theologians and catechists. In 1883, Pope Leo XIII declared Cyril a Doctor of the Church, recognising the enduring theological value of his teaching.
+
+### A Lasting Legacy of Faith and Understanding
+
+Saint Cyril of Jerusalem remains an essential figure in the history of Catholic theology because he combined doctrinal precision with a deep concern for the spiritual formation of ordinary Christians.
+
+His *Catechetical Lectures* continue to illuminate the beliefs and practices of the early Church, particularly its understanding of the Creed, baptism, the Eucharist and the Christian moral life. They remind the faithful that Christian doctrine is not simply something to memorise, but a truth to understand, celebrate and live.
+
+His life also offers a lesson in perseverance. Despite exile, controversy and political pressure, Cyril remained devoted to his episcopal mission and the preservation of the faith.
+
+As a Doctor of the Church, he invites Christians to approach their faith with both intellectual seriousness and spiritual humility. His example demonstrates the importance of sound teaching, reverent participation in the sacraments and fidelity to the apostolic tradition.
+
+Through his ministry in Jerusalem, Saint Cyril helped preserve and explain the foundations of Christian belief for generations to come. His legacy continues to inspire those who seek a deeper understanding of the Catholic faith and a more profound participation in the life of Christ.
+$desc$)
+) AS x(slug, locale_code, short_description, full_biography) ON s.slug = x.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
 -- END_BIOGRAPHIES_MARCH
 
 -- BIOGRAPHIES_APRIL
