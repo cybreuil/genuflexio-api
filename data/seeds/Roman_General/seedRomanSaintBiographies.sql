@@ -6514,10 +6514,79 @@ Memoria igitur ecclesialis Iacobi Minoris nomen apostolicum certum cum hereditat
 ## Fontes
 
 - [Catholic Encyclopedia, “St. James the Less” (exemplar digitale consultum)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/08280a.htm)
+$desc$),
+('saint-john-of-avila', 'en',
+$desc$Saint John of Ávila was a Spanish Catholic priest, preacher and spiritual writer who became one of the great figures of the Catholic Reformation. Renowned for his powerful sermons, theological wisdom and guidance of other saints, he devoted his life to renewing the clergy, educating the faithful and leading souls towards a deeper relationship with Christ.$desc$,
+$desc$
+Saint John of Ávila holds a distinguished place in the history of the Catholic Church as a priest, theologian and spiritual master whose preaching helped renew Christian life in sixteenth-century Spain. Known as the *Apostle of Andalusia*, he travelled extensively through southern Spain, proclaiming the Gospel, encouraging repentance and calling both clergy and laity to a more authentic Christian life. His ministry combined profound theological learning with a practical concern for the spiritual and material needs of ordinary people. Through his sermons, letters and spiritual writings, he influenced numerous religious figures, including Saint Teresa of Ávila, Saint John of God and Saint Francis Borgia. He placed particular emphasis on the love of Christ, especially as revealed in the Cross and the Eucharist, and insisted that authentic reform must begin with personal conversion. Declared a Doctor of the Church by Pope Benedict XVI in 2012, Saint John of Ávila remains an important guide to priestly formation, Christian holiness and the renewal of the Church.
+
+### Early Life and Religious Vocation
+
+John of Ávila was born on 6 January 1499 or 1500 in Almodóvar del Campo, in Castile, Spain. His family was prosperous, and he initially studied law at the University of Salamanca. However, he abandoned his legal studies after a period of spiritual reflection and returned home, where he devoted himself to prayer and preparation for the priesthood.
+
+He later studied theology and philosophy at the University of Alcalá, an important centre of intellectual and religious renewal. There he received a solid theological education that would become essential to his preaching and spiritual direction.
+
+Ordained a priest in 1526, John celebrated his first Mass with a striking gesture of charity: rather than holding a large celebration, he reportedly distributed much of his family's wealth to the poor. He initially intended to travel as a missionary to the Americas, but the Archbishop of Seville recognised his gifts and encouraged him to remain in Spain.
+
+John accepted this direction and began preaching in Andalusia. His sermons attracted large audiences because of their clarity, fervour and insistence on the transforming power of God's grace. He spoke directly about sin and repentance, but his preaching was also filled with confidence in divine mercy and the possibility of spiritual renewal.
+
+```sql
+### Imprisonment and Spiritual Transformation
+
+In 1531, John was arrested by the Spanish Inquisition following suspicions raised by his preaching and certain theological statements. He remained imprisoned for approximately two years before being acquitted in 1533.
+
+This period of suffering became an important moment in his spiritual development. While in prison, he began writing *Audi, Filia* (*Listen, O Daughter*), a work of spiritual guidance inspired by Psalm 45 in the Vulgate numbering. The book explores the purification of the heart, detachment from worldly distractions, growth in virtue and the importance of trusting in God's love.
+
+His experience deepened his understanding of Christ's Passion and strengthened his conviction that the Cross reveals the depth of divine mercy. Rather than responding to suffering with bitterness, John sought to unite his trials with Christ and allow them to make him more compassionate towards others.
+
+After his release, he continued preaching, eventually establishing his principal ministry in Córdoba and Granada. His reputation as a spiritual teacher grew, and people from different walks of life sought his counsel.
+
+### A Teacher of Saints and Reformer of the Church
+
+John's influence extended far beyond his own preaching. He became a trusted adviser to several major figures of the Catholic Reformation, including Saint Teresa of Ávila, Saint Ignatius of Loyola and Saint Francis Borgia.
+
+Saint John of God was particularly influenced by one of John's sermons in Granada in 1539. Deeply moved, John of God underwent a profound conversion that eventually led him to devote his life to caring for the sick and founding the Brothers Hospitallers. Saint Francis Borgia also experienced a decisive spiritual transformation after hearing John's preaching.
+
+John was especially concerned with the education and formation of priests. He believed that effective pastoral ministry required more than intellectual knowledge: priests needed a deep life of prayer, moral integrity and genuine love for the people entrusted to their care.
+
+To support this vision, he helped establish colleges and promoted the University of Baeza, founded with papal approval in 1538. The institution became an important centre for educating clergy and laypeople. His proposals for priestly formation anticipated several priorities later emphasised by the Council of Trent.
+
+Although he did not attend the Council because of ill health, he prepared reform proposals known as the *Memoriales*, addressing the renewal of ecclesiastical life and the education of the clergy. His work helped demonstrate that the reform of the Church must involve both institutional improvement and the personal holiness of its members.
+
+```sql
+### His Spiritual Writings and Teaching
+
+John of Ávila's writings remain among his most important contributions to Catholic spirituality. His work *Audi, Filia* offers practical guidance for spiritual growth, encouraging readers to overcome pride, cultivate virtue and seek God with a sincere heart. He teaches that holiness develops through trust in divine grace and a willingness to allow Christ to transform one's thoughts, desires and actions.
+
+In his *Treatise on the Love of God*, John reflects on the extraordinary love revealed through the Incarnation and Passion of Jesus Christ. He emphasises that Christ's sacrifice is not merely a historical event to contemplate, but a revelation of God's personal love for humanity. Meditating on this love should inspire gratitude, conversion and a deeper commitment to serving others.
+
+His *Treatise on the Priesthood* explores the spiritual responsibilities of ordained ministry, insisting that priests must imitate Christ's charity and dedication. He also produced catechetical works, biblical commentaries, sermons and an extensive collection of letters offering spiritual advice to people in different circumstances.
+
+Throughout his writings, John emphasises the relationship between prayer and action. He believed that genuine knowledge of God should produce humility, charity and a desire for the salvation of others. His theology was therefore deeply pastoral: it sought not simply to explain Christian doctrine, but to help people live it faithfully.
+
+### His Final Years and Death
+
+By 1554, declining health forced John to withdraw from his demanding schedule of missionary journeys. He settled in Montilla, in Andalusia, where he continued to guide priests, religious communities and laypeople through his correspondence and spiritual writings.
+
+Although physically weakened, he remained deeply involved in the renewal of the Church. His counsel continued to be sought by prominent religious leaders, and his disciples helped extend his influence throughout Spain.
+
+John died in Montilla on 10 May 1569. His reputation for holiness and spiritual wisdom spread rapidly after his death. Pope Leo XIII beatified him in 1894, and Pope Paul VI canonised him in 1970.
+
+On 7 October 2012, Pope Benedict XVI declared him a Doctor of the Church, recognising the enduring theological significance of his teaching. He is also honoured as the patron of the diocesan clergy of Spain, reflecting his lifelong commitment to the formation and holiness of priests.
+
+### A Lasting Legacy of Spiritual Renewal
+
+Saint John of Ávila remains an outstanding example of a priest whose intellectual gifts were placed entirely at the service of the Gospel. His life demonstrates that effective evangelisation requires more than eloquence or theological knowledge: it must flow from prayer, humility and a personal encounter with the love of Christ.
+
+Through *Audi, Filia*, his *Treatise on the Love of God* and his writings on the priesthood, he offered generations of Christians a practical path towards holiness. His influence on other saints also reveals how spiritual guidance can bear fruit far beyond the immediate reach of a single ministry.
+
+His message remains especially relevant to priests, catechists and all those responsible for transmitting the faith. John reminds them that the renewal of the Church begins with hearts transformed by grace and expresses itself through faithful service, sound teaching and genuine charity.
+
+Through his preaching, writings and dedication to spiritual formation, Saint John of Ávila helped shape Catholic renewal in Spain and left a legacy that continues to nourish the universal Church. His life invites every Christian to contemplate the love of Christ more deeply and to respond to that love through holiness, perseverance and generous service to others.
 $desc$)
 ) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
 WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
--- END_BIOGRAPHIES_MAY
+
 UPDATE saint_translations AS st
 SET short_description = x.short_description, full_biography = x.full_biography
 FROM saints AS s JOIN (VALUES
@@ -6765,7 +6834,383 @@ Summa igitur historica Pancratii brevis est: martyr Romanus, sepulcrum antiquum,
 ## Fontes
 
 - [Catholic Encyclopedia, “Sts. Nereus and Achilleus, Domitilla and Pancratius” (exemplar digitale consultum)](https://raw.githubusercontent.com/CWilsonTSP/cathen/master/cathen/10751a.htm)
-$desc$)
+$desc$),
+('saint-matthias-apostle', 'en',
+$desc$Saint Matthias was the apostle chosen to replace Judas Iscariot after the Resurrection and Ascension of Jesus Christ. Having followed Jesus throughout His public ministry, he became a witness to the Resurrection and received the Holy Spirit at Pentecost. Although little is known with certainty about his later life, Christian tradition remembers him as a missionary and martyr who remained faithful to the Gospel.$desc$,
+$desc$
+Saint Matthias holds a unique place in the history of the Catholic Church as the apostle chosen to restore the Twelve after the betrayal and death of Judas Iscariot. Unlike the other apostles, he was not called directly by Jesus during His earthly ministry, but selected by the early Christian community after the Ascension. According to the Acts of the Apostles, Matthias had accompanied Jesus' followers from the time of His baptism by John the Baptist until His Ascension, making him a witness to the events at the heart of the Christian faith. Although the New Testament provides little information about his subsequent ministry, ancient traditions associate him with missionary work and martyrdom. His life reminds Christians that faithful service often takes place without recognition and that God's call can come at unexpected moments.
+
+### A Faithful Disciple of Jesus
+
+Very little is known about Matthias's early life. His name derives from the Hebrew name Mattathiah, meaning “gift of God.” He is sometimes associated with the wider group of disciples who followed Jesus, although the precise details of his background remain uncertain.
+
+The Acts of the Apostles provides the principal biblical account of his life. In Acts 1:21–22, Peter explains that the person chosen to replace Judas must have accompanied the disciples throughout Jesus' ministry, from His baptism to His Ascension, and become a witness to His Resurrection.
+
+This requirement suggests that Matthias had been part of the community surrounding Jesus for a considerable period. Although he is not named in the Gospels' accounts of the Twelve during Jesus' public ministry, he had remained close enough to the disciples to be considered for this essential responsibility.
+
+His faithful presence illustrates an important aspect of Christian discipleship: not everyone who serves God's plan occupies a prominent position. Matthias appears in the biblical narrative only at a decisive moment, yet his readiness to serve made him a suitable witness to the foundation of the Church.
+
+### Chosen to Replace Judas Iscariot
+
+After the Ascension, the apostles gathered in Jerusalem with other disciples to pray and await the coming of the Holy Spirit. Peter explained that the vacant place among the Twelve needed to be filled following Judas's betrayal of Jesus.
+
+Two candidates were proposed: Joseph Barsabbas, also known as Justus, and Matthias. The community prayed, asking God to reveal His choice, and then cast lots. The lot fell to Matthias, who was numbered among the eleven apostles (Acts 1:15–26).
+
+This event is significant because the number twelve recalled the twelve tribes of Israel. By restoring the Twelve, the early Church expressed its continuity with God's covenant with Israel and its understanding of the apostolic mission as the foundation of a renewed people of God.
+
+Matthias's selection also reveals the importance of prayer and communal discernment in the early Church. The disciples did not treat the appointment as a matter of personal ambition or political influence, but sought God's guidance in choosing someone capable of bearing witness to Christ.
+
+Although Matthias was not selected directly by Jesus during His earthly ministry, the biblical account presents his appointment as the result of prayerful discernment. His vocation demonstrates that God's purposes can be fulfilled through unexpected paths and that a person who has served faithfully in obscurity may be called to greater responsibility.
+
+### Witness to the Resurrection and Pentecost
+
+Following his selection, Matthias joined the apostles as they continued preparing for their mission. In Acts 2, he was among those gathered in Jerusalem when the Holy Spirit descended at Pentecost.
+
+This event transformed the disciples' ability to proclaim the Gospel publicly. Empowered by the Holy Spirit, they began announcing the Resurrection of Jesus and inviting people to repentance and faith. Matthias shared in this apostolic mission, becoming part of the community entrusted with carrying Christ's message beyond Jerusalem.
+
+The Resurrection stood at the centre of the apostles' preaching. They were not simply transmitting a collection of moral teachings, but proclaiming that Jesus had conquered death and opened the way to eternal life. As one of the witnesses associated with His ministry, Matthias shared in the responsibility of preserving and communicating this central truth.
+
+His presence among the apostles also reminds Christians that the Church's mission depends on the faithful testimony of many people. Each apostle contributed to the proclamation of the Gospel, and Matthias accepted his responsibility as part of this collective witness.
+
+### Missionary Work and Martyrdom
+
+The New Testament does not record Matthias's activities after Pentecost. Details concerning his missionary journeys and death come from later Christian traditions and vary considerably.
+
+Some accounts associate him with preaching in Judea, Cappadocia or regions near the Black Sea. Other traditions connect him with Ethiopia, although ancient geographical terminology sometimes referred to territories different from the modern country of Ethiopia.
+
+Traditions concerning his death are similarly inconsistent. Some accounts describe him as having been stoned and subsequently beheaded in Jerusalem, while others place his martyrdom elsewhere. Because these narratives cannot be firmly established from reliable contemporary evidence, the precise circumstances of his death remain uncertain.
+
+Nevertheless, Christian devotion has long honoured Matthias as a missionary and martyr. His traditional association with evangelisation reflects the conviction that the apostles carried the Gospel into different regions, often facing hostility and danger.
+
+His example is particularly meaningful because his biblical story begins with an appointment to continue the work of someone whose betrayal had brought disgrace upon the apostolic community. Matthias's calling therefore became a sign of restoration and renewed fidelity.
+
+### A Lasting Legacy of Faithfulness
+
+Saint Matthias remains an important figure in the Catholic tradition because of his role in restoring the Twelve and bearing witness to the Resurrection. Although the historical record of his life is brief, his selection occupies a significant place in the Acts of the Apostles.
+
+His story teaches that Christian vocation is not measured by public recognition or the length of one's recorded achievements. Matthias had followed Jesus faithfully before being chosen, and he accepted a responsibility that placed him among the foundational witnesses of the Church.
+
+His life also offers a lesson in perseverance. The vacancy left by Judas's betrayal could have remained a symbol of failure, but the apostles responded through prayer, discernment and the appointment of a new witness. Matthias's inclusion demonstrated that the mission entrusted by Christ would continue despite human weakness.
+
+Through his selection, his participation in the apostolic community and the traditions surrounding his missionary work, Saint Matthias remains a reminder that God calls ordinary disciples to extraordinary responsibilities. His example encourages Christians to remain faithful in their daily lives, trust in divine guidance and respond generously whenever they are called to serve the Gospel.
+$desc$),
+('saint-john-i', 'en',
+$desc$Saint John I was a pope and martyr who led the Catholic Church from 523 to 526 during a period of intense religious and political tension. Sent by the Ostrogothic king Theodoric to negotiate with Emperor Justin I in Constantinople, he became caught between competing religious interests and died imprisoned in Ravenna. He is remembered for his fidelity to the Church and his courage in the face of persecution.$desc$,
+$desc$
+Saint John I holds a distinguished place in the history of the Catholic Church as a pope and martyr whose pontificate unfolded during a period of conflict between Catholic Christianity and Arianism. Elected Bishop of Rome in 523, he faced the difficult task of guiding the Church while Italy was ruled by Theodoric the Great, an Ostrogothic king who adhered to Arian Christianity. John is particularly remembered for his journey to Constantinople on a diplomatic mission that ultimately contributed to his imprisonment and death. Despite the political pressures surrounding his ministry, he remained faithful to his ecclesiastical responsibilities. His life illustrates the challenges faced by Christian leaders when religious conviction becomes entangled with imperial ambition and political rivalry.
+
+### Early Life and Election as Pope
+
+John was born in Tuscany, Italy, probably during the fifth century. Little is known about his early life, and the surviving historical records provide few details about his family or education. Before his election to the papacy, he served as a priest in Rome and became known within the Church for his religious commitment.
+
+In August 523, following the death of Pope Hormisdas, John was elected Bishop of Rome. His election came at a delicate moment in the relationship between the Catholic Church and the Ostrogothic kingdom.
+
+Although Theodoric generally allowed Catholics to practise their religion, he belonged to the Arian tradition, which rejected the Catholic teaching that the Son is fully divine and equal to the Father. These theological differences created tensions between the ruling authorities and the Catholic population.
+
+John's pontificate also followed the resolution of the Acacian Schism, which had divided Rome and Constantinople for several decades. The reconciliation achieved under his predecessor had restored communion between the two major centres of Christianity, but political and doctrinal tensions continued to threaten their relationship.
+
+### The Mission to Constantinople
+
+In 523, Emperor Justin I issued measures against Arian communities in the Eastern Roman Empire. These policies included restrictions on their religious practices and the restoration of certain churches to Catholic communities.
+
+Theodoric feared that similar measures might be imposed against Arians living in his own kingdom. Concerned about the consequences, he sent a delegation to Constantinople and compelled Pope John I to lead it.
+
+The mission placed John in a difficult position. He was expected to negotiate on behalf of the Ostrogothic king while also protecting the interests of the Catholic Church. Refusing the mission might have provoked reprisals against Catholics in Italy, yet complying with Theodoric's demands risked compromising his religious responsibilities.
+
+John travelled to Constantinople in 525, where he received an exceptionally warm welcome from Emperor Justin I, the clergy and the Christian population. His reception reflected the prestige of the Roman pontiff and the renewed relationship between Rome and Constantinople.
+
+During his visit, John celebrated the Easter liturgy in the city and participated in important ecclesiastical ceremonies. He obtained certain concessions for the Arians, but he did not secure every measure Theodoric had requested.
+
+The mission therefore achieved only partial success from the king's perspective, setting the stage for John's tragic return to Italy.
+
+### Imprisonment and Martyrdom
+
+When John returned to Italy in 526, Theodoric reacted with anger and suspicion. The king feared that the pope's reception in Constantinople had strengthened the political and religious position of his opponents.
+
+Theodoric ordered John to be arrested and imprisoned in Ravenna, the capital of his kingdom. The pope had already endured the hardships of a long journey, and the conditions of his confinement further weakened him.
+
+John died in prison in 526, exhausted by his journey and the privations he suffered. Although the precise circumstances of his final days remain incompletely documented, the Church came to honour him as a martyr because of the suffering he endured while carrying out his ecclesiastical mission.
+
+His body was subsequently transferred to Rome and buried in Saint Peter's Basilica. His memory became associated with courage, fidelity and the willingness to endure suffering rather than abandon one's responsibilities.
+
+### A Lasting Legacy of Faith and Courage
+
+Saint John I remains an important figure in the history of the papacy because his life illustrates the difficulties of leading the Church during a period when religious disagreements were closely connected with political power.
+
+His journey to Constantinople demonstrates the complex responsibilities of the papal office. John had to navigate competing demands while attempting to protect Christian communities and preserve relations between the Eastern and Western Churches.
+
+His imprisonment and death also remind Christians that fidelity can carry a considerable personal cost. John did not seek conflict, yet he remained committed to the responsibilities entrusted to him even when they placed him in danger.
+
+Through his diplomatic mission, his service as Bishop of Rome and his enduring reputation as a martyr, Saint John I stands as an example of perseverance under pressure. His life encourages Christians to remain faithful to their convictions, exercise responsibility with courage and seek unity without losing sight of the truth.
+$desc$),
+('saint-bernardine-of-siena', 'en',
+$desc$Saint Bernardino of Siena was an Italian Franciscan priest and preacher renowned for revitalising Catholic faith through powerful sermons, devotion to the Holy Name of Jesus and efforts to reform society. Travelling throughout Italy, he encouraged repentance, condemned corruption and promoted peace between rival communities. His preaching and charitable work made him one of the most influential religious figures of the fifteenth century.$desc$,
+$desc$
+Saint Bernardino of Siena holds a distinguished place in the history of the Catholic Church as a Franciscan missionary, gifted preacher and promoter of devotion to the Holy Name of Jesus. Living in Italy during the fifteenth century, he travelled extensively to preach the Gospel, encourage moral reform and reconcile communities divided by political rivalries. His sermons addressed both personal holiness and social problems, including greed, corruption and hostility between citizens. Through his simple lifestyle, charitable service and powerful preaching, Bernardino helped renew Christian faith among ordinary people. He is particularly remembered for popularising the emblem of the Holy Name of Jesus, which became a lasting symbol of his spiritual mission. His life demonstrates how preaching, prayer and practical concern for society can work together to strengthen the Christian community.
+
+### Early Life and Religious Vocation
+
+Bernardino was born on 8 September 1380 in Massa Marittima, in Tuscany, Italy. His parents died while he was still young, and he was raised by relatives in Siena. He received a good education and developed a reputation for kindness, humility and concern for the suffering.
+
+In 1400, during an outbreak of plague in Siena, Bernardino devoted himself to caring for the sick at the city's hospital of Santa Maria della Scala. Many caregivers had abandoned their duties out of fear of infection, but he and a group of companions continued assisting the afflicted. This demanding experience strengthened his sense of vocation and deepened his understanding of Christian charity.
+
+After several years of service, Bernardino entered the Franciscan Order in 1402. He embraced the spirituality of Saint Francis of Assisi, particularly its emphasis on poverty, humility and complete trust in God. He was ordained a priest and gradually became known for his preaching and dedication to religious renewal.
+
+### A Powerful Preacher and Missionary
+
+Bernardino began his most influential preaching ministry in the early fifteenth century. He travelled from town to town, often attracting enormous crowds who gathered to hear his sermons in public squares and churches.
+
+He preached in the Italian vernacular, making his message accessible to people who might struggle to understand formal theological language. His sermons addressed familiar concerns, including family life, business practices, public morality and the importance of forgiveness.
+
+Bernardino strongly condemned gambling, dishonesty, excessive luxury and the exploitation of the poor. He also challenged divisions between rival political factions, urging people to abandon hatred and pursue reconciliation. His preaching frequently encouraged communities to settle disputes peacefully rather than allow hostility to escalate into violence.
+
+Although his direct style sometimes provoked opposition, his influence spread widely. His sermons were recorded by listeners and preserved in collections that provide valuable evidence of religious and social life in Renaissance Italy.
+
+### Devotion to the Holy Name of Jesus
+
+One of Bernardino's most enduring contributions was his promotion of devotion to the Holy Name of Jesus. He encouraged Christians to meditate on the name of Christ as a reminder of God's saving love and the central place of Jesus in the life of the Church.
+
+He popularised an emblem consisting of the letters *IHS*, derived from the Greek form of the name Jesus, often surrounded by rays of light and displayed on a blue background. Bernardino carried this symbol during his preaching and encouraged people to place it in homes and public buildings.
+
+The emblem was intended to direct attention towards Christ rather than towards the preacher himself. Bernardino taught that honouring the name of Jesus should lead to conversion, charity and a more faithful Christian life.
+
+His promotion of the symbol sometimes generated controversy, as some critics believed that its public display could be misunderstood or misused. Bernardino defended the practice by explaining its devotional purpose, and the emblem eventually became widely associated with Catholic spirituality and, later, the Society of Jesus.
+
+### Reform and Service to the Church
+
+Bernardino's reputation led to repeated offers of important ecclesiastical positions, including the episcopate. He declined these opportunities, preferring to continue his missionary work among ordinary people.
+
+He nevertheless exercised considerable influence within the Franciscan Order. He supported stricter observance of the Franciscan rule, encouraging religious to embrace poverty, prayer and discipline more faithfully. His efforts contributed to the growth of the Observant branch of the Franciscans, which sought a more rigorous return to the ideals of Saint Francis.
+
+Bernardino also addressed economic and social questions. He condemned dishonest commercial practices while recognising the importance of legitimate work and responsible trade. His preaching encouraged merchants and public officials to consider their moral obligations towards the wider community.
+
+His approach combined clear moral teaching with a concern for reconciliation. Rather than limiting religious reform to private devotion, he believed that Christian principles should shape public life, economic relationships and the treatment of vulnerable people.
+
+### His Final Years and Death
+
+Bernardino continued preaching well into his later years, despite the physical demands of frequent travel. In 1444, while journeying through the region of Naples, he became seriously ill.
+
+He died on 20 May 1444 in L'Aquila, in central Italy. His reputation for holiness spread quickly, and he was canonised by Pope Nicholas V in 1450, only six years after his death.
+
+His tomb in L'Aquila became an important place of pilgrimage, and devotion to him spread throughout Italy and beyond. His sermons continued to influence religious preaching, while the emblem of the Holy Name of Jesus remained an enduring sign of his spiritual legacy.
+
+### A Lasting Legacy of Faith and Renewal
+
+Saint Bernardino of Siena remains a major figure in the history of Catholic preaching because he combined theological conviction with an extraordinary ability to communicate with ordinary people.
+
+His devotion to the Holy Name of Jesus placed Christ at the centre of his spiritual message, while his efforts to reconcile political rivals demonstrated the practical consequences of Christian charity. His condemnation of corruption and exploitation also showed his conviction that faith must influence the moral life of society.
+
+Through his Franciscan example, public preaching and commitment to peace, Bernardino helped renew religious life in Renaissance Italy. His legacy encourages Christians to speak about their faith with clarity, practise charity courageously and seek reconciliation wherever division threatens the community.
+$desc$),
+('saint-christopher-magallanes', 'en',
+$desc$Saint Christopher Magallanes was a Mexican Catholic priest and missionary who devoted his life to evangelisation, education and the formation of future priests. During the persecution of the Catholic Church in Mexico, he continued serving his community and rejected armed rebellion. Arrested and executed in 1927, he became a martyr remembered for his courage, pastoral dedication and desire for peace among his fellow Mexicans.$desc$,
+$desc$
+Saint Christopher Magallanes, also known as Cristóbal Magallanes Jara, holds an important place in the history of the Catholic Church as a Mexican priest and martyr who remained faithful to his ministry during a period of severe religious persecution. He devoted himself to the spiritual and material well-being of his parishioners, supporting education, evangelising Indigenous communities and preparing young men for the priesthood. When government restrictions threatened the Church's institutions, he continued his pastoral work despite the danger. Although falsely accused of supporting an armed rebellion, Magallanes consistently advocated peaceful Christian witness. His execution in 1927 made him a symbol of fidelity, courage and the defence of religious freedom.
+
+### Early Life and Religious Vocation
+
+Cristóbal Magallanes Jara was born on 30 July 1869 in Totatiche, in the Mexican state of Jalisco. He grew up in a humble farming family, where he learned the importance of prayer, hard work and devotion to the Catholic faith.
+
+As a young man, he entered the seminary in Guadalajara, pursuing a vocation to the priesthood despite his modest background. He was ordained in 1899 according to the Vatican's official biographical record, and subsequently returned to serve the community of Totatiche.
+
+As a parish priest, Magallanes developed a reputation for generosity, practical wisdom and pastoral dedication. He understood that serving the Church involved more than celebrating the sacraments: it also required helping people improve their living conditions and providing opportunities for education.
+
+His ministry was particularly attentive to the poor and to Indigenous communities in the region. He sought to strengthen Christian life while respecting the people he served and addressing their everyday needs.
+
+### Missionary Work and Education
+
+Magallanes established a mission in Azqueltán among the Huichol people, an Indigenous community in western Mexico. His work included evangelisation, education and charitable assistance. He helped establish schools and institutions supporting vulnerable people, including orphans and the elderly.
+
+He also encouraged devotion to the Sacred Heart of Jesus and the Rosary, believing that prayer should nourish a practical commitment to Christian charity. His pastoral approach combined religious instruction with concern for the dignity and welfare of his parishioners.
+
+One of his most important priorities was the formation of future priests. Magallanes recognised that the Church needed well-prepared clergy who could continue serving communities throughout the region.
+
+When authorities closed the seminary in Guadalajara amid increasing restrictions on Catholic institutions, he helped establish a smaller seminary in his parish. There, young men could continue preparing for the priesthood despite the increasingly hostile political climate.
+
+This commitment revealed his determination to preserve the Church's mission without abandoning the people who depended on its pastoral care.
+
+### Religious Persecution in Mexico
+
+During the early twentieth century, relations between the Mexican government and the Catholic Church deteriorated considerably. The Mexican Constitution of 1917 introduced restrictive provisions affecting religious institutions, clergy, education and public worship. These tensions intensified under President Plutarco Elías Calles, whose government enforced strict anti-clerical measures.
+
+In 1926, the conflict escalated after the implementation of further restrictions on the Church. Public worship was suspended by the Mexican episcopate in protest, and many priests faced harassment, arrest or expulsion. The resulting crisis contributed to the Cristero War, an armed uprising by Catholics opposing government policies.
+
+Magallanes did not support armed rebellion. He maintained that the Church's mission should be accomplished through the Gospel, prayer and peaceful pastoral service rather than violence. Although he understood the suffering of Catholics, he sought to continue caring for his community rather than abandon his parishioners.
+
+His position is an important aspect of his legacy: he remained committed to religious freedom while rejecting the use of armed struggle as a means of advancing the Christian faith.
+
+### Arrest and Martyrdom
+
+On 21 May 1927, Magallanes was arrested by government forces while travelling to celebrate Mass. He was accused of supporting the Cristero rebellion, despite his opposition to armed resistance.
+
+He was taken into custody and subsequently executed by firing squad in Colotlán, Jalisco, on 25 May 1927. He died alongside fellow priest Agustín Caloca, another victim of the persecution.
+
+According to the Vatican's account of his life, Magallanes offered words of encouragement to Caloca before their deaths. He also asked God that his blood might serve to unite his Mexican brothers. These reported final words express the spirit of reconciliation that characterised his ministry.
+
+His death formed part of a broader persecution in which numerous Catholic priests and laypeople were killed. The Church later recognised Magallanes and twenty-four companions as martyrs who had died for their faith during this period.
+
+Their witness remains closely connected with the history of religious freedom in Mexico and the sacrifices endured by Catholic communities during the conflict.
+
+### Canonisation and Lasting Legacy
+
+Pope John Paul II beatified Christopher Magallanes and his companions in 1992 and canonised them in 2000. Their recognition honoured their fidelity to Christ and the circumstances in which they suffered death.
+
+Saint Christopher Magallanes is remembered particularly for his pastoral charity, his work among Indigenous communities and his determination to continue forming future priests despite government restrictions.
+
+His life also offers an important lesson about courage and peace. He did not abandon his vocation when the Church came under pressure, nor did he embrace violence as a solution. Instead, he continued teaching, serving and accompanying his community until the end of his life.
+
+Through his missionary work, educational initiatives and martyrdom, Saint Christopher Magallanes remains an example of faithful service under persecution. His witness encourages Christians to defend religious freedom, care for vulnerable communities and pursue reconciliation even in times of deep division.
+$desc$),
+('saint-rita-of-cascia', 'en',
+$desc$Saint Rita of Cascia was an Italian Augustinian nun renowned for her forgiveness, perseverance and devotion to Christ's Passion. After enduring family tragedy and the violent death of her husband, she chose reconciliation over revenge before entering religious life. Known as the patron saint of impossible causes, she continues to inspire Christians through her example of hope, prayer and unwavering trust in God.$desc$,
+$desc$
+Saint Rita of Cascia holds a special place in the Catholic Church as a wife, mother, widow and Augustinian nun whose life was marked by suffering, forgiveness and profound faith. Born in medieval Italy, she faced family conflict and personal tragedy yet remained committed to peace and reconciliation. After the death of her husband and sons, she entered an Augustinian monastery, where she devoted herself to prayer, penance and charity. Her mystical devotion to the Passion of Christ, traditionally associated with a wound on her forehead, became a defining aspect of her spirituality. Today, she is widely invoked as the patron saint of impossible causes, offering hope to those who face situations that appear beyond resolution.
+
+### Early Life and Marriage
+
+Rita was born Margherita Lotti in Roccaporena, near Cascia in central Italy. Her birth is traditionally dated to 1381, although some historical accounts suggest an earlier year. Her parents were known for helping resolve disputes between rival families, and their example appears to have influenced Rita's lifelong commitment to peace.
+
+From an early age, she developed a strong devotion to prayer and a desire to dedicate herself to God. However, in accordance with the expectations of her time, she married Paolo di Ferdinando Mancini while still young.
+
+Her husband lived in a society marked by political rivalries and family feuds. According to traditional accounts, he could be violent and difficult, but Rita responded with patience, prayer and a determination to encourage a more peaceful way of life. Over time, she helped him move away from conflict, and their marriage became a family life centred increasingly on reconciliation.
+
+They had two sons, Giangiacomo and Paolo Maria. Rita cared deeply for her family and sought to raise her children according to Christian principles, hoping to protect them from the hatred and violence that surrounded their community.
+
+### Forgiveness in the Face of Tragedy
+
+Rita's family life was shattered when her husband was murdered during a feud between rival families. Rather than encourage her sons to seek revenge, she tried to prevent the cycle of violence from continuing.
+
+Tradition relates that Rita forgave her husband's killers, even when members of his family wanted retaliation. Her decision was not an acceptance of injustice, but an expression of her conviction that hatred could not heal the wounds left by violence.
+
+Her sons subsequently died after an illness. Some traditional accounts interpret Rita's prayers for their souls in the context of her fear that they might become involved in revenge. The details belong to the devotional tradition surrounding her life, but they express the central theme of her spirituality: she preferred the loss of everything she loved to the perpetuation of hatred.
+
+Left without her husband and children, Rita turned increasingly towards a life of prayer. Her experience of grief did not destroy her faith. Instead, she sought to unite her suffering with Christ and to find a path towards peace and reconciliation.
+
+### Life as an Augustinian Nun
+
+After the deaths of her family members, Rita sought admission to the Augustinian monastery of Saint Mary Magdalene in Cascia. Her request was reportedly refused several times, possibly because the community feared becoming involved in the family feud associated with her husband's death.
+
+According to tradition, Rita continued praying for reconciliation between the rival families. Once peace had been established, she was finally admitted to the monastery, where she received the religious name Rita.
+
+She spent approximately four decades in religious life, devoting herself to prayer, humility, obedience and charitable service. Her daily existence was far removed from public recognition: she followed the monastery's routine, supported her fellow sisters and sought to grow in holiness through ordinary acts of service.
+
+One popular tradition recounts that her superior instructed her to water a dry branch as a test of obedience. Rita faithfully followed the instruction, and the branch eventually produced a flourishing vine. The story has become a symbol of her trust in God and her willingness to remain faithful even when a task appeared pointless.
+
+Her life as a nun reflected the spirituality of Saint Augustine, particularly the importance of interior conversion, communal charity and the search for God through prayer.
+
+### Devotion to the Passion of Christ
+
+Rita's spirituality was deeply centred on the suffering and love of Jesus Christ. She meditated frequently on the Crucifixion and longed to unite her own sufferings more closely with those of Christ.
+
+According to tradition, while praying before a crucifix around 1432, she received a wound on her forehead resembling an injury from Christ's crown of thorns. The wound reportedly remained for many years and became one of the most recognisable elements of her traditional iconography.
+
+This experience symbolised her intense identification with Christ's Passion. For Rita, suffering was not something to seek for its own sake, but something that could be entrusted to God and transformed through love, patience and faith.
+
+Her devotion also strengthened her compassion for others. Having experienced bereavement and family conflict, she understood the pain of those who felt abandoned or trapped by circumstances beyond their control.
+
+### The Rose and Her Reputation for Impossible Causes
+
+One of the best-known traditions associated with Saint Rita concerns a rose and two figs. According to the story, when she was seriously ill during winter, she asked a relative to bring her these items from the garden of her childhood home in Roccaporena. Despite the cold season, the relative reportedly found them.
+
+The rose became a lasting symbol of Rita's hope and trust in divine providence. It represents the possibility of grace appearing even in the harshest circumstances, just as a flower can bloom amid winter.
+
+After her death, numerous miracles were attributed to her intercession, and devotion to her spread throughout Italy and beyond. People began turning to her particularly in situations that seemed impossible to resolve, including family disputes, serious hardships and seemingly hopeless personal struggles.
+
+Her reputation as the patron saint of impossible causes reflects the central message of her life: that faith, forgiveness and perseverance can sustain people even when they cannot see a clear path forward.
+
+### Her Final Years and Canonisation
+
+Rita spent her final years in the monastery, enduring serious illness while continuing to pray for others. She died in Cascia in the fifteenth century, traditionally on 22 May 1457, leaving behind a reputation for extraordinary patience and holiness.
+
+Her cult developed rapidly, and the faithful continued to report favours associated with her intercession. Pope Urban VIII beatified her in 1626, and Pope Leo XIII canonised her in 1900.
+
+Her remains are preserved in Cascia, which has become an important destination for pilgrims seeking spiritual consolation and inspiration. Her image, often shown with a rose or a wound on her forehead, recalls both her devotion to Christ and the hope associated with her intercession.
+
+### A Lasting Legacy of Forgiveness and Hope
+
+Saint Rita of Cascia remains an enduring example of Christian forgiveness, particularly for those who face grief, conflict or seemingly impossible situations. Her life demonstrates that reconciliation can require extraordinary courage and that refusing revenge can be an act of profound strength.
+
+Her spirituality also reminds Christians that holiness is not reserved for those who follow a single path through life. Rita experienced marriage, motherhood, widowhood and religious life, discovering opportunities to serve God in each circumstance.
+
+Through her devotion to Christ's Passion, her commitment to peace and the traditions surrounding her intercession, Saint Rita continues to offer comfort to people facing difficult decisions and painful circumstances. Her example encourages the faithful to persevere in prayer, choose forgiveness over hatred and trust that God's grace can bring hope even into the most difficult moments of life.
+$desc$),
+('saint-bede-the-venerable', 'en',
+$desc$Saint Bede the Venerable was an English Benedictine monk, historian and biblical scholar whose writings shaped Christian learning in medieval Europe. Best known for his "Ecclesiastical History of the English People", he combined careful historical research with deep spiritual devotion. His scholarship, biblical commentaries and commitment to teaching earned him recognition as one of the greatest intellectual figures of the early Middle Ages.$desc$,
+$desc$
+Saint Bede the Venerable holds a distinguished place in the history of the Catholic Church as a monk, theologian, historian and Doctor of the Church. Living in Northumbria during the seventh and eighth centuries, he devoted his life to prayer, study and teaching within the Benedictine tradition. His remarkable scholarship covered Scripture, history, chronology, poetry and the liberal arts, making him one of the most influential Christian thinkers of his age. His best-known work, *Ecclesiastical History of the English People*, remains an essential source for understanding the early development of Christianity in England. Through his biblical commentaries and historical writings, Bede sought not merely to preserve knowledge, but to help readers understand God's work in human history. His life demonstrates how intellectual discipline and spiritual devotion can serve the Church together.
+
+### Early Life and Monastic Vocation
+
+Bede was born around 673 in Northumbria, in what is now northern England. Little is known about his family, and he later explained that he had spent almost his entire life within the monastery.
+
+At approximately seven years old, he was entrusted to the care of the monastery at Wearmouth, founded by Benedict Biscop. He subsequently continued his formation at the neighbouring monastery of Jarrow, where he received a thorough education in Scripture, liturgy, music and classical learning.
+
+Bede became a monk and was ordained a deacon at a relatively young age. He was later ordained a priest, traditionally around the age of thirty. His entire adult life was shaped by the rhythm of monastic prayer, communal worship and intellectual work.
+
+Under the guidance of the monastery's leaders, Bede gained access to an exceptional library containing biblical manuscripts, writings of the Church Fathers and works by classical authors. These resources helped him develop the scholarly method that would distinguish his writings.
+
+Despite his growing reputation, Bede remained devoted to the ordinary responsibilities of monastic life. He taught younger monks, participated in the liturgy and continued studying and writing. For him, scholarship was not separate from holiness, but a way of serving God and helping others understand the Christian faith.
+
+### The Ecclesiastical History of the English People
+
+Bede's most famous work is the *Historia ecclesiastica gentis Anglorum*, commonly translated as *Ecclesiastical History of the English People*. Completed in 731, it traces the history of Britain from Roman times to the spread and consolidation of Christianity among the Anglo-Saxons.
+
+The work is particularly valuable because Bede drew on written documents, letters, earlier historical accounts and testimony from people who had witnessed important events. He often identified his sources and attempted to distinguish reliable information from uncertain reports, an approach that made his history unusually sophisticated for its time.
+
+Bede described the mission of Saint Augustine of Canterbury, the conversion of Anglo-Saxon rulers and the development of Christian communities throughout England. He also recorded the lives of important religious figures, including Saint Aidan of Lindisfarne and Saint Cuthbert.
+
+His narrative presents history through a Christian understanding of divine providence. He believed that the spread of the Gospel revealed God's activity among peoples and that historical events could offer moral and spiritual lessons.
+
+Nevertheless, Bede did not simply write religious praise. He documented disagreements, political conflicts and failures among Christian leaders, recognising that the Church's history included both admirable examples and human weaknesses.
+
+His *Ecclesiastical History* remains one of the principal sources for early English history and provides invaluable evidence about the growth of Christianity in Britain.
+
+### Biblical Scholarship and Theological Writings
+
+Although Bede is widely remembered as a historian, his principal occupation was the study and explanation of Scripture. He wrote commentaries on numerous biblical books, including Genesis, Samuel, the Gospels and the Acts of the Apostles.
+
+His approach combined close attention to the biblical text with the teachings of earlier Christian writers, particularly Saint Augustine, Saint Jerome and Saint Gregory the Great. He sought to explain the literal meaning of Scripture while also exploring its spiritual significance for Christian life.
+
+Among his important works are *On the Tabernacle*, *On the Temple* and *On the Song of Songs*. These writings reveal his interest in biblical symbolism and the relationship between the Old and New Testaments.
+
+Bede also wrote *The Reckoning of Time* (*De temporum ratione*), an influential work that explained calendars, chronology and the calculation of Easter. It helped transmit knowledge of timekeeping throughout medieval Europe and contributed to the wider development of Christian historical chronology.
+
+His scholarship was therefore remarkably broad. Whether examining a biblical passage, calculating dates or recording historical events, Bede approached learning with patience, precision and a desire to make knowledge useful to the Church.
+
+### Teaching, Humility and the Monastic Life
+
+Bede considered teaching an essential part of his vocation. He prepared educational texts for his students and wrote works on grammar, rhetoric, poetry and scientific subjects as they were understood in his time.
+
+His educational writings helped preserve and transmit classical learning within Christian monastic culture. Rather than treating secular knowledge as opposed to faith, he used it as a tool for understanding Scripture and communicating Christian teaching more effectively.
+
+His personal spirituality remained deeply rooted in prayer and the liturgy. He composed hymns and poems, studied the Psalms and encouraged his readers to seek wisdom through humility and obedience to God.
+
+Bede's reputation spread beyond Northumbria, and his works circulated among monasteries throughout Europe. Yet he continued to live simply, devoting himself to the community in which he had been formed.
+
+His life offers a compelling example of the Benedictine ideal: a balance of prayer, study, work and communal responsibility.
+
+### His Final Days and Death
+
+Bede continued teaching and writing until the end of his life. In his final days, despite increasing weakness, he worked on translating the Gospel of John into Old English, seeking to make Scripture more accessible to those who did not understand Latin.
+
+His disciple Cuthbert recorded an account of his final hours, describing Bede's determination to complete his work while remaining attentive to prayer and the spiritual welfare of those around him.
+
+Bede died on 26 May 735 at the monastery of Jarrow. His reputation for holiness and learning grew after his death, and his writings became central to Christian education throughout the Middle Ages.
+
+He was later honoured with the title *Venerable*, reflecting the longstanding reverence in which he was held. In 1899, Pope Leo XIII declared him a Doctor of the Church, recognising the enduring theological significance of his work.
+
+### A Lasting Legacy of Faith and Learning
+
+Saint Bede the Venerable remains one of the most important intellectual figures of early medieval Christianity. His historical writings preserve essential knowledge about the development of the English Church, while his biblical commentaries helped generations of Christians understand Scripture.
+
+His works demonstrate that careful scholarship and deep faith can reinforce one another. Bede approached learning as a form of service, believing that knowledge should lead towards wisdom, truth and a greater love of God.
+
+Through the *Ecclesiastical History of the English People*, *The Reckoning of Time* and his extensive biblical writings, he left a legacy that extended far beyond his monastery. His example continues to inspire historians, theologians, educators and all those who seek to unite intellectual curiosity with spiritual discipline.
+
+Saint Bede reminds Christians that preserving knowledge is not merely an academic task. It is also a way of transmitting the wisdom of previous generations and helping future generations discover the enduring meaning of the Gospel.
+$desc$),
+
+-- WORK IN PROGGRESS HEREEEEEE
 ) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
 WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
 -- END_BIOGRAPHIES_MAY
