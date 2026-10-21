@@ -99,3 +99,63 @@ https://www.vaticanstate.va/en/component/content/article/january-22-saint-vincen
 
 parfait continuons comme ca, n'hesite pas a raccourcir si jamais on a pas assez d'infos evidemment :
 might be better to start directly on birth with lettrine instead of intro
+
+Nouvelles consignes gpt
+:
+
+tu peux m'ecrire des bio de saints sur ce modele:
+('saint-peter-apostle', 'en',
+$desc$Saint Peter the Apostle, originally named Simon, was a Galilean fisherman whom Jesus called to become one of His first disciples and the leading figure among the Twelve Apostles. Known for his impulsive courage, deep affection for Christ and painful denial during the Passion, Peter became a central witness to the Resurrection and a principal leader of the early Christian community in Jerusalem. According to Christian tradition, he later travelled to Rome, where he preached the Gospel and suffered martyrdom under Emperor Nero, probably during the 60s of the first century. Revered as the first Bishop of Rome in Catholic tradition, Saint Peter remains a foundational figure in the history of Christianity and a powerful witness to repentance, faith and apostolic courage.$desc$,
+$desc$Simon, whom Jesus would rename Peter, was a fisherman from Bethsaida in Galilee, a region shaped by the life of the Sea of Galilee and the diverse religious and political currents of first-century Palestine. His brother Andrew was also among the earliest followers of Jesus, and the two men earned their living through fishing before being called to a different vocation. The Gospels preserve no complete account of Peter's early life, yet they present him as a man of direct speech and strong feeling, whose eagerness to act often preceded his understanding. This mixture of courage and weakness would become central to his spiritual journey, for Peter's importance in Christian memory rests not upon an unbroken record of success, but upon the transformation of a fallible disciple into a steadfast witness to the risen Christ.
+
+### Called to Follow Christ
+
+The Gospel narratives describe Jesus calling Simon and Andrew to leave their nets and become fishers of people. Simon soon occupied a prominent place among the disciples, accompanying Jesus during important moments of His public ministry. Alongside James and John, he witnessed events that were not shared by all the Twelve, including the Transfiguration and the raising of Jairus's daughter. His closeness to Jesus did not prevent misunderstanding; rather, it brought him repeatedly into situations where his expectations were challenged and his faith tested.
+
+The name Peter, derived from the Greek _Petros_, meaning rock, is especially significant in Matthew's account of the apostle's confession at Caesarea Philippi. When Jesus asked His disciples who they believed Him to be, Simon declared Him to be the Messiah, the Son of the living God. Jesus responded by giving Simon the name Peter and speaking of the rock upon which He would build His Church. Catholic interpretation understands this passage as foundational to Peter's particular responsibility for unity and leadership within the Church, while other Christian traditions interpret the relationship between Peter, his confession of faith and the foundation of the Church differently. Whatever the differences of interpretation, the passage establishes Peter as a figure of exceptional importance within the New Testament.
+
+Yet his understanding remained incomplete. When Jesus spoke of His coming suffering and death, Peter resisted the idea that the Messiah should follow a path of humiliation. His response revealed the distance between human expectations of power and the mission Jesus had come to fulfil. Peter could recognise Christ's identity without yet fully accepting what discipleship would demand of him.
+
+### The Denial and the Gift of Restoration
+
+The events surrounding the Passion exposed Peter's vulnerability with particular force. At the Last Supper, he declared his willingness to remain faithful even if the others abandoned Jesus. Later, during the night of Jesus' arrest, fear overcame his determination. When questioned about his association with Jesus in the courtyard of the high priest, Peter denied knowing Him three times, just as Jesus had foretold. According to the Gospel of Luke, when the cock crowed, Jesus turned and looked at Peter, who went out and wept bitterly.
+
+This episode became one of the most enduring elements of Peter's story because it confronted the limits of confidence unsupported by perseverance. The apostle who had spoken so boldly discovered that courage could fail when the cost of fidelity became immediate and personal. His tears marked not the end of his vocation, however, but the beginning of a deeper understanding of mercy. The Gospels do not conceal his failure, and Christian tradition has consequently remembered him not as an invulnerable hero but as a disciple whose weakness was met by forgiveness.
+
+After the Resurrection, Peter encountered the risen Christ and was restored to his mission. In the Gospel of John, Jesus asks him three times whether he loves Him and entrusts him with the care of His sheep. The threefold question is widely understood as corresponding to the three denials, transforming a memory of failure into a renewed commission to serve. Peter's authority would therefore be inseparable from responsibility: he was called to strengthen others not because he had never fallen, but because he had experienced the need for forgiveness himself.
+
+### Leader of the Early Christian Community
+
+Following the Ascension of Jesus, Peter emerged as a principal leader of the disciples in Jerusalem. The Acts of the Apostles describes him addressing the assembled believers, helping guide the selection of Matthias to replace Judas and proclaiming the Resurrection to the crowds gathered at Pentecost. Filled with the Holy Spirit, he spoke publicly about Jesus and called his hearers to repentance and baptism. The Christian community, initially small and vulnerable, began to grow through preaching, communal prayer and the witness of those who claimed to have encountered the risen Lord.
+
+Peter's ministry was not without opposition. Acts recounts his arrests, interrogations and conflicts with religious authorities who sought to restrain the apostles' public teaching. His escape from imprisonment under Herod Agrippa I became one of the prominent episodes in the account of the early Church. These narratives portray Peter as a leader increasingly prepared to accept danger rather than abandon his testimony, a striking contrast with the fear that had governed his behaviour during the Passion.
+
+An important development in his ministry concerned the admission of Gentiles into the Christian community. In the account of Cornelius, a Roman centurion, Peter received a vision that challenged traditional distinctions concerning ritual purity. He subsequently recognised that God showed no partiality and that the Gospel could be proclaimed beyond the Jewish community. The episode helped establish the theological basis for the wider mission of the Church, although the question of how Gentile converts should observe Jewish law continued to generate disagreement among early Christians.
+
+Peter also appears in the account of the Council of Jerusalem, where the apostles and elders considered the obligations to be imposed upon Gentile believers. His participation illustrates both his leadership and the collaborative character of the earliest Christian community. The Church's expansion required not only missionary courage but also discernment about how the faith should be lived across different peoples and cultures.
+
+### Rome and the Final Witness
+
+The New Testament offers limited information about Peter's later movements, and it does not provide a continuous biography of his final years. Nevertheless, early Christian writers establish a strong tradition associating him with Rome and his martyrdom there. Clement of Rome, writing towards the end of the first century, refers to Peter's suffering and death as an example of apostolic perseverance. Other early witnesses, including Ignatius of Antioch and Irenaeus of Lyons, reinforce the connection between Peter, the apostolic preaching and the Christian community of Rome.
+
+The precise circumstances of Peter's arrival in Rome, the length of his ministry there and the exact year of his death remain uncertain. Christian tradition places his martyrdom during the persecution associated with Emperor Nero, following the great fire of Rome in AD 64. His death is generally dated to sometime between approximately AD 64 and 68, although no exact year can be established with confidence.
+
+According to an ancient tradition preserved by later Christian writers, Peter was crucified upside down because he considered himself unworthy to die in the same manner as Jesus. This detail is not recorded in the New Testament and belongs to the subsequent tradition of his martyrdom. It nevertheless expresses a powerful understanding of Peter's final witness: the disciple who had once denied Christ ultimately accepted death rather than abandon his faith.
+
+Peter's tomb became a focus of Christian devotion on the Vatican Hill, and archaeological investigations beneath Saint Peter's Basilica have revealed an ancient burial area associated with the longstanding tradition of his resting place. The precise interpretation of the archaeological evidence remains a matter of scholarly discussion, but the site has occupied a central place in Christian memory for centuries.
+
+### A Legacy of Faith and Repentance
+
+Saint Peter's significance extends beyond his role as a leader of the apostles. His story brings together confession and misunderstanding, courage and fear, failure and restoration. The Gospels preserve his weaknesses with unusual directness, allowing later generations to see that apostolic leadership did not mean freedom from doubt or error. Rather, Peter's vocation matured through encounters that repeatedly called him beyond self-confidence towards dependence upon the grace of God.
+
+In Catholic tradition, Peter is regarded as the first Bishop of Rome, and the succession of Roman bishops is understood as continuing his particular ministry of unity. Other Christian traditions recognise his foundational importance while differing in their understanding of the authority attached to his office. Across these traditions, however, Peter remains one of the most influential figures in Christian history: a fisherman called by Christ, a witness to the Resurrection and a missionary whose testimony helped shape the earliest Church.
+
+His enduring example lies in the conviction that failure need not have the final word. Peter's tears after denying Jesus, his restoration beside the risen Lord and his later willingness to suffer for the Gospel form a single spiritual journey. He became a shepherd who knew the frailty of the flock because he had first experienced his own weakness. Through his life and martyrdom, Saint Peter continues to testify that faithful service is sustained not by personal perfection, but by repentance, perseverance and a love willing to follow Christ even when the path leads to suffering.
+$desc$),
+
+Grosso modo ton catholique, bien litteraire long paragraphe, on vise 800-1000 mots, si jamais besoin de moins tu me mets moins en fonction du saint evidemment. En amrkdown donc hesite pas au besoin italique et gras.
+Pas de date de celebration actuelle, du genre "on le celebre le 28 aout" parcequ'on va gerer plusieurs calendrirs, donc date historique cannonisation etc bien sur, mais date de celebration actuelle non.
+Une premiere bio rapide qui resume le saint en un paragraphe rapide.
+On commence ensuite la bio complete direct, parcequ'on va mettre une lettrine donc pas de titre au debut de la bio.
+Tu me mets les sources que tu as utilisé a la fin apres le sql ok ?
+Tu es ready ?
