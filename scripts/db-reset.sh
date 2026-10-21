@@ -90,6 +90,9 @@ echo "✅ Roman France feast descriptions seeded."
 run_sql "$ROOT_DIR/data/seeds/Roman_France/seedRomanFranceSaints.sql"
 echo "✅ Roman France saints seeded."
 
+run_sql "$ROOT_DIR/data/seeds/Roman_France/seedRomanFranceSaintBiographies.sql"
+echo "✅ Roman France saint biographies seeded."
+
 run_sql "$ROOT_DIR/data/seeds/Roman_France/seedRomanFranceFeastSaints.sql"
 echo "✅ Roman France Feast Saints links seeded."
 

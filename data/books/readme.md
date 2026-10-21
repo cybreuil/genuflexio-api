@@ -159,3 +159,7 @@ Une premiere bio rapide qui resume le saint en un paragraphe rapide entre "desc"
 On commence ensuite la bio complete direct (entre desc egalement), parcequ'on va mettre une lettrine donc pas de titre au debut de la bio, et essaye de commencer (si possible pas obligatoire, tu peux varier) par le nom de bapteme du saint pour justement mettre en valeur cette lettrine
 Tu me mets les sources que tu as utilisé a la fin apres le sql ok ?
 Tu es ready ?
+
+---
+
+Tu peux me traduire des blocs de biographies sql de saints ? Traduit simplement sans reecrire mais verifie au besoin quand c'est les termes latin ou greek y'a evidemment pas besoin, et quand c'est biblique ou subtil verifie et prend le choix hein ok ? Garde bien structure, retour a la ligne paragraphes etc n'hesite pas a legerement reformuler si tu en a besoin pour garder un style fluide et naturel dans la langue cible, mais ne change pas le sens. Tu me mets le résultat en markdown brut, prêt à copier coller, sans explication avant ou après.
