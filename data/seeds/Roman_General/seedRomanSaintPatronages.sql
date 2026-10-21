@@ -70,7 +70,7 @@ INSERT INTO patronages (code) VALUES
 ('SAILORS'),
 ('SOLDIERS'),
 ('POLICE_GUARDS'),
-('LAWYERS_POLITICIANS'),
+('POLITICIANS'),
 ('ACCOUNTANTS'),
 ('MERCHANTS_TRADERS'),
 ('COOKS'),
@@ -113,7 +113,11 @@ INSERT INTO patronages (code) VALUES
 ('ECOLOGY_ENVIRONMENT'),
 ('PEACE'),
 ('INTERNET'),
-('UNIVERSAL_CHURCH')
+('UNIVERSAL_CHURCH'),
+
+-- Extras
+('MISSIONS'),
+('CHARITY_WORKS')
 
 ON CONFLICT (code) DO NOTHING;
 
@@ -174,7 +178,7 @@ JOIN (VALUES
   ('SAILORS',            'Sailors and navigators',      'Nicholas of Myra; also Clement I (drowned with anchor); Francis Xavier (crossed vast seas).'),
   ('SOLDIERS',           'Soldiers',                    'George, martyr and soldier; also Sebastian, Martin of Tours, Ignatius of Loyola.'),
   ('POLICE_GUARDS',      'Police and law enforcement',  'Sebastian, the soldier-martyr; also Michael the Archangel.'),
-  ('LAWYERS_POLITICIANS','Lawyers and politicians',     'Thomas More, lord chancellor and martyr (John Paul II, 2000).'),
+  ('POLITICIANS',		 'Politicians',     			'Thomas More, lord chancellor and martyr (John Paul II, 2000).'),
   ('ACCOUNTANTS',        'Accountants and bankers',     'Matthew the Apostle, the tax collector turned evangelist.'),
   ('MERCHANTS_TRADERS',  'Merchants and traders',       'Nicholas of Myra (patron of merchants); also Matthew, Frances of Rome.'),
   ('COOKS',              'Cooks',                       'Lawrence, deacon-martyr (the gridiron); also Martha of Bethany.'),
@@ -213,8 +217,10 @@ JOIN (VALUES
   ('ECOLOGY_ENVIRONMENT','Ecology and the environment', 'Francis of Assisi, patron of ecology (John Paul II, Canticle of Brother Sun, 1979).'),
   ('PEACE',              'Peace and reconciliation',    'Francis of Assisi, peacemaker between peoples and the Sultan; patron of peace.'),
   ('INTERNET',           'The internet and digital media','Isidore of Seville, universal encyclopedist; proposed by John Paul II in 1997 for internet users.'),
-  ('UNIVERSAL_CHURCH',   'The Universal Church',        'Joseph, patron of the Universal Church (Pius IX, Quemadmodum Deus, 8 Dec 1870).')
-) AS x(code, label, description)
+  ('UNIVERSAL_CHURCH',   'The Universal Church',        'Joseph, patron of the Universal Church (Pius IX, Quemadmodum Deus, 8 Dec 1870).'),
+  ('MISSIONS',           'Missions',                    'Francis Xavier, missionary; also Thérèse of Lisieux (Pius XI, 1927), Paul the Apostle.'),
+  ('CHARITY_WORKS',      'Charitable works',            'Vincent de Paul, founder of organised charity; also Teresa of Calcutta and Thomas More.')
+  ) AS x(code, label, description)
 ON p.code = x.code
 ON CONFLICT (patronage_id, locale_code) DO UPDATE
   SET label = EXCLUDED.label, description = EXCLUDED.description;
@@ -276,7 +282,7 @@ JOIN (VALUES
   ('SAILORS',            'Marins et navigateurs',          'Nicolas de Myre ; aussi Clément I (noyé avec ancre) ; François Xavier (grands voyages maritimes).'),
   ('SOLDIERS',           'Soldats',                        'Georges, martyr et soldat ; aussi Sébastien, Martin de Tours, Ignace de Loyola.'),
   ('POLICE_GUARDS',      'Forces de l''ordre',             'Sébastien, soldat-martyr ; aussi Michel Archange.'),
-  ('LAWYERS_POLITICIANS','Avocats et hommes d''État',      'Thomas More, lord chancelier et martyr (Jean-Paul II, 2000).'),
+  ('POLITICIANS',		 'Hommes d''État',      		   'Thomas More, lord chancelier et martyr (Jean-Paul II, 2000).'),
   ('ACCOUNTANTS',        'Comptables et banquiers',        'Matthieu l''Apôtre, le publicain devenu évangéliste.'),
   ('MERCHANTS_TRADERS',  'Marchands et commerçants',       'Nicolas de Myre (patron des marchands) ; aussi Matthieu, Françoise de Rome.'),
   ('COOKS',              'Cuisiniers',                     'Laurent, diacre-martyr (le gril) ; aussi Marthe de Béthanie.'),
@@ -315,7 +321,9 @@ JOIN (VALUES
   ('ECOLOGY_ENVIRONMENT','Écologie et environnement',      'François d''Assise, patron de l''écologie (Jean-Paul II, Cantique de frère Soleil, 1979).'),
   ('PEACE',              'La paix et la réconciliation',   'François d''Assise, artisan de paix entre les peuples et le Sultan ; patron de la paix.'),
   ('INTERNET',           'Internet et les médias numériques','Isidore de Séville, encyclopédiste universel ; proposé par Jean-Paul II en 1997 pour les usagers d''Internet.'),
-  ('UNIVERSAL_CHURCH',   'L''Église universelle',          'Joseph, patron de l''Église universelle (Pie IX, Quemadmodum Deus, 8 déc. 1870).')
+  ('UNIVERSAL_CHURCH',   'L''Église universelle',          'Joseph, patron de l''Église universelle (Pie IX, Quemadmodum Deus, 8 déc. 1870).'),
+  ('MISSIONS',           'Les missions',                   'François Xavier, missionnaire ; aussi Thérèse de Lisieux (Pie XI, 1927), Paul l''Apôtre.'),
+  ('CHARITY_WORKS',      'Les œuvres de charité',          'Vincent de Paul, fondateur de la charité organisée ; aussi Mère Teresa et Thomas More.')
 ) AS x(code, label, description)
 ON p.code = x.code
 ON CONFLICT (patronage_id, locale_code) DO UPDATE
@@ -378,7 +386,7 @@ JOIN (VALUES
   ('SAILORS',            'Nautae et navigatores',          'Nicolaus Myrensis; etiam Clemens I (ancora submersus); Franciscus Xaverius (maria vasta transivit).'),
   ('SOLDIERS',           'Milites',                        'Georgius, martyr et miles; etiam Sebastianus, Martinus Turonensis, Ignatius Loyolanus.'),
   ('POLICE_GUARDS',      'Custodes et vigiles',            'Sebastianus, miles sagittis transfixus; etiam Michael Archangelus.'),
-  ('LAWYERS_POLITICIANS','Iurisconsulti et politici',      'Thomas Morus, cancellarius regni et martyr (Ioannes Paulus II, 2000).'),
+  ('POLITICIANS',		 'Politici',      				   'Thomas Morus, cancellarius regni et martyr (Ioannes Paulus II, 2000).'),
   ('ACCOUNTANTS',        'Rationarii et argentarii',       'Matthaeus Apostolus, publicanus factus evangelista.'),
   ('MERCHANTS_TRADERS',  'Mercatores et negotiatores',     'Nicolaus Myrensis (patronus mercatorum); etiam Matthaeus, Francisca Romana.'),
   ('COOKS',              'Coqui',                          'Laurentius, diaconus et martyr (craticulum); etiam Martha Bethaniae.'),
@@ -417,8 +425,10 @@ JOIN (VALUES
   ('ECOLOGY_ENVIRONMENT','Oecologia et natura',            'Franciscus Assisiensis, patronus oecologiae (Ioannes Paulus II, Canticum Fratris Solis, 1979).'),
   ('PEACE',              'Pax et reconciliatio',           'Franciscus Assisiensis, pacificator inter gentes et Sultanum; patronus pacis.'),
   ('INTERNET',           'Interrete et instrumenta digitalia','Isidorus Hispalensis, encyclopaedista universalis; a Ioanne Paulo II anno 1997 propositus pro interretis usoribus.'),
-  ('UNIVERSAL_CHURCH',   'Ecclesia universalis',           'Ioseph, patronus Ecclesiae universalis (Pius IX, Quemadmodum Deus, 8 Dec. 1870).')
-) AS x(code, label, description)
+  ('UNIVERSAL_CHURCH',   'Ecclesia universalis',           'Ioseph, patronus Ecclesiae universalis (Pius IX, Quemadmodum Deus, 8 Dec. 1870).'),
+  ('MISSIONS',           'Missiones',                      'Franciscus Xaverius, missionarius; etiam Theresia a Puero Iesu (Pius XI, 1927), Paulus Apostolus.'),
+  ('CHARITY_WORKS',      'Opera caritatis',                'Vincentius a Paulo, fundator caritatis ordinatae; etiam Teresia Calcuttensis et Thomas Morus.')
+  ) AS x(code, label, description)
 ON p.code = x.code
 ON CONFLICT (patronage_id, locale_code) DO UPDATE
   SET label = EXCLUDED.label, description = EXCLUDED.description;
@@ -465,6 +475,7 @@ FROM (VALUES
   ('saint-paul-apostle',                  'ROME',                 'TRD'),
   ('saint-paul-apostle',                  'CONVERTS',             'TRD'),
   ('saint-paul-apostle',                  'WORKERS',              'TRD'),  -- fabricant de tentes, travailla de ses mains (1 Th 2,9)
+  ('saint-paul-apostle',                  'MISSIONS',             'TRD'),
 
   ('saint-andrew-apostle',                'SCOTLAND',             'TRD'),
   ('saint-andrew-apostle',                'FISHERMEN',            'TRD'),
@@ -543,9 +554,8 @@ FROM (VALUES
   ('saint-nicholas',                      'POOR',                 'TRD'),  -- dot secrète aux jeunes filles pauvres ; fondement de sa légende
 
   ('saint-thomas-becket',                 'CLERGY',               'TRD'),
-  ('saint-thomas-becket',                 'LAWYERS_POLITICIANS',  'TRD'),  -- lord chancelier d'Angleterre avant d'être archevêque
 
-  ('saint-thomas-more',                   'LAWYERS_POLITICIANS',  'OFF'),  -- Jean-Paul II, 2000
+  ('saint-thomas-more',                   'POLITICIANS',  		  'OFF'),  -- Jean-Paul II, 2000
   ('saint-thomas-more',                   'SOCIAL_WORKERS',       'TRD'),
 
   ('saint-maximilian-kolbe',              'JOURNALISTS',          'TRD'),
@@ -687,6 +697,7 @@ FROM (VALUES
 
   ('saint-therese-of-the-child-jesus',    'MISSIONARIES',         'OFF'),  -- Pie XI, 1927
   ('saint-therese-of-the-child-jesus',    'FRANCE',               'TRD'),
+  ('saint-therese-of-the-child-jesus',    'MISSIONS',             'OFF'),  -- 1927
 
 
   ('saint-teresa-of-jesus',               'THEOLOGIANS',          'TRD'),
@@ -753,6 +764,7 @@ FROM (VALUES
   ('saint-vincent-de-paul',               'SOCIAL_WORKERS',       'TRD'),
   ('saint-vincent-de-paul',               'CLERGY',               'TRD'),  -- fonda les Lazaristes pour la formation du clergé
   ('saint-vincent-de-paul',               'MISSIONARIES',         'TRD'),  -- envoya des missionnaires en France rurale et à Madagascar
+  ('saint-vincent-de-paul',               'CHARITY_WORKS',    	  'TRD'),
 
   ('saint-john-vianney',                  'CLERGY',               'OFF'),  -- Pie XI, 1929
 
@@ -782,6 +794,7 @@ FROM (VALUES
   ('saint-teresa-of-calcutta',            'SOCIAL_WORKERS',       'TRD'),
   ('saint-teresa-of-calcutta',            'SICK',                 'TRD'),  -- Missionnaires de la Charité pour les mourants
   ('saint-teresa-of-calcutta',            'NURSES_CAREGIVERS',    'TRD'),  -- ses sœurs soignaient les démunis malades abandonnés
+  ('saint-teresa-of-calcutta',            'CHARITY_WORKS',        'TRD'),
 
   ('saint-jerome-emiliani',               'ORPHANS',              'TRD'),
 
@@ -802,6 +815,7 @@ FROM (VALUES
   ('saint-francis-xavier',                'INDIA',                'TRD'),
   ('saint-francis-xavier',                'SAILORS',              'TRD'),
   ('saint-francis-xavier',                'OCEANIA',              'TRD'),
+  ('saint-francis-xavier',                'MISSIONS',             'OFF'),
 
   ('saint-peter-chanel',                  'OCEANIA',              'TRD'),
 
