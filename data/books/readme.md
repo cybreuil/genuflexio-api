@@ -155,7 +155,7 @@ $desc$),
 
 Grosso modo ton catholique, bien litteraire long paragraphe, on vise 800-1000 mots, si jamais besoin de moins tu me mets moins en fonction du saint evidemment. En amrkdown donc hesite pas au besoin italique et gras.
 Pas de date de celebration actuelle, du genre "on le celebre le 28 aout" parcequ'on va gerer plusieurs calendrirs, donc date historique cannonisation etc bien sur, mais date de celebration actuelle non.
-Une premiere bio rapide qui resume le saint en un paragraphe rapide.
-On commence ensuite la bio complete direct, parcequ'on va mettre une lettrine donc pas de titre au debut de la bio.
+Une premiere bio rapide qui resume le saint en un paragraphe rapide entre "desc"
+On commence ensuite la bio complete direct (entre desc egalement), parcequ'on va mettre une lettrine donc pas de titre au debut de la bio, et essaye de commencer (si possible pas obligatoire, tu peux varier) par le nom de bapteme du saint pour justement mettre en valeur cette lettrine
 Tu me mets les sources que tu as utilisé a la fin apres le sql ok ?
 Tu es ready ?
