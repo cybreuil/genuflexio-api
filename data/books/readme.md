@@ -98,3 +98,4 @@ https://www.britannica.com/biography/Saint-Raymond-of-Penyafort?utm_source=chatg
 https://www.vaticanstate.va/en/component/content/article/january-22-saint-vincent-of-saragossa-martyr.html?Itemid=216&catid=51&utm_source=chatgpt.com
 
 parfait continuons comme ca, n'hesite pas a raccourcir si jamais on a pas assez d'infos evidemment :
+might be better to start directly on birth with lettrine instead of intro
