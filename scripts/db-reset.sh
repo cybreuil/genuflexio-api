@@ -96,11 +96,11 @@ echo "✅ Roman France saint biographies seeded."
 run_sql "$ROOT_DIR/data/seeds/Roman_France/seedRomanFranceFeastSaints.sql"
 echo "✅ Roman France Feast Saints links seeded."
 
-# run_sql "$ROOT_DIR/data/seeds/Roman_France/seedRomanFranceSaintAttributes.sql"
-# echo "✅ Roman France saint attributes seeded."
+run_sql "$ROOT_DIR/data/seeds/Roman_France/seedRomanFranceSaintAttributes.sql"
+echo "✅ Roman France saint attributes seeded."
 
-# run_sql "$ROOT_DIR/data/seeds/Roman_France/seedRomanFranceSaintPatronages.sql"
-# echo "✅ Roman France saint patronages seeded."
+run_sql "$ROOT_DIR/data/seeds/Roman_France/seedRomanFranceSaintPatronages.sql"
+echo "✅ Roman France saint patronages seeded."
 
 run_sql "$ROOT_DIR/data/seeds/Roman_France/seedRomanFranceImages.sql"
 echo "✅ Roman France images seeded."
@@ -112,11 +112,11 @@ run_sql "$ROOT_DIR/data/seeds/Roman_France/seedRomanFranceSaintImages.sql"
 echo "✅ Roman France saint images seeded."
 
 # Traditionnal
-run_sql "$ROOT_DIR/data/seeds/Roman_1960/seedRoman1960.sql"
-echo "✅ Roman 1960 seeded."
+# run_sql "$ROOT_DIR/data/seeds/Roman_1960/seedRoman1960.sql"
+# echo "✅ Roman 1960 seeded."
 
-run_sql "$ROOT_DIR/data/seeds/Roman_1960/seedRoman1960Seasons.sql"
-echo "✅ Roman 1960 seasons seeded."
+# run_sql "$ROOT_DIR/data/seeds/Roman_1960/seedRoman1960Seasons.sql"
+# echo "✅ Roman 1960 seasons seeded."
 
 # run_sql "$ROOT_DIR/data/seeds/Roman_1960/seedRoman1960Saints.sql"
 # echo "✅ Roman 1960 saints seeded."

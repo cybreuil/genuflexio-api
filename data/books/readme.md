@@ -163,3 +163,29 @@ Tu es ready ?
 ---
 
 Tu peux me traduire des blocs de biographies sql de saints ? Traduit simplement sans reecrire mais verifie au besoin quand c'est les termes latin ou greek y'a evidemment pas besoin, et quand c'est biblique ou subtil verifie et prend le choix hein ok ? Garde bien structure, retour a la ligne paragraphes etc n'hesite pas a legerement reformuler si tu en a besoin pour garder un style fluide et naturel dans la langue cible, mais ne change pas le sens. Tu me mets le résultat en markdown brut, prêt à copier coller, sans explication avant ou après.
+
+---
+
+e vais distinguer soigneusement trois catégories :
+
+    OFF : patronage officiellement proclamé ou confirmé par une autorité ecclésiastique compétente, avec une source vérifiable.
+
+    TRD : patronage issu de la tradition, de la dévotion populaire ou d’un usage historique, sans proclamation officielle établie.
+
+    À vérifier : cas où les sources ne permettent pas de trancher clairement. Je préfère le signaler plutôt que d’inventer un statut officiel.
+
+Pour chaque saint, je chercherai aussi les patronages associés : pays, villes, professions, causes, groupes de personnes, etc., en privilégiant les documents du Saint-Siège, les actes pontificaux, les diocèses et les sources historiques fiables.
+
+J’ai déjà identifié plusieurs sources solides pour lancer le travail :
+
+    Saint-Siège — Co-patronnes de l’Europe (1999)  : proclamations pontificales explicites.
+    Vatican
+
+    Saint-Siège — Saint Thomas More, patron des responsables politiques (2000)  : exemple de patronage officiel d'une catégorie professionnelle.
+    Vatican
+
+    Saint-Siège — Saints patrons des gens de mer  : distinction entre patronages proclamés et traditions anciennes.
+    Vatican
+
+    Saint-Siège — Sainte Jeanne d’Arc et sainte Thérèse de Lisieux  : confirmation de leur statut de patronnes secondaires de la France.
+    m.vatican.va
