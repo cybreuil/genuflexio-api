@@ -66,6 +66,7 @@ JOIN (VALUES
 ON a.code = x.code
 ON CONFLICT (attribute_id, locale_code) DO NOTHING;
 
+-- French translations
 INSERT INTO attribute_translations (attribute_id, locale_code, label, description)
 SELECT a.id, 'fr', x.label, x.description
 FROM attributes a
