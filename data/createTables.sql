@@ -598,8 +598,8 @@ JOIN (VALUES
     -- ('ORTHODOX_RUSSIAN', 'Calendrier orthodoxe russe', 'Patriarcat de Moscou'),
     -- ('ORTHODOX_GREEK', 'Calendrier orthodoxe grec', 'Nouveau calendrier')
     -- 1960
-    ('ROMAN_1960', 'Calendrier traditionnel (1960)', 'Missel de 1962, forme extraordinaire, pre-Vatican II, révisé par Jean XXIII'),
-    ('ROMAN_1960_FRANCE', 'Calendrier traditionnel (1960) - France', 'Missel de 1962, forme extraordinaire, pre-Vatican II, révisé par Jean XXIII, Propre de France')
+    ('ROMAN_1960', 'Calendrier traditionnel (1960) - WIP !', 'Missel de 1962, forme extraordinaire, pre-Vatican II, révisé par Jean XXIII'),
+    ('ROMAN_1960_FRANCE', 'Calendrier traditionnel (1960) - France - WIP !', 'Missel de 1962, forme extraordinaire, pre-Vatican II, révisé par Jean XXIII, Propre de France')
 
 ) AS x(code, name, description)
 ON c.code = x.code;
@@ -616,8 +616,8 @@ JOIN (VALUES
     ('ROMAN_POLAND', 'Roman Calendar - Poland', 'Proper of Poland'),
     -- ('ORTHODOX_RUSSIAN', 'Russian Orthodox Calendar', 'Moscow Patriarchate'),
     -- ('ORTHODOX_GREEK', 'Greek Orthodox Calendar', 'New Calendar')
-    ('ROMAN_1960', 'Traditional Calendar (1960)', '1962 Missal, Extraordinary Form, pre-Vatican II, revised by John XXIII'),
-    ('ROMAN_1960_FRANCE', 'Traditional Calendar (1960) - France', '1962 Missal, Extraordinary Form, pre-Vatican II, revised by John XXIII, Proper of France')
+    ('ROMAN_1960', 'Traditional Calendar (1960) - WIP !', '1962 Missal, Extraordinary Form, pre-Vatican II, revised by John XXIII'),
+    ('ROMAN_1960_FRANCE', 'Traditional Calendar (1960) - France - WIP !', '1962 Missal, Extraordinary Form, pre-Vatican II, revised by John XXIII, Proper of France')
 ) AS x(code, name, description)
 ON c.code = x.code;
 
@@ -633,8 +633,8 @@ JOIN (VALUES
     ('ROMAN_POLAND', 'Calendarium Romanum - Polonia', 'Proprium Poloniae'),
     -- ('ORTHODOX_RUSSIAN', 'Calendarium Orthodoxum Russicum', 'Patriarchatus Moscoviae'),
     -- ('ORTHODOX_GREEK', 'Calendarium Orthodoxum Graecum', 'Calendarium novum')
-    ('ROMAN_1960', 'Calendarium Traditionale (1960)', 'Missale Romanum anni 1962, forma extraordinaria, ante Concilium Vaticanum II, a Ioanne XXIII recognitum'),
-    ('ROMAN_1960_FRANCE', 'Calendarium Traditionale (1960) - Gallia', 'Missale Romanum anni 1962, forma extraordinaria, ante Concilium Vaticanum II, a Ioanne XXIII recognitum, Proprium Galliae')
+    ('ROMAN_1960', 'Calendarium Traditionale (1960) - WIP !', 'Missale Romanum anni 1962, forma extraordinaria, ante Concilium Vaticanum II, a Ioanne XXIII recognitum'),
+    ('ROMAN_1960_FRANCE', 'Calendarium Traditionale (1960) - Francia - WIP !', 'Missale Romanum anni 1962, forma extraordinaria, ante Concilium Vaticanum II, a Ioanne XXIII recognitum, Proprium Galliae')
 ) AS x(code, name, description)
 ON c.code = x.code;
 
