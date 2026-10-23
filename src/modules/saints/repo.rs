@@ -51,10 +51,18 @@ pub async fn list_saints_complete(
             CASE
                 WHEN $4 = 'century_desc' THEN s.century
             END DESC,
+            CASE WHEN $4 = 'name_asc'
+					THEN s.default_name
+			END ASC,
             CASE
                 WHEN $4 = 'name_desc' THEN s.default_name
             END DESC,
-            s.default_name ASC
+            CASE WHEN $4 = 'random'
+                    THEN RANDOM()
+            END,
+            CASE WHEN $4 IN ('century_asc', 'century_desc')
+            	THEN s.default_name
+            END ASC
         LIMIT $5
         OFFSET $6
         "#,
