@@ -1238,7 +1238,7 @@ $desc$
 ),
 (
 'saint-vincent-of-saragossa',
-'en',
+'fr',
 'Saint Vincent de Saragosse était un diacre et martyr chrétien espagnol qui vécut au début du IVe siècle. Il servit l’Église à Saragosse et demeura fidèle au Christ durant la persécution menée sous l’empereur romain Dioclétien. Reconnu pour son courage, sa foi inébranlable et sa volonté de souffrir pour l’Évangile, il devint l’un des martyrs les plus vénérés de l’Hispanie antique.',
 $desc$
 Saint Vincent de Saragosse fut un diacre et martyr chrétien des premiers siècles dont le courage, l’éloquence et la fidélité indéfectible à Jésus-Christ firent l’un des saints les plus célèbres de l’Espagne antique. Au service de l’Église pendant la persécution des chrétiens sous l’empereur Dioclétien, il se consacra à assister son évêque, à proclamer l’Évangile et à fortifier la foi de la communauté chrétienne. Lorsque les autorités romaines lui demandèrent de renoncer à ses croyances, Vincent demeura inébranlable malgré l’emprisonnement et de terribles souffrances. Son martyre devint un puissant témoignage de la victoire de la foi sur la peur et de l’espérance chrétienne sur la menace de la mort. Honoré aux côtés de saint Étienne et de saint Laurent comme l’un des grands diacres martyrs de l’Église primitive, Vincent incarna le véritable sens du service chrétien : une vie offerte à Dieu et au prochain sans réserve. Son exemple continue d’inspirer les fidèles par l’alliance du dévouement pastoral, du courage spirituel et d’une confiance totale dans le Christ.
