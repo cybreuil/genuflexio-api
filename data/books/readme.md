@@ -153,7 +153,7 @@ In Catholic tradition, Peter is regarded as the first Bishop of Rome, and the su
 His enduring example lies in the conviction that failure need not have the final word. Peter's tears after denying Jesus, his restoration beside the risen Lord and his later willingness to suffer for the Gospel form a single spiritual journey. He became a shepherd who knew the frailty of the flock because he had first experienced his own weakness. Through his life and martyrdom, Saint Peter continues to testify that faithful service is sustained not by personal perfection, but by repentance, perseverance and a love willing to follow Christ even when the path leads to suffering.
 $desc$),
 
-Grosso modo ton catholique, bien litteraire long paragraphe, on vise 800-1000 mots, si jamais besoin de moins tu me mets moins en fonction du saint evidemment. En amrkdown donc hesite pas au besoin italique et gras.
+Grosso modo ton catholique, bien litteraire long paragraphe, on vise 800-1000 mots, si jamais besoin de moins tu me mets moins en fonction du saint evidemment. En markdown donc hesite pas au besoin italique et gras.
 Pas de date de celebration actuelle, du genre "on le celebre le 28 aout" parcequ'on va gerer plusieurs calendrirs, donc date historique cannonisation etc bien sur, mais date de celebration actuelle non.
 Une premiere bio rapide qui resume le saint en un paragraphe rapide entre "desc"
 On commence ensuite la bio complete direct (entre desc egalement), parcequ'on va mettre une lettrine donc pas de titre au debut de la bio, et essaye de commencer (si possible pas obligatoire, tu peux varier) par le nom de bapteme du saint pour justement mettre en valeur cette lettrine
