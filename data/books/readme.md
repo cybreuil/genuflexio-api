@@ -163,6 +163,7 @@ Tu es ready ?
 ---
 
 Tu peux me traduire des blocs de biographies sql de saints ? Traduit simplement sans reecrire mais verifie au besoin quand c'est les termes latin ou greek y'a evidemment pas besoin, et quand c'est biblique ou subtil verifie et prend le choix hein ok ? Garde bien structure, retour a la ligne paragraphes etc n'hesite pas a legerement reformuler si tu en a besoin pour garder un style fluide et naturel dans la langue cible, mais ne change pas le sens. Tu me mets le résultat en markdown brut, prêt à copier coller, sans explication avant ou après.
+Et garde bien les balises $desc$ pour le sql si y'en a, et les balises markdown pour la mise en forme quand y'en a.
 
 ---
 
