@@ -632,7 +632,7 @@ Saint Vincent of Saragossa remains an enduring example of Christian courage. His
 His legacy invites Christians to understand courage not as the absence of suffering or fear, but as the determination to remain faithful when conviction becomes costly. Vincent's victory was not a triumph over his persecutors by earthly means, but a spiritual victory rooted in his unwavering allegiance to Christ. Through his ministry and martyrdom, he continues to represent the hope that no suffering endured in faith is beyond the reach of God's grace.$desc$),
 
 ('saint-francis-de-sales', 'en',
-$desc$Saint Francis de Sales was a Savoyard bishop, spiritual writer and Doctor of the Church, renowned for his gentleness, patience and profound understanding of the human heart. Born in 1567 into a noble family, he abandoned the prospect of a legal career to become a priest and devoted himself to preaching the Catholic faith in the Chablais, a region strongly influenced by Calvinism. Appointed Bishop of Geneva in 1602, with his residence in Annecy, he became a beloved pastor and spiritual guide. His celebrated works, *Introduction to the Devout Life* and *Treatise on the Love of God*, taught that holiness was accessible to every Christian, whatever their state in life. With Saint Jane Frances de Chantal, he founded the Order of the Visitation. Canonised in 1665 and proclaimed a Doctor of the Church in 1877, Saint Francis remains a lasting example of charity, patience and holiness in everyday life.$desc$,
+$desc$Saint Francis de Sales was a Savoyard bishop, spiritual writer and Doctor of the Church, renowned for his gentleness, patience and profound understanding of the human heart. Born in 1567 into a noble family, he abandoned the prospect of a legal career to become a priest and devoted himself to preaching the Catholic faith in the Chablais, a region strongly influenced by Calvinism. Appointed Bishop of Geneva in 1602, with his residence in Annecy, he became a beloved pastor and spiritual guide. His celebrated works, "Introduction to the Devout Life" and "Treatise on the Love of God", taught that holiness was accessible to every Christian, whatever their state in life. With Saint Jane Frances de Chantal, he founded the Order of the Visitation. Canonised in 1665 and proclaimed a Doctor of the Church in 1877, Saint Francis remains a lasting example of charity, patience and holiness in everyday life.$desc$,
 
 $desc$Francis de Sales was born on 21 August 1567 at the Château de Sales, near Thorens, in the Duchy of Savoy. The eldest son of a noble Catholic family, he received an excellent education, first in Savoy and later at the Jesuit College of Clermont in Paris. His father intended him for a distinguished legal career, hoping that he would eventually serve the government of Savoy. Francis therefore continued his studies at the University of Padua, where he obtained a doctorate in civil and canon law. Yet beneath these outward accomplishments, he was gradually discerning a different vocation: a life entirely devoted to God and the service of souls.
 
@@ -893,7 +893,7 @@ Angela's example also challenges the assumption that holiness requires withdrawa
 Through the Company of Saint Ursula and the educational tradition that grew from it, Saint Angela Merici left a lasting mark upon the Church. Her legacy continues to testify that patient guidance, sound education and compassionate leadership can become powerful instruments of Christian renewal. Her life invites educators, parents and all those entrusted with the formation of others to serve with humility, discernment and unwavering confidence in the grace of God.$desc$),
 
 ('saint-thomas-aquinas', 'en',
-$desc$Saint Thomas Aquinas was an Italian Dominican friar, priest, theologian and philosopher whose writings profoundly shaped Catholic theology. Born around 1225 into a noble family near Aquino, he devoted his life to the pursuit of divine truth through faith, reason and prayer. Despite strong family opposition, he joined the Order of Preachers and became one of the greatest intellectual figures of the Middle Ages. His monumental *Summa Theologiae* offered a systematic account of Christian doctrine, drawing upon Scripture, the Church Fathers and the philosophy of Aristotle. Proclaimed a Doctor of the Church in 1567, Thomas is revered as the Angelic Doctor and remains a central authority in Catholic philosophical and theological tradition. His life united intellectual brilliance with humility, contemplation and unwavering love for Christ.$desc$,
+$desc$Saint Thomas Aquinas was an Italian Dominican friar, priest, theologian and philosopher whose writings profoundly shaped Catholic theology. Born around 1225 into a noble family near Aquino, he devoted his life to the pursuit of divine truth through faith, reason and prayer. Despite strong family opposition, he joined the Order of Preachers and became one of the greatest intellectual figures of the Middle Ages. His monumental "Summa Theologiae" offered a systematic account of Christian doctrine, drawing upon Scripture, the Church Fathers and the philosophy of Aristotle. Proclaimed a Doctor of the Church in 1567, Thomas is revered as the Angelic Doctor and remains a central authority in Catholic philosophical and theological tradition. His life united intellectual brilliance with humility, contemplation and unwavering love for Christ.$desc$,
 
 $desc$Thomas Aquinas was born around 1225 at Roccasecca, near Aquino, in the Kingdom of Sicily, into a noble family with connections to the ruling aristocracy. From an early age, he displayed a remarkable aptitude for learning and a contemplative disposition. His family intended him for a distinguished ecclesiastical career, and he was sent to the Benedictine monastery of Monte Cassino, where he received an early religious education. Political circumstances eventually led him to continue his studies at the University of Naples, an institution that introduced him to new intellectual currents, including the philosophy of Aristotle.
 
@@ -1141,7 +1141,7 @@ Saint Raymond de Penyafort montre comment les dons intellectuels peuvent devenir
 Sa vie rappelle encore à l’Église que la recherche de la vérité exige à la fois une étude rigoureuse et un cœur humble, et que la véritable autorité ne se mesure pas au prestige personnel, mais à la fidélité à Dieu et au service de son peuple.
 $desc$),
 ('saint-hilary-of-poitiers', 'fr',
-$desc$Saint Hilaire de Poitiers était un évêque, théologien et docteur de l’Église du IVe siècle, célèbre pour sa défense courageuse de la divinité de Jésus-Christ contre l’arianisme. Né vers 310 à Poitiers, en Gaule, au sein d’une famille païenne, il entreprit une profonde recherche de la vérité qui le conduisit finalement au christianisme. Élu évêque de Poitiers vers 353, il s’opposa aux tentatives impériales d’imposer les doctrines ariennes et fut exilé en Phrygie en raison de sa foi. Durant son exil, il rédigea son œuvre théologique majeure, *De Trinitate*, dans laquelle il défendait l’égalité du Fils avec le Père. Après son retour en Gaule, il continua à fortifier l’Église et à favoriser la réconciliation entre les chrétiens. Il mourut vers 367, laissant un héritage durable comme l’un des grands Pères de l’Église d’Occident.$desc$,
+$desc$Saint Hilaire de Poitiers était un évêque, théologien et docteur de l’Église du IVe siècle, célèbre pour sa défense courageuse de la divinité de Jésus-Christ contre l’arianisme. Né vers 310 à Poitiers, en Gaule, au sein d’une famille païenne, il entreprit une profonde recherche de la vérité qui le conduisit finalement au christianisme. Élu évêque de Poitiers vers 353, il s’opposa aux tentatives impériales d’imposer les doctrines ariennes et fut exilé en Phrygie en raison de sa foi. Durant son exil, il rédigea son œuvre théologique majeure, "De Trinitate", dans laquelle il défendait l’égalité du Fils avec le Père. Après son retour en Gaule, il continua à fortifier l’Église et à favoriser la réconciliation entre les chrétiens. Il mourut vers 367, laissant un héritage durable comme l’un des grands Pères de l’Église d’Occident.$desc$,
 $desc$Hilaire naquit vers 310 à Poitiers, en Gaule romaine, au sein d’une famille aisée qui ne semblait pas appartenir à la religion chrétienne. Il reçut une excellente formation en littérature classique et en philosophie, mais la réussite intellectuelle ne suffisait pas à répondre à ses interrogations les plus profondes sur le sens de la vie, la nature de Dieu et le destin de l’âme humaine.
 
 Sa recherche de la vérité le conduisit finalement aux Écritures, en particulier à l’Évangile selon saint Jean. Il y découvrit la révélation de Dieu comme Créateur et celle du Verbe éternel qui s’est fait chair pour le salut de l’humanité. Vers 345, alors qu’il était adulte, Hilaire reçut le baptême et embrassa la foi chrétienne. La tradition chrétienne ancienne mentionne également son épouse et sa fille, bien que peu de détails sur sa vie familiale nous soient parvenus.
@@ -1352,7 +1352,7 @@ Saint Vincent de Saragosse demeure un exemple durable de courage chrétien. Sa v
 
 Son héritage invite les chrétiens à comprendre le courage non comme l’absence de souffrance ou de peur, mais comme la détermination à rester fidèle lorsque les convictions ont un prix. La victoire de Vincent ne fut pas un triomphe sur ses persécuteurs par des moyens terrestres, mais une victoire spirituelle enracinée dans son attachement inébranlable au Christ. Par son ministère et son martyre, il continue d’incarner cette espérance : aucune souffrance endurée dans la foi n’échappe à la grâce de Dieu.$desc$),
 ('saint-francis-de-sales', 'fr',
-$desc$Saint François de Sales était un évêque savoyard, auteur spirituel et docteur de l’Église, renommé pour sa douceur, sa patience et sa profonde compréhension du cœur humain. Né en 1567 dans une famille noble, il renonça à la perspective d’une carrière juridique pour devenir prêtre et se consacra à la prédication de la foi catholique dans le Chablais, une région fortement marquée par le calvinisme. Nommé évêque de Genève en 1602, avec résidence à Annecy, il devint un pasteur et un guide spirituel très apprécié. Ses ouvrages célèbres, *Introduction à la vie dévote* et *Traité de l’amour de Dieu*, enseignaient que la sainteté était accessible à tous les chrétiens, quel que soit leur état de vie. Avec sainte Jeanne de Chantal, il fonda l’Ordre de la Visitation. Canonisé en 1665 et proclamé docteur de l’Église en 1877, saint François demeure un exemple durable de charité, de patience et de sainteté dans la vie quotidienne.$desc$,
+$desc$Saint François de Sales était un évêque savoyard, auteur spirituel et docteur de l’Église, renommé pour sa douceur, sa patience et sa profonde compréhension du cœur humain. Né en 1567 dans une famille noble, il renonça à la perspective d’une carrière juridique pour devenir prêtre et se consacra à la prédication de la foi catholique dans le Chablais, une région fortement marquée par le calvinisme. Nommé évêque de Genève en 1602, avec résidence à Annecy, il devint un pasteur et un guide spirituel très apprécié. Ses ouvrages célèbres, "Introduction à la vie dévote" et "Traité de l’amour de Dieu", enseignaient que la sainteté était accessible à tous les chrétiens, quel que soit leur état de vie. Avec sainte Jeanne de Chantal, il fonda l’Ordre de la Visitation. Canonisé en 1665 et proclamé docteur de l’Église en 1877, saint François demeure un exemple durable de charité, de patience et de sainteté dans la vie quotidienne.$desc$,
 
 $desc$François de Sales naquit le 21 août 1567 au château de Sales, près de Thorens, dans le duché de Savoie. Fils aîné d’une famille noble et catholique, il reçut une excellente éducation, d’abord en Savoie, puis au collège jésuite de Clermont, à Paris. Son père le destinait à une brillante carrière juridique, espérant qu’il servirait un jour le gouvernement de Savoie. François poursuivit donc ses études à l’université de Padoue, où il obtint un doctorat en droit civil et en droit canonique. Pourtant, derrière ces réussites apparentes, il discernait progressivement une autre vocation : une vie entièrement consacrée à Dieu et au service des âmes.
 
@@ -1608,7 +1608,7 @@ L'exemple d'Angèle remet également en question l'idée selon laquelle la saint
 
 À travers la Compagnie de Sainte-Ursule et la tradition éducative qui en est issue, sainte Angèle Mérici a profondément marqué l'Église. Son héritage continue de témoigner que l'accompagnement patient, une éducation solide et une direction empreinte de compassion peuvent devenir de puissants instruments de renouveau chrétien. Sa vie invite les éducateurs, les parents et tous ceux qui ont la responsabilité de former autrui à servir avec humilité, discernement et une confiance inébranlable dans la grâce de Dieu.$desc$),
 ('saint-thomas-aquinas', 'fr',
-$desc$Saint Thomas d’Aquin était un religieux dominicain, prêtre, théologien et philosophe italien dont les écrits ont profondément marqué la théologie catholique. Né vers 1225 dans une famille noble près d’Aquin, il consacra sa vie à la recherche de la vérité divine par la foi, la raison et la prière. Malgré la vive opposition de sa famille, il rejoignit l’ordre des Prêcheurs et devint l’une des plus grandes figures intellectuelles du Moyen Âge. Son œuvre monumentale, la *Somme théologique*, proposait une présentation systématique de la doctrine chrétienne, s’appuyant sur l’Écriture, les Pères de l’Église et la philosophie d’Aristote. Proclamé docteur de l’Église en 1567, Thomas est vénéré comme le Docteur angélique et demeure une autorité majeure de la tradition philosophique et théologique catholique. Sa vie alliait une intelligence remarquable à l’humilité, à la contemplation et à un amour indéfectible du Christ.$desc$,
+$desc$Saint Thomas d’Aquin était un religieux dominicain, prêtre, théologien et philosophe italien dont les écrits ont profondément marqué la théologie catholique. Né vers 1225 dans une famille noble près d’Aquin, il consacra sa vie à la recherche de la vérité divine par la foi, la raison et la prière. Malgré la vive opposition de sa famille, il rejoignit l’ordre des Prêcheurs et devint l’une des plus grandes figures intellectuelles du Moyen Âge. Son œuvre monumentale, la "Somme théologique", proposait une présentation systématique de la doctrine chrétienne, s’appuyant sur l’Écriture, les Pères de l’Église et la philosophie d’Aristote. Proclamé docteur de l’Église en 1567, Thomas est vénéré comme le Docteur angélique et demeure une autorité majeure de la tradition philosophique et théologique catholique. Sa vie alliait une intelligence remarquable à l’humilité, à la contemplation et à un amour indéfectible du Christ.$desc$,
 
 $desc$Thomas d’Aquin naquit vers 1225 à Roccasecca, près d’Aquin, dans le royaume de Sicile, au sein d’une famille noble liée à l’aristocratie dirigeante. Dès son plus jeune âge, il manifesta des aptitudes remarquables pour l’étude et un tempérament contemplatif. Sa famille le destinait à une brillante carrière ecclésiastique et l’envoya à l’abbaye bénédictine du Mont-Cassin, où il reçut une première formation religieuse. Les circonstances politiques le conduisirent finalement à poursuivre ses études à l’université de Naples, une institution qui lui fit découvrir de nouveaux courants intellectuels, notamment la philosophie d’Aristote.
 
@@ -1738,8 +1738,719 @@ WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
 UPDATE saint_translations AS st
 SET short_description = x.short_description, full_biography = x.full_biography
 FROM saints AS s JOIN (VALUES
+('saint-basil-the-great', 'la',
+$desc$Sanctus Basilius Magnus fuit episcopus, theologus et conditor vitae monasticae saeculi quarti, cuius auctoritas doctrinam christianam vitamque religiosam per universam Ecclesiam conformare adiuvit. Natus circa annum 330 Caesareae Cappadociae, in familia penitus christiana, egregiam institutionem accepit, antequam prosperam vitae saecularis viam relinqueret ut vitam orationi et servitio dedicatam sequeretur. Episcopus Caesariensis, divinitatem Spiritus Sancti contra controversias theologicas defendit, disciplinam monasticam firmavit atque amplam opem caritativam pauperibus et infirmis ordinavit. Scripta eius de Trinitate, communitate christiana et officiis divitiarum ad fundamenta cogitationis christianae pertinent. Una cum fratre suo Sancto Gregorio Nysseno et amico suo Sancto Gregorio Nazianzeno, unus ex magnis Patribus Cappadocibus factus est. Mortuus est anno 379 et memoratur ut Doctor Ecclesiae, defensor fidei orthodoxae atque exemplar caritatis pastoralis.$desc$,
+$desc$Basilius natus est circa annum Domini 330 Caesareae, urbe principe Cappadociae in Asia Minore, in familia fide christiana doctrinaque celebrata. Parentes eius, Basilius Senior et Emmelia, liberos suos in traditione orationis et servitii educaverunt, ex qua complures sancti insignes prodierunt. Inter fratres eius erant Gregorius Nyssenus et Macrina Minor, qui ambo personae magni momenti in spiritualitate christiana facti sunt. Hoc familiae ambitu informata est Basilii persuasio sanctitatis studium et disciplinam intellectualem et vitam Evangelio transformatam postulare.
+
+### Ab institutione ad vitam monasticam
+
+Basilius egregiam institutionem Caesareae accepit atque studia Constantinopoli et Athenis continuavit, ubi philosophicas et rhetoricas traditiones antiqui orbis cognovit. Athenis amicitiam diuturnam cum Gregorio Nazianzeno iniit, qui postea unus ex praecipuis theologis saeculi quarti factus est. Uterque vir eximia ingenii dona possidebat, sed magis magisque vitae formam quaerebat ad Deum directam potius quam ad prosperitatem mundanam.
+
+Post reditum in Cappadociam, Basilius initio rhetoricae magister fuit. Soror eius Macrina tamen eum hortata est ut ambitiones suas reconsideraret atque vitam christianam plenius amplecteretur. Hoc hortatu penitus commotus, Basilius per Aegyptum, Palaestinam, Syriam et Mesopotamiam iter fecit, communitates ascetarum visitans, quorum vita oratione, simplicitate et renuntiatione conformabatur.
+
+Reversus, communitatem monasticam in Ponto, prope flumen Irim, condidit, ubi vitam ordinatam orationis, laboris manuum et studii Scripturae exercuit. Experientia eius eum persuasit asceticam christianam melius in communitate quam sola solitudine sustentari. Itaque principia vitae religiosae communis elaboravit, quae oboedientiam, humilitatem, mutuum servitium et mandatorum Christi in praxi observantiam extollebant.
+
+Scripta eius monastica ingentem auctoritatem consecuti sunt, praesertim in traditione christiana Orientali. Basilius asceticam non ut fugam a mundo, sed ut viam intellexit qua cor a cupiditatibus propriis liberatur, ut Deo et proximo plenius servire possit.
+
+### Episcopus et defensor fidei
+
+Anno 370, Basilius episcopus Caesariensis electus est. Episcopale eius ministerium tempore vehementium controversiarum theologicarum coepit, praesertim de divinitate Filii et Spiritus Sancti. Quamquam Concilium Nicaenum anno 325 affirmaverat Filium eiusdem substantiae divinae ac Patrem esse, controversiae de verbis quibus fides christiana exprimeretur permanserunt.
+
+Basilius praecipuus defensor orthodoxiae Nicaenae factus est. Operam dedit ut demonstraret Patrem, Filium et Spiritum Sanctum unam naturam divinam communiter habere, manentibus tamen distinctis eorum relationibus personalibus. Scripta eius theologica adiuverunt ut verba quibus Ecclesia mysterium Sanctissimae Trinitatis confitetur accuratius definirentur.
+
+Unum ex praecipuis eius operibus, *De Spiritu Sancto*, divinitatem Spiritus defendit atque momentum loci eius in cultu christiano et salute explicavit. Basilius affirmavit Spiritum Sanctum neque vim creatam neque ens inferius esse, sed plene ad vitam divinam pertinere. Eius opera viam paravit ad latiorem Ecclesiae doctrinae receptionem in Primo Concilio Constantinopolitano anno 381, duobus annis post eius mortem.
+
+Defensio orthodoxiae Basilium in conflictum cum auctoritatibus imperialibus adduxit, quae contrarias sententias theologicas sustinebant. Secundum narrationem traditam a Gregorio Nazianzeno servatam, praefectus Modestus Basilium submissionem cogere conatus est. Ferunt Basilium mira constantia respondisse, declarantem minas bonorum confiscandorum vel exilii parum valere in eum qui pauca bona terrena possideret caelumque veram patriam suam existimaret. Haec narratio eius propositum illustrat fidem defendendi, nullo permittens ut pressio politica doctrinam christianam determinaret.
+
+### Caritas et cura pauperum
+
+Visio theologica Basilii a sollicitudine eius de pauperibus seiungi non poterat. Credidit possessiones materiales officia moralia secum ferre neque eos qui divitias possiderent necessitates proximorum neglegere posse. In concionibus suis avaritiam damnavit atque divites hortatus est ut agnoscerent bona creationis ad vitam humanam sustentandam destinata esse, non ad instrumenta accumulationis selfishae fienda.
+
+Haec sollicitudo in opere caritativo prope Caesaream condito manifestata est, quod vulgo *Basileias* appellatur. Haec institutio loca pauperibus, viatoribus et infirmis destinata comprehendebat atque exemplar caritatis christianae ordinatae facta est. Basilius Ecclesiam hortatus est ut hominibus cuiuscumque condicionis socialis auxilium praeberet, tale servitium directam expressionem amoris erga Christum intellegens.
+
+Temporibus famis et difficultatum, auxilium ordinavit atque eos qui opes habebant personaliter hortatus est ut laborantibus subvenirent. Praedicatio eius clare demonstravit orationem et cultum a officio esurientes pascendi, peregrinos excipiendi et infirmos curandi seiungi non posse. Basilii sententia, veritas fidei christianae in modo quo vulnerabilissimi tractantur manifestatur.
+
+### Permanens hereditas monastica et liturgica
+
+Basilius etiam formam diuturnam vitae religiosae communis constituere adiuvit. Regulae eius momentum vitae sub communi disciplina, officiorum communione et caritate intra communitatem exercendae extollebant. Auctoritas eius praesertim in monachismo Orientali manet valida, ubi scripta eius formationem spiritualem monachorum et monialium adhuc dirigunt.
+
+Ei quoque adscribitur Divina Liturgia Sancti Basilii, quae in traditionibus christianis Byzantinis certis occasionibus per annum liturgicum celebratur. Quamquam liturgia per longum transmissionis et recognitionis processum evoluta est, traditionem cum hereditate theologica et pastorali Basilii coniunctam servat.
+
+Amicitia eius cum Gregorio Nazianzeno et necessitudo cum Gregorio Nysseno partem constituerunt amplioris contributionis Cappadocum ad theologiam christianam. Hi Patres una adiuverunt ut doctrina Ecclesiae de Trinitate accuratius exprimeretur, ita ut eius forma doctrinam christianam per saecula informaret.
+
+### Mors et perpetua auctoritas
+
+Labor pastoralis impensissimus Basilii valetudinem paulatim debilitavit. Mortuus est die 1 Ianuarii anno 379, circiter quadraginta novem annos natus. Mors eius magno luctu deplorata est, atque fama sanctitatis et sapientiae theologicae eius celeriter per orbem christianum diffusa est.
+
+Ecclesia eum inter magnos fidei Doctores numerat, titulo qui perpetuam doctrinae eius auctoritatem testatur. Scripta eius adhuc intellectum christianum de Trinitate, disciplina monastica, responsabilitate sociali atque necessitudine inter orationem et actionem illuminant.
+
+Sanctus Basilius Magnus testis potens manet unitatis inter veritatem theologicam et caritatem concretam. Fidem intellectuali fortitudine defendit, communitates orationi et servitio dedicas ordinavit atque christianos provocavit ut necessitates pauperum officium centrale agnoscerent. Vita eius demonstrat verum regimen christianum et firmitatem in doctrina et misericordiam erga eos qui patiuntur requirere. Per doctrinam et exemplum suum, Basilius Ecclesiam adhuc vocat ut Deum mente quaerat, corde adoret atque per amorem proximi ei serviat.
+$desc$),
+('saint-gregory-nazianzen', 'la',
+$desc$Sanctus Gregorius Nazianzenus fuit episcopus, theologus et Doctor Ecclesiae saeculi quarti, eloquentia et profunda defensione Sanctissimae Trinitatis celebris. Natus circa annum Domini 329 in Cappadocia, amicus intimus Sancti Basilii Magni factus est atque vitam suam orationi, studiis theologicis et servitio Ecclesiae dedicavit. Conciones eius celeberrimae Constantinopoli habitae adiuverunt ad christianam fidem Nicaenam contra Arianismum defendendam eique titulum «Theologi» meruerunt. Quamvis ministerium eius episcopale contentionibus insignitum esset, unitati Ecclesiae fidelis mansit ac tandem a vita publica secessit ut orationi et poesi vacaret. Mortuus est circa annum Domini 390, legatum perenne relinquens per scripta theologica et meditationes spirituales.$desc$,
+$desc$Gregorius natus est circa annum Domini 329 in familia christiana, in regione Cappadociae, quae hodie ad Turciam pertinet. Mater eius, Sancta Nonna, magnum momentum in eius formatione spirituali habuit, pater autem eius, qui et ipse Gregorius vocabatur, postea episcopus Nazianzenus factus est. Ab ineunte aetate egregiam institutionem accepit atque amorem altum erga doctrinam, Scripturam et contemplationem excoluit.
+
+### Amicitia et quaestio Dei
+
+Gregorius studia Caesareae, Alexandriae et Athenis prosecutus est, ubi Sanctum Basilium Magnum iterum convenit. Amicitia eorum una ex celeberrimis in historia christiana facta est. Sapientiae amore et sanctitatis desiderio coniuncti, alter alterum hortabantur ut vitam Deo dedicatam potius quam ambitionibus mundanis quaererent.
+
+Gregorius praesertim solitudinem et orationem diligebat. Vitam contemplativam desiderabat, a societatis distractionibus remotam, in qua mysteria Dei meditari posset. Nihilominus, vocatio eius eum iterum atque iterum ad officia ministerii ecclesiastici trahebat. Quamvis ordinationem suscipere invitus esset, tandem presbyter factus est ac postea episcopus, credens oboedientiam voluntati Dei interdum postulare ut officia acciperentur quae quis sibi ipse non elegisset.
+
+### Defensor Sanctissimae Trinitatis
+
+Saeculo quarto, Ecclesia ob controversias de divinitate Christi et Spiritus Sancti penitus divisa erat. Gregorius unus ex praecipuis defensoribus fidei in Concilio Nicaeno anno 325 proclamatae factus est. Perspicacia theologica et admirabilis eloquentia eius mysterium Trinitatis singulari claritate explicare ei permiserunt.
+
+Circa annum 379, Gregorius Constantinopolim profectus est ut parvae communitati christianae doctrinae Nicaenae fideli auxilium ferret. Ibi, in ecclesia Anastasiae, celebres suas *Orationes Theologicas Quinque* habuit. Hae conciones plenam divinitatem Patris, Filii et Spiritus Sancti defenderunt atque intellectum Ecclesiae de Trinitate formare adiuverunt.
+
+Doctrina eius titulum **«Theologi»** ei meruit, distinctionem quae non solum ingenium intellectuale eius, sed etiam convictionem ostendit veram theologiam ex oratione et sanctitate oriri debere. Gregorio, cognitio Dei numquam mera inquisitio academica fuit; cor purificatum et vitam divina gratia transformatam postulabat.
+
+Plenam quoque humanitatem Christi contra doctrinas quae Iesum mentem humanam integram habuisse negabant defendit. Gregorius affirmavit Christum totam naturam humanam assumpsisse ut eam redimeret. Haec persuasio principium perpetuum theologiae christianae facta est: quod Christus non assumpsit, sanari non potuit.
+
+### Episcopus Constantinopolitanus et ultimi anni
+
+Anno 381, Gregorius Concilio Constantinopolitano interfuit, quod fidem Nicaenam confirmavit atque ad declarationem doctrinae Ecclesiae de Spiritu Sancto contulit. Episcopus Constantinopolitanus electus est atque concilio per breve tempus praefuit. Attamen contentiones politicae et oppositiones factionum ecclesiasticarum rivalium statum eius magis magisque difficilem reddiderunt.
+
+Ne divisiones augeret, Gregorius muneri episcopali renuntiavit atque valedictoriam orationem commoventem habuit, fideles hortans ut fidem sibi traditam conservarent. Nazianzum rediit, ubi officia pastoralia per aliquod tempus continuavit, antequam ad praedium familiare suum Arianzum secederet.
+
+Ibi orationi, studiis et poesi se dedicavit. Scripta eius animam profunde sensibilem revelant, quae humanae infirmitatis conscia erat, sed fiducia in Dei misericordia plena. Per tractatus theologicos, epistulas et carmina spiritualia, Trinitatem laudare atque relationem inter animam humanam et Creatorem suum meditari perrexit.
+
+Gregorius circa annum Domini 390 mortuus est. Opera eius theologiam christianam Orientalem et Occidentalem penitus affecerunt, atque Ecclesia eum unum ex magnis Patribus Cappadocibus agnoscit, una cum Sancto Basilio Magno et Sancto Gregorio Nysseno.
+
+Sanctus Gregorius Nazianzenus exemplar fidelitatis intellectualis, orationis contemplativae et fortitudinis in defensione fidei manet. Vita eius Christianis commemorat theologiam summum finem attingere cum doctrina ad cultum Dei ducit, veritas caritate defenditur et quaestio Dei fit propositum totius animae gubernans.
+$desc$),
+('saint-raymond-of-penyafort', 'la',
+$desc$Sanctus Raymundus de Penyafort fuit sacerdos Hispanus Dominicanus, insignis iuris canonici peritus et theologus, qui magnum momentum habuit in traditione iuridica Ecclesiae Catholicae formanda. Natus circa annum 1175 in Catalonia, professor illustris factus est antequam Ordinem Praedicatorum anno 1222 ingrederetur. Papa Gregorius IX ei mandavit ut legislationem canonicam Ecclesiae colligeret, unde Decretales Gregorii IX ortae sunt, collectio quae per saecula auctoritatem retinuit. Raymundus etiam Sancto Petro Nolasco adiuvit ad Ordinem Beatae Mariae Virginis de Mercede condendum, cuius propositum erat Christianos in captivitate detentos redimere. Anno 1238 Magister Generalis Dominicanorum electus, praedicationem, institutionem et opus missionarium promovit, antequam Barcinonem se reciperet, ubi anno 1275 mortuus est. A Papa Clemente VIII anno 1601 canonizatus, exemplar sapientiae, humilitatis et servitii Ecclesiae manet.$desc$,
+$desc$Raymundus natus est circa annum 1175 in Penyafort, Catalonia, in familia nobili. Ab ineunte aetate miram discendi facultatem ostendit, praesertim in philosophia, rhetorica et iure. Barcinone studuit, deinde Bononiam profectus est, unum ex praecipuis Europae centris studiorum iuridicorum, ubi professor iuris canonici honoratus factus est. Dona intellectualia ei insignem vitam professionalem promittebant, sed ambitiones Raymundi paulatim ad altius servitium Dei et Ecclesiae conversae sunt.
+
+### Vocatio Dominicana
+
+Post reditum Barcinonem, Raymundus vim crescentem Ordinis Dominicanorum cognovit, quem Sanctus Dominicus condiderat ut praedicationem, studium et paupertatem evangelicam coniungeret. Hac vocatione attractus, Ordinem Praedicatorum anno 1222 ingressus est, oboedientiam religiosam pro dignitate vitae academicae eligens.
+
+Doctrina Raymundi celeriter instrumentum ministerii pastoralis facta est. Opera scripsit ad confessarios adiuvandos in quaestionibus conscientiae et sacramenti paenitentiae tractandis, sacerdotes adiuvare quaerens ut doctrinam Ecclesiae prudentia et misericordia adhiberent. Ei cognitio iuris canonici non erat mera inquisitio intellectualis, sed medium animas ad reconciliationem cum Deo dirigendi.
+
+Anno 1223, cum Sancto Petro Nolasco operam contulit in Ordine Beatae Mariae Virginis de Mercede condendo, qui etiam Ordo Mercedariorum appellatur. Eius missio erat liberationem Christianorum captivorum efficere, praesertim eorum qui periculum apostasiae ob persecutionem subibant. Hoc opus convictionem Raymundi ostendebat caritatem christianam concretas actiones pro laborantibus et vulnerabilibus postulare.
+
+### Servitium Sedis Apostolicae
+
+Papa Gregorius IX Raymundum circa annum 1230 Romam arcessivit atque ei ingens munus commisit: plurima decreta pontificia superioribus saeculis cumulata colligere et ordinare. Eorum repetitiones et interdum contradictiones difficile reddebant traditionem iuridicam Ecclesiae consulere atque constanter applicare.
+
+Raymundus hanc materiam diligenter ordinavit in collectionem quae *Decretales Gregorii IX* appellata est et anno 1234 publice promulgata. Haec collectio fundamentum magis cohaerens administrationi iuris ecclesiastici praebuit atque per saecula praecipuum Ecclesiae fontem iuridicum mansit, usque ad primum Codicem Iuris Canonici recentioris aetatis, anno 1917 promulgatum.
+
+Quamvis eius opus magni momenti esset, Raymundus humilis mansit. Cum ei archiepiscopatus Tarraconensis offerretur, eum recusavit, vitam fratris Dominicanorum continuare praeferens. Eius consilium spiritualitatem ostendit ab honoribus alienam atque desiderio serviendi ubicumque oboedientia postularet fundatam.
+
+### Magister Generalis Dominicanorum
+
+Anno 1238, Raymundus Magister Generalis Ordinis Dominicanorum electus est. Constitutiones Ordinis recognovit, disciplinam firmavit atque confratres suos hortatus est ut institutionem intellectualem cum praedicatione et cura pastorali coniungerent. Munus hoc tantum duos annos gessit antequam se abdicaret, partim propter aetatem provectam et onera regiminis.
+
+Raymundus etiam intellexit evangelizationem cognitionem populorum quibus Evangelium nuntiabatur postulare. Studium linguarum aliarumque traditionum religiosarum promovit, ut missionarii colloquium informatum instituere possent. Ei quoque tribuitur quod Sanctum Thomam Aquinatem hortatus sit ad *Summam contra Gentiles* componendam, opus partim ad doctrinam christianam proponendam et defendendam destinatum.
+
+Munere relicto, Raymundus Barcinonem rediit, ubi orationi, studio et saluti spirituali fidelium se dedicare perrexit.
+
+### Legatum Sapientiae et Humilitatis
+
+Raymundus Barcinone die 6 Ianuarii anno 1275 mortuus est, post longam vitae servitio Ecclesiae impensae cursum. Fama eius sanctitatis et doctrinae permansit, atque Papa Clemens VIII eum anno 1601 canonizavit.
+
+Sanctus Raymundus de Penyafort exemplum praebet quomodo dona intellectualia instrumenta caritatis christianae fieri possint. Eruditio eius iuridica disciplinam Ecclesiae ordinare adiuvit, dum vocatio Dominicana doctrinam eius in oratione, praedicatione et cura animarum radicatam servavit. Per opus suum pro captivis, per institutionem confessariorum et per regimen Ordinis Praedicatorum demonstravit sapientiam summum finem attingere cum aliis serviendi causa adhibetur.
+
+Vita eius Ecclesiae adhuc commemorat veritatem et diligentem studii laborem et cor humile postulare, atque veram auctoritatem non ex dignitate personali, sed ex fidelitate Deo et servitio populi eius metiendam esse.
+$desc$),
+('saint-hilary-of-poitiers', 'la',
+$desc$Sanctus Hilarius Pictaviensis fuit episcopus, theologus et Doctor Ecclesiae saeculi quarti, ob fortem defensionem divinitatis Iesu Christi contra Arianismum celebratus. Natus circa annum Domini 310 Pictavis, in Gallia, ex familia pagana, veritatis investigationem profundam suscepit, quae eum tandem ad christianam fidem perduxit. Circa annum 353 episcopus Pictaviensis electus, imperatorum conatus doctrinas Arianas imponendi opposuit atque ob fidem suam in Phrygiam exsulatus est. Exsilii tempore praecipuum opus theologicum suum, "De Trinitate", composuit, aequalitatem Filii cum Patre defendens. Post reditum in Galliam, Ecclesiam firmare atque reconciliationem inter christianos promovere perrexit. Circa annum 367 mortuus est, legatum perenne relinquens ut unus ex magnis Patribus Ecclesiae Occidentalis.$desc$,
+$desc$Hilarius natus est circa annum Domini 310 Pictavis, in Gallia Romana, ex familia locupleti quae christianam fidem non colere videbatur. Egregiam institutionem in litteris classicis et philosophia accepit, sed successus intellectualis altissimis eius quaestionibus de vitae significatione, natura Dei et destino animae humanae non satisfaciebat.
+
+Eius veritatis inquisitio tandem eum ad Scripturas perduxit, praesertim ad Evangelium Sancti Ioannis. Ibi revelationem Dei Creatoris et Verbi aeterni, qui propter salutem hominum caro factus est, invenit. Circa annum 345, iam adultus, Hilarius Baptismum accepit atque fidem christianam amplexus est. Uxor eius et filia quoque in antiqua traditione christiana commemorantur, quamquam pauca de vita eius familiari supersunt.
+
+### Episcopus et defensor fidei
+
+Circa annum 353, Hilarius episcopus Pictaviensis electus est. Ministerium eius episcopale tempore vehementis conflictus theologici coepit. Quamquam Concilium Nicaenum anno 325 affirmaverat Filium eiusdem naturae divinae ac Patrem esse, Arianismus propagari pergebat, docens Christum Patri plene aequalem non esse.
+
+Hilarius intellexit hanc controversiam ipsum salutis fundamentum attingere. Si Christus mera creatura esset, Deum plene revelare neque homines vitae divinae coniungere posset. Firma voluntate, fidem Nicaenam defendit atque conatus imperatoris Constantii II opposuit, qui uniformitatem theologicam secundum opiniones Arianas imponere studebat.
+
+Resistentia eius eum in conflictum cum episcopis potentibus et auctoritatibus imperialibus adduxit. Anno 356, post Synodum Biterrensem, in Phrygiam, quae hodie ad Turciam pertinet, in exsilium missus est. Haec separatio a dioecesi sua eum non siluit, sed opportunitatem amplioris studii et laboris theologici praebuit.
+
+### Exsilium et *De Trinitate*
+
+Per annos in Oriente exactos, Hilarius implicatas controversias theologicas cognovit, quae communitates christianas per imperium diviserant. Cogitationem christianam Graecam studuit atque argumenta eorum intellegere conatus est qui formulae Nicaenae dissentiebant.
+
+Praecipuum eius opus, *De Trinitate*, ex hoc tempore ortum est. In eo Hilarius Scriptura usus est ad aeternam Filii divinitatem eiusque unitatem naturae cum Patre demonstrandam. Loca biblica diligenter examinavit quae Christi inferioritatem significare viderentur, ea sub lumine Incarnationis et humilitatis quam Filius sponte suscepit ad redemptionem hominum explicans.
+
+Theologia Hilarii firmitatem doctrinae cum voluntate colloquendi cum iis qui diversas sententias tenebant coniunxit. Doctrinas quae Christi divinitatem negabant oppugnavit, sed etiam eos qui vocabula theologica parum accurate adhibebant ad pleniorem fidei intellectum ducere studuit. Eius agendi ratio ostendit defensionem veritatis et reconciliationis studium officia contraria esse non debere.
+
+Scripsit etiam *Librum Synodorum*, in quo varia symbola fidei et professiones a episcopis Orientalibus usurpata examinavit. His operibus, perspicientias theologicas Ecclesiae Graece loquentis ad Occidentem Latinum transferre adiuvit.
+
+### Reditus Pictavis et perpetua auctoritas
+
+Circa annum 360 vel 361, Hilario in Galliam redire permissum est. Ministerium pastorale Pictavis resumens, operam dedit ut christianitas Nicaena inter episcopos regionis firmaretur. Auctoritas eius ad gradatim reiciendas opiniones Arianas in Ecclesia Occidentali contulit.
+
+Posterioribus vitae suae annis, Hilarius commentarios biblicos scribere perrexit, inter quos ampla Psalmorum expositio numeratur. Psalmos ad Christum pertinere intellexit, cuius Incarnatio, Passio et Resurrectio orationem totius Ecclesiae illuminant.
+
+Formationem quoque spiritualem Sancti Martini Turonensis sustinuit, qui communitatem monasticam prope Pictavos, apud Ligugé, constituit. Haec necessitudo ostendit auctoritatem Hilarii ultra controversias theologicas ad progressum vitae religiosae christianae in Gallia quoque pertinuisse.
+
+Hilarius circa annum Domini 367 mortuus est. Scripta eius doctrinam christianam de Trinitate et persona Christi formare perrexerunt, atque anno 1851 Papa Pius IX eum Doctorem Ecclesiae declaravit.
+
+Sanctus Hilarius exemplar fortitudinis intellectualis, responsabilitatis pastoralis et fidelitatis Christo manet. Vita eius demonstrat veritatis inquisitionem ad profundam conversionem ducere posse atque veram sapientiam theologicam perspicuitatem fidei cum caritate erga alios coniungere. Per scripta et testimonium suum, confessionem Ecclesiae servare adiuvit Iesum Christum vere Deum et vere Salvatorem generis humani esse.
+$desc$),
+('saint-anthony-abbot', 'la',
+$desc$Sanctus Antonius Magnus, etiam Antonius Abbas appellatus, fuit asceta christianus Aegyptius, unus ex conditoribus monachismi christiani habitus. Natus circa annum Domini 251, possessiones suas abdicavit postquam vocationem Christi ad divitem iuvenem in Evangelio audiit, atque in eremum Aegypti secessit ut orationi, ieiunio et certamini spirituali vacaret. Certamen eius contra tentationem et studium sanctitatis generationes monachorum et eremitarum inspiraverunt. Quamvis solitudinem quaereret, discipuli circa eum congregati sunt, communitates eius exemplo formantes. Tempore persecutionis sub imperatore Maximino, Christianos in carcere detentos corroboravit, atque postea Sanctum Athanasium in defensione fidei contra Arianismum sustinuit. Circa annum Domini 356 mortuus est, legatum perenne asceseos, perseverantiae et plenae fiduciae in Deum relinquens.$desc$,
+$desc$Antonius natus est circa annum Domini 251 in Coma, vico Aegypti, in familia christiana non mediocrium facultatum. Iuvenis adhuc parentibus orbatus, sororis minoris et bonorum familiarum curam suscepit. Vita eius penitus mutata est cum ecclesiam ingressus narrationem Evangelii audivit, in qua Iesus divitem iuvenem iubet possessiones suas vendere, pauperibus dare atque Sequi. Antonius haec verba tamquam invitationem personalem intellexit ad opes suas relinquendas atque se totum Deo dedicandum.
+
+Postquam sorori suae necessaria providit, magnam hereditatis partem pauperibus distribuit atque ducatum ascetarum peritorum quaerere coepit. Propositum eius non erat tantum societatem fugere, sed cor suum a rebus mundanis liberare atque in Dei praesentia perpetuo vivere discere.
+
+### Vocatio ad eremum
+
+Antonius primum asceticam vitam prope vicum suum exercuit, ab aliis viris sanctis discens atque orationem, ieiunium et laborem manuum amplectens. Vita eius spirituali altius progrediente, ad loca magis magisque remota secessit, tandem in arce deserta prope eremum habitans. Ibi annos solitudinis et certaminis spiritualis toleravit.
+
+Sanctus Athanasius, cuius *Vita Antonii* unum ex operibus litterarum christianarum antiquarum maxime influentibus facta est, vehementia certamina sancti contra tentationes describit. Antonius metum, animum demissum et diaboli impetus expertus est, sed per orationem, fidem et fiduciam in Christum perseveravit. Hae narrationes, sermone spirituali hagiographiae christianae antiquae expressae, eum exemplum perenne resistendi malo et perseverandi in sanctitate fecerunt.
+
+Solitudo eius absoluta non erat. Homines consilium eius quaerentes ad eum veniebant, et discipuli paulatim circa eum congregabantur. Antonius eos docebat disciplinam asceticam non esse finem per se, sed medium ad cor purificandum et amorem Dei augendum.
+
+### Pater monachorum
+
+Exemplum Antonii eremum tamquam locum formationis spiritualis christianae constituere adiuvit. Quamvis ordinem religiosum sensu institutionali posterioris aetatis non condiderit, auctoritas eius ad monachismi in Aegypto progressum magnopere contulit. Discipulorum coetus prope sua loca orationis constituerunt, solitudinem cum cultu communi occasionali et moderatione spirituali coniungentes.
+
+Antonius humilitatem, vigilantiam et perseverantiam extollebat. Contra superbiam monebat, etiam contra superbiam spiritualem quae ex ieiunio, solitudine vel extraordinariis experientiis religiosis oriri potest. Sanctitas vera, ut exemplo suo docebat, non factis mirabilibus, sed corde per oboedientiam Deo transformato metienda erat.
+
+Fama eius sapientiae per orbem christianum diffusa est. Etiam homines qui eum numquam convenerant consilium eius quaerebant, et vita eius inspirationi fuit iis qui ambitiones mundanas relinquere volebant ut Regnum Dei quaererent.
+
+### Fides tempore persecutionis
+
+Vita Antonii a certaminibus Ecclesiae universae omnino separata non erat. Tempore persecutionis sub imperatore Maximino anno 311, Alexandriam profectus est ut Christianos in carcere detentos hortaretur atque eos qui iudicium subibant sustineret. Quamvis martyrium desideraret, mortem temere non quaesivit; potius alios praesentia sua corroboravit atque persecutione mitigata ad vitam asceticam rediit.
+
+Postea Antonius iterum Alexandriam venit ut Sanctum Athanasium in controversia de Arianismo sustineret, quod plenam Christi divinitatem negabat. Praesentia eius magnum pondus habebat propter famam sanctitatis. Interventus Antonii demonstravit vitam contemplativam non postulare ut necessitates doctrinales et pastorales Ecclesiae neglegerentur.
+
+### Mors et legatum spirituale
+
+Antonius circa annum Domini 356 mortuus est, aetatis circiter centum quinque annorum secundum traditionem. Discipulos rogavit ut locum sepulturae suae occultum servarent, humilitatem perpetuam et desiderium honorum publicorum vitandorum ostendens. Auctoritas tamen eius longe ultra eremum Aegypti diffusa est.
+
+Narratio vitae eius a Athanasio scripta in Latinum translata est atque fons magni momenti inspirationis monachismi Occidentalis facta est. Sanctus Augustinus postea narravit historias Antonii aliorumque ascetarum desiderium propriae conversionis in se excitavisse. Per saecula, Antonius symbolum perseverantiae spiritualis et certaminis contra tentationem factus est.
+
+Sanctus Antonius Abbas Christianis commemorat sanctitatem perseverantiam, humilitatem et cor a possessionibus atque utilitate propria alienum postulare. Recessus eius in eremum non fuit repudiatio Ecclesiae aut mundi, sed radicalis Dei inquisitio, quae tandem fructum tulit per aliorum moderationem spiritualem. Vita eius adhuc testatur silentium, orationem et fidelitatem formas servitii toti communitati christianae efficaces fieri posse.
+$desc$),
+('saint-fabian-pope', 'la',
+$desc$Sanctus Fabianus vicesimus papa Ecclesiae Catholicae fuit, qui ab anno circiter 236 usque ad martyrium suum anno 250, persecutione imperatoris Decii, pontificatum gessit. Secundum antiquam traditionem, laicus Romanus erat, cuius electio inopinata insignita est columba super caput eius considente, quod signum divinae providentiae interpretatum est. Pontificatus sui tempore, Fabianus Ecclesiam Romanam ordinavit, eius administrationem firmavit atque missionariam operam per communitatem christianam sustinuit. Etiam sepulcra martyrum curavit eorumque memoriam qui pro fide mortui erant servare adiuvit. Firmum eius testimonium tempore persecutionis Decianae exemplum perenne fortitudinis pastoralis et fidelitatis Christo fecit.$desc$,
+$desc$Fabianus episcopus Romanus circa annum Domini 236 factus est, tempore quo communitas christiana crescebat, quamvis suspiciones et hostilitas auctoritatis Romanae identidem permanerent. Pauca de eius prima vita cognoscuntur, sed antiquus historicus Eusebius insignem narrationem de eius electione servavit. Fabianus, ut videtur, ex rure Romam advenerat, cum communitas christiana congregata esset ut successorem Anteri papae eligeret. Dum fideles deliberabant, columba descendit et super caput Fabiani consedit. Hoc eventum extraordinarium tamquam signum Spiritus Sancti interpretantes, eum unanimi consensu elegerunt.
+
+### Papa qui Ecclesiam firmavit
+
+Pontificatus Fabiani tempus relativa pacis Christianis fuit, sub imperatore Philippo Arabe atque primis annis imperatoris Decii. Hoc tempore usus est ad ordinationem Ecclesiae Romanae firmandam et communitatem christianam crescentem sustinendam.
+
+Secundum traditionem ecclesiasticam posteriorem, Fabianus Romam in septem regiones divisit, diaconis curam auxilii caritativi et fidelium sollicitudinem committens. Etiam collectionem et conservationem narrationum de martyribus promovit, curans ut memoria eorum qui pro Christo passi erant in Ecclesia viva maneret.
+
+Fabianus cum aliis communitatibus christianis commercium servavit atque ad ordinatum vitae ecclesiasticae progressum contulit. Eius regimen persuasionem ostendit Ecclesiam et fidelitate spirituali et ordinatione practica indigere ut missionem suam sustineret.
+
+### Persecutio Decii
+
+Anno 249, imperator Decius rerum potitus est atque persecutionem incepit, qua incolae imperii ad sacrificia publica diis Romanis offerenda cogere intendebat. Christiani qui recusabant carcerem, bonorum confiscationem et, multis in casibus, mortem subibant.
+
+Fabianus unus ex primis huius persecutionis victimis insignibus factus est. Episcopus Romanus, fidei christianae repraesentativus conspicuus erat, atque recusatio Christi abnegandi ad martyrium eius die 20 Ianuarii anno 250 perduxit.
+
+Sanctus Cyprianus Carthaginiensis, paulo post mortem Fabiani scribens, integritatem testimonii eius laudavit atque honorem quem ministerio episcopali attulerat commemoravit. Martyrium Fabiani demonstravit pastores Ecclesiae ad dolores gregis participandos vocatos esse, fidelitatem servantes etiam cum eorum munus eos periculo peculiari exponeret.
+
+### Perpetuum fidei testimonium
+
+Fabianus in catacumbis Sancti Callisti sepultus est, ubi sepulcrum eius locus memoriae communitatis christianae factum est. Inscriptione sepulturae eius adiuncta, quae Graece servata est, status eius episcopi et martyris confirmatur atque testimonium historicum magni momenti de eius veneratione praebetur.
+
+Pontificatus eius momentum constantis regiminis temporibus pacis et persecutionis illustrat. Fabianus ordinationem Ecclesiae firmavit, opera caritatis sustinuit atque memoriam martyrum priorum servare adiuvit, antequam ipse eorum numero adderetur.
+
+Sanctus Fabianus exemplar responsabilitatis pastoralis et fortitudinis manet. Vita eius Christianis commemorat fidele regimen non solum per administrationem et doctrinam, sed etiam per voluntatem constantiae servandae, cum professio fidei personale pretium secum ferat, manifestari. Martyrium potius quam Christum abnegare eligens, spem timore fortiorem et fidelitatem morte superiorem testatus est.
+$desc$),
+('saint-sebastian', 'la',
+$desc$Sanctus Sebastianus fuit martyr christianus antiquus, qui in exercitu Romano tribunus militum erat, dum clam Christo fidelis maneret. Secundum traditionem christianam, munere suo usus est ad Christianos in carcere detentos consolandos atque eos qui persecutionem sub imperatoribus Diocletiano et Maximiano patiebantur confirmandos. Cum fides eius detecta esset, morte damnatus est et sagittis confixus, sed ope Sanctae Irenes Romanae supervixit. Postquam imperatorem de persecutione Christianorum fortiter admonuit, supplicio affectus est. Martyrium eius, quod traditione ad finem saeculi tertii refertur, eum unum ex sanctis antiquae Romae maxime veneratis fecit. Ob fortitudinem et constantem fidelitatem memoratus, Sanctus Sebastianus exemplum praeclarum fortitudinis christianae coram doloribus praebet.$desc$,
+$desc$Sebastianus ex Mediolanensi regione oriundus esse et in exercitu imperiali Romano sub Diocletiano militavisse traditur. Quamquam singula de prima eius vita incerta manent, antiquus eius cultus satis constat. Christiani eum meminerunt ut virum qui officia militaria cum alto Evangelii studio coniunxit, neque munus suum apud aulam imperialem fidelitatem erga Christum debilitare passus est.
+
+### Miles in servitio Christi
+
+Secundum traditam vitae eius narrationem, Sebastianus munere suo usus est ad Christianos propter fidem incarceratos adiuvandos. Eos visitabat, solabatur atque eos qui mortis supplicium timebant adiuvabat ut in spe vitae aeternae constantes manerent. Fortitudo eius non per vim, sed per solidarietatem cum iis qui propter Christum patiebantur manifestabatur.
+
+Traditio etiam narrat eum complures captivos, qui sub pressura fidem abnegare dubitabant, corroboravisse. Verbis et exemplo suo eos admonebat dolores terrenos temporales esse, fidelitatem autem erga Deum aeternam significationem habere. Ministerium eius tandem animadverti coepit, atque fides eius christiana auctoritatibus imperialibus nuntiata est.
+
+### Martyrium sagittarum
+
+Cum imperator Diocletianus Sebastianum Christianum esse comperisset, id proditionem ordinis imperialis existimavit. Sebastianus morte damnatus est atque ad palum vel arborem ligatus, ubi milites eum sagittis confixerunt. Eum mortuum esse putantes, milites eum reliquerunt.
+
+Secundum *Passionem Sancti Sebastiani*, vidua christiana nomine Irene eum adhuc viventem invenit atque vulnera eius curavit, donec convalesceret. Sebastianus, pro Roma fugienda, postea coram imperatore apparuit atque persecutionem Christianorum palam condemnavit. Eius consilium miram intrepiditatem demonstravit: cum unum vitae suae attentatum supervixisset, iterum fidem defendere verbis elegit.
+
+Narratio tradita affirmat Sebastianum deinde ad mortem caesum esse atque corpus eius in Cloacam Maximam, magnam cloacam Romae, proiectum. Christiani reliquias eius recuperaverunt atque secundum Viam Appiam sepelierunt.
+
+Quamquam accurata narratio martyrii eius multo post eventa descripta est, ex testimoniis antiquis christianis constat Sebastianum martyrem Romanum in magna veneratione habitum esse. Sepultura eius secundum Viam Appiam in *Depositio Martyrum* anni 354 commemoratur, quod demonstrat cultum eius iam saeculo quarto constitutum fuisse.
+
+### Perpetuum fortitudinis testimonium
+
+Sepulcrum Sancti Sebastiani centrum magni momenti devotionis christianae factum est, atque tandem basilica super locum aedificata est. Eius intercessio praesertim tempore epidemiarum invocabatur, et traditio christiana eius protectionem a peste liberari coniunxit. Per saecula, artifices eum saepe loris adstrictum et sagittis confixum depinxerunt, eius imaginem inter notissimas martyrum repraesentationes in arte christiana numerantes.
+
+Historia eius ad meditationem de necessitudine inter fortitudinem et fidem invitat. Sebastianus in imperio serviebat quod publicam erga traditiones religiosas fidelitatem exigebat, ipse tamen oboedientiam auctoritati terrenae oboedientiae Deo praeponebat. Exemplum eius Christianis commemorat veram fidelitatem interdum postulare ut vulnerabilibus adsimus et veritatem dicamus, etiam cum id magnum personale pretium secum ferat.
+
+Sanctus Sebastianus exemplar perseverantiae et fortitudinis spiritualis manet. Testimonium eius proclamat fortitudinem christianam non esse absentiam doloris aut timoris, sed propositum Christo per adversitates fidelem manendi. Martyrium potius quam fidem suam deserere eligens, spem Resurrectionis testatus est atque convictionem nullam terrenam potestatem vitam a Deo promissam superare posse.
+$desc$),
+('saint-agnes-of-rome', 'la',
+$desc$Sancta Agnes Romana fuit virgo christiana iuvenis et martyr, quae una ex sanctis Ecclesiae antiquae dilectissimis facta est. Traditur eam inter persecutiones Romanas exeunte saeculo tertio vel ineunte quarto mortem obiisse; memoria eius celebrata est quod, quamvis iuvenis esset et persecutores eam minarentur, fidem suam in Christum abnegare recusavit. Sanctus Ambrosius Mediolanensis aliique antiqui scriptores christiani eius fortitudinem et consecrationem laudaverunt, famam eius perennem constituentes. Agnus, innocentiae et sacrificii symbolum, cum ea coniungitur; Sancta Agnes testimonium praeclarum fidelitatis, fortitudinis spiritualis et plenae erga Christum devotionis manet.$desc$,
+
+$desc$Agnes puella christiana iuvenis Romae vivebat tempore quo professio fidei in Iesum Christum fideles persecutioni exponere poterat. De familia eius et prima vita pauca certo cognoscuntur, sed traditio christiana eam memorat ut virginem quae se totam Christo dedicare elegit. Sanctus Ambrosius Mediolanensis aetatem eius duodecim annorum esse tradit, Sanctus autem Augustinus tredecim annorum eam fuisse commemorat. Quamquam exactae mortis eius circumstantiae incertae manent, fama eius ut martyris iam saeculo quarto firmiter constituta erat.
+
+Nomen eius cum Graeco verbo *hagnē*, quod puram significat, et Latino verbo *agnus*, quod agnum significat, coniunctum est. Haec affinitas linguistica imaginem eius traditionalem in arte christiana formare adiuvit atque agnum perpetuum innocentiae et sacrificii eius symbolum fecit. Attamen momentum Agnetis ultra iuventutem vel puritatem eius patet: historia eius exprimit convictionem fidelitatem erga Christum inconcussam manere posse, etiam cum potestas terrena maxime vulnerabilibus minatur.
+
+### Cor Christo consecratum
+
+Secundum narrationes posteriores de passione eius, Agnes ob pulchritudinem admirabatur et iuvenis quidam nobilis Romanus eam adamavit. Illius blanditias recusavit, declarans se Christum iam elegisse Sponsum caelestem. Eius consilium intellectum est tamquam vocatio libere suscepta, non tamquam matrimonii ipsius repudiatio.
+
+In societate Romana, matrimonium et exspectationes familiares magnum momentum habebant in futura vita puellae determinanda. Agnetis igitur recusatio in memoria christiana declaratio facta est eius fidelitatem profundissimam Deo deberi. Narrationes servatae singulis rebus inter se differunt, et fontes antiquissimi non omnes huius traditionis eventus confirmant. Nihilominus imaginem principalem conservant credentis iuvenis quae Christo fidelis manere constituit.
+
+Pro Ecclesia antiqua, virginitas non solum puritatem corporis, sed etiam cor indivisum Deo oblatum significabat. Agnes huius dedicationis spiritualis exemplar facta est, demonstrans sanctitatem ab aetate, condicione sociali aut potestate mundana non pendere. Fortitudo eius ex amore oriebatur quem, ut credebat, nulla potestas terrena iure imperare aut exstinguere poterat.
+
+### Iudicium et martyrium
+
+Mors Agnetis traditione cum persecutionibus Imperii Romani coniungitur atque saepe circa annum Domini 304, tempore persecutionis sub imperatore Diocletiano, collocatur. Dies tamen exactus incertus manet, et nonnulli eruditi tempus prius proposuerunt.
+
+Traditiones posteriores narrant Agnetem ad auctoritates Romanas ductam esse atque ad fidem abnegandam pressam. Cum recusaret, humiliatione minata est et doloribus subiecta. Narrationes variant: quaedam conatus eius dignitatem violandi describunt, aliae vim ei illatam extollunt. Haec singula omnia independenter confirmari non possunt, sed traditio constanter Agnetem exhibet quae Christum deserere recusavit.
+
+Secundum narrationem occidentalem notissimam, tandem gladio necata est, sive capite amputato sive iugulo inciso. Aliae narrationes alium mortis modum describunt. Quamvis hae narrationes inter se differant, testimonium essentiale idem mansit: Agnes mortem accepit potius quam fidem suam negaret.
+
+Iuventus eius altam impressionem in scriptores christianos fecit. Sanctus Ambrosius admiratus est discrepantiam inter teneram aetatem eius et eximiam fortitudinem, eamque veluti exemplum virtutis ostendit quam gratia divina etiam fidelibus minimis aetate tribuere potest. Martyrium eius non ut doloris ipsius glorificatio, sed ut testimonium convictionis intellectum est, fidelitatem Christo pluris aestimandam esse quam securitatem terrenam.
+
+### Testimonium Ecclesiae antiquae
+
+Unus ex praecipuis fontibus famae Agnetis est Sanctus Ambrosius Mediolanensis, qui de ea saeculo quarto in opere *De Virginibus* scripsit. Dedicationem et fortitudinem eius laudavit, eam Christianis proponens ut exemplar vitae Deo omnino dedicatae.
+
+Sanctus Augustinus Hipponensis quoque Agnetem tamquam exemplum fidei iuvenilis et martyrii commemoravit. Prudentius poeta christianus eam in collectione sua *Peristephanon* celebravit, memoriam eius per Ecclesiam Latine loquentem diffundens.
+
+Hi scriptores plenam neque omnino congruentem eius vitae narrationem non praebuerunt. Scripta eorum tam theologica et devotioni destinata quam historica erant. Nihilominus confirmant Agnetem iam paucis generationibus post tempus cuius traditione mors eius adscribitur magno honore cultam esse.
+
+Antiquus etiam index martyrum Romanorum, *Depositio Martyrum*, saeculo quarto compositus, eam inter sanctos a prima communitate christiana honoratos recenset. Hoc testimonium antiquitatem cultus eius confirmat, quamquam multa passionis eius singularia incerta manent.
+
+### Sepulcrum eius et legatum perenne
+
+Memoria Agnetis arcte cum Via Nomentana, antiqua via Roma egrediente, coniuncta est, ubi sepulcrum eius in centrum magni momenti devotionis christianae evasit. Catacumbae Sanctae Agnetis memoriam antiquae communitatis servant, quae circa locum sepulturae eius congregabatur.
+
+Basilica tandem super hunc locum exstructa est, traditione cum Constantina, filia imperatoris Constantini, coniuncta. Praesens Basilica Sanctae Agnetis Extra Muros hanc antiquam necessitudinem inter sanctam et historiam christianam Romae continuat.
+
+In arte christiana Agnes vulgo cum agno depingitur aut agnum tenens repraesentatur. Hoc symbolum et nominis eius affinitatem et Christum, Agnum Dei, commemorat. Innocentiam eius exprimit, sed etiam fortitudinem spiritualem iuvenis quae fidelis mansit persecutione non obstante.
+
+Exemplum eius praesertim inter mulieres Deo consecratas et iuvenes christianos magnam vim habuit. Nuntius tamen eius omnem peculiarem vocationem transcendit: Agnes fideles admonet sanctitatem non potestate mundana neque vitae longitudine, sed profunditate amoris erga Deum metiendam esse.
+
+Sancta Agnes una ex figuris virginum martyrum antiquae christianitatis maxime memoria dignis manet. Quamquam historia non omnia vitae eius singularia restituere potest, testimonia antiqua veritatem essentialem legati eius servant: discipula iuvenis quae fiduciam suam in Christo omnibus terrenis exigentiis praeposuit. Per fortitudinem et fidelitatem suam, adhuc testatur etiam vitam brevem, Deo omnino oblatam, vestigium perenne in Ecclesia relinquere posse.
+$desc$),
+
+('saint-vincent-of-saragossa', 'la',
+$desc$Sanctus Vincentius Caesaraugustanus fuit diaconus Hispanus et martyr, qui Valentiae mortuus est durante persecutione Christianorum sub Imperio Romano, quae traditione circa annum Domini 304 collocatur. Sancto Valerio, episcopo Caesaraugustano, serviens, Vincentius ob fortitudinem et constantem fidei confessionem, quamvis carcerem et tormenta pateretur, celebris factus est. Martyrium eius a scriptoribus christianis antiquioribus celebratum est, praesertim a Sancto Augustino Hipponensi et poeta Prudentio, quorum narrationes famam eius per orbem christianum diffuderunt. Unus ex magnis Hispaniae martyribus veneratus, Sanctus Vincentius exemplum praeclarum perseverantiae, fidei intrepidae et fidelitatis Christo coram doloribus manet.$desc$,
+
+$desc$Vincentius in Hispania, in territorio hodiernae Hispaniae, exeunte saeculo tertio et ineunte quarto vivebat, cum Imperium Romanum Christianos, qui suis exigentiis religiosis obtemperare recusabant, identidem persequeretur. Quamquam singularia de prima eius vita incerta manent, testimonia christiana antiqua eius momentum ut diaconi Caesaraugustani et martyris confirmant, cuius fama celeriter ultra patriam diffusa est. Historia eius una ex narrationibus celeberrimis de testimonio christiano in Ecclesia Occidentali facta est.
+
+Secundum traditionem posteriorem, Vincentius a Sancto Valerio, episcopo Caesaraugustano, eruditus et ordinatus est. Cum Valerius, ut dicebatur, publice loqui difficultatem haberet, Vincentio mandatum est ut Evangelium annuntiaret et fideles institueret. Ministerium eius diaconi servitium practicum cum munere docendi coniunxit, eum ad iudicium praeparans quod tandem locum eius in memoria christiana definivit.
+
+### Captivitas et iudicium
+
+Tempore persecutionis quae traditione cum imperatore Diocletiano coniungitur, Vincentius et episcopus Valerius comprehensi sunt iussu Daciani, praesidis Romani. Ex Caesaraugusta Valentiam ducti sunt, ubi de fide christiana interrogati sunt. Secundum narrationes traditionales, Valerius tandem in exsilium missus est, Vincentius autem gravibus suppliciis subiectus est, quia Christum abnegare recusavit.
+
+Narrationes servatae Vincentium tormenta mira animi constantia toleravisse describunt. Narrationes posteriores eculeum, verbera et craticulam ferream commemorant, quamquam singularia exacta ad traditiones hagiographicas pertinent, quarum historica accuratio omnibus in rebus stabiliri non potest. Testimonium tamen essentiale clarum est: Vincentius confessioni suae fidelis mansit, quamvis dolores ei illati essent.
+
+Fortitudo eius plus quam personalis constantia habebatur. Pro communitate christiana antiqua, martyrium vim demonstrabat quam gratia divina in homine, ingenti violentia oppresso, sustentare poterat. Constantia Vincentii ostendit potestatem civitatis Romanae corpus regere potuisse, conscientiam autem credentis qui vitam suam Deo commiserat cogere non potuisse.
+
+### Corona martyrii
+
+Traditio christiana narrat Vincentium tandem in carcerem coniectum esse, ubi dolores suos tolerare perrexit neque fidem suam deseruit. Quaedam narrationes mirabilem cellae carceris mutationem describunt, cum lux caelestis et solacium instrumenta tormentorum superarent. Haec singularia ad traditionem devotionis circa passionem eius pertinent, sed convictionem exprimunt Vincentium a Deo in extremo certamine suo non derelictum esse.
+
+Valentiae mortuus est, traditione circa annum Domini 304, quamquam circumstantiae exactae et dies certo stabiliri non possunt. Mors eius Christianis per orbem Romanum inspirationi fuit, praesertim quia testimonium eius tam fortiter quam laete exhibitum memorabatur.
+
+Poeta Prudentius hymnum Vincentio in opere suo *Peristephanon*, collectione martyrum christianorum celebrantium, dedicavit. Sanctus Augustinus Hipponensis quoque ineunte saeculo quinto complures sermones in eius honorem habuit. Haec testimonia antiqua peculiaris momenti sunt: ostendunt famam Vincentii iam paucis generationibus post mortem eius late diffusam esse. Augustinus martyrem tamquam testem exhibuit, cuius perseverantia potentiam Dei per humanam infirmitatem operantis manifestabat.
+
+Narrationes posteriores conatus Christianorum prohibendorum ne reliquias Vincentii honorarent describunt. Secundum traditionem, corpus eius bestiis feris obiectum est ac deinde in mare proiectum, sed tandem a fidelibus repertum et sepultum est. Quamquam haec miracula independenter confirmari non possunt, pars perennis narrationis devotionis eius facta sunt, demonstrantia persecutionem memoriam martyris delere non potuisse.
+
+### Cultus perennis
+
+Veneratio Vincentii celeriter ex Hispania in alias regiones orbis christiani diffusa est. Tempore Sancti Augustini, martyrium eius iam late in communitatibus christianis per Mare Mediterraneum celebrabatur. Ecclesiae ei in pluribus regionibus dedicatae sunt, atque reliquiae eius in diversis urbibus devotionis obiecta factae sunt.
+
+Cultus eius praesertim Valentiae et Caesaraugustae viguit, nomen autem eius etiam in Gallia et Lusitania honoratum est. Translatio reliquiarum posterior et ecclesiarum ei dedicatarum constructio memoriam eius per totum Medium Aevum servare adiuverunt. Diversae communitates reliquias sancto adiunctas possidere se affirmabant, quod extraordinariam famae eius diffusionem ostendit.
+
+In arte christiana Vincentius vulgo dalmatica diaconi indutus et palmam, traditum martyrii symbolum, tenens depingitur. Etiam cum craticula ferrea vel corvo repraesentari potest, elementa passionis eius commemorans quae traditione posteriore servata sunt. Hae imagines praecipua historiae eius argumenta exprimunt: servitium Ecclesiae, perseverantiam in persecutione et victoriam ultimam per fidem.
+
+Sanctus Vincentius Caesaraugustanus exemplum perenne fortitudinis christianae manet. Vita eius ministerium diaconi cum martyris testimonio coniungit, ostendens servitium Christo interdum et cotidianam fidelitatem et extraordinarium sacrificium postulare posse. Quamquam nonnulla passionis eius singularia incerta manent, testimonia antiqua Prudentii et Augustini momentum perenne eius testimonii confirmant.
+
+Legatum eius Christianos invitat ut fortitudinem non tamquam absentiam doloris aut timoris, sed tamquam propositum fidelitatis servandae intellegant, cum persuasio magnum pretium exigat. Victoria Vincentii non fuit triumphus de persecutoribus mediis terrenis partus, sed victoria spiritualis, in inconcussa fidelitate Christo radicata. Per ministerium et martyrium suum, adhuc spem significat nullum dolorem fide toleratum gratiae Dei impervium esse.$desc$),
+
+('saint-francis-de-sales', 'la',
+$desc$Sanctus Franciscus Salesius fuit episcopus Sabaudus, scriptor spiritualis et Ecclesiae Doctor, ob mansuetudinem, patientiam et profundam humani cordis cognitionem celebris. Natus anno 1567 in familia nobili, prospectum iurisprudentiae deseruit ut sacerdos fieret, atque fidei catholicae praedicandae in Chablais, regione Calvinismo valde affecta, se dedicavit. Anno 1602 episcopus Genevensis constitutus, cum sedem suam Annecii haberet, pastor dilectus et moderator spiritualis factus est. Opera eius celebria, "Introductio ad vitam devotam" et "Tractatus de amore Dei", docuerunt sanctitatem omni Christiano patere, cuiuscumque status vitae esset. Una cum Sancta Ioanna Francisca de Chantal, Ordinem Visitationis condidit. Anno 1665 canonizatus et anno 1877 Ecclesiae Doctor proclamatus, Sanctus Franciscus exemplum perenne caritatis, patientiae et sanctitatis in vita cotidiana manet.$desc$,
+
+$desc$Franciscus Salesius natus est die 21 Augusti 1567 in castro Salesii, prope Thorensium, in Ducatu Sabaudiae. Primogenitus familiae nobilis catholicae, optimam institutionem accepit, primum in Sabaudia, deinde in Collegio Iesuitarum Claromontano Lutetiae Parisiorum. Pater eum ad insignem iurisprudentiae curriculum destinaverat, sperans eum tandem in administratione publica Sabaudiae serviturum esse. Franciscus igitur studia sua in Universitate Patavina continuavit, ubi doctoratum in iure civili et canonico obtinuit. Attamen, sub his externis successibus, aliam vocationem paulatim discernere coepit: vitam Deo omnino dedicatam animarumque servitio impensam.
+
+### Certamen ad vocationem suam detegendam
+
+Per annos quibus Lutetiae Parisiorum studuit, Franciscus gravem spiritualem discrimen expertus est. Quaestionibus theologicis de praedestinatione et salute perturbatus, metu oppressus est ne a Deo in aeternum separaretur. Haec angustia eum penitus affecit, donec oratio coram imagine Virginis Mariae ei pacem renovatam et fiduciam in divina misericordia attulit. Haec experientia spiritualitati eius vestigium perenne impressit. Intellexit fiduciam in amore Dei non esse praemium certitudinis perfectae, sed gratiam amplectendam etiam inter interiores tenebras.
+
+Quamvis pater aliud exspectaret, Franciscus sacerdotem fieri statuit. Hoc consilium patientiam et perseverantiam requirebat, sed tandem patris consensum obtinuit. Anno 1593 sacerdos ordinatus est, atque mox missionem suscepit quae reliquam eius vitam formatura erat.
+
+### Missionarius in Chablais
+
+Anno 1594, Franciscus se obtulit ad praedicandum in Chablais, regione Sabaudiae ubi Calvinismus firmiter radicatus erat. Divisiones religiosae illius aetatis missionem eius difficilem et interdum periculosam reddebant. Multi incolae clero catholico diffidebant, et Franciscus initio auditores sibi conciliare difficulter potuit.
+
+Pro sola publica disputatione niti, praedicationem cum colloquiis personalibus, patienti explicatione et textuum scriptorum distributione coniunxit, quibus doctrina catholica proponebatur. Modus eius persuasionem exprimebat veritatem perspicue et caritate, non odio aut coactione, communicandam esse. Paulatim opera eius animos attraxit, et nonnulli incolae ad fidem catholicam redierunt.
+
+Actio missionaria Francisci intra certamina religiosa Reformationis exercebatur, atque propositum eius explicite catholicum erat. Nihilominus eius methodi insigni mansuetudinis et persuasionis studio distinguebantur. Credidit cor humanum patientia attingi posse atque mores praedicatoris Evangelium quod annuntiabat exprimere debere.
+
+### Episcopus Genevensis
+
+Post mortem Claudii de Granier, Franciscus anno 1602 episcopus Genevensis constitutus est. Cum Geneva firmiter sub potestate protestantium esset, dioecesim suam ex Annecio regebat. Ministerium eius episcopale praedicationem, visitationes paroeciarum, institutionem fidelium et cleri reformationem secundum Concilium Tridentinum complectebatur.
+
+Franciscus munus episcopi responsabilitatem servitii, non privilegium, esse intellexit. Magnam operam pauperibus, infirmis et iis qui moderationem spiritualem quaerebant dedit. Epistulae eius pars magni momenti ministerii factae sunt, eumque homines per difficultates vitae familiaris, certamina personalia et studium sanctitatis comitari sinuerunt.
+
+Modus eius pastoralis patientia et moderatione insigniebatur. Mansuetudinem cum veritatis neglegentia non confundebat; potius credebat constantiam christianam uberrimos fructus ferre cum humilitate et caritate coniunctam. Facultas eius alios audiendi et ducendi sine severitate supervacanea famam ei perennem sapientis moderatoris spiritualis conciliavit.
+
+### Spiritualitas omni Christiano accommodata
+
+Contributio Francisci maxime perennis fuit persuasio eius sanctitatem non solum monachis, monialibus aut clericis reservatam esse. In opere *Introductio ad vitam devotam*, primum anno 1609 edito, Christianos ad vitam ordinariam in mundo agentes allocutus est. Mercatores, parentes, milites et homines officiis professionalibus occupati omnes in sanctitate proficere poterant, cotidiana sua opera ad Deum ordinando.
+
+Ideam repudiavit devotionem ab omnibus postulare ut officia sua ordinaria desererent. Docuit potius exercitationes spirituales vocationi et condicionibus cuiusque personae accommodandas esse. Oratio, patientia, caritas et fidelitas in propriis officiis vitam cotidianam in viam ad unionem cum Deo transformare poterant.
+
+Opus eius posterius, *Tractatus de amore Dei*, anno 1616 editum, naturam amoris divini et responsionem animae humanae ad gratiam exploravit. In medio doctrinae eius erat persuasio Deum cor humanum intime cognoscere atque unumquemque ad liberum sui amorem vocare. Vera igitur devotio non tantum externa observantia constabat, sed transformatione interiore, per actus concretos caritatis manifestata.
+
+Scripta Francisci profunditatem theologicam cum sermone perspicuo, consiliis practicis et profunda fiducia in Dei misericordia coniunxerunt. Auctoritas eius longe ultra Sabaudiam patuit, spiritualitatem catholicam per generationes formans.
+
+### Sancta Ioanna Francisca de Chantal et Visitatio
+
+Anno 1604, Franciscus Ioannam Franciscam de Chantal convenit, viduam quae moderationem spiritualem quaerebat. Amicitia eorum in altam cooperationem spiritualem crevit, oratione, mutua fiducia et communi desiderio Deo serviendi fundatam. Eo duce, Ioanna paulatim vocationem suam ad vitam religiosam discernere coepit.
+
+Anno 1610, Ordinem Visitationis Sanctae Mariae Annecii condiderunt. Franciscus communitatem humilitate, oratione et caritate insignitam excogitavit, cuius regula initio etiam mulieribus accommodata erat quae austeritatem aliorum ordinum religiosorum sustinere difficulter possent. Quamquam communitas postea clausuram strictiorem accepit, eius spiritualitas mansuetudinis, simplicitatis et devotionis erga Deum momentum servavit.
+
+Cooperatio eorum una ex insignioribus societatis spiritualibus illius aetatis facta est. Ea demonstravit Franciscum alios ad sanctitatem ducere potuisse, quin unum eundemque modum experientiae spiritualis omnibus imponeret.
+
+### Ultimi anni et legatum perenne
+
+Franciscus usque ad extremos vitae suae annos praedicare, scribere et animas moderari perrexit. Dum iter diplomaticum faceret, Lugduni die 28 Decembris 1622 mortuus est, aetatis suae quinquaginta quinque annorum. Fama sanctitatis eius post mortem celeriter diffusa est. Papa Alexander VII eum anno 1665 canonizavit, et Papa Pius IX anno 1877 Ecclesiae Doctorem proclamavit.
+
+Influentia eius etiam ad aetatem recentiorem pervenit per Sanctum Ioannem Bosco, qui Franciscum Salesium patronum societatis religiosae a se conditae elegit. Nomen Francisci praesertim cum scriptoribus et diurnariis catholicis coniunctum est, propter facultatem fidem sermone claro et perspicuo communicandi.
+
+Sanctus Franciscus Salesius testimonium praeclarum coniunctionis veritatis et caritatis manet. Vita eius docet magnitudinem spiritualem non ex severitate, insigni externa condicione aut extraordinariis operibus solis pendere. Crescit per fidelitatem propriae vocationi, patientiam erga humanam infirmitatem et fiduciam in amore Dei transformante.
+
+Nuntius eius perennis est omnem Christianum sanctitatem in condicionibus vitae cotidianae persequi posse. Gratiam accipiendo, orationem colendo et alios sincera caritate tractando, cor humanum paulatim cordi Christi similius fieri potest. Hac visione quieta sed exigente, Sanctus Franciscus viam ad sanctitatem praebet, amore, perseverantia et fidelis officiorum cotidianorum impletione fundatam.$desc$),
+
+('saint-paul-apostle', 'la',
+$desc$Sanctus Paulus Apostolus, qui initio Saulus Tarsensis appellabatur, unus ex personis gravissimis in historia christianitatis fuit atque magnus gentium apostolus. Initio Christianos zelo persequebatur, sed post occursum cum Christo resuscitato in via Damasci profundam conversionem expertus est. Reliquam vitam Evangelium per orbem Romanum annuntiando, communitates christianas condendo et epistulas scribendo egit, quae textus fundamentales Novi Testamenti factae sunt. Quamvis carcerem, oppositionem et repetitas difficultates pateretur, Paulus in missione sua constans permansit. Secundum antiquam traditionem christianam, Romae sub imperatore Nerone martyrium passus est, probabiliter inter annos Domini 64 et 68. Doctrina eius de gratia, fide, caritate et vita in Christo theologiam et spiritualitatem christianam usque hodie format.$desc$,
+
+$desc$Saulus Tarsi natus est, in urbe Ciliciae opulenta, quae in hodierna Turcia meridionali sita est, probabiliter intra primam decadem saeculi primi. Iudaeus genere erat, tribui Beniamin adscriptus, et civitate Romana gaudebat. In traditione religiosa Iudaica educatus, diligentem Legis institutionem accepit atque postea Hierosolymis studuit. Eius cognitio Scripturarum, cum familiaritate mundi Graece loquentis coniuncta, eum tandem ad Evangelium inter varias culturas annuntiandum egregie idoneum fecit.
+
+Antequam apostolus fieret, Saulus Pharisaeus zelo ardens erat, qui motum christianum crescentem periculum fidei Israel existimabat. Actus Apostolorum eum narratione Sancti Stephani supplicii comprobati et persecutionis Ecclesiae primaevae participem fuisse describunt. Saulus credebat se veritatem religiosam defendere, sed vita eius mox occursu transformanda erat, qui persuasiones eius everteret atque zelum eius ad eos ipsos dirigeret quos opprimere conatus erat.
+
+### Conversio in via Damasci
+
+Conversio Sauli unus ex eventibus praecipuis historiae christianae est. Secundum Actus Apostolorum, Damascum iter faciebat ut discipulos Iesu comprehenderet, cum subito lux caelestis eum circumfulsit. In terram cecidit atque vocem Christi audivit quaerentis cur Eum persequeretur. Hoc occursu excaecatus, Damascum deductus est, ubi discipulus christianus nomine Ananias ad eum venit, visum eius restituit atque eum baptizavit.
+
+Haec experientia intellectum Sauli de Iesu transformavit. Vir quem inimicum fidei Israel habuerat Se Dominum resuscitatum revelavit, et Saulus intellexit se Christianos persequendo ipsum Christum oppugnasse. Conversio eius non fuit tantum mutatio religionis, sed radicalis totius vitae conversio. Eadem constantia quae eum antea ad Ecclesiam persequendam impulerat, nunc vis vocationis eius missionariae facta est.
+
+Exinde Paulus appellari coepit, nomine quo in traditione christiana vulgo memoratur. Iesum Filium Dei praedicare coepit, stuporem excitans apud eos qui pristinam eius famam noverant. Transformatio eius praecipuam fidei christianae persuasionem demonstravit: gratia divina etiam eos attingere potest quorum praeteritum eos extra redemptionis spem ponere videtur.
+
+### Apostolus gentium
+
+Missio Pauli paulatim per orientale Mare Mediterraneum extensa est. Cum sociis, ut Barnaba, Sila, Timotheo et Luca, per Asiam Minorem, Macedoniam et Graeciam iter fecit, in synagogis, foris et domibus privatis praedicans. Communitates christianas in urbibus, inter quas Philippi, Thessalonica, Corinthus et Ephesus, condidit vel firmavit.
+
+Modus eius missionarius fidelitatem Scripturis Iudaicis cum persuasione coniunxit salutem per Christum omnibus populis offerri. Paulus affirmabat conversos ex gentibus Iudaeos fieri aut universam Legem Mosaicam observare non debere ut ad communitatem christianam pertinerent. Haec quaestio in Ecclesia primaeva magni momenti facta est, et disputationes Pauli cum aliis ducibus christianis intellectum Ecclesiae de universali sua missione formare adiuverunt.
+
+Itinera Pauli difficultatibus plena erant. Hostilitatem, verbera, carcerem, naufragia et repetita pericula toleravit. Epistulae eius virum ostendunt qui lassitudinem et anxietatem noverat, sed ad persuasionem semper redibat gratiam Christi sibi sufficere. Dolores suos non tamquam indicium missionis suae defectae intellexit, sed tamquam participationem vitae et Passionis Domini quem annuntiabat.
+
+### Epistulae et cor doctrinae eius
+
+Epistulae Pauli inter antiquissima scripta christiana servata numerantur atque singularem perspicientiam in opiniones et certamina primarum communitatum christianarum praebent. Ecclesiis et singulis sociis missae, quaestionibus fidei, morum, cultus, unitatis et difficultatum practicarum vitae christianae respondent.
+
+In medio doctrinae eius mors et Resurrectio Iesu Christi stant. Paulus annuntiavit humanitatem per Christum Deo reconciliari atque salutem donum gratiae esse, quod fide accipitur, non meritis humanis acquiritur. Hoc non significabat mores morales parvi momenti esse. Immo vera fides fructus caritatis, sanctitatis et vitae transformatae ferre debebat.
+
+Doctrina eius de amore unam ex clarissimis suis expressionibus in Prima Epistula ad Corinthios invenit, ubi declarat etiam dona extraordinaria et sacrificia sine caritate nihil valere. In eadem epistula Ecclesiam describit ut unum corpus multis membris constans, quae in Christo coniunguntur, quamvis diversa dona et officia habeant.
+
+Paulus etiam sensum libertatis christianae, actionem Spiritus Sancti et spem resurrectionis exploravit. Scripta eius affirmant fideles ad peccato moriendum et novam vitam in Christo vivendam vocari. Paulo, christianitas non erat tantum adhaesio certae doctrinae, sed transformatio personalis et communitaria per unionem cum Domino resuscitato.
+
+### Carcer et ultimum iter Romam
+
+Praedicatio Pauli eum in conflictum cum adversariis religiosis et auctoritatibus Romanis adduxit. Post comprehensionem Hierosolymis, Caesareae in custodia detentus est et tandem, civis Romanus cum esset, ad imperatorem appellavit. Actus Apostolorum iter eius Romam narrant, inter quod periculosum naufragium passus est, atque narrationem concludunt Paulo sub custodia degente, dum visitantes excipere et Evangelium annuntiare pergit.
+
+Novum Testamentum plenam narrationem annorum eius postremorum non praebet. Testimonia christiana antiqua, praesertim Prima Epistula Clementis, exeunte saeculo primo scripta, confirmant Paulum martyrium passum esse. Traditio antiqua mortem eius Romae collocat, tempore persecutionis sub imperatore Nerone, probabiliter inter annos Domini 64 et 68.
+
+Quia civitate Romana gaudebat, Paulus traditione creditur capite obtruncatus potius quam crucifixus esse. Martyrium eius cum regione extra antiquos muros Romae secundum Viam Ostiensem coniungitur, ubi nunc Basilica Sancti Pauli Extra Muros exstat. Sepulcrum eius destinatio magni momenti peregrinorum christianorum factum est atque symbolum perenne testimonii eius missionarii.
+
+### Legatum quod Ecclesiam transformavit
+
+Influentia Sancti Pauli longe ultra communitates quas condidit patet. Epistulae eius cogitationem generationum theologorum et sanctorum formaverunt, inter quos Sanctus Augustinus Hipponensis, Sanctus Thomas Aquinas et multi posteriores doctores christiani. Intellectus eius de gratia, fide, libertate et caritate per saecula centralis in meditatione christiana mansit.
+
+Vita Pauli etiam exemplum conversionis praeclarum praebet. Numquam pristinam Ecclesiae persecutionem occultavit, sed eam testimonium misericordiae quam acceperat intellexit. Auctoritas eius non in praeterita vita sine culpa, sed in occursu cum Christo et voluntate totum se Evangelio dedicandi fundabatur.
+
+Zelus eius missionarius a persuasione inseparabilis erat amorem Christi omnibus gentibus et omnibus hominibus destinatum esse. Fines culturales transiit, dolores toleravit et communitates divisas ad unitatem in Domino agnoscendam hortatus est. Per praedicationem et scripta sua, christianitatem ut fidem stabilire adiuvit cuius nuntius ab hominibus cuiusvis originis accipi poterat.
+
+Sanctus Paulus unus ex magnis testibus virtutis transformantis gratiae divinae manet. Iter eius a persecutore ad apostolum ostendit nullam sinceram conversionem Dei gratiae impossibilem esse. Vita eius Christianos invitat ut Christo fortiter respondeant, per adversitates perseverent et caritatem mensuram fidei suae faciant. Ante omnia, testimonium eius persuasionem adhuc proclamat quae totam missionem eius sustentavit: nihil posse eos qui Christo pertinent separare ab amore Dei in Ipso revelato.$desc$),
+
+('saint-timothy-of-ephesus', 'la',
+$desc$Sanctus Timotheus Ephesius fuit discipulus christianus primaevus, missionarius et episcopus, qui praecipue notus est ut Sancti Pauli Apostoli socius intimus. Patre Graeco et matre Iudaea natus, quae fidem christianam amplexa erat, Timotheus in Scripturis educatus est atque unus ex fidelissimis Pauli adiutoribus in Evangelio annuntiando factus est. Apostolum in itineribus missionariis comitatus est, iuvenes communitates christianas firmare adiuvit atque curae pastorali Ecclesiae Ephesinae commissus est. Duae epistulae Novi Testamenti eius nomine inscriptae perpetuam doctrinam de fidelitate, sana doctrina, oratione et officiis ministerii christiani servant. Secundum antiquam traditionem, Timotheus Ephesi martyrium passus est, postquam pompae religiosae paganae restitit. Ut exemplum dedicationis pastoralis et perseverantiae spiritualis veneratus, magni momenti figura in historia Ecclesiae apostolicae manet.$desc$,
+
+$desc$Timotheus saeculo primo natus est Lystrae, urbe provinciae Romanae Galatiae, in regione quae nunc in Turcia centrali sita est. Secundum Actus Apostolorum, mater eius Eunice credens Iudaea erat, et avia eius Lois quoque sinceram fidem habebat. Pater eius Graecus erat. Haec diversa culturalia et religiosa itinera institutionem Timothei formarunt atque postea in eius ministerio inter diversas communitates Ecclesiae primaevae utilia evaserunt.
+
+Sanctus Paulus de Timotheo affectuose loquitur, eum filium suum dilectum et fidelem in Domino appellans. Apostoli affectus plus quam simplex vinculum personale erat: Timotheus socius fidus factus est in missione longis itineribus, oppositione et difficili munere communitates christianas per orbem Romanum constituendi insignita. Quamquam Novum Testamentum tantum nonnulla vitae Timothei momenta commemorat, ea loca discipulum iuvenem ostendunt cuius fidelitas eum adiutorem magni momenti in propagatione christianitatis fecit.
+
+### Discipulus Scripturis Formatus
+
+Cum Paulus Lystra in itineribus suis missionariis visitavit, Timotheus iam bona existimatione apud localem communitatem christianam fruebatur. Actus Apostolorum eum filium mulieris Iudaeae credentis describunt, atque fideles Lystrae et Iconii de eo bene loquebantur. Donis eius agnitis, Paulus eum ad opus missionarium invitavit.
+
+Secunda Epistula ad Timotheum hereditatem spiritualem quam a matre et avia acceperat extollit. Ab infantia sacras Scripturas noverat, quae fundamentum intellectus eius promissionum Dei constituebant. Hoc singularem significationem eius historiae tribuit: vocatio Timothei ex fide intra familiam culta atque doctrina Ecclesiae roborata crevit.
+
+Paulus ei pater spiritualis factus est, instructionem, hortationem et correctionem praebens. Eorum necessitudo ostendit missionem christianam primaevam non solum praedicatoribus extraordinariis, sed etiam patienti formationi discipulorum iuniorum innixam esse. Timotheus Evangelium annuntiare didicit, dum exemplum Pauli perseverantiae, orationis et curae pastoralis observabat.
+
+### Sancti Pauli Socius
+
+Timotheus Paulum in Evangelio annuntiando comitatus est atque pluribus communitatibus christianis magni momenti sociatus est. Actus Apostolorum et epistulae Pauli eum cum actione missionaria in Macedonia, Graecia aliisque regionibus orientalis Mediterranei coniungunt. Etiam nuntii munere functus est, nuntios et instructiones inter Paulum et Ecclesias deferens.
+
+In epistulis suis, Paulus sinceritatem Timothei atque sollicitudinem eius de bono aliorum saepe laudat. Discipulus iuvenis non tamquam homo sine infirmitate aut difficultate praesentatur, sed tamquam vir cuius sincera devotio eum fidelem Christi servum fecit. Paulus ei officia gravia commisit, inter quae communitates in controversiis adiuvare, unitatem servare et doctrinam acceptam custodire.
+
+Ministerium Timothei etiam naturam collaborativam missionis apostolicae ostendit. Christianitatis propagatio non unius hominis solitarii opus erat. Nititur enim retibus praedicatorum, moderatorum localium et fidelium qui se invicem magnis intervallis separati sustinebant. Timothei contributio in voluntate eius consistit serviendi ubicumque necessitates Evangelii id postulabant.
+
+### Ecclesiae Ephesi Commissus
+
+Ephesus una ex urbibus praecipuis Asiae Romanae erat, commercio suo et celeberrimo templo Dianae nota. Communitas eius christiana difficultates obviam habebat dum novam fidem in ambitu religioso diverso annuntiabat. Prima Epistula ad Timotheum eum exhibet ut responsalem ad errores doctrinales corrigendos, vitam communitatis ordinandam et curandum ut cultus atque moderatio pastoralis Evangelio fideles manerent.
+
+Epistula consilia practica praebet de oratione, electione episcoporum et diaconorum, tractatione diversorum coetuum intra communitatem atque officiis eorum quibus doctrina docenda commissa est. Timotheus hortatur ut exemplo ducat, fidem, caritatem, castitatem et perseverantiam colens. Iuventus eius aperte commemoratur, atque hortatur ne alii propter eam eum contemnant.
+
+Tradita identificatio Timothei ut primi episcopi Ephesini memoriam diuturnam Ecclesiae de eius moderatione pastorali refert. Exacta evolutio officiorum episcopalium primis generationibus christianis adhuc investigationi historicae subiacet, sed coniunctio Timothei cum communitate Ephesina per traditionem christianam perseveravit.
+
+### Epistulae Eorumque Doctrina Spiritualis
+
+Duae epistulae Novi Testamenti ad Timotheum scriptae magni momenti fuerunt in meditatione christiana de ministerio pastorali. Necessitatem extollunt sanae doctrinae servandae, controversiarum inutilium vitandarum atque constantiae in adversitatibus retinendae. Earum consilia moderationem tamquam officium servitii potius quam dignitatis personalis proponunt.
+
+Secunda Epistula ad Timotheum praecipue permovet descriptione perseverantiae. Paulus de doloribus propter Evangelium loquitur atque Timotheum hortatur ut missioni sibi commissae fidelis permaneat. Traditum epistulae contextum ultimus Pauli carcer constituit, cum Apostolus finem vitae terrestris suae exspectat atque discipulum suum ad opus continuandum hortatur.
+
+Exegesis biblica hodierna agnoscit quaestionem auctoritatis et contextus historici Epistularum Pastoralium disputatam esse. Traditio christiana eas Paulo attribuit, dum multi eruditi censent eas postea a discipulo doctrinae eius scriptas esse. Quamcumque sententiam quis sequatur, epistulae magni momenti testimonium servant sollicitudinis Ecclesiae primaevae de continuitate apostolica, integritate morali et formatione moderatorum responsabilium.
+
+### Martyrium et Perpetuum Legatum
+
+Novum Testamentum circumstantias mortis Timothei non narrat. Secundum posteriorem traditionem in antiquis narrationibus Ecclesiae Ephesinae servatam, pompae paganae idolorum cultui dicatae restitit. Oppositio eius ritibus multitudinis vim excitavit, et verberatus tandem ex vulneribus mortuus est.
+
+Haec singula ad traditionem Ecclesiae pertinent, non ad narrationem testis oculati eiusdem aetatis. Nihilominus memoriam Timothei tamquam pastoris ostendunt, qui responsabilitatem veritatem annuntiandi relinquere noluit, etiam cum nuntius eius cum cultura circumstante eum in conflictum adduceret.
+
+Nomen Timothei cum Epheso arcte coniunctum est, ubi Christiani memoriam eius venerati sunt et traditiones de eius ministerio atque morte servaverunt. Reliquiae eius postea Constantinopolim translatae sunt, secundum traditionem ecclesiasticam, quod venerationem eius per orbem christianum diffundere adiuvit.
+
+Sanctus Timotheus exemplum servitii fidelis praebet. Neque imperii vasti conditor fuit neque praedicator cuius vita omnibus singulis tradita est. Eius momentum potius in fideli cooperatione cum Paulo, dedicatione communitatibus christianis et voluntate officia sibi commissa suscipiendi consistit.
+
+Vita eius Ecclesiam admonet transmissionem fidei tam doctrina quam exemplo niti. Timotheus Scripturas per familiam accepit, per necessitudinem cum Paulo formatus est atque ad alios suo ministerio roborandos vocatus est. Historia eius Christianos hortatur ut fidem oratione, studio, humilitate et servitio maturescentem colant.
+
+Per testimonium suum, Sanctus Timotheus quietum eorum robur repraesentare pergit qui Ecclesiam ab una generatione ad alteram sustentant. Legatum eius in persuasione consistit fidelitatem Christo non solum actibus heroicis extraordinariis exprimi, sed etiam patienti opere docendi, ducendi et curandi eos qui alicui curae commissi sunt.$desc$),
 
 
+('saint-titus-of-crete', 'la',
+$desc$Sanctus Titus Cretensis fuit missionarius christianus primaevus, episcopus et fidelis Sancti Pauli Apostoli socius. Ex gentibus ad fidem conversus, adiutor magni momenti factus est in communitatibus christianis constituendis atque Paulum in missionibus comitatus est, quae Ecclesiam nascentem formaverunt. Praesertim propter prudentiam, fidem et dotes pastorales aestimatus, Titus difficili muneri commissus est Ecclesiam in Creta ordinandi et idoneos rectores communitatibus eius constituendi. Epistula Novi Testamenti eius nomine inscripta perpetuam doctrinam de sana doctrina, moribus christianis et officiis moderationis spiritualis praebet. Secundum antiquam traditionem, Titus primus episcopus Cretae fuit atque senectute provectus pacifice mortuus est. Ut exemplum fidelis servitii et dedicationis apostolicae memoratus, Evangelium ad latiorem gentium orbem perferre adiuvit.$desc$,
+
+$desc$Titus ad primam Christianorum generationem pertinebat, quae Evangelium ultra pristinum eius ambitum Iudaicum in latiorem orbem Mediterraneum portavit. Dissimilis Timotheo, cuius familia matrem Iudaeam comprehendebat, Titus ex gentibus ortus erat. Conversio eius et ministerium magni momenti facta sunt in certamine Ecclesiae primaevae, quae intellegere conabatur quomodo homines diversarum originum ad eandem fidei communitatem pertinere possent, quin antea omnia Legis Mosaicae praecepta susciperent.
+
+Novum Testamentum accuratam narrationem pueritiae aut loci nativitatis Titi non praebet. Pleraque quae de eo cognoscuntur ex epistulis Sancti Pauli proveniunt, quae eum fidelem adiutorem, idoneum legatum et virum describunt cuius praesentia communitatibus christianis perturbatis fiduciam restituebat. Vita eius momentum eorum illustrat qui apostolos per servitium practicum, artem diplomaticam et constantem erga Evangelium dedicationem sustinuerunt.
+
+### Fidelis Sancti Pauli Socius
+
+Titus primum insigniter in narratione Pauli de itinere suo Hierosolymitano apparet, ubi quaestio conversionis gentium magni momenti erat. In Epistula ad Galatas, Paulus explicat Titum, quamvis Graecum, circumcidi non coactum esse. Praesentia eius exemplum concretum praebuit persuasionis secundum quam fides in Christum, non autem plena Legis Iudaicae praeceptorum observantia, sufficiebat ad communitatem christianam ingrediendam.
+
+Hic eventus magni momenti fuit in progressu Ecclesiae primaevae. Apostoli nuntium historiae Israel innixum annuntiabant, dum homines qui in religiosis ritibus Iudaicis educati non erant magis magisque accipiebant. Experientia Titi persuasionem illustravit gratiam Christi omnibus gentibus offerri atque differentias culturales fideles non impedire quominus unam fidem communicarent.
+
+Necessitudo Pauli cum Tito profunda fiducia insignita erat. In Secunda Epistula ad Corinthios, Paulus de sollicitudine Titi erga communitatem affectuose loquitur atque consolationem quam ex praesentia socii sui accepit gaudenter commemorat. Titus Corinthum missus est tempore contentionis, cum necessitudo Pauli cum fidelibus difficilis facta esset. Missio eius prudentiam, patientiam et facultatem reconciliationem promovendi postulabat.
+
+Laudes Pauli suggerunt Titum virtutes habuisse quae ad incrementum Ecclesiae primaevae necessariae erant. Non erat tantum nuntius qui mandata ferebat, sed adiutor pastoralis necessitudines roborare et communitates ad unitatem recuperandam adiuvare valens. Opus eius demonstrat missionem apostolicam reconciliatione et administratione responsabili non minus quam publica praedicatione niti.
+
+### Missio Corinthi
+
+Communitas christiana Corinthi difficultates graves experiebatur, inter quas dissensiones de auctoritate, cultu et moribus. Epistulae Pauli difficultatem congregationis ostendunt quae Evangelium in urbe opulenta et culturaliter diversa vivere conabatur. Titus personam magni momenti egit in conatibus Pauli communitatem ad renovatam fidelitatem ducendi.
+
+Paulus ei officia commisit quae collectionem pro Christianis pauperibus Hierosolymitanis ordinatam respiciebant. Hoc opus unitatem universae Ecclesiae per liberalitatem concretam exprimebat. Oblatio plus quam contributio pecuniaria erat: demonstrabat communitates intervallis et originibus separatas per communem fidem in Christum coniunctas esse.
+
+Participatio Titi accuratam ordinationem et fiduciam fidelium postulabat. Paulus eius voluntatem serviendi laudat eumque socium operis Evangelii exhibet. Exemplum eius ostendit moderationem christianam tum spiritualem consolationem tum curam necessitatum materialium aliorum complecti.
+
+Per ministerium suum Corinthi, Titus viva expressio reconciliationis quam Paulus praedicabat factus est. Ministerium eius necessitudines inter apostolum et communitatem servare adiuvit, dum opus eius pro pauperibus caritati christianae formam concretam dedit.
+
+### Ecclesiae in Creta Commissus
+
+Epistula ad Titum narrat Paulum adiutorem suum in Creta reliquisse ut ordinem in communitatibus christianis insulae constitueret. Titus iussus est presbyteros in variis urbibus constituere atque curare ut ii quibus moderatio committeretur probos mores et firmam fidei cognitionem haberent.
+
+Creta insula magni momenti in Mari Mediterraneo erat, longa commerciorum et permutationum culturalium historia insignita. Communitates christianae ibi stabilibus rectoribus et clara doctrina indigebant dum crescebant. Munus Titi errores nocivos corrigere, mores probos promovere et curare complectebatur ut fides in vita cotidiana fidelium manifestaretur.
+
+Epistula praecipuam vim tribuit virtutibus moralibus a rectoribus christianis exspectatis. Debebant esse temperantes, hospitalitatis studiosi, fideles et sanae doctrinae docendae idonei. Moderatio non tamquam privilegium ad commodum personale quaerendum, sed tamquam officium integritatem et servitium postulans proponebatur.
+
+Instructiones etiam diversos coetus communitatis respiciunt, fideles seniores et iuniores hortantes ut dignitate, moderatione et mutuo respectu vivant. Doctrina christiana ordinarias necessitudines transformare debebat, ita ut mores fidelium visibile Evangelii testimonium fierent.
+
+Praecipua sollicitudo epistulae in nexu inter gratiam et bona opera exprimitur. Christiani misericordia Dei salvantur, non propriis meritis; gratia tamen accepta vitam eorum renovare eosque ad caritatis opera impellere debet. Titus igitur vocatus est ad communitatem ducendam in qua recta fides et bonitas practica coniunctae essent.
+
+### Episcopus Eiusque Perpetuum Legatum
+
+Traditio christiana Titum primum episcopum Cretae commemorat atque ministerium eius praesertim cum urbe Gortyna coniungit. Novum Testamentum plenam narrationem vitae eius posterioris non praebet, et singula de episcopatu eius praecipue ex traditione ecclesiastica posteriori proveniunt. Nihilominus eius coniunctio cum insula in traditione Ecclesiae praecipua eius identitatis pars mansit.
+
+Secundum traditionem, Titus Christianos Cretae usque ad mortem suam senectute provecta regere perrexit. Dissimilis pluribus sociis Pauli qui ut martyres memorantur, Titus vulgo pacifice mortuus esse habetur. Circumstantiae exactae mortis eius testimoniis eiusdem aetatis confirmari non possunt.
+
+Legatum eius ante omnia in fideli cooperatione cum Paulo et contributione ad ordinationem Ecclesiae primaevae consistit. Demonstravit Evangelium apud gentes radices agere posse, dum cum fide apostolica unitum maneret. Opus eius pastorale etiam momentum patientiae, iudicii sani et facultatis homines coniungendi temporibus contentionis ostendit.
+
+Sanctus Titus exemplum moderationis christianae in servitio potius quam distinctione personali fundatae manet. Vita eius fideles admonet opus Ecclesiae tum constantiam tum mansuetudinem, tum veritatis annuntiationem tum curam concretam communitatum postulare. Per ministerium suum Corinthi et Cretae, missionem apostolicam incarnavit, fideles roborando atque eos adiuvando ut secundum gratiam acceptam viverent.
+
+Momentum eius perpetuum in hac quieta fidelitate consistit. Ut fidelis Sancti Pauli socius et traditus episcopus Cretae, Titus multos Christianos primaevos repraesentat quorum dedicatio motum missionarium parvum in communitatem trans fines culturales et geographicos diffusam transformare adiuvit. Testimonium eius eos adhuc hortatur qui alios in fide ducere vocantur, unitatem inter dissensiones quaerere et Evangelium vita integritate, liberalitate et amore insignita exprimere.$desc$),
+('saint-angela-merici', 'la',
+$desc$Sancta Angela Merici fuit magistra religiosa Italica et fundatrix Societatis Sanctae Ursulae, communitatis novae quae ad christianam iuvenum mulierum institutionem destinabatur. Anno 1474 in Desenzano del Garda nata, vitam suam orationi, caritati et puellarum institutioni dedicavit, eo tempore quo earum accessus ad educationem formalem limitatus erat. Divinae providentiae alta fiducia ducta, novam religiosae communitatis formam instituit, cuius sodales Deo se consecrabant, initio tamen in propriis familiis atque consuetis vitae condicionibus manentes. Eius visio tandem traditionem Ursulinam peperit, quae in educatione catholica toto orbe terrarum magnam vim habuit. Anno 1807 canonizata, Sancta Angela permanet exemplum perenne sapientiae spiritualis, missionis educativae et caritatis misericordis.$desc$,
+
+$desc$Angela Merici anno 1474 in Desenzano del Garda nata est, oppido ad meridiem lacus Benaci in Italia septentrionali sito. In familia christiana crevit, cuius vita oratione, labore et communitatis localis consuetudinibus conformabatur. Secundum traditionem, dum adhuc iuvenis esset, familiares sibi proximos amisit; haec experientia eius conscientiam humanae fragilitatis profundavit atque fiduciam in Deo auxit. Quamquam omnia de eius prima vita aeque bene documentis confirmata non sunt, traditio constanter eam exhibet ut mulierem cuius spiritualitas per simplicitatem, contemplationem et sollicitudinem de aliis evoluta est.
+
+Angela vixit tempore magnarum mutationum in paeninsula Italica. Renovatio religiosa una cum instabilitate politica, inaequalitate sociali et crescente cura de iuvenum educatione procedebat. Puellae ex familiis pauperioribus saepe paucas opportunitates habebant ad doctrinam christianam et litterarum cognitionem modo ordinato discendas. Angela intellexit earum institutionem non solum ad personalem earum progressionem, sed etiam ad salutem spiritualem familiarum et societatis necessariam esse.
+
+### Vita Orationis et Servitii
+
+Prima Angelae spiritualitas desiderio se a mundanis distractionibus subtrahendi atque Deo plenius dedicandi insignita est. Post parentum mortem, secundum traditionem, Tertium Ordinem Sancti Francisci ingressa est, vitam orationis et simplicitatis amplectens, dum in societate ordinaria manebat. Haec consecrationis forma ei permisit ut aliis serviret, quin in clausuram monasticam intraret.
+
+Cum maturior fieret, Angela magis magisque necessitatibus hominum circa se attendebat. Consilia spiritualia praebebat, eos qui difficultatibus premebantur visitabat atque familias ad vitam christianam diligentius ducendam hortabatur. Eius vocatio neque per publicam praedicationem neque per auctoritatem institutionalem praecipue orta est. Immo, per patientem personalem contactum et persuasionem crevit societatis renovationem ab institutione cordis humani incipere.
+
+Tempus magni momenti in eius vita cum Brixia coniungitur, ubi consiliis spiritualibus et operibus caritatis innotuit. Urbs contentionibus socialibus et conflictus consectariis affecta erat, atque Angela consolationem et directionem iis afferre studebat qui ad eam confugiebant. Fama eius paulatim mulieres attraxit quae eius sollicitudinem de educatione christiana et iuvenum bono spirituali communicabant.
+
+### Visio Societatis Sanctae Ursulae
+
+Maxima Angelae contributio ex persuasione orta est mulieres se Deo omnino dedicare posse, dum missionem suam in mundo exercerent. Ineunte saeculo XVI, multae formae vitae religiosae mulierum iam constitutae clausurae innitebantur. Angela aliam viam concepit: societatem mulierum quae Christo consecratae manerent, inter homines quos serviebant viventes.
+
+Secundum traditionem, Angela visionem accepit in qua intellexit Deum eam vocare ad communitatem virginum condendam. Haec experientia cum crescente eius desiderio coniuncta est opus institutionis christianae stabile ordinandi. Singula historica huius visionis ad traditionem spiritualem eius vitae pertinent, sed fundatio quae secuta est historice bene comprobata est.
+
+Anno 1535, Angela Societatem Sanctae Ursulae Brixiae fundavit. Sodales eius vitam christianae devotionis et iuvenum mulierum institutioni dedicatam susceperunt. Initio non una in conventu more solito habitabant, sed in propriis domibus manebant, communem tamen finem spiritualem sequentes. Haec ordinatio pro illo tempore singularis erat atque mulieribus permisit ut necessitatibus communitatum suarum directe occurrerent.
+
+Societas Angelae intellectum exprimebat educationem opus esse tum caritatis tum evangelizationis. Credebat iuvenes mulieres docendas esse ut fidem suam intellegerent, virtutem colerent atque iudicium necessarium ad vitam responsabilem agendam formarent. Per hanc institutionem familias suas roborare et ad societatis christianae renovationem conferre poterant.
+
+### Spiritualitas Mansuetudinis et Libertatis
+
+Angelae ratio ducendi prudentia, patientia et observantia singulorum insignita erat. Admonitiones eius, in scriptis et traditionibus Societatis servatae, eos qui aliis praeerant hortabantur ut amore potius quam severitate agerent. Intellexit veram institutionem spiritualem sola vi effici non posse; exemplum personale, moderatio diligens et fiducia in Dei actionem intra unamquamque animam necessaria erant.
+
+Eius *Consilia* et *Testamentum* spiritualitatem practicam ostendunt, oratione, discretione et caritate fundatam. Sectatrices suas hortabatur ut vocationi suae fideles manerent, modos tamen agendi ad condiciones eorum quibus serviebant accommodantes. Potius quam solutiones uniformes omnibus difficultatibus imponere, eas invitabat ut necessitatibus uniuscuiusque personae sapienter et misericorditer consulerent.
+
+Haec mansuetudinis commendatio persuasionis firmitatem non excludebat. Angela fidei catholicae penitus dedita erat atque credebat educationem homines ad fideliorem vitam christianam ducere debere. Attamen intellexit auctoritatem uberrimos fructus ferre cum velut servitium exercebatur, atque eos quibus aliorum moderatio commissa erat humilitatem primum in se ipsis colere debere.
+
+### Incrementum Traditionis Ursulinae
+
+Angela Brixiae die 27 Ianuarii 1540 mortua est, communitatem relinquens cuius missio post eius mortem ulterius evoluta est. Societas Sanctae Ursulae paulatim diversas formas vitae communis suscepit, atque quaedam eius rami tandem in congregationes religiosas, praesertim institutioni destinatas, constitutae sunt.
+
+Ursulinae una ex traditionibus educationis catholicae maxime valentibus factae sunt, scholas puellarum per Europam, deinde etiam in aliis mundi partibus, instituentes. Opera earum aditum ad institutionem religiosam et educationem formalem latiorem reddere adiuvit, praesertim tempore quo opportunitates puellarum adhuc restrictae erant. Quamquam posteriores communitates Ursulinae ab ordinatione primae Angelae fundationis differebant, praecipuam eius persuasionem servaverunt: mulierum institutio Ecclesiae et societati servitium magni momenti praebebat.
+
+Hereditas spiritualis Angelae publice agnita est cum Clemens XIII papa cultum ei tributum approbavit, atque Pius VII papa eam anno 1807 canonizavit. Eius auctoritas crescere perrexit, dum educatio catholica evolveretur et traditio Ursulina internationaliter diffunderetur.
+
+### Hereditas Perennis Educationis Christianae
+
+Sancta Angela Merici insignem locum in historia spiritualitatis catholicae tenet, quia contemplationem actioni practicae coniunxit. Vita eius in oratione fundata erat, sed sanctitas eius visibilem formam in iuvenum institutione atque communitate eorum bono spirituali dedita suscepit.
+
+Intellexit docere non esse tantum informationem transmittere. Munus est alios adiuvare ut sapientia, fide et maturitate morali crescant. Institutionem iuvenum mulierum in medio suae missionis collocando, viam aperuit quae generationes magistrorum et communitatum religiosarum afficeret.
+
+Exemplum Angelae etiam opinionem impugnat sanctitatem necessario requirere ut quis a vita ordinaria secedat. Eius prima visio mulieribus consecratis permisit ut familiis et communitatibus suis proximae manerent, dum communem missionem spiritualem persequerentur. Hoc modo demonstravit amorem Dei per attentum servitium in vita cotidiana exprimi posse.
+
+Per Societatem Sanctae Ursulae atque traditionem educativam ex ea ortam, Sancta Angela Merici Ecclesiae vestigium duraturum reliquit. Hereditas eius adhuc testatur patientem moderationem, solidam educationem et moderatum misericordia ductum instrumenta potentia renovationis christianae fieri posse. Eius vita magistros, parentes omnesque quibus aliorum institutio commissa est invitat ut humilitate, discretione et firma in Dei gratia fiducia serviant.$desc$),
+('saint-thomas-aquinas', 'la',
+$desc$Sanctus Thomas Aquinas fuit frater Dominicanus, sacerdos, theologus et philosophus Italicus, cuius scripta theologiam catholicam penitus formarunt. Circa annum 1225 in nobili familia prope Aquinum natus, vitam suam veritatis divinae quaerendae per fidem, rationem et orationem dedicavit. Quamvis familia vehementer obsisteret, Ordinem Praedicatorum ingressus est atque unus ex maximis viris intellectualibus Medii Aevi factus est. Eius opus monumentale, "Summa Theologiae", doctrinam christianam modo systematico exposuit, Sacris Scripturis, Patribus Ecclesiae et philosophia Aristotelis innixum. Anno 1567 Doctor Ecclesiae declaratus, Thomas ut Doctor Angelicus veneratur atque praecipuam auctoritatem in traditione philosophica et theologica catholica hodieque obtinet. Vita eius ingenii praestantiam cum humilitate, contemplatione et constanti amore Christi coniunxit.$desc$,
+
+$desc$Thomas Aquinas circa annum 1225 in arce Roccasecca, prope Aquinum, in Regno Siciliae natus est, in nobili familia quae cum aristocratia regnante coniunctiones habebat. Ab ineunte aetate singularem discendi facultatem atque animum contemplationi deditum ostendit. Familia eum ad insignem ecclesiasticam vitam destinabat, atque ad monasterium Benedictinum Montis Cassini missus est, ubi primam institutionem religiosam accepit. Propter rerum politicarum condiciones, studia sua postea in Universitate Neapolitana continuare debuit, ubi novis doctrinarum motibus, inter quos philosophia Aristotelis, cognovit.
+
+Neapoli Thomas Dominicanis occurrit, Ordini religioso praedicationi, studiis et defensioni fidei christianae dedito. Eorum coniunctio disciplinae intellectualis et servitii apostolici eum vehementer attraxit. Contra voluntatem familiae suae, quae eum ad digniorem et honoratiorem ecclesiasticam dignitatem pervenire cupiebat, Thomas Ordinem Praedicatorum ingredi statuit. Haec electio vitae eius cursum determinavit atque eum ad vocationem perduxit in qua studium instrumentum servitii Ecclesiae factum est.
+
+### Vocatio a Familia Probata
+
+Thomas consilium Dominicanum fieri propinquorum suorum vehementem oppositionem excitavit. Familia eius Ordinem nimis humilem pro homine nobili genere nato iudicabat atque eum variis modis ab vocatione sua discedere persuadere conabatur. Secundum traditionem, a familiaribus per longum tempus detentus est, qui variis rationibus animum eius mutare conati sunt.
+
+Quamvis his pressuris, Thomas firmiter perseveravit in vita religiosa quam elegerat. Eius constantia proprietatem praecipuam spiritualitatis eius manifestabat: voluntatem voluntatem Dei quaerendi supra ambitiones mundanas atque exspectationes familiares ponendi. Tandem ei permissum est ut formationem suam apud Dominicanos continuaret.
+
+Thomas sub Sancto Alberto Magno, uno ex praecipuis aetatis suae eruditis, studuit, primum Coloniae, deinde Lutetiae Parisiorum. Albertus eximias discipuli sui facultates agnovit, quamquam natura eius quieta et corporis statura gravis nonnullos aequales eius eum parvi aestimare inducebant. Magister intellexit apparentem eius taciturnitatem insignem profunditatem intellectualem occultare.
+
+Thomas sacerdos ordinatus est atque docendi et scribendi theologiam cursum incepit, qui eum ad praecipua studiorum centra per Europam duxit. Eius vocatio non solum cognitionem acquirere, sed etiam intellegere erat quomodo humana ratio contemplationi veritatis divinae inservire posset.
+
+### Fides et Ratio in Concordia
+
+Thomas Aquinas vixit tempore quo operum philosophicorum Aristotelis renovata cognitio vitam intellectualem Europae transformabat. Haec scripta explicationes efficaces de natura, causalitate, ethica et cognitione humana praebebant, sed etiam quaestiones movebant de relatione inter rationem philosophicam et revelationem christianam.
+
+Thomas credebat veritatem veritati repugnare non posse. Cum enim tam humana ratio quam divina revelatio a Deo oriantur, vera philosophica intellectio et authentica fides christiana concordes esse debent. Ratio quasdam veritates de Deo et mundo naturali demonstrare potest, dum revelatio mysteria aperit quae facultatem humanae mentis sola ratione utentis excedunt.
+
+Haec ratio Thomas permisit ut philosophiam serio tractaret, quin theologiam ad philosophiam reduceret. Aristotelem late adhibuit, simul autem doctrinas Patrum Ecclesiae, praesertim Sancti Augustini, necnon philosophorum Iudaeorum et Muslimorum, ut Maimonidis et Avicennae, perspicaciam incorporavit. Opus eius demonstravit theologiam christianam alias traditiones intellectuales critice examinare posse, dum in Sacris Scripturis et Ecclesiae doctrina radicata manet.
+
+Inter praecipuas eius contributiones numeratur explicatio legis naturalis, secundum quam homines principia moralia fundamentalia ratione agnoscere possunt, quia ordinationem creationis a Deo institutam participant. Doctrina eius de virtutibus etiam momentum consuetudinum bonarum formandarum, prudentiae practicae excolendae et actionum humanarum ad fines proprios dirigendarum extulit.
+
+### Summa Theologiae
+
+Maximum Thomae opus theologicum vulgo *Summa Theologiae* habetur, ingens opus ad doctrinam christianam modo ordinato exponendam destinatum. Praecipue pro studentibus theologiae conscriptum, de Dei existentia et natura, creatione, actione humana, virtute morali, Christo, sacramentis atque ultimo hominum fine agit.
+
+Opus per quaestiones et articulos ordinatur, qui obiectiones proponunt, responsionem afferunt et argumenta contraria examinant. Haec methodus persuasionem Thomae exprimit veram investigationem intellectualem probitatem requirere. Obiectiones ignorandae aut perperam exhibendae non sunt, sed diligenter examinandae, ut veritas clarius intellegatur.
+
+Inter eius locos celeberrimos est expositio Quinque Viarum, quinque argumentorum quae Dei existentiam demonstrare intendunt, ex consideratione motus, causalitatis, contingentiae, graduum perfectionis et ordinis mundi naturalis. Haec argumenta amplam disputationem philosophicam excitaverunt atque in controversiis de relatione inter rationem et fidem adhuc valent.
+
+Thomas etiam *Summam contra Gentiles*, commentarios biblicos, tractatus philosophicos et opera de sacramentis scripsit. Scripta eius mentem ostendunt extraordinaria subtilitate praeditam, quae tamen semper ad finem theologicum dirigitur. Thomae enim summa sapientia non mera ingenii praestantia erat, sed cognitio ad amorem et contemplationem Dei ordinata.
+
+### Eucharistia et Vita Orationis
+
+Theologia Thomae a vita sacramentali et devota seiungi non poterat. Eucharistiam tamquam sacramentum realis praesentiae Christi et praecipuam expressionem communionis Ecclesiae cum Eo habebat. Scripta eius de Eucharistia explicare conabantur quomodo Christus vere sub speciebus panis et vini praesens esse posset, doctrina quae cum catholica transsubstantiationis doctrina coniungitur.
+
+Hymnos eucharisticos celeberrimos composuit, inter quos *Pange Lingua* et *Adoro Te Devote*, qui profunditatem theologicam cum reverentia summa coniungunt. Haec opera in cultu et devotione catholica hodieque adhibentur atque veritates exprimunt quas Thomas etiam argumentatione philosophica exploravit.
+
+Traditio eum virum orationis ardentissimae exhibet, qui antequam arduum opus theologicum aggrederetur, divinum auxilium saepe petebat. Actio eius intellectualis a contemplatione seiuncta non erat: studium ipsum forma servitii Deo oblati factum est. Haec doctrinae et orationis coniunctio unum ex notissimis eius hereditatis spiritualis proprietatibus manet.
+
+### Ultimi Anni et Mors
+
+Mense Decembri anni 1273, dum Missam celebrabat, Thomas profundam experientiam spiritualem habuit quae eius animum erga scripta sua mutavit. Secundum secretarium et biographum eius, Reginaldum de Piperno, Thomas postea declaravit omnia quae scripserat paleas sibi videri prae iis quae ei revelata erant. Opus *Summae Theologiae* intermisit, quod propterea imperfectum mansit.
+
+Haec verba saepe tamquam expressio limitum linguae humanae coram Dei mysterio interpretata sunt. Non significant Thomam opera vitae suae repudiavisse, sed potius etiam accuratissimam rationem theologicam numquam posse totam realitatem quam intellegere conatur comprehendere.
+
+Ineunte anno 1274, dum iter faceret ut, ad invitationem Gregorii X papae, Concilium Lugdunense Secundum interesset, Thomas graviter aegrotavit. Ad abbatiam Cisterciensem Fossae Novae delatus est, ubi die 7 Martii 1274 mortuus est.
+
+Post mortem eius scripta late diffundi perrexerunt. Ioannes XXII papa eum anno 1323 canonizavit, et Pius V papa anno 1567 Doctorem Ecclesiae declaravit. Anno 1880, Leo XIII papa eum scholarum catholicarum et institutionum educationis patronum proclamavit, eius momentum in vita intellectuali catholica ulterius confirmans.
+
+### Doctor Angelicus
+
+Sanctus Thomas Aquinas unus ex auctoribus intellectualibus gravissimis in historia christiana manet. Eius philosophiae et theologiae synthesis doctrinam catholicam de Deo, moribus, natura humana et sacramentis formavit. Opera eius a theologis, philosophis et studentibus adhuc studiose leguntur, qui relationem inter fidem et rationem intellegere quaerunt.
+
+Attamen eius momentum ultra res intellectuales ob quas celebratur extenditur. Thomas doctrinam tamquam viam ad veritatem intellexit, veritatem autem ad Deum tandem ducere. Humilitas eius coram divino mysterio impedivit ne studium in finem per se ipsum converteretur, dum disciplina eius rationis demonstravit fidem sinceram investigationem intellectualem timere non debere.
+
+Vita eius exemplar sanctitatis praebet, quae per studium, orationem et fidelitatem vocationi exprimitur. Vir eruditus, qui annos altissimis quaestionibus fidei christianae explicandis dedicavit, etiam agnovit nullum systema humanum bonitatem Dei infinitam plene comprehendere posse.
+
+Per scripta sua et exemplum spirituale, Sanctus Thomas Aquinas christianos adhuc invitat ut veritatem patienter quaerant, honeste ratiocinentur atque cognitionem cum caritate coniungant. Firma eius persuasio haec est: omnis vera veritas ad divinum suum fontem ducit, atque summus sapientiae finis est animam humanam ad Dei contemplationem et amorem perducere.$desc$),
+('saint-john-bosco', 'la',
+$desc$Sanctus Ioannes Bosco, etiam Don Bosco appellatus, sacerdos, educator et fundator Societatis Salesianae Italicus fuit, ob dedicationem suam iuvenibus pauperibus et in difficultatibus versantibus insignis. Anno 1815 in Pedemontio, regione Italiae septentrionalis, natus, paupertatem et adversitates superavit atque unus ex educatoribus catholicis saeculi undevicesimi potentissimis factus est. Persuasum habens iuvenes directione, affectione et opportunitatibus potius quam severis poenis egere, Systema Preventivum educationis excogitavit, quod ratione, religione et amore benevolentiaque innititur. Salesianos Don Bosco fundavit atque, una cum Sancta Maria Dominica Mazzarello, Institutum Filiarum Mariae Auxiliatricis. Anno 1934 canonizatus, Sanctus Ioannes Bosco dilectus iuvenum patronus et exemplum perenne caritatis pastoralis, innovationis educativae et laetae fidei christianae manet.$desc$,
+
+$desc$Ioannes Bosco die 16 Augusti 1815 in Becchi natus est, parvo vico rustico prope Castelnuovo d'Asti in Pedemontio, Italiae septentrionalis regione. Familia eius modeste vivebat, et pater eius Franciscus mortuus est cum Ioannes adhuc puer esset. Mater eius, Margarita Occhiena, sola filios educandos suscepit, dum labores vitae rusticae administrabat. Eius fides, prudentia practica et cura patiens formationem spiritualem Ioannis penitus affecerunt, eum docendo ut fiduciam in Deo cum liberalitate erga alios coniungeret.
+
+Ab ineunte aetate, Ioannes miram facultatem ostendit alios pueros narrationibus, ludis et simplicibus spectaculis alliciendi. Peculiari modo de pueris sollicitus erat qui auxilio familiae, educatione aut certa moderatione carebant. Etiam puer somniabat se eos adiuvare posse ut per amicitiam, doctrinam et fidem meliorem futurum invenirent. Quod initio sollicitudo spontanea de sociis suis erat, tandem definitam eius sacerdotii missionem constituit.
+
+### Vocatio Perseverantia Parta
+
+Iter Ioannis ad sacerdotium paupertate et determinatione insignitum est. Familia eius educationem eius facile sustentare non poterat, atque ipse laborare debuit ut studia sua continuare posset. Varia officia suscepit et auxilio hominum niti debuit qui eius facultates agnoverunt. Hae experientiae ei cognitionem practicam difficultatum familiarum operariarum et iuvenum opportunitatibus carentium praebuerunt.
+
+Ioannes Taurini anno 1841 sacerdos ordinatus est. Urbs celeriter industrializabatur, magnum numerum iuvenum ad laborem quaerendum attrahens. Multi sine habitatione idonea, educatione aut auxilio familiari advenerunt atque abusus, delictorum periculum et neglectui religioso patebant.
+
+In primis ministerii sui annis, Don Bosco, ut appellari coepit, iuvenes operarios et tirones convenit qui tam directione spirituali quam auxilio practico indigebant. Intellexit solam praedicationem eorum difficultates solvere non posse. Locis indigebant ubi discere, amicitias colere, educationem accipere et dignitatem experi potuissent qua filii Dei dilecti tractabantur.
+
+### Oratorium et Cura Iuvenum
+
+Momentum formationis in ministerio Don Bosco evenit cum mense Decembri anni 1841 Bartholomaeum Garelli, iuvenem tironem, Taurini convenit. Eorum congressus progressionem oratorii eius inspiravit, loci qui orationem, recreationem, educationem et personalem comitatum coniungebat.
+
+Oratorium paulatim domicilium factum est pueris qui aliter sine directione aut auxilio relicti essent. Don Bosco catechismi lectiones, ludos, musicam et institutionem practicam ordinavit, ambitum creare quaerens in quo iuvenes tam spiritualiter quam socialiter crescere possent. Mater eius Margarita Taurinum ad eum venit atque pueros curando adiuvit, munus maternum intra communitatem crescentem suscipiens.
+
+Opus Don Bosco, non obstantibus difficultatibus pecuniariis, spatii penuria et interdum oppositione, amplificabatur. Credebat educationem iuvenes non solum ad laborem, sed etiam ad civitatem responsabilem et vitam christianam praeparare debere. Eos adiuvare studebat ut operarii honesti, credentes prudentes et homines societati positive conferre capaces fierent.
+
+Eius methodus profunda fiducia in bonitatem et facultates cuiusque iuvenis distinguebatur. Potius quam pueros per errores aut condiciones suas definire, facultates in eis agnosci conabatur quae per patientem moderationem et hortationem evolvi poterant.
+
+### Systema Preventivum
+
+Philosophia educativa Don Bosco Systema Preventivum appellata est, quod per tria principia praecipua explicavit: rationem, religionem et benignitatem amantem. Credebat educatores pravos mores praevenire debere, ambitum fiduciae, intellectus et necessitudinum verarum creantes, potius quam praecipue poenis niti postquam culpa iam commissa esset.
+
+Ratio significabat exspectationes clare explicare et iuvenes aequitate tractare. Religio fundamentum spirituale per orationem, sacramenta et Christi exemplum praebebat. Benignitas amans postulabat ut educatores sinceram affectionem ostenderent, ita ut iuvenes intellegerent correctionem ex sollicitudine de eorum bono, non ex desiderio eos dominandi, oriri.
+
+Don Bosco affirmabat non sufficere educatores discipulos suos diligere; discipuli etiam scire debebant se diligi. Haec persuasio cotidianam eius agendi rationem formavit, magistros et sacerdotes hortans ut inter iuvenes praesentes manerent, eorum actiones communicarent et necessitudines mutua fiducia fundatas constituerent.
+
+Eius methodus disciplinam aut responsabilitatem relinquere non significabat. Potius auctoritatem intellegi et utiliter exerceri volebat, iuvenes adiuvans ut interiorem voluntatem recte agendi excolerent. Eius ratio multas posteriores disputationes de educatione, progressu personali et momento ambitus discendi adiuvantis anticipavit.
+
+### Societas Salesiana
+
+Cum opus eius cresceret, Don Bosco necessitatem communitatis stabilis sacerdotum et fratrum agnovit, qui missionem eius continuare possent. Anno 1859 Societatem Sancti Francisci Salesii fundavit, vulgo Salesianos appellatam, congregationem patrocinio Sancti Francisci Salesii committens, cuius mansuetudinem et prudentiam pastoralem magnopere admirabatur.
+
+Salesiani praecipue educationi et evangelizationi iuvenum se dedicaverunt, maxime pauperum et in difficultatibus versantium. Scholas, officinas, oratoria et programmata formationis professionalis instituerunt, institutionem religiosam cum praeparatione practica ad vitam adultam coniungentes.
+
+Don Bosco etiam cum Sancta Maria Dominica Mazzarello cooperatus est ad Institutum Filiarum Mariae Auxiliatricis anno 1872 fundandum. Haec congregatio, Sorores Salesianae appellata, missionem eius educativam ad puellas et iuvenes mulieres extendit. Hae communitates coniunctae primum eius opus Taurinense in motum internationalem educativum et missionalem transformare adiuverunt.
+
+### Fides, Maria Auxiliatrix et Missiones
+
+Spiritualitas Don Bosco profunda devotione erga Virginem Mariam sub titulo Mariae Auxiliatricis insignita erat. Eam potentem fontem auxilii pro sua missione habebat atque devotionem erga eam inter iuvenes suae curae commissos promovit. Taurini constructionem Basilicae Mariae Auxiliatricis curavit, quae anno 1868 perfecta est.
+
+Fiducia eius in divina providentia eum per repetitas difficultates pecuniarias et ingentes necessitates operis sui crescentis sustentavit. Collaboratores suos saepe hortabatur ut fortiter agerent, fideliter orarent et Deo confiderent, quin responsabilitates practicas neglegerent.
+
+Missio Salesiana tandem ultra Italiam extensa est. Anno 1875, Don Bosco primos missionarios Salesianos in Argentinam misit, expansionem internationalem incipiens quae congregationem ad multas nationes perduceret. Hae missiones evangelizationem cum educatione, formatione professionali et cura iuvenum vulnerabilium coniunxerunt.
+
+### Ultimi Anni et Hereditas Perennis
+
+Don Bosco Taurini die 31 Ianuarii 1888 mortuus est, postquam totam vitam educationi et bono spirituali iuvenum dedicaverat. Eius exsequiae atque cultus erga eum crescente devotione affecti altam affectionem demonstraverunt qua populus eum prosequebatur. Pius XI papa eum anno 1929 beatificavit et anno 1934 canonizavit.
+
+Influentia eius per scholas Salesianas, centra iuvenum, paroecias et communitates missionarias toto orbe terrarum continuavit. Eius visio educativa adhuc valet ubicumque iuvenes adultis indigent qui claram moderationem cum patientia, compassione et observantia dignitatis eorum coniungant.
+
+Hereditas Sancti Ioannis Bosco institutionibus ab eo conditis non circumscribitur. Demonstravit educationem vim transformandi accipere cum totam personam complectitur: intellectualem, practicam, moralem et spiritualem. Eius dedicatio iuvenibus ex persuasione orta est unumquemque dignitatem a Deo collatam possidere atque facultates quae nutriri merentur.
+
+Per laetam suam spiritualitatem, fiduciam in divina providentia et dedicationem erga eos qui maxime auxilio indigent, Don Bosco exemplar christianorum servitii validum manet. Eius vita parentes, magistros et operarios pastorales invitat ut iuvenes intellectu et spe comitentur, eos adiuvantes ut non metu, sed experientia moderationis, hortationis et sinceri amoris crescant.$desc$)
 ) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
 WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
 -- END_BIOGRAPHIES_JANUARY
