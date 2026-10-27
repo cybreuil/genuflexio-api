@@ -3668,15 +3668,615 @@ WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
 
 
 -- FEBRUARY LATINA
--- UPDATE saint_translations AS st
--- SET short_description = x.short_description,
--- 	full_biography = x.full_biography
--- FROM saints AS s
--- JOIN (VALUES
+UPDATE saint_translations AS st
+SET short_description = x.short_description,
+	full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-blaise', 'la',
+$desc$Sanctus Blasius Sebastensis fuit episcopus christianus et martyr antiquae aetatis, qui in Armenia Minore exeunte saeculo tertio et ineunte quarto vixit. Caritate, miraculis sanationum atque fortitudine in persecutionibus memoratus, unus ex sanctis antiquae Ecclesiae dilectissimis factus est. Secundum traditionem, Blasius medicus fuit antequam episcopus Sebastensis fieret, ubi necessitatibus spiritualibus et corporalibus gregis sui consuluit. Persecutionibus imperatori Licinio adiunctis, in speluncam montanam se recepit, ubi, ut traditur, inter feras pacifice vivebat. Ob fidem christianam comprehensus, puerum, qui osse piscis strangulabatur, sanavisse traditur, antequam circa annum Domini 316 tormenta passus supplicio afficeretur. Peculiari modo ut patronus eorum veneratus, qui morbis gutturis laborant, Sanctus Blasius exemplum praestans caritatis pastoralis, fidei constantis atque fiduciae in Dei gratiam sanantem manet.$desc$,
 
--- ) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
--- WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
--- END_BIOGRAPHIES_FEBRUARY
+$desc$Blasius, cuius nomen Latinum est Blasius, unus ex antiquis episcopis christianis memoratur, qui Christo fideles permanserunt tempore persecutionis et incertitudinis. Traditio eum cum Sebaste, urbe Armeniae Minoris, in hodierna Türkiye sita, coniungit. Quamquam de eius ortu et prima vita parum certo statui potest, traditio christiana eum medicum fuisse tradit, cuius misericordia erga aegrotos eum ad posteriorem episcopatus vocationem praeparavit. Fama eius perennis in caritate pastorali, fortitudine inter persecutiones atque mirabilibus sanationibus eius intercessioni attributis nititur.
+
+Testimonia historica de Sancto Blasio pauca sunt. Acta eius accuratiora per posteriores traditiones hagiographicas transmissa sunt atque tamquam biographia eius aetati contemporanea omnino certa haberi non possunt. Nihilominus, eius cultus tam in Christianitate Orientali quam Occidentali firmiter constitutus est, memoriam episcopi servans qui, secundum traditionem, vitam suam potius tradere voluit quam fidem abnegare.
+
+### Episcopus et Medicus
+
+Secundum traditionem, Blasius medicinam exercebat antequam episcopus Sebastensis eligeretur. Fama eius virtutis et misericordiae communitatem christianam adduxit ut ei curam vitae suae spiritualis committeret. Episcopus factus, fidei docendae, sacramentis celebrandis, pauperibus adiuvandis atque Christianis temporibus adversis confirmandis operam dedisset.
+
+Ministerium eius temporibus turbulentis post persecutionem sub imperatore Diocletiano anno Domini 303 initam explicatum est. Quamquam imperatoriae rationes erga Christianos tempore mutatae sunt et per Imperium Romanum variae fuerunt, multi fideles adhuc hostilitatem patiebantur. Traditiones Blasii martyrium persecutioni sub Licinio adscribunt, qui regiones orientales imperii ineunte quarto saeculo regebat.
+
+Periculo imminente, Blasius in speluncam montis Argei secessisse dicitur, ubi orationi et contemplationi se dedit. Secundum Acta eius hagiographica, ferae ad eum pacifice accedebant, atque earum aegrotis vel vulneratis curabat. Venatores, qui in montem intraverant ut animalia ad spectacula publica caperent, episcopum inter eas creaturas versantem invenisse atque auctoritates locales de eius praesentia certiores fecisse traduntur.
+
+Narratio de Blasio inter feras concorditer vivente argumentum in hagiographia christiana saepe recurrens ostendit: sanctitas hominis Deo devoti per pacem, misericordiam atque cum universa creatione necessitudinem restitutam manifestatur. Solitudo quoque episcopum depingit cuius robur spirituale non ex potentia saeculari, sed ex oratione et fidelitate erga Christum proveniebat.
+
+### Miraculum Pueri
+
+Celeberrima narratio de vita Blasii ad puerum pertinet, qui osse piscis in gutture haerente strangulabatur. Secundum traditionem, cum Blasius in custodiam duceretur, mater anxia filium suum ad eum attulit atque auxilium imploravit. Episcopus super puerum oravit, qui mirabiliter sanatus est.
+
+Haec narratio fundamentum famae Blasii ut medici sanantis facta est atque eius diuturnam coniunctionem cum morbis gutturis explicat. Eadem quoque misericordem eius indolem ostendit: etiam cum carcerem et mortem fortasse imminere cerneret, aliorum doloribus attentus manebat.
+
+Christianis, haec narratio fidem exprimit qua dolor corporis Deo per orationem et sanctorum intercessionem committi potest. Non significat sanationem certo eventuram esse, sed fideles invitat ut divinum auxilium petant, dum suae valetudini prudenter consulere pergunt.
+
+### Captivitas et Martyrium
+
+Postquam in montibus repertus est, Blasius ad Agricolam, praesidem Romanum, adductus esse traditur atque iussus fidem christianam abnegare. Christum abnegare recusavit et gravissimis tormentis subiectus est. Traditiones tormenta describunt quibus pectines ferrei eius carnem lacerabant; hoc instrumentum postea unum ex praecipuis eius attributis in arte christiana factum est.
+
+Narrationes servatae in singulis rebus discrepant, atque condiciones exactae mortis eius independenter confirmari non possunt. Secundum traditionem tamen, Blasius tandem circa annum Domini 316 capite truncatus est. Martyrium eius testimonium factum est persuasionis qua fidelitas erga Christum propriae saluti anteponebatur.
+
+In Ecclesia antiqua martyres tamquam testes honorabantur, quorum perseverantia profunditatem fidei manifestabat. Narratio Blasii ad hanc traditionem pertinet: medicus, qui aegrotos curaverat, ipse tandem dolorem sustinuit potius quam Evangelium desereret.
+
+### Cultus Sancti Blasii
+
+Devotio erga Sanctum Blasium per orbem christianum late diffusa est ineunte Medio Aevo. Nomen eius in martyrologiis occidentalibus apparuit, atque ecclesiae ei dedicatae sunt tam in traditionibus Orientalibus quam Occidentalibus. Tandem unus ex Quattuordecim Sanctis Auxiliatoribus factus est, quorum auxilium praesertim temporibus morbi et periculi imploratur.
+
+Eius coniunctio cum morbis gutturis originem dedit benedictioni gutturis traditae, in qua duae candelae decussatae prope guttur ponuntur, dum oratio Deum per sancti intercessionem rogat ut a morbis gutturis aliisque malis tueatur. Hic ritus adhuc significativam fiduciae christianae in divina providentia expressionem praebet, non autem promissionem immunitatis a morbis neque medicinae curandae substitutionem.
+
+In arte christiana, Blasius plerumque episcopus cum baculo pastorali tenens depingitur. Interdum etiam cum candelis decussatis repraesentatur, quae benedictionem eius intercessioni coniunctam commemorant, vel cum pectinibus ferreis, quae tormenta in Actis eius traditis descripta revocant. Imagines animalium eum interdum comitantur, memoriam solitudinis eius fabulosae in monte Argeo evocantes.
+
+### Testis Caritatis et Fidei
+
+Sanctus Blasius in devotione christiana figura perennis manet, quia vita eius tradita curam pastoralem, misericordiam erga patientes atque fortitudinem persecutionis tempore coniungit. Ut medicus, curam aegrotorum repraesentat; ut episcopus, fidele ministerium Ecclesiae; ut martyr, constantem devotionem erga Christum.
+
+Quamquam multa eius biographiae singularia ad posteriorem traditionem hagiographicam pertinent, significatio spiritualis testimonii eius per saecula perduravit. Narratio eius Christianos hortatur ut laborantibus subveniant, in adversis perseverent atque dolores suos Deo committant.
+
+Per traditionem pueri mirabiliter sanati atque memoriam martyrii sui, Sanctus Blasius adhuc persuasionem christianam exprimit caritatem etiam temporibus periculi constantem manere debere, atque fidem suam plenissime in amore, fortitudine et fidelitate erga Evangelium manifestare.
+$desc$),
+('saint-ansgar', 'la',
+$desc$Sanctus Ansgarius, etiam Anschar vel Anskar appellatus, monachus Benedictinus, missionarius et archiepiscopus Hamburgensis-Bremensis fuit, qui vitam suam evangelizandis populis Europae septentrionalis dedicavit. Natus in Picardia, regione Francorum, circa annum Domini 801, institutionem religiosam in monasteriis Corbeiensi et Corbeiensi Novo accepit, antequam itinera missionaria in Daniam et Sueciam susciperet. Quamvis perturbationes politicae, oppositionem et sedis episcopalis suae a Vikingis vastationem pateretur, Ansgarius in Evangelio annuntiando communitatibusque christianis constituendis perseveravit. Apostolus Septentrionis appellatus, ardorem missionarium cum humilitate, oratione et misericordia erga pauperes atque in servitute detentos coniunxit. Bremis anno Domini 865 mortuus est, diuturnum vestigium relinquens in graduali Scandinaviae christianizatione atque historia Ecclesiae mediaevalis.$desc$,
+
+$desc$Ansgarius, cuius nomen etiam Anschar vel Anskar scribitur, circa annum Domini 801 in Picardia, in Imperio Francorum, natus est. Vita eius tempore acta est quo Christianismus in magna parte Europae occidentalis iam alte radicatus erat, sed populis Scandinaviae adhuc parum cognitus manebat. E familia Francica ortus, matrem adhuc puer amisit atque monasterio Benedictino Corbeiensi educandus traditus est. Ibi orationis, studii et disciplinae monasticae consuetudo institutionem eius spiritualem formavit eumque ad vocationem praeparavit quae tandem longe ultra mundum iuventutis eius notum eum ductura erat.
+
+Secundum biographiam a discipulo eius et successore Rimberto conscriptam, Ansgarius iuvenis visiones religiosas expertus est, quae devotionem eius firmaverunt atque desiderium excitaverunt Christo per abnegationem sui serviendi. Quamvis tales narrationes secundum normas hagiographiae mediaevalis intellegendae sint, specimen spirituale exprimunt quod vitam eius regebat: voluntatem commodis personalibus renuntiandi, ut Evangelium iis annuntiaret qui illud nondum acceperant.
+
+### Monachus ad Missionem Vocatus
+
+Circa annum Domini 822, Ansgarius ad Corbeiam Novam translatus est, novum monasterium Benedictinum in Saxonia. Ibi magister et praedicator functus est, scientiam atque experientiam pastoralem evolvens, quae operi eius missionario necessariae futurae erant. Vita eius mutata est cum Haraldus Klak, Danorum princeps, auxilium Ludovici Pii imperatoris Francorum petivit ut auctoritatem politicam in Dania recuperaret. Haraldus baptismum accepit ut partem societatis cum imperatore, atque expeditio missionaria ad eum comitandum ordinata est.
+
+Circa annum Domini 826, Ansgarius una cum monacho Autberto septentrionem petivit, ut apud Danos praedicaret. Missio magnas difficultates obviam habuit. Condicio politica Haraldi incerta erat, doctrina Christiana magnae parti populi ignota erat, atque missionarii praesidio principum nitebantur, quorum auctoritas celeriter mutari poterat. Cum Haraldus potestatem amisisset, prima expeditio turbata est, Ansgariumque coegit ut magnam partem operis iam incohati desereret.
+
+Hoc impedimentum finem vocationis suae non existimans, Ansgarius novam occasionem accepit. Circa annum Domini 829, missioni in Sueciam destinatae se adiunxit, ubi Bircam, insignem mercaturae sedem, petivit. Ibi ei licuit fidem Christianam praedicare atque ecclesiam constituere. Eius praesentia magni momenti gradum in historia Christianismi Scandinavici significavit, quamquam conversorum numerus et diuturna communitatis firmitas definiri difficile manent.
+
+### Apostolus Septentrionis
+
+Opus missionarium Ansgarii a Francorum aula atque universa Ecclesia animadversum est. Anno Domini 831, primus archiepiscopus Hamburgensis factus est, cui cura promovendi Christianismi apud populos regionum septentrionalium commissa erat. Gregorius IV papa postea latiorem missionis potestatem ei tribuit, eius locum tamquam repraesentantis operis Ecclesiae ad Scandinaviam evangelizandam confirmans.
+
+Officia eius ultra praedicationem extendebantur. Ansgarius cum principibus agere, communitates Christianas protegere atque fundamenta organizationis ecclesiasticae constituere debebat, quae mutationibus politicis superesse posset. Actio missionaria benevolentia auctoritum localium pendebat, cum licentia ecclesias aedificandi vel clericos retinendi quoties societates politicae mutabantur revocari posset.
+
+Anno Domini 845, incursiones Vikingorum Hamburgum vastaverunt, magnam partem structurarum ecclesiasticarum urbis delentes atque Ansgarium ad missionem difficillimis condicionibus reficiendam cogentes. Vastatio gravis iactura fuit, sed eius constantiam non exstinxit. Officia eius episcopalia tandem cum iis Bremensibus coniuncta sunt, fundamentum futurum archiepiscopatus Hamburgensis-Bremensis constituentes.
+
+Ansgarius decennio 850 exeunte in Daniam rediit atque conatus suos apud incolas renovavit. Licentiam ab rege Horico II impetravit ecclesiam Hedeby, insigni mercaturae centro, constituendi, atque cultum Christianum in aliis regionis locis provehendit. Traditio quoque opus eius cum ecclesiae Ripa constituenda coniungit. Haec fundamenta initia modesta erant, sed loca creare adiuverunt ubi doctrina et cultus Christianus etiam absente uno missionario permanere possent.
+
+### Missio Patientia et Caritate Fundata
+
+Res gestae Ansgarii suo historico contextu intellegendae sunt. Conversio Scandinaviae neque immediata neque completa eius vita fuit. Christianismus cum traditionibus religiosis iam constitutis certabat, atque praesidium ab uno principe oblatum sub alio evanescere poterat. Etiam ubi ecclesia condebatur, eius continuata exsistentia non necessario significabat populum circumstantem fidem Christianam amplexum esse.
+
+Attamen significatio Ansgarii in ipsa eius perseverantia sita erat. Opus suum continuavit, quamvis adversa politica, Hamburgi vastatio et incerta praedicationis suae acceptio eum affligerent. Potius quam vi successum quaerere, doctrina, exemplo personali et necessitudinibus cum principibus communitatibusque localibus nitebatur.
+
+Ministerium eius etiam opera misericordiae complectebatur. Narrationes mediaevales eum pauperibus attentum, erga indigentes liberalem et de hominibus captivitate servituteque oppressis sollicitum depingunt. Hae actiones persuasionem Benedictinam reflectebant, secundum quam oratio et servitium coniuncta esse debent. Evangelii annuntiatio non solum alios ad doctrinam Christianam accipiendam persuadere significabat, sed etiam vitam caritate et observantia dignitatis humanae formatam postulabat.
+
+Exemplum Ansgarii peculiari modo significans est, quia opus missionarium huius aetatis saepe cum ambitionibus politicis principum Francorum coniungebatur. Eorum desiderium necessitudines Christianas cum populis finitimis constituendi propositis diplomaticis et strategicis inservire poterat. Ansgarius intra hunc mundum politicum operabatur, attamen specimen eius spirituale circa animarum salutem et fidele Christo servitium manebat.
+
+### Ultimi Anni et Perennis Hereditas
+
+Ansgarius officia sua missionaria et episcopalia usque ad mortem Bremis anno Domini 865 continuavit. Discipulus eius Rimbertus, qui ei in archiepiscopatu successit, postea vitam eius conscripsit, pretiosa testimonia de itineribus, vita religiosa et difficultatibus primarum missionum Christianarum in Scandinavia servans.
+
+*Vita Anskarii* fons essentialis est ad cursum vitae Ansgarii intellegendum, quamquam narrationes de visionibus et miraculis normas religiosas illius aetatis reflectunt. Debita cura historica lecta, insignem imaginem missionarii praebet, cuius opus perseverantia potius quam successu extraordinario aut immediato nitebatur.
+
+Ansgarius integram populorum Nordicorum christianizationem non vidit. Haec mutatio subsequentibus generationibus evoluta est, praesertim cum principes Scandinaviae Christianismum magis magisque amplexi sunt atque ecclesiarum localium constitutionem sustinuerunt. Nihilominus communitates et necessitudines quas constituere adiuvit fundamentis inservierunt, quibus posteriores conatus missionarii aedificare potuerunt.
+
+Fama eius ut *Apostoli Septentrionis* perennem vocationis eius significationem exprimit. Fines culturales et politicos transiit ut Evangelium annuntiaret, adversa iterata sine missione deserta toleravit atque contemplationem cum caritate practica coniungere studuit. Vita eius Christianos admonet evangelizationem saepe opus graduale esse, quod patientia, oratione et fidelitate, non autem immediatis effectibus, sustentatur.
+
+Hereditas Sancti Ansgarii non eo nititur quod totam regionem vivens convertisset, sed constantia qua missioni se devovit, cuius effectus ultra annos vitae suae protracturi erant. Per humilitatem, fortitudinem et perseverantiam suam, unus ex praecipuis fundamentorum positoribus in historia Christianismi Scandinavici factus est atque exemplum perenne fidei missionariae reliquit.
+$desc$),
+('saint-agatha', 'la',
+$desc$Sancta Agatha Sicula fuit virgo et martyr christiana antiquae aetatis, quae Cataniae persecutionem passa est saeculo tertio, traditione ad imperatorem Decium circa annos Domini 250–251 referenda. Ob consecrationem suam Christo et recusationem fidem abnegandi memorata, una ex mulieribus martyribus antiquae Ecclesiae maxime veneratis facta est. Secundum Acta eius traditionalia, Quintianus, magistratus Romanus, postquam illa eius avances reiecit, eam sibi subicere conatus est atque carceri et crudelibus tormentis subiecit. Quamvis haec pateretur, Agatha in sua erga Deum devotione constans permansit et pro Evangelio testimonium reddens mortua est. Cultus eius per orbem christianum diffusus est, atque patrona Cataniae et intercessor traditionalis contra incendia et eruptiones vulcanicas facta est. Vita eius usque hodie dignitatem fidelitatis christianae, robur amoris Deo consecrati atque spem docet, quae fidem superare non potest.$desc$,
+
+$desc$Agatha, cuius nomen in traditione christiana cum bonitate et nobilitate coniunctum est, ad numerum antiquissimarum Ecclesiae feminarum martyrum pertinet. Traditio eam cum Catana, in Sicilia, coniungit, ubi persecutionem Christianorum sub Romanis saeculo tertio passa est. Quamquam singularia de eius ortu et familia incerta manent, eius martyrium atque prima veneratio memoriae eius coniuncta multo certius historice comprobantur quam narrationes dramaticae quae postea de vita eius ortae sunt. Narratio eius expressio perennis facta est fortitudinis, puritatis cordis et fidelitatis erga Christum coram violentia.
+
+Praecipua narratio de vita eius in *Actis Sanctae Agathae* servatur, quae aliquot saeculis post res descriptas conscripta sunt. Haec scripta memoriam martyris antiquae cum conventionibus religiosis et litterariis hagiographiae coniungunt. Singula eorum omnia historice comprobari non possunt, sed diuturna Agathae veneratio momentum testimonii eius in communitate christiana primitiva confirmat.
+
+### Vita Christo Consecrata
+
+Secundum traditionem, Agatha in familia locupleti Siciliae nata est, quamquam et Catana et Panormus cum eius origine coniunctae sunt. Ab ineunte aetate, ut traditur, fidem christianam singulari devotione amplexa est atque virginitatem suam Deo consecravit. Hoc propositum desiderium exprimebat totam ad Christum pertinendi, fidelitatem spiritualem supra societatis exspectationes et mundanae promotionis illecebras ponens.
+
+In communitatibus christianis saeculi tertii, talis consecratio expressionem fidei radicalem constituebat. Christiani vitam suam Deo pertinere intelleg ebant, atque electio virginitatis publicum testimonium libertatis a Evangelio oblatae fieri poterat. Agathae, prout in narrationibus traditionalibus depingitur, hoc propositum non tantum privata voluntas fuit. Fundamentum factum est constantiae eius, cum coercitioni et persecutioni obviam iret.
+
+Narratio eius tempore imperatoris Decii evolvitur, cuius persecutio, circa annos Domini 249–250 incepta, Christianis in multis imperii partibus sacrificia tamquam signa fidelitatis religiosae offerenda imposuit. Qui recusabant, interrogationem, carcerem et supplicia subire poterant. Quamquam exactae condiciones iudicii Agathae incertae manent, traditio eius passionem intra hanc latiorem Christianorum persecutionis aetatem collocat.
+
+### Iudicium Coram Quintiano
+
+Acta traditionalia Quintianum, magistratum Romanum, virum persecutionis Agathae responsalem nominant. Secundum narrationem, eius pulchritudine et dignitate sociali captus, eam voluntati suae subicere cupivit. Agatha recusavit, consecratione sua Christo innixa, atque haec recusatio eius inimicitiam excitavit.
+
+Quintianus eam cuidam mulieri nomine Aphrodisiae custodiendam tradidisse fertur, sperans persuasionem atque mundanarum voluptatum experientiam constantiam eius debilitaturas esse. Agatha tamen in christiano proposito firma permansit. Cum hi conatus frustra essent, ad auctoritates ducta est atque iussa fidem suam abnegare.
+
+Discrimen inter has duas personas pars centralis hereditatis spiritualis sanctae factum est. Quintianus abusum auctoritatis terrenae repraesentat, qua conscientia alterius coercere conatur; Agatha autem fidelitatem significat quae neque promissis emi neque minis frangi potest. Fortitudo eius non ut superbia aut contumacia propter se ipsam, sed ut fructus conscientiae erga Deum devotae formatae exhibetur.
+
+Interrogationis tempore, secundum traditionem, Agatha Christum palam confessa est atque sacrificiis paganis participare recusavit. Responsum eius persuasionem martyrum antiquae Ecclesiae reflectit, secundum quam nulla potestas terrena supremam fidelitatem sibi vindicare potest, quae soli Deo debetur.
+
+### Passio et Martyrii Testimonium
+
+Narratio traditionalis Agatham gravia tormenta passa esse describit, postquam fidem suam abnegare recusavit. Inter narrationis partes maxime dolendas est mutilatio uberum eius, quae eius repraesentationem in arte christiana formavit atque ad posteriorem eius patrocinii consuetudinem erga eos qui morbis mammarum laborant contulit.
+
+Haec singularia ad posteriores narrationes hagiographicas pertinent neque pro factis historicis independenter comprobatis habenda sunt. Nihilominus, argumentum principale narrationis perspicuum est: Agatha tamquam mulier memorata est quae violentiam toleravit potius quam Christo consecrationem suam desereret.
+
+Secundum traditionem, Sanctus Petrus ei in carcere apparuit atque vulnera eius sanavit. Cum iterum coram Quintiano adducta esset, sanatio eius persecutores obstupefecit. Narratio hanc sanationem tamquam signum exhibet vitam eius in manibus Dei mansisse, etiam cum auctoritates humanae eam perdere conarentur.
+
+Passio eius continuata est, atque tandem in carcere vel paulo post mortua est, traditione mortem eius circa annum Domini 251 collocante. Dies et condiciones exactae mortis eius certo constitui non possunt. Memoria tamen martyrii eius permansit, a communitate christiana Siciliae servata atque in Ecclesiam universam propagata.
+
+Christianis martyrium supremum fidelitatis erga Christum testimonium intellegitur. Narratio Agathae crudelitatem ipsam non glorificat; potius fortitudinem eius honorat, quae violentiam veritatem fidei suae definire non sivit. Testimonium eius generationibus Christianorum, quae persecutionem patiebantur aut in doloribus personalibus robur quaerebant, peculiari modo significativum factum est.
+
+### Patrona Cataniae
+
+Devotio erga Sanctam Agatham ultra Siciliam exeunte antiquitate diffusa est. Nomen eius in antiquis martyrologiis christianis apparet, atque saeculo sexto iam inter virgines martyres Ecclesiae celebres numerabatur. Cultus eius praesertim Cataniae invaluit, ubi tamquam caelestis protectrix honorabatur.
+
+Eius coniunctio cum monte Aetna traditionibus orta est, quae intercessionem eius cum tutela urbis ab eruptionibus vulcanicis coniungebant. Una celebris narratio refert anno Domini 252 incolas Cataniae velum eius contra fluentem lavam appropinquantem tulisse, quae deinde urbem minari desiit. Quamquam haec narratio ad traditionem devotionis pertinet, altam necessitudinem inter sanctam et populum qui eius protectionem in calamitatibus naturalibus implorabat ostendit.
+
+Saeculorum decursu, intercessio Agathae etiam contra incendia aliaque pericula implorata est. Devotio eius per Mare Mediterraneum diffusa est, atque una ex mulieribus martyribus in Christianismo occidentali maxime veneratis facta est. Nomen eius in Canonem Romanum receptum est, quod singularem locum quem in memoria liturgica Ecclesiae obtinebat demonstrat.
+
+In arte christiana, Agatha vulgo cum palma depingitur, quae antiquum martyrii symbolum est. Etiam cum patina uberibus suis ferendis repraesentari potest, passionem in Actis eius traditionalibus descriptam commemorans. Hae imagines memoriam passionis eius servant, simulque ad christianam persuasionem spectant, secundum quam passio in fidelitate erga Christum tolerata ultimum verbum non habet.
+
+### Exemplum Fidei Perennis
+
+Biographia historica Sanctae Agathae incompleta manet, atque multa singularia narrationis eius ex scriptis saeculis post mortem eius compositis proveniunt. Attamen prima et late diffusa eius veneratio momentum eius in memoria Ecclesiae antiquae confirmat. Distinctio inter testimonia historica et traditionem devotionis efficit ut hereditas eius aestimari possit, quin significatio spiritualis testimonii eius minuatur.
+
+Vita eius usque hodie exemplum praestans fortitudinis, consecrationis et spei praebet. Agatha tamquam mulier memoratur quae necessitudinem suam cum Christo supra coercitionem et potentiam mundanam posuit, dolorem potius accipiens quam fidem quam profitebatur abnegans. Exemplum eius praesertim eos alloquitur qui iniustitiam, minas dignitati suae illatas aut probationes suas intimas persuasiones temptantes patiuntur.
+
+Per saecula, Christiani ad Sanctam Agatham confugerunt non solum ut patronam Cataniae et protectricem contra incendia, sed etiam ut exemplar constantis amoris erga Deum. Testimonium eius proclamat fidelitatem christianam spe altiore quam timor sustentari atque hominem etiam inter dolores dignitatem retinere quam violentia delere non potest. In eius memoria, Ecclesia fortitudinem martyrum et vim perennem vitae Christo consecratae honorare pergit.
+$desc$),
+('saint-paul-miki', 'la',
+$desc$Sanctus Paulus Miki fuit Iaponicus e Societate Iesu, praedicator ingeniosus et martyr, qui vitam suam pro Christo tradidit durante persecutione Christianorum sub Toyotomi Hideyoshi. Natus circa annum Domini 1564 in familia christiana prope Kyotum, institutionem suam a missionariis Societatis Iesu accepit atque eloquentia, profunda fidei cognitione et facultate Christianismum populo Iaponico explicandi innotuit. Fine anni 1596 comprehensus una cum viginti quinque aliis Christianis, inter quos missionarii, fratres religiosi et laici erant, Nagasakium pedibus ducendus coactus est, ubi die 5 Februarii 1597 crucifixus est. Etiam in cruce Evangelium annuntiare perrexit atque iis qui mortis eius causam attulerant veniam dedit. A Pio IX papa anno 1862 una cum sociis suis canonizatus, unus ex praecipuis testibus Ecclesiae Iaponicae primitivae manet atque exemplum perenne fortitudinis missionariae, veniae et fidelitatis erga Christum.$desc$,
+
+$desc$Paulus Miki circa annum Domini 1564 in familia christiana in Iaponia, prope regionem Kyotoensem, natus est. Pater eius ad ordinem bellatorum pertinebat atque Christianismum amplexus erat, fidem quae per insulas Iaponicas diffundi coeperat post adventum Sancti Francisci Xavierii anno 1549. Iuvenis Paulus in societate crevit ubi traditiones religiosae antiquae alte radicatae manebant et ubi Christianismus, quamvis in quibusdam regionibus magis magisque valeret, praesentiae missionariorum exterorum et mutabilium societatum politicarum arcte coniungebatur.
+
+Ab ineunte aetate Paulus a Iesuitis educatus est, quorum opus missionarium Evangelii annuntiationem cum studio linguae et culturae Iaponicae coniungebat. Formationem eorum ingressus, eximiam facultatem doctrinae Christianae explicandae excoluit. Ingenium eius, eloquentia et familiaritas cum notionibus religiosis popularium suorum eum praesertim aptum reddebant ad disputandum cum monachis Buddhistis aliisque hominibus qui novam fidem cognoscere cupiebant.
+
+### Vox Iaponica pro Evangelio
+
+Per alteram partem saeculi sexti decimi, Christianismus in quibusdam Iaponiae regionibus celeriter crevit. Missionarii ecclesias, scholas et instituta caritatis condiderunt, dum conversi Iaponici magis magisque momenti in vita Ecclesiae habebant. Paulus Miki hanc novam generationem Christianorum localium repraesentabat, qui Evangelium ex ipsa sua cultura annuntiare poterant.
+
+Paulus, dissimilis missionariis exteris qui milia passuum iter fecerant ut Iaponiam attingerent, linguam, mores et traditiones intellectuales populi sui noverat. Praedicatio eius demonstrare adiuvit Christianismum non solum Europaeis proprium esse, sed etiam ab ipsis Iaponicis amplecti et annuntiari posse. Fidem clare explicare studebat, quaestionibus respondens et argumenta religiosa cum persuasione et reverentia impugnans.
+
+Vocatio Pauli intra Societatem Iesu evoluta est, cuius missionarii educationem, disciplinatam vitam spiritualem et formationem communitatum christianarum localium extollebant. Quamvis saepe sacerdos Iesuita describatur, tempore comprehensionis nondum sacerdos ordinatus erat. Formationem religiosam adhuc perficiebat, sed fama eius ut praedicatoris iam eum personam magni momenti in Ecclesia Iaponica fecerat.
+
+### Persecutio Sub Toyotomi Hideyoshi
+
+Condiciones politicae quae initio Christianismum crescere permiserant paulatim magis infestae factae sunt. Toyotomi Hideyoshi, potens princeps qui Iaponiam unificare conabatur, magis magisque suspectam habebat religionis exterae vim. Anno 1587 edictum tulit quo missionarii expellerentur, quamvis eius exsecutio non constanter observaretur et communitates christianae in pluribus regionibus crescere pergerent.
+
+Res mense Decembri anni 1596 ulterius ingravescerunt. Postquam navis Hispanica in Iaponia in vadum incurrerat, verba cuidam ex eius nautarum numero attributa suspiciones auxerunt ne actio missionaria initium futurae dominationis exterae esset. Hideyoshi comprehendi iussit missionarios Franciscales et Christianos Iaponicos eis coniunctos. Paulus Miki et duo alii Iesuitae, Iacobus Kisai et Ioannes de Goto, quoque in custodiam abducti sunt.
+
+Captivi Kyotum adducti sunt, ubi publice humiliati sunt. Secundum narrationes de eorum martyrio, pars auris sinistrae cuiusque captivi abscissa est antequam per vias urbis circumducerentur. Poena eo consilio inflicta est ut eos pudore afficeret atque alios a Christianismo deterreret.
+
+Spectaculum tamen captivos non obmutuit. Fidem suam abnegare recusantes, se invicem confirmaverunt atque Evangelium annuntiare perrexerunt. Publica eorum passio testimonium praeter intentionem facta est fortitudinis communitatis christianae et constantiae eorum qui Christum deserere nolebant.
+
+### Iter ad Nagasakium
+
+Post incarcerationem, viginti sex Christiani iussi sunt meridiem versus ad Nagasakium iter facere, quod insigne Christianismi centrum in Iaponia erat. Iter longum et exhaustum fuit, atque captivi per viam ludibrio et hostilitate afficiebantur. Quamvis paterentur, Paulus et socii eius orare atque eos quos obvios habebant confirmare perrexerunt.
+
+Destinatio eorum erat collis extra Nagasakium situs, ubi crucifigi debebant. Haec poena peculiari modo significans erat in regione ubi crucifixio forma supplicii nota erat, quamvis modus adhibitus a crucifixione Romana, ex Passione Christi nota, differret.
+
+Grex sex missionarios Franciscales, tres Iesuitas et septemdecim alios Christianos complectebatur, inter quos catechistae et laici erant. Diversae eorum condiciones amplitudinem Ecclesiae Iaponicae nascentis ostendebant: quidam vitam religiosam elegerant, alii magistri, adiutores aut simplices communitatum christianarum sodales fuerant.
+
+Inter eos iuvenes erant qui fidem amplexi erant, quamvis pericula eos circumstarent. Praesentia eorum demonstrabat Christianismum ultra circulos missionariorum exterorum et conversorum potentium radices egisse. Captivi communitatem repraesentabant quae propriam identitatem intra societatem Iaponicam constituere coeperat.
+
+### Sermo Ex Cruce
+
+Die 5 Februarii 1597, Paulus Miki et viginti quinque socii eius prope Nagasakium crucifixi sunt. Secundum traditionem Iesuiticam, Paulus ultimis vitae suae momentis turbam ad eorum supplicium spectandum congregatam allocutus est. Christianum se esse declaravit atque fidem quam tota vita praedicaverat defendit.
+
+Testimonium eius ultimum in Christi nuntio et mandato inimicos diligendi positum erat. Iis qui damnationis eius responsales erant veniam dedit atque spem expressit fore ut persecutores eius fidem Christianam cognoscerent. Pro violentia odio respondendo, venia respondit quam ex Evangelio didicerat.
+
+Hic ultimus sermo una ex partibus narrationis eius maxime perennibus factus est. Sicut Christus crucifixus quem sequebatur, Paulus veniam non tamquam infirmitatem, sed tamquam profundam fidei expressionem exhibuit. Fortitudo eius non solum in morte accipienda, sed etiam in recusatione odium ultimis suis verbis dominari sinendi consistebat.
+
+Carnifices tandem viginti sex Christianos lanceis interfecerunt. Eorum mortes unum ex eventibus gravissimis in historia Ecclesiae Iaponicae primitivae constituerunt. Quamvis persecutio communitates christianas graviter debilitaverit, eas non delevit. Saeculis sequentibus fideles fidem suam servare perrexerunt, interdum clam, preces et traditiones christianas intra familias suas transmittentes.
+
+### Canonizatio et Hereditas Perennis
+
+Memoria Pauli Miki et sociorum eius per universum orbem catholicum diffusa est. Testimonium eorum validum symbolum universalitatis Ecclesiae factum est: Christiani ex diversis nationibus, condicionibus et vitae statibus eandem sortem passi sunt propter fidelitatem suam erga Christum.
+
+Pius IX papa viginti sex martyres anno 1862 canonizavit. Eorum agnitio momentum Ecclesiae Iaponicae confirmavit atque eos honoravit qui tempore persecutionis fideles permanserant. Paulus Miki peculiari fama floruit tamquam missionarius Iaponicus qui Christianismum propria lingua et cultura annuntiaverat antequam vitam suam pro fide traderet.
+
+Hereditas eius etiam lucem affert super Christianismi in Iaponia conservationem. Quamvis institutiones christianae publicae postea suppressae sint, communitates fidelium identitatem religiosam suam per generationes clandestinae vitae religiosae servaverunt. Cum missionarii saeculo undevicesimo redierunt, Christianos invenerunt qui elementa fidei suae servaverant, quamvis diuturna isolatione affecti essent.
+
+Sanctus Paulus Miki exemplum permovens fortitudinis missionariae, persuasions intellectualis et veniae christianae manet. Vita eius demonstrat Evangelium in culturis longe a loco originis suae radices agere atque ab hominibus annuntiari posse qui societatem suam ex intimo cognoscunt. Mors eius, una cum viginti quinque sociis tolerata, fidem testatur quae hostilitati politicae et passioni personali restitit, nuntium suum essentialem non deserens.
+
+Prae omnibus, ultimum Pauli testimonium cor vocationis eius exprimit: Christum annuntiare, etiam eos diligere qui fideles persequuntur atque futurum Ecclesiae Deo committere. Martyrium eius admonet testimonium christianum non solum ex successu externo aestimandum esse, sed etiam ex fortitudine fideliter perseverandi et voluntate ignoscendi, cum fidelitas supremum sacrificium postulet.
+$desc$),
+('saint-jerome-emiliani', 'la',
+$desc$Sanctus Hieronymus Aemilianus fuit presbyter Italicus et fundator Clericorum Regularium Somaschae, ob devotionem erga orphanos, infantes derelictos et pauperes insignis. Venetiis circa annum 1486 natus, miles fuit antequam captivitas eum ad profundam cordis conversionem duceret. Fide renovata et devotione erga Beatam Virginem Mariam incitatus, pristinam vitae rationem reliquit atque operibus caritatis se dedicavit. Famis et pestilentiae, quae Italiam septentrionalem anno 1528 afflixerunt, tempore, opes suas impendit ut aegrotis consuleret, esurientes aleret et pueros orphanis parentibus orbatos reciperet. Postea instituta caritatis condidit atque congregationem religiosam fundavit, quae iuventutis inopia et periculis expositae educationi curaeque dedicata erat. Morbo letali contracto dum aegrotis ministraret, Somaschae anno 1537 mortuus est. A Clemente XIII papa anno 1767 canonizatus, Sanctus Hieronymus Aemilianus pater puerorum derelictorum et perennis testis vim misericordiae divinae transformantis commemoratur.$desc$,
+
+$desc$Hieronymus Aemilianus, Anglice Jerome Emiliani vel Jerome Miani appellatus, Venetiis circa annum 1486 in familia honorata natus est, tempore quo Respublica Veneta florentem aetatem Renascentiae agebat. Prima eius vitae anni societate insigniebantur in qua militiae servitium, officium civile et familiae honor magnum momentum habebant. Iuvenis militiam secutus est atque bellis quae Italiam septentrionalem perturbabant implicatus est. Ambitiones tamen primae vitae eius tandem vocationi longe diversae cesserunt, quae non in terrena potestate, sed in servitio eorum qui maxime auxilio indigebant posita erat.
+
+### Captivitas et Conversio
+
+Circa annum 1511, dum Hieronymus munere ducis militaris apud Castrum Novum fungebatur, ab hostibus captus et in carcerem coniectus est. Captivitas eius momentum decisivum in itinere spirituali facta est. A negotiis et distractionibus vitae pristinae separatus, relationem suam cum Deo atque viam quam vita eius ceperat altius meditari coepit.
+
+Secundum traditionem catholicam, Hieronymus ad Beatam Virginem Mariam oravit eiusque intercessioni se commendavit. Tandem liberatus est, liberationem suam tamquam gratiam singularem et vocationem ad conversionem interpretatus. Gratus, peregrinationem ad Marianum sanctuarium Tarvisii suscepit, votum liberationi suae coniunctum implens.
+
+Haec experientia intellectum eius libertatis transformavit. A captivitate corporali liberatus, Hieronymus intellexit etiam cor superbia, ambitione et studio prosperitatis mundanae captivum teneri posse. Magis magisque vitam suam Deo servire destinavit, orationem et caritatem locum ambitionis militaris antea occupatum tenere sinens.
+
+Post reditum Venetias, educationis nepotum suorum curam suscepit. Hoc tempore cognitionem doctrinae christianae auxit atque operibus caritatis magis magisque implicatus est. Conversio eius gradatim et per opera effecta est: non tantum in devotione personali manifestabatur, sed etiam in crescente sollicitudine erga eos quorum paupertas et dolor omne praesidium ademerant.
+
+### Pater Orphanorum et Pauperum
+
+Fames et pestilentia quae Italiam septentrionalem anno 1528 afflixerunt vocationem Hieronymi clarius manifestaverunt. Fames, morbi et perturbatio socialis multas familias in egestatem redegerunt innumerosque pueros parentibus orbaverunt. Hieronymus tempus et opes suas aegrotis, esurientibus et derelictis impendit.
+
+Venetiis auxilium orphanis pueris ordinavit, eis hospitium, cibum, vestes et institutionem religiosam praebens. Intellexit caritatem plus quam auxilium temporarium postulare. Pueri qui familias suas amiserant etiam educatione, ductu et facultate artes necessarias ad vitam independentem comparandi indigebant.
+
+Ratio Hieronymi propter amplitudinem suam practicam insignis erat. Domos orphanis condidit, valetudinaria sustentavit atque dignitatem iis restituere conatus est quos societas saepe neglegebat. Ministerium eius etiam ad mulieres in condicionibus vulnerabilibus extendebatur, inter quas erant illae quae prostitutionem relinquere atque novam vitam inchoare cupiebant. Eius actio pastoralis persuasione nitebatur neminem paupertati relinquendum esse neque a conversionis possibilitate excludendum.
+
+Anno 1532, Hieronymus et nonnulli socii opera caritatis in communitatem religiosam stabiliorem ordinare coeperunt. Propositum eorum erat institutionem christianam cum directa pauperum cura coniungere, praesertim puerorum qui auxilio familiae carebant. Quamvis Hieronymus postea presbyter ordinatus sit, eius spiritualitas in servitio practico radicata mansit: misericordiam Dei visibilem efficere studebat per cotidiana officia alendi, docendi et protegendi eos qui auxilio indigebant.
+
+### Fundatio Somaschae
+
+Opus Hieronymi paulatim ultra Venetias propagatum est. Instituta caritatis in pluribus urbibus Italiae septentrionalis condidit, inter quas Veronam, Brixiam et Bergomum. His in locis curam puerorum orphanorum promovit atque loca creavit in quibus educationem accipere et artem aliquam discere possent.
+
+Tandem Somaschae consedit, in parva communitate inter Mediolanum et Bergomum sita. Ibi circa annum 1532 centrum congregationis condidit, quae Clerici Regulares Somaschae, seu Somasci, appellata est. Sodales eius praecipue orphanorum curae, iuventutis educationi et pauperum servitio se dedicaverunt.
+
+Congregatio persuasionem Hieronymi exprimebat caritatem christianam ordinatam, perseverantem atque in vita orationis radicatam esse debere. Puerorum curam non tamquam opus misericordiae secundarium habebat, sed tamquam centralem Evangelii expressionem. Puerum derelictum protegere significabat dignitatem a Deo collatam agnoscere atque ei futurum praebere posse.
+
+Visio eius educativa institutionem religiosam cum praeparatione practica ad vitam adultam coniungebat. Pueri eius curae commissi non erant simplices auxilii beneficiarii; personae erant quarum facultates et ingenium excoli merebantur. Hac ratione Hieronymus traditionem educationis christianae constituere adiuvit, quae multo post mortem eius continuatura erat.
+
+### Ultimum Sacrificium
+
+Devotio Hieronymi erga aegrotos praesertim manifesta facta est durante recurrentibus epidemicis quae Italiam septentrionalem percutiebant. Eos qui morbis laborabant curare perrexit, recusans ab iis recedere qui eo maxime indigebant. Anno 1537, dum aegrotis in pestilentiae eruptione apud Bergomum ministraret, ipse morbum contraxit.
+
+Somaschae die 8 Februarii 1537 mortuus est. Mors eius habita est tamquam ultima expressio vitae omnino aliorum servitio dedicatae. Vir qui olim gloriam militarem petiverat pater spiritualis puerorum familiis orbatorum atque socius eorum factus erat quos societas dereliquerat.
+
+Post mortem eius communitas quam condiderat incertitudinem subiit, sed socii opus continuaverunt. Congregatio approbationem ecclesiasticam accepit atque paulatim institutum religiosum stabile facta est, peculiarem Hieronymi sollicitudinem de educatione et tutela iuvenum servans.
+
+### Canonizatio et Hereditas Perennis
+
+Fama sanctitatis Hieronymi per Ecclesiam diffusa est. Benedictus XIV papa eum anno 1747 beatificavit, et Clemens XIII papa anno 1767 canonizavit. Anno 1928, Pius XI papa eum patronum universalem orphanorum et puerorum derelictorum proclamavit, locum centralem huius apostolatus in eius hereditate spirituali formaliter agnoscens.
+
+Sanctus Hieronymus Aemilianus exemplum praestans conversionis per concreta misericordiae opera expressae manet. Vita eius demonstrat altam Dei experientiam posse ambitiones humanas ad servitium dirigere, libertatem personalem in donum aliis oblatum transformando. Devotio eius erga Virginem Mariam, perseverantia coram morbo et difficultatibus atque propositum vulnerabiles pueros educandi et protegendi spiritualitatem in fiducia divinae providentiae fundatam manifestant.
+
+Hereditas eius peculiari modo significat in christiana caritatis intellegentia. Hieronymus non solum doloribus praesentibus respondit, sed etiam communitates et instituta creare studuit quae auxilium diuturnum praebere possent. Intellexit pueros non solum cibo et hospitio, sed etiam affectu, institutione et spe indigere.
+
+Per vitam suam et congregationem quam fundavit, Sanctus Hieronymus Aemilianus Ecclesiam admonere pergit mensuram amoris christiani in cura eorum inveniri qui se ipsos facile defendere non possunt. Iter eius a captivitate ad libertatem, ab ambitione militari ad humile servitium atque a conversione personali ad opus caritatis perenne vim gratiae transformantis manifestat. In puero derelicto, aegroto et homine oblivioni tradito, praesentiam Christi agnovit atque vitam suam ei ibi serviendi dedicavit.
+$desc$),
+('saint-josephine-bakhita', 'la',
+$desc$Sancta Iosephina Bakhita fuit religiosa Sudanensis e Congregatione Sororum Canossianarum, cuius vita insigne testimonium libertatis, veniae et gratiae Dei transformantis facta est. In Darfur circa annum 1869 nata, adhuc puella rapta et in servitutem vendita est, annos violentiae et humiliationis passa, antequam tandem in Italiam perveniret. Ibi, per Sorores Canossianas, fidem catholicam cognovit atque necessitudinem cum Deo invenit quae vitam eius transformatura erat. Anno 1890 baptizata, postea vitam religiosam amplexa est atque per decennia communitati suae humilitate, mansuetudine et gaudio servivit. Amabiliter « Mater Moretta » appellata, figura dilecta facta est in oppido Scledensi, ubi anno 1947 mortua est. A Ioanne Paulo II papa anno 1992 beatificata et anno 2000 canonizata, Sancta Iosephina Bakhita tamquam validum testimonium dignitatis humanae, veniae christianae et spei in doloribus commemoratur.$desc$,
+
+$desc$Iosephina Bakhita circa annum 1869 in Darfur, regione occidentali hodiernae Sudaniae, nata est, in familia cuius vita traditionibus communitatis localis innitebatur. Pueritia eius repente eversa est cum a mercatoribus servorum rapta est, probabiliter cum inter septem et novem annos nata esset. Trauma raptus tam vehemens fuit ut postea memoraret se nomen a parentibus sibi impositum meminisse non potuisse. Nomen Bakhita, quod « felix » vel « fortunata » significat, ab iis qui eam in servitutem redegerunt ei impositum est; ironia huius nominis novam significationem decursu vitae eius acceptura erat.
+
+### Captivitatis Dolor
+
+Bakhita pluries in mercatibus servorum regionis vendita est, ab uno domino ad alterum transiens. Vim corporalem, humiliationem et perpetuam incertitudinem vitae toleravit, in qua non ut persona humana, sed ut res habebatur. Unus ex dominis eius eam crudelitate praecipue saeva tractavit, cicatrices permanentes in corpore eius relinquens. Singularia horum eventuum praecipue ex narrationibus postea in vita eius conscriptis oriuntur, sed servitus eius et dolores quos passa est fundamentum historicum praecipuum narrationis eius constituunt.
+
+Tandem Khartum deducta est, ubi in domum Callisti Legnani, officialis consularis Italici, pervenit. Is, dissimilis dominis eius prioribus, relative benigne eam tractavit neque eandem vim in eam exercuit. Primum post multos annos Bakhita securitatem et pacem aliquam experta est.
+
+Cum perturbationes politicae Legnani in Italiam redire coegerunt, Bakhita petivit ut eum comitari posset. Medio decennio 1880 in Italiam pervenit atque deinde familiae Michielorum commissa est, ubi famula domestica laboravit et filiam eorum parvam, Aliciam, curavit. Quamquam condiciones eius meliores factae erant, iure adhuc vulnerabilis manebat, atque futurum eius mox ex decisivo occursu cum fide christiana penderet.
+
+### Deus Qui Eam Diligit Cognoscitur
+
+Anno 1888, Bakhita et Alicia curae Sororum Canossianarum Venetiis commissae sunt, dum familia Michielorum in Africam iter faciebat. In hac communitate religiosa Bakhita Evangelium cognovit atque discere coepit de Deo quem Christiani Creatorem et Patrem amantissimum cuiusque personae humanae praedicant.
+
+Postea narravit se iam pueram sensisse Creatorem aliquem post pulchritudinem solis, lunae et stellarum latere debere. Doctrina sororum huic desiderio nomen et vultum dedit. In Iesu Christo Deum invenit qui dolores humanos cognoscebat, ipse iniustitiam passus erat atque amorem praebebat quem nulla potestas terrena auferre poterat.
+
+Die 9 Ianuarii 1890, Bakhita Baptismum, Confirmationem et primam Communionem suscepit, nomen christianum Iosephinae accipiens. Hic eventus altum vitae eius discrimen constituit. Se iam non praecipue per violentiam quae praeteritam eius vitam formaverat intellexit, sed per necessitudinem cum Deo et dignitatem filiae Eius.
+
+Iter eius ad libertatem nondum completum erat. Cum familia Michielorum rediit atque eam in Africam reducere conata est, Iosephina propositum suum apud Sorores Canossianas manendi firmiter declaravit. Iudicium legale Venetiis habitum statuit eam liberam esse suum futurum eligendi, cum servitus in territorio legibus Italicis pertinentibus legitima non haberetur. Haec sententia, die 29 Novembris 1889 lata, ius eius tuendi in Italia manendi atque formationem christianam continuandi protexit.
+
+### Filia Sanctae Magdalenae de Canossa
+
+Iosephina paulatim vocationem ad vitam religiosam agnovit. Spiritualitate Sanctae Magdalenae de Canossa, Fundatricis Filiarum Caritatis Canossianarum, attracta, se totam Deo et aliorum servitio dedicare cupivit. Anno 1893 novitiatum congregationis ingressa est atque die 8 Decembris 1896 professionem religiosam emisit.
+
+Nova eius vita non publica distinctione, sed humili et fideli servitio insigniebatur. Officia cotidiana in conventu implebat, in coquina laborans, sacellum curans, vestes suens et hospites excipiens. Anno 1902 ad communitatem Canossianam Scledensem, in Italia septentrionali, translata est, ubi reliquam vitam egit.
+
+Ibi amabiliter *Mater Moretta*, id est « Mater Nigra », appellata est. Mores eius mansueti, simplicitas et hilare risum populum localem sibi conciliarunt. Pueri eam praesertim diligebant, atque eandem benignitatem et attentionem eis praebebat quae olim in propria pueritia ei defuerant.
+
+Sanctitas Iosephinae per ordinariam vitae religiosae consuetudinem manifestabatur. Recognitionem propter dolores praeteritos non quaesivit neque ob eos peculiare momentum sibi vindicavit. Potius experientiam suam in servitium eorum qui circa eam erant convertit, hospites excipiens, afflictos confirmans atque vivum patientiae et fiduciae in divina providentia exemplum praebens.
+
+### Venia et Libertas Cordis
+
+Una ex rationibus maxime insignibus hereditatis spiritualis Bakhitae est eius intellectus veniae. Quamvis saevitiam servitutis passa esset, odium tamen vitae suae notam praecipuam fieri recusavit. Fides christiana ei permisit malum sibi illatum a dignitate personae humanae distinguere, etiam cum haec dignitas graviter violata esset.
+
+Venia eius neque intellegenda est tamquam iniustitiae negatio neque tamquam postulatum ut victimae de doloribus suis taceant. Potius persuasio eius ostendit malum non necessario ultimum verbum super cor humanum habere. Vim quam passa erat agnovit, sed facultatem diligendi ab ea deleri noluit.
+
+Hoc testimonium narrationi eius momentum peculiare in historia spiritualitatis christianae tribuit. Libertas Bakhitae non solum mutatio condicionum legalium aut loci geographici fuit. Etiam paulatina spei et identitatis recuperatio atque facultas se Deo committendi comprehendebat, Deo qui eam non derelicturus erat.
+
+Ita vita eius validum testimonium dignitatis cuiusque personae humanae facta est. Mulier quae olim empta et vendita erat, non propter dolores suos, sed propter amorem et fidem quibus vixit honorata est. Experientia eius etiam Ecclesiam admonet pugnam contra servitutem et mercaturam hominum a recognitione dignitatis, quam Deus unicuique personae contulit, seiungi non posse.
+
+### Ultimi Anni et Canonizatio
+
+Cum Iosephina aetate provectior fieret, valetudo eius paulatim deteriorata est. Dolores suos patienter tolerare perrexit, communitati religiosae suae propinqua manens atque eos qui eam visitabant confirmans. Temporibus infirmitatis voluntati Dei se committere solebat, fiduciam exprimens quae eam per totam vitam sustentaverat.
+
+Scledae die 8 Februarii 1947 mortua est. Incolae qui eam amare didicerant mortem eius luxerunt, atque fama sanctitatis eius longe ultra oppidum in quo maximam vitae religiosae partem egerat diffusa est.
+
+Causa canonizationis eius subsequentibus decenniis processit. Ioannes Paulus II papa eam die 17 Maii 1992 beatificavit atque die 1 Octobris 2000 canonizavit. Canonizatio eius extraordinarium testimonium christianum mulieris agnovit, cuius vita a servitute ad consecrationem religiosam, a profundo dolore ad perenne caritatis et spei exemplum transierat.
+
+### Testis Dignitatis Humanae et Spei
+
+Sancta Iosephina Bakhita exemplum perenne vim gratiae transformantis praebet. Vita eius non significat dolorem per se bonum esse neque fidem memoriam iniustitiae evanescere facere. Potius demonstrat hominem qui terribile malum passus est adhuc futurum invenire posse quod amore, libertate et servitio formetur.
+
+Iter eius a Darfur in Italiam, a captivitate ad vitam religiosam atque ab obscuritate ad universalem Ecclesiae agnitionem dignitatem testatur quam nulla humana violentia tandem delere potest. In conventu Canossiano communitatem invenit in qua dona eius florere et fides eius aliis solacium afferre poterant.
+
+Hereditas eius peculiari modo significat iis qui servitutem, exploitationem et mercaturam hominum patiuntur. Christianos admonet quemlibet hominem plus esse quam vulnera quae passus est aut condiciones ei impositas. Unusquisque ad libertatem, dignitatem et communionem cum Deo vocatur.
+
+Per humilitatem, veniam et constantem fiduciam in divina providentia, Sancta Iosephina Bakhita proclamat dolorem totam vitam humanam definire non debere. Narratio eius Ecclesiam invitat ut oppressos defendat, vulneratos excipiat atque Christum in omni persona cuius dignitas negata est agnoscat. Nomen ei in captivitate impositum, « Bakhita », tandem signum alterius fortunae factum est: amoris inventi qui eam per dolores sustentavit atque facultatem ei dedit vitam suam Deo et aliis serviendi impendendi.
+$desc$),
+('saint-scholastica', 'la',
+$desc$Sancta Scholastica fuit monialis christiana antiquae aetatis et soror Sancti Benedicti Nursini, conditoris monachismi occidentalis. Saeculo sexto in Italia vivens, Deo per orationem, contemplationem et disciplinam vitae religiosae se dedicavit. Traditur prima monialis Benedictina fuisse atque communitatem religiosam prope Montem Cassinum constituisse, monasticis principiis a fratre eius traditis innixa. Vita eius praecipue ex scriptis Sancti Gregorii Magni papae cognoscitur, qui spiritualem amicitiam inter fratrem et sororem eorumque ultimum conventum narrat. Secundum eius narrationem, cum Benedictus noctem apud eam manere recusavisset, Scholastica oravit, atque tempestas vehemens eum abire prohibuit. Circa annum Domini 543 mortua est, et Benedictus postea animam eius in columbae specie ad caelum ascendentem vidit. Sancta Scholastica dilectum exemplum devotionis contemplativae, perseverantiae spiritualis et virtutis amoris cum Deo coniuncti manet.$desc$,
+
+$desc$Scholastica Nursiae, in Italia media sita, circa finem saeculi quinti nata est. Secundum traditionem christianam, gemella soror Sancti Benedicti fuit, cuius regula monastica historiam Christianismi occidentalis penitus formatura erat. De pueritia eius, familia et prima formatione religiosa parum certo cognoscitur. Fons praecipuus vitae eius sunt *Dialogi* Sancti Gregorii Magni papae, exeunte saeculo sexto conscripti, qui brevem sed memorabilem narrationem sanctitatis eius et necessitudinis cum fratre servant.
+
+Ab ineunte aetate, Scholastica Deo se consecravisse traditur. Dum Benedictus vitam monasticam sequebatur, quae eum ad celebre monasterium Montis Cassini condendum perductura erat, ipsa similem vocationem secuta est, totam vitam suam orationi et servitio Domini dedicare cupiens. Narratio eius mulierem ostendit cuius vita spiritualis in silentio, contemplatione et desiderio sanctitatis proficiendi penitus radicata erat.
+
+### Vita Deo Dedicata
+
+Cum communitas monastica Benedicti cresceret, Scholastica communitatem religiosam mulierum in vicinia Montis Cassini constituit, quae traditione cum regione Piumarolae coniungitur. Ibi ipsa et sociae eius vitam oratione, simplicitate et studio perfectionis christianae insignitam duxerunt.
+
+Quamvis posterior traditio eam conditricem monachismi Benedictini mulierum describat, ordinatio exacta communitatis eius incerta manet. Ex narratione Gregorii constat Scholasticam mulierem Deo consecratam fuisse, quae disciplinatam vitae religiosae rationem sequebatur atque cum fratre suo altum propositum communicabat Deum omnibus rebus anteponendi.
+
+Vocatio eius ostendit vitam contemplativam non esse recessum a postulatis discipulatus christiani, sed peculiarem modum ea amplectendi. Per orationem, oboedientiam et caritatem fraternam Scholastica omnem vitae suae rationem ad Deum ordinare studuit. Sanctitas eius non per auctoritatem publicam aut res extraordinarias manifestabatur, sed per fidelitatem qua vocationem suam vivebat.
+
+### Ultimus Conventus cum Sancto Benedicto
+
+Celeberrima narratio vitae Scholasticae ad conventus annuos quos cum fratre suo habebat pertinet. Secundum Sanctum Gregorium Magnum, duo germani apud domum prope monasterium Benedicti convenire solebant, diem in rebus spiritualibus et gaudiis vitae aeternae colloquendo transigentes.
+
+Ultimo conventu Scholastica sensit vitam suam terrenam ad finem appropinquare. Postquam diem cum Benedicto colloquendo egerat, eum rogavit ut noctem apud se maneret, quo diutius de rebus divinis loqui possent.
+
+Benedictus recusavit, explicans disciplinam monasticam eum postulare ut ad monasterium suum reverteretur potius quam noctem extra illud maneret. Scholastica consilio eius contristata est, sed ira non respondit. Potius caput inclinavit et oravit, Dominum rogans ut id concederet quod frater eius negaverat.
+
+Subito tempestas vehemens exorta est, tam gravem pluviam et tonitrua afferens ut Benedictus eiusque socii domum relinquere non possent. Benedictus obstupefactus sororem interrogavit quid egisset. Scholastica respondit se eum manere rogavisse, sed eum recusavisse; ideo ad Deum confugisse, qui precem eius exaudivisset.
+
+Germani per totam noctem una manserunt, sermonem de vita spirituali et rebus caelestibus continuantes.
+
+Gregorius hunc eventum tamquam doctrinam de necessitudine inter amorem et disciplinam religiosam exhibet. Benedictus regulam communitatis suae observare fideliter studuerat, sed oratio Scholasticae ostendit caritatem altiorem discretionem voluntatis Dei postulare posse. Ut Gregorius per responsum Benedicti explicat, Scholastica plus efficere potuit quia plus amavit.
+
+Narratio momentum oboedientiae monasticae non minuit. Potius persuasio exprimit omnem disciplinam religiosam tandem amori Dei et proximi inservire debere. Oratio Scholasticae ex desiderio orta est unam ultimam noctem communionis spiritualis cum fratre suo transigendi, atque miraculum symbolum perenne factum est potentiae cordis Deo omnino dediti.
+
+### Columba et Promissio Vitae Aeternae
+
+Tribus diebus post ultimum conventum, Scholastica mortua est. Secundum Gregorium, Benedictus in monasterio suo orans visionem vidit animae sororis suae in columbae specie ad caelum ascendentis. Signum transitus eius agnoscens, Deo gratias egit atque corpus eius ad Montem Cassinum deferri curavit.
+
+Benedictus eam in sepulcro quod sibi paraverat collocavit, ut frater et soror, qui easdem spirituales aspirationes in vita communicaverant, etiam post mortem simul requiescerent. Sepultura eorum symbolum unitatis facta est quam per fidem, orationem et amorem servaverant.
+
+Imago columbae unum ex elementis iconographiae Scholasticae maxime agnitis facta est. In traditione christiana columba puritatem, pacem et praesentiam Spiritus Sancti significat. In eius narratione etiam animam ad vitam aeternam ascendentem repraesentat, ad quam per annos contemplationis se paraverat.
+
+### Hereditas Benedictina Perennis
+
+Momentum Sanctae Scholasticae ultra necessitudinem eius cum Benedicto extenditur. Ea locum essentialem mulierum in progressu vitae monasticae christianae repraesentat atque persuasionem sanctitatem per fidelitatem in officiis cotidianis excoli. Quamvis singularia historica communitatis eius parum nota sint, memoria eius a traditione Benedictina inseparabilis facta est.
+
+Exemplum eius etiam altam doctrinam de amore christiano praebet. Ultima petitio Scholasticae non ex desiderio commoditatis personalis orta est, sed ex voluntate diutius cum fratre de Deo colloquendi. Colloquium eorum commune desiderium caeli expressit, et oratio eius fiduciam ostendit affectum humanum in amore divino plenissimam suam perfectionem invenire.
+
+Per saecula, tamquam patrona monialium Benedictinarum et exemplar eorum qui Deum per silentium, orationem et vitam communem quaerunt, honorata est. Narratio eius Christianos admonet sanctitatem contemplativam non ex mundana recognitione pendere, sed ex quieta cordis transformatione.
+
+Sancta Scholastica testis manet veritatis amorem a sanctitate seiungi non posse, sed in ipso eius centro consistere. Vita eius, prout in narratione Sancti Gregorii Magni servatur, ad fidem dirigit quae disciplinam cum teneritudine et perseverantiam cum fiducia in divina providentia coniungit. Cum fratre suo in oratione durante vita et in sepultura post mortem coniuncta, eos inspirare pergit qui amorem Dei fundamentum totius vitae suae constituere quaerunt.
+$desc$),
+('saint-cyril', 'la',
+$desc$Sanctus Cyrillus, qui Constantinus nomine natus est Thessalonicae circa annum 827, philosophus Byzantinus, theologus et missionarius fuit, qui una cum fratre maiore, Sancto Methodio, unus ex magnis populorum Slavicorum evangelizatoribus factus est. Doctrina et linguis excellens, vitam suam dedicavit ut fidem christianam per linguam eorum quibus evangelium nuntiare volebat, omnibus comprehensibilem redderet. Saeculo nono in Magnam Moraviam missus, alphabetum Glagoliticum condere et textus biblicos atque liturgicos in linguam veterem Slavonicam transferre adiuvit. Missio eius Romam eum perduxit, ubi Papa Hadrianus II opus liturgicum fratrum approbavit. Vitam monasticam amplexus et nomen Cyrilli assumens, Romae anno 869 mortuus est. Unus ex Apostolis Slavorum memoratus, hereditatem perennem in Christianismo Europaeo reliquit, ostendens quomodo fides in variis culturis radices agere possit, indolem suam universalem non amittens.$desc$,
+
+$desc$Constantinus circa annum 827 Thessalonicae natus est, in urbe magni momenti Imperii Byzantini, prope regiones a populis Slavicis habitatas sita. Pater eius Leo in administratione imperiali munere fungebatur, et familia ei institutionem ingenio eius aptam praebuit. Ab ineunte aetate, Constantinus singulare discendi ingenium ostendit, praecipue philosophiae, theologiae et linguis studens. Diversitas culturalis Thessalonicae etiam occasionem ei dedit sermonem moresque Slavorum cognoscendi, quod postea vocationi eius missionariae perutile futurum erat.
+
+Constantinus Constantinopolim, caput imperii, missus est, ubi grammaticam, rhetoricam, philosophiam aliasque disciplinas sub praeclaris magistris studuit, inter quos erant docti cum Photio, futuro patriarcha, coniuncti. Eius ingenii praestantia ei cognomen Philosophi attulit. Quamvis occasiones ad honores adipiscendos ei paterent, Constantinus magis magisque dona sua ad Dei servitium dirigebat, vitam quaerens in qua scientia instrumentum veritatis potius quam ambitionis mundanae fieret.
+
+### Missio Inter Slavos
+
+Circa annum 860, Constantinus et frater eius maior Methodius missioni Byzantinae diplomaticae et religiosae apud Chazaros interfuerunt, quorum terrae ad septentrionem Ponti Euxini sitae erant. Eorum munus etiam complectebatur fidem christianam explicare in regione ubi variae traditiones religiosae inter se occurrebant. Haec missio Constantini persuasionem confirmavit evangelizationem tam theologica cognitione quam facultate per fines culturales communicandi indigere.
+
+Missio eorum decisiva circa annum 863 coepit, cum Rastislaus, princeps Magnae Moraviae, magistros postulavit qui populum suum lingua ei intellectu familiari de Christianismo docere possent. Eo tempore Europa Centralis inter sphaeras auctoritatis Byzantinae et Francicae sita erat, et institutio religiosa cum contentionibus politicis atque ecclesiasticis arcte coniungebatur.
+
+Constantinus et Methodius invitationem acceperunt atque arduum opus intellectuale et spirituale susceperunt: linguam scriptam apparare quae Scripturae, orationi et institutioni christianae apta esset. Traditione Constantino tribuitur creatio alphabeti Glagolitici, quod ad sonos linguae Slavicae in eorum missione adhibitae repraesentandos designatum erat. Hoc scriptionis systemate usi, fratres praecipua Scripturae loca et textus liturgicos in linguam transtulerunt quae postea lingua Slavonica Ecclesiastica Vetus appellata est.
+
+Eorum opus plus quam innovatio linguistica fuit. Populo cui serviebant facultatem dedit nuntium christianum lingua cotidianae vitae suae propinquiore accipiendi. Constantinus intellexit Evangelium omnibus gentibus destinatum esse atque differentiam linguarum populum non impedire debere quominus divitias fidei christianae acciperet.
+
+Alphabetum Cyrillicum posterius, in eius honorem nominatum, a subsequentibus generationibus Christianorum Slavicorum excultum est neque cum litteris Glagoliticis, quae traditione ei tribuuntur, confundendum est. Utrumque tamen litteris et religioni mundi Slavici magni momenti factum est.
+
+### Defensio Liturgiae Slavicae
+
+Opus fratrum oppositionem clericorum invenit, qui liturgiam tantum Hebraice, Graece et Latine celebrandam esse censebant. Constantinus opinionem reiecit tres has linguas solas ad Deum laudandum adhiberi posse, affirmans nuntium christianum forma iis comprehensibili communicandum esse qui eum accipiebant.
+
+Haec controversia tandem fratres circa annum 867 Romam perduxit. Auxilium Hadriani II papae petiverunt atque secum reliquias, quae traditione Sancto Clementi I, antiquo papae cum martyrio in Chersoneso Taurica coniuncto, tribuuntur, attulerunt. Hadrianus II eos benigne excepit librosque liturgicos Slavicos approbavit. Secundum traditionem, libri super altare Romae positi sunt, et cultus divinus lingua Slavica celebratus est.
+
+Approbatio pontificia magni momenti fuit. Confirmavit usum linguae cuiusque populi in cultu christiano universali Ecclesiae missioni inservire posse, potius quam eius unitatem labefactare. Constantinus audaciam missionariam cum voluntate communionem cum auctoritate ecclesiastica servandi coniunxit. Traditionem separatam condere non quaerebat, sed demonstrare voluit eandem fidem christianam per diversas linguas et culturas fideliter exprimi posse.
+
+### Vita Monastica et Mors Romae
+
+Anni studiorum, itinerum et laboris missionarii tandem valetudinem Constantini debilitaverunt. Ultima Romae commoratione vitam monasticam amplexus est nomenque Cyrilli assumpsit, quo per historiam cognitus est. Haec electio fundamentum spirituale operis eius expressit: vitam Deo per orationem, studium et servitium oblatam.
+
+Ante mortem Cyrillus Methodium hortatus est ut in missione inter populos Slavicos perseveraret. Intellexit opus eorum dedicationem postulare quae ultra vitam conditorum protraheretur. Translationes et institutiones scholasticae quas constituerant a futuris generationibus servandae et amplificandae erant.
+
+Cyrillus Romae die 14 Februarii anno 869 mortuus est, circiter quadraginta duos annos natus. Secundum traditionem, in Basilica Sancti Clementis sepultus est, prope reliquias cum antiquo papa coniunctas, cuius memoria fratres in itineribus comitata erat.
+
+Methodius postea rediit ut opus eorum continuaret, magnas oppositiones tolerans dum discipulos instituebat qui traditionem eorum christianam et litterariam in alias regiones Slavicas ferrent. Mors Cyrilli igitur non finem missionis, sed initium amplioris eius influxus historici significavit.
+
+### Hereditas Fidei et Unitatis Culturalis
+
+Momentum Sancti Cyrilli longe ultra creationem alphabeti extenditur. Vita eius persuasionem illustrat evangelizationem linguam, historiam et culturam populi serio considerare debere. Potius quam eos quibus serviebat ad identitatem linguisticam suam relinquendam cogere, eos adiuvit ut propriam linguam vehiculum Scripturae, orationis et meditationis theologicae fieri posse discerent.
+
+Anno 1880, Leo XIII papa encyclicam *Grande Munus* edidit, opus apostolicum Cyrilli et Methodii denuo in lucem proferens. Anno 1980, Ioannes Paulus II papa duos fratres litteris apostolicis *Egregiae Virtutis* Europae compatronos declaravit. Encyclica eius posterior, *Slavorum Apostoli*, missionem eorum exemplum perenne evangelizationis, dialogi culturalis et unitatis christianae quaerendae exhibuit.
+
+Hereditas eorum demonstrat universalitatem christianam uniformitatem culturalem non postulare. Evangelium in diversas societates intrare, traditiones earum ditare atque per linguas proprias exprimi potest, unitate fidei servata. Dona intellectualia Cyrilli a vocatione eius missionaria inseparabilia erant: studebat ut doceret, interpretabatur ut Christum notum faceret et oppositione non obstante perseverabat.
+
+Constantinus natus et Cyrillus appellatus, unus ex magnis testibus occursus fidei et culturae in historia Europae factus est. Una cum Methodio fundamenta litterarum et cultus divini Christiani Slavicorum condere adiuvit. Exemplum eius perenne Ecclesiam admonet Verbum Dei donum esse omnibus populis destinatum, cuius accessibilitas non solum persuasionem, sed etiam humilitatem, patientiam et observantiam erga culturas humanas per quas accipitur postulat.
+$desc$),
+('saint-methodius', 'la',
+$desc$Sanctus Methodius, qui Michael nomine Thessalonicae circa annos 815–820 natus est, administrator Byzantinus fuit qui vitam publicam reliquit ut monachus fieret ac tandem unus ex magnis populorum Slavicorum missionariis. Una cum fratre minore, Sancto Cyrillo, Sacram Scripturam et textus liturgicos in linguam veterem Slavonicam transferre adiuvit, fidem christianam communitatibus Europae Centralis faciens accessibilem. Post mortem Cyrilli Romae anno 869, Methodius missionem eorum ut archiepiscopus et legatus pontificius continuavit, oppositionem politicam tolerans atque duos annos in carcere degens propter defensionem liturgiae Slavicae. His omnibus difficultatibus non obstante, usque ad mortem suam anno 885 in evangelizatione, translatione textuum et cleri localis institutione perseveravit. Una cum fratre suo ut unus ex Apostolis Slavorum et Europae compatronus honoratus, Sanctus Methodius testis insignis perseverantiae missionariae, intellegentiae culturalis et unitatis christianae manet.$desc$,
+
+$desc$Michael, postea Sanctus Methodius appellatus, Thessalonicae inter annos 815 et 820 natus est, in familia quae in Imperio Byzantino magno honore fruebatur. Pater eius in administratione imperiali serviebat, filiis suis occasiones ad egregias vitas agendas praebens. Methodius initio hanc viam secutus est, administrator provinciae finitimæ factus, quae a multis populis Slavicis habitabatur. Experientia gubernandi hanc multitudinem diversam ei primam cognitionem culturarum et linguarum praebuit, quae postea vocationi eius missionariae maximi momenti futurae erant.
+
+Circa annum 840 tamen Methodius munus publicum reliquit atque in monasterium prope Montem Olympum in Bithynia se recepit, vitam orationi et contemplationi dedicatam quaerens. Haec electio altam vitae eius mutationem significavit: officia et honores imperialis servitii locum quietiori disciplinae vitae monasticae cesserunt. Frater eius minor Constantinus, postea Cyrillus appellatus, tandem eandem vocationem religiosam secutus est, atque simul missionem suscepturi erant quae historiam Christianismi inter populos Slavicos transformavit.
+
+### Missio in Magnam Moraviam
+
+Momentum decisivum venit cum Rastislaus, princeps Magnae Moraviae, Michaelem III imperatorem Byzantinum rogavit ut magistros christianos mitteret, qui populum eius lingua propria instituere possent. Europa Centralis eo tempore locus occursus influxuum Byzantini et Francici erat, et propagatio Christianismi cum auctoritate politica atque iurisdictione ecclesiastica arcte coniungebatur.
+
+Methodius et Cyrillus ad missionem electi sunt atque circa annum 863 in Magnam Moraviam advenerunt. Opus eorum longe ultra praedicationem extendebatur. Fundamenta institutionis christianae et cultus divini lingua veteri Slavonica constituere adiuverunt, translationibus Scripturae et textuum liturgicorum utentes, quae ope novi alphabeti a Cyrillo excogitati paratae erant. Hoc opus communitatibus localibus facultatem dedit Evangelium accipiendi atque plenius vitae Ecclesiae participandi, quin tota institutione Graeca aut Latina dependerent.
+
+Contributio Methodii praecipue magni momenti fuit ad communitatem christianam crescentem ordinandam et eos instituendos qui missionem continuaturi erant. Fratres intellexerunt evangelizationem fundamenta diuturna postulare: cleri institutionem, textuum sacrorum transmissionem et vitae religiosae constitutionem in lingua populi radicatam.
+
+Eorum ratio oppositionem clericorum invenit, qui legitimitatem liturgiae lingua Slavonica celebrandae in dubium vocaverunt. Methodius autem et Cyrillus censebant universalitatem Christianismi uniformitatem linguae non postulare. Credebant fidem per diversas culturas fideliter exprimi posse, dummodo veritates eius essentiales integrae manerent.
+
+### Roma et Defensio Liturgiae Slavicae
+
+Circa annum 867, fratres Romam profecti sunt ut approbationem pontificiam operi suo impetrarent. Secum tulerunt reliquias, quae traditione Sancti Clementis I, primi aevi papae cuius memoria cum Chersoneso Taurica coniungebatur, esse credebantur. Hadrianus II papa eos benigne excepit eorumque libros liturgicos Slavicos approbavit, magnum auxilium missioni eorum praebens.
+
+Valetudo Cyrilli in itinere deteriorata est, et is Romae vitam monasticam amplexus est, nomen assumens quo memoratur. Die 14 Februarii anno 869 mortuus est, Methodium vocationem quam una susceperant solum continuare relinquens. Ante mortem Cyrillus fratrem suum hortatus est ne opus docendi relinqueret ut ad solitudinem monasticam reverteretur. Methodius huic hortationi fidelis mansit, onera ductus suscipiens quamvis proximum suum socium amisisset.
+
+Methodius archiepiscopus consecratus est et legatus pontificius pro populis Slavicis constitutus, cuius responsabilitas territorium ecclesiasticum Pannoniae atque sedem Sirmiensem restitutam complectebatur. Novum munus ei auctoritatem dedit missionem continuandi, sed etiam eum in conflictum adduxit cum clericis qui iurisdictionem eius illegitimam esse censebant et usui linguae Slavicae in cultu divino adversabantur.
+
+### Captivitas et Perseverantia
+
+Ministerium Methodii gravi controversia ecclesiastica interruptum est. Accusatus quod iurisdictionem alterius episcopi violavisset, circiter duos annos in carcere detentus est. Captivitas eius impedimenta politica et religiosa patefecit quae missionarius subire debebat, cum novam traditionem christianam in territoriis a potestatibus inter se certantibus occupatis constituere conaretur.
+
+Tandem, Ioanne VIII papa interveniente, liberatus est. Oppositio tamen continuavit, praesertim sub Svatopluk principe Magnae Moraviae, cuius consilia futurum liturgiae Slavicae in discrimen adducebant. Circa annum 880, Methodius Romam rediit ut doctrinam suam defenderet et legitimitatem missionis suae explicaret.
+
+Ioannes VIII papa per documentum pontificium *Industriae Tuae* celebrationem liturgiae Slavicae denuo approbavit. Haec decisio magni momenti fuit ad opus a Methodio et Cyrillo inceptum vindicandum. Eorum missio demonstravit fidelitatem erga Ecclesiam universalem cum usu linguae vitae spirituali et culturali cuiusdam populi accommodatae congruere posse.
+
+Perseverantia Methodii non mera adversariorum repugnantia fuit. Ea persuasionem eius exprimebat Evangelium vere accessibile reddendum esse, si communitates christianae in intellegentia et fide crescere deberent. Opus suum continuavit, quamvis carcerem, incertitudinem politicam et necessitatem iteratam decisiones iam approbatas defendendi pateretur.
+
+### Ultimi Anni et Operis Continuatio
+
+Ultimis vitae suae annis, Methodius Sacram Scripturam, libros liturgicos et scripta Patrum Ecclesiae transferre perrexit. Etiam textus iuridicos ecclesiasticos et civiles tractavit, communitatibus christianis nascentibus fundamenta intellectualia et institutionalia praebens, quae ad earum continuam progressionem necessaria erant.
+
+Circa annos 881–882, Constantinopolim profectus est, ubi orthodoxia eius atque opus missionarium ab imperatore Byzantino et Photio patriarcha agnita sunt. Haec agnitio latiorem momentum missionis eius illustravit, quae in ipso occursu traditionum christianarum orientalium et occidentalium sita erat.
+
+De futuro Ecclesiae quam condere adiuverat sollicitus, Methodius discipulum suum Gorazd successorem designavit. Die 6 Aprilis anno 885 mortuus est, post plus quam viginti annos populis Slavicis evangelizandis dedicatos. Sepultura eius luctum communitatis excitavit, quae eum patrem spiritualem et magistrum agnoscere didicerat.
+
+Post mortem eius, discipuli persecutionem renovatam passi sunt, et multi tandem e Magna Moravia expulsi sunt. Opus tamen fratrum superstes mansit. Translationes eorum atque rationes missionariae progressionem Christianismi Slavici afficere perrexerunt, praesertim per communitates quae discipulos eorum exceperunt.
+
+### Hereditas Unitatis Missionariae
+
+Hereditas Sancti Methodii in determinatione eius consistit opus cum Cyrillo inceptum servandi atque amplificandi. Dum dona intellectualia fratris eius fundamenta linguistica missionis constituere adiuverunt, Methodius perseverantiam necessariam ad eam defendendam et sustentandam demonstravit. Vita eius contemplationem cum responsabilitate publica, eruditionem cum cura pastorali atque fidelitatem erga Ecclesiam cum observantia diversitatis culturalis coniunxit.
+
+Anno 1880, Leo XIII papa venerationem Cyrilli et Methodii ad Ecclesiam universalem per encyclicam *Grande Munus* extendit. Anno 1980, Ioannes Paulus II papa eos Europae compatronos declaravit, contributionem eorum ad formationem christianam continentis agnoscens. Encyclica eius *Slavorum Apostoli* postea exemplum eorum perenne evangelizationis, dialogi culturalis et studii unitatis christianae illustravit.
+
+Methodius testis manet persuasionis opus missionarium tam patientiam et fortitudinem quam eruditionem postulare. Captivitatem et oppositionem toleravit, quin populum suae curae commissum relinqueret. Per translationes, moderationem pastoralem et dedicationem liturgiae Slavicae hereditatem christianam condere adiuvit, quae circumstantias politicas aetatis suae superavit.
+
+Vita eius Ecclesiam admonet Evangelium omnibus gentibus destinatum esse eiusque praedicationem dignitatem et legitimam identitatem culturalem eorum qui illud accipiunt observare debere. Perseverantia Sancti Methodii effecit ut opus quod cum fratre suo communicaverat eorum morte non evanesceret, sed inter generationes Christianorum per totam Europam fructum ferre pergeret.
+$desc$),
+
+('saint-peter-damian', 'la',
+$desc$Sanctus Petrus Damianus, Ravennae anno 1007 natus, monachus, theologus, cardinalis et Ecclesiae Doctor Italicus fuit, cuius vita praeclarum testimonium orationis, asceseos et reformationis ecclesiasticae exstitit. Parentes iuvenis amisit atque educationem liberalitate fratris maioris Damiani accepit, cuius nomen gratitudinis causa assumpsit. Post prosperam magistri vitam, eremitorium Fontis Avellanae ingressus est, ubi contemplationi, Sacrae Scripturae et renovationi vitae monasticae se dedidit. Anno 1057, Stephanus IX papa eum episcopum cardinalem Ostiensis Ecclesiae constituit atque gravia ei munera commisit, ut clerum reformaret et pacem in Ecclesia restitueret. Quamvis solitudinem monasterii desideraret, Petrus saepe ardua officia, oboedientia erga pontificatum motus, suscepit. Multis suis scriptis disciplinam clericalem, sanctitatem monasticam et Ecclesiae auctoritatem defendit. Faventiae anno 1072 mortuus est atque anno 1828 a Leone XII papa Ecclesiae Doctor proclamatus est. Sanctus Petrus Damianus exemplum permanens manet coniunctionis inter contemplationem orationis et fortem servitium.$desc$,
+
+$desc$Petrus Damianus Ravennae, in Italia, anno 1007 in familia nobili genere orta sed tenuibus opibus praedita natus est. Cum esset minimus ex pluribus liberis, parentes adhuc iuvenis amisit multasque difficultates perpessus est. Soror eius Roselinda eum aliquandiu curavit, deinde frater maior Damianus, archipresbyter, educationis eius curam suscepit. Petrus numquam hanc liberalitatem oblitus est atque nomen fratris sui in perpetuam gratitudinis significationem assumpsit. Difficultates iuventutis eius, quas posteriores biographi scriptis tradiderunt, misericordiam et gravitatem spiritualem in eo formaverunt, quae totam eius vitam insignirent.
+
+Ingenio praestans, Petrus Faventiae et Parmae studuit, antequam magister fieret. Eloquentiae et doctrinae fama excelluit, sed honor academicus persequendus intimis eius aspirationibus non satisfecit. Ad orationem, solitudinem et exemplum sancti Romualdi, Camaldulensis vitae monasticae conditoris, attractus, paulatim aliam vocationem agnovit: Deum quaerere per vitam disciplinatam, contemplationem et paenitentiam.
+
+### Vocatio ad eremitorium
+
+Circa annum 1035, Petrus eremitorium Fontis Avellanae ingressus est, in Apennino Italiae mediae situm. Ibi severam orationis, ieiunii, studii et silentii rationem vitae suscepit. Spiritualitas eius persuasione nitebatur vitam christianam plus quam externam observantiam postulare; conversionem cordis atque omnium cupiditatum ad Deum ordinationem exigebat.
+
+Ascesis Petri magna erat, paenitentialia aetatis suae proposita exprimens. Attamen vita eius solitudini tantum non dedicabatur. Doctrina eius et spiritualis prudentia mox alios monachos attraxerunt, qui consilium eius petebant. Circa annum 1043 prior Fontis Avellanae electus, communitatem reformavit aliaque religiosa domicilia constituere adiuvit. Regulam et opera spiritualia scripsit, monachos hortans ut severam disciplinam cum humilitate, oboedientia et fidelitate liturgiae coniungerent.
+
+Petro monasterium locus esse debebat, ubi Dei primatus per cotidianam eorum vitam qui Ei serviebant manifestaretur. Contemplationem non habebat pro fuga a necessitatibus Ecclesiae, sed pro fonte roboris spiritualis ad eas curandas necessarii.
+
+### Ecclesiae reformator
+
+Ecclesia saeculi undecimi gravibus difficultatibus premebatur, inter quas simonia, id est emptio et venditio officiorum ecclesiasticorum, atque frequentes defectus in disciplina clericali servanda. Petrus credebat renovationem societatis christianae a sanctitate spiritualium pastorum incipere debere. Itaque scriptis suis episcopos, presbyteros et monachos ad vitam officiis sibi commissis congruentem hortabatur.
+
+Anno 1057, Stephanus IX papa Petrum Romam arcessivit, episcopum cardinalem Ostiensis Ecclesiae constituit atque praecipuum ei munus in reformatione ecclesiastica commisit. Haec nominatio eum a solitudine quam diligebat abstraxit, sed officium illud pro debito erga Ecclesiam suscepit. Deinde pluribus pontificibus servivit, missiones obeundo quae theologica perspicuitate, arte diplomatica et personali fortitudine indigebant.
+
+Una ex insignioribus eius missionibus controversias Mediolanenses spectabat, ubi quaestiones de moribus clericorum et auctoritate ecclesiastica graves tumultus excitaverant. Petrus disciplinam restituere conatus est, simul defendens principium quo ministerium spirituale secundum Ecclesiae officia moralia et pastoralia exercendum esset. Ratio eius interdum inexorabilis erat, quia reformam prosperam esse non posse credebat, si abusus commoditatis aut utilitatis politicae causa tolerarentur.
+
+Petrus etiam legitimam auctoritatem ecclesiasticam defendit contra conatus principum saecularium qui nominationes ad officia ecclesiastica regere volebant. Ecclesiam libertate indigere credebat, ut missionem suam spiritualem implere posset, atque eos qui curae pastorali praeficiebantur secundum principia ecclesiastica potius quam gratiam politicam eligendos esse censebat.
+
+### Monachus et cardinalis
+
+Quamvis auctoritas eius cresceret, Petrus desiderium solitudinis monasticae numquam deposuit. Circa annum 1063, facultatem obtinuit ad Fontem Avellanae redeundi, quamvis pontifices ei adhuc magnas missiones committerent. Itaque recessus eius numquam omnino perfectus fuit. Cluniacum profectus est ad privilegia monastica defendenda, Francofurtum anno 1069 ad controversiam matrimonialem Henrici IV imperatoris componendam intervenit, atque postea rebus ecclesiasticis Montis Cassini interfuit.
+
+Hae missiones tensionem propriam vitae Petri ostendunt. Solitudinem et ab officiis saecularibus recessum desiderabat, sed necessitatibus Ecclesiae id postulantibus officia publica saepe suscipiebat. Humilitas eius non in recusatione officiorum, sed in voluntate serviendi etiam contra propriam inclinationem manifestabatur.
+
+Relatio eius cum pontificatu praecipua erat ad opus reformationis. Petrus credebat renovationem cleri et monasteriorum tam conversionem personalem quam efficacem ecclesiasticam gubernationem requirere. Simul tamen scripta eius demonstrant reformationem institutionalem numquam internam transformationem, per orationem, paenitentiam et sanctitatis studium quaesitam, substituere posse.
+
+### Diuturna hereditas theologica
+
+Petrus Damianus scriptor fecundissimus fuit, cuius opera epistulas, sermones, tractatus theologicos, preces et sanctorum vitas comprehendebant. Scripta eius quaestiones de responsabilitate morali, disciplina monastica, auctoritate ecclesiastica atque relatione inter gratiam divinam et humanam libertatem tractabant.
+
+Inter opera eius praecipua numeratur *Liber Gratissimus*, in quo problema simoniae examinavit et momentum illustrandae sacramentorum naturae intra vitam Ecclesiae defendit. Amplissima quoque eius epistularum collectio pretiosum testimonium praebet de difficultatibus spiritualibus et institutionalibus Christianitatis saeculi undecimi.
+
+Petrus ingenium suum doctrinale a persuasionibus spiritualibus separare non poterat. Theologiam non habebat pro exercitatione abstracta, sed pro disciplina quae ad conversionem et fideliter vivendum christianum duceret. Stilus eius vehemens necessitatem reformationis quam urgebat exprimebat, dum amor vitae monasticae fundamentum contemplativum cogitationis eius manifestabat.
+
+Posterioribus annis Petrus missiones diplomaticas suscipere perrexit, quamvis perpetuum ad eremitorium reditum desideraret. Ineunte anno 1072, Ravennam profectus est ut communionem inter urbem et pontificatum restitueret, post controversiam cum eius archiepiscopo ortam. In itinere reditus morbo correptus, in monasterio Benedictino Faventiae consistere coactus est, ubi mense Februario anni 1072 mortuus est.
+
+Fama sanctitatis eius celeriter diffusa est, atque memoria eius cum renovatione vitae monasticae et ecclesiasticae arcte coniuncta est. Anno 1828, Leo XII papa eum formaliter Ecclesiae Doctorem proclamavit, perpetuam doctrinalem eius scriptorum vim agnoscens.
+
+### Vita Deo et Ecclesiae dedicata
+
+Hereditas sancti Petri Damiani in persuasione consistit veram reformationem a conversione cordis singulorum incipere. Severitas eius adversus abusus ecclesiasticos ex desiderio orta est Ecclesiam sanctitatem Evangelii manifestare volendi, dum propria eius disciplina monastica pretium huius propositi persequendi testabatur.
+
+Raram contemplationis et actionis coniunctionem praebuit: eremita saepe ad servitium publicum vocatus, vir doctus cuius scientia renovationi spirituali inserviebat, reformator qui tamen silentium et orationem desiderare numquam desinebat. Vita eius Christianos admonet servitium Deo praestandum tum recessum ab ambitione saeculari tum fortem difficultatibus suae aetatis occursum postulare posse.
+
+Scriptis, missionibus pastoralibus et exemplo asceseos, sanctus Petrus Damianus viam paravit amplioribus reformationibus quae Ecclesiam mediaevalem transformarent. Testimonium eius permanens in persuasione consistit auctoritatem sanctitate, doctrinam humilitate et actionem oratione comitandas esse. Ante omnia testatus est Ecclesiae renovationem a cordibus incipere quae se Christo omnino servire parata offerunt.
+$desc$),
+
+('saint-polycarp', 'la',
+$desc$Sanctus Polycarpus Smyrnensis episcopus, doctor et martyr saeculi secundi fuit, unus ex praecipuis Apostolorum et Ecclesiae primaevae nexibus memoria celebratus. Secundum antiquam traditionem christianam, Apostolum Ioannem noverat atque fidem ab iis acceperat qui vitam Christi testati erant. Episcopus Smyrnensis in Asia Minore, doctrinam christianam contra haereses defendit atque fideles hortatus est ut persecutionum tempore constantes permanerent. Sub imperio Antonini Pii vel Marci Aurelii comprehensus, ad mortem damnatus est atque igne crematus, quamvis traditio referat flammas eum non consumpsisse eumque tandem gladio occisum esse. Martyrium eius, quod tradito more circa annos 155–156 collocatur, unum ex antiquissimis et gravissimis narrationibus testimonii christiani usque ad mortem factum est. Sanctus Polycarpus exemplum praeclarum fidelitatis Christo, fortitudinis pastoralis et perseverantiae in adversis manet.$desc$,
+
+$desc$Polycarpus circa medium saeculum primum natus est, probabiliter inter annos Domini 60 et 70, quamquam certae eius nativitatis condiciones ignorantur. Episcopus Smyrnensis factus est, urbis magni momenti in occidentali Asiae Minoris ora sita, in hodierna Turcia. Vita eius tempore explicata est quo Christianitas per Imperium Romanum diffundebatur, sed suspicionibus, hostilitate locali et persecutionibus interdum ortis adhuc obnoxia erat.
+
+Polycarpus locum praecipuum in historia primaeva Ecclesiae obtinet propter necessitudinem cum generatione Apostolorum. Sanctus Irenaeus Lugdunensis, qui Polycarpum iuvenis praedicantem audiverat, postea episcopi consuetudinem cum iis qui Iesum noverant commemoravit. Secundum hoc testimonium, Polycarpus ab Apostolo Ioanne aliisque viris qui ministerium Domini testati erant institutus fuerat. Quamvis quaedam singularia independenter confirmare difficile sit, haec antiqua traditio eum velut vivum vinculum inter christianitatem apostolicam et subsequentes generationes exhibet.
+
+### Pastor Ecclesiae primaevae
+
+Episcopus, Polycarpus fidei ab Apostolis traditae servandae se dedicavit. In epistula eius quae ad Philippenses inscribitur et quae ad nos pervenit, Christianos hortatur ut caritatem, humilitatem, orationem et perseverantiam colant. Sacra Scriptura late utens, lectoribus suis commemorat fidem christianam in cotidiana agendi ratione manifestandam esse atque fidelitatem Christo avaritiae, superbiae et morum corruptelae resistentiam postulare.
+
+Polycarpus etiam doctrinas quas fidei apostolicae contrarias iudicabat oppugnavit. Eius congressus cum Marcione, doctore qui auctoritatem multorum Veteris Testamenti librorum repudiabat atque distinctionem radicalem inter Deum Israel et Patrem Iesu Christi proponebat, memorabile in traditione christiana primaeva exemplum factus est. Marcionem conveniens, Polycarpus eum verum fidei doctorem agnoscere recusavisse traditur. Haec narratio episcopi propositum illustrat: continuitatem inter Vetus et Novum Testamentum servare atque communitatem christianam a doctrinis quas Evangelium depravare credebat defendere.
+
+Fama eius ultra Smyrnam pervenit. Secundum Irenaeum, Polycarpus Romam profectus est ut cum Aniceto papa de die Paschae dissereret. Quamvis duces illi de omnibus ritibus liturgicis non consentirent, communionem et mutuam observantiam servaverunt. Eorum congressus antiquum exemplum praebet ducum christianorum qui differentias tractare valebant, quin eas unitatem ecclesiasticam evertere sinerent.
+
+### Martyrium sancti Polycarpi
+
+Narratio diuturnissima de vita Polycarpi est *Martyrium Polycarpi*, antiquus textus christianus qui vulgo inter antiquissimas narrationes martyrii christiani adhuc exstantes numeratur. Is episcopi comprehensionem describit, quae tempore hostilitatis adversus Christianos Smyrnae accidit.
+
+Cum ministri publici ad eum comprehendendum venissent, Polycarpus initio in locum tutum se recepit. Secundum narrationem, postquam ei persuasum est ne ulterius fugeret, comprehensioni suae se subiecit. Ad magistratus Romanos ductus, hortatus est ut Christum abnegaret, per fortunam imperatoris iuraret atque sacrificium sollemne offerret. Polycarpus recusavit, affirmans se Christo multos annos servivisse neque eum, qui numquam sibi iniuriam intulisset, prodere posse.
+
+Responsum eius praecipuam persuasionem martyrum christianorum primaevorum exprimebat: fidelitas imperatori fidelitatem Deo anteponere non poterat. Magistratus eum igne, feris et morte minati sunt, sed ille constans permansit.
+
+Traditio refert Polycarpum damnatum esse ut vivus combureretur. Cum flammae eum circumdedissent, testes affirmaverunt corpus eius non more solito consumptum esse atque ignem velut arcum circa eum formavisse. Tandem telo occisus est, et mors eius testimonium facta est fidei qua credentes corporis cruciatibus a Christo separari non posse credebant.
+
+Dies exactus martyrii eius adhuc disputatur; aestimationes vulgo circa annos Domini 155–156 eum collocant, quamquam aliae chronologiae propositae sunt. Quocumque anno id acciderit, narratio magni momenti testimonium praebet de fide, cultu et intellectu martyrii apud Christianos primaevos.
+
+### Perpetuum fidelitatis testimonium
+
+Momentum sancti Polycarpi non solum in mortis eius circumstantiis, sed etiam in fidelitate quae ministerium eius episcopale insignivit positum est. Ad generationem pertinebat quae nuntium christianum per directam necessitudinem cum primis Christi testibus acceperat. Doctrina et exemplo suo hanc hereditatem servare adiuvit, tempore quo Ecclesia instituta sua constitueret et fidei intellectum accuratius definiret.
+
+Epistula eius ad Philippenses magni momenti testimonium spiritualitatis christianae primaevae manet, dum narratio martyrii eius persuasionem manifestat spem christianam ultra vitam terrenam extendi. Polycarpus dolorem propter se ipsum non quaesivit; sed, cum inter Christum abnegandum et fidelem perseverandum eligere cogeretur, consequentias confessionis suae accepit.
+
+Vita eius Christianos adhuc admonet sanctitatem tam cotidiana fidelitate quam extraordinaria fortitudine manifestari. Pastor, communitatem suam hortatus est ut secundum Evangelium viveret; martyr autem profunditatem obligationis quam docuerat demonstravit. Sanctus Polycarpus inter magnos Ecclesiae primaevae testes numeratur, pastor cuius fides usque ad finem constans permansit cuiusque exemplum intellectum christianum martyrii per subsequentes generationes formavit.
+$desc$),
+
+('saint-gregory-of-narek', 'la',
+$desc$Sanctus Gregorius Narecensis, circa annum 950 in Armenia historica natus, monachus, presbyter, theologus et poeta mysticus fuit, cuius scripta inter pretiosissima thesaurorum spiritualitatis christianae Armeniae numerantur. In celebri monasterio Narecensi educatus, vitam suam orationi, studio biblico et contemplationi misericordiae divinae dedicavit. Eius opus praestantissimum, *Liber Lamentationum*, circa annum 1003 perfectum, nonaginta quinque precibus poeticis constat, quae dolorem, paenitentiam et desiderium reconciliationis cum Deo exprimunt. Gregorius, Virginis Mariae studiosissimus, altam doctrinam theologicam cum extraordinaria cognitione humani cordis coniunxit. Per saecula a Christianis Armenis veneratus, anno 2015 a Francisco papa Ecclesiae universalis Doctor proclamatus est, agnita universali significatione doctrinae eius spiritualis. Sanctus Gregorius praeclarum testimonium manet virtutis orationis, quae humanam infirmitatem in spem et communionem cum Deo transformare potest.$desc$,
+
+$desc$Gregorius Narecensis circa annum 950 in regione Armeniae Andzevatsik natus est, in familia doctrina et pietate religiosa insigni. Pater eius, Chosroes, episcopus et theologus erat, atque familiae ambitus studium Sacrae Scripturae et scriptorum Patrum Ecclesiae fovebat. Matre praemature amissa, Gregorius curae magni patrui Ananiae commissus est, abbatis doctrinae fama celebris. Eius ductu, Gregorius monasterium Narecense ingressus est, ubi paene totam vitam suam degeret.
+
+### Vita orationi et studio dedita
+
+Monasterium Narecense praecipuum centrum culturae christianae Armeniae erat, ubi monachi Sacram Scripturam, theologiam, litteras et scripta spiritualia priorum doctorum christianorum studebant. Gregorius ingenii dotibus et profundo spiritu contemplativo eminuit. Circa annum aetatis vigesimum quintum presbyter ordinatus, doctor factus est atque tandem praecipuus vitae spiritualis ductor in communitate monastica evasit.
+
+Vita eius desiderio insignita erat intellegentiam theologicam cum conversione personali coniungendi. Gregorio cognitio Dei numquam mere intellectualis manere poterat; animam per humilitatem, paenitentiam et caritatem transformare debebat. Scripta eius hominem penitus humanae infirmitatis conscium ostendunt, qui tamen persuasum habebat misericordiam divinam omnem defectum sincere coram Deo agnitum superare.
+
+Gregorius peculiarem quoque curam Virgini Mariae tribuit, cuius puritas et propinquitas ad Christum argumenta recurrentia in carminibus et precibus eius facta sunt. Devotio eius Mariana a contemplatione Christi non separabatur, sed eum altius in mysterium Incarnationis et spem redemptionis introducebat.
+
+### *Liber Lamentationum*
+
+Circa annum 1003, Gregorius opus suum celeberrimum perfecit, *Librum Lamentationum*, qui etiam *Liber Orationis* vel *Narek* appellatur. Opus, quod nonaginta quinque precibus poetice compositis constat, intimam dialogi formam inter animam humanam et Deum exhibet. Gregorius voce peccatoris loquitur, qui infirmitatem suam agnoscit atque misericordiam, sanationem et renovationem spiritualem postulat.
+
+Liber tamen non est tantum expressio doloris personalis. Gregorius saepe pro tota humanitate loquitur, se cum difficultatibus, timoribus et peccatis aliorum coniungens. Preces eius inter angustiam et fiduciam, confessionem et laudem alternant, altam persuasionem manifestantes nullam humanam miseriam extra misericordiae Dei fines consistere.
+
+*Liber Lamentationum* unum ex operibus gravissimis spiritualitatis christianae Armeniae factus est. Generationes fidelium eius precibus temporibus doloris, incertitudinis et paenitentiae usae sunt. Lingua eius vehementer personalis est, sed visio spiritualis universalis manet: omnis homo, quibuscumque in adiunctis versetur, ad Deum humiliter et spe plenus accedere potest.
+
+### Mysticus misericordiae divinae
+
+Theologia Gregorii in occursu humanae fragilitatis et divini amoris consistit. Peccatum non extenuat neque fingit transformationem spiritualem facilem esse. E contra, paenitentiam ostendit ut apertionem cordis misericordiae quae hominem restituit potius quam destruit. Scripta eius lectores invitant ut fiducia in propriis viribus deposita Deo se committant, cuius gratia renovationem possibilem reddit.
+
+Influentia eius ultra poesim extenditur. Gregorius commentarios biblicos, hymnos, sermones et opera theologica scripsit, divitias litterarum christianarum Armeniae augens. Commentarius eius in *Canticum Canticorum*, principis rogatu compositus, facultatem eius demonstrat imagines biblicas sensu spirituali et theologico interpretandi.
+
+Quamvis Gregorius intra peculiarem traditionem liturgicam et intellectualem Ecclesiae Armenae vixerit, sententiae eius fines ecclesiales et culturales transcendunt. Preces eius experientias universales culpae, luctus, gratitudinis et desiderii Dei attingunt. Haec profunditas intellegentiae spiritualis explicat cur scripta eius adhuc longe ultra pristinum contextum historicum legantur.
+
+### Mors eius et hereditas perennis
+
+Gregorius circa annos 1003–1005 mortuus est, probabiliter in monasterio ubi vitam degerat. Fama sanctitatis eius post mortem perseveravit, eiusque sepulcrum locus peregrinationis factum est. Per saecula scripta eius in cultura religiosa Armeniae praecipuum locum tenuerunt, vocem propriam theologiae mysticae et orationis servantes.
+
+Die XII Aprilis anno 2015, Franciscus papa Gregorium Ecclesiae universalis Doctorem proclamavit, eximiam doctrinae eius theologicae et spiritualis vim agnoscens. Haec recognitio affirmavit sapientiam traditionis christianae Armenae ad latiorem Ecclesiae hereditatem pertinere.
+
+Sanctus Gregorius Narecensis Christianos adhuc admonet orationem non iis tantum reservatam esse qui se spiritualiter perfectos existimant. Oratio a sinceritate coram Deo incipit, vulnera cordis humani agnoscit et spem in misericordia divina invenit. Per *Librum Lamentationum*, Gregorius perpetuam humanitatis cupiditatem veniam obtinendi atque cum Creatore suo communionem ineundi expressit. Hereditas eius invitationem praebet ut etiam dolor in orationem convertatur et fiducia teneatur amorem Dei animam a paenitentia ad pacem ducere posse.
+$desc$)
+) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
+WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
+END_BIOGRAPHIES_FEBRUARY
 
 -- BIOGRAPHIES_MARCH
 UPDATE saint_translations AS st
@@ -3969,6 +4569,596 @@ After approximately twenty-five years of demanding missionary service, Turibius 
 His reputation for holiness spread throughout the Americas and Europe. Pope Innocent XI beatified him in 1679, and Pope Benedict XIII canonized him in 1726. In 1983, Pope John Paul II proclaimed him patron of the bishops of Latin America.
 
 Saint Turibius of Mogrovejo remains a compelling example of a shepherd who placed the needs of his flock above personal comfort and worldly advancement. His life demonstrates that missionary zeal must be accompanied by justice, patient instruction and respect for the people entrusted to the Church. Through his journeys, reforms and defence of Indigenous communities, he helped shape the Christian life of Peru and left an enduring witness to the pastoral charity of Christ.
+$desc$)
+) AS x(slug, locale_code, short_description, full_biography) ON s.slug = x.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+
+-- MARCH FRENCH
+UPDATE saint_translations AS st
+SET short_description = x.short_description,
+	full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-casimir', 'fr',
+$desc$Saint Casimir, né à Cracovie en 1458, était un prince polonais de la dynastie des Jagellon dont la vie alliait les responsabilités royales à une profonde piété chrétienne. Fils du roi Casimir IV de Pologne et d'Élisabeth d'Autriche, il reçut une excellente éducation, mais préférait la prière, l'Eucharistie et les œuvres de charité aux plaisirs de la vie de cour. Chargé de responsabilités gouvernementales durant les absences de son père, il se fit connaître par son sens de la justice, son souci des pauvres et son refus de faire passer l'ambition politique avant sa conscience. Profondément dévoué à la Vierge Marie, il demeura fidèle à la chasteté et à la prière malgré les attentes liées à son rang royal. Il mourut en Lituanie en 1484, à seulement vingt-cinq ans. Canonisé par le pape Léon X, selon la tradition, en 1521, saint Casimir devint un saint patron bien-aimé de la Pologne et de la Lituanie. Il reste un modèle de sainteté dans la vie publique et de fidélité au Christ au milieu des privilèges du monde.$desc$,
+
+$desc$Casimir naquit le 3 octobre 1458 au château du Wawel, à Cracovie, fils du roi Casimir IV de Pologne et d'Élisabeth d'Autriche. Il grandit au milieu des privilèges et des responsabilités de l'une des familles royales les plus puissantes d'Europe. Son éducation fut confiée à d'éminents précepteurs, dont l'historien et prêtre Jan Długosz, qui contribua à développer ses capacités intellectuelles et à former ses convictions religieuses. Dès son plus jeune âge, Casimir manifesta un profond attachement à la prière et un souci inhabituel des besoins d'autrui.
+
+### Un prince appelé à la sainteté
+
+À treize ans, Casimir prit part à une tentative visant à obtenir le trône de Hongrie, soutenue par des adversaires du roi Matthias Corvin. L'expédition échoua et le jeune prince retourna en Pologne. Cette expérience le confronta aux relations complexes entre ambition royale, pouvoir politique et coût des conflits. Il ne devint finalement pas roi de Hongrie, et sa vie prit une direction différente de celle d'un souverain animé par l'ambition politique.
+
+En grandissant, Casimir se distingua de plus en plus par la rigueur de sa vie religieuse. Il assistait à la messe, consacrait de longues heures à la prière et cultivait un amour particulier pour la Vierge Marie. La tradition lui associe l'hymne marial *Omni die dic Mariae*, bien qu'il n'en soit pas l'auteur original. Cette dévotion exprimait son désir de confier sa vie à Dieu plutôt que de laisser les privilèges de sa naissance déterminer ses priorités spirituelles.
+
+### Justice et charité dans la vie publique
+
+La sainteté de Casimir ne le conduisit pas à délaisser ses responsabilités. Lorsque son père se rendit en Lituanie, le jeune prince se vit confier l'administration de la Pologne, notamment entre 1481 et 1483. Il s'acquitta de ses fonctions avec prudence et un sens aigu de la justice, cherchant à protéger les faibles et à réprimer les abus.
+
+Il se montrait particulièrement attentif aux pauvres, dont les besoins risquaient facilement d'être négligés dans le monde privilégié de la cour royale. Sa générosité lui valut une réputation de compassion, tandis que son sens des responsabilités démontrait que l'autorité politique pouvait être exercée comme un service. Pour Casimir, la foi ne se limitait pas à la dévotion privée : elle devait aussi guider la manière de traiter ceux qui dépendaient des décisions des gouvernants.
+
+Son exemple remettait en question l'idée selon laquelle la sainteté exigeait de renoncer à toute position d'influence. Bien qu'il préférât la prière et la lecture spirituelle aux divertissements de la cour, il acceptait les obligations qui lui étaient confiées et cherchait à les accomplir selon les principes chrétiens.
+
+### Renoncement et maladie finale
+
+Le père de Casimir souhaitait lui arranger un mariage avec une fille de l'empereur Frédéric III, ce qui aurait renforcé les alliances politiques de la famille. Casimir demeura cependant résolu à mener une vie de chasteté et refusa de suivre le destin dynastique que l'on attendait de lui. Sa décision reflétait une conviction profondément personnelle : sa vocation exigeait qu'il place sa relation avec Dieu au-dessus des ambitions liées à sa naissance.
+
+Ses pratiques ascétiques rigoureuses et ses périodes de jeûne devinrent des traits caractéristiques de sa spiritualité, même si les récits ultérieurs les présentent parfois de manière idéalisée. En 1483, il se rendit en Lituanie pour y assumer de nouvelles responsabilités au sein du grand-duché. Sa santé se dégrada et il développa une grave maladie, traditionnellement identifiée à la tuberculose.
+
+Casimir mourut à Grodno le 4 mars 1484, à l'âge de vingt-cinq ans. Son corps fut inhumé dans la cathédrale de Vilnius, où le culte de sa mémoire se développa progressivement. Les récits de grâces attribuées à son intercession renforcèrent la conviction que sa vie avait été marquée par une sainteté exceptionnelle.
+
+### Canonisation et héritage durable
+
+La réputation de Casimir se répandit dans toute la Pologne et la Lituanie après sa mort. Son frère Sigismond Ier soutint les démarches en vue de sa canonisation, et une enquête sur sa vie et les miracles qui lui étaient attribués fut menée sous le pontificat du pape Léon X. Sa canonisation est traditionnellement datée de 1521, bien que les documents historiques conservés concernant la procédure initiale soient incomplets. Son culte bénéficia d'une nouvelle reconnaissance officielle sous le pape Clément VIII en 1602, et de grandes célébrations eurent lieu à Vilnius en 1604.
+
+Saint Casimir devint un puissant symbole de vertu chrétienne dans la vie publique. On se souvient de lui non pour ses conquêtes militaires ou ses réussites politiques, mais pour la manière dont il exerça ses responsabilités, pratiqua la charité et demeura fidèle à ses convictions spirituelles. Son rang royal lui offrait des possibilités de pouvoir et de luxe, mais il cherchait à orienter sa vie vers la prière et le service d'autrui.
+
+Son exemple demeure particulièrement significatif pour les jeunes chrétiens et pour ceux qui exercent des responsabilités de direction. Saint Casimir montre que la sainteté est possible même au cœur des exigences de la vie publique, à condition que l'autorité soit guidée par la justice, l'humilité et l'amour. Sa courte vie continue de témoigner de cette conviction : la véritable grandeur ne réside pas dans la possession du pouvoir, mais dans le service fidèle de Dieu et du prochain.
+$desc$),
+('saint-perpetua', 'fr',
+$desc$Sainte Perpétue était une jeune noble chrétienne de Carthage qui subit le martyre au début du IIIe siècle aux côtés de sainte Félicité et de plusieurs compagnons. Mariée et mère d'un nourrisson, elle fut arrêtée lors de la persécution menée sous l'empereur Septime Sévère pour avoir refusé de renier sa foi chrétienne. Malgré les supplications de son père et les souffrances de l'emprisonnement, elle demeura ferme dans sa confession du Christ. Le récit de sa captivité, conservé dans l'ancienne *Passion des saintes Perpétue et Félicité*, offre un témoignage remarquable de sa foi, de ses visions et de sa préparation à la mort. Exécutée dans l'arène de Carthage vers l'an 203, Perpétue devint l'une des martyres les plus célèbres de l'Église primitive. Son courage continue d'inspirer les chrétiens par sa conviction inébranlable que la fidélité au Christ l'emporte même sur les liens terrestres les plus forts.$desc$,
+
+$desc$Vibia Perpétue naquit vers la fin du IIe siècle au sein d'une famille aisée de Carthage, une importante cité de l'Afrique du Nord romaine. Elle avait environ vingt-deux ans lorsqu'elle fut arrêtée. Elle était mariée et prenait soin de son jeune fils. La principale source concernant sa vie est la *Passion des saintes Perpétue et Félicité*, un extraordinaire récit chrétien ancien qui contient des passages traditionnellement considérés comme rapportant les propres paroles de Perpétue, ainsi que des récits rédigés par d'autres membres de la communauté chrétienne.
+
+### Une foi plus forte que les liens familiaux
+
+Perpétue fut arrêtée avec un groupe de catéchumènes qui se préparaient au baptême, parmi lesquels se trouvait Félicité, une femme réduite en esclavage dans la même maison que l'un de ses compagnons. Leur emprisonnement eut lieu sous le règne de l'empereur Septime Sévère, à une époque où les chrétiens de Carthage risquaient des poursuites pour leur refus de participer aux pratiques religieuses exigées par les autorités romaines.
+
+Le récit décrit les tentatives répétées du père de Perpétue pour la convaincre d'abandonner sa foi. Il la supplia de penser à sa famille, à son jeune enfant et à la honte que sa mort ferait peser sur les siens. Perpétue refusa cependant de nier qu'elle était chrétienne. Dans l'un des échanges les plus mémorables de la littérature chrétienne ancienne, elle compara son identité à celle d'un récipient auquel on ne pouvait honnêtement donner un autre nom que le sien. De même, déclara-t-elle, elle ne pouvait se dire autre chose que chrétienne.
+
+Sa détermination ne signifiait pas qu'elle fût dépourvue d'affection pour sa famille. Le récit dépeint sa détresse devant la souffrance de son père et son inquiétude pour son nourrisson. Elle fut finalement autorisée à allaiter son enfant en prison. Lorsque celui-ci fut ensuite confié aux soins de sa famille, elle poursuivit son chemin vers le martyre, le cœur fortifié par la prière.
+
+### Des visions en prison
+
+Durant son emprisonnement, Perpétue eut plusieurs visions qui l'aidèrent à comprendre les souffrances qui l'attendaient. Dans l'une d'elles, elle vit une échelle étroite qui s'élevait vers le ciel, entourée d'armes dangereuses, tandis qu'un dragon attendait à son pied. Elle comprit cette vision comme un signe que le chemin vers la vie éternelle exigeait de persévérer à travers les souffrances.
+
+Une autre vision représentait son combat contre un adversaire égyptien, qu'elle interpréta symboliquement comme un combat spirituel contre le mal. Ces récits révèlent que Perpétue ne considérait pas sa mort prochaine comme une simple condamnation judiciaire, mais comme un ultime témoignage de sa foi au Christ.
+
+Sa compagne Félicité, qui était enceinte au moment de son arrestation, craignait de ne pas pouvoir mourir aux côtés des autres, car le droit romain interdisait l'exécution des femmes enceintes. Selon le récit, elle accoucha peu avant la date prévue pour l'exécution, et ses compagnons se réjouirent à l'idée d'affronter ensemble le martyre.
+
+### Le martyre dans l'arène
+
+Perpétue et ses compagnons furent condamnés à mourir au cours de jeux publics à Carthage, traditionnellement datés de l'an 203. Ils furent livrés aux bêtes sauvages et soumis à des violences avant d'être mis à mort. Le récit ancien décrit Perpétue conservant son calme au milieu du tumulte de l'arène, aidant Félicité et encourageant ceux qui affrontaient la mort à ses côtés.
+
+Les derniers instants de la vie de Perpétue sont particulièrement saisissants. Après avoir été blessée, elle fut amenée devant l'exécuteur. Le récit rapporte qu'elle guida la main tremblante de celui-ci vers sa gorge, manifestant ainsi le calme avec lequel elle acceptait la mort. Elle n'y apparaît pas comme une femme épargnée par la souffrance, mais comme une chrétienne dont la foi lui permit de l'affronter sans renier le Christ.
+
+### Un témoignage durable de courage chrétien
+
+La *Passion des saintes Perpétue et Félicité* devint l'un des récits de martyre les plus influents de l'Église primitive. La conservation du témoignage de Perpétue sur son emprisonnement en fait un document particulièrement important pour l'histoire chrétienne et l'un des plus anciens textes conservés attribués à une femme chrétienne.
+
+Le témoignage de sainte Perpétue révèle le prix du discipulat dans un monde où la fidélité au Christ pouvait entrer en conflit avec les attentes familiales et l'autorité impériale. Son courage s'accompagnait de tendresse, notamment dans son souci pour son enfant et dans la douleur que lui causait la détresse de son père.
+
+Vénérée aux côtés de sainte Félicité, elle demeure un témoin de la conviction que l'espérance chrétienne dépasse la mort. Son histoire continue de rappeler aux croyants que la sainteté ne consiste pas en l'absence de peur ou de souffrance, mais dans la volonté de rester fidèle au Christ à travers l'une comme l'autre. Par ses paroles et son martyre, sainte Perpétue a laissé à l'Église un témoignage durable de courage, de liberté spirituelle et d'espérance en la vie éternelle.
+$desc$),
+('saint-felicity', 'fr',
+$desc$Sainte Félicité de Carthage fut une martyre chrétienne des premiers siècles qui subit la mort aux côtés de sainte Perpétue et de leurs compagnons lors de la persécution menée sous l'empereur Septime Sévère, vers l'an 203. Femme chrétienne réduite en esclavage et enceinte, elle demeura ferme dans sa foi malgré l'emprisonnement et les souffrances de l'accouchement, survenu peu avant son exécution. L'ancienne *Passion des saintes Perpétue et Félicité* raconte son courage et sa détermination à partager le sort de ses compagnons dans la foi plutôt que de renier le Christ. Martyrisée dans l'arène de Carthage, en Afrique du Nord romaine, Félicité devint un témoin durable de l'espérance chrétienne, de l'égalité spirituelle et de la fidélité face à la mort. Son histoire rappelle à l'Église que la sainteté ne dépend pas du rang social, mais d'un cœur dévoué à Dieu.$desc$,
+
+$desc$Félicité, également connue sous le nom de Felicitas, vivait à Carthage, une importante cité de l'Afrique du Nord romaine, au début du IIIe siècle. On sait peu de choses sur sa vie avant son arrestation, mais l'ancien récit de son martyre la présente comme une femme réduite en esclavage, appartenant à la même communauté chrétienne que Perpétue, une jeune femme de noble naissance. Leur amitié et le sort qu'elles partagèrent devinrent l'un des témoignages les plus saisissants de l'unité de l'Église primitive.
+
+### Une foi qui dépasse les différences sociales
+
+Félicité fut emprisonnée avec Perpétue et plusieurs autres chrétiens lors d'une persécution associée à l'empereur Septime Sévère. Le groupe comprenait des catéchumènes qui se préparaient au baptême et dont le refus de renier leur foi les conduisit devant les autorités romaines.
+
+Dans la société romaine, l'esclavage créait de profondes divisions entre les personnes, déterminant leurs droits juridiques et leur statut social. Pourtant, au sein de la communauté chrétienne, Félicité et Perpétue partageaient la même vocation spirituelle et la même espérance dans le Christ. Leur témoignage commun révélait une conviction fondamentale du christianisme primitif : les distinctions terrestres ne pouvaient déterminer la valeur d'une personne devant Dieu.
+
+La *Passion des saintes Perpétue et Félicité* qui nous est parvenue offre un récit particulièrement vivant de leurs derniers jours. Elle décrit leur emprisonnement, leur préparation spirituelle et leur détermination à rester fidèles malgré les menaces d'exécution. Bien que leurs situations fussent très différentes, aucune des deux femmes n'abandonna sa confession chrétienne.
+
+### L'accouchement en prison
+
+L'un des épisodes les plus émouvants de l'histoire de Félicité concerne sa grossesse. Le droit romain interdisait généralement l'exécution d'une femme enceinte jusqu'à ce qu'elle ait accouché. À mesure que le jour du martyre approchait, Félicité craignait d'être séparée de ses compagnons et de ne pas pouvoir partager leur sort.
+
+Selon le récit ancien, elle accoucha alors qu'elle était encore emprisonnée, peu de temps avant l'exécution prévue. Son accouchement fut douloureux, et un gardien aurait demandé comment elle pourrait supporter les souffrances de l'arène si elle éprouvait déjà tant de peine en accouchant. Félicité lui répondit que les souffrances qu'elle endurait alors étaient les siennes, tandis que celles qu'elle affronterait dans l'arène le seraient avec le Christ.
+
+Cette réponse devint l'une des expressions les plus mémorables de sa foi. Elle ne niait pas la réalité de la douleur physique ; elle exprimait plutôt sa confiance dans le fait que le Christ la soutiendrait dans l'épreuve à venir. Son espérance ne reposait pas uniquement sur ses propres forces, mais sur la conviction qu'elle n'affronterait pas la mort en étant abandonnée de Dieu.
+
+### Le martyre à Carthage
+
+Après avoir accouché, Félicité put rejoindre Perpétue et leurs compagnons lors du spectacle public organisé pour leur exécution. Traditionnellement daté de l'an 203, leur martyre eut lieu dans l'arène de Carthage, où les chrétiens furent exposés à la violence avant d'être mis à mort.
+
+Le récit ancien présente le groupe comme demeurant uni tout au long de cette épreuve. Leur mort devait servir d'avertissement public contre le christianisme, mais leur courage transforma ce spectacle en un témoignage de foi pour ceux qui se souvinrent de leur histoire.
+
+Le martyre de Félicité est particulièrement significatif en raison du contraste entre sa situation de vulnérabilité et sa fermeté. Elle avait enduré l'emprisonnement et l'accouchement, mais poursuivit son chemin vers la mort avec la conviction que la vie éternelle avait plus de valeur que les menaces du pouvoir terrestre.
+
+### Un témoignage durable de l'espérance chrétienne
+
+La *Passion des saintes Perpétue et Félicité* devint l'un des récits de martyre les plus influents de l'Église primitive. Sa transmission a permis aux générations suivantes de se souvenir de Félicité non pas simplement comme d'une compagne de Perpétue, mais comme d'une femme dont les propres paroles et les actes manifestaient un profond courage spirituel.
+
+Son histoire illustre la conviction chrétienne selon laquelle la sainteté est accessible à toute personne, quels que soient sa naissance, sa richesse ou son rang social. Bien que réduite en esclavage selon le droit romain, Félicité possédait une liberté spirituelle que ses persécuteurs ne pouvaient lui enlever : celle de rester fidèle au Christ.
+
+Avec Perpétue, elle demeure un puissant témoin de l'unité des croyants dans la souffrance et l'espérance. Sa vie et sa mort rappellent aux chrétiens que la foi ne se manifeste ni par les distinctions sociales ni par l'influence terrestre, mais par l'amour, la persévérance et la confiance en Dieu. Le témoignage final de sainte Félicité continue de proclamer que, même dans les circonstances les plus vulnérables, l'espérance dans le Christ peut donner au cœur humain le courage de tenir bon.
+$desc$),
+('saint-john-of-god', 'fr',
+$desc$Saint Jean de Dieu, né João Cidade au Portugal en 1495, fut un converti dont la charité extraordinaire transforma la prise en charge des malades et des pauvres. Après avoir vécu comme berger, soldat et libraire itinérant, il connut une profonde conversion spirituelle à Grenade, en Espagne, après avoir entendu un sermon prêché par saint Jean d'Avila. Bouleversé par la souffrance des personnes abandonnées, il se consacra entièrement aux malades, aux sans-abri et aux plus démunis, fondant un hôpital où chacun était accueilli avec dignité et compassion. Son exemple attira des compagnons qui poursuivirent son œuvre après sa mort, donnant naissance à l'ordre hospitalier de Saint-Jean-de-Dieu. Il mourut à Grenade en 1550 et fut canonisé par le pape Alexandre VIII en 1690. Reconnu comme le patron des hôpitaux, des malades et des professionnels de santé, saint Jean de Dieu demeure un puissant témoin de la miséricorde du Christ, manifestée par l'amour concret et le service.$desc$,
+
+$desc$João Cidade naquit en 1495 à Montemor-o-Novo, au Portugal. On sait peu de choses avec certitude sur sa petite enfance, bien que la tradition rapporte qu'il quitta le foyer familial à un jeune âge et grandit en Espagne. Il travailla comme berger avant de devenir soldat, participant à des campagnes militaires qui le confrontèrent aux épreuves et à la violence de son époque. Sa jeunesse fut marquée par les déplacements et l'incertitude, bien loin de la vocation de charité pour laquelle il allait plus tard être connu.
+
+Après plusieurs années de voyages, il finit par s'établir à Grenade, où il gagnait sa vie comme libraire. Sa rencontre avec saint Jean d'Avila, un prédicateur renommé, marqua un tournant dans son existence. Profondément bouleversé par le sermon, João connut une conversion spirituelle intense qui le conduisit à examiner son passé et à rechercher un don de soi plus complet à Dieu. Sa réaction émotionnelle amena certains à mettre en doute sa raison, et il fut enfermé pendant un temps à l'Hôpital royal de Grenade. Il y fut témoin des mauvais traitements infligés aux patients les plus vulnérables, une expérience qui allait profondément façonner sa future mission.
+
+### Une conversion qui devient charité
+
+Après avoir quitté l'hôpital, João ne chercha ni le confort ni la reconnaissance publique. Il résolut au contraire de se consacrer à ceux dont il avait constaté la souffrance. Il commença à recueillir des aumônes et à offrir un abri aux pauvres et aux malades qui n'avaient nulle part où aller. En parcourant les rues de Grenade, il appelait les passants à faire le bien par amour de Dieu.
+
+Vers 1539, il fonda un hôpital où les malades, les pauvres et les personnes abandonnées pouvaient recevoir des soins. Son approche était remarquable pour son époque : il cherchait à traiter chaque patient comme une personne digne de respect, en prenant soin non seulement de sa santé physique, mais aussi de ses besoins spirituels et affectifs. Son œuvre reflétait cette conviction évangélique selon laquelle servir ceux qui souffrent, c'est servir le Christ lui-même.
+
+La compassion de Jean s'étendait à ceux que la société rejetait souvent, notamment les sans-abri, les personnes atteintes de troubles mentaux et celles qui vivaient dans une extrême pauvreté. Au lieu de les considérer comme un fardeau, il les accueillait comme des prochains dignes de patience et de respect. Sa propre expérience de la vulnérabilité l'aidait à reconnaître leur souffrance sans les mépriser.
+
+### Le père des pauvres
+
+L'hôpital de Jean attira bientôt l'attention, et des compagnons commencèrent à se joindre à lui dans son œuvre. Parmi ses premiers collaborateurs figurait Antón Martín, qui poursuivit sa mission après sa mort. Jean lui-même resta profondément engagé dans les soins quotidiens, recherchant des dons, assistant les patients et répondant aux besoins urgents partout où il les rencontrait.
+
+Sa charité était concrète et exigeante. Il lui arrivait de s'endetter pour fournir de la nourriture, des médicaments et un abri, faisant confiance à la Providence divine tout en travaillant sans relâche pour répondre aux besoins immédiats. Les récits de sa vie le décrivent sauvant des personnes en danger et allant jusqu'à des efforts extraordinaires pour protéger les plus vulnérables. Même si certains détails relèvent de traditions dévotes plus tardives, ils expriment la générosité et le courage qui ont forgé sa réputation.
+
+Jean ne fonda pas de son vivant un ordre religieux formel, à la manière d'un fondateur qui rédige une règle et organise une congrégation. La communauté se développa plutôt autour de son exemple et poursuivit son œuvre hospitalière après sa mort. L'ordre hospitalier de Saint-Jean-de-Dieu fut officiellement reconnu par le pape Pie V en 1572, perpétuant son charisme d'hospitalité dans des hôpitaux et des institutions caritatives à travers le monde.
+
+### Ses dernières années et son héritage durable
+
+Son dévouement inlassable finit par épuiser Jean. Selon la tradition, il contracta une grave maladie après être entré dans le fleuve Genil pour tenter de sauver un jeune homme de la noyade. Durant ses derniers jours, il fut pris en charge par des bienfaiteurs à Grenade, où il mourut le 8 mars 1550, à l'âge de cinquante-cinq ans.
+
+Sa réputation de sainteté se répandit rapidement, et ses disciples continuèrent à développer l'œuvre qu'il avait commencée. Le pape Urbain VIII le béatifia en 1630, et le pape Alexandre VIII le canonisa en 1690. En 1886, le pape Léon XIII le proclama patron des hôpitaux et des malades, tandis que le pape Pie XI le désigna plus tard comme patron des infirmiers et de leurs associations.
+
+L'héritage de saint Jean de Dieu repose sur une conviction simple, mais exigeante : toute personne qui souffre mérite d'être accueillie avec amour. Sa vie montre que la charité chrétienne n'est pas seulement un sentiment ou un idéal, mais un engagement quotidien qui se traduit par les soins, le sacrifice et le respect de la dignité humaine. En transformant sa propre expérience de la souffrance en un service rendu aux autres, il est devenu un témoin durable de la miséricorde guérissante du Christ.
+$desc$),
+('saint-frances-of-rome', 'fr',
+$desc$Sainte Françoise de Rome, née Francesca Bussa en 1384, était une noble italienne, épouse, mère et mystique, dont la vie alliait les responsabilités familiales à une charité et une vie de prière extraordinaires. Bien qu'elle ait souhaité entrer dans la vie religieuse dès son enfance, elle épousa Lorenzo Ponziani et se consacra à l'éducation de ses enfants tout en venant en aide aux pauvres et aux malades de Rome. Durant les périodes de guerre, de famine et de peste, elle ouvrit sa maison aux personnes dans le besoin, distribua de la nourriture et des vêtements et prit soin des souffrants malgré les deuils personnels et les difficultés familiales. Avec le consentement de son mari, elle embrassa finalement une vie de plus grand dévouement spirituel et fonda une communauté de femmes connue sous le nom d'Oblates de Tor de' Specchi. Après la mort de Lorenzo, elle les rejoignit et devint leur supérieure. Elle mourut à Rome en 1440 et fut canonisée par le pape Paul V en 1608. Sainte Françoise demeure un exemple remarquable de sainteté vécue dans le mariage, la maternité, la contemplation et les œuvres concrètes de miséricorde.$desc$,
+
+$desc$Francesca Bussa naquit à Rome en 1384, au sein d'une famille noble, riche et respectée. Dès son enfance, elle manifesta un profond attrait pour la prière et la vie des saints, espérant se consacrer entièrement à Dieu. Sa famille avait cependant d'autres projets pour elle. Vers l'âge de douze ans, elle épousa Lorenzo Ponziani, un noble dont la famille occupait une place influente dans la société romaine. Bien que ce mariage l'empêchât d'entrer au couvent, Françoise découvrit progressivement que sa vocation spirituelle pouvait s'épanouir au cœur de la vie familiale.
+
+### La sainteté dans le mariage et la maternité
+
+Françoise se consacra à son foyer et à ses enfants tout en menant une vie rigoureuse de prière, de pénitence et de participation aux sacrements. Avec sa belle-sœur Vannozza, elle visitait les églises et cherchait des occasions de venir en aide aux pauvres. Elle fut de plus en plus convaincue que la sainteté chrétienne n'était pas réservée à ceux qui se retiraient du monde, mais qu'elle pouvait aussi se poursuivre à travers les responsabilités ordinaires vécues en présence de Dieu.
+
+Sa famille dut néanmoins traverser de grandes épreuves. Deux de ses enfants moururent en bas âge, et les conflits politiques menacèrent à plusieurs reprises la sécurité du foyer des Ponziani. Durant les luttes qui frappèrent Rome au début du XVe siècle, Lorenzo fut grièvement blessé, leurs biens furent confisqués et leur fils Battista fut pris en otage. Françoise affronta ces épreuves dans la prière et la persévérance, continuant à prendre soin de ceux qui l'entouraient alors même que sa propre famille traversait des difficultés.
+
+### Une vie de charité et de prière
+
+La sollicitude de Françoise envers les personnes souffrantes dépassait largement le cadre de son foyer. Lors des épidémies et des périodes de famine, elle distribuait de la nourriture, des vêtements et d'autres produits de première nécessité à ceux qui avaient été abandonnés. Elle visitait les hôpitaux et mettait les ressources de sa famille au service de la charité, allant jusqu'à vendre des objets de valeur pour soutenir les pauvres.
+
+Sa générosité était remarquable, car elle dépassait les barrières sociales. Bien qu'appartenant à l'aristocratie romaine, elle allait à la rencontre des malades, des indigents et des personnes oubliées. Sa spiritualité reposait sur la conviction que le Christ était présent dans ceux qui souffraient et que l'amour de Dieu devait se manifester par des actes concrets de service.
+
+Françoise se fit également connaître pour ses expériences mystiques, notamment des visions dans lesquelles elle croyait recevoir les conseils et l'aide spirituelle de son ange gardien. Ces récits, conservés dans des biographies religieuses ultérieures et dans des écrits associés à son confesseur, contribuèrent largement à sa réputation spirituelle. Toutefois, le cœur de sa vie demeurait l'exercice concret de la miséricorde, qui accompagnait sa contemplation.
+
+### La fondation des Oblates
+
+Avec le consentement de Lorenzo, Françoise adopta finalement, au sein de son mariage, une vie plus pleinement consacrée à la chasteté et au dévouement spirituel. Le 15 août 1425, elle fonda officiellement, avec plusieurs compagnes, une communauté de femmes liée à la tradition bénédictine olivétaine. Connues sous le nom d'Oblates, elles cherchaient à unir la prière, la simplicité et le service charitable sans exiger de chaque membre qu'elle abandonne son foyer ou ses responsabilités familiales.
+
+En 1433, les femmes établirent une maison commune à Tor de' Specchi, à Rome. Leur communauté donna un cadre durable aux idéaux spirituels cultivés par Françoise : une vie centrée sur Dieu tout en restant attentive aux besoins de la société.
+
+À la mort de Lorenzo, en 1436, Françoise put rejoindre définitivement ses compagnes. Elle entra dans leur communauté et en devint la supérieure, guidant les femmes par la prière, l'humilité et le service. Son parcours illustre la continuité de sa vocation : qu'elle fût épouse, mère ou supérieure religieuse, elle cherchait à mettre chaque aspect de sa vie au service du Christ.
+
+### Ses dernières années et son héritage
+
+Françoise mourut à Rome le 9 mars 1440. Sa réputation de sainteté se répandit rapidement, et les habitants de Rome en vinrent à la vénérer comme une protectrice spirituelle de leur ville. Le pape Paul V la canonisa en 1608, reconnaissant officiellement la sainteté que des générations de croyants avaient reconnue dans sa vie.
+
+Sainte Françoise de Rome demeure un exemple durable de la manière dont la contemplation et l'action peuvent se soutenir mutuellement. Elle ne séparait pas la prière de ses responsabilités, et les souffrances familiales ne l'empêchèrent pas de servir les autres. Sa vie montre que la sainteté peut s'épanouir dans le mariage et la maternité, grâce à l'accomplissement patient des devoirs quotidiens et à une réponse généreuse aux besoins humains.
+
+Son héritage perdure à travers les Oblates de Tor de' Specchi et les nombreux chrétiens inspirés par son exemple. Sainte Françoise rappelle aux fidèles que servir Dieu n'exige pas toujours de quitter sa place dans le monde. Il s'agit parfois de transformer cette place par la charité, la persévérance et un cœur attentif à la souffrance d'autrui.
+$desc$),
+('saint-patrick', 'fr',
+$desc$Saint Patrick, né en Bretagne romaine à la fin du IVe siècle, fut un évêque missionnaire traditionnellement considéré comme le principal apôtre de l'Irlande. Enlevé par des pillards irlandais alors qu'il était adolescent et réduit en esclavage, il passa plusieurs années à garder des troupeaux avant de s'échapper et de retrouver sa famille. Sa captivité approfondit sa foi chrétienne et il retourna finalement en Irlande comme missionnaire, convaincu que Dieu l'avait appelé à évangéliser le peuple au milieu duquel il avait souffert. Par sa prédication, ses baptêmes et la fondation de communautés chrétiennes, Patrick contribua à jeter les bases du christianisme irlandais. Ses écrits conservés, notamment la *Confession*, révèlent un homme conscient de ses faiblesses, mais inébranlable dans sa confiance en la grâce divine. Bien que de nombreux détails de sa vie demeurent incertains, l'héritage de saint Patrick comme missionnaire et père spirituel a profondément marqué l'histoire religieuse de l'Irlande.$desc$,
+
+$desc$Patrick naquit en Bretagne romaine, probablement à la fin du IVe siècle, au sein d'une famille chrétienne. Son père, Calpurnius, était diacre et fonctionnaire local, tandis que son grand-père avait lui aussi servi l'Église. Patrick se rappela plus tard que, malgré cet environnement religieux, il ne prenait pas sa foi au sérieux durant sa jeunesse.
+
+Sa vie changea radicalement lorsque des pillards irlandais attaquèrent la région où il vivait et le firent prisonnier. Encore adolescent, il fut emmené en Irlande et contraint de travailler comme berger, gardant des moutons dans l'isolement. Au cours de ces années d'épreuves, il se tourna de plus en plus vers la prière. Dans sa *Confession*, Patrick décrit comment sa foi grandit au milieu de la faim, de la solitude et de l'incertitude, et comment la prière devint pour lui une source constante de force.
+
+### Captivité et évasion
+
+Après environ six années de captivité, Patrick eut ce qu'il interpréta comme un avertissement divin lui annonçant que son évasion était proche. Il s'enfuit de chez son maître et parcourut une longue distance pour atteindre la côte, où il finit par trouver un navire dont l'équipage accepta de l'embarquer. Après de nouvelles épreuves, il retrouva sa famille en Bretagne.
+
+La liberté n'effaça pas ses souvenirs de l'Irlande. Patrick raconte avoir eu une vision dans laquelle il entendit les voix des Irlandais l'appeler à revenir et à marcher parmi eux. Il interpréta cette expérience comme un appel à la mission. Malgré les dangers, il résolut de retourner dans le pays où il avait autrefois été réduit en esclavage, non plus comme captif, mais comme messager de l'Évangile.
+
+### Le missionnaire de l'Irlande
+
+La préparation de Patrick au sacerdoce impliqua probablement plusieurs années d'études religieuses et de service sur le continent, bien que les détails précis et la chronologie restent incertains. Il retourna finalement en Irlande comme évêque et missionnaire. La tradition associe sa mission au soutien du pape Célestin Ier, bien que les sources conservées ne permettent pas de reconstituer avec certitude tous les détails de sa nomination.
+
+À l'époque de Patrick, l'Irlande était largement organisée autour de royaumes locaux et de pratiques religieuses traditionnelles. Son évangélisation exigeait donc de la patience, du courage et la capacité de dialoguer avec les souverains puissants et les communautés locales. Patrick prêcha la foi chrétienne, baptisa des convertis et contribua à établir des communautés capables de faire vivre l'Église au-delà de la présence d'un missionnaire particulier.
+
+Ses propres écrits révèlent les risques qu'il accepta de courir. Il évoque l'opposition, les insultes et la possibilité de subir des violences, tout en exprimant sa confiance dans le soutien de Dieu. Il parle également de son désir d'apporter l'Évangile à ceux qu'il considérait comme ses anciens ravisseurs, transformant le souvenir de sa captivité en une mission de réconciliation et de générosité spirituelle.
+
+### Foi, humilité et persévérance
+
+La *Confession* de Patrick est l'un des documents conservés les plus importants du christianisme irlandais ancien. Rédigée dans un style direct et personnel, elle ne constitue pas une biographie systématique, mais une défense spirituelle de sa vocation missionnaire. Patrick souligne à plusieurs reprises que sa réussite ne dépendait ni de son savoir ni de sa grandeur personnelle, mais de la grâce de Dieu.
+
+Son humilité ne doit pas être confondue avec de la passivité. Il défendit sa mission contre les critiques qui remettaient en question ses qualifications et la légitimité de son œuvre. En même temps, il demeurait conscient de ses propres limites et se décrivait comme un instrument imparfait par lequel Dieu avait choisi d'agir.
+
+Un second texte conservé, sa *Lettre aux soldats de Coroticus*, condamne le massacre et la réduction en esclavage de chrétiens par un chef de guerre breton et ses hommes. Cette lettre révèle la sollicitude pastorale de Patrick envers les victimes de la violence et sa détermination à défendre la dignité des personnes qui souffraient. Elle montre également que son engagement envers l'Évangile impliquait de dénoncer l'injustice, même lorsque cela l'opposait à des personnages influents.
+
+### Un héritage durable
+
+La date et le lieu exacts de la mort de Patrick demeurent incertains, bien que la tradition situe ses dernières années en Irlande et associe généralement sa mort au Ve siècle. De nombreux récits plus tardifs, notamment celui selon lequel il aurait chassé tous les serpents d'Irlande, relèvent du développement de sa légende plutôt que de faits historiques solidement établis. Ses propres écrits restent la source la plus fiable pour comprendre sa personnalité et sa mission.
+
+L'influence de Patrick dépassa largement sa propre époque. Les communautés chrétiennes établies au cours des premiers siècles du christianisme irlandais devinrent des centres de prière, de savoir et d'activité missionnaire. Au cours des générations suivantes, les moines et les érudits irlandais contribuèrent à transmettre le savoir chrétien dans certaines régions de Bretagne et d'Europe continentale.
+
+L'importance durable de saint Patrick tient à sa capacité à transformer sa souffrance en service. Après avoir connu la captivité, il retourna librement auprès du peuple au milieu duquel il l'avait subie, convaincu que l'Évangile l'appelait à aimer plutôt qu'à se venger. Sa vie témoigne de la puissance de la foi, capable de transformer l'adversité en vocation, ainsi que de la conviction que la grâce divine peut donner un sens plus grand aux expériences les plus douloureuses. Par son courage, son humilité et sa persévérance missionnaire, saint Patrick devint l'une des figures les plus influentes de l'histoire du christianisme irlandais.
+$desc$),
+('saint-cyril-of-jerusalem', 'fr',
+$desc$Saint Cyrille de Jérusalem, né vers l'an 315, était un évêque, théologien et docteur de l'Église dont les enseignements ont aidé des générations de chrétiens à comprendre la foi et les sacrements. Nommé évêque de Jérusalem vers 348, il accompagnait les catéchumènes qui se préparaient au baptême et prononça les célèbres *Catéchèses*, qui demeurent des témoignages précieux des croyances et des pratiques liturgiques de l'Église primitive. Au cours des controverses théologiques du IVe siècle, Cyrille subit plusieurs exils, mais continua à défendre la foi chrétienne et à servir son troupeau. Il revint définitivement à Jérusalem en 378 et participa aux efforts de l'Église pour rétablir l'unité après des décennies de divisions. Il mourut vers 387 et fut proclamé docteur de l'Église par le pape Léon XIII en 1883. Saint Cyrille demeure un modèle de dévouement pastoral, de fidélité à la saine doctrine et de persévérance dans l'adversité.$desc$,
+
+$desc$Cyrille naquit vers 315 à Jérusalem ou dans ses environs, à une époque où le christianisme sortait des persécutions et s'établissait dans tout l'Empire romain. Il reçut une solide formation littéraire qui le prépara à l'étude des Écritures et de la théologie. Attiré par le service de l'Église, il fut ordonné prêtre vers 345 par l'évêque de Jérusalem, Maxime. Ses dons de pédagogue et de pasteur apparurent bientôt, notamment sa capacité à expliquer la foi chrétienne à ceux qui se préparaient à recevoir le baptême.
+
+### Un enseignant de la foi chrétienne
+
+Vers 348, Cyrille devint évêque de Jérusalem. L'une de ses principales responsabilités consistait à préparer les catéchumènes à l'initiation chrétienne. Ses célèbres *Catéchèses*, prononcées au IVe siècle, proposaient un enseignement structuré sur les Écritures, le Credo, la conversion et les sacrements. Elles guidaient les candidats à travers les vérités fondamentales du christianisme et les aidaient à comprendre le sens de leur vie nouvelle dans le Christ.
+
+L'enseignement de Cyrille était profondément enraciné dans la Bible. Il présentait l'Ancien et le Nouveau Testament comme les parties d'un unique dessein divin accompli en Jésus-Christ, encourageant ses auditeurs à découvrir comment les promesses de Dieu conduisaient au mystère du salut. Son enseignement soulignait également l'importance de la conversion personnelle : accueillir la foi exigeait non seulement une compréhension intellectuelle, mais aussi une vie transformée par la prière, la repentance et l'obéissance à Dieu.
+
+Ses écrits sont particulièrement précieux pour leur témoignage sur le culte chrétien des premiers siècles. Les catéchèses qui lui sont traditionnellement attribuées décrivent le baptême, l'onction avec le saint chrême et l'Eucharistie, notamment la vénération de l'Église pour le pain et le vin consacrés comme Corps et Sang du Christ. Elles offrent un aperçu remarquable de la vie sacramentelle de l'Église au IVe siècle.
+
+### Exil et persévérance
+
+L'épiscopat de Cyrille se déroula pendant la controverse arienne, un conflit théologique majeur portant sur la relation entre le Père et le Fils. Cette controverse divisa les communautés chrétiennes et entraîna les empereurs, les évêques et les conciles dans des débats prolongés. Les relations entre Cyrille et Acace, l'influent évêque de Césarée, se tendirent de plus en plus, tant sur les questions doctrinales que sur l'autorité du siège épiscopal de Jérusalem.
+
+En 357, Cyrille fut déposé et contraint à l'exil. Il revint pendant un temps, mais fut de nouveau expulsé en 360. En 367, l'empereur Valens ordonna un nouvel exil qui dura environ onze ans. Ces déplacements répétés l'éloignèrent de son troupeau et interrompirent son ministère pastoral, mais Cyrille demeura une figure respectée par de nombreux chrétiens.
+
+Les détails précis de sa position au cours de ces controverses ont fait l'objet de débats entre historiens. Néanmoins, les témoignages ecclésiastiques ultérieurs affirmèrent clairement son orthodoxie et sa contribution à l'Église. En 378, après la mort de Valens, Cyrille retourna définitivement à Jérusalem et s'employa à rétablir la paix et l'unité parmi les fidèles.
+
+### Un témoin des sacrements
+
+L'importance durable de Cyrille repose avant tout sur son enseignement. Ses *Catéchèses* révèlent un pasteur qui comprenait que la formation chrétienne exigeait une préparation attentive, un enseignement clair et une rencontre vivante avec les mystères de la foi. Il expliquait le Credo non comme un ensemble de propositions abstraites, mais comme la confession de foi d'une communauté appelée au salut par le Christ.
+
+Son enseignement sur l'Eucharistie est particulièrement significatif. Cyrille exhortait les nouveaux baptisés à s'approcher de la sainte communion avec respect et foi, en reconnaissant le profond mystère célébré à l'autel. Ses explications témoignent de la place centrale de l'Eucharistie dans le culte chrétien des premiers siècles et de la conviction que les sacrements communiquent à son peuple la grâce du Christ.
+
+Cyrille soulignait également l'action du Saint-Esprit dans la vie chrétienne. Par le baptême et l'onction du saint chrême, les croyants entraient dans une relation nouvelle avec Dieu et recevaient la force de vivre selon l'Évangile. Sa catéchèse cherchait à unir la doctrine, la liturgie et la conduite quotidienne, afin de former des chrétiens dont la foi se manifesterait dans leur vie.
+
+### Ses dernières années et son héritage
+
+Cyrille participa au premier concile de Constantinople en 381, qui réaffirma la foi de Nicée et contribua à préciser l'enseignement chrétien sur la Trinité. Son rôle témoignait du rétablissement de sa place au sein de l'Église universelle après des années de conflits et d'exil. Une lettre synodale publiée en 382 reconnut son orthodoxie et la légitimité de son ministère épiscopal.
+
+Il mourut vers 387, laissant un ensemble d'enseignements qui devint l'une des sources les plus importantes pour comprendre la catéchèse chrétienne des premiers siècles. En 1883, le pape Léon XIII le proclama docteur de l'Église, reconnaissant la valeur théologique durable de ses écrits.
+
+Saint Cyrille de Jérusalem demeure l'exemple d'un pasteur fidèle qui persévère dans l'adversité tout en continuant à enseigner et à guider son peuple. Sa vie rappelle à l'Église que la saine doctrine doit s'accompagner de patience, de sollicitude pastorale et du désir de conduire les âmes au Christ. Par ses écrits catéchétiques, il continue d'instruire les chrétiens sur le sens du baptême, de l'Eucharistie et de la vie de foi, préservant ainsi un précieux témoignage de l'enseignement et du culte de l'Église primitive.
+$desc$),
+('saint-turibius-of-mogrovejo', 'fr',
+$desc$Saint Turibe de Mogrovejo, né en Espagne en 1538, était un juriste devenu archevêque de Lima et l'un des grands évêques missionnaires des Amériques. Bien qu'il fût encore laïc lorsqu'il fut nommé à l'épiscopat, il accepta l'appel à servir l'Église au Pérou, où il se consacra à l'évangélisation, à la réforme du clergé et à la défense des peuples autochtones contre les abus coloniaux. Il parcourut inlassablement son immense diocèse, souvent à pied, apprit les langues locales et contribua à la diffusion de l'enseignement chrétien en quechua et en aymara. Il fonda le premier séminaire de Lima et renforça l'organisation de l'Église par des conciles et des visites pastorales. Il mourut en 1606 et fut canonisé par le pape Benoît XIII en 1726. Proclamé patron de l'épiscopat latino-américain par le pape Jean-Paul II en 1983, saint Turibe demeure un modèle de zèle missionnaire, de courage pastoral et de justice enracinée dans l'Évangile.$desc$,
+
+$desc$Turibe Alphonse de Mogrovejo naquit en 1538 à Mayorga, dans le royaume de Castille, en Espagne. Issu d'une famille noble, il reçut une excellente éducation et se distingua par ses études de droit. Il devint professeur à l'université de Salamanque, puis exerça les fonctions de juge à Grenade. Réputé pour son savoir et son intégrité, il semblait destiné à une brillante carrière dans l'administration civile plutôt qu'à l'activité missionnaire.
+
+Sa vie prit un tournant inattendu lorsque le roi Philippe II le choisit pour devenir archevêque de Lima, dans les territoires espagnols d'Amérique du Sud. Turibe était encore laïc et se jugeait initialement indigne d'une telle responsabilité. Il accepta néanmoins cette nomination, reçut la formation ecclésiastique nécessaire et fut ordonné prêtre puis consacré évêque avant de partir pour le Pérou.
+
+### Une mission dans le Nouveau Monde
+
+Turibe arriva au Pérou en 1581 et découvrit rapidement les immenses défis auxquels l'Église était confrontée. Son archidiocèse couvrait un territoire très vaste, tandis que de nombreuses communautés autochtones subissaient l'exploitation, le travail forcé et les abus des autorités coloniales. Il constata également de graves problèmes au sein du clergé, notamment une formation insuffisante et des manquements aux responsabilités pastorales.
+
+Plutôt que de gouverner depuis le confort de Lima, Turibe résolut d'aller personnellement à la rencontre de ses fidèles. Il entreprit de longs voyages à travers les montagnes, les vallées et les villages reculés, souvent à pied. Ces visites pastorales lui permettaient d'administrer les sacrements, de prêcher l'Évangile et de mieux comprendre les conditions de vie des populations.
+
+Son approche missionnaire exigeait patience et humilité. Il apprit les langues autochtones, en particulier le quechua, et encouragea les prêtres à faire de même afin de transmettre plus efficacement l'enseignement chrétien. Il soutint la préparation de catéchismes dans les langues locales, rendant ainsi la foi accessible à des communautés dont on ne pouvait attendre qu'elles comprennent l'espagnol.
+
+### Défenseur des peuples autochtones
+
+Turibe estimait que l'évangélisation ne pouvait être séparée de la justice et du respect de la dignité humaine. Il s'opposa aux mauvais traitements infligés aux populations autochtones par de puissants colons et affirma que l'autorité civile et les privilèges sociaux ne justifiaient aucun abus. Sa défense des communautés vulnérables le mit en conflit avec des personnalités influentes qui s'opposaient à ses efforts de réforme de la société coloniale.
+
+Sa sollicitude ne se limitait pas à la prédication. Il s'efforça d'améliorer l'accompagnement pastoral, encouragea l'assistance charitable et chercha à faire en sorte que l'Église serve les personnes souvent négligées par ceux qui détenaient le pouvoir. Son engagement reposait sur la conviction que toute personne était digne de l'amour chrétien et que l'Évangile exigeait davantage qu'une conversion extérieure.
+
+Turibe comprenait également qu'un renouveau durable nécessitait un clergé bien formé. Il insista sur la discipline, la formation théologique et le sérieux du ministère pastoral, s'attaquant aux abus par le biais de conciles et de synodes ecclésiastiques. Ses efforts contribuèrent à renforcer l'organisation de l'Église au Pérou et à établir des principes de formation qui influenceraient des générations de prêtres.
+
+### Bâtir l'Église au Pérou
+
+Durant son épiscopat, Turibe convoqua plusieurs conciles provinciaux et de nombreux synodes diocésains afin de répondre aux besoins de l'Église dans l'ensemble de l'Amérique espagnole. Le troisième concile de Lima, tenu de 1582 à 1583, joua un rôle particulièrement important dans l'établissement de directives pour l'évangélisation et l'instruction pastorale. Ses travaux contribuèrent à la publication de documents catéchétiques en espagnol et dans les langues autochtones.
+
+En 1591, Turibe fonda un séminaire à Lima pour former les futurs prêtres, contribuant ainsi à mettre en place une structure durable pour la formation du clergé dans les Amériques. Il soutint également le développement des paroisses, des églises, des écoles et des institutions caritatives.
+
+Son ministère marqua la vie de plusieurs futurs saints. Parmi ceux qui reçurent de lui le sacrement de confirmation figuraient sainte Rose de Lima et saint Martin de Porrès. Son travail pastoral contribua à faire grandir une Église locale dont la vie spirituelle continuerait de s'épanouir longtemps après sa mort.
+
+### Son dernier voyage et son héritage
+
+Après environ vingt-cinq années d'un ministère missionnaire exigeant, Turibe tomba gravement malade alors qu'il parcourait son archidiocèse. Il mourut à Saña, dans le nord du Pérou, le 23 mars 1606. Selon la tradition, il demeura préoccupé par le bien spirituel de ceux qui l'entouraient jusqu'à ses derniers instants.
+
+Sa réputation de sainteté se répandit dans les Amériques et en Europe. Le pape Innocent XI le béatifia en 1679, et le pape Benoît XIII le canonisa en 1726. En 1983, le pape Jean-Paul II le proclama patron des évêques d'Amérique latine.
+
+Saint Turibe de Mogrovejo demeure un exemple saisissant de pasteur qui plaça les besoins de son troupeau au-dessus de son confort personnel et de son avancement dans le monde. Sa vie montre que le zèle missionnaire doit s'accompagner de justice, d'un enseignement patient et du respect des personnes confiées à l'Église. Par ses voyages, ses réformes et sa défense des communautés autochtones, il contribua à façonner la vie chrétienne au Pérou et laissa un témoignage durable de la charité pastorale du Christ.
+$desc$)
+) AS x(slug, locale_code, short_description, full_biography) ON s.slug = x.slug
+WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+
+-- MARCH LATINA
+UPDATE saint_translations AS st
+SET short_description = x.short_description,
+	full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-casimir', 'la',
+$desc$Sanctus Casimirus, Cracoviae anno 1458 natus, princeps Polonus ex dynastia Iagellonica fuit, cuius vita officia regia cum profunda pietate Christiana coniunxit. Filius Casimiri IV, regis Poloniae, et Elisabethae Austriae, optimam institutionem accepit, sed precationem, Eucharistiam et opera caritatis voluptatibus vitae aulicae praetulit. Muneribus regiminis patre absente commissus, iustitia, cura pauperum atque recusatione ambitionem politicam conscientiae suae anteponendi claruit. Virginem Mariam impense veneratus, castitati et vitae precationis fidelis mansit, quamvis exspectationes suae condicionis regiae eum premerent. In Lithuania anno 1484 mortuus est, annos tantum viginti quinque natus. Secundum traditionem, anno 1521 a Leone X papa canonizatus, Sanctus Casimirus patronus dilectus Poloniae et Lithuaniae factus est, memoria servatus ut exemplar sanctitatis in vita publica atque fidelitatis Christo inter mundanas opes.$desc$,
+
+$desc$Casimirus die 3 Octobris 1458 in arce Wawelensi Cracoviae natus est, filius Casimiri IV, regis Poloniae, et Elisabethae Austriae. Inter privilegia et officia unius ex potentissimis familiis regiis Europae crevit. Eius institutio praeclaris magistris commissa est, inter quos erant historicus et sacerdos Ioannes Długosz, qui ad eius ingenium intellectuale et religiosas persuasiones formandas contulit. Ab ineunte aetate Casimirus insignem precationis studium atque singularem aliorum necessitatum curam ostendit.
+
+### Princeps ad Sanctitatem Vocatus
+
+Tredecim annos natus, Casimirus in conatu obtinendi regni Hungariae implicatus est, quem adversarii Matthiae Corvini regis sustinebant. Expeditio defecit, atque iuvenis princeps in Poloniam rediit. Haec experientia eum difficultatibus relationis inter ambitionem regiam, potestatem politicam et certaminum pretium exposuit. Rex Hungariae tandem non factus est, atque vita eius aliam viam secuta est quam illa rectoris ambitione ducti.
+
+Cum ad maturitatem perveniret, Casimirus magis magisque disciplina vitae religiosae eminuit. Missae aderat, diuturnas precationi horas impendebat atque peculiarem erga Virginem Mariam amorem colebat. Traditio eum hymno mariano *Omni die dic Mariae* coniungit, quamquam ipse eius auctor originalis non fuit. Eius devotio desiderium exprimebat vitam suam Deo committendi, potius quam condicionem privilegiatam suas spirituales necessitates determinare sinendi.
+
+### Iustitia et Caritas in Vita Publica
+
+Sanctitas Casimiri eum a suis officiis non abduxit. Cum pater in Lithuaniam proficisceretur, iuveni principi administratio Poloniae commissa est, praesertim inter annos 1481 et 1483. Haec officia prudentia et vehementi iustitiae studio explevit, infirmos protegere atque abusus coercere conans.
+
+Pauperibus peculiari cura attendebat, quorum necessitates in mundo privilegiis regiis referto facile neglegi poterant. Liberalitas eius misericordiae famam ei comparavit, dum officii conscientia demonstravit auctoritatem politicam tamquam servitii formam exerceri posse. Casimiro fides privatae devotioni non continebatur: modum quo ii tractarentur, qui a principum decretis pendebant, informare debebat.
+
+Eius exemplum opinionem oppugnabat sanctitatem ab omni dignitate influentiae abdicando tantum obtineri posse. Quamvis precationem et lectionem spiritualem ludis aulicis praeferret, officia sibi commissa suscepit eaque secundum principia Christiana explere studuit.
+
+### Renuntiatio et Ultima Infirmitas
+
+Pater Casimiri matrimonium cum filia Friderici III imperatoris componere conatus est, quod societates politicas familiae confirmavisset. Casimirus tamen vitae castitatis permansit fidelis atque futuram dynasticam, quae ab eo exspectabatur, persequi recusavit. Eius consilium intimam persuasionem ostendebat vocationem suam postulare ut necessitudinem cum Deo ambitionibus cum ortu suo coniunctis anteponeret.
+
+Exercitia ascetica severa et ieiuniorum tempora peculiares eius spiritalitatis notas facta sunt, quamquam narrationes posteriores ea interdum idealizatis coloribus describunt. Anno 1483 in Lithuaniam profectus est, ut ulteriora officia intra Magnum Ducatum susciperet. Valetudo eius deterior facta est, atque gravem morbum contraxit, qui ex traditione tuberculosis agnoscitur.
+
+Casimirus die 4 Martii 1484 apud Grodnam mortuus est, annos viginti quinque natus. Corpus eius in cathedrali Vilnensi sepultum est, ubi memoriae eius veneratio paulatim crevit. Relationes de beneficiis eius intercessioni attributis persuasionem auxerunt vitam eius eximia sanctitate insignitam fuisse.
+
+### Canonizatio et Hereditas Perpetua
+
+Fama Casimiri post mortem per Poloniam et Lithuaniam diffusa est. Frater eius Sigismundus I conatus ad eius canonizationem obtinendam sustinuit, atque investigatio vitae eius et miraculorum relatorum pontificatu Leonis X papae instituta est. Canonizatio eius ex traditione ad annum 1521 refertur, quamquam documenta historica de primis huius processus actis incompleta sunt. Cultus eius novam officialem agnitionem sub Clemente VIII papa anno 1602 accepit, atque sollemnes celebrationes Vilnae anno 1604 secutae sunt.
+
+Sanctus Casimirus potens virtutis Christianae in vita publica symbolum factus est. Non ob victorias militares aut res politicas gestas, sed ob modum quo officia exercuit, caritatem coluit et suis spiritualibus persuasionibus fidelis mansit, in memoria tenetur. Condicio regia ei potestatis et luxuriae occasiones praebuit, attamen vitam suam ad precationem et aliorum servitium dirigere studuit.
+
+Eius exemplum iuvenibus Christianis atque iis qui ducendi munere funguntur peculiari modo significativum manet. Sanctus Casimirus demonstrat sanctitatem inter exigentias officiorum publicorum possibilem esse, dummodo auctoritas iustitia, humilitate et amore regatur. Eius brevis vita adhuc testimonium perhibet veram magnitudinem non in possessione potestatis, sed in fideli Dei et proximi servitio consistere.
+$desc$),
+('saint-perpetua', 'la',
+$desc$Sancta Perpetua fuit iuvenis femina Christiana ex nobili familia Carthaginiensi, quae ineunte saeculo tertio una cum Sancta Felicitate et pluribus sociis martyrium passa est. Nupta et infantis filii mater, persecutione sub Septimio Severo imperatore comprehensa est, quod fidem Christianam abnegare recusavisset. Quamvis patris preces et carceris cruciatus eam premerent, in confessione Christi firma permansit. Narratio eius in carcere conscripta, quae in antiqua *Passione Sanctorum Perpetuae et Felicitatis* servata est, insigne testimonium praebet de eius fide, visionibus atque praeparatione ad mortem. In amphitheatro Carthaginiensi circa annum Domini 203 exsecuta, Perpetua una ex celeberrimis Ecclesiae primaevae martyribus facta est. Eius fortitudo Christianos adhuc inspirat, dum immota eius persuasio testatur fidelitatem Christo etiam validissimis vinculis terrenis antecellere.$desc$,
+
+$desc$Vibia Perpetua exeunte saeculo secundo in familia locupleti Carthagine nata est, urbe magni momenti in Africa Septentrionali Romana. Cum comprehenderetur, circiter viginti duos annos nata erat, nupta atque infantem filium curabat. Praecipuus fons de eius vita est *Passio Sanctorum Perpetuae et Felicitatis*, insignis narratio Christiana primaeva, quae locos continet ex quibus tradito more intellegitur verba ipsa Perpetuae servari, una cum narrationibus ab aliis communitatis Christianae membris conscriptis.
+
+### Fides Vinculis Familiaribus Fortior
+
+Perpetua una cum grege catechumenorum ad baptismum se praeparantium comprehensa est, inter quos erat Felicitas, mulier ancilla in eadem domo ac unus ex sociis eius. Eorum incarceratio regnante Septimio Severo imperatore facta est, cum Christiani Carthaginienses accusationi et iudicio subiicerentur, quod ritibus religiosis quos auctoritates Romanae exigebant participare recusarent.
+
+Narratio describit conatus repetitos patris Perpetuae, qui eam a fide sua deserenda persuadere conabatur. Eam obsecrabat ut de familia, parvulo filio et dedecore quod mors eius illis allatura esset cogitaret. Perpetua tamen Christianam se esse negare recusavit. In uno ex memorabilissimis colloquiis litterarum Christianarum primaevorum, identitatem suam vasi comparavit, quod veraciter aliter appellari non posset quam id quod erat. Eodem modo declaravit se nihil aliud quam Christianam se appellare posse.
+
+Eius constantia non significabat eam erga familiam caritate caruisse. Narratio dolorem eius ostendit, cum patrem dolentem videret, atque sollicitudinem de filio infante. Tandem ei concessum est ut puerum in carcere lactaret; postquam autem filius curae familiae eius traditus est, ipsa ad martyrium perrexit, corde precatione roborato.
+
+### Visiones in Carcere
+
+Dum in carcere detineretur, Perpetua plures visiones experta est, quae eam ad intellegendum futurum suum dolorem adiuvaverunt. In una ex his, scalam angustam ad caelum pertingentem vidit, armis periculosis circumdatam, dracone infra exspectante. Visionem intellexit tamquam signum viam ad vitam aeternam per perseverantiam in doloribus esse ingrediendam.
+
+Alia visio certamen eius contra adversarium Aegyptium repraesentabat, quod symbolice tamquam pugnam spiritualem contra malum interpretata est. Hae narrationes ostendunt quomodo Perpetua mortem imminentem intellexerit non tantum ut poenam iudicialem, sed etiam ut ultimum testimonium fidei suae in Christum.
+
+Socia eius Felicitas, quae tempore comprehensionis gravida erat, timebat ne una cum ceteris mori posset, quia lex Romana mulieres gravidas exsecutioni subici vetabat. Secundum narrationem, paulo ante diem exsecutionis peperit, atque socii eius gavisi sunt quod una martyrium subirent.
+
+### Martyrium in Amphitheatro
+
+Perpetua et socii eius ad mortem damnati sunt inter spectacula publica Carthagine celebrata, quae ex traditione ad annum Domini 203 referuntur. Feris obiecti sunt et violentiae subiecti antequam occiderentur. Antiqua narratio describit Perpetuam etiam inter tumultum amphitheatri animi tranquillitatem servavisse, Felicitati auxilium tulisse atque eos qui iuxta eam mortem oppetebant confirmavisse.
+
+Ultima vitae Perpetuae momenta peculiari modo memoratu digna sunt. Postquam vulnerata est, ad carnificem adducta est. Narratio refert eam manum eius trementem ad iugulum suum direxisse, ita animi constantiam qua mortem accepit demonstrans. Narratio eam non exhibet ut mulierem quae dolorem non experiretur, sed ut Christianam cui fides facultatem dedit eum subeundi sine Christi abnegatione.
+
+### Perdurans Testimonium Christianae Fortitudinis
+
+*Passio Sanctorum Perpetuae et Felicitatis* una ex gravissimis narrationibus martyrii Ecclesiae primaevae facta est. Quod experientias Perpetuae in carcere servavit, eam documentum peculiaris momenti in historia Christiana atque unum ex antiquissimis textibus superstitibus feminae Christianae attributis efficit.
+
+Testimonium Sanctae Perpetuae ostendit quanti constet discipulatus in mundo ubi fidelitas Christo cum exspectationibus familiaribus et auctoritate imperiali pugnare poterat. Eius fortitudo cum teneritudine coniuncta erat, praesertim cura filii et dolore ob patris angustias.
+
+Una cum Sancta Felicitate commemorata, testis stat persuasionis spem Christianam ultra mortem porrigere. Eius historia fidelibus adhuc commemorat sanctitatem non esse absentiam timoris aut doloris, sed voluntatem Christo fideliter manendi per utrumque. Verbis suis et martyrio, Sancta Perpetua Ecclesiae testimonium perenne fortitudinis, libertatis spiritualis et spei vitae aeternae reliquit.
+$desc$),
+('saint-felicity', 'la',
+$desc$Sancta Felicitas Carthaginiensis martyr fuit Christiana primaevae aetatis, quae una cum Sancta Perpetua et sociis earum mortem passa est durante persecutione sub Septimio Severo imperatore, circa annum Domini 203. Mulier Christiana servituti subiecta et mater exspectans, in fide sua constans mansit, quamvis carcerem et dolores partus paulo ante exsecutionem pateretur. Antiqua *Passio Sanctorum Perpetuae et Felicitatis* eius fortitudinem et propositum refert sortem fidelium suorum participandi potius quam Christum abnegandi. In amphitheatro Carthaginiensi, in Africa Septentrionali Romana, martyrio affecta, Felicitas perenne testimonium spei Christianae, aequalitatis spiritualis et fidelitatis coram morte facta est. Eius historia Ecclesiae commemorat sanctitatem non ex condicione sociali pendere, sed ex corde Deo dedito.$desc$,
+
+$desc$Felicitas, etiam Felicitas appellata, ineunte saeculo tertio Carthagine vivebat, urbe magni momenti in Africa Septentrionali Romana. De eius vita ante comprehensionem pauca cognoscuntur, sed antiqua narratio martyrii eam ut mulierem servituti subiectam describit, quae ad eandem communitatem Christianam ac Perpetua, iuvenis femina nobili genere nata, pertinebat. Amicitia earum et communis sors unum ex insignissimis testimoniis unitatis Ecclesiae primaevae factae sunt.
+
+### Fides Ultra Condicionem Socialem
+
+Felicitas una cum Perpetua et pluribus aliis Christianis in carcere detenta est durante persecutione cum Septimio Severo imperatore coniuncta. Grex catechumenos complectebatur qui ad baptismum se praeparabant, quorum recusatio fidem suam abnegandi eos coram auctoritatibus Romanis adduxit.
+
+In societate Romana servitus profundas inter homines divisiones creabat, eorum iura legalia et condicionem socialem determinans. In communitate autem Christiana Felicitas et Perpetua eandem vocationem spiritualem eandemque spem in Christo participabant. Commune earum testimonium persuasionem praecipuam Christianismi primaevi patefecit: distinctiones terrenae dignitatem hominis coram Deo determinare non poterant.
+
+Superstites *Passio Sanctorum Perpetuae et Felicitatis* narrationem eorum dierum extremorum insolite vividam praebet. Carcerem, spiritualem praeparationem atque propositum fideliter perseverandi, quamvis exsecutionis minas paterentur, describit. Quamvis condiciones earum magnopere differrent, neutra mulier confessionem Christianam deseruit.
+
+### Partus in Carcere
+
+Una ex maxime moventibus narrationis Felicitatis partibus ad eius graviditatem pertinet. Lex Romana plerumque vetabat ne mulier gravida ante partum exsecutioni subiceretur. Cum dies martyrii appropinquaret, Felicitas timebat se a sociis suis separatum iri neque eorum sortem participaturam esse.
+
+Secundum antiquam narrationem, adhuc in carcere detenta peperit, paulo ante exsecutionem constitutam. Partus eius dolorosus fuit, atque custos carceris eam, ut traditur, interrogavit quomodo cruciatus amphitheatri tolerare posset, si partus tantam ei afferret molestiam. Felicitas respondit dolorem quem tunc patiebatur suum esse, cum dolor quem in amphitheatro subitura esset Christo comitante tolerandus esset.
+
+Haec responsio una ex memorabilissimis fidei eius expressionibus facta est. Veritatem doloris corporis non negavit; potius fiduciam suam expressit Christum eam per futuram probationem sustentaturum esse. Spes eius non sola propria fortitudine nitebatur, sed persuasione se a Deo derelictam mortem non obituram esse.
+
+### Martyrium Carthagine
+
+Postquam Felicitas peperit, Perpetuam et socios earum in publico spectaculo ad exsecutionem destinato adiungere potuit. Martyrium earum, quod ex traditione ad annum Domini 203 refertur, in amphitheatro Carthaginiensi factum est, ubi Christiani violentiae ante mortem exponebantur.
+
+Antiqua narratio gregem per totam probationem unitum permansisse describit. Mors eorum publicum exemplum ad deterrendos homines a Christianismo praebere destinata erat, sed fortitudo eorum spectaculum in fidei testimonium convertit iis qui eorum historiam memoria retinuerunt.
+
+Martyrium Felicitatis peculiari modo significativum est ob contrarium inter eius condicionem vulnerabilem et constantiam eius. Carcerem et partum perpessa erat, attamen ad mortem progrediebatur, persuasum habens vitam aeternam plus valere quam minas potestatis terrenae.
+
+### Perenne Testimonium Spei Christianae
+
+*Passio Sanctorum Perpetuae et Felicitatis* una ex gravissimis narrationibus martyrii Ecclesiae primaevae facta est. Eius conservatio posterioribus generationibus permisit Felicitatem non tantum ut sociam Perpetuae, sed etiam ut mulierem memorare, cuius propria verba et acta profundam fortitudinem spiritualem exprimebant.
+
+Eius historia fidem Christianam illustrat sanctitatem omnibus patere, cuiuscumque sint ortus, divitiae aut condicio socialis. Quamvis secundum legem Romanam servituti subiecta esset, Felicitas libertatem spiritualem possidebat quam persecutores eius auferre non poterant: libertatem Christo fidelem manendi.
+
+Una cum Perpetua, potens testimonium unitatis fidelium in dolore et spe manet. Vita et mors eius Christianis commemorant fidem non per distinctionem socialem aut terrenam potentiam, sed per caritatem, perseverantiam et fiduciam in Deo manifestari. Ultimum Sanctae Felicitatis testimonium adhuc proclamat spem Christi etiam in rebus maxime vulnerabilibus cordi humano fortitudinem ad perseverandum praebere posse.
+$desc$),
+('saint-john-of-god', 'la',
+$desc$Sanctus Ioannes a Deo, Ioannes Cidade nomine natus in Lusitania anno 1495, conversus ad vitam religiosam fuit, cuius caritas extraordinaria curam infirmorum et pauperum transformavit. Post vitam pastoris, militis et librorum venditoris itinerantis, profundam conversionem spiritualem Granatae, in Hispania, expertus est, postquam concionem a Sancto Ioanne de Ávila habitam audivit. Dolore derelictorum commotus, se totum curae infirmorum, sine tecto et egentium devovit, hospitale constituens in quo unusquisque cum dignitate et misericordia accipiebatur. Eius exemplum socios attraxit, qui opus eius post mortem continuaverunt, unde Ordo Hospitalarius Sancti Ioannis de Deo ortus est. Granatae anno 1550 mortuus est et a papa Alexandro VIII anno 1690 canonizatus. Patronus nosocomiorum, infirmorum et operariorum sanitatis commemoratus, Sanctus Ioannes a Deo potens Christi misericordiae testis manet, quae per concretam caritatem et servitium manifestatur.$desc$,
+
+$desc$Ioannes Cidade anno 1495 Montemor-o-Novo, in Lusitania, natus est. De prima eius pueritia parum certo cognoscitur, quamquam traditio narrat eum domum familiarem iuvenili aetate reliquisse atque in Hispania crevisse. Pastor operam dedit, antequam miles fieret, expeditionibus militaribus serviens quae eum difficultatibus et violentiae suae aetatis exposuerunt. Prima eius vita motu et incertitudine insignita est, longe remota a vocatione caritatis qua postea clarus futurus erat.
+
+Post annos itinerum, tandem Granatae consedit, ubi librorum venditione victum quaerebat. Eius occursus cum Sancto Ioanne de Ávila, praeclaro concionatore, discrimen vitae eius factus est. Concione penitus commotus, Ioannes vehementem conversionem spiritualem expertus est, quae eum ad praeteritam vitam suam examinandam et ad pleniorem Deo dedicationem quaerendam impulit. Eius motus animi alios ad dubitandum de sanitate mentis adduxit, atque ad tempus in Regio Hospitali Granatensi inclusus est. Ibi asperum infirmorum vulnerabilium tractationem vidit, experientiam quae futuram eius missionem penitus informatura erat.
+
+### Conversio in Caritatem
+
+Hospitali relicto, Ioannes neque solacium neque publicam laudem quaesivit. Immo statuit se iis devovēre quorum dolores ipse viderat. Eleemosynas colligere coepit atque pauperibus et infirmis, qui alio loco refugium invenire non poterant, hospitium praebere. Per vias Granatenses ambulans, praetereuntes ad bona opera Dei amore facienda invitabat.
+
+Circa annum 1539 hospitale condidit, ubi infirmi, pauperes et derelicti curam accipere poterant. Eius ratio pro sua aetate insignis erat: quemque aegrotum ut hominem dignitate dignum tractare studebat, non solum morbis corporis, sed etiam necessitatibus spiritualibus et animi attendens. Eius opus persuasionem evangelicam exprimebat servitium dolentibus praestitum ipsi Christo servitium esse.
+
+Misericordia Ioannis etiam ad homines extendebatur quos societas saepe reiciebat, inter quos erant sine tecto, morbis mentis affecti et homines in extrema paupertate viventes. Eos pro oneribus habere recusans, tamquam proximos patientia et reverentia dignos accipiebat. Sua vulnerabilitatis experientia eum adiuvit ut eorum dolorem sine contemptu agnosceret.
+
+### Pater Pauperum
+
+Hospitale Ioannis mox attentionem attraxit, atque socii operi eius adiungere coeperunt. Inter primos adiutores eius erat Antón Martín, qui missionem post mortem Ioannis continuaturus erat. Ipse Ioannes in cura cotidiana penitus implicatus mansit, donationes quaerens, aegrotis auxilium ferens atque necessitatibus urgentibus ubicumque eas inveniret respondens.
+
+Caritas eius concreta erat et magnas vires exigebat. Aliquando aes alienum contraxit ut cibum, medicamenta et tectum praeberet, divinae providentiae confidens dum indefesse necessitatibus sibi occurrentibus subvenire laborabat. Narrationes de eius vita eum homines ex periculis eripientem atque singularia ad infirmos protegendos molientem describunt. Quamquam nonnulla singularia ad traditionem devotionis posteriorem pertinent, liberalitatem et fortitudinem exprimunt quibus eius fama definita est.
+
+Ioannes vivus ordinem religiosum formalem non condidit eo modo quo fundator regulam scribit et congregationem ordinat. Immo communitas circa eius exemplum formata est atque opus hospitalarium post mortem eius continuavit. Ordo Hospitalarius Sancti Ioannis de Deo a papa Pio V anno 1572 formaliter agnitus est, charismate hospitalitatis eius ad nosocomia et instituta caritatis toto orbe terrarum propagato.
+
+### Ultimi Anni et Hereditas Perpetua
+
+Indefessum Ioannis servitium vires eius paulatim exhausit. Traditio narrat eum gravem morbum contraxisse postquam in flumen Genil intravit, ut iuvenem submersum servare conaretur. Extremis diebus benefactorum curae Granatae commissus est, ubi die 8 Martii 1550 mortuus est, annos quinquaginta quinque natus.
+
+Fama eius sanctitatis celeriter diffusa est, atque discipuli eius opus quod inceperat amplificare perrexerunt. Papa Urbanus VIII eum anno 1630 beatificavit, et papa Alexander VIII anno 1690 canonizavit. Anno 1886, papa Leo XIII eum patronum nosocomiorum et infirmorum proclamavit, dum papa Pius XI postea eum patronum infirmariorum et eorum consociationum declaravit.
+
+Hereditas Sancti Ioannis a Deo in simplici, sed exigenti persuasione nititur: omnis homo dolens amore excipi meretur. Eius vita demonstrat caritatem Christianam non esse tantum animi affectum aut ideale, sed cotidianum officium cura, sacrificio et observantia dignitatis humanae expressum. Suam ipsius doloris experientiam in aliorum servitium convertendo, perenne Christi misericordiae sanantis testimonium factus est.
+$desc$),
+('saint-frances-of-rome', 'la',
+$desc$Sancta Francisca Romana, anno 1384 nata, fuit nobilis Italica, uxor, mater et mystica, cuius vita officia familiaria cum extraordinaria caritate et precatione coniunxit. Quamvis ab infantia vitam religiosam amplecti desideravisset, Laurentio Ponziani nupsit atque liberis educandis se devovit, simul pauperibus et infirmis Romae serviens. Temporibus belli, famis et pestilentiae, domum suam egentibus aperuit, cibum et vestimenta distribuit atque dolentibus subvenit, quamvis ipsa damna personalia et difficultates familiares pateretur. Viro consentiente, tandem vitam maioris dedicationis spiritualis amplexa est et communitatem mulierum condidit, quae Oblatae Tor de' Specchi appellatae sunt. Post mortem Laurentii, eas coniunxit atque earum superiorissa facta est. Romae anno 1440 mortua est et a papa Paulo V anno 1608 canonizata. Sancta Francisca manet insigne exemplum sanctitatis per matrimonium, maternitatem, contemplationem et opera misericordiae concretae exercitae.$desc$,
+
+$desc$Francisca Bussa Romae anno 1384 in familia nobili, opulenta et honorata nata est. Ab infantia magnam ad precationem et sanctorum vitas propensionem ostendit atque se totam Deo consecrare sperabat. Familia eius autem alia consilia habebat. Circiter duodecim annos nata Laurentio Ponziani nupsit, viro nobili cuius familia locum insignem in societate Romana obtinebat. Quamvis matrimonium eam a monasterio ingressu prohiberet, Francisca paulatim intellexit vocationem suam spiritualem etiam intra vitam familiarem florere posse.
+
+### Sanctitas in Matrimonio et Maternitate
+
+Francisca familiae liberisque suis se devovit, vitam precationis, paenitentiae et sacramentorum participationis disciplinatam servans. Una cum cognata Vannozza ecclesias visitabat atque occasiones quaerebat pauperibus adiuvandi. Magis magisque persuasum habebat sanctitatem Christianam non solum iis patere qui a mundo secederent, sed etiam per cotidiana officia coram Deo impleta peti posse.
+
+Familia eius tamen magnos dolores perpessa est. Duo ex liberis eius iuvenes mortui sunt, atque certamina politica saepe securitatem domus Ponzianorum minabantur. Per contentiones quae ineunte saeculo quinto decimo Romam afflixerunt, Laurentius graviter vulneratus est, bona eorum publicata sunt atque filius eorum Baptista obses abductus est. His probationibus Francisca precatione et perseverantia respondit, circa se hominibus curam praebere continuans, etiam cum propria familia difficultates pateretur.
+
+### Vita Caritatis et Precationis
+
+Sollicitudo Franciscae erga dolentes longe ultra domum eius extendebatur. Per epidemias et famis tempora cibum, vestimenta aliaque necessaria iis distribuebat qui derelicti erant. Nosocomia visitabat atque partem facultatum familiae suae in instrumenta caritatis convertebat, pretiosa bona vendens ut pauperibus subveniret.
+
+Liberalitas eius insignis erat, quia fines condicionum socialium transgrediebatur. Quamvis ad aristocratiam Romanam pertineret, homines infirmos, egentes aut oblivioni datos quaerebat. Eius spiritalitas persuasione nitebatur Christum in iis qui paterentur praesentem esse atque amorem Dei per concreta servitii opera manifestari debere.
+
+Francisca etiam ob experientias mysticas nota facta est, inter quas visiones in quibus se spiritualem directionem atque auxilium ab angelo custode suo accipere credebat. Hae narrationes, in posterioribus biographiis religiosis et scriptis cum eius confessario coniunctis servatae, partem magni momenti famae eius spiritualis constituerunt. Centrum tamen vitae eius opus misericordiae concretum mansit, quod contemplationem eius comitabatur.
+
+### Fundatio Oblatarum
+
+Laurentio consentiente, Francisca tandem vitam castitatis et maioris dedicationis spiritualis intra matrimonium suum plenius amplexa est. Die 15 Augusti 1425, ipsa et plures sociae communitatem mulierum formaliter constituerunt, quae traditioni Benedictinae Olivetanae adhaerebat. Oblatae appellatae, precationem, simplicitatem et caritatis servitium coniungere studebant, quin ab omnibus membris postularetur ut domum suam aut officia familiaria relinquerent.
+
+Anno 1433, mulieres domum communem apud Tor de' Specchi Romae condiderunt. Communitas earum stabilem formam praebuit idealibus spiritualibus quos Francisca coluerat: vitae Deo centratae, quae tamen necessitatibus societatis attenderet.
+
+Laurentio anno 1436 mortuo, Francisca socias suas perpetuo coniungere potuit. Communitatem earum ingressa, dux eius facta est, mulieres precatione, humilitate et servitio regens. Eius iter vocationis continuitatem illustravit: sive uxor, mater sive superiorissa religiosa esset, omnem vitae suae partem Christi servitio impendere studebat.
+
+### Ultimi Anni et Hereditas
+
+Francisca Romae die 9 Martii 1440 mortua est. Fama eius sanctitatis celeriter diffusa est, atque Romani eam tamquam spiritualem urbis suae protectricem honorare coeperunt. Papa Paulus V eam anno 1608 canonizavit, sanctitatem formaliter agnoscens quam generationes fidelium vitae eius attribuerant.
+
+Sancta Francisca Romana perenne exemplum manet quomodo contemplatio et actio se invicem sustinere possint. Precationem ab officiis non separavit, neque dolores familiares eam ab aliorum servitio impediverunt. Eius vita demonstrat sanctitatem intra matrimonium et maternitatem crescere posse, per patientem cotidianorum officiorum adimpletionem et generosam responsionem necessitatibus humanis.
+
+Hereditas eius per Oblatas Tor de' Specchi atque per multos Christianos qui eius exemplo inspirantur continuatur. Sancta Francisca fideles commemorat servire Deo non semper requirere ut quis locum suum in mundo relinquat. Aliquando hoc significat locum illum per caritatem, perseverantiam et cor ad aliorum dolores attentum transformare.
+$desc$),
+('saint-patrick', 'la',
+$desc$Sanctus Patricius, in Britannia Romana exeunte saeculo quarto natus, fuit episcopus missionarius, qui ex traditione praecipuus Hiberniae apostolus habetur. Adulescens ab Hibernis praedonibus abductus et in servitutem coactus, per aliquot annos animalia curavit, antequam effugeret atque ad familiam suam rediret. Captivitas fidem eius Christianam auxit, ac tandem in Hiberniam ut missionarius rediit, persuasione motus Deum eum vocavisse ut populum inter quem passus erat evangelizaret. Per praedicationem, baptismum et communitates Christianas constituendas, Patricius fundamenta Christianitatis Hibernicae iacere adiuvit. Scripta eius quae supersunt, praesertim *Confessio*, virum ostendunt suae infirmitatis conscium, sed in fiducia gratiae divinae constantissimum. Quamquam multa vitae eius singularia incerta manent, hereditas Sancti Patricii, missionarii et patris spiritualis, historiam religiosam Hiberniae penitus formavit.$desc$,
+
+$desc$Patricius in Britannia Romana, probabiliter exeunte saeculo quarto, in familia Christiana natus est. Pater eius, Calpurnius, diaconus et magistratus localis erat, avus autem eius quoque in Ecclesia ministraverat. Patricius postea recordatus est se, quamvis in tali ambitu religioso crevisset, iuvenili aetate fidem suam non serio coluisse.
+
+Vita eius funditus mutata est cum praedones Hibernici regionem in qua habitabat invaserunt eumque captivum abduxerunt. Adhuc adulescens in Hiberniam translatus est atque ad pastoris munus coactus, oves solitarius curans. His annis difficultatum, ad precationem magis magisque conversus est. In sua *Confessione*, Patricius describit quomodo fides eius inter famem, solitudinem et incertitudinem creverit, quomodoque precatio perpetuus ei fons fortitudinis facta sit.
+
+### Captivitas et Effugium
+
+Post circiter sex annos captivitatis, Patricius id quod intellexit divinum monitum expertus est, quo ei significabatur tempus effugiendi appropinquare. A domino suo fugit atque longum iter suscepit ut ad litus perveniret, ubi tandem navem invenit quae eum recipere vellet. Post alias difficultates, ad familiam suam in Britannia rediit.
+
+Libertas memoriam Hiberniae non delevit. Patricius narrat se visionem expertum esse in qua voces Hibernorum audivit eum rogantium ut rediret atque inter eos ambularet. Hanc experientiam vocationem ad ministerium missionarium interpretatus est. Quamvis pericula adessent, statuit in terram redire ubi olim servituti subiectus fuerat, non ut captivus, sed ut nuntius Evangelii.
+
+### Missionarius Hiberniae
+
+Praeparatio Patricii ad sacerdotium verisimiliter annos studiorum religiosorum et ministerii in continenti comprehendit, quamquam singularia accurata et temporum ordo incerta manent. Tandem in Hiberniam ut episcopus et missionarius rediit. Traditio missionem eius auxilio Caelestini I papae coniungit, quamquam documenta superstita non sinunt omnia singularia eius nominationis certo restitui.
+
+Hibernia aetate Patricii maxime circa regna localia et religiosas consuetudines traditionales ordinata erat. Eius evangelizatio igitur patientiam, fortitudinem personalem atque facultatem cum potentibus rectoribus et communitatibus localibus agendi requirebat. Patricius fidem Christianam praedicavit, conversos baptizavit et communitates constituendas adiuvit, quae Ecclesiam etiam sine praesentia uniuscuiusque missionarii sustentare possent.
+
+Scripta eius pericula quae suscepit ostendunt. Oppositionem, contumelias et vim possibilem describit, dum fiduciam exprimit Deum se sustentaturum esse. Etiam desiderium suum commemorat Evangelium ad eos perferendi quos olim captivos fecerant, memoriam servitutis in missionem reconciliationis et liberalitatis spiritualis convertens.
+
+### Fides, Humilitas et Perseverantia
+
+*Confessio* Patricii unum ex praecipuis documentis Christianitatis Hibernicae primaevae quae supersunt constituit. Directo et personali stilo scripta, non est biographia systematica, sed defensio spiritualis vocationis eius missionariae. Patricius saepe inculcat successum suum non doctrina aut propria magnitudine, sed gratia Dei niti.
+
+Humilitas eius pro ignavia habenda non est. Missionem suam contra criticos defendit, qui eius idoneitatem et operis sui legitimitatem in dubium vocabant. Simul propriarum limitum conscius mansit, se imperfectum instrumentum describens, per quod Deus agere elegisset.
+
+Alter textus qui superest, *Epistula ad milites Corotici*, caedem et servitutem Christianorum a duce militari Britannico eiusque sequacibus illatas condemnat. Epistula sollicitudinem pastoralem Patricii erga violentiae victimas atque propositum dignitatem dolentium defendendi ostendit. Etiam demonstrat eius fidelitatem Evangelio iniustitiam oppugnare implicavisse, etiam cum hoc eum cum viris potentibus in conflictum adduceret.
+
+### Hereditas Perpetua
+
+Dies et locus mortis Patricii accurati incerti sunt, quamquam traditio ultimos eius annos in Hibernia collocat atque mortem eius vulgo saeculo quinto attribuit. Multae narrationes posteriores, inter quas fabula eum omnes serpentes ex Hibernia expulisse, ad eius legendam evolvendam pertinent potius quam ad testimonia historica certa. Scripta ipsius firmissimum fundamentum manent ad indolem eius et missionem intellegendam.
+
+Influentia Patricii longe ultra vitam eius propagata est. Communitates Christianae primis saeculis Christianitatis Hibernicae constitutae in centra precationis, doctrinae et actionis missionariae evolutae sunt. Posterioribus generationibus, monachi et eruditi Hibernici doctrinam Christianam per partes Britanniae et Europae continentis propagare adiuverunt.
+
+Perdurans Sancti Patricii momentum in conversione doloris sui in servitium consistit. Captivitatem expertus, ad populum inter quem eam perpessus erat libere rediit, persuasum habens Evangelium eum ad amorem potius quam ad vindictam vocare. Eius vita vim fidei testatur, quae adversitatem in vocationem convertere potest, atque persuasionem gratiam divinam efficere posse ut etiam experientiae acerbissimae maiori consilio inserviant. Per fortitudinem, humilitatem et perseverantiam missionariam suam, Sanctus Patricius unus ex praestantissimis figuris historiae Christianitatis Hibernicae factus est.
+$desc$),
+('saint-cyril-of-jerusalem', 'la',
+$desc$Sanctus Cyrillus Hierosolymitanus, circa annum Domini 315 natus, episcopus, theologus et Ecclesiae Doctor fuit, cuius doctrina generationes Christianorum ad fidem et sacramenta intellegenda adiuvavit. Circa annum 348 episcopus Hierosolymitanus constitutus, catechumenos ad Baptismum se praeparantes instituit atque celeberrimas *Catecheses* habuit, quae pretiosum testimonium de fide et usu liturgico Ecclesiae primaevae manent. Inter controversias theologicas saeculi quarti, Cyrillus iteratis exsiliis affectus est, attamen fidem Christianam defendere gregique suo servire perrexit. Anno 378 Hierosolymam definitive rediit atque Ecclesiae operam dedit ad unitatem post decennia divisionum restituendam. Circa annum 387 mortuus est et a Leone XIII papa anno 1883 Ecclesiae Doctor proclamatus est. Sanctus Cyrillus exemplar manet dedicationis pastoralis, sanae doctrinae et perseverantiae inter adversitates.$desc$,
+
+$desc$Cyrillus circa annum 315 Hierosolymis vel in regione vicina natus est, tempore quo Christianitas persecutionibus liberabatur atque per Imperium Romanum diffundebatur. Solidam litterarum institutionem accepit, quae eum ad studium Sacrae Scripturae et theologiae praeparavit. Ad Ecclesiae servitium vocatus, circa annum 345 a Maximo, episcopo Hierosolymitano, presbyter ordinatus est. Eius dona ut magistri et pastoris mox apparuerunt, praesertim facultas fidem Christianam iis explicandi qui ad Baptismum accipiendum se praeparabant.
+
+### Magister Fidei Christianae
+
+Circa annum 348 Cyrillus episcopus Hierosolymitanus factus est. Inter praecipua eius officia erat catechumenos ad initiationem Christianam praeparare. Celeberrimae eius *Catecheses*, saeculo quarto habitae, doctrinam systematicam de Scriptura, Symbolo fidei, conversione et sacramentis praebebant. Hae institutiones candidatos per veritates fundamentales Christianitatis ducebant atque eos adiuvabant ut novae vitae suae in Christo significationem intellegerent.
+
+Doctrina Cyrilli in Bibliis penitus radicabatur. Vetus et Novum Testamentum tamquam partes unius consilii divini in Iesu Christo adimpleti exhibebat, auditores suos ad intellegendum invitans quomodo promissiones Dei ad mysterium salutis ducerent. Eius doctrina etiam momentum conversionis personalis inculcabat: fidem accipere non solam intellectus comprehensionem, sed vitam transformatam requirebat, precatione, paenitentia et oboedientia Deo conformandam.
+
+Scripta eius peculiari pretio digna sunt ob testimonium quod de cultu Christiano primaevae aetatis praebent. Catecheses ei tradito more attributae Baptismum, unctionem sacro chrismate et Eucharistiam describunt, inter quae reverentia Ecclesiae erga panem et vinum consecrata tamquam Corpus et Sanguinem Christi. Insignem conspectum vitae sacramentalis Ecclesiae saeculi quarti praebent.
+
+### Exsilium et Perseverantia
+
+Episcopatus Cyrilli tempore controversiae Arianae gestus est, quae gravis contentio theologica de relatione inter Patrem et Filium erat. Haec controversia communitates Christianas dividebat atque imperatores, episcopos et concilia in diuturnas controversias trahebat. Necessitudo Cyrilli cum Acacio, episcopo Caesariensi potentissimo, ob quaestiones doctrinales et auctoritatem sedis Hierosolymitanae magis magisque deterior facta est.
+
+Anno 357 Cyrillus depositus est atque in exsilium coactus. Ad tempus rediit, sed anno 360 iterum expulsus est. Anno 367 Valens imperator novum exsilium iussit, quod circiter undecim annos duravit. Hae repetitae expulsiones eum a grege suo separaverunt atque ministerium pastorale interrupuerunt, attamen Cyrillus apud multos Christianos vir honoratus mansit.
+
+Singula exacta eius positionis inter controversias ab historicis disputata sunt. Nihilominus testimonium ecclesiasticum posterius orthodoxiam eius et contributionem ad Ecclesiam vehementer affirmavit. Anno 378, post mortem Valentis, Cyrillus definitive Hierosolymam rediit atque pacem et unitatem inter fideles restituere laboravit.
+
+### Testis Sacramentorum
+
+Momentum perpetuum Cyrilli imprimis in eius doctrina consistit. Eius *Catecheses* pastorem ostendunt qui intellexerat institutionem Christianam accuratam praeparationem, claram doctrinam et vivum occursum cum mysteriis fidei requirere. Symbolum fidei non tamquam collectionem propositionum abstractarum explicavit, sed tamquam confessionem communitatis ad salutem per Christum vocatae.
+
+Doctrina eius de Eucharistia peculiari modo insignis est. Cyrillus Christianos nuper baptizatos hortabatur ut ad Sanctam Communionem cum reverentia et fide accederent, profundum mysterium quod ad altare celebratur agnoscentes. Eius expositiones locum praecipuum Eucharistiae in cultu Christiano primaevae aetatis demonstrant atque persuasionem sacramenta gratiam Christi populo eius communicare.
+
+Cyrillus etiam opus Spiritus Sancti in vita Christiana inculcavit. Per Baptismum et unctionem chrismatis, fideles in novam necessitudinem cum Deo initiabantur atque ad vitam secundum Evangelium agendam roborabantur. Catechesis eius doctrinam, liturgiam et cotidianam agendi rationem coniungere studebat, Christianos formans quorum fides in vita eorum manifesta esset.
+
+### Ultimi Anni et Hereditas
+
+Cyrillus Concilio Constantinopolitano anno 381 interfuit, quod fidem Nicaenam confirmavit atque ad doctrinam Christianam de Trinitate clarius definiendam contulit. Eius participatio restitutionem auctoritatis eius in Ecclesia universali post annos certaminum et exsilii demonstravit. Epistula synodalis anno 382 edita orthodoxiam eius legitimamque eius ministerii episcopalis auctoritatem agnovit.
+
+Circa annum 387 mortuus est, doctrinam relinquens quae inter praecipua fontes ad catechesim Christianam primaevam intellegendam facta est. Anno 1883, Leo XIII papa eum Ecclesiae Doctorem proclamavit, perpetuum scriptorum eius valorem theologicum agnoscens.
+
+Sanctus Cyrillus Hierosolymitanus exemplum fidelis pastoris manet, qui inter adversitates perseverat, dum populum suum docere et regere pergit. Vita eius Ecclesiae commemorat sanam doctrinam patientia, cura pastorali et desiderio animas ad Christum ducendi comitandam esse. Per catechetica scripta sua, Christianos adhuc de significatione Baptismi, Eucharistiae et vitae fidei instruit, pretiosum testimonium cultus et doctrinae Ecclesiae primaevae conservans.
+$desc$),
+('saint-turibius-of-mogrovejo', 'la',
+$desc$Sanctus Turibius Mogroveiensis, in Hispania anno 1538 natus, iurisconsultus fuit qui archiepiscopus Limanus factus est atque unus ex magnis episcopis missionariis Americarum. Quamvis laicus esset cum ad episcopatum nominaretur, vocationem ad Ecclesiae servitium in Peruvia suscepit, ubi evangelizationi, cleri reformationi et populorum indigenorum defensioni contra abusus coloniales se devovit. Per immensam dioecesim suam indefesse iter fecit, saepe pedibus, linguas locales didicit atque institutionem Christianam lingua Quechua et Aymara tradendam adiuvit. Primum seminarium Limæ condidit atque per concilia et visitationes pastorales Ecclesiae ordinationem corroboravit. Anno 1606 mortuus est et a Benedicto XIII papa anno 1726 canonizatus. Anno 1983 a Ioanne Paulo II papa patronus episcopatus Americae Latinae proclamatus, Sanctus Turibius exemplar manet zeli missionarii, fortitudinis pastoralis et iustitiae in Evangelio radicatae.$desc$,
+
+$desc$Turibius Alfonsus de Mogrovejo anno 1538 Maioricae, in Regno Castellae, Hispaniae, natus est. In nobili familia educatus, optimam institutionem accepit atque studiis iuris excelluit. Professor apud Universitatem Salmanticensem factus est, deinde iudicis munere Granatae functus est. Doctrina et integritate notus, insignem in administratione civili potius quam in opere missionario futuram sibi vitam habere videbatur.
+
+Vita eius inopinato cursu mutata est cum Philippus II rex eum archiepiscopum Limanum in territoriis Hispanicis Americae Meridionalis nominavit. Turibius adhuc laicus erat atque initio se tali officio indignum existimabat. Nihilominus nominationem accepit, necessariam institutionem ecclesiasticam suscepit atque sacerdos et episcopus ordinatus est, antequam in Peruviani regni terras proficisceretur.
+
+### Missio in Novo Mundo
+
+Turibius anno 1581 in Peruviam pervenit atque celeriter ingentes difficultates Ecclesiae obvias cognovit. Archidioecesis eius vastissimum territorium complectebatur, dum multae communitates indigenae abusus colonorum et auctoritatis colonialis, exploitationem atque laborem coactum patiebantur. Etiam graves difficultates inter clericos invenit, inter quas institutionis defectum et officiorum pastoralium neglegentiam.
+
+Limae commoda potius quam ex loco suo regere, Turibius gregem suum ipse visitare statuit. Longissima itinera per montes, valles et remotas sedes suscepit, saepe pedibus iter faciens. Hae visitationes pastorales ei facultatem praebebant sacramenta administrandi, Evangelium praedicandi atque condiciones in quibus homines vivebant cognoscendi.
+
+Eius ratio missionaria patientiam et humilitatem requirebat. Linguas indigenarum didicit, praesertim Quechua, atque sacerdotes ad idem faciendum hortatus est, ut doctrina Christiana efficacius communicari posset. Catechismos linguis localibus parandos sustinuit, ita ut fides communitatibus quae linguam Hispanicam intellegere non poterant facilior accessu fieret.
+
+### Defensor Populorum Indigenarum
+
+Turibius credebat evangelizationem a iustitia et observantia dignitatis humanae separari non posse. Iniustam indigenarum tractationem a potentibus colonis impugnavit atque affirmavit neque auctoritatem civilem neque privilegium sociale abusus excusare posse. Defensio eius communitatum vulnerabilium eum in conflictum adduxit cum viris potentibus qui conatibus eius ad societatem colonialem reformandam adversabantur.
+
+Sollicitudo eius ultra praedicationem extendebatur. Curam pastoralem emendare studuit, auxilium caritatis promovit atque operam dedit ut Ecclesia iis serviret qui a potentibus saepe neglegebantur. Eius studium persuasione nitebatur omnem hominem amore Christiano dignum esse atque Evangelium plus quam conversionem externam exigere.
+
+Turibius etiam intellexit renovationem diuturnam clerum bene formatum requirere. Disciplinam, institutionem theologicam et responsabilem agendi rationem pastoralem postulavit, abusus per concilia ecclesiastica et synodos corrigens. Conatus eius Ecclesiae ordinationem in Peruvia firmaverunt atque principia institutionis statuerunt quae generationes sacerdotum futuros afficerent.
+
+### Ecclesiam in Peruvia Aedificans
+
+Durante episcopatu suo, Turibius plura concilia provincialia et multas synodos dioecesanas convocavit, ut necessitatibus Ecclesiae per Americam Hispanicam responderet. Tertium Concilium Limanum, ab anno 1582 ad 1583 celebratum, peculiari momento fuit ad normas evangelizationis et institutionis pastoralis constituendas. Eius opera ad catecheseos materiam lingua Hispanica et linguis indigenarum edendam contulit.
+
+Anno 1591, Turibius seminarium Limae condidit ad futuros sacerdotes instituendos, structuram diuturnam institutionis clericalis in Americis constituens. Etiam paroeciarum, ecclesiarum, scholarum et institutorum caritatis progressionem sustinuit.
+
+Ministerium eius vitam multorum sanctorum futurorum tetigit. Inter eos qui ab eo sacramentum Confirmationis acceperunt erant Sancta Rosa Limana et Sanctus Martinus de Porres. Opus pastorale eius Ecclesiam localem alere adiuvit, cuius vita spiritualis multo post eius mortem florere perrexit.
+
+### Ultimum Iter et Hereditas
+
+Post circiter viginti quinque annos ministerii missionarii ardui, Turibius graviter aegrotavit dum per archidioecesim suam iter faceret. Sañae, in Peruvia septentrionali, die 23 Martii 1606 mortuus est. Secundum traditionem, usque ad extrema vitae momenta de salute spirituali eorum qui circa eum erant sollicitus mansit.
+
+Fama eius sanctitatis per Americam et Europam diffusa est. Innocentius XI papa eum anno 1679 beatificavit, et Benedictus XIII papa anno 1726 canonizavit. Anno 1983, Ioannes Paulus II papa eum episcoporum Americae Latinae patronum proclamavit.
+
+Sanctus Turibius Mogroveiensis exemplum praestans pastoris manet, qui necessitatibus gregis sui personalem commoditatem et mundanam promotionem anteposuit. Eius vita demonstrat zelum missionarium iustitia, patienti institutione et observantia erga populum Ecclesiae commissum comitandum esse. Per itinera, reformationes et defensionem communitatum indigenarum, vitam Christianam Peruviae formare adiuvit atque perenne testimonium caritatis pastoralis Christi reliquit.
 $desc$)
 ) AS x(slug, locale_code, short_description, full_biography) ON s.slug = x.slug
 WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
