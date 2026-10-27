@@ -4276,7 +4276,7 @@ Sanctus Gregorius Narecensis Christianos adhuc admonet orationem non iis tantum 
 $desc$)
 ) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
 WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
-END_BIOGRAPHIES_FEBRUARY
+-- END FEBRUARY BIOGRAPHIES
 
 -- BIOGRAPHIES_MARCH
 UPDATE saint_translations AS st
