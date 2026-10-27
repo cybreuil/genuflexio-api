@@ -645,6 +645,7 @@ FROM (VALUES
 
   ('saint-hilary-of-poitiers',            'THEOLOGIANS',          'TRD'),
 
+  -- Saint Isidore of Seville
   ('saint-isidore',                       'STUDENTS',             'TRD'),
   ('saint-isidore',                       'INTERNET',             'DEV'),  -- proposé Jean-Paul II, 1997
 
