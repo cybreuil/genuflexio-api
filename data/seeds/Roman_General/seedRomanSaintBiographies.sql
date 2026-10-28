@@ -8705,6 +8705,841 @@ Par sa persévérance, son humilité et son sens des responsabilités, Paul VI r
 ) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
 WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
 
+-- MAY LATINA
+UPDATE saint_translations AS st
+SET short_description = x.short_description, full_biography = x.full_biography
+FROM saints AS s
+JOIN (VALUES
+('saint-athanasius', 'la',
+$desc$Sanctus Athanasius Alexandrinus, Athanasius Magnus appellatus, fuit episcopus saeculi quarti, theologus et Ecclesiae Doctor, propter constantem Christi divinitatis defensionem celebris. Alexandriae circa annum 296 natus, Concilio Nicaeno Primo anno 325 interfuit, quo Arianismus damnatus est et affirmatum est Filium eiusdem substantiae esse cum Patre. Anno 328 episcopus Alexandrinus electus, quinquies in exsilium missus est propter firmam suam oppositionem doctrinalibus concessionibus. Scriptis suis, praesertim defensione Incarnationis, necnon narratione vitae sancti Antonii Magni, quae magnam vim habuit, Athanasius ad theologiam christianam et spiritualitatem monasticam formandas contulit. Alexandriae anno 373 mortuus est, memoriam relinquens tamquam unus ex magnis fidei Nicaenae defensoribus.$desc$,
+$desc$Athanasius Alexandriae in Aegypto circa annum 296 natus est, in uno ex praecipuis Imperii Romani doctrinae et christianitatis centris. De eius familia et pueritia pauca certo cognoscuntur, sed solidam institutionem in Sacris Scripturis et theologia christiana accepit. Ab ineunte aetate egregiam facultatem demonstravit fidem explicandi eiusque veritates fundamentales defendendi. Haec dona eum ad vitam praeparaverunt controversiis theologicis, officiis pastoralibus et persecutionibus repetitis insignitam.
+
+### Concilium Nicaenum et Christi divinitas
+
+Cum adhuc diaconus iuvenis esset, Athanasius episcopo Alexandro Alexandrino ministravit eumque ad Concilium Nicaenum Primum anno 325 comitatus est. Concilium convocatum erat ut doctrinas Arii examinaret, qui affirmabat Filium Dei non eodem modo aeternum esse ac Patrem neque plene divinum esse.
+
+Athanasius hanc controversiam ipsum salutis mysterium attingere intellexit. Si Christus tantum creatura esset, neque Deum plene revelare neque humanitatem ad communionem divinam restituere posset. Concilium igitur affirmavit Filium Patri *homoousion* esse, id est eiusdem cum Patre substantiae divinae. Haec confessio fundamentum Symboli Nicaeni facta est.
+
+Quamvis Athanasius nondum episcopus esset, unus ex constantissimis huius doctrinae defensoribus emersit. Intellexit proclamationem redemptionis ab Ecclesia factam veritate niti: Iesum Christum vere Deum esse et vere hominem factum esse ad mundi salutem.
+
+### Episcopus Alexandrinus et anni exsilii
+
+Post Alexandri mortem anno 328, Athanasius episcopus Alexandrinus electus est. Dioecesis suae amplissimae curae pastorali se devovit, dum fidem Nicaenam contra potentes adversarios defendebat. Controversia propter aemulationes ecclesiasticas et imperii politicas rationes implicatior facta est, atque accusationes contra eum identidem prolatae sunt.
+
+Anno 335, Athanasius in Synodo Tyriensi damnatus est atque ab imperatore Constantino Treviros in exsilium missus. Anno 337 Alexandriam rediit, sed restitutio eius temporaria fuit. Sequentibus decenniis imperatores successivi et episcopi aemuli identidem eum removere conati sunt.
+
+Athanasius Romam profectus est, ubi Iulius I papa causam eius suscepit, atque postea anno 346 Alexandriam rediit. Novae contentiones eum in latebras fugere coegerunt, inter quas memorabilis fuga a militibus imperatoriis, qui eum anno 356, dum sacra celebratio in ecclesia agebatur, comprehendere conabantur. Apud monachos Aegypti refugium invenit, ubi, quamvis a sede sua remotus esset, scribere et confessionem Nicaenam defendere perrexit.
+
+Omnino Athanasius quinquies in exsilium missus est, circiter septendecim annos a sede sua abfuturus. Eius perseverantia eum fidelitatis fidei symbolum fecit, inter politicas pressiones et ecclesiasticas divisiones. Quamvis adversarii eius non omnes iisdem causis moverentur, quaestio praecipua manebat quomodo Ecclesia relationem Filii ad Patrem intellegeret.
+
+### Incarnatio et salutis spes
+
+Opus theologicum Athanasii gravissimum, *De Incarnatione Verbi*, explicat cur Christi adventus ad redemptionem humanitatis necessarius fuerit. Per peccatum humanitas in corruptionem et a Deo separationem lapsa erat. Verbum aeternum, per quod omnia creata sunt, humanam naturam assumpsit ut eam restitueret mortemque vinceret.
+
+Athanasius hoc mysterium insigniter expressit docens Verbum hominem factum esse ut homines divinae vitae participes fierent. Haec participatio non significat humanitatem natura sua divinam fieri, sed homines per Christum et gratiam ad communionem cum Deo restitui.
+
+Eadem persuasio in scriptis eius contra Arianismum explicatur: solus verus Filius Dei humanitatem in vitam Patris introducere poterat. Quapropter Athanasio doctrinae accurata definitio non erat abstractum intellectuale exercitium. Ea christianam intellegentiam cultus divini, baptismi, resurrectionis et vitae aeternae tuebatur.
+
+### Sanctus Antonius et traditio monastica
+
+Athanasius etiam magnum momentum habuit in progressu spiritualitatis monasticae christianae per opus suum *Vita Antonii*, narrationem de sancto Antonio Magno, eremita Aegyptio, qui late unus ex monasticae vitae patribus habetur.
+
+Opus Antonium tamquam exemplum orationis, disciplinae asceticae et perseverantiae contra tentationes proponebat. Adiuvit ut monasticae vitae Aegyptiae proposita per totum orbem christianum diffunderentur multique fideles ad vitam Deo omnino dicatam impellerentur.
+
+Tempora quibus Athanasius ipse apud monachos refugium invenit eius aestimationem vocationis eorum spiritualis auxerunt. Scripta eius altam necessitudinem inter rectam doctrinam et sanctitatem ostendunt: veritas de Christo non tantum profitenda erat, sed totam vitam humanam transformare debebat.
+
+### Sacrae Scripturae et extrema vitae eius tempora
+
+In Epistula Festali Tricesima Nona, anno 367 scripta, Athanasius primum indicem a scriptore christiano servatum praebuit, qui cum viginti septem libris Novi Testamenti in canone catholico receptis exacte congruit. Hic index momentum magni ponderis constituit in progressivo Ecclesiae iudicio de Scripturis apostolicis discernendis.
+
+Post ultimam suam restitutionem Alexandriam anno 366, Athanasius communitatem suam regere et causam Nicaenam roborare perrexit. Eius influxus theologicus ad posteriores Ecclesiae Patres, inter quos Cappadoces, pervenit, qui doctrinam Ecclesiae de Trinitate ulterius explicaverunt.
+
+Athanasius Alexandriae die II mensis Maii anno 373 mortuus est. Quamvis controversiae saeculi quarti post eius mortem perseveraverint, confessio Nicaena, quam ille defenderat, norma perpetua doctrinae christianae orthodoxae de Filii divinitate facta est.
+
+### Ecclesiae Doctor
+
+Sanctus Athanasius unus ex magnis orthodoxiae catholicae defensoribus manet. Eius vita ostendit quantum constare possit fidelitas, cum potestas politica et oppositio ecclesiastica veritatem labefactare minentur. Exsilia repetita eius testimonium non obmutuerunt, neque anni certaminum eius persuasionem minuerunt Filium Dei vere in historiam humanam ingressum esse ad salutem humanitatis.
+
+Athanasius, Ecclesiae Doctor agnitus, perpetuam hereditatem theologicam reliquit, cuius centrum sunt Incarnatio, Christi divinitas et spes vitae aeternae. Eius exemplum Christianis commemorat fidelitatem patientiam, fortitudinem et sacrificium postulare posse, praesertim cum veritas divisionis causa fit.
+
+Eius magnitudo perpetua in persuasione consistit Evangelium in ipsa Iesu Christi identitate fundari: Verbum aeternum carnem factum, per quod humanitas Deo reconciliatur. Sanctus Athanasius ita testis firmus fidei Nicaenae manet atque salutaris mysterii, quod ipsum christianitatis cor constituit.
+$desc$),
+('saint-philip-apostle', 'la',
+$desc$Sanctus Philippus Apostolus unus ex Duodecim Apostolis fuit, quos Iesus Christus elegit, atque unus ex primis testibus ministerii eius. Bethsaidae in Galilaea oriundus, ex eadem civitate ac Petrus et Andreas, Philippus vocationi Iesu respondit atque deinde Nathanael ad Messiam adduxit. Evangelium secundum Ioannem plures memorabiles Philippi cum Christo congressiones refert, inter quas petitio eius ut Patrem videret in ultima Cena, cui Iesus respondit eum qui se vidisset Patrem quoque vidisse. Quamvis Novum Testamentum pauca tantum de eius vita posteriore tradat, antiquae traditiones christianae Philippum cum praedicatione missionali et martyrio coniungunt. Sanctus Philippus, propter voluntatem Christi sequendi aliosque ad eum cognoscendum invitandi memoratus, exemplum manet fidei intellectum quaerentis atque missionis apostolicae animas ad Evangelium perducendi.$desc$,
+$desc$Philippus vir Bethsaidae in Galilaea fuit, regione ubi traditiones religiosas Iudaeorum variae culturae et condiciones politicae mundi Romani conveniebant. Evangelia de eius vita prima pauca revelant, sed plura magni momenti momenta ex eius occursu cum Iesu Christo servant. Per haec eventa Philippus apparet discipulus cuius fides per personalem experientiam, interrogationes et paulatim crescentem mysterii Filii Dei cognitionem evoluta est.
+
+### A Christo Vocatus
+
+Evangelium secundum Ioannem narrat Iesum Philippum invenisse eique dixisse: «Sequere me». Philippus huic invitationi respondit atque mox ipse nuntius factus est. Nathanaelem, quem traditio cum Bartholomaeo identificat, quaesivit eique nuntiavit se invenisse eum de quo Moyses in Lege et prophetae scripserant: Iesum Nazarenum, filium Ioseph.
+
+Nathanael initio dubitavit num quid boni ex Nazareth oriri posset. Philippus non respondit argumento elaborato, sed simplicem invitationem ei obtulit: «Veni et vide». Haec brevis conversatio magni momenti rationem indolis apostolicae Philippi revelat. Potius quam verbis omnem difficultatem solvere conaretur, alterum hominem invitavit ut Christum directe conveniret.
+
+Cum Nathanael Iesum convenisset, eum Filium Dei et Regem Israel agnovit. Philippi munus in hoc occursu modicum quidem, sed significativum fuit. Non sibi vindicavit fontem veritatis esse, sed alterum hominem adiuvit ut ad eum accederet qui veritatem revelaturus erat. Eius exemplum ostendit evangelizationem saepe a personali invitatione incipere, cum fiducia et humilitate oblata.
+
+### Panis Vitae
+
+Philippus iterum in Evangelio secundum Ioannem apparet, tempore multiplicationis panum. Cum magna turba circa Iesum convenisset, Dominus Philippum interrogavit ubi panem emere possent ut populo cibum praeberent. Evangelista explicat Iesum hanc quaestionem ad eum probandum posuisse, cum iam sciret quid facturus esset.
+
+Philippus calculavit ne magnam quidem pecuniae summam sufficere ad panem omnibus praebendum, ut singuli saltem paululum acciperent. Responsum eius practicum erat atque intellegibile, cum ostenderet quam impossibile videretur tantae necessitati satisfacere mediis tam limitatis. Andreas deinde puerum indicavit qui quinque panes hordeaceos et duos pisces habebat.
+
+Iesus panes accepit, gratias egit et turbae distribuit, atque omnes saturati sunt. Hoc miraculum divinam eius auctoritatem et misericordiam erga eos qui eum sequebantur manifestavit. Philippi praesentia in hoc eventu ostendit discipulum adhuc discere quomodo gratiae divinae possibilitates ultra limites ordinarii calculi agnosceret.
+
+Eius prima dubitatio momentum eius non minuit. Immo gradatim efformationem fidei apostolicae illustrat. Discipuli non solum ad opera Christi testanda vocati erant, sed etiam ad altiorem cognitionem eius identitatis et significationis missionis eius perveniendam.
+
+### Desiderium Patrem Videndi
+
+Unum ex profundissimis momentis quae de vita Philippi referuntur ultima Cena contigit. Cum Iesus discipulos suos ad Passionem imminentem praepararet, de sua cum Patre necessitudine locutus est atque promisit se suos non derelicturum esse. Tunc Philippus rogavit: «Domine, ostende nobis Patrem, et sufficit nobis».
+
+Iesus quaestione respondit quae ipsum cor theologiae christianae attingit: «Tanto tempore vobiscum sum, et non cognovistis me, Philippe?» Deinde explicavit eum qui se vidisset Patrem quoque vidisse.
+
+Haec conversatio et sincerum Philippi desiderium revelationis divinae et limites intellectus eius ostendit. Claram Dei visionem quaerebat, nondum tamen plene intellegens Patrem per personam et opera Iesu Christi revelari. Responsum Domini desiderium Philippi non repudiavit, sed ad mysterium iam coram eo praesens direxit.
+
+Pro fide christiana hic locus singularem necessitudinem inter Patrem et Filium exprimit. Iesus non est tantum magister qui de Deo quasi ab eo longe distans loquitur. Ipse est Filius aeternus qui Patrem manifestat. Philippi igitur interrogatio pars facta est perennis testimonii Evangelii de identitate Christi et de revelatione Dei per Incarnationem.
+
+Hic quoque eventus peculiarem significationem Philippi in meditatione christiana praebet. Eius desiderium Patrem videndi exprimit omnium hominum cordium desiderium Deum cognoscendi. Per Christum hoc desiderium ad personalem occursum cum eo dirigitur qui via, veritas et vita est.
+
+### Missio Ultra Israel
+
+Philippus iterum in insigni eventu Evangelii secundum Ioannem apparet, cum quidam Graeci, qui Hierosolymam ad festum venerant, ad eum accesserunt rogantes ut Iesum videre possent. Philippus Andream consuluit, atque simul petitionem Domino rettulerunt.
+
+Evangelista non explicat cur hi peregrini Philippum adierint, quamvis nomen eius Graecum eum ad talem contactum naturaliter idoneum reddere potuerit. Quacumque de causa, hic occursus ampliorem Ecclesiae missionem ultra fines Israel praenuntiat. Iesus respondit de hora suae glorificationis loquens et mortem suam imminentem grano tritici comparans, quod in terram cadere et mori debet ut fructum ferat.
+
+Hic eventus ad Passionem et salutem omnium populorum destinandam spectat. Philippus, qui Nathanaelem primus ad Iesum adduxerat, nunc alios ad eum accedere adiuvit, dum ministerium publicum Domini ad horam decisivam appropinquabat. Eius munus idem mansit: occursum cum Christo mediari eosque qui eum quaerebant in eius praesentiam perducere.
+
+### Traditio Missionaria et Martyrium
+
+Post Resurrectionem et Ascensionem Iesu, Philippus inter apostolos numeratur qui Hierosolymis in oratione congregati adventum Spiritus Sancti exspectabant. Actus Apostolorum accuratam narrationem de eius subsequenti activitate missionaria non praebent.
+
+Posteriores traditiones christianae Philippum cum evangelizatione in variis regionibus antiqui orbis coniungunt, praesertim in Phrygia Asiae Minoris. Quaedam narrationes eius ministerium cum urbe Hierapoli coniungunt, ubi martyrium passus esse dicitur. Singula inter fontes antiquos variant, neque condiciones exactae extremorum annorum eius ex Novo Testamento certo statui possunt.
+
+Traditiones de morte eius persecutionem et, quibusdam narrationibus, crucifixionem describunt. Hae narrationes ad posteriorem apostolicae memoriae evolutionem pertinent atque a testimoniis canonicarum Scripturarum, quae multo pauciora sunt, distinguendae sunt. Nihilominus antiquam Ecclesiae persuasionem exprimunt apostolos Evangelium ultra Hierosolymam portavisse atque Christum magno suo detrimento testatos esse.
+
+Philippi cum Hierapoli coniunctio etiam in antiquis scriptis historicis christianis invenitur, quamvis singula de personis in his traditionibus memoratis interdum confusa sint. Prudentius igitur est amplam antiquam traditionem de eius activitate missionaria agnoscere, quin singula posteriorum narrationum pro historice certa habeantur.
+
+### Testis Qui Alios ad Christum Invitat
+
+Sancti Philippi locus inter Duodecim Apostolos paucis Evangeliorum narrationibus innititur, quae tamen essentialem indolem discipulatus christiani revelant. Vocationi Christi respondit, Nathanaelem ad eum conveniendum adduxit, multiplicationem panum testatus est atque in ultima Cena altiorem Patris cognitionem quaesivit.
+
+Eius interrogationes fidem sinceram, sed adhuc crescentem ostendunt. Mysterium Christi plene statim non comprehendit, sed inter eos mansit quos Iesus elegerat. Per hanc gradatim peractam formationem Philippus demonstrat discipulatum et fiduciam et voluntatem discendi complecti.
+
+Invitatio eius ad Nathanaelem, «Veni et vide», apta expressio missionis apostolicae manet. Testimonium christianum incipit cum alii ad Christum diriguntur, ut ipsi veritatem Evangelii convenire possint. Vita Philippi, prout in Scriptura servatur et per traditionem christianam commemoratur, fidelibus admonet etiam breve verbum vel simplex invitatio initium itineris alterius hominis ad Deum fieri posse.
+
+Sanctus Philippus ita testis manet vim transformantem occursus cum Iesu Christo demonstrans. Desiderium eius Patrem cognoscendi in Filio responsum invenit, eiusque missio in eo constitit ut alios ad eandem veritatem inveniendam invitaret. Quamvis singula vitae eius posterioris partim traditionibus obscurentur, locus eius inter apostolos testimonium fidei, humilitatis et universalis vocationis ad Evangelium proclamandum manet.
+$desc$),
+('saint-james-the-less-apostle', 'la',
+$desc$Sanctus Iacobus Minor, qui ex traditione cum Iacobo Alphaei filio identificatur, unus ex Duodecim Apostolis fuit, quos Iesus Christus elegit. Saepe a Iacobo Maiore, fratre sancti Ioannis, distinctus, in Novo Testamento figura manet relative obscura, cuius nomen praecipue in apostolorum catalogis occurrit. Traditio catholica eum saepe identificavit cum Iacobo, cognato Iesu, qui praecipuam partem in Ecclesia Hierosolymitana egit. Quamvis accurata necessitudo inter has figuras biblicas inter historicos adhuc disputetur, apostolus ob locum suum inter discipulos a Christo electos et ob testimonium missionarium Ecclesiae primaevae commemoratur. Antiquae traditiones christianae Iacobum cum vita orationis, fidelitatis et martyrio coniungunt, eumque exemplum perenne humilis servitii et perseverantiae in fide constituunt.$desc$,
+$desc$Iacobus, cuius nomen in Evangeliis inter discipulos a Iesu Christo electos invenitur, ad primam generationem testium christianorum pertinet. Novum Testamentum pauca de eius vita singularia praebet, eiusque identitas per saecula disputationum causa fuit. Eius tamen locus inter Duodecim Apostolos peculiare momentum ei in historia Ecclesiae tribuit: unus erat ex iis qui ad Dominum comitandum, eius doctrinam accipiendam atque post Resurrectionem eius Evangelio testificandum vocati sunt.
+
+### Unus ex Duodecim Apostolis
+
+Iacobus Alphaei filius in catalogis Duodecim Apostolorum in Evangeliis secundum Matthaeum, Marcum et Lucam, necnon in Actibus Apostolorum, apparet. Vulgo distinguitur a Iacobo Zebedaei filio, fratre Ioannis, qui ex traditione Iacobus Maior appellatur. Appellatio *Minor* cum expressione in Evangelio secundum Marcum adhibita coniungitur, quae ad alium Iacobum pertinet et saepe intellegitur minorem aetate vel statura significare. Traditio christiana hunc titulum postea apostolo attribuit, quo facilius a celebriore eiusdem nominis homine distingueretur.
+
+Dissimilis Petro, Ioanni et Iacobo Zebedaei filio, Iacobus Alphaei filius in Evangeliis canonicis neque diuturno dialogo personali neque peculiari miraculo coniungitur. Eius relativa silentia pro insignificentia habenda non sunt. Vocatio Duodecim Apostolorum actus magnae responsabilitatis fuit: hi viri electi sunt ut cum Iesu manerent, ab eo discerent atque tandem eius nuntium mundo proclamarent.
+
+Evangelia non explicant quomodo Iacobus Christum primum convenerit neque vitam eius familiarem singillatim describunt. Eius tamen inter apostolos commemoratio locum eius in circulo discipulorum confirmat, qui Iesum durante eius ministerio terrestri comitati sunt. Testis fuisset doctrinae, sanationum et signorum quibus Dominus adventum Regni Dei manifestavit.
+
+### Quaestio de Eius Identitate
+
+Identitas Iacobi Minoris arcte cum latiore quaestione Novi Testamenti coniungitur: utrum plures loci de viro nomine Iacobo ad eandem personam referantur. Apostolus expresse Alphaei filius appellatur, dum alii loci de Iacobo, fratre Domini, loquuntur, qui postea princeps potens Ecclesiae Hierosolymitanae factus est.
+
+Traditio catholica Iacobum Minorem saepe cum hoc Iacobo identificavit, qui etiam Iacobus Iustus appellatur. Secundum hanc interpretationem, apostolus, cognatus Iesu in Evangeliis memoratus et princeps communitatis Hierosolymitanae eadem persona habentur. Locutio *frater Domini* in traditione catholica ad propinquum cognatum refertur, non necessario ad filium Mariae et Ioseph.
+
+Haec tamen identificatio ab omnibus historicis non accipitur, neque testimonia biblica omnia singularia sine controversia confirmant. Ideo interest distinguere inter ea quae Novum Testamentum expresse affirmat et conclusiones ex posteriori interpretatione christiana deductas.
+
+Si identificatio traditionalis accipitur, Iacobus Minor idem Iacobus fuisset qui primam communitatem christianam Hierosolymis rexit atque magni momenti partes egit in controversiis de gentibus ad fidem conversis dirimendis. Eius vita tum ministerium apostolicum Iesu cum ordinatione et doctrina primarum communitatum christianarum directe coniungeret.
+
+### Missio Apostolica
+
+Post Resurrectionem apostoli Hierosolymis congregati sunt, adventum Spiritus Sancti exspectantes. Actus Apostolorum Iacobum Alphaei filium inter eos numerant qui cum ceteris discipulis in oratione concorditer permanserunt. Haec brevis commemoratio eum in communitate collocat ex qua publica Ecclesiae missio die Pentecostes oritura erat.
+
+Novum Testamentum separatum narrationem de eius itineribus praedicationis vel operibus missionariis non servat. Posteriores traditiones diversos apostolos cum variis regionibus coniungunt, sed testimonia de Iacobo Minore limitata sunt et interdum cum narrationibus aliorum eiusdem nominis virorum implicantur.
+
+Eius momentum igitur imprimis in vocatione a Christo accepta atque in eius ad Duodecim Apostolos pertinencia consistit. Apostolis missio commissa est quae personalem discipulatum transcendebat: Resurrectionem praedicare, novos credentes baptizare et communitates doctrina Iesu fundatas constituere debebant.
+
+Relativa quoque absentia Iacobi e narrationibus admonet historiam Ecclesiae primaevae a multis testibus formatam esse, quorum singulae vitae narrationes plene servatae non sunt. Non omnis apostolus accuratam operum suorum narrationem reliquit, sed omnes ad fundamentum primae Ecclesiae proclamationis pertinebant.
+
+### Traditio et Martyrium
+
+Scriptores christiani antiqui traditiones de quodam Iacobo servaverunt, qui *Iustus* appellabatur et magna auctoritate Hierosolymis pollebat. Historicus Iosephus mortem Iacobi, fratris Iesu, refert, quae tempore perturbationum politicarum Hierosolymis circa annum Domini 62 accidit. Scriptor christianus Hegesippus, cuius narratio per Eusebium Caesareensem servata est, aliam atque accuratiorem narrationem de sanctitate et martyrio Iacobi praebet.
+
+Haec testimonia magni momenti sunt ad memoriam christianam primitivam cognoscendam, sed eorum applicatio ad Iacobum Alphaei filium ex acceptatione traditionalis identificationis diversarum personarum nomine Iacobo pendet. Novum Testamentum ipsum mortem Iacobi Minoris non describit, neque condiciones martyrii eius eodem certitudinis gradu statui possunt ac mors Iacobi Zebedaei filii, quae expresse in Actibus Apostolorum 12, 2 refertur.
+
+In traditione christiana posteriore, Iacobus Minor tamquam martyr et fidelis Christi testis honorari coepit. Tales traditiones persuasionem Ecclesiae exprimunt apostolos Evangelium magno suo detrimento portavisse, etiam cum singularia extremae vitae alicuius apostoli incerta manent.
+
+### Testis Humilis Fidelitatis
+
+Sanctus Iacobus Minor peculiarem locum inter apostolos obtinet, quia tam pauca de eius vita personali servata sunt. Nomen eius in catalogis apostolorum apparet, sed Evangelia narrationem amplam de eius verbis vel operibus non praebent. Eius memoria Christianos invitat ad agnoscendum sanctitatem neque eminentiam publicam neque famam historicam postulare.
+
+Apostoli non propter identicas personalitates aut parem visibilitatem coniuncti erant, sed propter vocationem ad Christum sequendum. Alii praedicatores insignes facti sunt, quorum verba in Scriptura servata sunt; alii praecipue ob ad communitatem apostolicam pertinenciam cognoscuntur. Communis eorum vocatio erat testimonium perhibere Domino qui eos vocaverat.
+
+Pro traditione catholica, sanctus Iacobus Minor perseverantiam quietam discipuli repraesentat, cuius vita missioni Ecclesiae omnino dicata fuit. Eius commemoratio fideles hortatur ut Deo serviant sine studio recognitionis, fidentes vitam in oboedientia et amore oblatam fructum ferre posse ultra ea quae historia memoriae mandavit.
+
+Quamvis singularia vitae eius partim occulta maneant, locus eius inter Duodecim testimonium permanet fundamentorum ab ipso Christo positorum. Sanctus Iacobus Minor inter primos illos testes numeratur per quos Evangelium in mundum delatum est, Ecclesiam admonens fidelitatem, humilitatem et perseverantiam ad omnem vocationem christianam necessarias manere.
+$desc$),
+('saint-john-of-avila', 'la',
+$desc$Sanctus Ioannes ab Ávila sacerdos Hispanus, theologus et praeclarus praedicator saeculi sexti decimi fuit, profunda sapientia spirituali et studio Ecclesiam renovandi celebris. Almodóvar del Campo circa annum 1499 vel 1500 natus, studiis iuris relictis theologiam amplecti statuit atque anno 1526 sacerdos ordinatus est. Hereditate sua pauperibus distributa, praedicationi per Baeticam se devovit, animas dirigens atque institutionem sacerdotum promovens. Falso haeresis suspectus, carcerem ab Inquisitione Hispanica perpessus est, antequam anno 1533 absolutus esset. Apostolus Baeticae appellatus, numerosos sanctos affecit, inter quos sanctum Ioannem Dei et sanctum Franciscum Borgia. Scripta eius de amore divino, sanctitate et sacerdotio vestigium perenne in spiritualitate catholica reliquerunt. A papa Paulo VI anno 1970 canonizatus, a papa Benedicto XVI anno 2012 Ecclesiae Doctor proclamatus est.$desc$,
+$desc$Ioannes ab Ávila die VI mensis Ianuarii, circa annum 1499 vel 1500, Almodóvar del Campo in regione Castiliae Hispaniae natus est. In familia christiana opulenta educatus, institutionem accepit quae ei futurum prosperum promittebat. Quattuordecim annos natus, iuris studia in Universitate Salmanticensi coepit, sed profunda conversio spiritualis eum ad studia relinquenda et domum redeundum impulit, ut orationi et meditationi se dedicaret. Postea Universitatem Complutensem adiit, ubi theologiam et humaniores litteras studuit, se ad sacerdotium et missionem quam sibi a Deo commissam credebat praeparans.
+
+### Sacerdos Evangelio Deditus
+
+Ioannes anno 1526 sacerdos ordinatus est. Post mortem parentum, hereditatem suam pauperibus distribuit, vitam evangelicae paupertatis potius quam commoditatis personalis eligens. Primam Missam sollemnem peculiari pietate celebravit atque mox iter in Americam ut missionarius susciperet paravit. Dum tamen Hispalim navem exspectans morabatur, coepit urbis eiusque viciniae incolis praedicare.
+
+Dona eius celeriter animadversa sunt. Archiepiscopus Hispalensis, ministerii eius utilitatem agnoscens, eum in Hispania manere hortatus est. Ioannes huic consilio obtemperavit atque evangelizationi in Baetica se devovit, ubi praedicatio eius homines ad conversionem, orationem et altiorem cum Iesu Christo necessitudinem invitabat.
+
+Conciones eius doctrinam theologicam cum directis et ex animo profectis conscientiae appellationibus coniungebant. Instabat fidem christianam vitam cotidianam transformare debere, caritatem erga pauperes, paenitentiam pro peccatis et sinceram sanctitatis prosecutionem excitando. Fama eius crescebat, atque homines ex diversis condicionibus socialibus ad eum audiendum et spiritualem eius moderationem petendam veniebant.
+
+### Iudicium et Carcer
+
+Successus Ioannem a suspicionibus non protexit. Anno 1531 accusationes de eius doctrina eum coram Inquisitione Hispanica sistere coegerunt. Investigationis tempore in carcerem coniectus est, ubi usque ad annum 1533 mansit, quo absolutus est.
+
+Carcer tempus decretorium meditationis spiritualis factus est. In solitudine cellae suae, Passionem Christi et amorem per Crucem revelatum penitus meditatus est. Eodem tempore opus *Audi, filia* («Audi, filia») componere coepit, quod praeclarissimum eius opus spirituale futurum erat.
+
+Post liberationem missionem suam non deseruit, sed maiore persuasione praedicare perrexit. Experientia eius intellectum misericordiae divinae confirmavit atque persuasionem auxit veram renovationem christianam a cordis conversione incipere. Vita eius deinceps profunda fiducia in Dei gratia insignita est, etiam inter dolores et oppositiones.
+
+### Apostolus Baeticae
+
+Ioannes tandem praecipuum ministerium suum Cordubae et Granatae constituit, per Hispaniam meridionalem late iter faciens. Praedicatio eius multos auditores insignes attraxit, sed praecipue pauperum curam, iuvenum educationem et sacerdotum institutionem spiritualem fovebat.
+
+Inter eos qui ministerio eius penitus commoti sunt, fuit Ioannes Ciudad, qui sanctus Ioannes Dei factus est atque Ordinem Hospitalarium fundavit. Alia conversio memorabilis fuit Francisci Borgia, viri nobilis qui postea Societatem Iesu ingressus est eiusque praepositus generalis factus est. Ioannes etiam necessitudinem cum sancto Ignatio de Loyola servavit atque cum sancta Teresia Abulensi epistulas commutavit, quae eius consilium de suis experientiis spiritualibus petebat.
+
+Quamvis Ioannes numquam proprium ordinem religiosum fundaverit, discipulorum coetum formavit qui opus eius praedicationis et educationis continuavit. Intellexit renovationem Ecclesiae clerum bene praeparatum et spiritualiter maturum requirere. Ad hanc necessitatem explendam, scholarum et collegiorum institutionem promovit, solidam institutionem theologicam fovit atque fundamenta melioris sacerdotum formationis in Hispania ponere adiuvit.
+
+Opera eius inter alia Universitatis Baezensis fundationem complectebantur, quae magni momenti centrum institutionis theologicae et clericalis facta est. Eius consilium nonnullas reformationes postea cum Concilio Tridentino coniunctas praenuntiavit, praesertim necessitatem candidatorum ad sacerdotium rite instituendorum illustrans.
+
+### Magister Theologiae Spiritualis
+
+In medio doctrinae Ioannis amor Dei in Iesu Christo revelatus erat. Christianos hortabatur ut Incarnationem et Passionem contemplarentur, in Cruce summam misericordiae divinae manifestationem agnoscentes. Ei sanctitas non paucis electis reservabatur, sed omnium Christianorum vocatio erat, secundum propriam cuiusque vitae condicionem.
+
+Scripta eius orationem, conversionem, caritatem et officia spiritualia sacerdotii tractabant. In opere *Audi, filia* consilia practica praebuit ad tentationem superandam, humilitatem colendam et fiduciam in Deum augendam. Epistulae quoque et conciones eius profunditatem theologicam cum pastorali prudentia coniungebant, necessitatibus spiritualibus sacerdotum, religiosorum et laicorum aeque consulentes.
+
+Ioannes peculiare momentum necessitudini inter amorem Dei et amorem proximi tribuebat. Veram devotionem, docebat, caritatis et servitii fructus ferre debere. Christianus contemplationem ab actione neque professionem religiosam ab officiis vitae cotidianae separare potest.
+
+Eius intellectus sacerdotii peculiari modo vim habuit. Instabat sacerdotes ministerium suum oratione, Sacra Scriptura et Eucharistia alere debere, eorumque vitam amorem Christi seipsum offerentis ostendere. Ioanni renovatio Ecclesiae non solis mutationibus institutionalibus, sed etiam sanctitate eorum qui curae pastorali committuntur nitebatur.
+
+### Ultimi Anni et Hereditas Perennis
+
+Anno 1554, morbus Ioannem coegit ut ad modestam domum Montillae, in territorio Cordubensi, se reciperet. Quamvis vires corporis minuerentur, discipulos per epistulas et scripta dirigere perrexit. Etiam consilia de reformatione ecclesiastica composuit, quae disputationes circa Concilium Tridentinum affecerunt, quamvis ipse concilio interesse non potuerit.
+
+Ioannes Montillae die X mensis Maii anno 1569, discipulis et amicis circumdatus, mortuus est. Fama eius sanctitatis post mortem perseveravit, atque scripta eius vitam spiritualem catholicam formare perrexerunt. Papa Leo XIII anno 1894 eum beatificavit, et papa Paulus VI die XXXI mensis Maii anno 1970 canonizavit. Anno 2012, papa Benedictus XVI eum Doctorem Ecclesiae Universalis proclamavit, doctrinam eius perpetua dignam agnoscens.
+
+Sanctus Ioannes ab Ávila testis manet praeclarus virtutis transformantis amoris divini. Eius vita disciplinam intellectualem, paupertatem evangelicam, caritatem pastoralem et devotionem constantem erga Christum coniunxit. Per praedicationem et moderationem spiritualem Ecclesiam sui temporis renovare adiuvit atque generationes fidelium affecit.
+
+Nuntius eius perennis docet sanctitatem ex occursu cum misericordia Dei incipere atque per orationem, caritatem et fidelitatem Evangelio crescere. Apostolus Baeticae et Magister Sanctorum commemoratus, sanctus Ioannes ab Ávila Ecclesiam admonere pergit veram renovationem in corde incipere atque in vita Deo et aliorum servitio omnino oblata fructum ferre.
+$desc$),
+('saint-nereus', 'la',
+$desc$Sanctus Nereus martyr antiquus Romae fuit, una cum sancto Achilleo commemoratus quod militiam reliquit et vitam suam pro Christo tradidit. Quamvis condiciones exactae vitae et mortis eius incertae maneant, inscriptio a papa Damaso I saeculo quarto iussu eius confecta antiquam traditionem servat, quae duos viros milites fuisse describit, qui christianam fidem amplexi sunt atque martyrium fortiter susceperunt. Sepulcra eorum in Catacumba Domitillae, iuxta Viam Ardeatinam Romae, venerabantur, ubi postea basilica in eorum honorem aedificata est. Narrationes posteriores Nereum cum sancta Flavia Domitilla coniunxerunt, nobili femina christiana quae ob fidem suam in exsilium missa esse dicebatur. Tamquam testis virtutis transformantis Evangelii veneratus, sanctus Nereus animum repraesentat ad mundanam fidelitatem abiciendam, cum ea fidelitati erga Christum adversetur.$desc$,
+$desc$Nereus ad antiquissimas martyrum christianorum generationes pertinet, quarum memoria ab Ecclesia Romana servata est. Testimonia exstantia pauca certa de eius origine, familia vel prima vita praebent, nomen tamen eius per antiquas inscriptiones, traditiones liturgicas et venerationem sepulcri eius usque ad nos pervenit. Historia eius arcte cum sancto Achilleo coniungitur, cum quo commemoratur ut testis fidei christianae temporibus quibus fideles ob fidelitatem erga Iesum Christum persecutionem pati poterant.
+
+### Miles ad Christum Sequendum Vocatus
+
+Antiquissimum testimonium magni momenti de Nereo et Achilleo est inscriptio a papa Damaso I composita, qui ab anno 366 ad 384 episcopus Romae fuit. Damasus sepulcris martyrum magnam curam impendit, eorum loca sepulturae inscriptionibus poeticis exornans, quae memoriam eorum posteris servarent.
+
+In eius narratione, Nereus et Achilleus milites describuntur qui imperiis rectoris iniusti obtemperaverant. Postquam autem christianam fidem amplexi sunt, militiam reliquerunt atque libenter poenas suae conversionis susceperunt. Mutatio fidelitatis eorum tamquam decisiva transformatio spiritualis exhibetur: qui olim auctoritati terrenae servierant, Christo servire elegerunt, etiam vitae suae pretio.
+
+Inscriptio neque exactam martyrii eorum diem statuit neque accuratam vitae singulorum narrationem praebet. Nihilominus testimonium antiquum magni momenti est tum de eorum veneratione tum de memoria christiana sacrificii eorum.
+
+Exemplum eorum thema saepe recurrens in historia Ecclesiae primaevae illustrat. Conversio non erat tantum interior mutatio credendi; difficilia quoque consilia postulare poterat, quae occupationem, condicionem socialem et officia hominis afficerent. Nereo, prout haec antiqua traditio eum commemorat, fidelitas erga Christum plenam vitae suae conversionem postulavit.
+
+### Martyres Catacumbae Domitillae
+
+Nereus et Achilleus in Catacumba Domitillae sepulti sunt, quae una ex amplissimis et praecipuis antiquis Romae sepulturarum christianarum complexibus erat. Catacumba, iuxta Viam Ardeatinam sita, locus orationis et peregrinationis facta est, ubi Christiani congregabantur ad eos honorandos qui per passionem et mortem fidei suae testimonium perhibuerant.
+
+Basilica supra eorum sepulcra exeunte saeculo quarto vel subsequenti tempore constructa est. Excavationes archaeologicae posteriores reliquias huius antiqui sanctuarii detexerunt, inter quas fragmenta inscriptionis cum papa Damaso coniunctae et columna sculpta martyrium Achillei depingens. Haec inventa diuturnum momentum duorum martyrum in vita devotionis Ecclesiae Romanae confirmant.
+
+Sepulcrorum eorum veneratio primam christianam persuasionem reflectit: eos qui in fidelitate erga Christum mortui sunt membra Ecclesiae eius manere atque viventibus exempla praebere. Locus sepulturae eorum nexum visibilem constituit inter successivas Christianorum generationes et testes qui eas praecesserant.
+
+### Traditio et Testimonium Martyrii
+
+Narrationes posteriores testimonia historica initio pauca multum amplificaverunt. Secundum narrationem traditionalem, Nereus et Achilleus cubicularii sanctae Flaviae Domitillae fuerunt, feminae nobilis christianae quae cum familia imperiali Flavia coniungebatur. Hae narrationes conversionem eorum, repudiationem rituum paganorum atque persecutionem tandem una cum Domitilla perpessam describunt.
+
+Nonnullae versiones exsilium eorum in insula Pontia collocant atque mortem eorum prope Terracinam describunt. Haec tamen singularia ex posterioribus narrationibus hagiographicis proveniunt, quarum fides historica incerta est. Antiquissima inscriptio duos viros milites exhibet, dum traditiones subsequentes eos famulos domesticos describunt. Quapropter neque exacta condicio socialis eorum neque circumstantiae mortis eorum certo restitui possunt.
+
+Quod firmiter in antiqua memoria christiana radicatum manet, est coniunctio eorum cum martyrio atque antiqua sepulcrorum eorum veneratio. Ecclesia testimonium eorum servavit non quia singula vitae eorum nota erant, sed quia nomina eorum inseparabilia facta sunt a testimonio Christianorum qui fidelitatem erga Christum postulatis potestatis mundanae praetulerunt.
+
+### Hereditas Fortitudinis et Fidei
+
+Sanctus Nereus admonet sanctitatem martyrum antiquorum saepe per reliquias historiae servari: inscriptionem, locum sepulturae et preces generationum fidelium. Historia eius, una cum sancto Achilleo communis, persuasionem exprimit occursum cum Christo fidelitates intimas hominis transformare posse atque ei fortitudinem in adversis tribuere.
+
+Antiquum testimonium cum papa Damaso coniunctum conversionem eorum tamquam definitivam separationem a vita priore depingit. Exemplum eorum igitur non solum de fortitudine ad persecutionem tolerandam necessaria loquitur, sed etiam de libertate abiciendi quidquid hominem impedit quominus Deo fidelis permaneat.
+
+Quamvis singularia vitae Nerei partim traditionibus obscurentur, locus eius permanens in memoria Ecclesiae Romanae momentum martyrum in spiritualitate christiana testatur. Per sacrificium suum primi fideles proclamaverunt fidelitatem erga Christum omnem terrenam exigentiam superare atque ne mortem quidem spem vitae aeternae exstinguere posse.
+
+Sanctus Nereus igitur tamquam fidelis testis commemoratur, cuius hereditas in perenni christiana vocatione ad fortitudinem, conversionem et constantem amorem erga Iesum Christum consistit.
+$desc$),
+('saint-achilleus', 'la',
+$desc$Sanctus Achilleus martyr antiquus Romae fuit, una cum sancto Nereo commemoratus quod, post fidem christianam amplexus, militiam reliquit. Historia eorum in inscriptione saeculi quarti servatur, papa Damaso I mandante confecta, quae duos viros pristinam fidelitatem abiecisse atque conversionis suae consectaria suscepisse describit. Sepulcra eorum in Catacumba Domitillae venerabantur, ubi antiqua basilica in eorum honorem aedificata est. Narrationes christianae posteriores eos cum sancta Flavia Domitilla coniunxerunt, quamvis multa earum singularia historice incerta maneant. Sanctus Achilleus tamquam fortis Christi testis honoratur, cuius conversio vim Evangelii illustrat, qua fidelitates humanas transformare atque firmam fidem etiam mortis periculo inspirare potest.$desc$,
+$desc$Achilleus ad antiquissimas martyrum christianorum generationes pertinet, quarum memoria ab Ecclesia Romana servata est. Vita eius praecipue ex antiqua inscriptione et traditionibus circa sepulcrum eius ortis cognoscitur. Quamvis singularia originis eius et historiae personalis incerta maneant, nomen eius per saecula una cum nomine sancti Nerei, socii eius in fidei testimonio, perseveravit.
+
+### Miles ad Christum Conversus
+
+Antiquissimum testimonium de Achilleo quod ad nos pervenit ex inscriptione a papa Damaso I composita provenit, qui Ecclesiam Romanam ab anno 366 ad 384 rexit. Damasus memoriam martyrum servare studuit, inscriptiones poeticas ad eorum sepulcra collocans, ut testimonium eorum communitates christianas semper inspirare pergeret.
+
+Secundum hanc inscriptionem, Achilleus et Nereus milites sub iniusto rectore militaverant, imperia exsequentes quae cum christiana iustitiae conceptione pugnabant. Post conversionem autem militiam reliquerunt, arma deposuerunt atque Christum fideliter confiteri elegerunt.
+
+Inscriptio eorum consilium tamquam insignem transformationem exhibet. Viri qui olim terrenae auctoritati metu obtemperaverant, nunc libertatem Deo serviendi amplexi sunt, etiam cum haec electio eos persecutioni et morti exponeret. Conversio eorum non mera persuasio privata fuit; apertam separationem a pristina vita postulavit.
+
+Circumstantiae exactae conversionis eorum non traduntur, neque inscriptio statuit quando vel sub quo imperatore martyrium passi sint. Nihilominus testimonium pretiosum antiquum praebet de veneratione Achillei et de intellectu christiano sacrificii eius.
+
+### Martyrium et Catacumba Domitillae
+
+Achilleus in Catacumba Domitillae sepultus est, amplo sepulturae christianae complexu iuxta Viam Ardeatinam, extra urbem Romam sito. Locus magni momenti centrum devotionis factus est, fideles attrahens qui ad sepulcra martyrum orandi causa veniebant.
+
+Basilica supra locum sepulturae Nerei et Achillei exeunte saeculo quarto aedificata est. Excavationes archaeologicae reliquias sanctuarii et fragmenta inscriptionis a papa Damaso mandatae detexerunt. Columna sculpta nomen Achillei ferens scaenam cum eius supplicio coniunctam depingit, quae ex traditione imago decollationis eius intellegitur.
+
+Haec inventa momentum memoriae eius in antiqua Ecclesia Romana collocatum testantur. Sepulcrum non solum locus sepulturae erat, sed etiam centrum orationis christianae, ubi fideles eos commemorabant qui in confessione Christi constantes permanserant.
+
+Dies exactus mortis Achillei ignotus manet. Quaedam traditiones posteriores martyrium eius tempore persecutionum imperatorum Romanorum collocant, sed antiquissima testimonia circumstantias historicas certo definire non sinunt.
+
+### Traditio de Sancta Flavia Domitilla
+
+Narrationes christianae posteriores Achilleum et Nereum cum sancta Flavia Domitilla coniunxerunt, femina nobili quae ex traditione cum familia imperiali Flavia coniungitur. In his narrationibus duo viri tamquam famuli in domo eius apparent, qui fidem christianam amplexi sunt atque eam in fide confirmaverunt.
+
+Nonnullae versiones exsilium Domitillae et martyrium sociorum eius describunt. Hae narrationes in traditione devotionis christianae vim magnam habuerunt, sanctos per commune erga Christum studium coniungentes, quamvis diversa eorum condicio socialis esset.
+
+Posteriores tamen narrationes a priore inscriptione papae Damasi magnopere differunt, quae Nereum et Achilleum expresse tamquam milites exhibet. Historici igitur distinguunt inter testimonia antiquiora de eorum veneratione et singularia uberiora quae in traditione hagiographica posteriore evoluta sunt.
+
+Haec distinctio momentum spirituale eorum non minuit. Immo sinit ut eorum historia cum reverentia tum erga testimonium antiquum tum erga limites cognitionis historicae narretur.
+
+### Testis Fortitudinis Christianae
+
+Sanctus Achilleus exemplum conversionis et fidelitatis praebet quod etiam hodie vim suam retinet. Epitaphium eius antiquum virum describit qui instrumenta et officia militiae reliquit ut Christum sequeretur. Haec electio naturam radicalem discipulatus christiani illustrat, cum exigentiae mundanae conscientiae et fidei adversantur.
+
+Memoria eius etiam praecipuum martyrii locum in spiritualitate Ecclesiae primaevae ostendit. Martyres honorabantur non quia dolorem propter se ipsum quaerebant, sed quia voluntas eorum persecutionem tolerandi altitudinem fidelitatis erga Christum et spem in Resurrectione manifestabat.
+
+Quamvis pauca de Achilleo praeter inscriptionem antiquam et traditiones sepulcro eius coniunctas cognoscantur, diuturna eius veneratio momentum horum primorum testium christianorum testatur. Una cum sancto Nereo, symbolum fortitudinis, conversionis et persuasionis manet fidelitatem erga Christum omnem terrenam potestatem superare.
+
+Hereditas sancti Achillei in hoc decisivo testimonio consistit: vita fide transformata atque ultimum testimonium quod, secundum antiquam Ecclesiae memoriam, victoriam Christi etiam mortis periculo proclamavit.
+$desc$),
+('saint-pancras', 'la',
+$desc$Sanctus Pancratius Romanus martyr antiquus christianus fuit, qui ex traditione tempore persecutionis imperatoris Diocletiani ineunte saeculo quarto mortem subiisse creditur. Secundum narrationes posteriores, iuvenis nobilis ex Phrygia erat, qui parentibus orbatus Romam cum patruo suo profectus est, ubi ambo fidem christianam amplexi sunt. Cum fidem suam abnegare aut diis paganorum sacrificare recusavisset, Pancratius, adhuc adolescens, ad mortem damnatus est. Quamvis multa vitae eius singularia ex posterioribus narrationibus hagiographicis potius quam ex testimoniis eius aetati proximis proveniant, sepulcrum eius iuxta Viam Aureliam magni momenti centrum devotionis christianae factum est. Propter fortitudinem et constantiam veneratus, sanctus Pancratius exemplum praeclarum fidei iuvenilis et fidelitatis erga Christum persecutionis periculo imminentis manet.$desc$,
+$desc$Pancratius inter antiquos Romae martyres commemoratur, iuvenis christianus cuius nomen cum fortitudine, fidelitate et victoria fidei de metu coniunctum est. Quamvis singularia vitae eius praecipue in narrationibus posterioribus serventur, antiqua sepulcri eius veneratio locum eius perennem in historia spirituali Ecclesiae Romanae confirmat.
+
+### Iuvenis Christianus Romae
+
+Secundum traditionales narrationes, Pancratius exeunte saeculo tertio in Phrygia natus est, regione Asiae Minoris quae magna ex parte cuidam hodiernae Turciae parti respondet. Ex familia pagana opulenta ortus esse dicitur, utroque parente adhuc iuvenis orbatus. Patruus eius, ex traditione Dionysius appellatus, eius educationem curavit atque tandem Romam eum adduxit.
+
+Ibi, ut traditur, ambo communitatem christianam convenerunt atque fidem amplexi sunt. Pancratius Evangelii institutionem accepit et in Iesum Christum credidit, cuius Passio et Resurrectio spem vitae aeternae offerebant. Conversio eius cursum vitae iuvenilis mutavit, eum a consuetudinibus religiosis in quibus educatus erat ad novam fidelitatem erga Deum in Christo revelatum convertens.
+
+Haec vitae eius singularia ex narratione posteriore de martyrio proveniunt, neque earum historicitas certo confirmari potest. Nihilominus praecipuam persuasionem exprimunt quae in memoria christiana Pancratii servata est: fidem eius pretiosiorem ei factam esse quam privilegia et securitatem vitae prioris.
+
+### Iudicium et Martyrium
+
+Traditio christiana martyrium Pancratii tempore persecutionis imperatori Diocletiano coniunctae collocat, praesertim tempore magnae persecutionis quae anno 303 coepit. Decreta imperatoria Christianis variis Romani Imperii regionibus mandabant ut libros sacros traderent, quasdam celebrationes religiosas desinerent atque sacrificia praescripta offerrent. Qui recusabant, carcerem, tormenta vel supplicium pati poterant.
+
+Secundum narrationem traditionalem, Pancratius ad magistratus adductus est atque ad sacrificandum diis paganorum hortatus. Iuventus eius et condicio socialis, ut fertur, adhibitae sunt ut eum ad fidem deserendam vitamque servandam persuaderent. Ipse tamen constans permansit, Christum abnegare recusans, etiam cum mortis periculum immineret.
+
+Narratio eum exhibet tamquam iuvenem cuius aetas corporis maturitati persuasionis contraria erat. Intellexit fidelitatem christianam ultimum sacrificium postulare posse atque fidem suam pro temporanea securitate commutare recusavit. Itaque capitis obtruncatione damnatus est, quae ex traditione circa annum Domini 304 collocatur.
+
+Circumstantiae exactae et dies mortis eius incerti manent, cum accurata narratio ad hagiographiam posteriorem pertineat. Certum autem est Pancratium Romae tamquam martyrem ab antiquis Christianis veneratum esse. Memoria eius perseveravit quia fideles in eius testimonio fortitudinem agnoverunt, qua homo Christo fidelis manere potest etiam cum magnum pretium persolvere debet.
+
+### Sepulcrum Eius et Ecclesia Romana
+
+Pancratius iuxta Viam Aureliam, extra antiquos Romae muros, sepultus est. Sepulcrum eius locus magni momenti peregrinationis factum est, atque ecclesia super locum sepulturae exeunte antiquitate condita est. Papa Symmachus, qui ab anno 498 ad 514 sedit, cum constructione vel ampliatione basilicae martyri dicatae coniungitur.
+
+Sanctuarium postea insigne devotionis centrum factum est. Papa Gregorius Magnus sanctum Pancratium in suis concionibus commemoravit, demonstrans memoriam martyris in vita religiosa Romae pluribus saeculis post mortem eius adhuc vigere.
+
+Sepulcrum etiam cum sollemnibus iuramentis coniunctum est. Traditio christiana mediaevalis martyrem testem veritatis et falsi testimonii adversarium habebat, persuasionem exprimens eos qui fideliter coram Deo steterant veritatem leviter tractare non posse.
+
+Cultus Pancratii tandem ultra Italiam propagatus est. Saeculo septimo, papa Vitalianus reliquias sancti in Angliam misit, ubi memoria eius cum missione sancti Augustini Cantuariensis coniuncta est. Ecclesiae sancto Pancratio dedicatae eius venerationem in traditione christiana Anglica constituere adiuverunt, atque nomen eius in pluribus locis historicis cultus adhuc exstat.
+
+### Testis Fortis Fidei
+
+Significatio spiritualis sancti Pancratii imprimis in exemplo iuvenis christiani consistit, qui, secundum traditionem, Christum sub minis deserere recusavit. Historia eius verba Evangelii revocat de pretio animae et vocatione fideliter perseverandi, etiam cum discipulatus sacrificium postulat.
+
+Testimonium eius etiam opinionem impugnat sanctitatem ad eos solos pertinere qui aetatem maturam attigerunt aut dignitates auctoritatis obtinent. Traditio christiana iamdiu agnovit sanctitatem omni aetatis stadio florere posse. Fortitudo iuvenilis Pancratii admonitio facta est fidem non aetate neque condicione sociali, sed altitudine responsionis hominis ad gratiam Dei metiendam esse.
+
+Eodem tamen tempore, historia eius cum prudentia historica legenda est. Testimonia servata certam omnium eventuum ei ex traditione attributorum restitutionem non permittunt. Significatio eius perennis potius in antiqua veneratione martyrii eius et in exemplo quod generationes Christianorum in eius memoria invenerunt consistit.
+
+Sanctus Pancratius testis manet libertatis quae ex Christo pertinendo oritur. Eius tradita recusatio sacrificandi diis paganorum persuasionem exprimit quae in martyrio christiano praecipua est: nullam potestatem terrenam exigere posse ut homo ultimam suam fidelitatem erga Deum abiciat. Per memoratam fortitudinem suam fideles hortari pergit ut Evangelio humiliter, spe et perseverantia adhaereant.
+$desc$),
+('saint-matthias-apostle', 'la',
+$desc$Sanctus Matthias Apostolus a primaeva communitate christiana electus est ut locum Iudae Iscariotis inter Duodecim Apostolos expleret post Ascensionem Iesu Christi. Secundum Actus Apostolorum, Matthias discipulos Iesu comitatus erat a tempore baptismi eius a Ioanne collati usque ad Ascensionem, atque ita ministerii Domini et Resurrectionis testis fuerat. Oratione et sortium iactu electus, membrum collegii apostolici factus est, cui munus Evangelium mundo nuntiandi commissum erat. Quamvis Novum Testamentum pauca de vita eius postea gestis referat, antiquae traditiones christianae eum cum praedicatione missionali et martyrio coniungunt. Sanctus Matthias fidelis discipulus commemoratur, cuius tacita perseverantia eum ad vocationem inopinata paraverat et cuius electio symbolicam Duodecim unitatem restituit.$desc$,
+$desc$Matthias, cuius nomen ex Hebraico nomine Mattathiah derivatur et «donum Domini» significat, locum peculiarem in historia Ecclesiae apostolicae obtinet. Dissimilis plerisque Duodecim, a Iesu ipso tempore ministerii publici in Evangeliis descripti vocatus non est. Immo a discipulis post Resurrectionem electus est ut locum Iudae Iscariotis vacantem expleret. Historia eius, quamvis brevis, spirituali tamen significatione dives, ostendit quomodo prima communitas christiana Dei ductum quaesiverit ut missionem sibi a Christo commissam continuaret.
+
+### Discipulus Ante Ascensionem
+
+Novum Testamentum nullam accuratam narrationem de origine, familia aut prima vita Matthiae praebet. Eius momentum in primo capite Actuum Apostolorum apparet, ubi unus ex viris describitur qui discipulos Iesu per totum ministerium publicum Domini comitati erant.
+
+Post Ascensionem discipuli Hierosolymis congregati sunt, unanimes in oratione, dum adventum Spiritus Sancti exspectabant. Petrus communitatem congregatam allocutus est, explicans locum Iudae implendum esse. Missio apostolica testem requirebat qui Iesum a principio ministerii eius usque ad Resurrectionem et Ascensionem comitatus esset.
+
+Duo candidati propositi sunt: Ioseph, qui Barsabbas vocabatur et Iustus cognominabatur, atque Matthias. Ambo idonei habiti sunt, sed iudicium finale Deo per orationem et sortium iactum commissum est.
+
+### Inter Duodecim Electus
+
+Antequam sors caderet, discipuli oraverunt: «Tu, Domine, qui corda omnium nosti, ostende quem elegeris ex his duobus». Sors in Matthiam cecidit, et inter undecim apostolos adnumeratus est.
+
+Hic eventus momentum orationis et discretionis in primaeva Ecclesia manifestat. Discipuli nominationem non tamquam quaestionem ambitionis personalis aut popularitatis tractaverunt. Voluntatem Dei quaesiverunt, agnoscentes ministerium apostolicum officium esse acceptum, non dignitatem sibi vindicatam.
+
+Electio Matthiae etiam numerum Duodecim restituit, duodecim tribus Israel revocans et symbolicam apostolorum missionem in novo populo Dei illustrans. Eius igitur electio momentum ultra personam ipsius electi habuit: continuitatem missionis Christi et propositum Ecclesiae testificandi Resurrectionem eius significavit.
+
+Textus non innuit Matthiam communitati ignotum fuisse. Immo electio eius diuturnam praesentiam inter discipulos praesupponebat. Fidelitas eius tacite formata erat, Iesum sequendo antequam maiori responsabilitati visibili committeretur.
+
+### Testis Resurrectionis
+
+Praecipua condicio ministerii apostolici Matthiae erat facultas Resurrectionis testimonium perhibendi. Apostoli non erant tantum magistri philosophiae moralis aut custodes memoriae ducis venerati. Proclamabant Iesum Christum mortem vicisse eiusque Resurrectionem victoriam Dei de peccato revelavisse.
+
+Quamvis Actus Apostolorum nullam separatim narrationem de praedicatione Matthiae die Pentecostes praebeant, paulo ante in collegium apostolicum receptus erat. Ad communitatem igitur pertinebat quae Spiritum Sanctum accepit atque Evangelium publice nuntiare coepit.
+
+Silentium Scripturae de singulis eius actionibus momentum vocationis eius obscurare non debet. Apostoli missionem communem participabant, neque in narrationibus servatis singulis eorum aequalis attentio tribuitur. Praesentia tamen Matthiae inter eos confirmat eidem fundamentali officio commissum esse: Christum proclamandi atque Ecclesiam testimonio eorum qui vitam eius resuscitatam viderant aedificandi.
+
+### Traditiones Missionariae et Martyrium
+
+Ultra narrationem biblicam, singularia historica vitae Matthiae incerta fiunt. Scriptores christiani posteriores eum cum actione missionali in variis regionibus coniunxerunt, inter quas Iudaea et regiones quas fontes antiqui Aethiopiam appellant. Hae appellationes geographicae non semper finibus hodiernorum civitatum respondent, atque traditiones inter se differunt de locis ubi praedicaverit et ubi mortuus sit.
+
+Nonnullae narrationes Matthiam crucifixione martyrium subiisse describunt, aliae autem eum lapidatum ac deinde decollatum esse tradunt. Hae narrationes inter se discrepantes certo componi nequeunt, neque Novum Testamentum circumstantias mortis eius refert.
+
+Scripta apocrypha posteriora etiam varias res gestas et doctrinas Matthiae ei attribuerunt. Haec scripta famam eius in traditione devotionis auxerunt, sed ab Actibus Apostolorum canonicis distinguenda sunt neque tamquam biographiae fideles haberi possunt.
+
+Quod per traditionem christianam perseverat, est persuasio Matthiam vocationem apostolicam suam fideliter explevisse. Memoria eius ad ampliorem historiam primorum discipulorum pertinet, quorum praedicatio Christi ultra Hierosolymam propagata est atque tandem ad populos per totum Romanum Imperium et ultra pervenit.
+
+### De Fidelitate et Divina Providentia Discendum
+
+Sanctus Matthias peculiarem doctrinam praebet de necessitudine inter fidelitatem occultam et responsabilitatem inopinata. Ante electionem eius, in narratione biblica tantum breviter apparet, quamvis discipulorum coetui per totum ministerium Iesu fideliter adhaeserit. Eius nominatio demonstrat vitam tacita perseverantia actam hominem ad vocationem parare posse, cuius momentum opportuno tantum tempore manifestatur.
+
+Historia eius etiam Ecclesiae admonet missionem eius ab uno tantum homine non pendere. Proditio Iudae vulnus collegio apostolico intulerat, sed discipuli oratione et discretione responderunt, potius quam missionem suam desererent. Electio Matthiae fiduciam eorum expressit Deum propositum suum etiam post humanas infirmitates continuare posse.
+
+Sanctus Matthias exemplum manet humilis servitii, fidelitatis et fiduciae in divina providentia. Non per insignem personalem occursum in Evangeliis narratum, sed per orantem discretionem communitatis apostolicae electus, unus ex testibus factus est quibus Resurrectionis proclamatio commissa erat. Vita eius Christianos hortatur ut in rebus cotidianis fideles permaneant, Deo confisi, qui eos ad serviendum modis quos numquam exspectaverint vocare potest.
+$desc$),
+('saint-john-i', 'la',
+$desc$Sanctus Ioannes I quinquagesimus tertius papa Ecclesiae Catholicae fuit, qui ab anno 523 usque ad mortem suam anno 526 sedit. In Tuscia natus, ob pastoralem sollicitudinem et conatus communionem inter Ecclesias Romae et Constantinopolis servandi innotuit. Tempore contentionum inter Christianismum Catholicum et Arianum, Theodoricus rex Ostrogothorum Ioannem ad Constantinopolim misit legatum, ut cum Iustino imperatore de consiliis adversus Arianos in Imperio Orientali ageret. Quamvis imperator et populus Constantinopolitanus eum magno honore excepissent, Ioannes tamen, in Italiam reversus, suspicionem Theodorici excitavit. Rex eum Ravennae in carcerem coniecit, ubi post aerumnas et privationes mortuus est. Tamquam martyr veneratus, sanctus Ioannes I testimonium praebet de fortitudine necessaria ad Ecclesiae fideliter serviendum inter pressiones politicas et dissensiones religiosas.$desc$,
+$desc$Ioannes in Tuscia Italiae natus est, probabiliter posteriore parte saeculi quinti. Fontes superstites pauca de prima eius vita referunt, sed locum eius inter clericos Romanos ante electionem ad pontificatum confirmant. Die XIII Augusti anni 523 papa factus est, Hormisda papae succedens, tempore quo Italia a Theodorico Magno rege Ostrogothorum regebatur. Quamvis Theodoricus Christianismum Arianum sequeretur, qui catholicam doctrinam de plena Christi divinitate repudiabat, Catholicis subditis suis fidem exercere plerumque permiserat.
+
+### Papa in Mundo Christiano Diviso
+
+Ioannes pontificatum suscepit tempore quo dissensiones religiosae cum contentionibus politicis arcte coniunctae erant. In Imperio Romano Orientali, Iustinus imperator consilia adversus communitates Arianas instituerat, inter quae dispositiones erant quae earum ecclesias et ritus religiosos afficiebant. Theodoricus haec consilia crescente sollicitudine spectabat, partim quia timebat ne restrictiones in Oriente impositae persecutiones in Arianos regni sui provocarent.
+
+Imperatorem influere cupiens, Theodoricus anno 525 legationem Constantinopolim misit atque papae Ioanni mandavit ut eam duceret. Mandata exacta legationi data incerta manent, sed praecipuum eius propositum erat Iustinum ad mitiorem erga Arianos rationem adducere.
+
+Haec legatio Ioannem in difficili condicione posuit. Ut papa, catholicam fidem defendere debebat, sed etiam utilitates principis repraesentare exspectabatur, cuius religiosae opiniones a suis differebant. Munus eius prudentiam, fortitudinem et intellegentiam necessitudinis fragilis inter auctoritatem ecclesiasticam et potestatem politicam postulabat.
+
+### Iter Constantinopolim
+
+Ioannes orientem versus profectus est cum legatione in qua senatores Romani aliique insignes legati erant. Adventus eius Constantinopoli singulari honore exceptus est. Secundum antiquos fontes, turbae obviam ei processerunt, et Iustinus imperator eum magno honore recepit. Patriarchae quoque et clerus Ecclesiae Orientalis dignitatem eius ut Episcopi Romani agnoverunt.
+
+Tempore commorationis suae, Ioannes Pascha in magna ecclesia Sanctae Sophiae die XIX Aprilis anni 526 celebravit, secundum chronologiam traditam. Receptio eius demonstravit Ecclesias Orientis et Occidentis, quamvis contentionibus theologicis et politicis illius aetatis laborarent, adhuc fidem communem et communionem ecclesiasticam manifestare potuisse.
+
+Exitus exactus negotiationum eius omnino clarus non est. Fontes antiqui de legatione diversimode narrant, sed Ioannes mitiorem erga Arianos rationem promovere videtur, potius quam doctrinam eorum probare. Officium eius erat pacem fovere, confessione catholica de Christi divinitate non imminuta.
+
+Prospera tamen eius receptio Constantinopoli suspicionem Theodorici excitavit. Rex timebat ne amicitia papae cum Iustino auctoritatem Orientalem in Italia augeret aut oppositionem politicam contra dominationem Ostrogothorum incitaret. Itaque legatio quae initio diplomatica fuerat Ioannem in periculum crescente exposuit.
+
+### Carcer et Mors Ravennae
+
+Cum Ioannes anno 526 in Italiam rediisset, Theodoricus eum comprehendi et Ravennae, regia in urbe, incarcerari iussit. Rex suspicabatur papam legationem non exspectato modo explevisse atque fortasse timebat ne nimis arcte cum imperatore Orientali coniunctus esset.
+
+Ioannes duris condicionibus detentus est atque, post longum iter, privationibus et lassitudine affectus est. Secundum chronologiam vulgo receptam, die XVIII Maii anni 526 in carcere mortuus est. Quamvis condiciones medicae exactae mortis eius ignotae sint, traditio de carcere et passionibus eius famam martyrii confirmavit.
+
+Corpus eius postea Romam translatum est atque in Basilica Sancti Petri sepultum. Ecclesia memoriam eius servavit tamquam pontificis qui dolorem toleravit potius quam officia sibi commissa desereret.
+
+Mors eius etiam ostendit quam incerta esset condicio ducum religiosorum in mundo ubi principes saepe exspectabant ut auctoritas ecclesiastica utilitatibus politicis inserviret. Legatio eius postulaverat ut inter diversas exigentias versaretur, eiusque incarceratio consequentias ostendit actionis quam princeps potens infidelitatem esse iudicavit.
+
+### Hereditas Fidelitatis et Fortitudinis
+
+Pontificatus sancti Ioannis I relative brevis fuit, et pauca de latiore Ecclesiae eius administratione cognoscuntur. Nihilominus ultimum eius iter et incarceratio effecerunt ut nomen eius in memoria christiana permaneret. Exemplum factus est papae qui coercitioni politicae obstitit, dum officia pastoralia et diplomatica explere conabatur.
+
+Historia eius ad simplicem contentionem inter duos principes redigi non debet. Res ex multiplicibus controversiis de consiliis religiosis, auctoritate imperiali et aequilibrio fragili inter potestates Orientis et Occidentis orta est. Praecipua tamen vitae eius doctrina clara manet: ministerium ecclesiasticum interdum difficilia consilia sub pressione poscit, atque fidelitas erga Ecclesiam a responsabilitate prudenter et integre agendi separari non potest.
+
+Sanctus Ioannes I martyr commemoratur, quia eius incarceratio et mors tamquam consectaria servitii eius erga Ecclesiam intellectae sunt. Testimonium eius admonet ducatum christianum non solum successu publico aut diuturnitate pontificatus metiendum esse, sed etiam voluntate patiendi in vocatione sua adimplenda.
+
+Per ultimum suum iter, sanctus Ioannes I symbolum perseverantiae, responsabilitatis pastoralis et fortitudinis coram oppressione politica manet. Vita eius perennem christianam persuasionem testatur fidelitatem erga Christum et Ecclesiam eius servandam esse, etiam cum potestas terrena aliam fidelitatem postulat.
+$desc$),
+('saint-bernardine-of-siena', 'la',
+$desc$Sanctus Bernardinus Senensis sacerdos Franciscanus Italus, praedicator insignis et reformator saeculi quinti decimi fuit, ob devotionem erga Sanctissimum Nomen Iesu celebratus. In Tuscia anno 1380 natus, parentibus mature orbatus est atque a propinquis Senis educatus. Tempore pestilentiae anni 1400, se curae infirmorum dedicavit, quod vitae eius spirituali penitus profuit. Ordinem Franciscanum anno 1402 ingressus est atque unus ex praestantissimis suae aetatis praedicatoribus factus est, per Italiam iter faciens ut homines ad conversionem, reconciliationem et caritatem christianam vocaret. Monogramma IHS, radiis solis circumdatum, in honorem Christi late divulgavit, tamquam visibile devotionis erga eum signum. Quamvis praedicationi eius quidam adversarentur, constans permansit atque plura episcopatus munera recusavit. Aquilae anno 1444 mortuus est et a papa Nicolao V anno 1450 canonizatus. Tamquam Apostolus Italiae commemoratus, sanctus Bernardinus testis praeclarus paupertatis evangelicae, pacis et virtutis transformantis Nominis Iesu manet.$desc$,
+$desc$Bernardinus degli Albizzeschi die VIII Septembris anni 1380 Massae Maritimae, in Tuscia, nobili familia natus est. Pater eius munus publicum gerebat, sed pueritia Bernardini orbitate insignita est: adhuc iuvenis parentibus orbatus, a duobus propinquis piis Senis educatus est. Ibi iuris civilis et canonici institutionem accepit, ad honestam vitam intra ordinem socialem civitatis se praeparans. Vitae tamen eius cursus ob occursum cum humanis doloribus mutatus est, qui altiorem in eo intellegentiam caritatis christianae excitavit.
+
+### Caritas Tempore Pestilentiae
+
+Anno 1400 pestilentia Senas invasit, mortem metumque incolis afferens. Bernardinus, tum circiter viginti annos natus, infirmis in hospitali Sanctae Mariae de Scala curandis se dedicavit. Sociis adiuvantibus, administrationi instituti operam dedit atque eos curavit qui derelicti erant aut sibi ipsis consulere non poterant.
+
+Ministerium eius magnam vim corporis et animi postulabat. Haec experientia fragilitatem vitae humanae et urgentem necessitatem operum misericordiae ei patefecit. Quamvis valetudine laboraret, Bernardinus in cura afflictorum perseveravit, intellegens devotionem christianam a practica caritate erga proximum separari non posse.
+
+Hoc tempus momentum decisivum in eius formatione spirituali habuit. Patrimonio suo pauperibus distributo, Ordinem Franciscanum anno 1402 ingressus est, exemplo sancti Francisci Assisiensis attractus atque ad vitam paupertate, humilitate et plena fiducia in divina providentia formatam aspirans.
+
+### Franciscanus ad Praedicandum Vocatus
+
+Bernardinus professionem religiosam anno 1403 emisit et anno 1404 sacerdos ordinatus est. Motui Observantiae intra Ordinem Franciscanum adhaesit, qui strictiorem Regulae sancti Francisci observantiam promovebat, praesertim per paupertatem, orationem et disciplinatam vitam communem.
+
+Per aliquot annos vitam maxime secessus egit, studio, contemplationi et praeparationi spirituali se dedicans. Ministerium eius publicum praedicandi circa annum 1417 coepit, cum superiores ei munus evangelizandi populos Italiae commiserunt. Conciones eius mox magnas turbas congregaverunt, atque ob perspicuitatem, suavitatem et facultatem veritates spirituales difficiles verbis omnibus intellectu facilibus exponendi innotuit.
+
+Ex urbe in urbem iter faciens, Bernardinus in plateis publicis et ecclesiis praedicabat, auditores ad paenitentiam et renovatum Evangelii studium vocans. Aleam, luxuriam immodicam, usuram, blasphemiam et acerbas contentiones quae communitates Italicas dividebant reprehendebat. Nuntius eius severus erat, sed ad reconciliationem et vitae christianae restitutionem quoque dirigebatur.
+
+Non solum delicta condemnare, sed etiam societatem per cordis conversionem transformare cupiebat. Praedicatio eius reconciliationem inter inimicos, restitutionem bonorum iniuste acquisitorum et renovatam sollicitudinem erga pauperes promovebat. In oppidis factionibus politicis et contentionibus familiaribus divisos, ministerium eius interdum pacem restituere et fiduciam reficere adiuvit.
+
+### Sanctissimum Nomen Iesu
+
+Praecipuum symbolum praedicationis Bernardini erat monogramma IHS, Sanctissimum Iesu Nomen repraesentans. Tabulam his litteris insignitam intra solem radiantem ostendebat, hoc signo attentionem auditorum ad Christum dirigens, qui fons salutis et lucis spiritualis est.
+
+Haec devotio praecipuam persuasionem theologiae Bernardini exprimebat: Nomen Iesu non erat tantum verbum repetendum, sed proclamatio Salvatoris, cuius Incarnatio, Passio et Resurrectio viam ad vitam aeternam aperuerant. Christianos hortabatur ut Christum in medio domorum, vitae publicae et devotionis personalis ponerent.
+
+Signum per Italiam late cognitum est, in aedificiis et locis publicis apparens. Bernardinus sperabat illud insignia quae familiis et factionibus rivalibus coniungebantur substituturum esse, commune potius fidelitatis erga Christum signum offerens. Hoc modo devotio erga Sanctissimum Nomen etiam ad unitatem vocabat, Christianis admonens profundissimam eorum identitatem non in divisionibus politicis, sed in eo consistere quod ad Dominum pertinebant.
+
+Doctrina eius oppositionem excitavit. Nonnulli critici eum devotionis formam indecoram introducere accusaverunt atque usum monogrammatis in dubium vocaverunt. Anno 1427, Bernardinus coram papa Martino V comparere iussus est, ut accusationibus de praedicatione sua responderet. Investigationi se subiecit, eiusque scripta et conciones examinatae sunt. Auxilio sancti Ioannis a Capistrano, doctrinam suam feliciter defendit atque approbationem pontificiam accepit ut ministerium suum continuaret.
+
+### Ordinis Franciscani Reformator
+
+Influentia Bernardini ultra praedicationem patuit. Unus ex praecipuis fautoribus Observantiae Franciscanae factus est, quae simplicitatem et disciplinam evangelicam sancti Francisci recuperare studebat. Opera eius novas vocationes excitaverunt, communitates religiosas roboraverunt atque altiorem orationis, studii et paupertatis observantiam promoverunt.
+
+Anno 1438, Bernardinus vicarius generalis Observantium Italicorum constitutus est. Eo duce, motus magnopere crevit, novas communitates condendo et conventus iam exstantes renovando. Curavit ne incrementum disciplinae spiritualis detrimentum afferret, aequilibrium inter strictam observantiam et caritativam erga confratres intellegentiam quaerens.
+
+Quamvis fama et auctoritate polleret, Bernardinus saepe episcopatus munera recusavit, inter quae nominationes Senis, Ferrariæ et Urbinatis coniunctae. Praedicatione et religiosa reformatione servire maluit quam episcopatus officia honoresque accipere. Eius consilium exemplar Franciscanum humilitatis et persuasionem eius reflectebat propriam vocationem in Evangelio populo nuntiando consistere.
+
+### Ultimum Iter et Canonizatio
+
+Posterioribus vitae annis, Bernardinus praedicare perrexit, quamvis valetudo eius debilitaretur. Anno 1444 iterum ad Italiam meridionalem evangelizandam profectus est, communitates adire cupiens quae eum nondum audiverant. Vires eius in itinere defecerunt, atque Aquilam, in regione Aprutii sitam, graviter infirmus pervenit.
+
+Bernardinus ibi die XX Maii anni 1444 mortuus est. Fama sanctitatis eius celeriter diffusa est, et relationes de miraculis eius intercessioni attributis devotionem erga eum auxerunt. Papa Nicolaus V eum die XXIV Maii anni 1450 canonizavit, tantum sex annis post mortem eius, extraordinarium praedicationis et vitae religiosae eius effectum agnoscens.
+
+Scripta eius, inter quae conciones de Sanctissimo Nomine Iesu, spiritualitatem catholicam influere perrexerunt. Hereditas eius etiam per communitates Franciscanae, quas roboraverat, et generationes praedicatorum eius exemplo inspiratas perseveravit.
+
+### Apostolus Sanctissimi Nominis
+
+Sanctus Bernardinus Senensis unus ex magnis reformatoribus Franciscanis et evangelizatoribus popularibus manet. Vita eius contemplationem cum actione, disciplinam intellectualem cum praedicatione omnibus accommodata, atque paupertatem personalem cum profunda sollicitudine de renovatione morali et spirituali societatis coniunxit.
+
+Devotio eius erga Sanctissimum Nomen Iesu cor missionis eius exprimebat: omnem vitae humanae rationem sub Christi lumine collocare. Sive de peccato personali, sive de iniustitia sociali, sive de contentionibus civitatis ageret, Bernardinus homines ad conversionem, reconciliationem et caritatem vocabat.
+
+Exemplum eius perenne Ecclesiae admonet veram praedicationem ad vitam transformatam ducere debere. Evangelium non solum verbis, sed etiam operibus misericordiae, studio pacis et humili aliorum servitio nuntiatur. Per indefessum ministerium suum, sanctus Bernardinus virtutem Nominis Christi testatus est, quod communitates divis as unire et corda in Dei amore renovare potest.
+$desc$),
+('saint-christopher-magallanes', 'la',
+$desc$Sanctus Christophorus Magallanes Jara, nomine Cristóbal Magallanes Jara natus, anno 1869 in Ialisco Mexicanae regionis, presbyter Catholicus fuit, caritate pastorali, Rosario devotione atque studio futurorum sacerdotum institutionis insignis. Parochus Totaticensis constitutus, scholas condidit, pauperibus subvenit, communitates indigenas Huichol evangelizavit atque seminarium instituit, quamvis persecutio religiosa ingravesceret. Cum tamen seditioni armatae Cristerorum adversaretur, die 25 mensis Maii anno 1927 comprehensus est atque sine iudicio supplicio affectus. Mortem obiturus, innocentiam suam professus est atque pro unitate populi Mexicani oravit. Sanctus Ioannes Paulus II eum anno 1992 beatificavit atque anno 2000 una cum viginti quattuor sociis canonizavit, martyrium eius tamquam praeclarum fidei, veniae atque fidelitatis Christo testimonium agnoscens.$desc$,
+
+$desc$Cristóbal Magallanes Jara die 30 mensis Iulii anno 1869 natus est in humili familia agricolarum prope Totatiche, in civitate Mexicana Ialisco. Iuvenis in agris laboravit, deinde anno 1888 seminarium Guadalaiarense ingressus est atque die 17 mensis Septembris anno 1899 presbyter ordinatus est. Eius vocatio eum in regionem natalem reduxit, ubi spirituali et materiali prosperitati communitatum suae curae commissarum operam navavit.
+
+### Sacerdos Populo Suo Devotus
+
+Parochus Totaticensis constitutus, Magallanes ministerium suum tamquam servitii missionem intellexit. Scholas et catechesis centra condidit, familias pauperes adiuvit atque incepta ad condiciones vitae locales meliorandas promovit. Missionariam quoque operam inter indigenas Huichol gentes suscepit, missionem in Azqueltán constituendam adiuvans. Devotio erga Sacratissimum Cor Iesu et Beatissimam Virginem Mariam vitam pastoralem eius aluit, quae precatione, caritate et perseverantia insigniebatur.
+
+Magallanes peculiari cura futurorum sacerdotum institutionem fovebat. Cum restrictiones civiles institutionibus ecclesiasticis minarentur, seminarium Totatici condidit, ut ii qui ad sacerdotium aspirabant studiis suis vacare possent. Formationem sacerdotalem servare, eius iudicio, idem erat ac spiritualem fidelium futuram salutem tueri.
+
+### Persecutio et Martyrium
+
+Decennio annorum 1920, contentiones inter regimen Mexicanum et Ecclesiam Catholicam ingravescebant. Legum anticlericalium exsecutio sub praeside Plutarco Elías Calles persecutionem religiosam auxit, quae cum Bello Cristerorum coniungitur, anno 1926 exorto. Sacerdotes restrictionibus, carceri et suppliciis obnoxii erant, dum vita religiosa publica in multis regionibus graviter perturbabatur.
+
+Quamquam Magallanes seditioni armatae adversabatur, ministerium sacerdotale eum accusationibus exponuit quasi Cristeros sustineret. Mense Maio anni 1927 comprehensus est dum iter faceret ad Missam celebrandam. Accusatus quod seditioni interfuisset, sine iusto iudicio Colotlán die 25 mensis Maii supplicio affectus est, una cum iuvene sacerdote Augustino Caloca Cortés.
+
+Secundum Ecclesiae narrationem de eius martyrio, Magallanes usque ad extremum vocationi suae fidelis mansit. Sacerdotem socium ad mortem fortiter subeundam hortatus est atque innocentiam suam professus. Ultima eius verba spem expresserunt fore ut sanguis eius ad unitatem populi Mexicani conferret. Pro vindicta incitanda, postrema eius testificatio reconciliationis desiderium patefecit in natione graviter divisa.
+
+### Canonizatio et Hereditas Spirituale
+
+Die 22 mensis Novembris anno 1992, Sanctus Ioannes Paulus II Magallanes eiusque socios beatificavit. Die autem 21 mensis Maii anno 2000 eos canonizavit, testimonium eorum Christo redditum tempore persecutionis religiosae in Mexico agnoscens.
+
+Sanctus Christophorus Magallanes non solum ob martyrium, sed etiam ob pastoralem caritatem, quae totam eius vitam insignivit, commemoratur. Studium eius educationis, operis missionarii et institutionis sacerdotalis fidem demonstravit operibus concretis expressam. Eius oppositio seditioni armatae, periculis quibus ipse patebat non obstantibus, testimonium quoque eius peculiari modo distinguit: fidelitati erga Ecclesiam innitebatur, non violentiae politicae.
+
+Ultima eius precatio pro unitate nationis praecipuam hereditatis eius partem constituit. Magallanes fideles admonet christianam fortitudinem odium non postulare atque perseverantiam inter persecutiones cum sincero pacis desiderio coniungi posse. Vita et morte sua testatur sanctitatem per servitium crescere, precatione roborari atque in inconcussa fidelitate Christo tandem consummari.$desc$),
+('saint-rita-of-cascia', 'la',
+$desc$Sancta Rita Casciensis, Margarita Lotti appellata, circa annum 1381 in Roccaporena Italiae nata est monialis Augustiniana, patientia, venia et devotione erga Passionem Christi insignis. Iuvenis nupsit atque uxor et mater facta est, antequam maritus eius in contentionibus inter familias locales occideretur. Quamvis dolore afficeretur, ulteriorem vindictam impedire studuit atque veniam amplecti elegit. Post mortem mariti et filiorum, monasterium Augustinianum Casciae ingressa est, ubi circiter quadraginta annos in precatione, paenitentia et caritatis operibus egit. Traditio narrat eam vulnus in fronte accepisse ex spina coronae Christi. Ut patrona causarum desperatarum venerata, a Leone XIII Pontifice Maximo die 24 mensis Maii anno 1900 canonizata est atque usque hodie exemplum dilectum spei, reconciliationis et perseverantiae in doloribus manet.$desc$,
+
+$desc$Margarita Lotti, Rita familiariter appellata, circa annum 1381 in Roccaporena nata est, vico parvo prope Casciam, in regione Umbriae Italiae sita. Parentes eius operam dare solebant ut familias inter se inimicas reconciliarent et vindictae actus impedirent. Hoc in ambitu crescens, Rita momentum precationis, patientiae et pacis conciliandae didicit, virtutes quae postea iter eius spirituale insigniturae erant.
+
+### Uxor, Mater et Pacis Conciliatrix
+
+Circa annum 1385, Rita Paulo Mancini nupsit, viro qui contentionibus politicis regionem dividentibus implicatus erat. Quamvis matrimonium eius in turbato societatis ambitu celebratum sit, Rita domum fide Christiana mutuaque intellegentia fundatam aedificare studuit. Duos filios habuerunt, quibus ipsa operam dedit, maritum quoque ad vitam pacatiorem ducendam cohortans.
+
+Calamitas accidit cum Paulus in inimicitiis inter familias aemulas occisus est. Mariti violentam mortem perpessa, Rita veniam potius quam ultionem elegit. Timebat etiam ne filii eius vindictam quaererent atque odii circulum perpetuarent. Secundum traditionem, oravit ne tale peccatum committerent. Ambo filii iuvenili aetate mortui sunt, Rita familia sua propinqua orbata.
+
+Dolor eius ad desperationem non perduxit. Immo paulatim ad pleniorem Deo consecrationem se convertit, dolorem suum in vitam precationis et reconciliationis transformare quaerens.
+
+### Vita in Monasterio Augustiniano
+
+Vidua facta, Rita ingressum petivit in monasterium Augustinianum Sanctae Mariae Magdalenae Casciae. Initio admissio ei denegata est, quod traditio eius vitae attribuit difficultatibus ex inimicitiis familiaribus, quae mariti eius mortem secutae erant, ortis. Secundum narrationem hagiographicam, tandem admissa est postquam inter familias aemulas reconciliatio facta est.
+
+In monasterio Rita vitam contemplationis, humilitatis et caritatis suscepit. Circiter quadraginta annos Regulam Sancti Augustini secuta est, precationi, paenitentiae et necessitatibus sororum suarum se dedicans. Spiritualitas eius magis magisque circa Christi passionem versabatur, quam patientia et sui ipsius oblatione imitari studebat.
+
+Una ex notissimis traditionibus narrat Ritám, tempore novitiatus, a sua superiorissa iussam esse lignum aridum irrigare. Ea fideliter oboedivit, lignumque mirabiliter in vitem floruit. Quamvis haec narratio ad traditiones de eius vita pertinentes sit, virtutes exprimit quibus Rita nota facta est: humilitatem, oboedientiam et inconcussam in Deum fiduciam.
+
+### Spina Christi et Rosa Spei
+
+Circa annum 1432, dum ante crucifixum orabat, Rita vulnus in fronte accepisse dicitur, simile spinae ex corona Christi. Secundum traditionem, vulnus usque ad mortem eius mansit, signum visibile devotionis erga Passionem atque participationis spiritualis in Christi doloribus factum.
+
+Sub vitae finem, Rita graviter aegrotavit atque lecto affixa est. Pia traditio narrat eam a propinqua, quae ex Roccaporena eam visitaverat, petivisse ut rosam duasque ficus ex horto familiari afferret, media hieme. Quamvis petitio ob anni tempus impossibilis videretur, propinqua, ut traditur, rosam et ficus invenit. Rosa igitur unum ex perennissimis Ritae symbolis facta est, spem et Dei gratiam inter res quae desperatae videntur repraesentans.
+
+Rita Casciae die 22 mensis Maii anno 1457 mortua est. Relationes de beneficiis et miraculis eius intercessioni attributis paulo post mortem eius disseminatae sunt, atque devotio erga eam paulatim longe ultra regionem natalem eius diffusa est.
+
+### Canonizatio et Hereditas Perennis
+
+Urbanus VIII Pontifex Maximus Ritám die 19 mensis Octobris anno 1626 beatificavit. Die autem 24 mensis Maii anno 1900, Leo XIII Pontifex Maximus eam canonizavit, testimonium perenne agnoscens mulieris cuius sanctitas per ordinarias extraordinariasque vitae probationes manifestata erat.
+
+Sancta Rita praesertim in difficilibus rerum adiunctis invocatur atque late tamquam patrona causarum desperatarum cognoscitur. Attamen eius significatio miracula intercessioni eius attributa excedit. Vita eius profundam doctrinam Christianam praebet de vi veniae, dignitate perseverantiae et possibilitate pacem eligendi post personales calamitates.
+
+Rita, uxor, mater, vidua et religiosa, varias amoris et amissionis formas experta est. Per omnes has mutationes Christo devota mansit, dolorem non odio, sed precatione et caritate respondere studens. Eius exemplum eos etiam nunc confirmat qui contentionibus familiaribus, luctu aut difficultatibus quae superari vix posse videntur premuntur.
+
+Hereditas Sanctae Ritae denique in persuasione consistit dolorem amaritudinem necessario non parere atque fidem spem etiam in obscurissimis adiunctis servare posse. Sicut rosa quae eius vitae traditione coniungitur, gratiae symbolum manet, quae inter spinas floret, fideles admonens misericordiam Dei viam ad reconciliationem aperire posse, etiam ubi vires humanae solae insufficere videntur.$desc$),
+('saint-bede-the-venerable', 'la',
+$desc$Sanctus Beda Venerabilis, circa annum 672 vel 673 in Northumbria, Angliae regione, natus, monachus Benedictinus, sacerdos, historicus et Ecclesiae Doctor fuit, cuius eruditio traditionem intellectualem christianam primae aetatis mediae penitus conformavit. Puer monasticae curae commissus, paene totam vitam in monasteriis Wiremuthensi et Girvensi degit, orationi, institutioni atque Sacrae Scripturae studio se dedicans. Eius opus celeberrimum, *Historia ecclesiastica gentis Anglorum*, fons fundamentalis manet ad primordia historiae christianitatis in Anglia intellegenda. Eximius Sacrae Scripturae commentator atque eruditus vir, Beda etiam ad chronologiam et calendarii christiani computationem contulit. Anno 735 Girvi obiit, dum Evangelium secundum Ioannem in linguam veterem Anglicam transferre perficere conaretur. Anno 1899 Leo XIII Pontifex Maximus eum Ecclesiae Doctorem declaravit, egregiam eius operam theologiae, historiae atque doctrinae christianae agnoscens.$desc$,
+
+$desc$Beda circa annum 672 vel 673 in Northumbria natus est, regno in Angliae septentrionalis parte sito, ubi christianitas paulatim inter populos Anglo-Saxonicos radices agebat. De eius familia atque infantia pauca cognoscuntur, sed ex ipsius scriptis apparet eum septem annos natum curae Benedicti Biscop abbatis monasterii Wiremuthensis commissum esse. Postea disciplinae Ceolfrithi in vicino monasterio Girvensi traditus est, ubi reliquum vitae tempus acturus erat.
+
+### Vita Orationi atque Doctrinae Dedita
+
+Beda intra traditionem Benedictinam crevit, in qua studium, communis oratio et fidelis Regulae monasticae observantia unam vocationem spiritualem constituebant. Monasteria Wiremuthense et Girvense bibliothecas insignis amplitudinis possidebant, quibus codices ex variis Europae regionibus collecti continebantur, inter quos Sacrae Scripturae, theologiae, historiae atque litterarum classicarum opera. Haec subsidia Bedam eruditionem suae aetatis singulariter amplam adipisci permiserunt.
+
+Diaconus circiter undeviginti annos natus ordinatus, presbyter autem circa annum aetatis tricesimum, institutioni atque scriptis operam dedit, dum vitae liturgicae communitatis suae fideliter participabat. Opus vitae suae simplicibus verbis descripsit: *« Semper mihi delectationi fuit aut discere aut docere aut scribere. »* Haec sententia plus quam intellectualem curiositatem significabat. Bedae enim eruditio Deo serviendi forma erat, ad fidei intellegentiam profundius percipiendam atque alios ad sanctitatem provehendos destinata.
+
+### Sacrae Scripturae Studiosus
+
+Biblia centrum vitae intellectualis atque spiritualis Bedae occupabant. In numerosos libros biblicos commentarios conscripsit, eorum sensum diligenti textus consideratione et antiquiorum scriptorum christianorum doctrinis illustrans. Eius interpretatio penitus in Christum directa erat: Sacras Scripturas tamquam revelationem unam intellegit, cuius plenitudo in Iesu Christo invenitur.
+
+Beda severum studium cum sollicitudine pastorali coniunxit. Opera eius non ad eruditionem tantum ostentandam, sed ad clericos, monachos aliosque lectores adiuvandos destinata erant, ut Verbum Dei fidelius intellegerent. Patrum Ecclesiae scriptis atque traditionibus intellectualibus sibi praesto usus est, cognitionem historicam, studium linguarum et meditationem theologicam coniungens.
+
+Eruditio eius etiam ultra commentarios biblicos patebat. Opera de grammatica, rebus naturalibus, mathematicis atque temporis mensura composuit. Chronologiae studia eius peculiari auctoritate valuerunt, quod rationem ordinatam constituere adiuverunt qua eventus historici ab Incarnatione Christi numerarentur. Mos annos *ab Incarnatione Domini*, id est a Christi ortu computandi, iam antea exempla habuerat; Beda tamen magnam partem ad eius latiorem propagationem suis scriptis historicis et chronologicis contulit.
+
+### Historia Gentis Anglorum
+
+Celeberrimum Bedae opus est *Historia ecclesiastica gentis Anglorum*, circa annum 731 confecta. Haec historia quinque libris composita progressum christianitatis in Britannia, a temporibus Romanis usque ad aetatem ipsius Bedae, narrat, conversioni regnorum Anglo-Saxonicorum atque eorum vitae religiosae peculiari attentione tributa.
+
+Opus eius insignitur usu documentorum scriptorum, epistularum, narrationum antiquiorum atque testium qui res descriptas noverant. Quamvis eius prospectus curis religiosis suae aetatis informatus esset, Beda narrationis suae fidem stabilire studuit, fontes suos indicans atque varia testimoniorum genera distinguens. Eius historia eruditis qui Angliam primae aetatis mediae investigant adhuc necessaria manet.
+
+Hoc opus etiam persuasionem eius manifestat historiam dimensionem spiritualem habere. Evangelii propagatio, missionariorum testimonium, singulorum christianorum sanctitas atque regum decisiones ad ampliorem narrationem pertinebant, qua Dei actio in rebus humanis describebatur. Beda historiam non tamquam meram successionem eventuum politicorum tractavit, sed tamquam testimonium modorum quibus fides communitates transformavit earumque sortem conformavit.
+
+Per hoc opus perpetuam famam quasi unus ex conditoribus historiae litteris Anglice conscriptae meruit. Eius auctoritas fines monasterii longe superavit, memoriam hominum atque eventuum servans qui alioquin ex historiae memoria evanescere potuissent.
+
+### Ultimi Dies atque Mors
+
+Ultima Bedae infirmitas eius studio atque orationi deditionem non imminuit. Vere anni 735, dum valetudo eius deterior fieret, translationem Evangelii secundum Ioannem in linguam veterem Anglicam perficere perrexit, ut Sacrae Scripturae iis quoque paterent qui linguam Latinam facile intellegere non poterant.
+
+Secundum narrationem a discipulo eius Cuthberto servatam, Beda ultimos dies dictando, orando atque officia liturgica canendo egit. Etiam cum vires deficerent, operis sui perfectionem curabat atque eos qui circa eum erant confirmare studebat. Die XXVI mensis Maii anno 735 Girvi obiit, eo anno diei Ascensionis Domini, ut traditur, coniunctus.
+
+Mors eius cum quieta disciplina, quae totam vitam eius insigniverat, congruebat. Pro laude aut mundana potentia quaerenda, annos suos in servitio Ecclesiae per orationem, institutionem atque eruditionem consumpsit.
+
+### Ecclesiae Doctor atque Perennis Hereditas
+
+Fama sanctitatis atque sapientiae Bedae multo post eius mortem perseveravit, atque titulus *Venerabilis* nomini eius ineunte aetate media adiunctus est. Die XIII mensis Novembris anno 1899 Leo XIII Pontifex Maximus eum formaliter Ecclesiae Doctorem declaravit, perpetuum theologicorum atque historicorum eius scriptorum valorem agnoscens.
+
+Sanctus Beda exemplum praeclarum manet concordiae inter investigationem intellectualem et devotionem christianam. Vita eius demonstrat eruditionem veram vocationem fieri posse, si cum humilitate, studio disciplinato atque amore veritatis exerceatur. Commentariis biblicis, operibus historicis atque meditationibus de tempore, hereditatem intellectualem Ecclesiae servavit et progressum christianitatis in Anglia illustrare adiuvit.
+
+Hereditas eius etiam fideles admonet doctrinam atque orationem inter se pugnare non debere. Bedae enim Sacrae Scripturae diligens studium et cotidiana Ecclesiae celebratio viae inter se congruentes erant ad altiorem Christi cognitionem adipiscendam. Eius perenne testimonium christianos invitat ut sapientiam non ad propriam gloriam quaerendam, sed ad Deo serviendum atque fidem fideliter futuris generationibus tradendam appetant.$desc$),
+('saint-gregory-vii', 'la',
+$desc$Sanctus Gregorius VII, Hildebrandus circa annum 1020 in Tuscia natus, monachus Benedictinus et papa reformator fuit, cuius fortis defensio spiritualis Ecclesiae libertatis historiam christianitatis mediaevalis conformavit. Anno 1073 papa electus, simoniam exstirpare, disciplinam clericorum firmare atque nominationes ecclesiasticas a nimio saecularium potestatum dominio liberare studuit. Eius conflictus cum Henrico IV, Sacri Romani Imperii imperatore, inter certamina praecipua inter auctoritatem pontificiam et imperialem numeratur, quae anno 1077 imperatoris itinere Canusium suscepto ad summum pervenit. Post novas contentiones in exsilium coactus, Gregorius die XXV mensis Maii anno 1085 Salerni obiit. Ob constantiam suam in Ecclesia reformanda, quamvis ingentibus oppositionibus premeretur, memoratus, a Benedicto XIII Pontifice Maximo anno 1728 canonizatus est atque validum testimonium libertatis ecclesiasticae, responsabilitatis moralis et fidelitatis erga missionem pastoralem manet.$desc$,
+
+$desc$Hildebrandus, futurus Gregorius VII Pontifex, circa annum 1020 in Tuscia, Italiae mediae regione, natus est. Quamquam de familia eius atque infantia parum certi cognoscuntur, primam institutionem Romae accepit, ubi in ambitum religiosum ingressus est, quem disciplina monastica atque desiderium vitae Ecclesiae renovandae conformabant. Institutio eius ut monachi Benedictini firmam ei persuasionem indidit Ecclesiam secundum principia spiritualia, non secundum ambitiones principum politicorum, gubernandam esse.
+
+### Monachus in Ecclesiae Servitio
+
+Hildebrandi ingenium mox effecit ut pluribus pontificibus sibi succedentibus serviret. Consiliarius administratorque magni momenti factus est, operam conferens ad corruptionem corrigendam atque integritatem institutionum ecclesiasticarum restituendam. Eo tempore Ecclesia gravibus difficultatibus obviam ibat, inter quas emptionem officiorum ecclesiasticorum, simoniam appellatam, atque saecularium principum influxum in episcoporum et abbatum nominationem.
+
+Hae consuetudines officia spiritualia clericorum in discrimen adducebant atque favebant ut munera religiosa tamquam instrumenta divitiarum et potestatis politicae tractarentur. Hildebrandus credebat Ecclesiam missionem suam explere non posse, nisi ministri eius secundum recta principia ecclesiastica eligerentur atque formarentur.
+
+Eius auctoritas sub Leone IX Pontifice eiusque successoribus crevit. Pro pontificatu sibi quaerendo, Hildebrandus per multos annos post scaenam laboravit, motum reformationis promovens qui postea eius nomine appellatus est. Cum Alexander II Pontifex mense Aprili anni 1073 mortuus esset, Hildebrandus successor eius electus est atque nomen Gregorii VII assumpsit.
+
+### Reformatio Gregoriana
+
+Pontificatus Gregorii VII amplum renovationis ecclesiasticae propositum insignivit. Simoniam abolere, disciplinam a clericis requisitam firmare atque Ecclesiam ab interventu potestatum saecularium defendere studuit. Hae reformationes non erant merae mensurae administrativae, sed persuasionem eius exprimebant Ecclesiam Deo pertinere atque sacra eius officia commodis mundanis subicienda non esse.
+
+Una ex quaestionibus maxime controversis erat investitura laicorum, id est consuetudo qua principes saeculares episcopos nominabant eosque insignibus auctoritatis ecclesiasticae investiebant. Iudicio Gregorii, tale dominium spiritualem Ecclesiae libertatem minuebat atque principes ad episcopatus tamquam possessiones politicas tractandos incitabat.
+
+Eius constantia eum in apertum conflictum cum potentibus principibus adduxit, praesertim cum Henrico IV, rege Germaniae et futuro Sacri Romani Imperii imperatore. Controversia quaestionem fundamentalem vitae politicae et religiosae mediaevalis patefecit: utrum nominatio et auctoritas ducum spiritualium regibus subici deberent, an ab ipsa Ecclesia gubernandae essent.
+
+Gregorius in sua sententia firmus permansit, atque rationes eius interdum severae esse poterant. Attamen reformationes eius sacrum sacerdotii characterem defendere atque fines clariores inter responsabilitatem ecclesiasticam et potestatem saecularem constituere intendebant.
+
+### Canusium et Conflictus cum Henrico IV
+
+Confrontatio cum Henrico IV ad discrimen decisivum anno 1076 pervenit. Post controversias de nominationibus ecclesiasticis atque auctoritate pontificia, conventus episcoporum Germaniae Gregorii auctoritatem impugnavit. Pontifex Henricum excommunicavit atque declaravit eius subditos ab obligationibus oboedientiae erga regem solutos esse.
+
+Haec sententia regem in ancipiti condicione posuit, cum plures adversarii eius conflictu uterentur ad eius imperium oppugnandum. Reconciliationem atque salutem politicam quaerens, Henricus hieme anni 1076–1077 Alpes transiit et Canusium profectus est, ubi Gregorius morabatur.
+
+Mense Ianuario anni 1077, papa Henricum recepit atque, rege se subiciente, excommunicationem sustulit. Hic conventus unus ex celeberrimis eventibus historiae Europaeae mediaevalis factus est, contentionem inter auctoritatem spiritualem et potestatem regiam significans. Attamen Canusium controversiam fundamentalem non diremit. Reconciliatio temporaria fuit, atque conflictus mox renovatus est.
+
+Anno 1080, Gregorius Henricum iterum excommunicavit. Henricus electionem alterius pontificatus petitoris, Clementis III, sustinuit. Certamen ingravescebat, dum Henricus in Italiam progrederetur atque tandem anno 1084 Romam intraret, ubi Clemens eum imperatorem coronavit.
+
+### Exsilium et Mors
+
+Gregorius ab exercitibus imperialibus a Roberto Guiscardo, principe Normanno, liberatus est, cuius copiae anno 1084 Romam ingressae sunt. Eorum tamen interventus inimicitias inter incolas urbis excitavit, atque Gregorius in urbe tuto manere iam non poterat. In meridiem se recepit atque tandem Salerni consedit.
+
+Procul a Roma et reformationibus quas mente conceperat perficere non valens, Gregorius ultimos menses in exsilio egit. Eius constantia infracta non est, quamvis certaminis politici consectaria gravia essent. Die XXV mensis Maii anno 1085 Salerni obiit.
+
+Secundum traditionem in narrationibus de ultimis eius diebus servatam, declaravit se iustitiam dilexisse et iniquitatem odisse atque propterea in exsilio mori. Haec verba significare coeperunt eius intellectum muneris pontificii tamquam responsabilitatis quae fidelitatem erga conscientiam postularet, etiam cum ad dolorem et solitudinem duceret.
+
+### Canonizatio et Hereditas
+
+Gregorius VII a Benedicto XIII Pontifice Maximo anno 1728 canonizatus est. Eius hereditas cum Reformatione Gregoriana arcte coniungitur, quae ordinationem, disciplinam atque libertatem Ecclesiae mediaevalis reformare adiuvit.
+
+Pontificatus eius etiam multiplicitatem necessitudinis inter auctoritatem spiritualem et potestatem politicam demonstrat. Gregorii conatus ad diuturnam institutionum Europaeanarum transformationem contulerunt, quamvis conflictus cum Henrico IV divisionem et dolorem attulerit atque omnes quaestiones de Ecclesiae et civitatis necessitudine non solverit.
+
+Sanctus Gregorius VII ut papa memoratur qui credebat reformationem ecclesiasticam fortitudinem, disciplinam atque voluntatem potentibus commodis resistendi postulare. Vita eius fideles admonet Ecclesiam semper fidelitatem erga missionem suam spiritualem quaerere debere, auctoritatem autem cum responsabilitatis coram Deo conscientia exercere.
+
+Per certamina et exsilium suum Gregorius testimonium reddidit persuasionis integritatem fidei atque libertatem Ecclesiae tanti esse momenti ut etiam magno pretio personali defenderentur. Eius hereditas pars insignis historiae reformationis christianae manet atque memoriam servat perpetuae necessitudinis inter conscientiam religiosam et potestatem temporalem.$desc$),
+('saint-mary-magdalene-de-pazzi', 'la',
+$desc$Sancta Maria Magdalena de’ Pazzi, Catharina de’ Pazzi Florentiae anno 1566 nata, monialis Carmelita Italica et mystica fuit, ardenti Christi amore, Eucharistiae devotione atque precibus pro Ecclesiae renovatione insignis. Ab infantia altum erga Deum desiderium ostendit, quod eam iuvenili aetate ad monasterium Carmelitanum Sanctae Mariae Angelorum ingrediendum impulit. Vita eius religiosa mysticis experientiis profundis insignita est, quas sorores eius conscripserunt, necnon constanti studio orationis, humilitatis atque institutionis suae communitatis. Quamvis per multos annos gravissimis doloribus corporis et spiritus affligeretur, Deo amando animarumque saluti operam dare perseveravit. Florentiae die XXV mensis Maii anno 1607 obiit, a Clemente IX Pontifice Maximo anno 1669 canonizata est atque validum testimonium orationis contemplativae et amoris Christi transformantis habetur.$desc$,
+
+$desc$Catharina de’ Pazzi Florentiae die II mensis Aprilis anno 1566 in illustri familia Florentina nata est. Quamvis domus eius divitiis et loco sociali polleret, iam a teneris annis altam ad orationem et res divinas inclinationem excoluit. Eius erga Eucharistiam devotio peculiari modo eminebat. Sanctam Communionem accipere vehementer cupiebat atque occasiones quaerebat cum iis qui circa eam erant de Christo loquendi. Decem annos nata primam Communionem recepit, quod privilegium illo tempore praematurum erat, atque paulo post personaliter se obligavit ut vitam suam Deo consecraret.
+
+### Vocatio ad Carmelum
+
+Crescente Catharina, desiderium vitae religiosae magis magisque manifestum factum est. Anno 1582 monasterium Carmelitanum Sanctae Mariae Angelorum Florentiae ingressa est, nomen Mariae Magdalenae accipiens. Vita contemplativa Carmelitarum ei ambitum praebuit in quo oratio, silentium et vita communis fundamentum vocationis eius spiritualis fieri poterant.
+
+Anno 1584 graviter aegrotavit. Cum timeretur ne moritura esset, superiores eius ei permiserunt ut professionem religiosam ante tempus initio statutum emitteret. Die XXVII mensis Maii vota paupertatis, castitatis et oboedientiae, in lecto iacens et prae debilitate stare non valens, nuncupavit. Postea convaluit, sed haec periodus initium extraordinariae aetatis experientiarum mysticarum constituit, quae pars praecipua hereditatis eius spiritualis futurae erant.
+
+### Experientiae Mysticae et Amor Christi
+
+Vita Mariae Magdalenae intensis orationis et contemplationis experientiis insignita est, inter quas exstases, quibus de Dei amore et mysteriis fidei christianae loquebatur. Sororibus eius mandatum est ut verba et experientias eius conscriberent, narrationes servantes quae postea partem magni momenti litteraturae mysticae Carmelitarum constituerunt.
+
+Hae experientiae non tamquam phaenomena extraordinaria tantum habebantur. Earum significatio spiritualis in profundo amore Christi, quem exprimebant, atque in transformatione quam in vita eius cotidiana excitabant, consistebat. Maria Magdalena vocationem christianam intellegit tamquam responsionem infinito Dei amori, fideles ad indifferentiam spiritualem relinquendam atque toto corde sanctitatem sectandam vocantem.
+
+Eius celebris exhortatio, *« Venite, animae, ad Amorem amandum! »*, essentiam spiritualitatis eius exprimit. Deus ei non mera considerationis theologicae materia erat, sed fons vivus amoris qui plenam responsionem postulabat. Oratio igitur a caritate, humilitate et desiderio boni spiritualis aliorum seiungi non poterat.
+
+### Cor pro Ecclesiae Renovatione
+
+Sollicitudo Mariae Magdalenae ultra monasterii sui muros patebat. Necessitate renovationis spiritualis in Ecclesia penitus commota, clericos et rectores religiosos ad sanctitatem sectandam atque ignaviam spiritualem vitandam hortabatur. Eius sollicitudines latiorem motum reformationis catholicae, Concilio Tridentino coniunctum, reflectebant, qui disciplinam ecclesiasticam firmare, institutionem emendare atque vitam spiritualem fidelium renovare studebat.
+
+Epistulas ad Sixtum V Pontificem, cardinales aliosque Ecclesiae rectores dictavit, renovationem poscens quae in Dei amore atque fidelitate erga Evangelium fundaretur. Quamquam nonnullae ex his epistulis fortasse missae non sunt, amplitudinem sollicitudinis eius spiritualis patefaciunt. Vocatio eius contemplativa ad mundum neglegendum non duxit; potius eam impulit ut pro Ecclesia eiusque missione oraret atque sacrificia offerret.
+
+In propria quoque communitate institutioni iuniorum religiosarum operam dedit, sorores suas ad virtutem augendam atque necessitudinem cum Christo altius excolendam incitans. Eius auctoritas non in potestate mundana, sed in vi spirituali exempli eius nitebatur.
+
+### Passio et Ultimi Anni
+
+Posterior pars vitae Mariae Magdalenae gravi corporis infirmitate atque profundis spiritualibus probationibus insignita est. Valetudine eius crescente in deterius, paulatim ab officiis activis se retraxit, dolorem tamen suum cum Christi Passione coniungere perseverans. Hanc experientiam *« nudam passionem »* appellavit, verbis quae desiderium eius exprimebant se omnino voluntati Dei tradendi, sine consolatione aut praemio quaerendis.
+
+Ultimi eius anni praesertim dolorosi fuerunt, sed constantia eius in oratione perseveravit. Pro doloribus suis tamquam signis desertionis divinae interpretandis, fidelis manere studuit per desolationem spiritualem et corporis debilitatem. Vita eius praecipuum argumentum mysticae christianae illustrat: amorem firmum manere posse etiam cum consolatio evanescit et via fidei difficilis fit.
+
+Maria Magdalena de’ Pazzi Florentiae die XXV mensis Maii anno 1607, post diuturnam infirmitatem, obiit. Fama sanctitatis eius iam extra communitatem suam diffusa erat, atque post mortem eius cultus crevit.
+
+### Canonizatio et Hereditas Spiritualis
+
+Urbanus VIII Pontifex Maximus Mariam Magdalenam de’ Pazzi die VIII mensis Maii anno 1626 beatificavit. Die XXVIII mensis Aprilis anno 1669 Clemens IX Pontifex Maximus eam canonizavit, perenne testimonium vitae eius contemplativae atque extraordinariae erga Christum devotionis agnoscens.
+
+Sancta Maria Magdalena de’ Pazzi una ex mysticis insignibus traditionis Carmelitarum manet. Scripta eius, per narrationes a sororibus conscriptas servata, necessitudinem inter contemplationem, sui ipsius oblationem et amorem Ecclesiae adhuc illuminant. Eius spiritualitas mysterium Sanctissimae Trinitatis atque Christi amorem in centro vitae christianae collocat, fideles invitans ad intimam cum Deo necessitudinem quaerendam, quae fructus sanctitatis et caritatis ferat.
+
+Exemplum eius christianos admonet veram orationem non esse fugam a responsabilitate, sed fontem altioris erga Ecclesiam et mundum dedicationis. Per constantiam in doloribus, sollicitudinem de renovatione spirituali atque ardentem Dei amorem, Sancta Maria Magdalena de’ Pazzi adhuc testatur sanctitatem in corde divino amore transformato incipere atque plenitudinem suam in vita Christo omnino oblata attingere.$desc$),
+('saint-philip-neri', 'la',
+$desc$Sanctus Philippus Neri, Philippus Romulus Neri Florentiae anno 1515 natus, sacerdos Italicus fuit, laeto animo, humilitate atque indefessa caritate apostolica insignis. Apostolus Romae appellatus, vitam suam iuvenibus evangelizandis, pauperibus sublevandis atque fidelibus ad frequentiorem sacramentorum receptionem hortandis dedicavit. Post profundam expergefactionem spiritualem, anno 1551 sacerdos ordinatus est atque paulatim communitatem collegit orationi, colloquiis spiritualibus et operibus caritatis deditam. Haec communitas Congregatio Oratorii facta est, quam Gregorius XIII Pontifex Maximus anno 1575 formaliter approbavit. Contemplationem profundam cum modo sanctitatem vivendi benigno atque laeto coniungens, Philippus unus ex dilectissimis personis spiritualibus Reformationis Catholicae factus est. Romae die XXVI mensis Maii anno 1595 obiit, a Gregorio XV Pontifice Maximo anno 1622 canonizatus est atque exemplum perenne gaudii christiani, humilitatis et amoris Christi manet.$desc$,
+
+$desc$Philippus Romulus Neri Florentiae die XXI mensis Iulii anno 1515 in familia mediocrium opum natus est. Ab infantia indolem mansuetam, facetiarum sensum vivacem atque altum vitae religiosae studium ostendit. A fratribus Dominicanis Sancti Marci educatus, traditiones orationis et doctrinae christianae cognovit, quae spiritualitatem eius formarent.
+
+Circiter duodeviginti annos natus, Philippus ad propinquum divitem prope Montem Cassinum missus est, apud quem vivere atque negotia familiaris domus discere exspectabatur. Cor tamen eius magis magisque ad vitam Deo dedicatam trahebatur. Spe prosperitatis mercatoriae relicta, anno 1534 Romam profectus est, missionem perpetuam in Urbe Aeterna inchoans.
+
+### Cor Deo Deditum
+
+Romae Philippus simpliciter vivebat, paedagogi munere fungens, dum philosophiam et theologiam studebat. Multas horas in ecclesiis atque catacumbis orando agebat, necessitudinem suam cum Christo altius excolere quaerens. Eodem tempore paupertatem et dolorem cognovit, quae inter splendorem urbis exstabant.
+
+Aegrotos in valetudinariis visitabat, solitarios consolabatur atque cum iuvenibus parum institutionis religiosae acceptis colloquebatur. Modus eius directus et affectuosus erat: animas ad Deum ducere studebat non metu aut severitate, sed amicitia, hilaritate atque exemplo vitae oratione innixae.
+
+Secundum antiquam traditionem, per orationem in vigilia Pentecostes anno 1544, Philippus extraordinarium occursum cum Spiritu Sancto expertus est. Postea experientiam spiritualem vehementem descripsit, quae mira cordis eius dilatatione coniuncta erat. Hic eventus elementum praecipuum identitatis eius spiritualis factus est, extraordinariam caritatem significans quae ministerium eius animatura erat.
+
+### Apostolus Romae
+
+Apostolatus Philippi paulatim amplior factus est. Fideles hortabatur ut praecipuas Romae ecclesias visitarent peregrinatione quae Septem Ecclesiarum peregrinatio appellabatur, orationem, communionem fraternam et institutionem spiritualem coniungente. Etiam Confraternitatem Sanctissimae Trinitatis instituendam adiuvit, ad peregrinos et convalescentes adiuvandos, praesertim eos qui anno Iubilaei 1550 Romam adveniebant.
+
+Die XXIII mensis Maii anno 1551 sacerdos ordinatus, magis magisque confessionibus audiendis atque hominibus ad altiorem vitam christianam ducendis se dedicavit. Cubiculum eius apud ecclesiam Sancti Hieronymi locus conventus virorum factum est, qui directionem spiritualem quaerebant. In his conventibus lectiones Sacrae Scripturae, oratio, disputationes religiosae, hymni atque meditationes de sanctorum vita habebantur.
+
+Methodus Philippi peculiaris erat. Sanctitatem tristitia aut nimia gravitate confundi non debere credebat. Facetiae eius superbiam frangebant atque homines ad conversionem trahebant, dum disciplina eius personalis firmiter in oratione et sui abnegatione fundabatur. Socios suos hortabatur ut humiles manerent atque Deum fideliter in rebus cotidianis quaererent.
+
+### Oratorii Fundatio
+
+Communitas quae circa Philippum crescebat tandem in Congregationem Oratorii evoluta est, quam Gregorius XIII Pontifex Maximus anno 1575 formaliter approbavit. Sodales eius presbyteri saeculares erant, qui in communitate vivebant sine votis monasticis, oratione, praedicatione, institutione spirituali et servitio caritatis coniuncti.
+
+Oratorium centrum renovationis religiosae tempore Reformationis Catholicae factum est. Philippus frequentem Eucharistiae receptionem, confessionem regularem atque personalem Sacrae Scripturae cognitionem promovebat. Musicam quoque et artes aestimabat tamquam media quibus anima ad Deum elevaretur. Conventus spirituales ministerio eius coniuncti progressum formae musicae quae oratorium appellatur inspirare adiuverunt.
+
+Quamvis fama eius cresceret, Philippus propriam celebritatem suspectam habebat. Aliquando gestibus iucundis atque moribus inopinatis utebatur ut admirationem sui minueret atque circumstantes admoneret humilitatem publica laude pluris esse. Auctoritas eius in sapientia pastorali, benignitate atque facultate aliis adiuvandis ut Christum convenirent nitebatur.
+
+### Ultimi Anni et Canonizatio
+
+Philippus ministerium suum, quamvis crebris morbis laboraret, continuavit, orationi atque sacramento Paenitentiae fideliter incumbens. Anno 1593 munere superioris Oratorii se abdicavit, sodalibus opus a se inceptum continuandum relinquens.
+
+Romae die XXVI mensis Maii anno 1595 obiit, vita contemplationis, amicitiae atque servitii apostolici insignita. Fama sanctitatis eius celeriter diffusa est, atque Paulus V Pontifex Maximus eum anno 1615 beatificavit. Gregorius XV Pontifex Maximus die XII mensis Martii anno 1622 eum canonizavit, una cum pluribus aliis sanctis insignibus Reformationis Catholicae.
+
+### Hereditas Gaudii Christiani
+
+Sanctus Philippus Neri testimonium praeclarum perhibet veram sanctitatem laetam, accessibilem atque penitus humanam esse posse. Vitam intensae orationis cum actuosa sollicitudine de necessitatibus spiritualibus et materialibus aliorum coniunxit. Ostendit facetias, humilitatem et amicitiam instrumenta valida evangelizationis fieri posse, cum in amore Christi radicentur.
+
+Hereditas eius per Congregationem Oratorii atque innumeros christianos qui eius exemplo inspirantur perseverat. Sanctus Philippus fideles admonet gaudium christianum non esse levem hilaritatem, sed fructum communionis cum Deo. Alios benigne excipiendo, indigentibus serviendo atque coram Domino humilis manendo, demonstravit cor divino amore transformatum Ecclesiam renovare atque animas ad Christum propius ducere posse.$desc$),
+('saint-augustine-of-canterbury', 'la',
+$desc$Sanctus Augustinus Cantuariensis monachus Benedictinus fuit, quem Gregorius Magnus Pontifex ad Anglo-Saxones Angliae evangelizandos misit. Anno 597 in regnum Cantiae cum sodalibus missionariis perveniens, protectionem regis Æthelberhti accepit, cuius uxor Christiana Bertha viam Evangelio praeparaverat. Augustini praedicatio ad regis multorumque subditorum conversionem contulit, Cantuariam centrum praecipuum christianitatis Anglicae constituens. Primus archiepiscopus Cantuariensis nominatus, ecclesias et monasteria condidit atque Ecclesiam in Anglia meridionali ordinare adiuvit. Quamquam conatus eius missionem Romanam cum antiquioribus communitatibus christianis Britanniae coniungendi difficultatibus obvenerunt, opus eius fundamenta vitae christianae in Anglia perennis iecit. Circa annum 604 obiit atque Apostolus Anglorum memoratur.$desc$,
+
+$desc$Augustinus monachus Benedictinus erat, qui in monasterio Sancti Andreae in monte Caelio Romae vivebat, cum Gregorius Magnus Pontifex ei missionem commisit quae historiam religiosam Angliae conformatura erat. De eius prima vita pauca cognoscuntur, sed formatio monastica eum ad vocationem orationis, oboedientiae et servitii praeparaverat. Circa annum 596, Gregorius eum elegit ut quadraginta circiter monachorum coetui praeesset, qui Evangelium inter Anglo-Saxones praedicaret, quorum regna in Britannia post finem dominationis Romanae exorta erant.
+
+### Missio in Angliam
+
+Iter difficilius evasit quam missionarii exspectaverant. Cum prospectu itineris per regiones ignotas obviam essent, Augustinus eiusque socii animo defecerunt atque progredi dubitaverunt. Augustinus Romam rediit ut a Gregorio Pontifice peteret ut eos a missione absolveret. Pontifex autem eos ad perseverandum hortatus est atque litteras commendaticias dedit, quibus iter continuare possent.
+
+Gregorio hortante confirmati, missionarii fretum Gallicum traiecerunt atque anno 597 in insulam Thanet, in regno Cantiae sitam, pervenerunt. Adventus eorum novum caput in evangelizatione populorum Anglo-Saxonicorum aperuit.
+
+Æthelberht rex eos benigne excepit, partim quia uxor eius, regina Bertha, iam Christiana erat atque fidem suam in aula servaverat. Rex Augustino eiusque sociis permisit ut Cantuariae consisterent atque libere praedicarent. Vitam religiosam apud antiquam ecclesiam Sancti Martini instituerunt, ubi regina iam cultum divinum celebraverat.
+
+Augustinus missionem suam patienter suscepit, intellegens Evangelii nuntiationem et fortitudinem et prudentiam postulare. Monachi praedicabant, orabant atque fidem christianam vita communi demonstrare studebant. Conatus eorum paulatim fructum tulerunt, et Æthelberht tandem christianam fidem amplexus est. Eius conversio multos subditos ad baptismum suscipiendum excitavit, firmum missionis fundamentum intra regnum constituens.
+
+### Primus Archiepiscopus Cantuariensis
+
+Augustini successus effecit ut Cantuaria praecipuum centrum missionis Romanae in Anglia fieret. In Galliam profectus est, ubi episcopalem consecrationem accepit, deinde rediit ut crescentem communitatem christianam ordinare pergeret. Gregorius Pontifex postea novos missionarios, libros atque subsidia liturgica misit ad opus sustinendum.
+
+Augustinus archiepiscopus Cantuariensis nominatus est atque pallium accepit, signum auctoritatis eius metropolitanae. Structuras episcopales instituit ad continuam Ecclesiae incrementum sustentandum, monasterium Sanctis Petro et Paulo dedicatum extra urbem condidit atque aedificationem eius quod postea Ecclesia Christi Cantuariensis appellatum est inchoavit.
+
+Anno 604, Mellitum episcopum Londinensem et Iustum episcopum Roffensem consecravit, ordinationem Ecclesiae ultra Cantiam extendens. Haec fundamenta effecerunt ut missio post mortem primi sui ducis perseverare posset.
+
+Augustini opus non ad singulorum fidelium conversionem tantum pertinebat. Communitates cultus divini instituebat, clericos formabat atque instituta creabat per quae fides christiana futuris generationibus traduci posset. Missio eius regna Anglica nascentia cum latiore orbe christiano Latino denuo coniunxit.
+
+### Difficultates et Studium Unitatis
+
+Quamvis res prospere gessisset, Augustinus difficultates expertus est cum unitatem cum antiquioribus communitatibus christianis Britanniae constituere conaretur. Christianitas in quibusdam insulae partibus per traditiones servata erat, quae quibusdam consuetudinibus ab iis quae Romae observabantur differebant, praesertim quoad Paschae celebrationis computationem atque quaedam disciplinae ecclesiasticae elementa.
+
+Augustinus cum episcopis Britannicis concordiam quaesivit eosque invitavit ut in evangelizatione Anglo-Saxonum cooperarentur. Conventus tamen eorum unitatem quam speraverat non attulerunt. Differentiae in ritibus, quaestiones auctoritatis atque mutua diffidentia inter communitates reconciliationem stabilem eo vivente impediverunt.
+
+Hae contentiones multiplicitatem missionis christianae in Britannia ostendunt. Opus Augustini firmam praesentiam ecclesiasticam Romanam constituit, sed diversarum traditionum christianarum integratio processus paulatim perficiendus mansit. Conatus eius nihilominus fundamenta institutionalia creaverunt, quibus posteriores generationes aedificare perrexerunt.
+
+### Mors et Perennis Hereditas
+
+Sanctus Augustinus circa annum 604 obiit, cum paucis tantum annis missioni in Anglia praefuisset. Successor eius, Laurentius Cantuariensis, opus ab eo inceptum continuavit. Augustinus in monasterio Sanctorum Petri et Pauli sepultus est, quod postea Abbatia Sancti Augustini appellatum est.
+
+Eius momentum in narratione Sancti Bedae Venerabilis servatum est, cuius *Historia ecclesiastica gentis Anglorum* adventum missionariorum, conversionem Æthelberhti atque constitutionem primae Ecclesiae Anglicae refert. Quamquam quaedam vitae Augustini singularia incerta manent, munus eius praecipuum in missione Romana antiquis fontibus historicis satis confirmatur.
+
+Sanctus Augustinus Cantuariensis Apostolus Anglorum memoratur, quia missio eius fundamenta incrementi christianitatis inter regna Anglo-Saxonum iecit. Historia eius momentum perseverantiae in evangelizatione illustrat: missionarius qui initio iter timuerat pastor novae communitatis christianae factus est.
+
+Hereditas eius etiam oboedientiae atque fidelitatis erga propriam vocationem momentum ostendit. Gregorio Magno Pontifice hortante, Augustinus, quamvis dubitationibus difficultatibusque premeretur, perseveravit, confidens Evangelium in terris ignotis radices agere posse. Per praedicationem suam, ecclesiarum institutionem atque communitatis ecclesiasticae diuturnae formationem, historiam spiritualem Angliae conformare adiuvit atque testimonium perenne fortitudinis missionariae et servitii Christi manet.$desc$),
+('saint-paul-vi', 'la',
+$desc$Sanctus Paulus VI, Ioannes Baptista Montini anno 1897 in Concesio, Italia, natus, fuit ducentesimus sexagesimus secundus Ecclesiae Catholicae Pontifex atque persona praecipua in exsequendo Concilio Vaticano II. Anno 1920 sacerdos ordinatus, per decennia Sanctae Sedi servivit, antequam archiepiscopus Mediolanensis fieret atque anno 1963 Sancto Ioanni XXIII in pontificatu succederet. Concilium ad conclusionem anno 1965 perduxit, renovationem ecclesialem, dialogum cum aliis christianis atque cum mundo huius temporis congressum promovens, dum doctrinam Ecclesiae traditionemque eius defendebat. Pontificatus eius itineribus apostolicis per orbem terrarum, studio pacis et iustitiae socialis atque encyclicis magni momenti, inter quas *Populorum progressio* et *Humanae vitae*, insignitus est. Castel Gandolfo die VI mensis Augusti anno 1978 obiit, a Francisco Pontifice Maximo anno 2014 beatificatus atque anno 2018 canonizatus est. Sanctus Paulus VI testimonium perenne perseverantiae, responsabilitatis pastoralis et fidelitatis erga Christum manet, inter profundas mutationes in Ecclesia et mundo exortas.$desc$,
+
+$desc$Ioannes Baptista Montini die XXVI mensis Septembris anno 1897 in Concesio, prope Brixiam in Italia septentrionali, natus est. In familia penitus catholica crevit, cuius fides cum responsabilitate sociali atque vita publica arcte coniuncta erat. Pater eius, Georgius Montini, iuris peritus, diurnarius et vir politicus fuit, mater autem, Iuditta Alghisi, in eo spiritum orationis atque studium vitae religiosae fovere adiuvit. Ab ineunte aetate Ioannes ingenium meditativum atque studium discendi vehementer ostendit, quae qualitates ministerium eius sacerdotale atque postea pontificatum conformaturae erant.
+
+### Sacerdos in Servitio Sanctae Sedis
+
+Montini die XXIX mensis Maii anno 1920 sacerdos ordinatus est. Romae studia continuavit, philosophiae et iuri canonico peculiari studio incumbens, atque in servitium diplomaticum Sanctae Sedis ingressus est. Post breve munus in nuntiatura apostolica Varsaviensi, ad Secretariam Status Vaticanae rediit, ubi magnam partem primae suae vitae professionalis egit.
+
+Magnam quoque operam iuvenibus catholicis dedit, munere assistentis ecclesiastici Foederationis Universitatum Catholicarum Italicarum fungens. Sollicitudo eius pastoralis ultra circulos academicos patebat: pauperum regiones visitabat, incepta caritatis sustinebat atque iuvenes adiuvare studebat ut institutionem intellectualem cum fide christiana coniungerent.
+
+Per Bellum Orbis Terrarum II, Montini operam dedit ad profugos et homines in periculo constitutos adiuvandos, inter quos Iudaei a regimine nazistico persecuti. Ministerium eius in operibus auxilii Vaticani persuasionem exprimebat missionem spiritualem Ecclesiae actibus concretis caritatis comitari debere, praesertim cum dignitas humana in discrimen vocaretur.
+
+### Archiepiscopus Mediolanensis et Cardinalis
+
+Anno 1954, Pius XII Pontifex Maximus Montini archiepiscopum Mediolanensem nominavit, unius ex maximis Italiae dioecesibus, quae etiam sociali multiplicitate insignis erat. Urbs celerem progressionem industrialem experiebatur, dum multi operarii et familiae difficultatibus urbanizationis atque mutationis oeconomicae obviam ibant. Montini Evangelium in hunc ambitum mutabilem inferre studuit, vitam paroecialem roborans, novas ecclesias aedificandas promovens atque amplam missionem dioecesanam ordinans.
+
+Ecclesiam ad eos pervenire volebat qui a consuetudine religiosa recesserant, praesertim operarios et iuvenes. Eius ratio fidelitatem erga doctrinam catholicam cum voluntate res societatis hodiernae agnoscendi coniungebat.
+
+Mense Decembri anni 1958, Ioannes XXIII Pontifex Maximus eum cardinalem creavit. Montini deinde consiliis ad Concilium Vaticanum II apparandum interfuit, cuius opus responsabilitas praecipua pontificatus eius futurum erat.
+
+### Concilium Vaticanum II Moderans
+
+Post mortem Ioannis XXIII, Montini die XXI mensis Iunii anno 1963 papa electus est, nomen Pauli VI assumens. Statim se obligavit ad Concilium Vaticanum II continuandum, quod anno 1962 incohatum erat. Concilium vitam pastoralem Ecclesiae renovare, intellegentiam missionis eius altius percipere atque necessitudinem eius cum mundo huius temporis emendare studebat.
+
+Paulus VI Concilium per reliquas sessiones moderatus est, usque ad eius conclusionem die VIII mensis Decembris anno 1965. Haec responsabilitas accuratam mediationem inter episcopos postulabat, qui diversas sententias de celeritate atque amplitudine reformationis habebant. Ecclesiae unitatem servare studuit, simul Concilii operi progrediendi facultatem concedens.
+
+Concilium maioris momenti documenta de Ecclesia, revelatione divina, liturgia, libertate religiosa atque oecumenismo edidit. Paulus VI postea operam dedit ut eius decisiones exsecutioni mandarentur, Curiam Romanam reformans, Synodum Episcoporum instituens atque novas formas actionis pastoralis sustinens. Hae mutationes magnos progressus in vita Ecclesiae attulerunt, sed etiam dissensiones atque incertitudinem inter catholicos pepererunt.
+
+Pontificatus eius igitur tempus tum renovationis tum contentionum factus est. Paulus VI intellegabat reformationem patientiam et discretionem postulare, sed etiam credebat fidelitatem erga missionem Ecclesiae verum cum necessitatibus atque quaestionibus mundi huius temporis occursum exigere.
+
+### Papa Qui Ultra Romam Pervenit
+
+Paulus VI imaginem publicam pontificatus itineribus apostolicis historicis transformare adiuvit. Mense Ianuario anni 1964 Terram Sanctam petivit, primus papa recentioribus temporibus qui tale iter aëroplano conficeret. Ibi Athenagoram I, Patriarcham Oecumenicum Constantinopolitanum, convenit. Eorum occursus gradum magni momenti ad reconciliationem inter Ecclesiam Catholicam et Ecclesias Orthodoxas post saecula separationis significavit.
+
+Anno 1965, Paulus VI primus papa regnans factus est qui Nationum Unitarum Coetum Generalem Novi Eboraci allocutus est, pacem atque cooperationem inter nationes appellans. Itinera internationalia continuavit, Africam, Asiam, Americam Latinam aliasque regiones visitans, indolem universalem Ecclesiae atque momentum dialogi inter culturas extollens.
+
+Encyclica eius *Populorum progressio*, anno 1967 edita, progressionem populorum atque responsabilitates morales cum progressu oeconomico et sociali coniunctas tractavit. Instabat veram progressionem totum hominem omnesque populos complecti debere, non materialem tantum prosperitatem. Eius doctrina sollicitudinem de pauperibus atque de condicionibus exprimebat quae unicuique homini vitam dignitate plenam agere permittunt.
+
+### Doctrina, Fides et Decisiones Difficiles
+
+Pontificatus Pauli VI conatibus servandae doctrinae catholicae tempore celeris mutationis culturalis et socialis insignitus est. Anno 1968, encyclicam *Humanae vitae* edidit, quae matrimonium atque prolis generationis moderationem tractabat. Reaffirmatio doctrinae Ecclesiae de contraceptione artificiali vehementem disputationem excitavit, inter quas dissensiones quorundam theologorum et catholicorum. Paulus VI tamen persuasionem suam retinuit Ecclesiam doctrinam suam de matrimonio, amore humano atque vitae dignitate fideliter proclamare debere.
+
+Identitatem quoque spiritualem Ecclesiae roborare studuit inceptis qualia erant *Credo Populi Dei* anno 1968 atque adhortatio apostolica *Evangelii nuntiandi* anno 1975. Haec posterior evangelizationem tamquam missionem essentialem Ecclesiae extollebat, christianos vocans ut Evangelium tum verbis tum vita sua proclamarent.
+
+Sollicitudo Pauli VI de unitate et pace constans mansit. Attamen anni eius pontificatus dolorem quoque personalem attulerunt, praesertim anno 1978, cum diuturnus eius amicus Aldus Morus a Brigadibus Rubris abductus atque interfectus est. Paulus VI publice pro liberatione Mori appellaverat, atque haec tragoedia eum penitus affecit.
+
+### Mors, Canonizatio et Hereditas
+
+Paulus VI Castel Gandolfo die VI mensis Augusti anno 1978, post impetum cordis, obiit. Ultimi eius anni oneribus gravibus insigniti erant, sed eius dedicatio erga Ecclesiam inconcussa mansit. Testamentum spirituale eius altum amorem erga Christum atque Ecclesiam, cui per totam vitam servierat, exprimebat.
+
+Franciscus Pontifex Maximus eum die XIX mensis Octobris anno 2014 beatificavit atque die XIV mensis Octobris anno 2018 canonizavit. Eius agnitio ut sancti sanctitatem vitae sacerdotali servitio, moderationi pastorali atque difficili muneri Ecclesiam per tempus historicae transformationis ducendi deditae confirmavit.
+
+Sanctus Paulus VI figura magni momenti in historia catholica recentiore manet. Pontificatus eius voluntatem doctrinam Ecclesiae servandi cum constanti studio dialogum fovendi, pacem promovendi atque necessitatibus pauperum respondendi coniunxit. Hereditas eius a Concilio Vaticano II atque difficili opere visionem eius in vitam cotidianam Ecclesiae transferendi seiungi non potest.
+
+Per perseverantiam, humilitatem atque responsabilitatis sensum, Paulus VI fideles admonet moderationem christianam et fortitudinem et patientiam postulare. Vita eius fidem testatur quae a mundo non recedit, sed lucem Christi in eius certamina, spes atque incertitudines inferre studet.$desc$)
+) AS x(slug,locale_code,short_description,full_biography) ON s.slug=x.slug
+WHERE st.saint_id=s.id AND st.locale_code=x.locale_code;
 -- END_BIOGRAPHIES_MAY
 
 -- BIOGRAPHIES_JUNE
