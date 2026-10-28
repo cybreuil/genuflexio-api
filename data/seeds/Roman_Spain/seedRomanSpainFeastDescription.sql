@@ -11,7 +11,7 @@ UPDATE feast_translations ft
 SET description = x.description
 FROM feasts f
 JOIN (VALUES
-('saint-eulogius-of-cordoba-bishop', $desc$
+('saint-eulogius-of-cordoba-bishop-and-martyr', $desc$
 This celebration honors Saint Eulogius of Córdoba, pastor, teacher, and martyr, whose fidelity strengthened Christians living under pressure. His memory joins learning, pastoral care, and courageous confession of Christ.
 
 Eulogius shows that the word of God can be guarded and proclaimed even when public witness is costly. His holiness was expressed in teaching, encouraging the faithful, and accepting suffering rather than denying the Lord.
@@ -188,7 +188,7 @@ UPDATE feast_translations ft
 SET description = x.description
 FROM feasts f
 JOIN (VALUES
-('saint-eulogius-of-cordoba-bishop', $desc$
+('saint-eulogius-of-cordoba-bishop-and-martyr', $desc$
 Cette célébration honore saint Euloge de Cordoue, pasteur, maître et martyr, dont la fidélité fortifia les chrétiens vivant sous la pression. Sa mémoire unit la science, le soin pastoral et la courageuse confession du Christ.
 
 Euloge montre que la parole de Dieu peut être gardée et proclamée même lorsque le témoignage public coûte cher. Sa sainteté s'exprima dans l'enseignement, l'encouragement des fidèles et l'acceptation de la souffrance plutôt que le reniement du Seigneur.
@@ -365,7 +365,7 @@ UPDATE feast_translations ft
 SET description = x.description
 FROM feasts f
 JOIN (VALUES
-('saint-eulogius-of-cordoba-bishop', $desc$
+('saint-eulogius-of-cordoba-bishop-and-martyr', $desc$
 Haec celebratio sanctum Eulogium Cordubensem, pastorem, doctorem et martyrem, honorat, cuius fidelitas christianos sub pressione viventes confirmavit. Eius memoria doctrinam, curam pastoralem et fortem Christi confessionem coniungit.
 
 Eulogius ostendit verbum Dei custodiri et annuntiari posse etiam cum testimonium publicum magno pretio constat. Sanctitas eius in doctrina, consolatione fidelium et passione potius quam Domini negatione apparuit.

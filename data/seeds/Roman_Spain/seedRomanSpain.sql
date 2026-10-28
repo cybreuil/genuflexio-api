@@ -23,8 +23,8 @@ BEGIN;
 
 INSERT INTO feasts (slug, default_name, feast_type) VALUES
 
-('saint-eulogius-of-cordoba-bishop',
- 'Saint Eulogius of Córdoba, Bishop',
+('saint-eulogius-of-cordoba-bishop-and-martyr',
+ 'Saint Eulogius of Córdoba, Bishop and Martyr',
  'sanctoral'),
 
 ('saints-fructuosus-augurius-and-eulogius-martyrs',
@@ -135,8 +135,8 @@ SELECT f.id, 'en', x.name, NULL
 FROM feasts f
 JOIN (VALUES
 
-  ('saint-eulogius-of-cordoba-bishop',
-   'Saint Eulogius of Córdoba, Bishop'),
+  ('saint-eulogius-of-cordoba-bishop-and-martyr',
+   'Saint Eulogius of Córdoba, Bishop and Martyr'),
 
   ('saints-fructuosus-augurius-and-eulogius-martyrs',
    'Saints Fructuosus, Augurius, and Eulogius, Martyrs'),
@@ -222,8 +222,8 @@ SELECT f.id, 'fr', x.name, NULL
 FROM feasts f
 JOIN (VALUES
 
-  ('saint-eulogius-of-cordoba-bishop',
-   'Saint Euloge de Cordoue, évêque'),
+  ('saint-eulogius-of-cordoba-bishop-and-martyr',
+   'Saint Euloge de Cordoue, évêque et martyr'),
 
   ('saints-fructuosus-augurius-and-eulogius-martyrs',
    'Saints Fructueux, Augure et Euloge, martyrs'),
@@ -309,8 +309,8 @@ SELECT f.id, 'la', x.name, NULL
 FROM feasts f
 JOIN (VALUES
 
-  ('saint-eulogius-of-cordoba-bishop',
-   'Sanctus Eulogius Cordubensis, episcopus'),
+  ('saint-eulogius-of-cordoba-bishop-and-martyr',
+   'Sanctus Eulogius Cordubensis, episcopus et martyr'),
 
   ('saints-fructuosus-augurius-and-eulogius-martyrs',
    'Sancti Fructuosus, Augurius et Eulogius, martyres'),
@@ -425,8 +425,8 @@ JOIN calendars rcal
   ON rcal.code = 'ROMAN_GENERAL'
 JOIN (VALUES
 
-  ('saint-eulogius-of-cordoba-bishop',
-   1, 9, 'MEM_OPT', 'WHITE', 'normal', true),
+  ('saint-eulogius-of-cordoba-bishop-and-martyr',
+   1, 9, 'MEM_OPT', 'RED', 'normal', true),
 
   ('saints-fructuosus-augurius-and-eulogius-martyrs',
    1, 20, 'MEM_OPT', 'RED', 'normal', true),

@@ -21,7 +21,7 @@ SELECT f.id, s.id, x.role
 FROM (VALUES
 
   -- Jan 9 – Saint Eulogius of Córdoba, Bishop
-  ('saint-eulogius-of-cordoba-bishop',
+  ('saint-eulogius-of-cordoba-bishop-and-martyr',
    'saint-eulogius-of-cordoba',
    'primary'),
 
