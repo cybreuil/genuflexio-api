@@ -18444,35 +18444,76 @@ Her Little Way invites Christians to abandon the illusion that they must become 
 Thérèse's spirituality does not diminish the seriousness of sin, suffering or spiritual struggle. It places them within a greater confidence that God's love is stronger than human weakness. Her life teaches that even the smallest gesture, when offered with genuine love, can become part of a life transformed by grace.
 
 Through her writings and example, Saint Thérèse continues to remind the Church that the path to God is not reserved for a privileged few. Her enduring message is one of humble confidence: to become holy is to learn to love as Christ loves, to entrust oneself to His mercy and to allow even the smallest acts of daily life to become offerings of love.$desc$),
-('saint-therese-of-the-child-jesus','fr','Thérèse de Lisieux est une carmélite française dont la brève vie cloîtrée a fait connaître la « petite voie » de confiance et d’amour. Ses manuscrits autobiographiques, lettres et poèmes ont diffusé l’enfance spirituelle ; l’Église l’a reconnue docteur en 1997.',
-$desc$## Famille et vocation
+('saint-therese-of-the-child-jesus', 'en',
+$desc$Sainte Thérèse de l'Enfant-Jésus et de la Sainte-Face (1873-1897), plus connue sous le nom de Thérèse de Lisieux, était une carmélite française dont la spiritualité transforma la conception de la sainteté dans l'Église catholique moderne. Entrée au Carmel de Lisieux à seulement quinze ans, elle consacra sa courte vie à la prière, au sacrifice et à une confiance extraordinaire en l'amour miséricordieux de Dieu. À travers sa « petite voie », elle enseigna que la sainteté est accessible à tous grâce à de petits actes accomplis avec un grand amour et une confiance totale en Dieu. Son autobiographie, *Histoire d'une âme*, fit connaître son enseignement spirituel à des millions de personnes. Canonisée par le pape Pie XI en 1925 et proclamée docteur de l'Église par le pape Jean-Paul II en 1997, elle demeure l'une des saintes les plus aimées du christianisme moderne.$desc$,
 
-Marie Françoise Thérèse Martin naît à Alençon le 2 janvier 1873, fille de Louis Martin et de Zélie Guérin. Sa mère meurt en août 1877, et la famille s'installe à Lisieux. L'affection de son père et les soins de ses sœurs marquent son enfance, mais le deuil la laisse aussi affectivement fragile. Formée en partie chez les bénédictines, elle fait sa première communion le 8 mai 1884 et reçoit la confirmation en juin. Ces événements occupent une place importante dans ses souvenirs, qui interprètent l'histoire familiale ordinaire à travers une relation grandissante avec le Christ.
+$desc$Thérèse Martin naquit le 2 janvier 1873 à Alençon, en Normandie, en France, au sein d'une famille profondément croyante. Ses parents, Louis et Zélie Martin, élevèrent leurs enfants dans un climat de prière, d'affection et de dévotion chrétienne. Thérèse était la plus jeune de cinq filles ayant survécu à la petite enfance, dont plusieurs entreraient par la suite dans la vie religieuse. Son enfance fut marquée par la tendresse, mais aussi par la souffrance : alors qu'elle n'avait que quatre ans, sa mère mourut d'un cancer du sein, laissant une blessure qui affecta profondément sa nature sensible.
 
-Thérèse décrit Noël 1886 comme une conversion décisive : elle croit que la grâce lui permet de surmonter une sensibilité excessive et de se tourner plus librement vers autrui. Il ne s'agit pas d'abandonner une enfance sans religion, mais d'une maturité nouvelle au sein d'une vie déjà croyante. Elle désire suivre ses sœurs Pauline et Marie au carmel de Lisieux. Son très jeune âge rend cependant l'autorisation difficile. Pendant un pèlerinage à Rome en novembre 1887, elle demande personnellement à Léon XIII d'entrer à quinze ans, épisode qui manifeste sa détermination et sa volonté de solliciter l'autorisation ecclésiastique.
+La famille déménagea ensuite à Lisieux, où Thérèse grandit entourée de l'affection de son père et de ses sœurs. Elle était particulièrement proche de Pauline, qu'elle considérait comme une seconde mère. Lorsque Pauline entra au couvent des Carmélites en 1882, Thérèse vécut une nouvelle séparation douloureuse. Elle traversa alors une période de détresse émotionnelle au cours de laquelle elle tomba gravement malade. Elle raconta plus tard avoir connu une guérison soudaine, qu'elle attribua à l'intercession maternelle de la Vierge Marie et dont elle garda le souvenir sous le nom de « sourire de la Sainte Vierge ».
 
-## Vie au Carmel
+Ces premières expériences de perte et de consolation contribuèrent à façonner sa compréhension spirituelle. Thérèse en vint à comprendre que la faiblesse humaine n'est pas nécessairement un obstacle à la relation avec Dieu. Elle peut au contraire devenir précisément le lieu où l'on accueille l'amour divin avec une confiance plus grande.
 
-Elle entre au monastère le 9 avril 1888, reçoit l'habit en janvier 1889 et fait profession le 8 septembre 1890. Son nom religieux associe la dévotion à l'Enfant-Jésus à celle de la Sainte-Face. La clôture ne supprime pas les difficultés. Relations communautaires, tâches habituelles, sécheresse spirituelle et maladie de son père deviennent le cadre de sa vocation. Louis Martin meurt en juillet 1894. Plutôt que de mesurer la sainteté aux accomplissements remarquables, Thérèse souligne toujours davantage la manière d'accueillir les obligations ordinaires et d'aimer les autres.
+### Une enfance transformée par la grâce
 
-Elle participe notamment à la formation de jeunes sœurs. L'enseignement partagé avec elles devient la petite voie de l'enfance spirituelle. L'enfance ne signifie ici ni immaturité ni refus des responsabilités. Elle consiste à reconnaître la faiblesse humaine et à faire confiance à l'initiative miséricordieuse de Dieu plutôt qu'à un bilan de mérites personnels. De petits actes de patience, de service et de maîtrise de soi peuvent exprimer un don entier de soi. Cette démarche unit la confiance en la miséricorde divine à une attention exigeante aux besoins des personnes qui l'entourent immédiatement.
+Le soir de Noël 1886, Thérèse vécut ce qu'elle décrivit comme une conversion décisive. Jusque-là, elle se laissait souvent submerger par ses émotions et peinait à surmonter sa sensibilité. Ce Noël-là, une déception familiale ordinaire devint l'occasion d'un profond changement intérieur. Elle comprit que le Christ l'appelait à dépasser son repli sur elle-même pour embrasser un amour plus généreux.
 
-## Écrits et enseignement spirituel
+Cette transformation renforça son désir d'entrer au Carmel, à l'exemple de ses sœurs Pauline et Marie. Elle croyait qu'une vie consacrée à la prière et au sacrifice lui permettrait de servir le Christ et de contribuer au salut des âmes. Cependant, comme elle n'avait que quatorze ans, sa demande d'entrée au couvent se heurta à des résistances.
 
-Ses principaux écrits autobiographiques sont trois manuscrits publiés ensuite ensemble sous le titre Histoire d'une âme. Le manuscrit A, demandé par sa sœur Agnès, raconte l'enfance et les débuts de la vie religieuse. Le manuscrit B, adressé à Marie du Sacré-Cœur, médite sa vocation dans l'Église. Le manuscrit C, écrit pour la prieure Marie de Gonzague en 1897, poursuit le récit du Carmel et décrit l'intense épreuve de foi de sa dernière période. Leurs circonstances différentes importent : ce sont des témoignages spirituels liés entre eux, non un journal continu composé pour un public moderne.
+Lors d'un pèlerinage à Rome en 1887, Thérèse s'adressa courageusement au pape Léon XIII pour lui demander l'autorisation d'entrer au Carmel avant l'âge habituellement requis. Bien que le pape ne lui accordât pas directement sa demande, elle persévéra et obtint finalement l'autorisation nécessaire. Le 9 avril 1888, à l'âge de quinze ans, elle entra au monastère des Carmélites de Lisieux.
 
-Lettres, poèmes, prières et courtes pièces destinées aux fêtes communautaires complètent ces manuscrits. Ils révèlent une imagination nourrie de la Bible et un souci missionnaire dépassant les murs du monastère. Thérèse correspond avec des prêtres missionnaires et comprend la prière contemplative comme une participation à la vie apostolique de l'Église. Sa découverte que l'amour embrasse ses nombreux désirs spirituels ne rend pas les vocations individuelles interchangeables. Elle exprime sa conviction que la charité donne sens aux différents services du corps du Christ.
+### La vie au Carmel et la petite voie
 
-## Maladie, mort et réception
+La vie au couvent était loin d'être idyllique. La communauté carmélitaine suivait un rythme exigeant de prière, de silence, de travail et de discipline communautaire. Thérèse dut faire face à des incompréhensions, à des relations difficiles et aux frustrations ordinaires de la vie en communauté. Sa santé était fragile et elle dut apprendre à accepter les limites de ses propres forces.
 
-Le dimanche de la Trinité de juin 1895, elle s'offre à l'amour miséricordieux de Dieu. En avril 1896 apparaissent les premiers signes graves de sa dernière maladie : elle souffre de tuberculose. Elle traverse en même temps une obscurité prolongée concernant la foi et la vie éternelle. Ses derniers écrits ne décrivent pas une simple succession de consolations religieuses. Ils montrent une confiance maintenue dans la souffrance et l'incertitude. Transportée à l'infirmerie en juillet 1897, elle meurt le 30 septembre, à vingt-quatre ans. Des sœurs recueillent ses dernières conversations, qu'il faut distinguer des textes écrits de sa main.
+Elle reçut l'habit religieux en janvier 1889 et fit sa profession le 8 septembre 1890. Prenant le nom de sœur Thérèse de l'Enfant-Jésus et de la Sainte-Face, elle chercha à imiter le Christ dans son humilité, sa confiance et son amour qui se donne entièrement.
 
-La publication des manuscrits donne un lectorat extraordinaire à une femme restée largement inconnue hors de sa famille et de sa communauté. Canonisée par Pie XI le 17 mai 1925, elle est proclamée docteur de l'Église universelle par Jean-Paul II le 19 octobre 1997. Sa lettre apostolique fonde cette reconnaissance sur la profondeur, la cohérence et la réception de l'enseignement thérésien, non sur des titres universitaires. Elle la présente comme une maîtresse de vie chrétienne dont la confiance en la miséricorde reste inséparable de l'Évangile, des sacrements et de l'amour concret du prochain.
+Peu à peu, Thérèse développa l'intuition spirituelle qui allait devenir connue sous le nom de **petite voie**. Elle comprit qu'elle ne pouvait atteindre la sainteté par des accomplissements extraordinaires ni compter sur ses seules forces pour parvenir à la perfection. Elle choisirait plutôt de s'abandonner entièrement à la miséricorde de Dieu, comme un enfant qui se repose dans les bras d'un père aimant.
 
-## Sources
+Cela ne signifiait pas que les petites actions étaient automatiquement vertueuses ni que la croissance spirituelle ne demandait aucun effort. Thérèse cherchait à accomplir même les tâches les plus insignifiantes avec amour, patience et oubli de soi. Un geste de bonté accompli dans le secret, l'acceptation d'une tâche désagréable ou une réponse douce à une personne irritante pouvaient devenir une offrande à Dieu lorsqu'ils étaient inspirés par un amour sincère.
 
-- Jean-Paul II, Divini amoris scientia, 19 octobre 1997, notamment §§5–9. [Texte du Vatican consulté, miroir numérique](https://github.com/lologhi/vatican/blob/master/john-paul-ii/apost_letters/1997/1997-10-19-divini-amoris.md).
-$desc$),
+Sa spiritualité était profondément évangélique. Elle trouvait dans les Évangiles l'image d'un Dieu qui accueille les petits et se fait proche de ceux qui reconnaissent leur besoin de grâce. Au lieu de se décourager face à ses imperfections, elle apprit à en faire des occasions de confiance. Dans sa compréhension, la sainteté n'était pas la récompense de l'autosuffisance, mais le fruit d'un cœur qui se laissait transformer par l'amour divin.
+
+### Un cœur missionnaire derrière les murs du cloître
+
+Bien que Thérèse n'ait jamais quitté son couvent pour prêcher dans des contrées lointaines, elle possédait un ardent esprit missionnaire. Elle aspirait à ce que le Christ soit connu et aimé dans le monde entier et priait avec ferveur pour les prêtres, les missionnaires et ceux qui s'étaient éloignés de la foi.
+
+Sa vocation contemplative devint progressivement indissociable de son désir de contribuer au salut des âmes. Elle fut chargée de prier et d'offrir des sacrifices pour deux prêtres missionnaires, dont elle soutenait l'œuvre apostolique depuis le cloître. Cette responsabilité lui permit de comprendre que la prière n'était pas un retrait de la mission de l'Église, mais une manière d'y participer.
+
+Thérèse réfléchit également en profondeur à sa place au sein de l'Église. Elle désirait servir comme missionnaire, apôtre et martyre, mais reconnut qu'elle ne pouvait pas personnellement répondre à toutes les vocations. En méditant sur l'enseignement de saint Paul concernant les membres du Corps du Christ, elle découvrit que l'amour était la vocation qui les unissait tous.
+
+Elle exprima cette intuition dans sa célèbre réflexion : « Dans le cœur de l'Église, ma Mère, je serai l'Amour. » Pour Thérèse, l'amour donnait son sens à chaque apostolat et permettait même à une vie cachée de porter des fruits bien au-delà de ce qui était visible.
+
+### Maladie, obscurité et confiance
+
+En 1896, Thérèse commença à présenter les symptômes de la tuberculose, la maladie qui allait finalement l'emporter. À mesure que son état physique se détériorait, elle éprouvait de grandes souffrances et un épuisement croissant. Pourtant, ses dernières années furent également marquées par une profonde épreuve spirituelle.
+
+Thérèse traversa une douloureuse crise de foi, éprouvant des pensées et des doutes qui lui faisaient entrevoir la mort comme entourée de ténèbres. Plutôt que de prétendre que sa foi demeurait intacte, elle consigna son combat avec une remarquable honnêteté. Elle comprenait sa souffrance comme une manière de partager l'angoisse spirituelle de ceux qui avaient du mal à croire en la vie éternelle.
+
+Sa réponse ne fut pas d'abandonner l'espérance, mais de continuer à choisir la confiance même lorsque toute consolation disparaissait. Elle offrit ses épreuves pour ceux qui ne croyaient pas, cherchant à répondre aux ténèbres par l'amour plutôt que par le jugement.
+
+En juin 1895, elle s'était offerte à l'amour miséricordieux de Dieu, lui demandant de la transformer entièrement par sa grâce. Cet acte exprimait le cœur de sa spiritualité : elle ne recherchait pas la souffrance pour elle-même, mais désirait accueillir et rendre l'amour de Dieu sans réserve.
+
+Au cours de ces derniers mois, ses sœurs consignèrent nombre de ses conversations, préservant ainsi des réflexions qui viendraient plus tard compléter ses écrits autobiographiques. Ses paroles ne révèlent ni une sérénité inaltérable ni un chemin facile vers la sainteté, mais une foi qui persévéra à travers la faiblesse, la maladie et le combat intérieur.
+
+Thérèse mourut au Carmel de Lisieux le 30 septembre 1897, à l'âge de vingt-quatre ans. Ses dernières paroles exprimèrent son amour pour Dieu. Bien que sa vie terrestre eût été courte et cachée, son influence spirituelle ne faisait que commencer à se répandre.
+
+### *Histoire d'une âme* et la reconnaissance de l'Église
+
+Les manuscrits autobiographiques de Thérèse furent réunis et publiés après sa mort sous le titre *Histoire d'une âme*. Le livre fit découvrir aux lecteurs son enfance, sa vocation religieuse, ses combats spirituels et sa découverte de la petite voie. Sa simplicité et sa profondeur attirèrent rapidement un vaste public, et les traductions diffusèrent son message bien au-delà de la France.
+
+Le pape Pie XI la béatifia le 29 avril 1923 et la canonisa le 17 mai 1925. En 1927, elle fut proclamée patronne des missions aux côtés de saint François Xavier, en reconnaissance de la portée missionnaire de sa vie contemplative.
+
+Le 19 octobre 1997, le pape Jean-Paul II la proclama docteur de l'Église universelle. Ce titre reconnaissait la valeur théologique et spirituelle durable de son enseignement, notamment sa compréhension de la miséricorde divine, de l'enfance spirituelle et de l'appel universel à la sainteté.
+
+### La petite voie de la sainteté
+
+Sainte Thérèse de l'Enfant-Jésus demeure un puissant témoin de cette vérité : la sainteté est possible dans les circonstances ordinaires de la vie. Elle ne fonda aucune congrégation religieuse, ne traversa pas les continents et n'exerça aucune autorité publique. Son influence naquit de la prière, des gestes d'amour accomplis dans le secret et d'une confiance profonde en la miséricorde de Dieu.
+
+Sa petite voie invite les chrétiens à abandonner l'illusion selon laquelle ils devraient devenir extraordinaires avant de pouvoir s'approcher de Dieu. Ils sont plutôt appelés à aimer fidèlement dans le moment présent, en acceptant leurs limites tout en faisant confiance à la grâce qui rend la sainteté possible.
+
+La spiritualité de Thérèse ne minimise ni la gravité du péché, ni la souffrance, ni les combats spirituels. Elle les inscrit dans une confiance plus grande en l'amour de Dieu, plus fort que la faiblesse humaine. Sa vie enseigne que même le plus petit geste, lorsqu'il est offert avec un amour authentique, peut contribuer à une existence transformée par la grâce.
+
+Par ses écrits et son exemple, sainte Thérèse continue de rappeler à l'Église que le chemin vers Dieu n'est pas réservé à quelques privilégiés. Son message durable est celui d'une humble confiance : devenir saint, c'est apprendre à aimer comme le Christ aime, s'abandonner à sa miséricorde et permettre même aux plus petits gestes de la vie quotidienne de devenir des offrandes d'amour.$desc$),
 ('saint-therese-of-the-child-jesus','la','Teresia Lexoviensis, monialis Carmelita Gallica, brevi vita claustrali «parvam viam» fiduciae et amoris illustravit. Manuscripta autobiographica, epistulae et carmina eius infantiam spiritualem late patefecerunt; Ecclesia eam anno 1997 Doctorem agnovit.',
 $desc$## Familia et vocatio
 
