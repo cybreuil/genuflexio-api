@@ -874,7 +874,10 @@ FROM (VALUES
 
   ('saint-paul-of-the-cross',             'MISSIONARIES',         'TRD'),
 
-  ('saint-januarius',                     'POOR',                 'TRD')
+  ('saint-januarius',                     'POOR',                 'TRD'),
+
+  ('saint-catherine-alexandria',          'PHILOSOPHERS',         'TRD'),  -- Patronne des philosophes, célèbre pour sa sagesse et sa disputation avec les philosophes païens
+  ('saint-catherine-alexandria',          'STUDENTS',          	  'TRD')
 
 ) AS pairs(saint_slug, patronage_code, source_type)
 JOIN saints     s ON s.slug  = pairs.saint_slug
