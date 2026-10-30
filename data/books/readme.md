@@ -193,3 +193,4 @@ J’ai déjà identifié plusieurs sources solides pour lancer le travail :
     m.vatican.va
 
 dies natalis - jour de fete = jour de mort du saint si possible
+check bellarmine intro, cyril alexandria,
