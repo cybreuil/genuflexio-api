@@ -27513,14 +27513,14 @@ ON s.slug = x.slug
 WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
 
 --LATINA DECEMBER
-UPDATE saint_translations AS st
-SET short_description = x.short_description, full_biography = x.full_biography
-FROM saints AS s
-JOIN (VALUES
-
-) AS x(slug, locale_code, short_description, full_biography)
-ON s.slug = x.slug
-WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
+-- UPDATE saint_translations AS st
+-- SET short_description = x.short_description, full_biography = x.full_biography
+-- FROM saints AS s
+-- JOIN (VALUES
+--
+-- ) AS x(slug, locale_code, short_description, full_biography)
+-- ON s.slug = x.slug
+-- WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
 -- END_BIOGRAPHIES_DECEMBER
 
 COMMIT;
