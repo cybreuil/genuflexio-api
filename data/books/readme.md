@@ -191,3 +191,5 @@ J’ai déjà identifié plusieurs sources solides pour lancer le travail :
 
     Saint-Siège — Sainte Jeanne d’Arc et sainte Thérèse de Lisieux  : confirmation de leur statut de patronnes secondaires de la France.
     m.vatican.va
+
+dies natalis - jour de fete = jour de mort du saint si possible
