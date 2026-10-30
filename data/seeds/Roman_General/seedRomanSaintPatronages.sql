@@ -117,7 +117,8 @@ INSERT INTO patronages (code) VALUES
 
 -- Extras
 ('MISSIONS'),
-('CHARITY_WORKS')
+('CHARITY_WORKS'),
+('COMPUTER_SCIENTISTS')
 
 ON CONFLICT (code) DO NOTHING;
 
@@ -219,7 +220,8 @@ JOIN (VALUES
   ('INTERNET',           'The internet and digital media','Isidore of Seville, universal encyclopedist; proposed by John Paul II in 1997 for internet users.'),
   ('UNIVERSAL_CHURCH',   'The Universal Church',        'Joseph, patron of the Universal Church (Pius IX, Quemadmodum Deus, 8 Dec 1870).'),
   ('MISSIONS',           'Missions',                    'Francis Xavier, missionary; also Thérèse of Lisieux (Pius XI, 1927), Paul the Apostle.'),
-  ('CHARITY_WORKS',      'Charitable works',            'Vincent de Paul, founder of organised charity; also Teresa of Calcutta and Thomas More.')
+  ('CHARITY_WORKS',      'Charitable works',            'Vincent de Paul, founder of organised charity; also Teresa of Calcutta and Thomas More.'),
+  ('COMPUTER_SCIENTISTS','Computer scientists',         'Isidore of Seville, proposed patron saint of the Internet and computer users; also associated with knowledge and the preservation of learning.')
   ) AS x(code, label, description)
 ON p.code = x.code
 ON CONFLICT (patronage_id, locale_code) DO UPDATE
@@ -323,7 +325,8 @@ JOIN (VALUES
   ('INTERNET',           'Internet et les médias numériques','Isidore de Séville, encyclopédiste universel ; proposé par Jean-Paul II en 1997 pour les usagers d''Internet.'),
   ('UNIVERSAL_CHURCH',   'L''Église universelle',          'Joseph, patron de l''Église universelle (Pie IX, Quemadmodum Deus, 8 déc. 1870).'),
   ('MISSIONS',           'Les missions',                   'François Xavier, missionnaire ; aussi Thérèse de Lisieux (Pie XI, 1927), Paul l''Apôtre.'),
-  ('CHARITY_WORKS',      'Les œuvres de charité',          'Vincent de Paul, fondateur de la charité organisée ; aussi Mère Teresa et Thomas More.')
+  ('CHARITY_WORKS',      'Les œuvres de charité',          'Vincent de Paul, fondateur de la charité organisée ; aussi Mère Teresa et Thomas More.'),
+  ('COMPUTER_SCIENTISTS', 'Informaticiens', 'Isidore de Séville, proposé comme saint patron d’Internet et des utilisateurs d’ordinateurs ; également associé au savoir et à la préservation des connaissances.')
 ) AS x(code, label, description)
 ON p.code = x.code
 ON CONFLICT (patronage_id, locale_code) DO UPDATE
@@ -427,7 +430,8 @@ JOIN (VALUES
   ('INTERNET',           'Interrete et instrumenta digitalia','Isidorus Hispalensis, encyclopaedista universalis; a Ioanne Paulo II anno 1997 propositus pro interretis usoribus.'),
   ('UNIVERSAL_CHURCH',   'Ecclesia universalis',           'Ioseph, patronus Ecclesiae universalis (Pius IX, Quemadmodum Deus, 8 Dec. 1870).'),
   ('MISSIONS',           'Missiones',                      'Franciscus Xaverius, missionarius; etiam Theresia a Puero Iesu (Pius XI, 1927), Paulus Apostolus.'),
-  ('CHARITY_WORKS',      'Opera caritatis',                'Vincentius a Paulo, fundator caritatis ordinatae; etiam Teresia Calcuttensis et Thomas Morus.')
+  ('CHARITY_WORKS',      'Opera caritatis',                'Vincentius a Paulo, fundator caritatis ordinatae; etiam Teresia Calcuttensis et Thomas Morus.'),
+  ('COMPUTER_SCIENTISTS', 'Computatici', 'Isidorus Hispalensis, propositus patronus Interretis et usorum computatrorum; scientiae cognitionique servandae quoque associatus.')
   ) AS x(code, label, description)
 ON p.code = x.code
 ON CONFLICT (patronage_id, locale_code) DO UPDATE
@@ -648,6 +652,7 @@ FROM (VALUES
   -- Saint Isidore of Seville
   ('saint-isidore',                       'STUDENTS',             'TRD'),
   ('saint-isidore',                       'INTERNET',             'DEV'),  -- proposé Jean-Paul II, 1997
+  ('saint-isidore', 					  'COMPUTER_SCIENTISTS',  'DEV'),
 
   ('saint-francis-de-sales',              'JOURNALISTS',          'OFF'),  -- Pie XI, 1923
   ('saint-francis-de-sales',              'WRITERS_AUTHORS',      'TRD'),
