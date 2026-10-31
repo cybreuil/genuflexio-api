@@ -14318,6 +14318,59 @@ Doctrina Sancti Bonaventurae Christianos admonet veritatis studium a sanctitatis
 
 Apud Doctorem Seraphicum, ultimus finis itineris christiani non cognitio possessa, sed unio cum Deo per Iesum Christum erat. Testimonium eius perpetuum igitur et intellectuale et penitus personale est: sapientia summam suam expressionem attingit cum mens veritate illuminatur et cor amore divino inflammatur.
 $desc$),
+('saint-apollinaris', 'la',
+$desc$Sanctus Apollinaris Ravennas fuit antiquus episcopus christianus, qui secundum traditionem cum Sancto Petro Apostolo coniungitur et primus episcopus Ravennatis Ecclesiae, in Italia, habetur. Vitam suam Evangelii proclamationi, communitati christianae confirmandae atque persecutionibus propter fidem tolerandis dedicavit. Quamvis posteriores narrationes multa miracula et gravia martyrii certamina describant, antiquissima testimonia historica pauciora sunt. Saeculo tamen quinto fama eius ut sancti pastoris, qui multa propter Christum passus est, iam firmiter constituta erat. Eius cultus perennis praecipue cum Basilica Sancti Apollinaris in Classe coniungitur, cuius magnifica musiva momentum duraturum testimonii eius in historia Ecclesiae testantur.$desc$,
+
+$desc$Sanctus Apollinaris Ravennas ad antiquissimas christianitatis Italicae aetates pertinet, cum communitates fidelium adhuc parvae essent et Evangelii proclamatio saepe magnam fortitudinem postularet. Traditur primus episcopus Ravennatis Ecclesiae fuisse, quae urbs magni momenti et portus ad litus Hadriaticum sita erat. Quamvis accurata vitae eius singula incerta maneant, antiqua erga eum veneratio momentum ministerii eius in memoria Ecclesiae localis testatur.
+
+Antiquissima testimonia plenam eius vitae narrationem non praebent. Inscriptiones christianae in regione Classis, antiqui portus Ravennae, repertae ostendunt communitatem christianam ordinatam ibi iam antiquitus exstitisse. Sanctus Petrus Chrysologus, episcopus Ravennas saeculo quinto, Apollinarem primum urbis episcopum appellat atque passiones quas propter fidem sustinuit commemorat. Haec testimonia fundamentum historicum eius venerationi praebent, quamvis multa quae in posterioribus narrationibus traduntur independenter confirmari nequeant.
+
+### Episcopus Missionarius Ravennas
+
+Secundum antiquam traditionem in *Passione Sancti Apollinaris* servatam, Apollinaris Antiochia Syriae oriundus erat atque discipulus Sancti Petri Apostoli fuit. Petrus eum Ravennam misisse dicitur, ut Evangelium annuntiaret et fidem christianam ibi institueret. Haec narratio antiquae Ecclesiae intellectum apostolicae continuitatis exprimit: praedicatio Evangelii in longinquis regionibus spiritualiter et ecclesialiter cum primis Resurrectionis testibus coniungebatur.
+
+Apostolum Petrum ipsum Apollinarem misisse historica certitudine affirmari non potest. Relatio vitae eius quae ad nos pervenit multis saeculis post aetatem qua eum vixisse creditur conscripta est, atque nonnulla eius elementa a viris doctis in dubium vocata sunt. Nihilominus haec traditio persuasionem Ecclesiae Ravennatis exprimit, quae communitatem suam christianam profundas apostolicas radices habere credebat.
+
+In urbem perveniens, quae administratione Romana, commercio atque ritibus religiosis traditis insignis erat, Apollinaris indefessus missionarius memoratur. Iesum Christum praedicavit, eos qui fidem amplecti cupiebant instruxit atque fideles in communitatem orationis et cultus congregavit. Narrationes posteriores ministerium eius multis sanationibus et conversionibus coniungunt. Quamvis hae narrationes omnes historice confirmari nequeant, momentum spirituale missioni eius tributum exprimunt: Evangelium non tamquam nova doctrina tantum, sed tamquam annuntiatio salutis et initium vitae renovatae intellegabatur.
+
+Ut episcopus, Apollinaris munus habuit fidem ab Apostolis traditam servandi, cultum Ecclesiae celebrandi atque communitatem christianam regendi in ambitu religioso ubi traditiones paganae adhuc plurimum valebant. Fontes historici accuratam ministerii eius cotidianam descriptionem non permittunt, sed memoria eius perennis ut primi episcopi Ravennatis Ecclesiae locum fundamentale eius in identitate christiana urbis demonstrat.
+
+### Persecutio et Testimonium Passionis
+
+Traditio christiana Apollinarem virum fuisse commemorat, qui propter praedicationem suam saepe passus est. *Passio* narrat eum e Ravenna expulsum, verberatum atque aliis violentiae generibus affectum esse, sed ubique Christum annuntiare perseveravisse. Secundum hanc narrationem, extra urbem iter fecit atque tandem periculo non obstante ad ministerium suum resumendum rediit.
+
+Haec eventa ad narrationem hagiographicam posteriorem pertinent atque a testimoniis antiquissimis, quae multo pauciora sunt, distinguenda sunt. Ordo exactus itinerum eius, persecutorum identitas atque condiciones ultimae passionis incerta manent. Certius autem constat Ecclesiam Ravennatem eum episcopum memoria retinuisse, qui graves afflictiones propter fidem sustinuit.
+
+Sanctus Petrus Chrysologus his passionibus peculiarem tribuit momentum. Quamvis Apollinaris fortasse per publicam supplicii exsecutionem non mortuus sit, Chrysologus labores quos propter Christum pertulit satis magnos esse existimavit, ut martyris honore dignus haberetur. Haec sententia antiquam christianam persuasionem reflectit, secundum quam martyrium cum fideli testimonio arcte coniungitur: martyr Christum testatur, cum paratus est potius pati quam Evangelium abnegare.
+
+Posterioribus saeculis narratio magis dramatica facta est, carceres, mirabiles liberationes atque repetitas episcopum silendi tentationes describens. Hae narrationes tamquam chronologia plene comprobata habendae non sunt. Attamen earum nuntius spiritualis perennis clarus est. Apollinaris pastorem repraesentat, qui neque gregem neque missionem suam propter inimicitias deserit, cuiusque fidelitas firma manet etiam cum praedicatio eum periculo exponit.
+
+### Sensus Martyrii Eius
+
+Conditiones exactae et dies mortis Apollinaris certo cognosci non possunt. Posterior traditio martyrium eius persecutionibus Romanis coniungit atque ultimam passionem eius in Classe, prope Ravennam, collocat. Testimonia suadent ministerium eius ad aetatem antiquam Ecclesiae pertinuisse, fortasse ad finem saeculi secundi vel initium tertii, neque annum exactum certa fiducia definiri posse.
+
+Distinctio inter testimonia historica et traditionem devotionis momentum testimonii eius non minuit. Antiquae communitates christianae memoriam eorum servaverunt qui propter fidem passi erant, quia perseverantia eorum posteriores generationes confirmabat. Apollinaris talis figura pro Ecclesia Ravennate factus est: pastor cuius ministerium a sacrificio, fortitudine et fidelitate Christo praestita inseparabile habebatur.
+
+Exemplum eius etiam arctam necessitudinem inter episcopum et Ecclesiam localem primis saeculis illustrat. Episcopus non tantum administrator erat, sed etiam doctor, pastor et custos fidei communitatis. Apollinarem igitur commemorare significabat etiam origines Ecclesiae Ravennatis atque sacrificia quibus eius identitas christiana servata est commemorare.
+
+### Basilica Sancti Apollinaris in Classe
+
+Veneratio Apollinaris in Ravenna alte radicata est, ubi memoria eius per constructionem et dedicationem ecclesiarum insignium honorata est. Basilica Sancti Apollinaris in Classe, saeculo sexto consecrata, unum ex praestantissimis monumentis artis christianae antiquae constituit. Eius magnificum musivum absidale sanctum in imagine pastorali depingit, inter oves sub magna cruce stantem, dum circumiectus prospectus imagines Paradisi evocant.
+
+Haec imago praecipuum sensum hereditatis spiritualis Apollinaris exprimit. Pastor apparet cui grex commissus est, imaginem ipsius Christi Boni Pastoris referens atque episcopi officium fideles regendi significans. Crux in medio compositionis mysterium redemptionis commemorat, dum tranquilla regio spem vitae aeternae per Christum promissae suggerit.
+
+Basilica etiam demonstrat quomodo sanctorum veneratio cultum christianum atque expressionem artis sacrae conformaverit. Apollinaris non solum per narrationes scriptas commemorabatur, sed etiam per sacra loca in quibus generationes christianorum ad orationem et celebrationem Eucharistiae conveniebant. Praesentia eius in traditione visiva ecclesiastica testimonium eius partem continuae vitae spiritualis communitatis fecit.
+
+Momentum cultus eius ultra fines Ravennae propagatum est, atque nomen eius aliis quoque ecclesiis et communitatibus christianis coniunctum est. Memoria eius perseveravit quia tum apostolicas origines a communitate locali sibi vindicatas tum fortitudinem ad Evangelium temporibus adversis servandum necessariam repraesentabat.
+
+### Exemplum Perpetuum Fidelitatis Pastoralis
+
+Sanctus Apollinaris insignis figura in prima historia christianitatis Italicae manet. Quamvis multa vitae eius singula incerta sint, testimonia antiqua Ravennatia atque continuitas venerationis memoriam episcopi servant, cuius fides imitatione digna habebatur. Historia eius ad aetatem pertinet qua Ecclesia praesentiam suam per orbem Romanum constituebant atque opus evangelizationis pastoribus dedicatis nitebatur, qui labores sustinere parati erant.
+
+Hereditas spiritualis eius non solis miraculis in narrationibus posterioribus descriptis nititur. Fundamentalius in imagine pastoris consistit, qui Christo et communitati suae commissae fidelis mansit. Vita eius, prout in memoria christiana servata est, Ecclesiam admonet evangelizationem perseverantiam, fortitudinem atque voluntatem alios serviendi etiam in difficilibus condicionibus postulare.
+
+Basilica Sancti Apollinaris in Classe hanc hereditatem usque hodie visibiliter exprimit. Antiqua eius musiva sanctum pastorem intra spem Regni Dei stantem ostendunt, aptissima imagine viri qui ante omnia ob curam communitatis christianae memoratur. Per hanc traditionem perennem, Sanctus Apollinaris Ravennas testis fidei apostolicae, laboris discipulatus atque fructus diuturni ministerii pastoralis fideliter peracti manet.
+$desc$),
 ('saint-lawrence-of-brindisi', 'la',
 $desc$Sanctus Laurentius a Brundusio, anno 1559 Iulius Caesar Russo natus, sacerdos Franciscanus Capuccinus Italicus, praedicator insignis, diplomata et Ecclesiae Doctor fuit. Singulari linguarum cognitione praeditus, Sacram Scripturam linguis originalibus studuit atque unus ex praestantissimis sui temporis theologis catholicis evasit. Cum Minister Generalis Ordinis Capuccinorum esset, renovationem religiosam promovit, dum praedicatio eius et missiones diplomaticae per Europam eum duxerunt. Etiam cappellanus militibus Christianis fuit tempore belli contra Imperium Ottomanicum. Laurentius, qui Virginem Mariam et Christi mysterium summopere diligebat, ingenii doctrinam cum vita orationis et humilitatis coniunxit. Olisipone anno 1619 mortuus est, a Leone XIII Pontifice anno 1881 canonizatus atque a Ioanne XXIII Pontifice anno 1959 Ecclesiae Doctor proclamatus.$desc$,
 
@@ -14479,7 +14532,7 @@ Anno 1999, Ioannes Paulus II Pontifex eam compatronam Europae proclamavit, momen
 Sancta Birgitta Sueciae testis est sanctitatis quae contemplationem cum actione coniungit. Per vitam familiarem, experientias mysticas, opera caritatis et appellationes ad reformationem, corda et instituta ad Christum dirigere studuit. Exemplum eius Christianos etiamnum admonet veram vitam spiritualem et fidelitatem erga Deum et fortitudinem Ecclesiae eius humilitate, persuasione et amore serviendi postulare.$desc$
 ),
 (
-  'saint-sharbel-makhluf', 'la',
+ 'saint-sharbel-makhluf', 'la',
   $desc$Sanctus Sarbel Makhluf monachus et sacerdos Maronita Libanensis fuit, cuius vita orationis, silentii et absolutae devotionis Deo eum unum ex sanctis dilectissimis Ecclesiarum Catholicarum Orientalium effecit. Iosephus Antun Makhluf natus anno 1828 in pago montano Bkaakafra, in Libano, iuvenis Ordinem Maronitarum Libanensium ingressus est atque anno 1859 sacerdos ordinatus. Post sedecim annos vitae monasticae, ad Eremum Sanctorum Petri et Pauli apud Annaya se recepit, ubi reliquam vitam solitudine, oratione, ieiunio et labore manuum egit. Vigilia Nativitatis Domini anno 1898 mortuus est, atque narrationes de extraordinariis eventibus et sanationibus eius sepulcro coniunctis mox peregrinos ex toto Libano aliisque regionibus attraxerunt. A Paulo VI Pontifice anno 1965 beatificatus et anno 1977 canonizatus, Sanctus Sarbel potens testis manet sanctitatis contemplativae, devotionis Eucharisticae atque plenae submissionis voluntati Dei.$desc$,
 
   $desc$Iosephus Antun Makhluf die 8 Maii anno 1828 in Bkaakafra, pago montano in Libano septentrionali sito, ex pia familia christiana Maronita natus est. In Ecclesiam Catholicam Maronitam baptizatus, inter traditiones liturgicas antiquae communitatis christianae orientalis crevit, cuius spiritualitas mysteriis Christi, devotione erga Virginem Mariam et hereditate monastica montium Libanensium penitus formabatur. Ab infantia, Iosephus singularem inclinationem ad orationem et solitudinem ostendit. Dum animalia familiae suae pascebat, in antrum solitarium secedere solebat ut ante imaginem Beatae Virginis oraret. Haec quieta momenta vocationem praenuntiabant quae eum tandem a vita ordinaria pagi ad severam disciplinae eremiticae rationem duceret.
@@ -22852,6 +22905,44 @@ Son histoire rappelle également aux fidèles que le ministère chrétien repose
 Aujourd'hui, saint Denis demeure étroitement associé à l'histoire spirituelle de Paris et au patrimoine chrétien de la France. La basilique qui porte son nom constitue un mémorial durable pour les générations venues chercher l'inspiration auprès de son tombeau. Sa représentation traditionnelle, portant sa tête entre ses mains, continue d'évoquer le courage face à la mort et l'espérance dans la promesse de la résurrection.
 
 Par son œuvre missionnaire et la place durable qu'il occupe dans la mémoire chrétienne, saint Denis invite les croyants à demeurer fermes dans leur foi, à proclamer l'Évangile avec courage et à se souvenir que le témoignage des martyrs repose sur une espérance plus forte que la mort.$desc$),
+('saint-john-leonardi', 'fr',
+$desc$Saint Jean Leonardi, né en 1541 près de Lucques, en Italie, était un prêtre catholique et le fondateur des Clercs réguliers de la Mère de Dieu. Initialement formé à la pharmacie, il découvrit sa vocation sacerdotale et consacra sa vie au renouveau de la foi chrétienne par la catéchèse, le ministère pastoral et la réforme de l'Église. Vivant à l'époque de la Réforme catholique, il plaça la personne de Jésus-Christ au centre de tout renouveau spirituel, insistant sur la nécessité pour les chrétiens de revenir sans cesse à l'Évangile. Il fonda sa congrégation religieuse en 1574 et contribua au développement des initiatives missionnaires qui conduiraient plus tard à la création de la Congrégation pour l'évangélisation des peuples. Connu pour son zèle, son humilité et sa dévotion envers la Bienheureuse Vierge Marie, Jean Leonardi mourut à Rome en 1609 après avoir contracté la grippe en soignant les malades. Il fut canonisé par le pape Pie XI en 1938 et est également vénéré comme le saint patron des pharmaciens.$desc$,
+
+$desc$Jean Leonardi naquit en 1541 à Diecimo, un petit village situé près de Lucques, en Italie. Élevé dans une famille chrétienne, il grandit dans une société traversant d'importants changements religieux et culturels. Jeune homme, il fut envoyé à Lucques pour apprendre le métier de pharmacien, une profession pratique qui exigeait connaissances, précision et attention aux besoins d'autrui. Il passa plusieurs années à se former à ce métier, acquérant des compétences qui inspireraient plus tard sa compréhension de sa mission spirituelle. De même qu'un pharmacien cherchait des remèdes aux maladies du corps, Leonardi en vint à considérer l'Évangile comme le remède nécessaire à la guérison de l'âme humaine.
+
+Son désir croissant de servir Dieu le conduisit finalement vers le sacerdoce. Après des études de théologie, il fut ordonné prêtre en 1572. Plutôt que de rechercher une carrière ecclésiastique prestigieuse, il se consacra à l'instruction religieuse des gens ordinaires, en particulier des enfants et des jeunes dont la connaissance de la foi était souvent limitée. Il comprit que le renouveau de la vie chrétienne exigeait davantage que la simple correction des abus au sein de l'Église : il nécessitait une compréhension plus profonde de l'Évangile et une rencontre personnelle avec Jésus-Christ.
+
+### Une mission de renouveau chrétien
+
+Leonardi commença son apostolat à Lucques, où il rassembla des laïcs partageant son souci de la formation chrétienne. Il encouragea la catéchèse, favorisa la réception fréquente des sacrements et chercha à développer la dévotion envers l'Eucharistie et la Bienheureuse Vierge Marie. Son œuvre s'inscrivait dans le vaste mouvement de renouveau catholique qui suivit le concile de Trente, lequel avait souligné l'importance d'un enseignement solide, d'un accompagnement pastoral rigoureux et de la formation spirituelle du clergé comme des laïcs.
+
+En 1574, il réunit un groupe de compagnons désireux de se consacrer à cette mission. Leur communauté devint les Clercs réguliers de la Mère de Dieu, un institut religieux consacré à la prédication, à l'enseignement de la doctrine chrétienne et au renouveau de la vie spirituelle des fidèles. La congrégation reçut l'approbation pontificale en 1595, bien qu'elle ne fût officiellement érigée en ordre religieux à vœux solennels qu'en 1621, après la mort de Leonardi.
+
+Sa conception de la réforme reposait sur une conviction spirituelle claire : l'Église ne pouvait être renouvelée sans le renouvellement des cœurs de chacun. Il exhortait ses compagnons à placer l'honneur et la gloire de Jésus-Christ au-dessus de toute ambition personnelle et de toute réussite mondaine. Au milieu des controverses religieuses et des difficultés institutionnelles, il estimait que la fidélité au Christ devait rester le critère de toute décision.
+
+### Zèle missionnaire et service de l'Église
+
+Les préoccupations de Leonardi dépassaient les limites de sa propre congrégation. Il comprenait que l'annonce de l'Évangile était une responsabilité partagée par toute l'Église et que la foi chrétienne devait être transmise avec clarté, conviction et charité. Son engagement missionnaire le conduisit à collaborer avec Juan Bautista Vives et le jésuite Martin de Funes à l'élaboration de projets visant à créer une institution spécialement destinée à soutenir les missions.
+
+Ces initiatives contribuèrent à faire naître le projet qui allait finalement prendre forme dans la Congrégation de la Propagation de la Foi, fondée après sa mort en 1622. Cette institution, connue plus tard sous le nom de Congrégation pour l'évangélisation des peuples, devait coordonner l'activité missionnaire catholique à travers le monde. L'engagement de Leonardi témoignait d'une remarquable ouverture de vue : bien que profondément investi dans la vie locale de Lucques, il reconnaissait le caractère universel de la mission de l'Église.
+
+Son œuvre rencontra également des difficultés. Ses réformes se heurtèrent parfois à la résistance des autorités civiles et d'autres personnes qui considéraient ses activités avec méfiance. Il continua néanmoins à servir l'Église par la prédication, l'accompagnement spirituel et la formation des prêtres et des laïcs. Sa persévérance démontrait qu'une réforme authentique exigeait à la fois du courage et de la patience, guidés par la fidélité à l'Évangile plutôt que par le désir d'obtenir des résultats immédiats.
+
+### Ses dernières années et sa mort
+
+Leonardi consacra les dernières années de sa vie à des responsabilités toujours plus importantes au sein de l'Église à Rome, tout en continuant à guider sa communauté religieuse. Malgré ses nombreuses obligations, il demeura attaché à une spiritualité simple, centrée sur la prière, l'Eucharistie et la dévotion envers Marie. Son expérience pratique de pharmacien lui avait appris l'importance de prendre soin attentivement des besoins de chacun, et il conserva cette même attention dans son ministère sacerdotal.
+
+En 1609, une épidémie de grippe frappa Rome. Leonardi se consacra à l'assistance des personnes touchées, refusant de se soustraire au service des malades. Il contracta lui-même la maladie et mourut le 9 octobre 1609. Sa mort incarna l'esprit de charité pastorale qui avait façonné toute sa vocation : il avait cherché à apporter aux autres la guérison spirituelle et finit par se donner lui-même à leur service.
+
+Son exemple fut gardé en mémoire par sa congrégation et par ceux qui avaient été témoins de son œuvre. Le pape Pie IX le béatifia en 1861, et le pape Pie XI le canonisa le 17 avril 1938. En 2006, il fut proclamé saint patron des pharmaciens, un titre qui rappelle le chemin singulier par lequel sa formation professionnelle l'avait préparé à une vie de service spirituel.
+
+### Un héritage centré sur le Christ
+
+Le message durable de saint Jean Leonardi peut se résumer par un principe qu'il soulignait régulièrement : **recommencer à partir du Christ**. Pour lui, le renouveau chrétien ne relevait pas principalement de l'organisation ou de la réforme extérieure, mais de la capacité à laisser l'Évangile transformer l'esprit, le cœur et la conduite de chaque croyant. Son travail dans la catéchèse, la formation religieuse et la préparation missionnaire découlait entièrement de cette conviction.
+
+Sa vie montre également comment des expériences apparemment ordinaires peuvent devenir partie intégrante d'une vocation divine. Les connaissances acquises comme pharmacien devinrent une image durable de son sacerdoce, tandis que son souci des malades trouva son expression ultime dans ses derniers jours. Il comprenait que la mission de l'Église consistait à la fois à enseigner la vérité et à incarner la charité qui lui donne un témoignage vivant.
+
+Saint Jean Leonardi demeure un exemple de zèle pastoral, de persévérance spirituelle et de confiance dans la puissance renouvelante du Christ. Par la congrégation qu'il fonda et la vision missionnaire qu'il contribua à promouvoir, son influence s'étendit bien au-delà de sa Lucques natale. Sa vie invite les chrétiens à revenir continuellement à la source de leur foi, à rechercher la sainteté dans leurs responsabilités quotidiennes et à reconnaître que le renouveau de l'Église commence dans les cœurs entièrement consacrés à Jésus-Christ.$desc$),
 ('saint-john-henry-newman', 'fr',
 $desc$Saint John Henry Newman, né à Londres en 1801, était un théologien, prêtre et cardinal anglais dont la recherche constante de la vérité religieuse le conduisit de l'Église anglicane à l'Église catholique. Initialement figure majeure du Mouvement d'Oxford, qui cherchait à retrouver les anciennes traditions du christianisme, il acquit progressivement la conviction que la plénitude de l'Église fondée par le Christ se trouvait dans le catholicisme. Reçu dans l'Église catholique en 1845, il se consacra au ministère sacerdotal, à l'écriture théologique et à la formation des fidèles. Prédicateur talentueux et penseur profond, il explora les rapports entre la foi, la raison, la conscience et le développement de la doctrine chrétienne. Créé cardinal par le pape Léon XIII en 1879, il mourut à Birmingham en 1890. Béatifié par le pape Benoît XVI en 2010 et canonisé par le pape François en 2019, Newman fut proclamé docteur de l'Église par le pape Léon XIV en 2025. Sa vie demeure un témoignage éloquent d'honnêteté intellectuelle, de persévérance spirituelle et de courage pour suivre la vérité partout où elle conduit.$desc$,
 
@@ -28998,6 +29089,6 @@ $desc$)
 ) AS x(slug, locale_code, short_description, full_biography)
 ON s.slug = x.slug
 WHERE st.saint_id = s.id AND st.locale_code = x.locale_code;
-END_BIOGRAPHIES_DECEMBER
+-- END_BIOGRAPHIES_DECEMBER
 
 COMMIT;
