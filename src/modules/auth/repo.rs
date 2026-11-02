@@ -11,7 +11,7 @@ pub struct UserRow {
     pub email: String,
     pub password_hash: String,
     pub role: String,
-    pub is_active: bool,
+    // pub is_active: bool,
 }
 
 #[derive(sqlx::FromRow)]
@@ -26,7 +26,7 @@ pub struct RefreshTokenRow {
 
 pub async fn find_user_by_email(pool: &PgPool, email: &str) -> Result<Option<UserRow>, ApiError> {
     let row = sqlx::query_as::<_, UserRow>(
-        "SELECT id, email, password_hash, role, is_active FROM users WHERE email = $1",
+        "SELECT id, email, password_hash, role FROM users WHERE email = $1",
     )
     .bind(email)
     .fetch_optional(pool)
@@ -37,7 +37,7 @@ pub async fn find_user_by_email(pool: &PgPool, email: &str) -> Result<Option<Use
 
 pub async fn find_user_by_id(pool: &PgPool, id: i32) -> Result<Option<UserRow>, ApiError> {
     let row = sqlx::query_as::<_, UserRow>(
-        "SELECT id, email, password_hash, role, is_active FROM users WHERE id = $1",
+        "SELECT id, email, password_hash, role FROM users WHERE id = $1",
     )
     .bind(id)
     .fetch_optional(pool)
@@ -46,14 +46,14 @@ pub async fn find_user_by_id(pool: &PgPool, id: i32) -> Result<Option<UserRow>, 
     Ok(row)
 }
 
-pub async fn touch_last_login(pool: &PgPool, user_id: i32) -> Result<(), ApiError> {
-    sqlx::query("UPDATE users SET last_login_at = now() WHERE id = $1")
-        .bind(user_id)
-        .execute(pool)
-        .await?;
+// pub async fn touch_last_login(pool: &PgPool, user_id: i32) -> Result<(), ApiError> {
+//     sqlx::query("UPDATE users SET last_login_at = now() WHERE id = $1")
+//         .bind(user_id)
+//         .execute(pool)
+//         .await?;
 
-    Ok(())
-}
+//     Ok(())
+// }
 
 // ── Refresh tokens ────────────────────────────────────────────────────────────
 

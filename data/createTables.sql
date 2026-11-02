@@ -477,11 +477,6 @@ CREATE TABLE refresh_tokens (
     created_at  TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
--- Compte admin de DEV uniquement : mot de passe en clair = admin1234
--- (hash Argon2id, même paramètres que service::hash_password).
--- À remplacer / supprimer avant toute mise en production.
-INSERT INTO users (email, password_hash, role) VALUES
-('admin@genuflexio.local', '$argon2id$v=19$m=19456,t=2,p=1$xf+40i6bHcy1xCjvl4jJFQ$fgWs/clbWUD7AQMS4PMfwSzm34CdBosOmxgn+IbDiVY', 'admin');
 
 -- =========================================================
 -- 8b) Analytics : une ligne par visite (premier chargement du site)

@@ -80,9 +80,9 @@ pub async fn login(
         .await?
         .ok_or(ApiError::Unauthorized)?;
 
-    if !user.is_active {
-        return Err(ApiError::Unauthorized);
-    }
+    // if !user.is_active {
+    //     return Err(ApiError::Unauthorized);
+    // }
 
     if !verify_password(&user.password_hash, &req.password) {
         return Err(ApiError::Unauthorized);
@@ -93,7 +93,7 @@ pub async fn login(
     let expires_at = Utc::now() + Duration::days(refresh_days);
 
     repo::insert_refresh_token(pool, user.id, &hash_token(&refresh_token), expires_at).await?;
-    repo::touch_last_login(pool, user.id).await?;
+    // repo::touch_last_login(pool, user.id).await?;
 
     Ok((
         LoginResponse {
@@ -133,9 +133,9 @@ pub async fn refresh(
         .await?
         .ok_or(ApiError::Unauthorized)?;
 
-    if !user.is_active {
-        return Err(ApiError::Unauthorized);
-    }
+    // if !user.is_active {
+    //     return Err(ApiError::Unauthorized);
+    // }
 
     // Rotate: revoke old token, issue a fresh one
     repo::revoke_refresh_token(pool, token_row.id).await?;
