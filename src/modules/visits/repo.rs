@@ -80,6 +80,17 @@ pub async fn insert_visit(pool: &PgPool, v: NewVisit) -> Result<(), ApiError> {
     Ok(())
 }
 
+/// Deletes visits older than `days`. `None` deletes everything.
+pub async fn purge_older_than(pool: &PgPool, days: Option<i32>) -> Result<u64, ApiError> {
+    let res = sqlx::query(
+        "DELETE FROM visits WHERE $1::int IS NULL OR visited_at < now() - make_interval(days => $1::int)",
+    )
+    .bind(days)
+    .execute(pool)
+    .await?;
+    Ok(res.rows_affected())
+}
+
 // ── Read ──────────────────────────────────────────────────────────────────────
 
 pub async fn count_visits(pool: &PgPool, days: Option<i32>) -> Result<i64, ApiError> {

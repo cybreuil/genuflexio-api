@@ -73,6 +73,26 @@ pub struct VisitsStatsQuery {
     pub range: VisitsRange,
 }
 
+/// `DELETE /visits?older_than=90d` — purges visits *older* than the range.
+/// `older_than=all` wipes the whole table. Defaults to `90d` as a safety net.
+#[derive(Debug, Deserialize)]
+pub struct VisitsPurgeQuery {
+    #[serde(default = "VisitsPurgeQuery::default_older_than")]
+    pub older_than: VisitsRange,
+}
+
+impl VisitsPurgeQuery {
+    fn default_older_than() -> VisitsRange {
+        VisitsRange::Last90Days
+    }
+}
+
+#[derive(Debug, Serialize)]
+pub struct VisitsPurgeResponse {
+    pub older_than: VisitsRange,
+    pub deleted: u64,
+}
+
 // ── Responses ─────────────────────────────────────────────────────────────────
 
 #[derive(Debug, Serialize, FromRow)]

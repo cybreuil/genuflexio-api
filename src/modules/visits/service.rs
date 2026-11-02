@@ -4,7 +4,7 @@ use sqlx::PgPool;
 use crate::core::error::ApiError;
 use crate::core::pagination::{Paginated, Pagination};
 
-use super::dto::{Visit, VisitMeta, VisitPayload, VisitStats, VisitsRange};
+use super::dto::{Visit, VisitMeta, VisitPayload, VisitStats, VisitsPurgeResponse, VisitsRange};
 use super::repo::{self, NewVisit};
 
 /// Window used to decide whether an IP is a "new visitor".
@@ -132,6 +132,21 @@ pub async fn get_stats(pool: &PgPool, range: VisitsRange) -> Result<VisitStats, 
         top_referrers,
         top_languages,
         top_paths,
+    })
+}
+
+// ── Purge (admin) ──────────────────────────────────────────────────────────────────
+
+/// Deletes visits older than the given range (`All` = wipe the table).
+pub async fn purge(
+    pool: &PgPool,
+    older_than: VisitsRange,
+) -> Result<VisitsPurgeResponse, ApiError> {
+    let deleted = repo::purge_older_than(pool, older_than.days()).await?;
+    tracing::info!("visits: purged {deleted} rows (older_than = {older_than:?})");
+    Ok(VisitsPurgeResponse {
+        older_than,
+        deleted,
     })
 }
 

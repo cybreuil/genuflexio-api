@@ -5,7 +5,7 @@ use crate::core::config::Config;
 use crate::core::error::ApiError;
 use crate::middleware::auth::require_admin;
 
-use super::dto::{VisitMeta, VisitPayload, VisitsListQuery, VisitsStatsQuery};
+use super::dto::{VisitMeta, VisitPayload, VisitsListQuery, VisitsPurgeQuery, VisitsStatsQuery};
 use super::service;
 
 /// POST /visits — public, fire-and-forget ping sent by the front on first load.
@@ -50,6 +50,18 @@ pub async fn stats(
 ) -> Result<HttpResponse, ApiError> {
     require_admin(&req, &cfg.jwt_secret)?;
     let result = service::get_stats(pool.get_ref(), query.range).await?;
+    Ok(HttpResponse::Ok().json(result))
+}
+
+/// DELETE /visits?older_than=90d|30d|7d|all — admin only
+pub async fn purge(
+    pool: web::Data<PgPool>,
+    cfg: web::Data<Config>,
+    req: HttpRequest,
+    query: web::Query<VisitsPurgeQuery>,
+) -> Result<HttpResponse, ApiError> {
+    require_admin(&req, &cfg.jwt_secret)?;
+    let result = service::purge(pool.get_ref(), query.older_than).await?;
     Ok(HttpResponse::Ok().json(result))
 }
 
