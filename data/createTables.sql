@@ -353,6 +353,8 @@ CREATE TABLE feasts (
     slug TEXT UNIQUE NOT NULL, -- exemple: nativity-of-saint-john-the-baptist
     default_name TEXT NOT NULL,
     feast_type TEXT NOT NULL, -- ex: saint, marial, christologique, dedicace, autre ou en anglais: saint, marian, christological, dedication, other
+    -- Illustration propre à la fête (Pâques, Noël…). NULL par défaut : le front utilise l'image du saint s'il y en a un.
+    cover_image_id INTEGER REFERENCES images(id) ON DELETE SET NULL,
     created_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 

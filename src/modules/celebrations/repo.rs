@@ -27,6 +27,8 @@ pub async fn get_celebrations(
 			   f.feast_type,
 			   ft.name AS feast_name,
 			   ft.description AS feast_description,
+			   f.cover_image_id AS feast_cover_image_id,
+			   fci.image_url AS feast_cover_image_url,
 			   lct.label AS liturgical_color_name,
 			   lc.hex_color AS liturgical_color_hex,
 			   lr.code AS rank_code,
@@ -35,6 +37,8 @@ pub async fn get_celebrations(
 		FROM celebrations c
 		LEFT JOIN feasts f
 			ON c.feast_id = f.id
+		LEFT JOIN images fci
+			ON f.cover_image_id = fci.id
 		LEFT JOIN feast_translations ft
 			ON f.id = ft.feast_id
 		 	AND ft.locale_code = $3
@@ -89,6 +93,8 @@ pub async fn get_fixed_celebrations_by_date(
 			   f.feast_type,
 			   ft.name AS feast_name,
 			   ft.description AS feast_description,
+			   f.cover_image_id AS feast_cover_image_id,
+			   fci.image_url AS feast_cover_image_url,
 			   lct.label AS liturgical_color_name,
 			   lc.hex_color AS liturgical_color_hex,
 			   lr.code AS rank_code,
@@ -97,6 +103,8 @@ pub async fn get_fixed_celebrations_by_date(
         FROM celebrations c
         LEFT JOIN feasts f
         	ON c.feast_id = f.id
+        LEFT JOIN images fci
+        	ON f.cover_image_id = fci.id
         LEFT JOIN feast_translations ft
 			ON f.id = ft.feast_id
 			AND ft.locale_code = $3
@@ -151,6 +159,8 @@ pub async fn get_movable_celebrations(
            f.feast_type,
            ft.name AS feast_name,
            ft.description AS feast_description,
+           f.cover_image_id AS feast_cover_image_id,
+           fci.image_url AS feast_cover_image_url,
            lct.label AS liturgical_color_name,
            lc.hex_color AS liturgical_color_hex,
 		   lr.code AS rank_code,
@@ -159,6 +169,8 @@ pub async fn get_movable_celebrations(
     FROM celebrations c
     LEFT JOIN feasts f
     	ON c.feast_id = f.id
+    LEFT JOIN images fci
+    	ON f.cover_image_id = fci.id
     LEFT JOIN feast_translations ft
 		ON f.id = ft.feast_id
 		AND ft.locale_code = $1
