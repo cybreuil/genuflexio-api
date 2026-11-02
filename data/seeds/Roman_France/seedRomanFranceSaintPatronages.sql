@@ -35,10 +35,6 @@ INSERT INTO patronages (code) VALUES
   ('REIMS')
 ON CONFLICT (code) DO NOTHING;
 
--- TODO: ('PARIS') – patronage code does not yet exist in the schema.
--- Once a PARIS patronage code is added (distinct from the PARIS places code),
--- add saint-genevieve → PARIS (TRD) here.
-
 
 -- =====================================================
 -- 2) TRADUCTIONS DES PATRONAGES
@@ -179,12 +175,20 @@ ON CONFLICT (patronage_id, locale_code) DO NOTHING;
 --   Blandina: traditional association with Lyon.
 --   Caesarius of Arles: historical association with Arles.
 --   Clotilde: officially established patroness of the ALAT
---     on 22 May 1994 by Bishop Michel Dubost.
---   Genevieve: patroness of Paris and the Gendarmerie.
---   Ivo of Kermartin: traditional patron saint of lawyers.
---   Joan of Arc: secondary patroness of France, 1922.
+--     on 22 May 1994 by Bishop Michel Dubost. Widow of Clovis,
+--     traditionally invoked by widows and for difficult conversions.
+--   Genevieve: patroness of Paris and the Gendarmerie; protectress
+--     of Gaul alongside Saints Denis and Martin.
+--   Ivo of Kermartin: traditional patron saint of lawyers,
+--     "advocatus pauperum".
+--   Joan of Arc: secondary patroness of France, 1922; traditional
+--     patroness of soldiers and prisoners.
 --   Pothinus: early bishop and martyr of Lyon.
---   Remigius: traditional association with Reims.
+--   Remigius: traditional association with Reims; "Apostle of the
+--     Franks" through the baptism of Clovis.
+--
+-- Generic codes (SOLDIERS, PRISONERS, WIDOWS, CONVERTS, ORPHANS, POOR)
+-- are defined in seedRomanSaintPatronages.sql.
 --
 -- Patronage codes are in English, except proper names
 -- and institutional names such as GENDARMERIE.
@@ -196,7 +200,7 @@ FROM (VALUES
 
   -- Saint Bernadette Soubirous
   ('saint-bernadette-soubirous', 'LOURDES',     'TRD'),
-  ('saint-bernadette-soubirous', 'SICK',    	'TRD'),
+  ('saint-bernadette-soubirous', 'SICK',        'TRD'),
 
   -- Saint Blandina
   ('saint-blandina',             'LYON',        'TRD'),
@@ -206,24 +210,32 @@ FROM (VALUES
 
   -- Saint Clotilde
   ('saint-clotilde',             'ALAT',        'OFF'),
+  ('saint-clotilde',             'WIDOWS',      'TRD'),
+  ('saint-clotilde',             'CONVERTS',    'TRD'),
+  ('saint-clotilde',             'ORPHANS',     'TRD'),
 
   -- Saint Genevieve
   ('saint-genevieve',            'PARIS',       'TRD'),
   ('saint-genevieve',            'NANTERRE',    'TRD'),
   ('saint-genevieve',            'GENDARMERIE', 'OFF'),
+  ('saint-genevieve',            'FRANCE',      'TRD'),
 
   -- Saint Ivo of Kermartin
   ('saint-ivo-of-kermartin',     'LAWYERS',     'TRD'),
   ('saint-ivo-of-kermartin',     'BRITTANY',    'TRD'),
+  ('saint-ivo-of-kermartin',     'POOR',        'TRD'),
 
   -- Saint Joan of Arc
   ('saint-joan-of-arc',          'FRANCE',      'OFF'),
+  ('saint-joan-of-arc',          'SOLDIERS',    'TRD'),
+  ('saint-joan-of-arc',          'PRISONERS',   'TRD'),
 
   -- Saint Pothinus
   ('saint-pothinus',             'LYON',        'TRD'),
 
   -- Saint Remigius
-  ('saint-remigius',             'REIMS',       'TRD')
+  ('saint-remigius',             'REIMS',       'TRD'),
+  ('saint-remigius',             'FRANCE',      'TRD')
 
 ) AS x(saint_slug, patronage_code, source_type)
 JOIN saints s

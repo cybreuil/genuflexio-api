@@ -113,6 +113,10 @@ INSERT INTO patronages (code) VALUES
 ('ECOLOGY_ENVIRONMENT'),
 ('PEACE'),
 ('INTERNET'),
+('TELEVISION'),
+('BLIND'),
+('POETS'),
+('SEMINARIANS'),
 ('UNIVERSAL_CHURCH'),
 
 -- Extras
@@ -221,7 +225,11 @@ JOIN (VALUES
   ('UNIVERSAL_CHURCH',   'The Universal Church',        'Joseph, patron of the Universal Church (Pius IX, Quemadmodum Deus, 8 Dec 1870).'),
   ('MISSIONS',           'Missions',                    'Francis Xavier, missionary; also Thérèse of Lisieux (Pius XI, 1927), Paul the Apostle.'),
   ('CHARITY_WORKS',      'Charitable works',            'Vincent de Paul, founder of organised charity; also Teresa of Calcutta and Thomas More.'),
-  ('COMPUTER_SCIENTISTS','Computer scientists',         'Isidore of Seville, proposed patron saint of the Internet and computer users; also associated with knowledge and the preservation of learning.')
+  ('COMPUTER_SCIENTISTS','Computer scientists',         'Isidore of Seville, proposed patron saint of the Internet and computer users; also associated with knowledge and the preservation of learning.'),
+  ('TELEVISION',         'Television',                  'Clare of Assisi, who saw and heard Christmas Mass on her cell wall while bedridden; proclaimed patroness of television by Pius XII in 1958.'),
+  ('BLIND',              'The blind and eye diseases',  'Lucy of Syracuse, whose name evokes light; invoked for eye ailments and by the blind since the Middle Ages.'),
+  ('POETS',              'Poets',                       'John of the Cross, mystical doctor whose poems rank among the summits of Spanish literature.'),
+  ('SEMINARIANS',        'Seminarians',                 'Charles Borromeo, who founded the first seminaries after the Council of Trent; patron of seminarians and priestly formation.')
   ) AS x(code, label, description)
 ON p.code = x.code
 ON CONFLICT (patronage_id, locale_code) DO UPDATE
@@ -326,7 +334,11 @@ JOIN (VALUES
   ('UNIVERSAL_CHURCH',   'L''Église universelle',          'Joseph, patron de l''Église universelle (Pie IX, Quemadmodum Deus, 8 déc. 1870).'),
   ('MISSIONS',           'Les missions',                   'François Xavier, missionnaire ; aussi Thérèse de Lisieux (Pie XI, 1927), Paul l''Apôtre.'),
   ('CHARITY_WORKS',      'Les œuvres de charité',          'Vincent de Paul, fondateur de la charité organisée ; aussi Mère Teresa et Thomas More.'),
-  ('COMPUTER_SCIENTISTS', 'Informaticiens', 'Isidore de Séville, proposé comme saint patron d’Internet et des utilisateurs d’ordinateurs ; également associé au savoir et à la préservation des connaissances.')
+  ('COMPUTER_SCIENTISTS', 'Informaticiens', 'Isidore de Séville, proposé comme saint patron d’Internet et des utilisateurs d’ordinateurs ; également associé au savoir et à la préservation des connaissances.'),
+('TELEVISION',         'Télévision',                  'Claire d’Assise, qui vit et entendit la messe de Noël sur le mur de sa cellule alors qu’elle était alitée ; proclamée patronne de la télévision par Pie XII en 1958.'),
+('BLIND',              'Aveugles et maladies des yeux', 'Lucie de Syracuse, dont le nom évoque la lumière ; invoquée pour les maux des yeux et par les aveugles depuis le Moyen Âge.'),
+('POETS',              'Poètes',                      'Jean de la Croix, docteur mystique dont les poèmes comptent parmi les sommets de la littérature espagnole.'),
+('SEMINARIANS',        'Séminaristes',                'Charles Borromée, fondateur des premiers séminaires après le concile de Trente ; patron des séminaristes et de la formation sacerdotale.')
 ) AS x(code, label, description)
 ON p.code = x.code
 ON CONFLICT (patronage_id, locale_code) DO UPDATE
@@ -431,7 +443,11 @@ JOIN (VALUES
   ('UNIVERSAL_CHURCH',   'Ecclesia universalis',           'Ioseph, patronus Ecclesiae universalis (Pius IX, Quemadmodum Deus, 8 Dec. 1870).'),
   ('MISSIONS',           'Missiones',                      'Franciscus Xaverius, missionarius; etiam Theresia a Puero Iesu (Pius XI, 1927), Paulus Apostolus.'),
   ('CHARITY_WORKS',      'Opera caritatis',                'Vincentius a Paulo, fundator caritatis ordinatae; etiam Teresia Calcuttensis et Thomas Morus.'),
-  ('COMPUTER_SCIENTISTS', 'Computatici', 'Isidorus Hispalensis, propositus patronus Interretis et usorum computatrorum; scientiae cognitionique servandae quoque associatus.')
+  ('COMPUTER_SCIENTISTS', 'Computatici', 'Isidorus Hispalensis, propositus patronus Interretis et usorum computatrorum; scientiae cognitionique servandae quoque associatus.'),
+  ('TELEVISION',         'Televisio',                   'Clara Assisiensis, quae Missam Nativitatis in pariete cellae suae aegrotans vidit et audivit; patrona televisionis a Pio XII anno 1958 declarata.'),
+  ('BLIND',              'Caeci et morbi oculorum',     'Lucia Syracusana, cuius nomen lucem evocat; pro oculorum morbis et a caecis inde a medio aevo invocata.'),
+  ('POETS',              'Poetae',                      'Ioannes a Cruce, doctor mysticus cuius carmina inter summa litterarum Hispanicarum numerantur.'),
+  ('SEMINARIANS',        'Seminaristae',                'Carolus Borromaeus, qui prima seminaria post Concilium Tridentinum condidit; patronus seminaristarum et formationis sacerdotalis.')
   ) AS x(code, label, description)
 ON p.code = x.code
 ON CONFLICT (patronage_id, locale_code) DO UPDATE
@@ -881,8 +897,53 @@ FROM (VALUES
 
   ('saint-januarius',                     'POOR',                 'TRD'),
 
-  ('saint-catherine-alexandria',          'PHILOSOPHERS',         'TRD'),  -- Patronne des philosophes, célèbre pour sa sagesse et sa disputation avec les philosophes païens
-  ('saint-catherine-alexandria',          'STUDENTS',          	  'TRD')
+  -- NOTE: slug corrigé (était 'saint-catherine-alexandria', ne matchait aucun saint)
+  ('saint-catherine-of-alexandria',       'PHILOSOPHERS',         'TRD'),  -- Patronne des philosophes, célèbre pour sa sagesse et sa disputation avec les philosophes païens
+  ('saint-catherine-of-alexandria',       'STUDENTS',             'TRD'),
+  ('saint-catherine-of-alexandria',       'LIBRARIANS',           'TRD'),
+
+  ('saint-lucy',                          'BLIND',                'TRD'),
+
+  ('saint-cosmas',                        'PHYSICIANS',           'TRD'),  -- Anargyres, médecins soignant gratuitement
+  ('saint-cosmas',                        'SURGEONS',             'TRD'),
+  ('saint-cosmas',                        'PHARMACISTS',          'TRD'),
+  ('saint-damian',                        'PHYSICIANS',           'TRD'),
+  ('saint-damian',                        'SURGEONS',             'TRD'),
+  ('saint-damian',                        'PHARMACISTS',          'TRD'),
+
+  ('saint-john-of-the-cross',             'POETS',                'TRD'),
+  ('saint-john-of-the-cross',             'THEOLOGIANS',          'TRD'),  -- Docteur mystique
+
+  ('saint-charles-borromeo',              'SEMINARIANS',          'TRD'),
+  ('saint-charles-borromeo',              'CATECHISTS',           'TRD'),  -- Promoteur du catéchisme tridentin
+
+  ('saint-louis',                         'FRANCE',               'TRD'),
+  ('saint-louis',                         'POLITICIANS',          'TRD'),  -- Modèle du souverain chrétien
+
+  ('saint-justin-martyr',                 'PHILOSOPHERS',         'TRD'),
+
+  ('saint-john-paul-ii',                  'YOUTH',                'TRD'),  -- Fondateur des JMJ
+  ('saint-john-paul-ii',                  'FAMILIES',             'TRD'),
+  ('saint-john-paul-ii',                  'POLAND',               'TRD'),
+
+  ('saint-pius-of-pietrelcina',           'SICK',                 'TRD'),  -- Fondateur de la Casa Sollievo della Sofferenza
+
+  ('saint-clare',                         'TELEVISION',           'OFF'),  -- Pie XII, 14 février 1958
+
+  ('saint-jane-frances-de-chantal',       'WIDOWS',               'TRD'),
+  ('saint-jane-frances-de-chantal',       'MOTHERS',              'TRD'),
+
+  ('saint-elizabeth-of-portugal',         'PORTUGAL',             'TRD'),
+  ('saint-elizabeth-of-portugal',         'PEACE',                'TRD'),  -- Médiatrice entre son mari et son fils
+  ('saint-elizabeth-of-portugal',         'MARRIED_COUPLES',      'TRD'),  -- Mariages difficiles
+
+  ('saint-martin-de-porres',              'PERU',                 'OFF'),
+  ('saint-martin-de-porres',              'SOCIAL_WORKERS',       'TRD'),
+  ('saint-martin-de-porres',              'POOR',                 'TRD'),
+
+  ('saint-anthony-abbot',                 'FARMERS_GARDENERS',    'TRD'),  -- Protecteur des animaux domestiques
+
+  ('saint-john-de-brebeuf',               'CANADA',               'OFF')   -- Co-patron du Canada, Pie XII 1940
 
 ) AS pairs(saint_slug, patronage_code, source_type)
 JOIN saints     s ON s.slug  = pairs.saint_slug

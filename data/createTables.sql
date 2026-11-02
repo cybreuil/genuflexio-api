@@ -464,10 +464,7 @@ CREATE TABLE users (
     email       TEXT UNIQUE NOT NULL,
     password_hash TEXT NOT NULL,
     -- 'admin' for now; extend to 'user', 'editor', etc. later
-    role        TEXT NOT NULL DEFAULT 'admin',
-    is_active   BOOLEAN NOT NULL DEFAULT TRUE,
-    created_at  TIMESTAMPTZ NOT NULL DEFAULT now(),
-    last_login_at TIMESTAMPTZ
+    role        TEXT NOT NULL DEFAULT 'admin'
 );
 
 CREATE TABLE refresh_tokens (
@@ -479,6 +476,12 @@ CREATE TABLE refresh_tokens (
     revoked     BOOLEAN NOT NULL DEFAULT FALSE,
     created_at  TIMESTAMPTZ NOT NULL DEFAULT now()
 );
+
+-- Compte admin de DEV uniquement : mot de passe en clair = admin1234
+-- (hash Argon2id, même paramètres que service::hash_password).
+-- À remplacer / supprimer avant toute mise en production.
+INSERT INTO users (email, password_hash, role) VALUES
+('admin@genuflexio.local', '$argon2id$v=19$m=19456,t=2,p=1$xf+40i6bHcy1xCjvl4jJFQ$fgWs/clbWUD7AQMS4PMfwSzm34CdBosOmxgn+IbDiVY', 'admin');
 
 -- =========================================================
 -- 8b) Analytics : une ligne par visite (premier chargement du site)
