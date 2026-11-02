@@ -8,3 +8,4 @@ pub mod liturgical_seasons;
 pub mod places;
 pub mod root;
 pub mod saints;
+pub mod visits;
