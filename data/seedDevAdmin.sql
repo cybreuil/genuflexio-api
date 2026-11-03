@@ -17,16 +17,14 @@ BEGIN;
 -- Re-runnable : met à jour le mot de passe si le compte existe déjà.
 -- =========================================================
 
-INSERT INTO users (email, password_hash, role, is_active)
+INSERT INTO users (email, password_hash, role)
 VALUES (
     'admin@genuflexio.local',
     '$argon2id$v=19$m=19456,t=2,p=1$xf+40i6bHcy1xCjvl4jJFQ$fgWs/clbWUD7AQMS4PMfwSzm34CdBosOmxgn+IbDiVY',
-    'admin',
-    TRUE
+    'admin'
 )
 ON CONFLICT (email) DO UPDATE
     SET password_hash = EXCLUDED.password_hash,
-        role          = EXCLUDED.role,
-        is_active     = TRUE;
+        role          = EXCLUDED.role;
 
 COMMIT;
