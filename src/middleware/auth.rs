@@ -3,6 +3,7 @@ use actix_web::HttpRequest;
 use jsonwebtoken::{decode, DecodingKey, Validation};
 use serde::{Deserialize, Serialize};
 
+// JWT payload
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Claims {
     pub sub: String,

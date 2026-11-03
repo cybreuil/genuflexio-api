@@ -40,6 +40,7 @@ pub fn generate_refresh_token() -> String {
     hex::encode(bytes)
 }
 
+// No need for Argon2 here, since the token is already random and long enough. We just hash it with SHA-256 to avoid storing the raw token in the DB.
 /// SHA-256 of the raw token — this is what we store in the DB.
 pub fn hash_token(token: &str) -> String {
     hex::encode(Sha256::digest(token.as_bytes()))
@@ -100,6 +101,11 @@ pub async fn login(
             access_token,
             token_type: "Bearer",
             expires_in: jwt_ttl * 60,
+            user: MeResponse {
+                id: user.id,
+                email: user.email,
+                role: user.role,
+            },
         },
         refresh_token,
     ))
@@ -150,6 +156,11 @@ pub async fn refresh(
             access_token,
             token_type: "Bearer",
             expires_in: jwt_ttl * 60,
+            user: MeResponse {
+                id: user.id,
+                email: user.email,
+                role: user.role,
+            },
         },
         new_token,
     ))
