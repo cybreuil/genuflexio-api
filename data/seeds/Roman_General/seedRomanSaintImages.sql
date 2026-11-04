@@ -17,6 +17,38 @@ FROM saints s
 JOIN (
 	VALUES
 
+
+-- =========================
+-- From feasts images
+-- =========================
+('saint-mary', '/feasts/epiphany.webp', 17, FALSE, 'subject'),
+('saint-mary', '/feasts/presentation-of-the-lord.webp', 18, FALSE, 'subject'),
+('saint-mary', '/feasts/annunciation.webp', 19, FALSE, 'subject'),
+('saint-mary', '/feasts/christmas-vigil.webp', 20, FALSE, 'subject'),
+('saint-mary', '/feasts/nativity.webp', 21, FALSE, 'subject'),
+('saint-mary', '/feasts/christmas-octave.webp', 22, FALSE, 'subject'),
+('saint-mary', '/feasts/advent.webp', 23, FALSE, 'subject'),
+('saint-mary', '/feasts/our-lady-of-lourdes.webp', 24, FALSE, 'subject'),
+('saint-mary', '/feasts/visitation.webp', 25, FALSE, 'subject'),
+('saint-mary', '/feasts/our-lady-of-mount-carmel.webp', 26, FALSE, 'subject'),
+('saint-mary', '/feasts/nativity-of-mary.webp', 27, FALSE, 'subject'),
+('saint-mary', '/feasts/holy-name-of-mary.webp', 28, FALSE, 'subject'),
+('saint-mary', '/feasts/our-lady-of-sorrows.webp', 29, FALSE, 'subject'),
+('saint-mary', '/feasts/our-lady-of-the-rosary.webp', 30, FALSE, 'subject'),
+('saint-mary', '/feasts/our-lady-of-guadalupe.webp', 31, FALSE, 'subject'),
+('saint-mary', '/feasts/mary-mother-of-the-church.webp', 32, FALSE, 'subject'),
+('saint-mary', '/feasts/immaculate-heart-of-mary.webp', 33, FALSE, 'subject'),
+('saint-joseph', '/feasts/epiphany.webp', 8, FALSE, 'subject'),
+('saint-joseph', '/feasts/christmas-vigil.webp', 9, FALSE, 'subject'),
+('saint-joseph', '/feasts/nativity.webp', 10, FALSE, 'subject'),
+('saint-joseph', '/feasts/christmas-octave.webp', 11, FALSE, 'subject'),
+('saint-joseph', '/feasts/advent.webp', 12, FALSE, 'subject'),
+('saint-john-the-baptist', '/feasts/baptism-of-the-lord.webp', 5, FALSE, 'subject'),
+('saint-mary-magdalene', '/feasts/easter-octave-tuesday.webp', 12, FALSE, 'subject'),
+('saint-lawrence', '/feasts/all-souls.webp', 8, FALSE, 'subject'),
+
+
+
 -- =========================
 -- Principal Roman saints (Mary, Joseph, John the Baptist)
 -- =========================
@@ -37,6 +69,7 @@ JOIN (
 ('saint-mary', '/saints/saint-mary_velazquez_adoration.webp', 13, FALSE, 'subject'),
 ('saint-mary', '/saints/saint-mary_champaigne.webp', 14, FALSE, 'subject'),
 ('saint-mary', '/saints/saint-mary_gentileschi_annunciation.webp', 15, FALSE, 'subject'),
+('saint-mary', '/saints/saint-joseph_carracci.webp', 16, FALSE, 'subject'),
 
 -- Saint Joseph
 ('saint-joseph', '/saints/saint-joseph_guido-reni.webp', 1, TRUE, 'subject'),
