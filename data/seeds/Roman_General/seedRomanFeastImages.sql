@@ -3,22 +3,6 @@ BEGIN;
 -- =========================================================
 -- Roman feast cover images (ROMAN_GENERAL)
 -- =========================================================
--- Cover illustration for feasts that have no saint (Easter, Christmas…).
--- When a feast has a saint, the front falls back on the saint's image,
--- so only feasts listed here need a cover.
---
--- Convention: image_url served from /public, stored as /feasts/...
---
--- HOW TO FILL A LINE
---   Part 1 : replace the TODO fields (title, type, creator, date, century, repository…)
---   Part 2 : nothing to do, the image_url must simply match Part 1
---   Then uncomment both lines.
---
--- Feasts sharing an image (octave days, Sundays of a season) point to the
--- same image_url in Part 2; the image is inserted only once in Part 1.
--- =========================================================
-
-
 
 
 -- =============================================================
