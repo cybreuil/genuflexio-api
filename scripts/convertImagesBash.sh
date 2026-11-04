@@ -13,7 +13,7 @@ set -euo pipefail
 # IMPORTANT TURN FORCE TRUE FOR ALL CONVERSION
 # --force=false    (force writing even if webp larger than original)
 # Example real run:
-# ./scripts/convert_images_native.sh --src public/saints-pic --out public/saints-pic-webp --dry=false --force=true
+# rip@t470s genuflexio-api $ ./scripts/convertImagesBash.sh --src=/home/rip/Pictures/genuflexio/feasts --out=/home/rip/Documents/work/genuflexio-app/public/feasts --dry=false --force=true --sizes=1600
 
 # Parse args (simple)
 for arg in "$@"; do
