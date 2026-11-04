@@ -77,8 +77,8 @@ INSERT INTO images (
 ('/feasts/holy-week-wednesday.webp',     'Judas'' Betrayal', 'painting', 'Judas'' Betrayal', 'Giotto', '1304-1306', 14, 'Scrovegni Chapel', NULL, 'Public Domain', NULL),
 ('/feasts/holy-week-thursday.webp',      'The Last Supper', 'painting', 'The Last Supper', 'Juan de Juanes', '1562', 16, 'Museo del Prado', NULL, 'Public Domain', NULL),
 ('/feasts/good-friday.webp',        	'Christ on the Cross', 'painting', 'Christ on the Cross', 'Anthony van Dyck', '1620', 17, 'Royal Museum of Fine Arts Antwerp', NULL, 'Public Domain', NULL),
-('/feasts/holy-saturday.webp',           'The Dead Body of Christ', 'painting', 'The Dead Body of Christ', 'Johann Melchior Wyrsch', '1779', 18, 'Kunstmuseum Basel', NULL, 'Public Domain', NULL),
--- ('/feasts/easter-vigil.webp',            'TODO title', 'painting', 'TODO alt', 'TODO creator', 'TODO date', NULL, 'TODO repository', NULL, 'Public Domain', NULL),
+('/feasts/holy-saturday.webp',            'The Dead Christ Mourned', 'painting', 'The Dead Christ Mourned', 'Annibale Carracci', '1604', 17, 'National Gallery (London)', NULL, 'Public Domain', NULL),
+('/feasts/easter-vigil.webp',           'The Dead Body of Christ', 'painting', 'The Dead Body of Christ', 'Johann Melchior Wyrsch', '1779', 18, 'Kunstmuseum Basel', NULL, 'Public Domain', NULL),
 
 -- =========================
 -- Easter time
@@ -129,7 +129,7 @@ INSERT INTO images (
 -- Dedications
 -- =========================
 ('/feasts/saint-mary-major.webp',        'Coronation of the Virgin', 'mosaic', 'Coronation of the Virgin', 'Jacopo Torriti', '1295', 13, 'Santa Maria Maggiore (Rome)', NULL, 'Public Domain', NULL),
-('/feasts/lateran-basilica.webp',        'Lateran Basilica Fresco', 'fresco', 'Lateran Basilica Fresco', NULL, "4-5th Century, Repairs and Additions 13th Century", 5, "Basilica of St. John Lateran (Rome)", NULL, 'Public Domain', NULL),
+('/feasts/lateran-basilica.webp',        'Lateran Basilica Fresco', 'fresco', 'Lateran Basilica Fresco', NULL, '5th Century', 5, 'Basilica of St. John Lateran (Rome)', NULL, 'Public Domain', NULL),
 ('/feasts/basilicas-peter-and-paul.webp','Saint Peter & Saint Paul', 'painting', 'Saint Peter & Saint Paul', 'Jusepe de Ribera', '1616', 17, 'Museum of Fine Arts of Strasbourg', NULL, 'Public Domain', NULL),
 
 -- =========================
@@ -150,7 +150,6 @@ UPDATE feasts f
 SET cover_image_id = i.id
 FROM (
     VALUES
-    (feast_slug, image_url)
 
     -- Fixed feasts of the Lord
     ('the-most-holy-name-of-jesus',       '/feasts/holy-name-of-jesus.webp'),
@@ -192,7 +191,7 @@ FROM (
     ('wednesday-of-holy-week',                 '/feasts/holy-week-wednesday.webp'),
     ('holy-thursday-evening-mass-of-the-lords-supper', '/feasts/holy-week-thursday.webp'),
     ('friday-of-the-passion-of-the-lord',      '/feasts/good-friday.webp'),
-    -- ('holy-saturday',                          '/feasts/holy-saturday.webp'),
+    ('holy-saturday',                          '/feasts/holy-saturday.webp'),
     ('easter-vigil-in-the-holy-night',         '/feasts/easter-vigil.webp'),
 
     -- Easter time
@@ -203,7 +202,7 @@ FROM (
     ('thursday-in-the-octave-of-easter',              '/feasts/easter-octave.webp'),
     ('friday-in-the-octave-of-easter',                '/feasts/easter-octave.webp'),
     ('saturday-in-the-octave-of-easter',              '/feasts/easter-octave.webp'),
-    ('second-sunday-of-easter-divine-mercy-sunday',   '/feasts/divine-mercy.webp'),
+    ('second-sunday-of-easter-divine-mercy-sunday',   '/saints/saint-thomas-apostle_caravaggio.webp'),
     ('third-sunday-of-easter',                        '/feasts/easter-octave.webp'),
     ('fourth-sunday-of-easter',                       '/feasts/good-shepherd.webp'),
     ('fifth-sunday-of-easter',                        '/feasts/easter-octave.webp'),
@@ -238,13 +237,14 @@ FROM (
     ('the-immaculate-heart-of-the-blessed-virgin-mary',    '/feasts/immaculate-heart-of-mary.webp'),
 
     -- Dedications
-    -- ('the-dedication-of-the-basilica-of-saint-mary-major',               '/feasts/saint-mary-major.webp'),
-    -- ('the-dedication-of-the-lateran-basilica',                           '/feasts/lateran-basilica.webp'),
-    -- ('the-dedication-of-the-basilicas-of-saints-peter-and-paul-apostles','/feasts/basilicas-peter-and-paul.webp'),
+    ('the-dedication-of-the-basilica-of-saint-mary-major',               '/feasts/saint-mary-major.webp'),
+    ('the-dedication-of-the-lateran-basilica',                           '/feasts/lateran-basilica.webp'),
+    ('the-dedication-of-the-basilicas-of-saints-peter-and-paul-apostles','/feasts/basilicas-peter-and-paul.webp'),
 
     -- Other
     -- ('the-holy-guardian-angels',                     '/feasts/guardian-angels.webp'),
-    -- ('the-commemoration-of-all-the-faithful-departed','/feasts/all-souls.webp'),
+    ('the-commemoration-of-all-the-faithful-departed','/feasts/all-souls.webp'),
+    ('all-saints',                   '/feasts/all-saints.webp')
 
 ) AS x(feast_slug, image_url)
 JOIN images i ON i.image_url = x.image_url
