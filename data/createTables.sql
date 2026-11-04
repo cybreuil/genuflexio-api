@@ -571,6 +571,16 @@ WHERE sort_order IS NOT NULL;
 CREATE INDEX saint_images_image_idx
 ON saint_images (image_id);
 
+-- Facets Indexes
+CREATE INDEX IF NOT EXISTS idx_images_repository       ON images (repository);
+CREATE INDEX IF NOT EXISTS idx_images_creator          ON images (creator);
+CREATE INDEX IF NOT EXISTS idx_images_century          ON images (century);
+CREATE INDEX IF NOT EXISTS idx_saints_century          ON saints (century);
+CREATE INDEX IF NOT EXISTS idx_saint_attributes_attr   ON saint_attributes (attribute_id);
+CREATE INDEX IF NOT EXISTS idx_saint_patronages_pat    ON saint_patronages (patronage_id);
+CREATE INDEX IF NOT EXISTS idx_attributes_category     ON attributes (category);
+
+
 -- =========================================================
 -- 10) Seeds minimaux
 -- =========================================================
