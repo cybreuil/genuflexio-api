@@ -15,8 +15,16 @@ use std::{
 use tokio::sync::Mutex;
 use tracing::warn;
 
+/// Above this many tracked IPs, idle buckets are evicted on the next request.
+/// Each entry is ~100 bytes, so 10k entries ≈ 1 MB worst case.
+const EVICT_THRESHOLD: usize = 10_000;
+
 /// Simple in-memory per-IP token-bucket rate limiter.
 /// Good for single-process (NanoPi) setups.
+///
+/// Create instances *outside* `HttpServer::new` and `.clone()` them inside,
+/// otherwise each worker gets its own store and the effective limit is
+/// multiplied by the number of workers.
 #[derive(Clone)]
 pub struct RateLimiter {
     max_requests: u32,
@@ -38,6 +46,11 @@ impl RateLimiter {
             window,
             store: Arc::new(Mutex::new(HashMap::new())),
         }
+    }
+
+    /// Slow-refill daily quota (eg 1000 per 24h).
+    pub fn per_day(max_requests: u32) -> Self {
+        Self::new(max_requests, Duration::from_secs(24 * 60 * 60))
     }
 }
 
@@ -90,7 +103,8 @@ where
         let window = self.window;
 
         Box::pin(async move {
-            // identify client by real remote addr if available
+            // Trusts X-Forwarded-For / Forwarded: only valid when the API is
+            // reachable solely through a reverse proxy that overwrites them.
             let client_key = req
                 .connection_info()
                 .realip_remote_addr()
@@ -98,35 +112,40 @@ where
                 .unwrap_or_else(|| "unknown".to_string());
 
             let now = Instant::now();
+            let max_f = max as f64;
+            let rate = max_f / window.as_secs_f64().max(1.0);
 
-            // update token bucket protected by async mutex
             {
                 let mut map = store.lock().await;
+
+                // Evict buckets idle for ≥ one window: they are full again,
+                // so a fresh entry would be identical. Amortised O(1).
+                if map.len() >= EVICT_THRESHOLD {
+                    map.retain(|_, b| now.duration_since(b.last) < window);
+                }
+
                 let bucket = map.entry(client_key.clone()).or_insert(TokenBucket {
-                    tokens: max as f64,
+                    tokens: max_f,
                     last: now,
                 });
 
-                // refill tokens based on elapsed time
                 let elapsed = now.duration_since(bucket.last).as_secs_f64();
-                let window_secs = window.as_secs_f64().max(1.0);
-                let rate = (max as f64) / window_secs;
-                bucket.tokens = (bucket.tokens + elapsed * rate).min(max as f64);
+                bucket.tokens = (bucket.tokens + elapsed * rate).min(max_f);
                 bucket.last = now;
 
                 if bucket.tokens < 1.0 {
-                    warn!("Rate limit exceeded for {}", client_key);
+                    // Seconds until one token is refilled, not the whole window.
+                    let retry_after = ((1.0 - bucket.tokens) / rate).ceil().max(1.0) as u64;
+                    warn!("Rate limit exceeded for {client_key} (retry in {retry_after}s)");
                     let resp = HttpResponse::TooManyRequests()
-                        .append_header(("Retry-After", format!("{}", window.as_secs())))
+                        .append_header(("Retry-After", retry_after.to_string()))
                         .json(json!({ "error": "Too many requests" }));
                     return Ok(req.into_response(resp).map_into_boxed_body());
                 }
 
-                // consume a token
                 bucket.tokens -= 1.0;
-            } // release mutex
+            }
 
-            // forward to service
             let res = svc.call(req).await?;
             Ok(res.map_into_boxed_body())
         })

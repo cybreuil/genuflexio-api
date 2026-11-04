@@ -1,9 +1,10 @@
+use crate::middleware::rate_limiter::RateLimiter;
 use crate::modules;
 use actix_web::{web, Scope};
 
-pub fn router() -> Scope {
+pub fn router(auth_rl: RateLimiter, visits_rl: RateLimiter) -> Scope {
     web::scope("")
-        .service(modules::auth::router::router())
+        .service(modules::auth::router::router().wrap(auth_rl))
         .service(modules::saints::router::router())
         .service(modules::images::router::router())
         // .service(modules::feasts::router::router())
@@ -13,5 +14,5 @@ pub fn router() -> Scope {
         .service(modules::places::router::router())
         .service(modules::calendars::router::router())
         .service(modules::liturgical_seasons::router::router())
-        .service(modules::visits::router::router())
+        .service(modules::visits::router::router().wrap(visits_rl))
 }

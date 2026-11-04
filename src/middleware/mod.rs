@@ -1,3 +1,3 @@
 pub mod auth;
 pub mod cors;
-// pub mod rate_limiter;
+pub mod rate_limiter;
