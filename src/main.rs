@@ -24,7 +24,7 @@ async fn main() -> std::io::Result<()> {
 
     // Rate Limits
     let daily_rl = RateLimiter::per_day(1000); // 1000 req/day per IP
-    let global_rl = RateLimiter::new(300, Duration::from_secs(60)); // ~5 req/s par IP
+    let global_rl = RateLimiter::new(100, Duration::from_secs(60)); // ~5 req/s par IP
     let auth_rl = RateLimiter::new(10, Duration::from_secs(3600)); // brute-force login/refresh
     let visits_rl = RateLimiter::new(5, Duration::from_secs(60)); // spam de la table visits
 
