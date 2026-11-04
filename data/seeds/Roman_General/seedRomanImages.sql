@@ -1347,4 +1347,130 @@ INSERT INTO images (
 ('/saints/saint-sylvester-i_2.webp', 'Saint Sylvester I', 'painting', 'Saint Sylvester I Painting', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 ('/saints/saint-sylvester-i_icon.webp', 'Saint Sylvester I', 'icon', 'Saint Sylvester I Icon', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL);
 
+-- =============================================================
+-- FEAST IMAGES
+-- =============================================================
+
+INSERT INTO images (
+  image_url,
+  title,
+  image_type,
+  alt_text,
+  creator,
+  date_label,
+  century,
+  repository,
+  credit,
+  license,
+  source_url
+) VALUES
+
+-- =========================
+-- Fixed feasts of the Lord
+-- =========================
+('/feasts/holy-name-of-jesus.webp',      'The Adoration of the Name of Jesus', 'painting', 'Holy Name of Jesus', 'El Greco', '1577-1580', 16, 'El Escorial', NULL, 'Public Domain', NULL),
+('/feasts/epiphany.webp',                'Adoration of the Magi', 'painting', 'Adoration of the Magi', 'Bartolomé Esteban Murillo', '1655-1660', 17, 'Toledo Museum of Art', NULL, 'Public Domain', NULL),
+('/feasts/baptism-of-the-lord.webp',     'Baptism of Christ', 'painting', 'Baptism of Christ', 'Andrea del Verrocchio & Leonardo da Vinci', '1470-1475', 15, 'Uffizi Gallery', NULL, 'Attribution-ShareAlike 4.0 International', NULL),
+('/feasts/presentation-of-the-lord.webp','The Scene of Christ in the Temple', 'painting', 'The Presentation of Christ in the Temple', 'Fra Bartolomeo', '1516', 16, 'Kunsthistorisches Museum', NULL, 'Public Domain', NULL),
+('/feasts/annunciation.webp',            'Annunciation', 'painting', 'The Annunciation', 'Fra Angelico', '1438-1450', 15, 'Museo Nazionale di San Marco', NULL, 'Public Domain', NULL),
+('/feasts/transfiguration.webp',         'Transfiguration of Christ', 'painting', 'Transfiguration of Christ', 'Luca Giordano', '1685', 17, 'Uffizi Gallery', NULL, 'Public Domain', NULL),
+('/feasts/exaltation-of-the-cross.webp', 'The Frankfurt Altarpiece of the Exaltation of the True Cross', 'painting', 'Exaltation of the True Cross', 'Adam Elsheimer', '1578-1610', 17, 'Städel Museum', NULL, 'Public Domain Mark 1.0 Universal', NULL),
+
+-- =========================
+-- Christmas time
+-- =========================
+('/feasts/christmas-vigil.webp',         'On the Eve of the Birth of Christ', 'painting', 'On the Eve of the Birth of Christ', 'Michael Rieser', '1869', 19, NULL, NULL, 'Public Domain', NULL),
+('/feasts/nativity.webp',                'Adoration of the Shepherds', 'painting', 'Adoration of the Shepherds', 'Gerrit van Honthorst', '1622', 17, 'Pommersche Landesmuseum', NULL, 'Public Domain', NULL),
+-- We have holy family
+-- ('/feasts/holy-family.webp',             'The Montalto Madonna', 'painting', 'Holy Family', 'Annibale Carracci', '1597-1598', 16, 'National Gallery (London)', NULL, 'Public Domain', NULL),
+('/feasts/christmas-octave.webp',        'Adoration of the Shepherds', 'painting', 'Adoration of the Shepherds', 'Frères Le Nain', '1640', 17, 'National Gallery (London)', NULL, 'Public Domain', NULL),
+
+-- =========================
+-- Advent (one shared image for the 4 Sundays + Dec 24)
+-- =========================
+('/feasts/advent.webp',                  'Joseph and Mary Flight to Bethlehem', 'painting', 'Joseph and Mary Flight to Bethlehem', 'Cesare Maccari', '19th Century', 19, NULL, NULL, 'Public Domain', NULL),
+
+-- =========================
+-- Lent
+-- =========================
+('/feasts/ash-wednesday.webp',           'Christ in the Wilderness', 'painting', 'Christ in the Wilderness', 'Ivan Kramskoi', '1872', 19, 'Tretyakov Gallery', NULL, 'Public Domain', NULL),
+('/feasts/lent.webp',                    'The Temptation of Christ', 'painting', 'The Temptation of Christ', 'Ary Scheffer', '1854', 19, 'Walker Art Gallery', NULL, 'Public Domain', NULL),
+
+-- =========================
+-- Holy Week / Triduum
+-- =========================
+('/feasts/palm-sunday.webp',             'Entry into Jerusalem', 'painting', 'Entry into Jerusalem', 'Alessandro Turchi', '1640', 17, 'Hermitage Museum', NULL, 'Public Domain', NULL),
+('/feasts/holy-week-monday.webp',        'Jesus casting out the money changers at the temple', 'painting', 'Jesus casting out the money changers at the temple', 'Carl Bloch', '19th Century', 19, NULL, NULL, 'Public Domain', NULL),
+('/feasts/holy-week-tuesday.webp',       'The Chief Priests Ask Jesus by What Right Does He Act in This Way', 'painting', 'Holy Week Tuesday', 'James Tissot', '1886-1894', 19, 'Brooklyn Museum', NULL, 'Public Domain', NULL),
+('/feasts/holy-week-wednesday.webp',     'Judas'' Betrayal', 'painting', 'Judas'' Betrayal', 'Giotto', '1304-1306', 14, 'Scrovegni Chapel', NULL, 'Public Domain', NULL),
+('/feasts/holy-week-thursday.webp',      'The Last Supper', 'painting', 'The Last Supper', 'Juan de Juanes', '1562', 16, 'Museo del Prado', NULL, 'Public Domain', NULL),
+('/feasts/good-friday.webp',        	'Christ on the Cross', 'painting', 'Christ on the Cross', 'Anthony van Dyck', '1620', 17, 'Royal Museum of Fine Arts Antwerp', NULL, 'Public Domain', NULL),
+('/feasts/holy-saturday.webp',            'The Dead Christ Mourned', 'painting', 'The Dead Christ Mourned', 'Annibale Carracci', '1604', 17, 'National Gallery (London)', NULL, 'Public Domain', NULL),
+('/feasts/easter-vigil.webp',           'The Dead Body of Christ', 'painting', 'The Dead Body of Christ', 'Johann Melchior Wyrsch', '1779', 18, 'Kunstmuseum Basel', NULL, 'Public Domain', NULL),
+
+-- =========================
+-- Easter time
+-- =========================
+('/feasts/resurrection.webp',            'The Resurrection of Jesus Christ', 'painting', 'The Resurrection of Jesus Christ', 'Luca Giordano', '1665', 17, 'Residenzgalerie', NULL, 'Public Domain', NULL),
+('/feasts/easter-octave-monday.webp',    'Les Saintes femmes au tombeau', 'painting', 'Les Saintes femmes au tombeau', 'Irma Martin', '1843', 19, NULL, NULL, 'Public Domain', NULL),
+('/feasts/easter-octave-tuesday.webp',    'Noli Me Tangere', 'painting', 'Noli Me Tangere', 'Fra Angelico', '1439-1443', 15, 'Museo Nazionale di San Marco', NULL, 'Public Domain', NULL),
+('/feasts/easter-octave-wednesday.webp',    'Supper at Emmaus', 'painting', 'Supper at Emmaus', 'Caravaggio', '1601', 17, 'National Gallery (London)', NULL, 'Public Domain', NULL),
+('/feasts/easter-octave.webp',    'Christ Appearing to the Apostles after the Resurrection', 'painting', 'Christ Appearing to the Apostles after the Resurrection', 'Szymon Czechowicz', '1758', 18, 'National Museum in Kraków', NULL, 'Public Domain', NULL),
+-- Already-have
+-- ('/feasts/divine-mercy.webp',            'TODO title', 'painting', 'TODO alt', 'TODO creator', 'TODO date', NULL, 'TODO repository', NULL, 'Public Domain', NULL),
+
+('/feasts/good-shepherd.webp',           'The Good Shepherd', 'painting', 'The Good Shepherd', NULL, '250-300', 3, 'Catacomb of Callixtus (Rome)', NULL, 'Public Domain', NULL),
+-- ('/feasts/easter-season.webp',           'TODO title', 'painting', 'TODO alt', 'TODO creator', 'TODO date', NULL, 'TODO repository', NULL, 'Public Domain', NULL),
+('/feasts/ascension.webp',               'Ascension', 'painting', 'Ascension', 'Francisco Camilo', '1651', 17, 'Museu Nacional d''Art de Catalunya', NULL, 'Public Domain', NULL),
+('/feasts/pentecost.webp',               'Pentecost', 'painting', 'Pentecost', 'Jean II Restout', '1732', 18, NULL, NULL, 'Public Domain', NULL),
+
+-- =========================
+-- Movable solemnities after Pentecost
+-- =========================
+('/feasts/holy-trinity.webp',            'Holy Trinity', 'painting', 'Holy Trinity', 'Hendrick van Balen the Elder', '1620', 17, 'St. James'' Church (Antwerp)', NULL, 'Public Domain', NULL),
+('/feasts/corpus-christi.webp',          'Procession at the Feast of Corpus Christi in Rome', 'painting', 'Corpus Christi', 'Egron Lundgren', '1847', 19, NULL, NULL, 'Public Domain', NULL),
+('/feasts/sacred-heart.webp',            ' La Santísima Trinidad', 'painting', ' La Santísima Trinidad', 'Corrado Giaquinto', '1754', 18, 'Museo del Prado', NULL, 'Public Domain', NULL),
+('/feasts/christ-the-king.webp',         'Jesus the Pantokrator and Teacher Among the Angels', 'painting', 'Christ the King', 'Luigi Cavenaghi', '19th Century', 19, 'Basilica of Santa Eufemia (Milan)', NULL, 'Public Domain', NULL),
+
+-- =========================
+-- Marian feasts
+-- =========================
+-- ('/feasts/mary-mother-of-god.webp',      'TODO title', 'painting', 'TODO alt', 'TODO creator', 'TODO date', NULL, 'TODO repository', NULL, 'Public Domain', NULL),
+('/feasts/our-lady-of-lourdes.webp',     'Our Lady of Lourdes', 'painting', 'Our Lady of Lourdes', 'Virgilio Tojetti', '1877', 19, NULL, NULL, 'Public Domain', NULL),
+-- ('/feasts/our-lady-of-fatima.webp',      'TODO title', 'painting', 'TODO alt', 'TODO creator', 'TODO date', NULL, 'TODO repository', NULL, 'Public Domain', NULL),
+('/feasts/visitation.webp',              'The Visitation', 'painting', 'The Visitation', 'Mariotto Albertinelli', '1503', 16, 'Uffizi Gallery', NULL, 'Public Domain', NULL),
+('/feasts/our-lady-of-mount-carmel.webp','Our Lady of Mount Carmel', 'painting', 'Our Lady of Mount Carmel', 'Pietro Novelli', '1641', 17, 'Museo diocesano di Palermo', NULL, 'Public Domain', NULL),
+-- ('/feasts/assumption.webp',              'TODO title', 'painting', 'TODO alt', 'TODO creator', 'TODO date', NULL, 'TODO repository', NULL, 'Public Domain', NULL),
+-- ('/feasts/queenship-of-mary.webp',       'TODO title', 'painting', 'TODO alt', 'TODO creator', 'TODO date', NULL, 'TODO repository', NULL, 'Public Domain', NULL),
+('/feasts/nativity-of-mary.webp',        'Nativity of Mary', 'painting', 'Nativity of Mary', 'Andrea di Bartolo', '1405', 15, 'National Gallery of Art (Washington)', NULL, 'Public Domain', NULL),
+('/feasts/holy-name-of-mary.webp',       'The Holy Name of Mary', 'painting', 'The Holy Name of Mary', 'Cristóbal de Villalpando', '1690-1700', 17, 'Basilica of Our Lady of Guadalupe', NULL, 'Public Domain', NULL),
+('/feasts/our-lady-of-sorrows.webp',     'Our Lady of Sorrows', 'painting', 'Our Lady of Sorrows', 'Quinten Metsys', '1509-1511', 16, 'National Museum of Ancient Art (Lisbon)', NULL, 'Public Domain', NULL),
+('/feasts/our-lady-of-the-rosary.webp',  'Our Lady of the Rosary', 'painting', 'Our Lady of the Rosary', 'Simone Cantarini', '1640', 17, 'Pinacoteca Tosio Martinengo', NULL, 'Public Domain', NULL),
+-- ('/feasts/presentation-of-mary.webp',    'TODO title', 'painting', 'TODO alt', 'TODO creator', 'TODO date', NULL, 'TODO repository', NULL, 'Public Domain', NULL),
+-- ('/feasts/immaculate-conception.webp',   'TODO title', 'painting', 'TODO alt', 'TODO creator', 'TODO date', NULL, 'TODO repository', NULL, 'Public Domain', NULL),
+-- ('/feasts/our-lady-of-loreto.webp',      'TODO title', 'painting', 'TODO alt', 'TODO creator', 'TODO date', NULL, 'TODO repository', NULL, 'Public Domain', NULL),
+('/feasts/our-lady-of-guadalupe.webp',   'Our Lady of Guadalupe', 'painting', 'Our Lady of Guadalupe', NULL, '16th Century', 16, NULL, NULL, 'Public Domain', NULL),
+('/feasts/mary-mother-of-the-church.webp','The Virgin and Child Enthroned among Angels and Saints', 'painting', 'The Virgin and Child Enthroned among Angels and Saints', 'Benozzo Gozzoli', '1461-1462', 15, 'National Gallery (London)', NULL, 'Public Domain', NULL),
+('/feasts/immaculate-heart-of-mary.webp','Immaculate Heart of Mary', 'painting', 'Immaculate Heart of Mary', 'Miguel Ballejo y Mandirano', '1750', 18, 'Bowers Museum in Santa Ana (California)', NULL, 'Public Domain', NULL),
+
+-- =========================
+-- Dedications
+-- =========================
+('/feasts/saint-mary-major.webp',        'Coronation of the Virgin', 'mosaic', 'Coronation of the Virgin', 'Jacopo Torriti', '1295', 13, 'Santa Maria Maggiore (Rome)', NULL, 'Public Domain', NULL),
+('/feasts/lateran-basilica.webp',        'Lateran Basilica Fresco', 'fresco', 'Lateran Basilica Fresco', NULL, '5th Century', 5, 'Basilica of St. John Lateran (Rome)', NULL, 'Public Domain', NULL),
+('/feasts/basilicas-peter-and-paul.webp','Saint Peter & Saint Paul', 'painting', 'Saint Peter & Saint Paul', 'Jusepe de Ribera', '1616', 17, 'Museum of Fine Arts of Strasbourg', NULL, 'Public Domain', NULL),
+
+-- =========================
+-- Other
+-- =========================
+-- ('/feasts/guardian-angels.webp',         'TODO title', 'painting', 'TODO alt', 'TODO creator', 'TODO date', NULL, 'TODO repository', NULL, 'Public Domain', NULL),
+('/feasts/all-souls.webp',               'Saint Lawrence Liberates Souls from Purgatory', 'painting', 'Saint Lawrence Liberates Souls from Purgatory', 'Lorenzo di Niccolò', '1412', 15, 'Brooklyn Museum', NULL, 'Public Domain', NULL),
+('/feasts/all-saints.webp',              'The Forerunners of Christ with Saints and Martyrs', 'painting', 'All Saints', 'Fra Angelico', '1420', 15, 'National Gallery (London)', NULL, 'Public Domain', NULL),
+('/feasts/seven-servites.webp',          'The Madonna with the Seven Founders of the Servite Order ', 'painting', 'The Seven Holy Founders of the Servite Order', 'Agostino Masucci', '1728', 18, 'Art Institute of Chicago', NULL, 'Public Domain', NULL),
+('/feasts/first-martyrs.webp', 			 'Nero''s Torches', 'painting', 'The First Martyrs of the Church of Rome', 'Henryk Siemiradzki', '1876', 19, 'National Museum in Kraków', NULL, 'Public Domain', NULL),
+('/feasts/three-archangels.webp', 		 'The Three Archangels', 'painting', 'The Three Archangels', 'Marco d''Oggiono', '1516', 16, 'Pinacoteca di Brera', NULL, 'Public Domain', NULL),
+('/feasts/angel-guardian.webp', 'Guardian Angel', 'painting', 'Guardian Angel', 'Pierre de Cortone', '1656', 17, 'Galleria Nazionale d''Arte Antica', NULL, 'Public Domain', NULL)
+ON CONFLICT (image_url) DO NOTHING;
+
+
 COMMIT;
