@@ -1,4 +1,5 @@
 use crate::core::error::ApiError;
+use crate::core::facets::Facet;
 use sqlx::types::Json;
 use sqlx::PgPool;
 
@@ -309,6 +310,33 @@ pub async fn list_all_images(
 //     Ok(rows)
 // }
 
+/// Bind order, identical everywhere this clause is used:
+/// $1 q, $2 language_code, $3 saint_id, $4 artist, $5 museum, $6 century
+const WALL_WHERE: &str = r#"
+    (
+        $1::text IS NULL
+        OR i.title ILIKE '%' || $1 || '%'
+        OR i.creator ILIKE '%' || $1 || '%'
+        OR EXISTS (
+            SELECT 1
+            FROM saint_images si
+            JOIN saints s ON s.id = si.saint_id
+            LEFT JOIN saint_translations st
+                ON st.saint_id = s.id AND st.locale_code = $2
+            WHERE si.image_id = i.id
+              AND (s.default_name ILIKE '%' || $1 || '%'
+                   OR st.name ILIKE '%' || $1 || '%')
+        )
+    )
+    AND ($3::int IS NULL OR EXISTS (
+        SELECT 1 FROM saint_images si
+        WHERE si.image_id = i.id AND si.saint_id = $3
+    ))
+    AND ($4::text IS NULL OR i.creator = $4)
+    AND ($5::text IS NULL OR i.repository = $5)
+    AND ($6::int IS NULL OR i.century = $6)
+"#;
+
 pub async fn list_wall_images(
     pool: &PgPool,
     params: &ImageListParams<'_>,
@@ -456,52 +484,120 @@ pub async fn count_wall_images(
     museum: Option<&str>,
     century: Option<i32>,
 ) -> Result<i64, ApiError> {
-    let row = sqlx::query!(
-        r#"
-        SELECT COUNT(*) AS count
-        FROM images i
-        WHERE
-            (
-                $1::text IS NULL
-                OR i.title ILIKE '%' || $1 || '%'
-                OR i.creator ILIKE '%' || $1 || '%'
-                OR EXISTS (
-                    SELECT 1
-                    FROM saint_images si
-                    JOIN saints s
-                        ON s.id = si.saint_id
-                    LEFT JOIN saint_translations st
-                        ON st.saint_id = s.id
-                        AND st.locale_code = $2
-                    WHERE si.image_id = i.id
-                      AND (
-                          s.default_name ILIKE '%' || $1 || '%'
-                          OR st.name ILIKE '%' || $1 || '%'
-                      )
-                )
-            )
-            AND (
-                $3::int IS NULL
-                OR EXISTS (
-                    SELECT 1
-                    FROM saint_images si
-                    WHERE si.image_id = i.id
-                      AND si.saint_id = $3
-                )
-            )
-            AND ($4::text IS NULL OR i.creator = $4)
-            AND ($5::text IS NULL OR i.repository = $5)
-            AND ($6::int IS NULL OR i.century = $6)
-        "#,
-        q,
-        language_code,
-        saint_id,
-        artist,
-        museum,
-        century,
-    )
-    .fetch_one(pool)
-    .await?;
+    let sql = format!("SELECT COUNT(*) FROM images i WHERE {WALL_WHERE}");
+    let count = sqlx::query_scalar::<_, i64>(&sql)
+        .bind(q)
+        .bind(language_code)
+        .bind(saint_id)
+        .bind(artist)
+        .bind(museum)
+        .bind(century)
+        .fetch_one(pool)
+        .await?;
+    Ok(count)
+}
 
-    Ok(row.count.unwrap_or(0))
+#[derive(Clone, Copy)]
+pub struct WallFilters<'a> {
+    pub language_code: &'a str,
+    pub q: Option<&'a str>,
+    pub saint_id: Option<i32>,
+    pub artist: Option<&'a str>,
+    pub museum: Option<&'a str>,
+    pub century: Option<i32>,
+}
+pub async fn facet_wall_museums(pool: &PgPool, f: WallFilters<'_>) -> Result<Vec<Facet>, ApiError> {
+    let sql = format!(
+        r#"
+        SELECT i.repository AS value, i.repository AS label, COUNT(*) AS count
+        FROM images i
+        WHERE {WALL_WHERE} AND i.repository IS NOT NULL
+        GROUP BY i.repository
+        ORDER BY count DESC, label ASC
+        LIMIT 30
+    "#
+    );
+    let rows = sqlx::query_as::<_, Facet>(&sql)
+        .bind(f.q)
+        .bind(f.language_code)
+        .bind(f.saint_id)
+        .bind(f.artist)
+        .bind(None::<&str>) // $5 museum: ignored, see rule above
+        .bind(f.century)
+        .fetch_all(pool)
+        .await?;
+    Ok(rows)
+}
+pub async fn facet_wall_artists(pool: &PgPool, f: WallFilters<'_>) -> Result<Vec<Facet>, ApiError> {
+    let sql = format!(
+        r#"
+		SELECT i.creator AS value, i.creator AS label, COUNT(*) AS count
+		FROM images i
+		WHERE {WALL_WHERE} AND i.creator IS NOT NULL
+		GROUP BY i.creator
+		ORDER BY count DESC, label ASC
+		LIMIT 30
+	"#
+    );
+    let rows = sqlx::query_as::<_, Facet>(&sql)
+        .bind(f.q)
+        .bind(f.language_code)
+        .bind(f.saint_id)
+        .bind(None::<&str>) // $4 artist: ignored, see rule above
+        .bind(f.museum)
+        .bind(f.century)
+        .fetch_all(pool)
+        .await?;
+    Ok(rows)
+}
+pub async fn facet_wall_centuries(
+    pool: &PgPool,
+    f: WallFilters<'_>,
+) -> Result<Vec<Facet>, ApiError> {
+    let sql = format!(
+        r#"
+		SELECT i.century::text AS value, i.century::text AS label, COUNT(*) AS count
+		FROM images i
+		WHERE {WALL_WHERE} AND i.century IS NOT NULL
+		GROUP BY i.century
+		ORDER BY i.century ASC
+	"#
+    );
+    let rows = sqlx::query_as::<_, Facet>(&sql)
+        .bind(f.q)
+        .bind(f.language_code)
+        .bind(f.saint_id)
+        .bind(f.artist)
+        .bind(f.museum)
+        .bind(None::<i32>) // $6 century: ignored, see rule above
+        .fetch_all(pool)
+        .await?;
+    Ok(rows)
+}
+pub async fn facet_wall_saints(pool: &PgPool, f: WallFilters<'_>) -> Result<Vec<Facet>, ApiError> {
+    let sql = format!(
+        r#"
+		SELECT s.id::text AS value,
+       COALESCE(st.name, s.default_name) AS label,
+       COUNT(DISTINCT i.id) AS count
+		FROM images i
+		JOIN saint_images si ON si.image_id = i.id
+		JOIN saints s ON s.id = si.saint_id
+		LEFT JOIN saint_translations st ON st.saint_id = s.id AND st.locale_code = $2
+		WHERE {WALL_WHERE}
+		GROUP BY s.id, st.name, s.default_name
+		ORDER BY count DESC, label ASC
+		LIMIT 30
+	"#
+    );
+    let rows = sqlx::query_as::<_, Facet>(&sql)
+        .bind(f.q)
+        .bind(f.language_code)
+        .bind(None::<i32>) // $3 saint_id: ignored, see rule above
+        .bind(f.artist)
+        .bind(f.museum)
+        .bind(f.century)
+        .fetch_all(pool)
+        .await?;
+    Ok(rows)
 }

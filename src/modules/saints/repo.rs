@@ -1,19 +1,63 @@
+use crate::core::facets::Facet;
 use sqlx::PgPool;
 
 use super::dto::{SaintDetail, SaintImage, SaintListItem, SaintListItemComplete, SaintPlace};
 
 use crate::core::error::ApiError;
 
+/// Bind order, identical everywhere this clause is used:
+/// $1 language_code, $2 q, $3 century, $4 attribute codes (text[]), $5 patronage codes (text[])
+/// Requires `saints s` and `saint_translations st` to be joined in the FROM.
+const SAINTS_WHERE: &str = r#"
+    (
+        $2::text IS NULL
+        OR s.default_name ILIKE '%' || $2 || '%'
+        OR st.name ILIKE '%' || $2 || '%'
+    )
+    AND ($3::smallint IS NULL OR s.century = $3)
+    AND (
+        $4::text[] IS NULL
+        OR NOT EXISTS (
+            SELECT 1 FROM unnest($4::text[]) AS wanted(code)
+            WHERE NOT EXISTS (
+                SELECT 1
+                FROM saint_attributes sa
+                JOIN attributes a ON a.id = sa.attribute_id
+                WHERE sa.saint_id = s.id AND a.code = wanted.code
+            )
+        )
+    )
+    AND (
+        $5::text[] IS NULL
+        OR NOT EXISTS (
+            SELECT 1 FROM unnest($5::text[]) AS wanted(code)
+            WHERE NOT EXISTS (
+                SELECT 1
+                FROM saint_patronages sp
+                JOIN patronages p ON p.id = sp.patronage_id
+                WHERE sp.saint_id = s.id AND p.code = wanted.code
+            )
+        )
+    )
+"#;
+
+#[derive(Clone, Copy)]
+pub struct SaintsFilters<'a> {
+    pub language_code: &'a str,
+    pub q: Option<&'a str>,
+    pub century: Option<i16>,
+    pub attributes: Option<&'a [String]>,
+    pub patronages: Option<&'a [String]>,
+}
+
 pub async fn list_saints_complete(
     pool: &PgPool,
+    f: SaintsFilters<'_>,
+    sort: Option<&str>,
     limit: i32,
     offset: i32,
-    language_code: &str,
-    q: Option<&str>,
-    sort: Option<&str>,
-    century: Option<i16>,
 ) -> Result<Vec<SaintListItemComplete>, ApiError> {
-    let rows = sqlx::query_as::<_, SaintListItemComplete>(
+    let sql = format!(
         r#"
         SELECT
             s.id,
@@ -24,8 +68,7 @@ pub async fn list_saints_complete(
             img.image_url
         FROM saints s
         LEFT JOIN saint_translations st
-            ON st.saint_id = s.id
-            AND st.locale_code = $1
+            ON st.saint_id = s.id AND st.locale_code = $1
         LEFT JOIN LATERAL (
             SELECT i.image_url
             FROM saint_images si
@@ -34,47 +77,30 @@ pub async fn list_saints_complete(
             ORDER BY si.is_primary DESC, si.sort_order ASC
             LIMIT 1
         ) img ON TRUE
-        WHERE
-            (
-                $2::text IS NULL
-                OR s.default_name ILIKE '%' || $2 || '%'
-                OR st.name ILIKE '%' || $2 || '%'
-            )
-            AND (
-                $3::smallint IS NULL
-                OR s.century = $3
-            )
+        WHERE {SAINTS_WHERE}
         ORDER BY
-            CASE
-                WHEN $4 = 'century_asc' THEN s.century
-            END ASC,
-            CASE
-                WHEN $4 = 'century_desc' THEN s.century
-            END DESC,
-            CASE WHEN $4 = 'name_asc'
-					THEN s.default_name
-			END ASC,
-            CASE
-                WHEN $4 = 'name_desc' THEN s.default_name
-            END DESC,
-            CASE WHEN $4 = 'random'
-                    THEN RANDOM()
-            END,
-            CASE WHEN $4 IN ('century_asc', 'century_desc')
-            	THEN s.default_name
-            END ASC
-        LIMIT $5
-        OFFSET $6
-        "#,
-    )
-    .bind(language_code) // $1
-    .bind(q) // $2
-    .bind(century) // $3
-    .bind(sort) // $4
-    .bind(limit) // $5
-    .bind(offset) // $6
-    .fetch_all(pool)
-    .await?;
+            CASE WHEN $6 = 'century_asc'  THEN s.century END ASC,
+            CASE WHEN $6 = 'century_desc' THEN s.century END DESC,
+            CASE WHEN $6 = 'name_asc'     THEN s.default_name END ASC,
+            CASE WHEN $6 = 'name_desc'    THEN s.default_name END DESC,
+            CASE WHEN $6 = 'random'       THEN RANDOM() END,
+            CASE WHEN $6 IN ('century_asc', 'century_desc') THEN s.default_name END ASC
+        LIMIT $7
+        OFFSET $8
+        "#
+    );
+
+    let rows = sqlx::query_as::<_, SaintListItemComplete>(&sql)
+        .bind(f.language_code) // $1
+        .bind(f.q) // $2
+        .bind(f.century) // $3
+        .bind(f.attributes) // $4
+        .bind(f.patronages) // $5
+        .bind(sort) // $6
+        .bind(limit) // $7
+        .bind(offset) // $8
+        .fetch_all(pool)
+        .await?;
 
     Ok(rows)
 }
@@ -258,38 +284,130 @@ pub async fn get_saint_patronages(
     Ok(rows)
 }
 
-pub async fn count_saints(
-    pool: &PgPool,
-    language_code: &str,
-    q: Option<&str>,
-    century: Option<i16>,
-) -> Result<i64, sqlx::Error> {
-    let total = sqlx::query_scalar::<_, i64>(
+pub async fn count_saints(pool: &PgPool, f: SaintsFilters<'_>) -> Result<i64, ApiError> {
+    let sql = format!(
         r#"
         SELECT COUNT(*)
         FROM saints s
         LEFT JOIN saint_translations st
-            ON st.saint_id = s.id
-            AND st.locale_code = $1
-        WHERE
-            (
-                $2::text IS NULL
-                OR s.default_name ILIKE '%' || $2 || '%'
-                OR st.name ILIKE '%' || $2 || '%'
-            )
-            AND (
-                $3::smallint IS NULL
-                OR s.century = $3
-            )
-        "#,
-    )
-    .bind(language_code)
-    .bind(q)
-    .bind(century)
-    .fetch_one(pool)
-    .await?;
+            ON st.saint_id = s.id AND st.locale_code = $1
+        WHERE {SAINTS_WHERE}
+        "#
+    );
+
+    let total = sqlx::query_scalar::<_, i64>(&sql)
+        .bind(f.language_code)
+        .bind(f.q)
+        .bind(f.century)
+        .bind(f.attributes)
+        .bind(f.patronages)
+        .fetch_one(pool)
+        .await?;
 
     Ok(total)
+}
+/// Single-select facet: its own filter ($3) is ignored so the user can switch century.
+pub async fn facet_saints_centuries(
+    pool: &PgPool,
+    f: SaintsFilters<'_>,
+) -> Result<Vec<Facet>, ApiError> {
+    let sql = format!(
+        r#"
+        SELECT s.century::text AS value, s.century::text AS label, COUNT(*) AS count
+        FROM saints s
+        LEFT JOIN saint_translations st
+            ON st.saint_id = s.id AND st.locale_code = $1
+        WHERE {SAINTS_WHERE} AND s.century IS NOT NULL
+        GROUP BY s.century
+        ORDER BY s.century ASC
+        "#
+    );
+
+    let rows = sqlx::query_as::<_, Facet>(&sql)
+        .bind(f.language_code)
+        .bind(f.q)
+        .bind(None::<i16>) // $3 century: ignored
+        .bind(f.attributes)
+        .bind(f.patronages)
+        .fetch_all(pool)
+        .await?;
+
+    Ok(rows)
+}
+
+/// Multi-select AND facet: the attribute filter ($4) is kept, so once "VIRGIN" is
+/// selected the other titles shrink to those that co-occur with it.
+/// `category` is one of "title" | "order" | "symbol".
+pub async fn facet_saints_attributes(
+    pool: &PgPool,
+    f: SaintsFilters<'_>,
+    category: &str,
+) -> Result<Vec<Facet>, ApiError> {
+    let sql = format!(
+        r#"
+        SELECT a.code AS value,
+               COALESCE(at.label, a.code) AS label,
+               COUNT(DISTINCT s.id) AS count
+        FROM saints s
+        LEFT JOIN saint_translations st
+            ON st.saint_id = s.id AND st.locale_code = $1
+        JOIN saint_attributes sa ON sa.saint_id = s.id
+        JOIN attributes a ON a.id = sa.attribute_id AND a.category = $6
+        LEFT JOIN attribute_translations at
+            ON at.attribute_id = a.id AND at.locale_code = $1
+        WHERE {SAINTS_WHERE}
+        GROUP BY a.code, at.label
+        ORDER BY count DESC, label ASC
+        "#
+    );
+
+    let rows = sqlx::query_as::<_, Facet>(&sql)
+        .bind(f.language_code)
+        .bind(f.q)
+        .bind(f.century)
+        .bind(f.attributes)
+        .bind(f.patronages)
+        .bind(category) // $6
+        .fetch_all(pool)
+        .await?;
+
+    Ok(rows)
+}
+
+/// Multi-select AND facet: the patronage filter ($5) is kept.
+pub async fn facet_saints_patronages(
+    pool: &PgPool,
+    f: SaintsFilters<'_>,
+) -> Result<Vec<Facet>, ApiError> {
+    let sql = format!(
+        r#"
+        SELECT p.code AS value,
+               COALESCE(pt.label, p.code) AS label,
+               COUNT(DISTINCT s.id) AS count
+        FROM saints s
+        LEFT JOIN saint_translations st
+            ON st.saint_id = s.id AND st.locale_code = $1
+        JOIN saint_patronages sp ON sp.saint_id = s.id
+        JOIN patronages p ON p.id = sp.patronage_id
+        LEFT JOIN patronage_translations pt
+            ON pt.patronage_id = p.id AND pt.locale_code = $1
+        WHERE {SAINTS_WHERE}
+        GROUP BY p.code, pt.label
+        ORDER BY count DESC, label ASC
+        LIMIT 30
+        "#
+    );
+
+    let rows = sqlx::query_as::<_, Facet>(&sql)
+        .bind(f.language_code)
+        .bind(f.q)
+        .bind(f.century)
+        .bind(f.attributes)
+        .bind(f.patronages)
+        .fetch_all(pool)
+        .await?;
+
+    Ok(rows)
 }
 
 pub async fn get_random_saints_images(

@@ -1,3 +1,4 @@
+use crate::core::facets::Facet;
 use serde::{Deserialize, Serialize};
 use sqlx::types::Json;
 
@@ -50,10 +51,20 @@ pub struct ImagesListWallQuery {
     pub century: Option<i32>,
     pub sort: Option<String>, // e.g., "name_asc", "name_desc", "created_at_asc", "created_at_desc"
     pub seed: Option<String>, // For randomization, if needed
+    pub include_facets: Option<String>,
+}
+#[derive(Debug, Serialize)]
+pub struct WallFacets {
+    pub saint: Vec<Facet>,
+    pub artist: Vec<Facet>,
+    pub century: Vec<Facet>,
+    pub museum: Vec<Facet>,
 }
 #[derive(Debug, Serialize)]
 pub struct ImageListWallResponse {
     pub data: Vec<SaintImageDetailed>,
     pub total: i32,
     pub has_more: bool,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub facets: Option<WallFacets>,
 }

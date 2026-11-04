@@ -1,3 +1,4 @@
+use crate::core::facets::Facet;
 use sqlx::FromRow;
 
 // use chrono::NaiveDate;
@@ -30,7 +31,21 @@ pub struct SaintsListQuery {
     pub language_code: Option<String>,
     pub century: Option<i16>,
     pub q: Option<String>,
-    pub sort: Option<String>, // e.g., "name_asc", "name_desc", "birth_year_asc", "birth_year_desc"
+    pub sort: Option<String>,
+    /// Comma-separated attribute codes, e.g. "VIRGIN,MARTYR". All must match (AND).
+    pub attributes: Option<String>,
+    /// Comma-separated patronage codes. All must match (AND).
+    pub patronages: Option<String>,
+    pub include_facets: Option<String>,
+}
+
+#[derive(Debug, Serialize)]
+pub struct SaintFacets {
+    pub century: Vec<Facet>,
+    pub title: Vec<Facet>,
+    pub order: Vec<Facet>,
+    pub symbol: Vec<Facet>,
+    pub patronage: Vec<Facet>,
 }
 
 #[derive(Debug, Serialize, FromRow)]

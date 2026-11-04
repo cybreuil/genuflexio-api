@@ -1,3 +1,4 @@
+use crate::core::facets::wants_facets;
 use actix_web::{web, HttpResponse};
 use sqlx::PgPool;
 
@@ -20,6 +21,9 @@ pub async fn list_saints_complete(
         query.century,
         query.q.as_deref(),
         query.sort.as_deref(),
+        query.attributes.as_deref(),
+        query.patronages.as_deref(),
+        wants_facets(query.include_facets.as_deref()),
     )
     .await?;
 

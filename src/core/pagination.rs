@@ -56,7 +56,7 @@ pub struct Paginated<T, C = ()> {
     pub data: Vec<T>,
 }
 
-impl<T> Paginated<T> {
+impl<T, C> Paginated<T, C> {
     /// Constructs a paginated response from pagination parameters and data.
     pub fn new(pagination: &Pagination, total: i32, data: Vec<T>) -> Self {
         Self {
@@ -80,9 +80,7 @@ impl<T> Paginated<T> {
             data: Vec::new(),
         }
     }
-}
 
-impl<T, C> Paginated<T, C> {
     pub fn with_context(pagination: &Pagination, total: i32, context: C, data: Vec<T>) -> Self {
         Self {
             page: pagination.page,

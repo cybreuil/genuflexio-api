@@ -1,7 +1,7 @@
 use sqlx::PgPool;
 
 use super::{
-    dto::{SaintDetailResponse, SaintImage, SaintListItem, SaintListItemComplete},
+    dto::{SaintDetailResponse, SaintFacets, SaintImage, SaintListItem, SaintListItemComplete},
     repo,
 };
 use crate::core::{
@@ -18,12 +18,24 @@ pub async fn list_saints_complete(
     century: Option<i16>,
     q: Option<&str>,
     sort: Option<&str>,
-) -> Result<Paginated<SaintListItemComplete>, ApiError> {
-    // If lang is invalid, we don't go for db
+    attributes: Option<&str>,
+    patronages: Option<&str>,
+    include_facets: bool,
+) -> Result<Paginated<SaintListItemComplete, SaintFacets>, ApiError> {
     let lang = validation::resolve_locale(language_code)?;
 
+    let attributes = split_codes(attributes);
+    let patronages = split_codes(patronages);
+    let filters = repo::SaintsFilters {
+        language_code: lang,
+        q,
+        century,
+        attributes: attributes.as_deref(),
+        patronages: patronages.as_deref(),
+    };
+
     let p = Pagination::new(Some(page), Some(per_page));
-    let total = repo::count_saints(pool, lang, q, century).await? as i32;
+    let total = repo::count_saints(pool, filters).await? as i32;
 
     if total == 0 {
         return Ok(Paginated::empty(&p));
@@ -36,10 +48,42 @@ pub async fn list_saints_complete(
         )));
     }
 
-    let data =
-        repo::list_saints_complete(pool, p.per_page, p.offset, lang, q, sort, century).await?;
+    let data = repo::list_saints_complete(pool, filters, sort, p.per_page, p.offset).await?;
 
-    Ok(Paginated::new(&p, total, data))
+    if !include_facets {
+        return Ok(Paginated::new(&p, total, data));
+    }
+
+    let (century, title, order, symbol, patronage) = tokio::try_join!(
+        repo::facet_saints_centuries(pool, filters),
+        repo::facet_saints_attributes(pool, filters, "title"),
+        repo::facet_saints_attributes(pool, filters, "order"),
+        repo::facet_saints_attributes(pool, filters, "symbol"),
+        repo::facet_saints_patronages(pool, filters),
+    )?;
+
+    Ok(Paginated::with_context(
+        &p,
+        total,
+        SaintFacets {
+            century,
+            title,
+            order,
+            symbol,
+            patronage,
+        },
+        data,
+    ))
+}
+
+/// "VIRGIN, martyr,," → Some(["VIRGIN", "MARTYR"]). Empty or absent → None.
+fn split_codes(raw: Option<&str>) -> Option<Vec<String>> {
+    let codes: Vec<String> = raw?
+        .split(',')
+        .map(|c| c.trim().to_uppercase())
+        .filter(|c| !c.is_empty())
+        .collect();
+    (!codes.is_empty()).then_some(codes)
 }
 
 pub async fn list_all_saints(pool: &PgPool) -> Result<Vec<SaintListItem>, ApiError> {

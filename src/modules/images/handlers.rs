@@ -1,8 +1,8 @@
 use actix_web::{web, HttpResponse};
-use sqlx::query;
 use sqlx::PgPool;
 
 use crate::core::error::ApiError;
+use crate::core::facets::wants_facets;
 
 use super::dto;
 use super::service;
@@ -48,6 +48,7 @@ pub async fn list_wall_images(
         query.century,
         query.sort.as_deref(),
         query.seed.as_deref(),
+        wants_facets(query.include_facets.as_deref()),
     )
     .await?;
 

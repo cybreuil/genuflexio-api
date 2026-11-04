@@ -57,6 +57,7 @@ pub async fn list_wall_images(
     century: Option<i32>,
     sort: Option<&str>,
     seed: Option<&str>,
+    include_facets: bool,
 ) -> Result<dto::ImageListWallResponse, ApiError> {
     let lang = validation::resolve_locale(language_code)?;
 
@@ -72,6 +73,15 @@ pub async fn list_wall_images(
     };
 
     let seed = seed.unwrap_or("");
+
+    let filters = repo::WallFilters {
+        language_code: lang,
+        q,
+        saint_id,
+        artist,
+        museum,
+        century,
+    };
 
     let total =
         repo::count_wall_images(pool, lang, q, saint_id, artist, museum, century).await? as i32;
@@ -93,12 +103,28 @@ pub async fn list_wall_images(
     )
     .await?;
 
-    let loaded = offset + data.len() as i32;
-    let has_more = loaded < total;
+    let facets = if include_facets && total > 0 {
+        let (saint, artist, century, museum) = tokio::try_join!(
+            repo::facet_wall_saints(pool, filters),
+            repo::facet_wall_artists(pool, filters),
+            repo::facet_wall_centuries(pool, filters),
+            repo::facet_wall_museums(pool, filters),
+        )?;
+        Some(dto::WallFacets {
+            saint,
+            artist,
+            century,
+            museum,
+        })
+    } else {
+        None
+    };
 
+    let loaded = offset + data.len() as i32;
     Ok(dto::ImageListWallResponse {
         data,
         total,
-        has_more,
+        has_more: loaded < total,
+        facets,
     })
 }
