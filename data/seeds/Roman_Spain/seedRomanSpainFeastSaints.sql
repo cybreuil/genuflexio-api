@@ -51,11 +51,6 @@ FROM (VALUES
    'saint-peter-of-saint-joseph-de-betancur',
    'primary'),
 
-  -- Apr 26 – Saint Isidore of Seville, Bishop and Doctor
-  ('saint-isidore-of-seville-bishop-and-doctor',
-   'saint-isidore-of-seville',
-   'primary'),
-
   -- May 15 – Saint Isidore the Farmer
   ('saint-isidore-the-farmer',
    'saint-isidore-the-farmer',

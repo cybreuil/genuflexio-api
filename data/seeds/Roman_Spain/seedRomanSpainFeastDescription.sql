@@ -46,13 +46,6 @@ His holiness reveals the missionary heart of the Church: evangelization is credi
 
 For believers today, this celebration invites generous service, simplicity of life, and a missionary charity that makes the nearness of God visible.
 $desc$),
-('saint-isidore-of-seville-bishop-and-doctor', $desc$
-This celebration honors Saint Isidore of Seville, bishop and doctor of the Church, whose learning served the preservation and transmission of Christian wisdom. He sought to gather knowledge in the light of faith and place it at the service of the Church.
-
-Isidore's witness shows that study can become charity when it helps believers understand creation, history, language, and doctrine as gifts ordered toward truth. His pastoral learning formed minds and strengthened ecclesial life.
-
-For the faithful today, this celebration encourages disciplined study, love for sacred doctrine, and the humble use of knowledge for evangelization and service.
-$desc$),
 ('saint-isidore-the-farmer', $desc$
 This celebration honors Saint Isidore the Farmer, whose sanctity was lived in ordinary labor, prayer, and family life. His memory shows that holiness is not confined to cloisters or public office, but can flourish in fields, homes, and daily responsibilities.
 
@@ -223,13 +216,6 @@ Sa sainteté révèle le cœur missionnaire de l'Église : l'évangélisation de
 
 Pour les croyants aujourd'hui, cette célébration invite au service généreux, à la simplicité de vie et à une charité missionnaire qui rend visible la proximité de Dieu.
 $desc$),
-('saint-isidore-of-seville-bishop-and-doctor', $desc$
-Cette célébration honore saint Isidore de Séville, évêque et docteur de l'Église, dont le savoir servit la conservation et la transmission de la sagesse chrétienne. Il chercha à rassembler la connaissance à la lumière de la foi et à la mettre au service de l'Église.
-
-Le témoignage d'Isidore montre que l'étude peut devenir charité lorsqu'elle aide les croyants à comprendre la création, l'histoire, le langage et la doctrine comme des dons ordonnés à la vérité. Son savoir pastoral forma les esprits et fortifia la vie ecclésiale.
-
-Pour les fidèles aujourd'hui, cette célébration encourage l'étude disciplinée, l'amour de la doctrine sacrée et l'usage humble de la connaissance pour l'évangélisation et le service.
-$desc$),
 ('saint-isidore-the-farmer', $desc$
 Cette célébration honore saint Isidore le Laboureur, dont la sainteté fut vécue dans le travail ordinaire, la prière et la vie familiale. Sa mémoire montre que la sainteté n'est pas réservée aux cloîtres ou aux charges publiques, mais peut fleurir dans les champs, les maisons et les responsabilités quotidiennes.
 
@@ -399,13 +385,6 @@ Haec celebratio sanctum Petrum a Sancto Iosepho de Betancur, missionarium et pau
 Sanctitas eius cor missionarium Ecclesiae revelat: evangelizatio credibilis fit cum Evangelium compassione, humilitate et personali sacrificio annuntiatur. Amor Christi in eo hospitalitas pro minimis factus est.
 
 Fideles hodie haec celebratio ad generosum servitium, vitae simplicitatem et caritatem missionariam Dei propinquitatem visibilem facientem invitat.
-$desc$),
-('saint-isidore-of-seville-bishop-and-doctor', $desc$
-Haec celebratio sanctum Isidorum Hispalensem, episcopum et Ecclesiae doctorem, honorat, cuius doctrina sapientiae christianae servandae et tradendae inservivit. Scientiam sub lumine fidei colligere et Ecclesiae servire studuit.
-
-Testimonium Isidori ostendit studium caritatem fieri posse, cum credentes adiuvat creationem, historiam, linguam et doctrinam ut dona ad veritatem ordinata intellegere. Doctrina eius pastoralis mentes formavit et vitam ecclesialem roboravit.
-
-Fideles hodie haec celebratio ad studium disciplinatum, amorem doctrinae sacrae et humilem scientiae usum pro evangelizatione et servitio hortatur.
 $desc$),
 ('saint-isidore-the-farmer', $desc$
 Haec celebratio sanctum Isidorum Agricolam honorat, cuius sanctitas in labore cotidiano, oratione et vita familiari vixit. Eius memoria ostendit sanctitatem non claustris aut officiis publicis contineri, sed in agris, domibus et officiis quotidianis florere posse.

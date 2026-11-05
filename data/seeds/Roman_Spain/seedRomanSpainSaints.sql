@@ -86,16 +86,6 @@ INSERT INTO saints (
   (SELECT id FROM places WHERE code='ANTIGUA-GUATEMALA')
 ),
 (
-  'saint-isidore-of-seville',
-  'Saint Isidore of Seville',
-  560, NULL, NULL, TRUE,
-  636, 4, 4, FALSE,
-  7,
-  NULL,
-  (SELECT id FROM places WHERE code='SEVILLE'),
-  (SELECT id FROM places WHERE code='SEVILLE')
-),
-(
   'saint-isidore-the-farmer',
   'Saint Isidore the Farmer',
   1070, NULL, NULL, TRUE,
@@ -311,13 +301,6 @@ JOIN (VALUES
   '1626–1667'
 ),
 (
-  'saint-isidore-of-seville',
-  'Saint Isidore of Seville',
-  'Bishop and Doctor of the Church',
-  '',
-  'c. 560–636'
-),
-(
   'saint-isidore-the-farmer',
   'Saint Isidore the Farmer',
   'Farmer and patron saint of Madrid',
@@ -495,13 +478,6 @@ JOIN (VALUES
   '1626–1667'
 ),
 (
-  'saint-isidore-of-seville',
-  'Saint Isidore de Séville',
-  'Évêque et docteur de l''Église',
-  '',
-  'v. 560–636'
-),
-(
   'saint-isidore-the-farmer',
   'Saint Isidore le Laboureur',
   'Laboureur et patron de Madrid',
@@ -677,13 +653,6 @@ JOIN (VALUES
   'Missionarius et fundator Fratrum Bethlehemitarum',
   '',
   '1626–1667'
-),
-(
-  'saint-isidore-of-seville',
-  'Sanctus Isidorus Hispalensis',
-  'Episcopus et Ecclesiae Doctor',
-  '',
-  'c. 560–636'
 ),
 (
   'saint-isidore-the-farmer',

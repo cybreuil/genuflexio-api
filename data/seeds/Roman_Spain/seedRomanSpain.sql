@@ -43,9 +43,6 @@ INSERT INTO feasts (slug, default_name, feast_type) VALUES
  'Saint Peter of Saint Joseph de Betancur, Missionary',
  'sanctoral'),
 
-('saint-isidore-of-seville-bishop-and-doctor',
- 'Saint Isidore of Seville, Bishop and Doctor of the Church',
- 'sanctoral'),
 
 ('saint-isidore-the-farmer',
  'Saint Isidore the Farmer',
@@ -150,8 +147,6 @@ JOIN (VALUES
   ('saint-peter-of-saint-joseph-de-betancur-missionary',
    'Saint Peter of Saint Joseph de Betancur, Missionary'),
 
-  ('saint-isidore-of-seville-bishop-and-doctor',
-   'Saint Isidore of Seville, Bishop and Doctor of the Church'),
 
   ('saint-isidore-the-farmer',
    'Saint Isidore the Farmer'),
@@ -237,8 +232,6 @@ JOIN (VALUES
   ('saint-peter-of-saint-joseph-de-betancur-missionary',
    'Saint Pierre de Saint-Joseph de Betancur, missionnaire'),
 
-  ('saint-isidore-of-seville-bishop-and-doctor',
-   'Saint Isidore de Séville, évêque et docteur de l''Église'),
 
   ('saint-isidore-the-farmer',
    'Saint Isidore le Laboureur'),
@@ -324,8 +317,6 @@ JOIN (VALUES
   ('saint-peter-of-saint-joseph-de-betancur-missionary',
    'Sanctus Petrus a Sancto Iosepho de Betancur, missionarius'),
 
-  ('saint-isidore-of-seville-bishop-and-doctor',
-   'Sanctus Isidorus Hispalensis, episcopus et Ecclesiae Doctor'),
 
   ('saint-isidore-the-farmer',
    'Sanctus Isidorus Agricola'),
@@ -440,9 +431,6 @@ JOIN (VALUES
   ('saint-peter-of-saint-joseph-de-betancur-missionary',
    4, 24, 'MEM_OBL', 'WHITE', 'normal', false),
 
-  ('saint-isidore-of-seville-bishop-and-doctor',
-   4, 26, 'FEAST', 'WHITE', 'normal', false),
-
   ('saint-isidore-the-farmer',
    5, 15, 'MEM_OBL', 'WHITE', 'normal', false),
 
@@ -553,6 +541,10 @@ JOIN (VALUES
   ('saints-cyril-monk-and-methodius-bishop',
    2, 14, 'FEAST', 'WHITE', 'normal', false,
    'Patrons of Europe; Calendario Propio de España'),
+
+   ('saint-isidore-bishop-and-doctor-of-the-church',
+   4, 26, 'FEAST', 'WHITE', 'normal', false,
+   'Calendario Propio de España'),
 
   ('saint-catherine-of-siena-virgin-and-doctor-of-the-church',
    4, 29, 'FEAST', 'WHITE', 'normal', false,

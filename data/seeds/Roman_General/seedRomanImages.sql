@@ -1440,6 +1440,8 @@ INSERT INTO images (
 ('/feasts/our-lady-of-czestochowa.webp', 'Our Lady of Częstochowa', 'icon', 'Our Lady of Częstochowa Icon', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 -- Our Lady of La Salette (SEP 19)
 ('/feasts/our-lady-of-la-salette.webp', 'Our Lady of La Salette', 'painting', 'Our Lady of La Salette Painting', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/feasts/our-lady-of-mercy.webp', 'Our Lady of Mercy', 'painting', 'Our Lady of Mercy Painting', 'Francisco de Zurbarán', '1644-1655', 17, 'Museum of Fine Arts of Seville', NULL, 'Public Domain', NULL),
+('/feasts/our-lady-of-the-pillar.webp', 'Our Lady of the Pillar', 'painting', 'Our Lady of the Pillar Painting', 'Ramón Bayeu', '1780', 18, 'Lázaro Galdiano Museum', NULL, 'Public Domain', NULL),
 
 
 -- =========================
