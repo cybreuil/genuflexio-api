@@ -56,9 +56,6 @@ echo "✅ Roman saint biographies seeded."
 run_sql "$ROOT_DIR/data/seeds/Roman_General/seedRomanImages.sql"
 echo "✅ Roman images seeded."
 
-run_sql "$ROOT_DIR/data/seeds/Roman_General/updateRomanImageDimensions.sql"
-echo "✅ Roman image dimensions added."
-
 run_sql "$ROOT_DIR/data/seeds/Roman_General/seedRomanSaintImages.sql"
 echo "✅ Roman saint images seeded."
 
@@ -108,9 +105,6 @@ echo "✅ Roman France saint patronages seeded."
 run_sql "$ROOT_DIR/data/seeds/Roman_France/seedRomanFranceImages.sql"
 echo "✅ Roman France images seeded."
 
-run_sql "$ROOT_DIR/data/seeds/Roman_France/updateRomanFranceImageDimensions.sql"
-echo "✅ Roman France image dimensions added."
-
 run_sql "$ROOT_DIR/data/seeds/Roman_France/seedRomanFranceSaintImages.sql"
 echo "✅ Roman France saint images seeded."
 
@@ -150,6 +144,12 @@ echo "✅ Roman Spain saint images seeded."
 run_sql "$ROOT_DIR/data/seeds/Roman_Spain/seedRomanSpainFeastImages.sql"
 echo "✅ Roman Spain feast cover images seeded."
 
+run_sql "$ROOT_DIR/data/seeds/Roman_Spain/seedRomanSpainSaintAttributes.sql"
+echo "✅ Roman Spain saint attributes seeded."
+
+run_sql "$ROOT_DIR/data/seeds/Roman_Spain/seedRomanSpainSaintPatronages.sql"
+echo "✅ Roman Spain saint patronages seeded."
+
 # Portugal Calendar seeding
 run_sql "$ROOT_DIR/data/seeds/Roman_Portugal/seedRomanPortugal.sql"
 echo "✅ Roman Portugal seeded."
@@ -163,14 +163,17 @@ echo "✅ Roman Portugal Feast Saints links seeded."
 run_sql "$ROOT_DIR/data/seeds/Roman_Portugal/seedRomanPortugalImages.sql"
 echo "✅ Roman Portugal images seeded."
 
-run_sql "$ROOT_DIR/data/seeds/Roman_Portugal/updateRomanPortugalImageDimensions.sql"
-echo "✅ Roman Portugal image dimensions added."
-
 run_sql "$ROOT_DIR/data/seeds/Roman_Portugal/seedRomanPortugalSaintImages.sql"
 echo "✅ Roman Portugal saint images seeded."
 
 run_sql "$ROOT_DIR/data/seeds/Roman_Portugal/seedRomanPortugalFeastImages.sql"
 echo "✅ Roman Portugal feast cover images seeded."
+
+run_sql "$ROOT_DIR/data/seeds/Roman_Portugal/seedRomanPortugalSaintAttributes.sql"
+echo "✅ Roman Portugal saint attributes seeded."
+
+run_sql "$ROOT_DIR/data/seeds/Roman_Portugal/seedRomanPortugalSaintPatronages.sql"
+echo "✅ Roman Portugal saint patronages seeded."
 
 # Poland Calendar seeding (!! Need to be after Spain cause we seed a feast we need for Poland)
 run_sql "$ROOT_DIR/data/seeds/Roman_Poland/seedRomanPoland.sql"
@@ -190,5 +193,29 @@ echo "✅ Roman Poland feast cover images seeded."
 
 run_sql "$ROOT_DIR/data/seeds/Roman_Poland/seedRomanPolandSaintImages.sql"
 echo "✅ Roman Poland saint images seeded."
+
+run_sql "$ROOT_DIR/data/seeds/Roman_Poland/seedRomanPolandSaintAttributes.sql"
+echo "✅ Roman Poland saint attributes seeded."
+
+run_sql "$ROOT_DIR/data/seeds/Roman_Poland/seedRomanPolandSaintPatronages.sql"
+echo "✅ Roman Poland saint patronages seeded."
+
+#UPDATE Image SIZES IMPORTANT for MANSORY
+run_sql "$ROOT_DIR/data/seeds/updateImageDimensions/updateRomanGeneralImageDimensions.sql"
+echo "✅ Roman General image dimensions updated."
+
+run_sql "$ROOT_DIR/data/seeds/updateImageDimensions/updateRomanFranceImageDimensions.sql"
+echo "✅ Roman France image dimensions updated."
+
+run_sql "$ROOT_DIR/data/seeds/updateImageDimensions/updateRomanSpainImageDimensions.sql"
+echo "✅ Roman Spain image dimensions updated."
+
+run_sql "$ROOT_DIR/data/seeds/updateImageDimensions/updateRomanPortugalImageDimensions.sql"
+echo "✅ Roman Portugal image dimensions updated."
+
+run_sql "$ROOT_DIR/data/seeds/updateImageDimensions/updateRomanPolandImageDimensions.sql"
+echo "✅ Roman Poland image dimensions updated."
+
+# ALL DONE !
 
 echo "✅ DB seeded."
