@@ -38,6 +38,8 @@ JOIN (
 ('saint-mary', '/feasts/our-lady-of-guadalupe.webp', 31, FALSE, 'subject'),
 ('saint-mary', '/feasts/mary-mother-of-the-church.webp', 32, FALSE, 'subject'),
 ('saint-mary', '/feasts/immaculate-heart-of-mary.webp', 33, FALSE, 'subject'),
+('saint-mary', '/feasts/our-lady-of-la-salette.webp', 34, FALSE, 'subject'),
+('saint-mary', '/feasts/our-lady-of-czestochowa.webp', 35, FALSE, 'subject'),
 ('saint-joseph', '/feasts/epiphany.webp', 8, FALSE, 'subject'),
 ('saint-joseph', '/feasts/christmas-vigil.webp', 9, FALSE, 'subject'),
 ('saint-joseph', '/feasts/nativity.webp', 10, FALSE, 'subject'),

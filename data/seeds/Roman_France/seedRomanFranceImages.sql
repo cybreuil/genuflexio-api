@@ -25,8 +25,6 @@ INSERT INTO images (
   source_url
 ) VALUES
 
--- Our Lady of La Salette (SEP 19)
-('/saints/fr/our-lady-of-la-salette.webp', 'Our Lady of La Salette', 'painting', 'Our Lady of La Salette Painting', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 
 -- Saint Genevieve (JAN 3)
 ('/saints/fr/saint-genevieve_le-brun.webp', 'Saint Genevieve', 'painting', 'Saint Genevieve Painting', 'Élisabeth Vigée Le Brun', '1821', 19, 'Musée du domaine royal de Marly', NULL, 'Public Domain', NULL),

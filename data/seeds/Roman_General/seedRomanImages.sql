@@ -60,6 +60,7 @@ INSERT INTO images (
 ('/saints/saint-mary_champaigne.webp', 'Madonna and Child', 'painting', 'Madonna and Child Painting', 'Philippe de Champaigne', '17th Century', 17, 'Musée des Beaux-Arts d''Agen', NULL, 'Attribution-ShareAlike 4.0 International', NULL),
 ('/saints/saint-mary_gentileschi_annunciation.webp', 'The Annunciation', 'painting', 'The Annunciation Painting', 'Orazio Gentileschi', '1623', 17, 'Galleria Sabauda', NULL, 'Public Domain', NULL),
 
+
 -- Saint Joseph
 ('/saints/saint-joseph_guido-reni.webp', 'Saint Joseph and the Christ Child', 'painting', 'Saint Joseph and the Christ Child Painting', 'Guido Reni', '1640', 17, 'Museum of Fine Arts of Houston', NULL, 'Public Domain', NULL),
 ('/saints/saint-joseph_carracci.webp', 'The Holy Family', 'painting', 'The Holy Family Painting', 'Annibale Carracci', '1596-1597', 16, 'Borghese Gallery', NULL, 'Public Domain', NULL),
@@ -1345,25 +1346,9 @@ INSERT INTO images (
 -- Saint Sylvester I
 ('/saints/saint-sylvester-i.webp', 'Saint Sylvester I', 'painting', 'Saint Sylvester I Painting', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 ('/saints/saint-sylvester-i_2.webp', 'Saint Sylvester I', 'painting', 'Saint Sylvester I Painting', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
-('/saints/saint-sylvester-i_icon.webp', 'Saint Sylvester I', 'icon', 'Saint Sylvester I Icon', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL);
+('/saints/saint-sylvester-i_icon.webp', 'Saint Sylvester I', 'icon', 'Saint Sylvester I Icon', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 
--- =============================================================
 -- FEAST IMAGES
--- =============================================================
-
-INSERT INTO images (
-  image_url,
-  title,
-  image_type,
-  alt_text,
-  creator,
-  date_label,
-  century,
-  repository,
-  credit,
-  license,
-  source_url
-) VALUES
 
 -- =========================
 -- Fixed feasts of the Lord
@@ -1452,6 +1437,10 @@ INSERT INTO images (
 ('/feasts/our-lady-of-guadalupe.webp',   'Our Lady of Guadalupe', 'painting', 'Our Lady of Guadalupe', NULL, '16th Century', 16, NULL, NULL, 'Public Domain', NULL),
 ('/feasts/mary-mother-of-the-church.webp','The Virgin and Child Enthroned among Angels and Saints', 'painting', 'The Virgin and Child Enthroned among Angels and Saints', 'Benozzo Gozzoli', '1461-1462', 15, 'National Gallery (London)', NULL, 'Public Domain', NULL),
 ('/feasts/immaculate-heart-of-mary.webp','Immaculate Heart of Mary', 'painting', 'Immaculate Heart of Mary', 'Miguel Ballejo y Mandirano', '1750', 18, 'Bowers Museum in Santa Ana (California)', NULL, 'Public Domain', NULL),
+('/feasts/our-lady-of-czestochowa.webp', 'Our Lady of Częstochowa', 'icon', 'Our Lady of Częstochowa Icon', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+-- Our Lady of La Salette (SEP 19)
+('/feasts/our-lady-of-la-salette.webp', 'Our Lady of La Salette', 'painting', 'Our Lady of La Salette Painting', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+
 
 -- =========================
 -- Dedications

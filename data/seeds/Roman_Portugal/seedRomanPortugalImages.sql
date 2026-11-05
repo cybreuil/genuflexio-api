@@ -18,6 +18,8 @@ INSERT INTO images (
   license,
   source_url
 ) VALUES
+-- The Five Wounds of Christ
+('/feasts/the-five-wounds-of-christ.webp', 'The Five Wounds of Christ', 'painting', 'The Five Wounds of Christ Painting', 'Mario Minniti', '17th Century', 17, NULL, NULL, 'Public Domain', NULL),
 
 -- Blessed Gonçalo de Amarante
 ('/saints/pt/blessed-goncalo-de-amarante_andre.webp', 'Blessed Gonçalo de Amarante', 'painting', 'Blessed Gonçalo de Amarante Painting', 'António André', '1618-1625', 17, 'Museum of Aveiro (Portugal)', NULL, 'Public Domain', NULL),
