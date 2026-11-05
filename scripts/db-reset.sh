@@ -114,6 +114,9 @@ echo "✅ Roman France image dimensions added."
 run_sql "$ROOT_DIR/data/seeds/Roman_France/seedRomanFranceSaintImages.sql"
 echo "✅ Roman France saint images seeded."
 
+run_sql "$ROOT_DIR/data/seeds/Roman_France/seedRomanFranceFeastImages.sql"
+echo "✅ Roman France feast cover images seeded."
+
 # Traditionnal
 # run_sql "$ROOT_DIR/data/seeds/Roman_1960/seedRoman1960.sql"
 # echo "✅ Roman 1960 seeded."
@@ -166,5 +169,14 @@ echo "✅ Roman Poland saints seeded."
 
 run_sql "$ROOT_DIR/data/seeds/Roman_Poland/seedRomanPolandFeastSaints.sql"
 echo "✅ Roman Poland Feast Saints links seeded."
+
+run_sql "$ROOT_DIR/data/seeds/Roman_Poland/seedRomanPolandImages.sql"
+echo "✅ Roman Poland images seeded."
+
+run_sql "$ROOT_DIR/data/seeds/Roman_Poland/seedRomanPolandFeastImages.sql"
+echo "✅ Roman Poland feast cover images seeded."
+
+run_sql "$ROOT_DIR/data/seeds/Roman_Poland/seedRomanPolandSaintImages.sql"
+echo "✅ Roman Poland saint images seeded."
 
 echo "✅ DB seeded."

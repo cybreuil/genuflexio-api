@@ -19,6 +19,9 @@ INSERT INTO images (
   source_url
 ) VALUES
 
+-- Our Lady of Częstochowa (AUG 26)
+('/saints/pl/our-lady-of-czestochowa.webp', 'Our Lady of Częstochowa', 'icon', 'Our Lady of Częstochowa Icon', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+
 -- Saint Józef Sebastian Pelczar
 ('/saints/pl/saint-jozef-sebastian-pelczar.webp', 'Saint Józef Sebastian Pelczar', 'painting', 'Saint Józef Sebastian Pelczar Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 ('/saints/pl/saint-jozef-sebastian-pelczar_2.webp', 'Saint Józef Sebastian Pelczar', 'photograph', 'Saint Józef Sebastian Pelczar Photograph', NULL, '20th Century', 20, NULL, NULL, 'Public Domain', NULL),
