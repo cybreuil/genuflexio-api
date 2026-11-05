@@ -1,4 +1,4 @@
--- Dimensions extraites depuis le seed : ../data/seeds/Roman_General/seedRomanImages.sql
+-- Dimensions extraites depuis le seed : ../genuflexio-api/data/seeds/Roman_General/seedRomanImages.sql
 -- Vérifier les chemins avant exécution.
 BEGIN;
 
@@ -186,6 +186,7 @@ UPDATE images SET width = 1168, height = 1600 WHERE image_url = '/saints/saint-c
 UPDATE images SET width = 1475, height = 1600 WHERE image_url = '/saints/saint-charles-borromeo_tiepolo.webp';
 UPDATE images SET width = 357, height = 480 WHERE image_url = '/saints/saint-charles-lwanga-and-companions_2.webp';
 UPDATE images SET width = 614, height = 768 WHERE image_url = '/saints/saint-charles-lwanga-and-companions_icon.webp';
+UPDATE images SET width = 950, height = 1385 WHERE image_url = '/saints/saint-charles-lwanga-and-companions.webp';
 UPDATE images SET width = 297, height = 382 WHERE image_url = '/saints/saint-christopher-magallanes_2.webp';
 UPDATE images SET width = 197, height = 270 WHERE image_url = '/saints/saint-christopher-magallanes_picture.webp';
 UPDATE images SET width = 615, height = 939 WHERE image_url = '/saints/saint-christopher-magallanes.webp';
@@ -316,11 +317,13 @@ UPDATE images SET width = 410, height = 567 WHERE image_url = '/saints/saint-hed
 UPDATE images SET width = 1000, height = 1427 WHERE image_url = '/saints/saint-hedwig.webp';
 UPDATE images SET width = 560, height = 827 WHERE image_url = '/saints/saint-henry_2.webp';
 UPDATE images SET width = 977, height = 1600 WHERE image_url = '/saints/saint-henry_baer.webp';
+UPDATE images SET width = 1256, height = 1600 WHERE image_url = '/saints/saint-henry_fuhrich.webp';
 UPDATE images SET width = 826, height = 1056 WHERE image_url = '/saints/saint-henry.webp';
 UPDATE images SET width = 333, height = 478 WHERE image_url = '/saints/saint-hilary-of-poitiers_cremiere.webp';
 UPDATE images SET width = 847, height = 1000 WHERE image_url = '/saints/saint-hilary-of-poitiers.webp';
 UPDATE images SET width = 1095, height = 1600 WHERE image_url = '/saints/saint-hildegard-of-bingen_2.webp';
 UPDATE images SET width = 800, height = 1181 WHERE image_url = '/saints/saint-hildegard-of-bingen_3.webp';
+UPDATE images SET width = 681, height = 1024 WHERE image_url = '/saints/saint-hildegard-of-bingen_gasparro.webp';
 UPDATE images SET width = 1094, height = 1600 WHERE image_url = '/saints/saint-hildegard-of-bingen.webp';
 UPDATE images SET width = 1280, height = 1600 WHERE image_url = '/saints/saint-hippolytus-of-rome_icon.webp';
 UPDATE images SET width = 1600, height = 1200 WHERE image_url = '/saints/saint-hippolytus-of-rome_julien_martyr.webp';
@@ -503,7 +506,9 @@ UPDATE images SET width = 1000, height = 1187 WHERE image_url = '/saints/saint-l
 UPDATE images SET width = 1178, height = 1511 WHERE image_url = '/saints/saint-louis_signol.webp';
 UPDATE images SET width = 901, height = 1200 WHERE image_url = '/saints/saint-louis_thevenin.webp';
 UPDATE images SET width = 1000, height = 1222 WHERE image_url = '/saints/saint-louis_vien.webp';
+UPDATE images SET width = 1180, height = 1600 WHERE image_url = '/saints/saint-lucy_caravaggio.webp';
 UPDATE images SET width = 1108, height = 1600 WHERE image_url = '/saints/saint-lucy_garofalo.webp';
+UPDATE images SET width = 1067, height = 1600 WHERE image_url = '/saints/saint-lucy_pires.webp';
 UPDATE images SET width = 1093, height = 1600 WHERE image_url = '/saints/saint-lucy_ricci.webp';
 UPDATE images SET width = 1168, height = 1600 WHERE image_url = '/saints/saint-lucy_zurbaran.webp';
 UPDATE images SET width = 1574, height = 1600 WHERE image_url = '/saints/saint-luke_borovikovsky.webp';
@@ -521,6 +526,7 @@ UPDATE images SET width = 846, height = 1600 WHERE image_url = '/saints/saint-ma
 UPDATE images SET width = 915, height = 1200 WHERE image_url = '/saints/saint-margaret-of-scotland_largillierre.webp';
 UPDATE images SET width = 695, height = 900 WHERE image_url = '/saints/saint-margaret-of-scotland.webp';
 UPDATE images SET width = 293, height = 436 WHERE image_url = '/saints/saint-maria-goretti_soffredini.webp';
+UPDATE images SET width = 600, height = 1029 WHERE image_url = '/saints/saint-maria-goretti.webp';
 UPDATE images SET width = 1575, height = 1600 WHERE image_url = '/saints/saint-mark-evangelist_borovikovsky.webp';
 UPDATE images SET width = 1236, height = 1600 WHERE image_url = '/saints/saint-mark-evangelist_hals.webp';
 UPDATE images SET width = 1600, height = 1581 WHERE image_url = '/saints/saint-mark-evangelist_tintoretto_finding.webp';
@@ -571,6 +577,7 @@ UPDATE images SET width = 871, height = 1600 WHERE image_url = '/saints/saint-ma
 UPDATE images SET width = 976, height = 1600 WHERE image_url = '/saints/saint-mary_velazquez_adoration.webp';
 UPDATE images SET width = 1202, height = 1600 WHERE image_url = '/saints/saint-mary_velazquez.webp';
 UPDATE images SET width = 1600, height = 1511 WHERE image_url = '/saints/saint-matthew_caravaggio_calling.webp';
+UPDATE images SET width = 1600, height = 1457 WHERE image_url = '/saints/saint-matthew_caravaggio_martyr.webp';
 UPDATE images SET width = 1022, height = 1600 WHERE image_url = '/saints/saint-matthew_caravaggio.webp';
 UPDATE images SET width = 1310, height = 1600 WHERE image_url = '/saints/saint-matthew_dyck.webp';
 UPDATE images SET width = 1250, height = 1600 WHERE image_url = '/saints/saint-matthew_hals.webp';
@@ -598,6 +605,7 @@ UPDATE images SET width = 684, height = 1000 WHERE image_url = '/saints/saint-ni
 UPDATE images SET width = 1154, height = 1600 WHERE image_url = '/saints/saint-nicholas_icon.webp';
 UPDATE images SET width = 1233, height = 1600 WHERE image_url = '/saints/saint-nicholas_moretto.webp';
 UPDATE images SET width = 1524, height = 1600 WHERE image_url = '/saints/saint-nicholas_repin.webp';
+UPDATE images SET width = 779, height = 1200 WHERE image_url = '/saints/saint-nicholas_titian.webp';
 UPDATE images SET width = 494, height = 738 WHERE image_url = '/saints/saint-norbert_crayer.webp';
 UPDATE images SET width = 1286, height = 1600 WHERE image_url = '/saints/saint-norbert_hoey.webp';
 UPDATE images SET width = 1005, height = 1500 WHERE image_url = '/saints/saint-norbert_rubens.webp';
@@ -804,6 +812,7 @@ UPDATE images SET width = 1065, height = 1600 WHERE image_url = '/saints/saint-v
 UPDATE images SET width = 910, height = 1200 WHERE image_url = '/saints/saint-vincent-de-paul_gerome.webp';
 UPDATE images SET width = 566, height = 686 WHERE image_url = '/saints/saint-vincent-de-paul_tours.webp';
 UPDATE images SET width = 1218, height = 1600 WHERE image_url = '/saints/saint-vincent-ferrer_cano.webp';
+UPDATE images SET width = 550, height = 961 WHERE image_url = '/saints/saint-vincent-ferrer_juanes.webp';
 UPDATE images SET width = 756, height = 1200 WHERE image_url = '/saints/saint-vincent-ferrer_miranda.webp';
 UPDATE images SET width = 727, height = 1000 WHERE image_url = '/saints/saint-vincent-ferrer_pace.webp';
 UPDATE images SET width = 672, height = 1012 WHERE image_url = '/saints/saint-vincent-of-saragossa_school-of-francisco-ribalta.webp';

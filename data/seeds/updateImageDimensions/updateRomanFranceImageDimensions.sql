@@ -1,4 +1,4 @@
--- Dimensions extraites depuis le seed : ./data/seeds/Roman_France/seedRomanFranceImages.sql
+-- Dimensions extraites depuis le seed : ../genuflexio-api/data/seeds/Roman_France/seedRomanFranceImages.sql
 -- Vérifier les chemins avant exécution.
 BEGIN;
 

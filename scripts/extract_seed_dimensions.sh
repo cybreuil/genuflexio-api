@@ -3,7 +3,9 @@
 set -uo pipefail
 
 # Usage :
-# ./extract_seed_dimensions.sh seedImages.sql public image_dimensions.sql
+# ./scripts/extract_seed_dimensions.sh ../genuflexio-api/data/seeds/Roman_General/seedRomanImages.sql ../genuflexio-app/public/ ./data/seeds/updateImageDimensions/updateRomanGeneralImageDimensions.sql
+# ./scripts/extract_seed_dimensions.sh ../genuflexio-api/data/seeds/Roman_France/seedRomanFranceImages.sql ../genuflexio-app/public/ ./data/seeds/updateImageDimensions/updateRomanFranceImageDimensions.sql
+# etc...
 
 SEED_FILE="${1:-}"
 IMAGE_DIR="${2:-}"
