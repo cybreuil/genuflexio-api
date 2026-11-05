@@ -138,7 +138,7 @@ echo "✅ Roman Spain Feast Saints links seeded."
 run_sql "$ROOT_DIR/data/seeds/Roman_Spain/seedRomanSpainImages.sql"
 echo "✅ Roman Spain images seeded."
 
-run_sql "$ROOT_DIR/data/seeds/Roman_Spain/updateRomanSpainSaintImages.sql"
+run_sql "$ROOT_DIR/data/seeds/Roman_Spain/seedRomanSpainSaintImages.sql"
 echo "✅ Roman Spain saint images seeded."
 
 run_sql "$ROOT_DIR/data/seeds/Roman_Spain/seedRomanSpainFeastImages.sql"
