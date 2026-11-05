@@ -1437,7 +1437,7 @@ INSERT INTO images (
 ('/feasts/our-lady-of-guadalupe.webp',   'Our Lady of Guadalupe', 'painting', 'Our Lady of Guadalupe', NULL, '16th Century', 16, NULL, NULL, 'Public Domain', NULL),
 ('/feasts/mary-mother-of-the-church.webp','The Virgin and Child Enthroned among Angels and Saints', 'painting', 'The Virgin and Child Enthroned among Angels and Saints', 'Benozzo Gozzoli', '1461-1462', 15, 'National Gallery (London)', NULL, 'Public Domain', NULL),
 ('/feasts/immaculate-heart-of-mary.webp','Immaculate Heart of Mary', 'painting', 'Immaculate Heart of Mary', 'Miguel Ballejo y Mandirano', '1750', 18, 'Bowers Museum in Santa Ana (California)', NULL, 'Public Domain', NULL),
-('/feasts/our-lady-of-czestochowa.webp', 'Our Lady of Częstochowa', 'icon', 'Our Lady of Częstochowa Icon', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/feasts/our-lady-of-czestochowa.webp', 'Our Lady of Częstochowa', 'icon', 'Our Lady of Częstochowa Icon', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 -- Our Lady of La Salette (SEP 19)
 ('/feasts/our-lady-of-la-salette.webp', 'Our Lady of La Salette', 'painting', 'Our Lady of La Salette Painting', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 
@@ -1458,8 +1458,7 @@ INSERT INTO images (
 ('/feasts/seven-servites.webp',          'The Madonna with the Seven Founders of the Servite Order ', 'painting', 'The Seven Holy Founders of the Servite Order', 'Agostino Masucci', '1728', 18, 'Art Institute of Chicago', NULL, 'Public Domain', NULL),
 ('/feasts/first-martyrs.webp', 			 'Nero''s Torches', 'painting', 'The First Martyrs of the Church of Rome', 'Henryk Siemiradzki', '1876', 19, 'National Museum in Kraków', NULL, 'Public Domain', NULL),
 ('/feasts/three-archangels.webp', 		 'The Three Archangels', 'painting', 'The Three Archangels', 'Marco d''Oggiono', '1516', 16, 'Pinacoteca di Brera', NULL, 'Public Domain', NULL),
-('/feasts/angel-guardian.webp', 'Guardian Angel', 'painting', 'Guardian Angel', 'Pierre de Cortone', '1656', 17, 'Galleria Nazionale d''Arte Antica', NULL, 'Public Domain', NULL)
-ON CONFLICT (image_url) DO NOTHING;
+('/feasts/angel-guardian.webp', 'Guardian Angel', 'painting', 'Guardian Angel', 'Pierre de Cortone', '1656', 17, 'Galleria Nazionale d''Arte Antica', NULL, 'Public Domain', NULL);
 
 
 COMMIT;
