@@ -54,7 +54,7 @@ INSERT INTO images (
 ('/saints/pl/saint-zdzislawa_2.webp', 'Saint Zdzislawa', 'stained_glass', 'Saint Zdzislawa Stained Glass', NULL, NULL, NULL, 'Sts. Cyril and Methodius''s church in Olomouc (Czech Republic)', NULL, 'Attribution 4.0 International', NULL),
 
 -- Saint Hedwig the Queen
-('/saints/pl/saint-hedwig-the-queen_simmler.webp', 'Queen Jadwiga''s oath', 'painting', 'Saint Hedwig the Queen Painting', 'Józef Simmler', '1867', 19, 'National Museum in Warsaw', NULL, 'Public Domain', NULL),
+('/saints/pl/saint-hedwig-the-queen_simmler.webp', 'Queen Jadwiga''s oath', 'painting', 'Saint Hedwig the Queen Painting', 'Józef Simmler', '1867', 19, 'National Museum (Warsaw)', NULL, 'Public Domain', NULL),
 ('/saints/pl/saint-hedwig-the-queen_bacciarelli.webp', 'Saint Hedwig the Queen', 'painting', 'Saint Hedwig the Queen Painting', 'Marcello Bacciarelli', '1768-1771', 18, 'Royal Castle (Warsaw)', NULL, 'Public Domain', NULL),
 ('/saints/pl/saint-hedwig-the-queen.webp', 'Saint Hedwig the Queen', 'painting', 'Saint Hedwig the Queen Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 
@@ -121,4 +121,43 @@ INSERT INTO images (
 ('/saints/pl/blessed-maria-stella-&-her-ten-companions_3.webp', 'Eleven Nuns of Nowogrodek', 'photograph', 'Blessed Maria Stella Photograph', NULL, '20th Century', 20, NULL, NULL, 'Public Domain', NULL),
 
 -- Saint Melchior Grodziecki
--- WIP
+('/saints/pl/saint-melchior-grodziecki.webp', 'Saint Melchior Grodziecki', 'painting', 'Saint Melchior Grodziecki Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+
+-- Saint Zygmunt Szczęsny Feliński
+('/saints/pl/saint-zygmunt-szczesny-felinski.webp', 'Saint Zygmunt Szczęsny Feliński', 'painting', 'Saint Zygmunt Szczęsny Feliński Painting', NULL, '2009', 21, NULL, 'Public Domain', NULL),
+('/saints/pl/saint-zygmunt-szczesny-felinski_2.webp', 'Saint Zygmunt Szczęsny Feliński', 'photograph', 'Saint Zygmunt Szczęsny Feliński Photograph', NULL, '19th Century', 19, NULL, NULL, 'Public Domain', NULL),
+
+-- Saint Stanislaw Kostka
+('/saints/pl/saint-stanislaw-kostka.webp', 'Saint Stanisław Kostka', 'painting', 'Saint Stanisław Kostka Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/saint-stanislaw-kostka_2.webp', 'Saint Stanisław Kostka', 'painting', 'Saint Stanisław Kostka Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+
+-- Blessed John Beyzym
+('/saints/pl/blessed-john-beyzym.webp', 'Blessed John Beyzym', 'photograph', 'Blessed John Beyzym Photograph', NULL, '1900', 19, NULL, 'Public Domain', NULL),
+
+-- Blessed Honorat Koźmiński
+('/saints/pl/blessed-honorat-kozminski.webp', 'Blessed Honorat Koźmiński', 'painting', 'Blessed Honorat Koźmiński Painting', NULL, '20th Century', 20, NULL, 'Public Domain', NULL),
+('/saints/pl/blessed-honorat-kozminski_2.webp', 'Blessed Honorat Koźmiński', 'photograph', 'Blessed Honorat Koźmiński Photograph', NULL, '20th Century', 20, NULL, 'Public Domain', NULL),
+
+-- Saint Hedwig of Poland
+('/saints/pl/saint-hedwig-of-poland_bacciarelli.webp', 'Saint Hedwig of Poland', 'painting', 'Saint Hedwig of Poland Painting', 'Marcello Bacciarelli', '1768-1771', 18, 'Royal Castle (Warsaw)', 'Public Domain', NULL),
+('/saints/pl/saint-hedwig-of-poland_simmler.webp', 'Saint Hedwig of Poland', 'painting', 'Saint Hedwig of Poland Painting', 'Józef Simmler', '1867', 19, 'National Museum (Warsaw)', 'Public Domain', NULL),
+
+-- Saint Joseph Bilczewski
+('/saints/pl/saint-joseph-bilczewski.webp', 'Saint Joseph Bilczewski', 'painting', 'Saint Joseph Bilczewski Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/saint-joseph-bilczewski_2.webp', 'Saint Joseph Bilczewski', 'photograph', 'Saint Joseph Bilczewski Photograph', NULL, '20th Century', 20, NULL, 'Public Domain', NULL),
+
+-- saints-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland
+('/saints/pl/saint-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland.webp', 'Saints Benedykt, Jan, Mateusz, Isaak and Krystyn', 'painting', 'Saints Benedykt, Jan, Mateusz, Isaak and Krystyn Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+
+-- Blessed Karolina Kózkówna
+('/saints/pl/blessed-karolina-kozkowna.webp', 'Blessed Karolina Kózkówna', 'painting', 'Blessed Karolina Kózkówna Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+
+-- Saint Rafal Kalinowski
+('/saints/pl/saint-rafal-kalinowski.webp', 'Saint Rafal Kalinowski', 'painting', 'Saint Rafal Kalinowski Painting', NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+
+-- Saint Barbara
+('/saints/pl/saint-barbara.webp', 'Saint Barbara', 'painting', 'Saint Barbara Painting', 'Wilhelm von Schadow', '1844', 18, 'Clemens Sels Museum', 'Public Domain', NULL),
+('/saints/pl/saint-barbara_ratgeb.webp', 'Saint Barbara', 'painting', 'Saint Barbara Painting', 'Jerg Ratgeb', '1510', 16, 'Stadtkirche Schwaigern', 'Public Domain', NULL),
+('/saints/pl/saint-barbara_requena.webp', 'Saint Barbara', 'painting', 'Saint Barbara Painting', 'Gaspar Requena', '16th Century', 16, 'Almodí de Xàtiva', 'Public Domain', NULL);
+
+COMMIT;
