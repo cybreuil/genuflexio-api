@@ -141,8 +141,8 @@ JOIN (
 	('saint-hedwig-of-poland', '/saints/pl/saint-hedwig-of-poland_simmler.webp', 2, FALSE, 'subject'),
 
 	-- Saint Josef Bilczewski
-	('saint-josef-bilczewski', '/saints/pl/saint-joseph-bilczewski.webp', 1, TRUE, 'subject'),
-	('saint-josef-bilczewski', '/saints/pl/saint-joseph-bilczewski_2.webp', 2, FALSE, 'subject'),
+	('saint-josef-bilczewski', '/saints/pl/saint-josef-bilczewski.webp', 1, TRUE, 'subject'),
+	('saint-josef-bilczewski', '/saints/pl/saint-josef-bilczewski_2.webp', 2, FALSE, 'subject'),
 
 	-- Saint Benedykt of Poland
 	('saint-benedykt-of-poland', '/saints/pl/saints-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland.webp', 1, TRUE, 'subject'),
