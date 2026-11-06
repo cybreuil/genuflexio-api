@@ -17,7 +17,7 @@ struct IndexResponse {
 pub async fn index() -> HttpResponse {
     let response = IndexResponse {
         name: "Genuflexio - A catholic API.",
-        version: "0.1.0",
+        version: "0.9.0",
         description: "Lightweight RESTful API for Catholic saints and celebrations.",
         github: "https://github.com/cybreuil",
         notes: "API written in Rust using Actix-web, serving PostgreSQL data with SQLx.",
