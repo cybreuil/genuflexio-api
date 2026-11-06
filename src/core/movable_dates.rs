@@ -75,35 +75,36 @@ impl TryFrom<&str> for MovableBase {
     }
 }
 
-impl MovableBase {
-    pub fn as_str(&self) -> &'static str {
-        match self {
-            Self::EasterSunday => "EASTER_SUNDAY",
-            Self::PalmSunday => "PALM_SUNDAY",
-            Self::DivineMercySunday => "DIVINE_MERCY_SUNDAY",
-            Self::Pentecost => "PENTECOST",
-            Self::TrinitySunday => "TRINITY_SUNDAY",
-            Self::SecondSundayAfterPentecost => "SECOND_SUNDAY_AFTER_PENTECOST",
-            Self::FirstAdventSunday => "FIRST_ADVENT_SUNDAY",
-            Self::SundayAfterEpiphany => "SUNDAY_AFTER_EPIPHANY",
-            Self::SundayWithinChristmasOctaveOrDec30 => "SUNDAY_WITHIN_CHRISTMAS_OCTAVE_OR_DEC30",
-            Self::BaptismOfTheLord => "BAPTISM_OF_THE_LORD",
-            Self::AshWednesday => "ASH_WEDNESDAY",
-            Self::HolyThursday => "HOLY_THURSDAY",
-            Self::AscensionSunday => "ASCENSION_SUNDAY",
-            Self::Epiphany => "EPIPHANY",
-            Self::SaintJoseph => "SAINT_JOSEPH",
-            Self::Annunciation => "ANNUNCIATION",
-            Self::ImmaculateConception => "IMMACULATE_CONCEPTION",
-            Self::SeptuagesimaSunday => "SEPTUAGESIMA_SUNDAY",
-            Self::PassionSunday => "PASSION_SUNDAY",
-            Self::SundayBetweenChristmasOctaveAndEpiphany => {
-                "SUNDAY_BETWEEN_CHRISTMAS_OCTAVE_AND_EPIPHANY"
-            }
-            Self::ChristTheKing => "CHRIST_THE_KING",
-        }
-    }
-}
+// Not used
+// impl MovableBase {
+//     pub fn as_str(&self) -> &'static str {
+//         match self {
+//             Self::EasterSunday => "EASTER_SUNDAY",
+//             Self::PalmSunday => "PALM_SUNDAY",
+//             Self::DivineMercySunday => "DIVINE_MERCY_SUNDAY",
+//             Self::Pentecost => "PENTECOST",
+//             Self::TrinitySunday => "TRINITY_SUNDAY",
+//             Self::SecondSundayAfterPentecost => "SECOND_SUNDAY_AFTER_PENTECOST",
+//             Self::FirstAdventSunday => "FIRST_ADVENT_SUNDAY",
+//             Self::SundayAfterEpiphany => "SUNDAY_AFTER_EPIPHANY",
+//             Self::SundayWithinChristmasOctaveOrDec30 => "SUNDAY_WITHIN_CHRISTMAS_OCTAVE_OR_DEC30",
+//             Self::BaptismOfTheLord => "BAPTISM_OF_THE_LORD",
+//             Self::AshWednesday => "ASH_WEDNESDAY",
+//             Self::HolyThursday => "HOLY_THURSDAY",
+//             Self::AscensionSunday => "ASCENSION_SUNDAY",
+//             Self::Epiphany => "EPIPHANY",
+//             Self::SaintJoseph => "SAINT_JOSEPH",
+//             Self::Annunciation => "ANNUNCIATION",
+//             Self::ImmaculateConception => "IMMACULATE_CONCEPTION",
+//             Self::SeptuagesimaSunday => "SEPTUAGESIMA_SUNDAY",
+//             Self::PassionSunday => "PASSION_SUNDAY",
+//             Self::SundayBetweenChristmasOctaveAndEpiphany => {
+//                 "SUNDAY_BETWEEN_CHRISTMAS_OCTAVE_AND_EPIPHANY"
+//             }
+//             Self::ChristTheKing => "CHRIST_THE_KING",
+//         }
+//     }
+// }
 
 #[derive(Debug, Clone, Copy, PartialEq)]
 pub enum CalendarType {
@@ -123,17 +124,20 @@ pub enum ChristKingMode {
     LastSundayOfOctober,    // Christ the King is celebrated on the last Sunday of October (1962)
 }
 
+// Not used
 #[derive(Debug, Clone, Copy, PartialEq)]
 pub enum AscensionMode {
     Thursday, // Ascension is celebrated on Thursday (traditional)
-    Sunday,   // Ascension is celebrated on the following Sunday (some dioceses)
+              // Sunday not used - commented for compiling
+              // Sunday, // Ascension is celebrated on the following Sunday (some dioceses)
 }
 
-#[derive(Debug, Clone, Copy, PartialEq)]
-pub enum CorpusChristiMode {
-    Thursday,
-    Sunday,
-}
+// Not used - commented for compiling
+// #[derive(Debug, Clone, Copy, PartialEq)]
+// pub enum CorpusChristiMode {
+//     Thursday,
+//     Sunday,
+// }
 
 // Global Configuration for liturgical calendar calculations, including calendar type and epiphany mode.
 #[derive(Debug, Clone, Copy)]
@@ -142,7 +146,7 @@ pub struct LiturgicalConfig {
     pub epiphany_mode: EpiphanyMode,
     pub christ_king_mode: ChristKingMode,
     pub ascension_mode: AscensionMode,
-    pub corpus_christi_mode: CorpusChristiMode,
+    // pub corpus_christi_mode: CorpusChristiMode,
 }
 // Default configuration: Gregorian calendar with fixed Epiphany on Jan 6.
 impl Default for LiturgicalConfig {
@@ -152,7 +156,7 @@ impl Default for LiturgicalConfig {
             epiphany_mode: EpiphanyMode::FixedJan6,
             christ_king_mode: ChristKingMode::LastSundayBeforeAdvent,
             ascension_mode: AscensionMode::Thursday,
-            corpus_christi_mode: CorpusChristiMode::Thursday,
+            // corpus_christi_mode: CorpusChristiMode::Thursday,
         }
     }
 }
@@ -304,18 +308,19 @@ pub fn baptism_of_the_lord(year: i32, config: LiturgicalConfig) -> NaiveDate {
     epiphany + Duration::days(days_until_sunday as i64)
 }
 
+// Not used right now so we comment it for compiling
 // Returns the date of the first Sunday after the Baptism of the Lord for the given year.
-fn first_sunday_after_baptism(year: i32, config: LiturgicalConfig) -> NaiveDate {
-    let baptism = baptism_of_the_lord(year, config);
-
-    let mut date = baptism + Duration::days(1);
-
-    while date.weekday() != Weekday::Sun {
-        date += Duration::days(1);
-    }
-
-    date
-}
+// fn first_sunday_after_baptism(year: i32, config: LiturgicalConfig) -> NaiveDate {
+//     let baptism = baptism_of_the_lord(year, config);
+//
+//     let mut date = baptism + Duration::days(1);
+//
+//     while date.weekday() != Weekday::Sun {
+//         date += Duration::days(1);
+//     }
+//
+//     date
+// }
 
 /// Returns the date of Ash Wednesday for the given year.
 /// Ash Wednesday is 46 days before Easter Sunday (40 days of Lent + 6 Sundays).
@@ -333,7 +338,7 @@ pub fn holy_thursday(year: i32, config: LiturgicalConfig) -> NaiveDate {
 pub fn ascension_sunday(year: i32, config: LiturgicalConfig) -> NaiveDate {
     match config.ascension_mode {
         AscensionMode::Thursday => offset(easter_sunday(year, config), 39),
-        AscensionMode::Sunday => offset(easter_sunday(year, config), 42),
+        // AscensionMode::Sunday => offset(easter_sunday(year, config), 42),
     }
 }
 
