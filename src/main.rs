@@ -34,6 +34,11 @@ async fn main() -> std::io::Result<()> {
         cfg.port
     );
 
+    //     let hash = crate::modules::auth::service::hash_password("PASSWORDTEST")
+    //         .expect("Erreur génération hash");
+    //
+    //     println!("HASH PASSWORD: {}", hash);
+
     HttpServer::new(move || {
         App::new()
             .wrap(global_rl.clone()) // en premier = le plus interne → 429 passe par CORS

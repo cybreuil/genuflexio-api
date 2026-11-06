@@ -1,5 +1,6 @@
 use argon2::{
-    password_hash::{rand_core::OsRng, PasswordHash, PasswordHasher, PasswordVerifier, SaltString},
+    // password_hash::{rand_core::OsRng, PasswordHasher, SaltString},
+    password_hash::{PasswordHash, PasswordVerifier},
     Argon2,
 };
 use chrono::{Duration, Utc};
@@ -16,13 +17,13 @@ use super::repo;
 
 // ── Crypto helpers ────────────────────────────────────────────────────────────
 
-pub fn hash_password(password: &str) -> Result<String, ApiError> {
-    let salt = SaltString::generate(&mut OsRng);
-    Argon2::default()
-        .hash_password(password.as_bytes(), &salt)
-        .map(|h| h.to_string())
-        .map_err(|_| ApiError::InternalError)
-}
+// pub fn hash_password(password: &str) -> Result<String, ApiError> {
+//     let salt = SaltString::generate(&mut OsRng);
+//     Argon2::default()
+//         .hash_password(password.as_bytes(), &salt)
+//         .map(|h| h.to_string())
+//         .map_err(|_| ApiError::InternalError)
+// }
 
 pub fn verify_password(hash: &str, password: &str) -> bool {
     let Ok(parsed) = PasswordHash::new(hash) else {

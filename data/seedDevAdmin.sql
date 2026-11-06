@@ -19,8 +19,8 @@ BEGIN;
 
 INSERT INTO users (email, password_hash, role)
 VALUES (
-    'admin@genuflexio.local',
-    '$argon2id$v=19$m=19456,t=2,p=1$xf+40i6bHcy1xCjvl4jJFQ$fgWs/clbWUD7AQMS4PMfwSzm34CdBosOmxgn+IbDiVY',
+    'rip',
+    '$argon2id$v=19$m=19456,t=2,p=1$iyd7bJ418jQ9mdxpuC7nWw$gLW8pVmZLIE6QYgD3FnGTrAPXileaSfjpBLygavXmfM',
     'admin'
 )
 ON CONFLICT (email) DO UPDATE

@@ -38,6 +38,7 @@ pub enum MovableBase {
     PassionSunday,
     SundayBetweenChristmasOctaveAndEpiphany,
     ChristTheKing,
+    CorpusChristi,
 }
 
 impl TryFrom<&str> for MovableBase {
@@ -133,11 +134,11 @@ pub enum AscensionMode {
 }
 
 // Not used - commented for compiling
-// #[derive(Debug, Clone, Copy, PartialEq)]
-// pub enum CorpusChristiMode {
-//     Thursday,
-//     Sunday,
-// }
+#[derive(Debug, Clone, Copy, PartialEq)]
+pub enum CorpusChristiMode {
+    Thursday,
+    // Sunday,
+}
 
 // Global Configuration for liturgical calendar calculations, including calendar type and epiphany mode.
 #[derive(Debug, Clone, Copy)]
@@ -146,7 +147,7 @@ pub struct LiturgicalConfig {
     pub epiphany_mode: EpiphanyMode,
     pub christ_king_mode: ChristKingMode,
     pub ascension_mode: AscensionMode,
-    // pub corpus_christi_mode: CorpusChristiMode,
+    pub corpus_christi_mode: CorpusChristiMode,
 }
 // Default configuration: Gregorian calendar with fixed Epiphany on Jan 6.
 impl Default for LiturgicalConfig {
@@ -156,7 +157,7 @@ impl Default for LiturgicalConfig {
             epiphany_mode: EpiphanyMode::FixedJan6,
             christ_king_mode: ChristKingMode::LastSundayBeforeAdvent,
             ascension_mode: AscensionMode::Thursday,
-            // corpus_christi_mode: CorpusChristiMode::Thursday,
+            corpus_christi_mode: CorpusChristiMode::Thursday,
         }
     }
 }
@@ -339,6 +340,13 @@ pub fn ascension_sunday(year: i32, config: LiturgicalConfig) -> NaiveDate {
     match config.ascension_mode {
         AscensionMode::Thursday => offset(easter_sunday(year, config), 39),
         // AscensionMode::Sunday => offset(easter_sunday(year, config), 42),
+    }
+}
+
+pub fn corpus_christi(year: i32, config: LiturgicalConfig) -> NaiveDate {
+    match config.corpus_christi_mode {
+        CorpusChristiMode::Thursday => offset(easter_sunday(year, config), 60),
+        // CorpusChristiMode::Sunday => offset(easter_sunday(year, config), 63),
     }
 }
 
@@ -735,5 +743,6 @@ pub fn resolve_movable_date(
             offset_days,
         ),
         MovableBase::ChristTheKing => offset(christ_the_king(year, config), offset_days),
+        MovableBase::CorpusChristi => offset(corpus_christi(year, config), offset_days),
     }
 }
