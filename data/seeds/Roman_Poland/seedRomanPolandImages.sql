@@ -142,9 +142,9 @@ INSERT INTO images (
 ('/saints/pl/saint-hedwig-of-poland_bacciarelli.webp', 'Saint Hedwig of Poland', 'painting', 'Saint Hedwig of Poland Painting', 'Marcello Bacciarelli', '1768-1771', 18, 'Royal Castle (Warsaw)', NULL, 'Public Domain', NULL),
 ('/saints/pl/saint-hedwig-of-poland_simmler.webp', 'Saint Hedwig of Poland', 'painting', 'Saint Hedwig of Poland Painting', 'Józef Simmler', '1867', 19, 'National Museum (Warsaw)', NULL, 'Public Domain', NULL),
 
--- Saint Joseph Bilczewski
-('/saints/pl/saint-joseph-bilczewski.webp', 'Saint Joseph Bilczewski', 'painting', 'Saint Joseph Bilczewski Painting', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
-('/saints/pl/saint-joseph-bilczewski_2.webp', 'Saint Joseph Bilczewski', 'photograph', 'Saint Joseph Bilczewski Photograph', NULL, '20th Century', 20, NULL, NULL, 'Public Domain', NULL),
+-- Saint Josef Bilczewski
+('/saints/pl/saint-josef-bilczewski.webp', 'Saint Josef Bilczewski', 'painting', 'Saint Josef Bilczewski Painting', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/saint-josef-bilczewski_2.webp', 'Saint Josef Bilczewski', 'photograph', 'Saint Josef Bilczewski Photograph', NULL, '20th Century', 20, NULL, NULL, 'Public Domain', NULL),
 
 -- saints-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland
 ('/saints/pl/saints-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland.webp', 'Saints Benedykt, Jan, Mateusz, Isaak and Krystyn', 'painting', 'Saints Benedykt, Jan, Mateusz, Isaak and Krystyn Painting', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
