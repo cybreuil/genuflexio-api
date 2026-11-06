@@ -1,7 +1,6 @@
 use crate::core::error::ApiError;
 use crate::core::movable_dates::{resolve_movable_date, LiturgicalConfig, MovableBase};
 use chrono::NaiveDate;
-use std::collections::HashMap;
 
 #[derive(Debug, sqlx::FromRow, Clone)]
 pub struct LiturgicalSeasonIntervalRow {
