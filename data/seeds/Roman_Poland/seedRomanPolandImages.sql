@@ -147,7 +147,7 @@ INSERT INTO images (
 ('/saints/pl/saint-joseph-bilczewski_2.webp', 'Saint Joseph Bilczewski', 'photograph', 'Saint Joseph Bilczewski Photograph', NULL, '20th Century', 20, NULL, NULL, 'Public Domain', NULL),
 
 -- saints-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland
-('/saints/pl/saint-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland.webp', 'Saints Benedykt, Jan, Mateusz, Isaak and Krystyn', 'painting', 'Saints Benedykt, Jan, Mateusz, Isaak and Krystyn Painting', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
+('/saints/pl/saints-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland.webp', 'Saints Benedykt, Jan, Mateusz, Isaak and Krystyn', 'painting', 'Saints Benedykt, Jan, Mateusz, Isaak and Krystyn Painting', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
 
 -- Blessed Karolina Kózkówna
 ('/saints/pl/blessed-karolina-kozkowna.webp', 'Blessed Karolina Kózkówna', 'painting', 'Blessed Karolina Kózkówna Painting', NULL, NULL, NULL, NULL, NULL, 'Public Domain', NULL),
