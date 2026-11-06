@@ -216,6 +216,10 @@ echo "✅ Roman Portugal image dimensions updated."
 run_sql "$ROOT_DIR/data/seeds/updateImageDimensions/updateRomanPolandImageDimensions.sql"
 echo "✅ Roman Poland image dimensions updated."
 
+#seed Admin
+run_sql "$ROOT_DIR/data/seeds/seedAdmin.sql"
+echo "✅ Admin seeded."
+
 # ALL DONE !
 
 echo "✅ DB seeded."
