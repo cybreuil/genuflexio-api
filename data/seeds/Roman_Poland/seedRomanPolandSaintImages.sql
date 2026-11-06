@@ -145,19 +145,19 @@ JOIN (
 	('saint-joseph-bilczewski', '/saints/pl/saint-joseph-bilczewski_2.webp', 2, FALSE, 'subject'),
 
 	-- Saint Benedykt of Poland
-	('saint-benedykt-of-poland', '/saints/pl/saint-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland.webp', 1, TRUE, 'subject'),
+	('saint-benedykt-of-poland', '/saints/pl/saints-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland.webp', 1, TRUE, 'subject'),
 
 	-- Saint Jan of Poland
-	('saint-jan-of-poland', '/saints/pl/saint-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland.webp', 1, TRUE, 'subject'),
+	('saint-jan-of-poland', '/saints/pl/saints-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland.webp', 1, TRUE, 'subject'),
 
 	-- Saint Mateusz of Poland
-	('saint-mateusz-of-poland', '/saints/pl/saint-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland.webp', 1, TRUE, 'subject'),
+	('saint-mateusz-of-poland', '/saints/pl/saints-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland.webp', 1, TRUE, 'subject'),
 
 	-- Saint Isaak of Poland
-	('saint-isaak-of-poland', '/saints/pl/saint-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland.webp', 1, TRUE, 'subject'),
+	('saint-isaak-of-poland', '/saints/pl/saints-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland.webp', 1, TRUE, 'subject'),
 
 	-- Saint Krystyn of Poland
-	('saint-krystyn-of-poland', '/saints/pl/saint-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland.webp', 1, TRUE, 'subject'),
+	('saint-krystyn-of-poland', '/saints/pl/saints-benedykt-jan-mateusz-isaak-and-krystyn-the-first-martyrs-of-poland.webp', 1, TRUE, 'subject'),
 
 	-- Blessed Karolina Kózkówna
 	('blessed-karolina-kozkowna', '/saints/pl/blessed-karolina-kozkowna.webp', 1, TRUE, 'subject'),
