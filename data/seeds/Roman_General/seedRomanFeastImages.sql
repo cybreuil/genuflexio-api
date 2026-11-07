@@ -109,7 +109,7 @@ FROM (
     ('the-commemoration-of-all-the-faithful-departed','/feasts/all-souls.webp'),
     ('all-saints',                   '/feasts/all-saints.webp'),
     ('the-seven-holy-founders-of-the-servite-order', '/feasts/seven-servites.webp'),
-    ('the-first-martyrs-of-holy-roman-church',      '/feasts/first-martyrs.webp'),
+    ('the-first-martyrs-of-holy-roman-church',      '/feasts/first-martyrs-of-rome.webp'),
     ('saints-michael-gabriel-and-raphael-archangels',                         '/feasts/three-archangels.webp'),
     ('the-holy-guardian-angels', '/feasts/angel-guardian.webp')
 

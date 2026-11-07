@@ -1458,9 +1458,8 @@ INSERT INTO images (
 ('/feasts/all-souls.webp',               'Saint Lawrence Liberates Souls from Purgatory', 'painting', 'Saint Lawrence Liberates Souls from Purgatory', 'Lorenzo di Niccolò', '1412', 15, 'Brooklyn Museum', NULL, 'Public Domain', NULL),
 ('/feasts/all-saints.webp',              'The Forerunners of Christ with Saints and Martyrs', 'painting', 'All Saints', 'Fra Angelico', '1420', 15, 'National Gallery (London)', NULL, 'Public Domain', NULL),
 ('/feasts/seven-servites.webp',          'The Madonna with the Seven Founders of the Servite Order ', 'painting', 'The Seven Holy Founders of the Servite Order', 'Agostino Masucci', '1728', 18, 'Art Institute of Chicago', NULL, 'Public Domain', NULL),
-('/feasts/first-martyrs.webp', 			 'Nero''s Torches', 'painting', 'The First Martyrs of the Church of Rome', 'Henryk Siemiradzki', '1876', 19, 'National Museum in Kraków', NULL, 'Public Domain', NULL),
+('/feasts/first-martyrs-of-rome.webp', 			 'Nero''s Torches', 'painting', 'The First Martyrs of the Church of Rome', 'Henryk Siemiradzki', '1876', 19, 'National Museum in Kraków', NULL, 'Public Domain', NULL),
 ('/feasts/three-archangels.webp', 		 'The Three Archangels', 'painting', 'The Three Archangels', 'Marco d''Oggiono', '1516', 16, 'Pinacoteca di Brera', NULL, 'Public Domain', NULL),
 ('/feasts/angel-guardian.webp', 'Guardian Angel', 'painting', 'Guardian Angel', 'Pierre de Cortone', '1656', 17, 'Galleria Nazionale d''Arte Antica', NULL, 'Public Domain', NULL);
-
 
 COMMIT;
