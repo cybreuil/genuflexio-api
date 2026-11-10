@@ -9,7 +9,7 @@ SET cover_image_id = i.id
 FROM (
     VALUES
 
-    ('our-lady-of-czestochowa', '/feasts/our-lady-of-czestochowa.webp')
+    ('our-lady-of-czestochowa', '/images/feasts/our-lady-of-czestochowa.webp')
 
 ) AS x(feast_slug, image_url)
 JOIN images i ON i.image_url = x.image_url
