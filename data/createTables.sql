@@ -501,8 +501,8 @@ CREATE TABLE refresh_tokens (
 --     is_new_visitor  BOOLEAN NOT NULL DEFAULT TRUE
 -- );
 
-CREATE INDEX visits_visited_at_idx ON visits (visited_at DESC);
-CREATE INDEX visits_ip_idx ON visits (ip);
+-- CREATE INDEX visits_visited_at_idx ON visits (visited_at DESC);
+-- CREATE INDEX visits_ip_idx ON visits (ip);
 
 -- =========================================================
 -- 9) Index
