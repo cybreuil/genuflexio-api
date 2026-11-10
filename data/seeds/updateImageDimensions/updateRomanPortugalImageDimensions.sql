@@ -2,6 +2,7 @@
 -- Vérifier les chemins avant exécution.
 BEGIN;
 
+UPDATE images SET width = 450, height = 636 WHERE image_url = '/images/feasts/the-five-wounds-of-christ.webp';
 UPDATE images SET width = 383, height = 527 WHERE image_url = '/images/saints/pt/blessed-bartholomew-of-the-martyrs_2.webp';
 UPDATE images SET width = 1600, height = 1513 WHERE image_url = '/images/saints/pt/blessed-bartholomew-of-the-martyrs_andre.webp';
 UPDATE images SET width = 319, height = 450 WHERE image_url = '/images/saints/pt/blessed-bartholomew-of-the-martyrs.webp';
