@@ -111,7 +111,7 @@ pub async fn list_visits(
     let sql = format!(
         r#"
         SELECT id, visited_at, ip, country_code, country_name, city,
-               device, browser, os, path, referrer, language, timezone, is_new_visitor
+               device, browser, os, path, referrer, language, timezone, is_new_visitor, theme
         FROM visits
         WHERE {RANGE_FILTER}
         ORDER BY visited_at DESC, id DESC

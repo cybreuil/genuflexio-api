@@ -111,6 +111,7 @@ pub struct Visit {
     pub language: Option<String>,
     pub timezone: Option<String>,
     pub is_new_visitor: bool,
+    pub theme: Option<String>,
 }
 
 #[derive(Debug, Serialize, FromRow)]
