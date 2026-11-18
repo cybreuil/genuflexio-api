@@ -358,7 +358,7 @@ INSERT INTO places (code, country_code, latitude, longitude) VALUES
 ('AROUCA', 'PT', 40.9300, -8.2456),
 ('LORVAO', 'PT', 40.2597, -8.3208),
 ('PORTO', 'PT', 41.1579, -8.6291),
-('ATLANTIC-OCEAN', NULL, 28.5000, -16.0000), -- off the Canaries, martyrdom of Bl. Inácio de Azevedo and companions (1570)
+('ATLANTIC-OCEAN', 'ES', 28.5000, -16.0000), -- off the Canaries, martyrdom of Bl. Inácio de Azevedo and companions (1570)
 ('VIANA-DO-CASTELO', 'PT', 41.6932, -8.8329),
 ('BRAGA', 'PT', 41.5454, -8.4265),
 ('CEUTA', 'ES', 35.8894, -5.3198),
