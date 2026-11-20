@@ -575,7 +575,8 @@ pub fn week_number_roman_1960(date: NaiveDate, year: i32, config: LiturgicalConf
     let septuagesima = septuagesima_sunday(year, config);
     let ash_wednesday = ash_wednesday(year, config);
     let passion_sunday = passion_sunday(year, config);
-    let holy_thursday = holy_thursday(year, config);
+    // let holy_thursday = holy_thursday(year, config);
+    let palm_sunday = palm_sunday(year, config);
     let pentecost = pentecost(year, config);
 
     // ─────────────────────────────────────────────────────────────────────────
@@ -589,6 +590,25 @@ pub fn week_number_roman_1960(date: NaiveDate, year: i32, config: LiturgicalConf
         if week <= 4 {
             return Some(week);
         }
+    }
+
+    // ─────────────────────────────────────────────────────────────────────
+    // TIME AFTER EPIPHANY
+    // ─────────────────────────────────────────────────────────────────────────
+
+    let first_sunday_after_epiphany = NaiveDate::from_ymd_opt(year, 1, 7)?;
+
+    if date >= first_sunday_after_epiphany && date < septuagesima {
+        let first_sunday = first_sunday_after_epiphany
+            + Duration::days(
+                (7 - first_sunday_after_epiphany.weekday().num_days_from_sunday()) as i64 % 7,
+            );
+
+        let sunday = date - Duration::days(date.weekday().num_days_from_sunday() as i64);
+
+        let week = ((sunday - first_sunday).num_days() / 7) as u32 + 1;
+
+        return Some(week);
     }
 
     // ─────────────────────────────────────────────────────────────────────────
@@ -632,17 +652,21 @@ pub fn week_number_roman_1960(date: NaiveDate, year: i32, config: LiturgicalConf
     // PASSIONTIDE
     // ─────────────────────────────────────────────────────────────────────────
     //
-    // Passion Sunday = Week 1 of Passiontide.
-    //
-    // Passiontide begins on Passion Sunday and ends before Holy Thursday.
-    if date >= passion_sunday && date < holy_thursday {
-        let sunday = date - Duration::days(date.weekday().num_days_from_sunday() as i64);
+    // Passion Sunday = Week 1.
+    // Palm Sunday = Week 2.
+    // Holy Week has its own proper celebrations and no week number.
 
-        let week = ((sunday - passion_sunday).num_days() / 7) as u32 + 1;
+    if date >= passion_sunday && date < palm_sunday {
+        let week = 1;
+        return Some(week);
+    }
 
-        if week <= 2 {
-            return Some(week);
-        }
+    // ─────────────────────────────────────────────────────────────────────────
+    // HOLY WEEK / SACRED TRIDUUM
+    // ─────────────────────────────────────────────────────────────────────────
+
+    if date >= palm_sunday && date < easter {
+        return None;
     }
 
     // ─────────────────────────────────────────────────────────────────────────
