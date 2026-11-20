@@ -611,21 +611,23 @@ pub fn week_number_roman_1960(date: NaiveDate, year: i32, config: LiturgicalConf
     // ─────────────────────────────────────────────────────────────────────────
     //
     // First Sunday of Lent = Week 1.
-    //
-    // Ash Wednesday belongs to the first week of Lent.
-    // Therefore we normalize dates to the Sunday starting their liturgical week.
+    // Ash Wednesday and the following weekdays belong to Week 1.
+
     let first_lent = offset(easter, -42);
 
     if date >= ash_wednesday && date < passion_sunday {
         let sunday = date - Duration::days(date.weekday().num_days_from_sunday() as i64);
 
-        let week = ((sunday - first_lent).num_days() / 7) as u32 + 1;
+        let week = if sunday < first_lent {
+            1
+        } else {
+            ((sunday - first_lent).num_days() / 7) as u32 + 1
+        };
 
         if week <= 4 {
             return Some(week);
         }
     }
-
     // ─────────────────────────────────────────────────────────────────────────
     // PASSIONTIDE
     // ─────────────────────────────────────────────────────────────────────────

@@ -177,7 +177,7 @@ pub fn build_intervals(
     intervals.sort_by(|a, b| {
         a.start
             .cmp(&b.start)
-            .then(b.end.cmp(&a.end)) // longest first when same start (LENT 0 before LENT 1 in 1960)
+            .then(a.end.cmp(&b.end)) // shortest first when same start (LENT 0 before LENT 1 in 1960)
             .then_with(|| a.code.cmp(&b.code))
             .then(a.segment_index.cmp(&b.segment_index))
     });

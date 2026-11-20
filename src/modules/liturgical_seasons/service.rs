@@ -29,13 +29,12 @@ pub async fn get_liturgical_season(
 
     let intervals = liturgical_seasons::build_intervals(&rows, year, config)?;
 
-    for season in intervals {
-        if date >= season.start && date <= season.end {
-            return Ok(Some(season.into()));
-        }
-    }
+    let primary = intervals
+        .into_iter()
+        .filter(|season| date >= season.start && date <= season.end)
+        .min_by_key(|season| (season.end - season.start).num_days());
 
-    Ok(None)
+    Ok(primary.map(Into::into))
 }
 
 pub async fn list_liturgical_seasons(
