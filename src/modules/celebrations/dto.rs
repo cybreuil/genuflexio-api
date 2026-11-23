@@ -54,6 +54,7 @@ pub struct Saint {
     pub saint_century: Option<i16>,
     pub saint_life_label: Option<String>,
     pub saint_image_url: Option<String>,
+    // maybe should add role
 }
 impl From<SaintRow> for Saint {
     fn from(row: SaintRow) -> Self {
@@ -170,4 +171,52 @@ impl CelebrationWithSaints {
             saints: vec![],
         }
     }
+}
+impl CelebrationRow {
+    pub fn from_marian_saturday_feast(
+        feast: FeastRow,
+        rank: LiturgicalRankRow,
+        color: LiturgicalColor,
+    ) -> Self {
+        Self {
+            id: 0,
+            is_optional: false,
+            rank_id: rank.id,
+            feast_id: feast.id,
+            date_kind: Some("fixed".to_string()),
+            month: None,
+            day: None,
+            movable_base: None,
+            movable_offset_days: None,
+            notes: None,
+            observance_type: Some("normal".to_string()),
+            default_name: Some(feast.default_name),
+            feast_type: Some(feast.feast_type),
+            feast_name: Some(feast.name),
+            feast_description: feast.description,
+            feast_cover_image_id: None,
+            feast_cover_image_url: None,
+            liturgical_color_name: Some(color.label),
+            liturgical_color_hex: Some(color.hex),
+            rank_code: Some(rank.code),
+            rank_precedence: Some(rank.precedence),
+            rank_label: Some(rank.label),
+        }
+    }
+}
+#[derive(Debug, Serialize, FromRow)]
+pub struct FeastRow {
+    pub id: i32,
+    pub slug: String,
+    pub default_name: String,
+    pub name: String,
+    pub description: Option<String>,
+    pub feast_type: String,
+}
+
+#[derive(Debug, Serialize, FromRow)]
+pub struct LiturgicalColor {
+    pub code: String,
+    pub label: String,
+    pub hex: String,
 }

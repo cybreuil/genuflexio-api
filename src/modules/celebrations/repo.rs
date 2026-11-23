@@ -1,7 +1,7 @@
 use sqlx::PgPool;
 
-use super::dto::{CelebrationRow, LiturgicalRankRow, SaintRow};
-use crate::core::error::ApiError;
+use super::dto::{CelebrationRow, FeastRow, LiturgicalRankRow, SaintRow};
+use crate::{core::error::ApiError, modules::celebrations::dto};
 
 pub async fn get_celebrations(
     pool: &PgPool,
@@ -390,4 +390,61 @@ pub async fn get_claimed_feast_ids(
     .await?;
 
     Ok(ids)
+}
+
+// We need to get the feast for marian saturday fallback
+pub async fn get_feast_by_slug(
+    pool: &PgPool,
+    slug: &str,
+    language_code: &str,
+) -> Result<Option<dto::FeastRow>, ApiError> {
+    let row = sqlx::query_as::<_, FeastRow>(
+        r#"
+		SELECT
+			f.id,
+			f.slug,
+			f.default_name,
+			f.feast_type,
+			ft.name,
+			ft.description
+		FROM feasts f
+		LEFT JOIN feast_translations ft
+			ON f.id = ft.feast_id
+			AND ft.locale_code = $2
+		WHERE f.slug = $1
+		LIMIT 1
+		"#,
+    )
+    .bind(slug)
+    .bind(language_code)
+    .fetch_optional(pool)
+    .await?;
+
+    Ok(row)
+}
+
+pub async fn get_white_liturgical_color_by_code(
+    pool: &PgPool,
+    language_code: &str,
+) -> Result<Option<dto::LiturgicalColor>, ApiError> {
+    let row = sqlx::query_as::<_, dto::LiturgicalColor>(
+        r#"
+		SELECT
+			lc.code,
+			lct.label,
+			lc.hex_color AS hex
+		FROM liturgical_colors lc
+		LEFT JOIN liturgical_color_translations lct
+			ON lc.id = lct.color_id
+			AND lct.locale_code = $1
+		WHERE lc.code = $2
+		LIMIT 1
+		"#,
+    )
+    .bind(language_code)
+    .bind("WHITE")
+    .fetch_optional(pool)
+    .await?;
+
+    Ok(row)
 }

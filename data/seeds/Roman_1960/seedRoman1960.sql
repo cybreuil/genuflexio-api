@@ -13,6 +13,8 @@ BEGIN;
 -- =========================================================
 
 INSERT INTO feasts (slug, default_name, feast_type) VALUES
+-- Extra
+('saturday-of-the-virgin', 'Saturday of the Blessed Virgin Mary', 'marian'),
 -- January
 ('octave-day-of-the-nativity', 'Octave Day of the Nativity of the Lord', 'christological'),
 ('saints-fabian-and-sebastian-martyrs', 'Saints Fabian and Sebastian, Martyrs', 'saint'),
@@ -150,6 +152,10 @@ INSERT INTO feast_translations (feast_id, locale_code, name, description)
 SELECT f.id, 'en', x.name, NULL
 FROM feasts f
 JOIN (VALUES
+-- Extra
+('saturday-of-the-virgin', 'Saturday of the Blessed Virgin Mary'),
+
+-- January
 ('octave-day-of-the-nativity', 'Octave Day of the Nativity of the Lord'),
 ('saints-fabian-and-sebastian-martyrs', 'Saints Fabian and Sebastian, Martyrs'),
 ('saints-vincent-and-anastasius-martyrs', 'Saints Vincent and Anastasius, Martyrs'),
@@ -277,6 +283,10 @@ INSERT INTO feast_translations (feast_id, locale_code, name, description)
 SELECT f.id, 'fr', x.name, NULL
 FROM feasts f
 JOIN (VALUES
+--extra
+('saturday-of-the-virgin', 'Samedi de la Sainte Vierge Marie'),
+
+-- January
 ('octave-day-of-the-nativity', 'Octave de la Nativité du Seigneur'),
 ('saints-fabian-and-sebastian-martyrs', 'Saints Fabien et Sébastien, martyrs'),
 ('saints-vincent-and-anastasius-martyrs', 'Saints Vincent et Anastase, martyrs'),
@@ -404,6 +414,10 @@ INSERT INTO feast_translations (feast_id, locale_code, name, description)
 SELECT f.id, 'la', x.name, NULL
 FROM feasts f
 JOIN (VALUES
+--extra
+('saturday-of-the-virgin', 'Sabbato Sanctae Virginis Mariae'),
+
+--january
 ('octave-day-of-the-nativity', 'In Octava Nativitatis Domini'),
 ('saints-fabian-and-sebastian-martyrs', 'Sancti Fabianus et Sebastianus, martyres'),
 ('saints-vincent-and-anastasius-martyrs', 'Sancti Vincentius et Anastasius, martyres'),

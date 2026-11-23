@@ -306,6 +306,7 @@ pub async fn get_celebrations_by_date(
     let date =
         NaiveDate::from_ymd_opt(year, month as u32, day as u32).ok_or(ApiError::InternalError)?;
 
+    let is_saturday = date.weekday() == chrono::Weekday::Sat;
     let is_sunday = date.weekday() == chrono::Weekday::Sun;
 
     let is_ordinary_time = liturgical_season
@@ -325,6 +326,30 @@ pub async fn get_celebrations_by_date(
     if uses_roman_1960 {
         let config = calendars::mapper::to_liturgical_config(&calendars[0]);
         let rank_code = roman_1960_fallback_rank_code(date, year, config);
+
+        let should_add_marian_saturday =
+            is_saturday && !has_principal_celebration(&celebrations_with_saints);
+
+        if should_add_marian_saturday {
+            let feast = repo::get_feast_by_slug(pool, "saturday-of-the-virgin", lang)
+                .await?
+                .ok_or(ApiError::NotFound)?;
+            let rank = repo::get_rank_by_code(pool, "ROMAN_1960", "CLASS_IV", lang).await?;
+            let color_white = repo::get_white_liturgical_color_by_code(pool, lang)
+                .await?
+                .ok_or(ApiError::NotFound)?;
+
+            let celebration = CelebrationRow::from_marian_saturday_feast(feast, rank, color_white);
+            let celebration_with_saint = attach_saints(pool, vec![celebration], lang)
+                .await?
+                .pop()
+                .unwrap();
+
+            celebrations_with_saints.push(celebration_with_saint);
+
+            celebrations_with_saints.sort_by_key(|c| c.rank_precedence.unwrap_or(i16::MAX));
+        }
+
         let should_add_fallback = !has_principal_celebration(&celebrations_with_saints)
             || (is_sunday && !has_class_i_or_ii(&celebrations_with_saints))
             || (!is_sunday
@@ -333,6 +358,7 @@ pub async fn get_celebrations_by_date(
 
         if should_add_fallback {
             let rank = repo::get_rank_by_code(pool, "ROMAN_1960", rank_code, lang).await?;
+
             let feast_type = if is_sunday {
                 "sunday".to_string()
             } else {
