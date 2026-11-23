@@ -327,8 +327,9 @@ pub async fn get_celebrations_by_date(
         let config = calendars::mapper::to_liturgical_config(&calendars[0]);
         let rank_code = roman_1960_fallback_rank_code(date, year, config);
 
-        let should_add_marian_saturday =
-            is_saturday && !has_principal_celebration(&celebrations_with_saints);
+        let should_add_marian_saturday = is_saturday
+            && !has_principal_celebration(&celebrations_with_saints)
+            && rank_code == "CLASS_IV";
 
         if should_add_marian_saturday {
             let feast = repo::get_feast_by_slug(pool, "saturday-of-the-virgin", lang)
