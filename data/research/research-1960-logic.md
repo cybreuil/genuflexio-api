@@ -28,3 +28,7 @@ Mercredi, vendredi, samedi
 Automne
 Après le 3e dimanche de septembre (calendrier 1962)
 Mercredi, vendredi, samedi
+
+Concernant le Très Saint Nom de Jésus : il ne doit pas être placé au 27 décembre. Dans le calendrier de 1962, sa fête est célébrée le dimanche compris entre le 2 et le 5 janvier, ou le 2 janvier si aucun dimanche ne tombe dans cet intervalle.
+
+if secondary celebration rank --> commemoraison ?
