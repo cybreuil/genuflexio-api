@@ -1087,8 +1087,6 @@ INSERT INTO celebrations (
     rank_id,
     color_id,
     date_kind,
-    month,
-    day,
     movable_base,
     movable_offset_days,
     observance_type,
@@ -1101,8 +1099,6 @@ SELECT
     r.id,
     lc.id,
     x.date_kind,
-    x.month,
-    x.day,
     x.movable_base,
     x.movable_offset_days,
     x.observance_type,
@@ -1114,40 +1110,38 @@ JOIN calendars cal
 JOIN (
     VALUES
     ('monday-in-the-octave-of-easter',
-        'movable', NULL, NULL, 'EASTER_SUNDAY', 1,
+        'movable', 'EASTER_SUNDAY', 1,
         'CLASS_I', 'WHITE', 'octave',
         'Wikipedia 1960'),
 
     ('tuesday-in-the-octave-of-easter',
-        'movable', NULL, NULL, 'EASTER_SUNDAY', 2,
+        'movable', 'EASTER_SUNDAY', 2,
         'CLASS_I', 'WHITE', 'octave',
         'Wikipedia 1960'),
 
     ('wednesday-in-the-octave-of-easter',
-        'movable', NULL, NULL, 'EASTER_SUNDAY', 3,
+        'movable', 'EASTER_SUNDAY', 3,
         'CLASS_I', 'WHITE', 'octave',
         'Wikipedia 1960'),
 
     ('thursday-in-the-octave-of-easter',
-        'movable', NULL, NULL, 'EASTER_SUNDAY', 4,
+        'movable', 'EASTER_SUNDAY', 4,
         'CLASS_I', 'WHITE', 'octave',
         'Wikipedia 1960'),
 
     ('friday-in-the-octave-of-easter',
-        'movable', NULL, NULL, 'EASTER_SUNDAY', 5,
+        'movable', 'EASTER_SUNDAY', 5,
         'CLASS_I', 'WHITE', 'octave',
         'Wikipedia 1960'),
 
     ('saturday-in-the-octave-of-easter',
-        'movable', NULL, NULL, 'EASTER_SUNDAY', 6,
+        'movable', 'EASTER_SUNDAY', 6,
         'CLASS_I', 'WHITE', 'octave',
-        'Wikipedia 1960'),
+        'Wikipedia 1960')
 
 ) AS x(
     slug,
     date_kind,
-    month,
-    day,
     movable_base,
     movable_offset_days,
     rank_code,
@@ -1163,7 +1157,6 @@ JOIN liturgical_ranks r
 
 JOIN liturgical_colors lc
     ON lc.code = x.color_code
-
 ON CONFLICT (feast_id, calendar_id) DO NOTHING;
 
 -- =========================================================
@@ -1176,8 +1169,6 @@ INSERT INTO celebrations (
     rank_id,
     color_id,
     date_kind,
-    month,
-    day,
     movable_base,
     movable_offset_days,
     observance_type,
@@ -1190,8 +1181,6 @@ SELECT
     r.id,
     lc.id,
     x.date_kind,
-    x.month,
-    x.day,
     x.movable_base,
     x.movable_offset_days,
     'vigil',
@@ -1204,19 +1193,17 @@ JOIN (
     VALUES
 
     ('vigil-of-the-ascension',
-        'movable', NULL, NULL, 'ASCENSION_SUNDAY', -1,
+        'movable', 'ASCENSION_SUNDAY', -1,
         'CLASS_II', 'VIOLET',
         'Wikipedia 1960'),
 
     ('vigil-of-pentecost',
-        'movable', NULL, NULL, 'PENTECOST', -1,
+        'movable', 'PENTECOST', -1,
         'CLASS_I', 'RED',
-        'Wikipedia 1960'),
+        'Wikipedia 1960')
 ) AS x(
     slug,
     date_kind,
-    month,
-    day,
     movable_base,
     movable_offset_days,
     rank_code,
