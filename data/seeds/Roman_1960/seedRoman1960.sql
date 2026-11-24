@@ -1010,7 +1010,7 @@ JOIN (VALUES
 ('saint-lucy-virgin-and-martyr',                          12, 13, 'CLASS_III', 'RED',   'normal', FALSE, 'Wikipedia 1960'),
 ('saint-eusebius-of-vercelli-bishop',                     12, 16, 'CLASS_III', 'WHITE', 'normal', FALSE, 'Wikipedia 1960'),
 ('saint-thomas-apostle',                                  12, 21, 'CLASS_II',  'RED',   'normal', FALSE, 'Wikipedia 1960'),
-('christmas-vigil',                                       12, 24, 'CLASS_I',   'VIOLET','normal', FALSE, 'Wikipedia 1960'),
+('christmas-vigil',                                       12, 24, 'CLASS_I',   'PURPLE','normal', FALSE, 'Wikipedia 1960'),
 ('nativity-of-the-lord',                                  12, 25, 'CLASS_I',   'WHITE', 'octave', FALSE, 'Wikipedia 1960'),
 ('saint-stephen-the-first-martyr',                        12, 26, 'CLASS_II',  'RED',   'octave', FALSE, 'Wikipedia 1960'),
 ('saint-john-apostle-and-evangelist',                     12, 27, 'CLASS_II',  'WHITE', 'octave', FALSE, 'Wikipedia 1960'),
@@ -1194,7 +1194,7 @@ JOIN (
 
     ('vigil-of-the-ascension',
         'movable', 'ASCENSION_SUNDAY', -1,
-        'CLASS_II', 'VIOLET',
+        'CLASS_II', 'PURPLE',
         'Wikipedia 1960'),
 
     ('vigil-of-pentecost',
@@ -1257,43 +1257,43 @@ JOIN (
 
     -- -----------------------------------------------------
     -- EMBER DAYS OF ADVENT
-    -- CLASS II - VIOLET
+    -- CLASS II - PURPLE
     -- -----------------------------------------------------
 
     ('ember-wednesday-of-advent',
         'THIRD_ADVENT_SUNDAY', 3,
-        'CLASS_II', 'VIOLET', 'normal',
+        'CLASS_II', 'PURPLE', 'normal',
         '1960 General Rubrics 24'),
 
     ('ember-friday-of-advent',
         'THIRD_ADVENT_SUNDAY', 5,
-        'CLASS_II', 'VIOLET', 'normal',
+        'CLASS_II', 'PURPLE', 'normal',
         '1960 General Rubrics 24'),
 
     ('ember-saturday-of-advent',
         'THIRD_ADVENT_SUNDAY', 6,
-        'CLASS_II', 'VIOLET', 'normal',
+        'CLASS_II', 'PURPLE', 'normal',
         '1960 General Rubrics 24'),
 
 
     -- -----------------------------------------------------
     -- LENTEN EMBER DAYS
-    -- CLASS II - VIOLET
+    -- CLASS II - PURPLE
     -- -----------------------------------------------------
 
     ('ember-wednesday-of-lent',
         'FIRST_SUNDAY_OF_LENT', 3,
-        'CLASS_II', 'VIOLET', 'normal',
+        'CLASS_II', 'PURPLE', 'normal',
         '1960 General Rubrics 24'),
 
     ('ember-friday-of-lent',
         'FIRST_SUNDAY_OF_LENT', 5,
-        'CLASS_II', 'VIOLET', 'normal',
+        'CLASS_II', 'PURPLE', 'normal',
         '1960 General Rubrics 24'),
 
     ('ember-saturday-of-lent',
         'FIRST_SUNDAY_OF_LENT', 6,
-        'CLASS_II', 'VIOLET', 'normal',
+        'CLASS_II', 'PURPLE', 'normal',
         '1960 General Rubrics 24'),
 
 
@@ -1321,22 +1321,22 @@ JOIN (
 
     -- -----------------------------------------------------
     -- SEPTEMBER EMBER DAYS
-    -- CLASS II - VIOLET
+    -- CLASS II - PURPLE
     -- -----------------------------------------------------
 
     ('ember-wednesday-of-september',
         'THIRD_SUNDAY_OF_SEPTEMBER', 3,
-        'CLASS_II', 'VIOLET', 'normal',
+        'CLASS_II', 'PURPLE', 'normal',
         '1960 General Rubrics 24'),
 
     ('ember-friday-of-september',
         'THIRD_SUNDAY_OF_SEPTEMBER', 5,
-        'CLASS_II', 'VIOLET', 'normal',
+        'CLASS_II', 'PURPLE', 'normal',
         '1960 General Rubrics 24'),
 
     ('ember-saturday-of-september',
         'THIRD_SUNDAY_OF_SEPTEMBER', 6,
-        'CLASS_II', 'VIOLET', 'normal',
+        'CLASS_II', 'PURPLE', 'normal',
         '1960 General Rubrics 24')
 
 ) AS x(
@@ -1390,19 +1390,19 @@ JOIN (
     -- Septuagesima
     ('septuagesima-sunday',
         'SEPTUAGESIMA_SUNDAY', 0,
-        'CLASS_II', 'VIOLET',
+        'CLASS_II', 'PURPLE',
         '1960 General Rubrics 10-12'),
 
     -- Sexagesima
     ('sexagesima-sunday',
         'SEPTUAGESIMA_SUNDAY', 7,
-        'CLASS_II', 'VIOLET',
+        'CLASS_II', 'PURPLE',
         '1960 General Rubrics 10-12'),
 
     -- Quinquagesima
     ('quinquagesima-sunday',
         'SEPTUAGESIMA_SUNDAY', 14,
-        'CLASS_II', 'VIOLET',
+        'CLASS_II', 'PURPLE',
         '1960 General Rubrics 10-12')
 
 ) AS x(
