@@ -594,19 +594,17 @@ pub fn week_number_roman_1960(date: NaiveDate, year: i32, config: LiturgicalConf
 
     // ─────────────────────────────────────────────────────────────────────
     // TIME AFTER EPIPHANY
-    // ─────────────────────────────────────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────────────────
 
-    let first_sunday_after_epiphany = NaiveDate::from_ymd_opt(year, 1, 7)?;
+    let january_7 = NaiveDate::from_ymd_opt(year, 1, 7)?;
 
-    if date >= first_sunday_after_epiphany && date < septuagesima {
-        let first_sunday = first_sunday_after_epiphany
-            + Duration::days(
-                (7 - first_sunday_after_epiphany.weekday().num_days_from_sunday()) as i64 % 7,
-            );
+    let first_sunday =
+        january_7 + Duration::days(((7 - january_7.weekday().num_days_from_sunday()) % 7) as i64);
 
+    if date >= first_sunday && date < septuagesima {
         let sunday = date - Duration::days(date.weekday().num_days_from_sunday() as i64);
 
-        let week = ((sunday - first_sunday).num_days() / 7) as u32 + 1;
+        let week = ((sunday - first_sunday).num_days() / 7 + 1) as u32;
 
         return Some(week);
     }
