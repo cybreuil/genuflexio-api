@@ -15,8 +15,58 @@ BEGIN;
 INSERT INTO feasts (slug, default_name, feast_type) VALUES
 -- Extra
 ('saturday-of-the-virgin', 'Saturday of the Blessed Virgin Mary', 'marian'),
+-- quatre temps
+('ember-wednesday-of-advent', 'Ember Wednesday in Advent', 'liturgical'),
+('ember-friday-of-advent', 'Ember Friday in Advent', 'liturgical'),
+('ember-saturday-of-advent', 'Ember Saturday in Advent', 'liturgical'),
+
+('ember-wednesday-of-lent', 'Ember Wednesday in Lent', 'liturgical'),
+('ember-friday-of-lent', 'Ember Friday in Lent', 'liturgical'),
+('ember-saturday-of-lent', 'Ember Saturday in Lent', 'liturgical'),
+
+('ember-wednesday-after-pentecost', 'Ember Wednesday in the Octave of Pentecost', 'liturgical'),
+('ember-friday-after-pentecost', 'Ember Friday in the Octave of Pentecost', 'liturgical'),
+('ember-saturday-after-pentecost', 'Ember Saturday in the Octave of Pentecost', 'liturgical'),
+
+('ember-wednesday-of-september', 'September Ember Wednesday', 'liturgical'),
+('ember-friday-of-september', 'September Ember Friday', 'liturgical'),
+('ember-saturday-of-september', 'September Ember Saturday', 'liturgical'),
+
+-- septuagesima
+('septuagesima-sunday', 'Septuagesima Sunday', 'liturgical'),
+('sexagesima-sunday', 'Sexagesima Sunday', 'liturgical'),
+('quinquagesima-sunday', 'Quinquagesima Sunday', 'liturgical'),
+
+-- Pentecost Octave
+('monday-in-the-octave-of-pentecost',
+ 'Monday in the Octave of Pentecost',
+ 'liturgical'),
+
+('tuesday-in-the-octave-of-pentecost',
+ 'Tuesday in the Octave of Pentecost',
+ 'liturgical'),
+
+('thursday-in-the-octave-of-pentecost',
+ 'Thursday in the Octave of Pentecost',
+ 'liturgical'),
+
+('saturday-in-the-octave-of-pentecost',
+ 'Saturday in the Octave of Pentecost',
+ 'liturgical'),
+
+-- Vigil of Ascension
+('vigil-of-the-ascension',
+ 'Vigil of the Ascension',
+ 'vigil'),
+
+-- Vigil of Pentecost
+('vigil-of-pentecost',
+ 'Vigil of Pentecost',
+ 'vigil'),
+
+
 -- January
-('octave-day-of-the-nativity', 'Octave Day of the Nativity of the Lord', 'christological'),
+('circumcision-and-octave-day-of-the-nativity', 'Circumcision of Our Lord and Octave Day of the Nativity', 'christological'),
 ('saints-fabian-and-sebastian-martyrs', 'Saints Fabian and Sebastian, Martyrs', 'saint'),
 ('saints-vincent-and-anastasius-martyrs', 'Saints Vincent and Anastasius, Martyrs', 'saint'),
 ('saint-timothy-bishop-and-martyr-1962', 'Saint Timothy, Bishop and Martyr', 'saint'),
@@ -137,7 +187,6 @@ INSERT INTO feasts (slug, default_name, feast_type) VALUES
 ('commemoration-of-saint-saturninus', 'Commemoration of Saint Saturninus, Martyr', 'saint'),
 -- December
 ('saint-bibiana-virgin-and-martyr', 'Saint Bibiana, Virgin and Martyr', 'saint'),
-('vigil-of-christmas', 'Vigil of the Nativity of the Lord', 'christological'),
 ('fifth-day-within-octave-of-christmas', 'Fifth Day within the Octave of Christmas', 'christological'),
 ('sixth-day-within-octave-of-christmas', 'Sixth Day within the Octave of Christmas', 'christological'),
 ('seventh-day-within-octave-of-christmas', 'Seventh Day within the Octave of Christmas, with Commemoration of Saint Sylvester I', 'christological'),
@@ -154,9 +203,44 @@ FROM feasts f
 JOIN (VALUES
 -- Extra
 ('saturday-of-the-virgin', 'Saturday of the Blessed Virgin Mary'),
+-- Quatre temps
+-- Ember Days of Advent
+('ember-wednesday-of-advent', 'Ember Wednesday in Advent'),
+('ember-friday-of-advent', 'Ember Friday in Advent'),
+('ember-saturday-of-advent', 'Ember Saturday in Advent'),
+
+-- Lenten Ember Days
+('ember-wednesday-of-lent', 'Ember Wednesday in Lent'),
+('ember-friday-of-lent', 'Ember Friday in Lent'),
+('ember-saturday-of-lent', 'Ember Saturday in Lent'),
+
+-- Ember Days of Pentecost
+('ember-wednesday-after-pentecost', 'Ember Wednesday in the Octave of Pentecost'),
+('ember-friday-after-pentecost', 'Ember Friday in the Octave of Pentecost'),
+('ember-saturday-after-pentecost', 'Ember Saturday in the Octave of Pentecost'),
+
+-- September Ember Days
+('ember-wednesday-of-september', 'September Ember Wednesday'),
+('ember-friday-of-september', 'September Ember Friday'),
+('ember-saturday-of-september', 'September Ember Saturday'),
+
+-- Septuagesima
+('septuagesima-sunday', 'Septuagesima Sunday'),
+('sexagesima-sunday', 'Sexagesima Sunday'),
+('quinquagesima-sunday', 'Quinquagesima Sunday'),
+
+-- Pentecost Octave
+('monday-in-the-octave-of-pentecost', 'Monday in the Octave of Pentecost'),
+('tuesday-in-the-octave-of-pentecost', 'Tuesday in the Octave of Pentecost'),
+('thursday-in-the-octave-of-pentecost', 'Thursday in the Octave of Pentecost'),
+('saturday-in-the-octave-of-pentecost', 'Saturday in the Octave of Pentecost'),
+
+-- Vigils
+('vigil-of-the-ascension', 'Vigil of the Ascension'),
+('vigil-of-pentecost', 'Vigil of Pentecost'),
 
 -- January
-('octave-day-of-the-nativity', 'Octave Day of the Nativity of the Lord'),
+('circumcision-and-octave-day-of-the-nativity', 'Circumcision of Our Lord and Octave Day of the Nativity'),
 ('saints-fabian-and-sebastian-martyrs', 'Saints Fabian and Sebastian, Martyrs'),
 ('saints-vincent-and-anastasius-martyrs', 'Saints Vincent and Anastasius, Martyrs'),
 ('saint-timothy-bishop-and-martyr-1962', 'Saint Timothy, Bishop and Martyr'),
@@ -266,7 +350,6 @@ JOIN (VALUES
 ('commemoration-of-holy-four-crowned-martyrs', 'Commemoration of the Holy Four Crowned Martyrs'),
 ('commemoration-of-saint-saturninus', 'Commemoration of Saint Saturninus, Martyr'),
 ('saint-bibiana-virgin-and-martyr', 'Saint Bibiana, Virgin and Martyr'),
-('vigil-of-christmas', 'Vigil of the Nativity of the Lord'),
 ('fifth-day-within-octave-of-christmas', 'Fifth Day within the Octave of Christmas'),
 ('sixth-day-within-octave-of-christmas', 'Sixth Day within the Octave of Christmas'),
 ('seventh-day-within-octave-of-christmas', 'Seventh Day within the Octave of Christmas, with Commemoration of Saint Sylvester I'),
@@ -286,8 +369,43 @@ JOIN (VALUES
 --extra
 ('saturday-of-the-virgin', 'Samedi de la Sainte Vierge Marie'),
 
+-- Quatre-Temps de l'Avent
+('ember-wednesday-of-advent', 'Mercredi des Quatre-Temps de l’Avent'),
+('ember-friday-of-advent', 'Vendredi des Quatre-Temps de l’Avent'),
+('ember-saturday-of-advent', 'Samedi des Quatre-Temps de l’Avent'),
+
+-- Quatre-Temps de Carême
+('ember-wednesday-of-lent', 'Mercredi des Quatre-Temps de Carême'),
+('ember-friday-of-lent', 'Vendredi des Quatre-Temps de Carême'),
+('ember-saturday-of-lent', 'Samedi des Quatre-Temps de Carême'),
+
+-- Quatre-Temps de Pentecôte
+('ember-wednesday-after-pentecost', 'Mercredi des Quatre-Temps de Pentecôte'),
+('ember-friday-after-pentecost', 'Vendredi des Quatre-Temps de Pentecôte'),
+('ember-saturday-after-pentecost', 'Samedi des Quatre-Temps de Pentecôte'),
+
+-- Quatre-Temps de septembre
+('ember-wednesday-of-september', 'Mercredi des Quatre-Temps de septembre'),
+('ember-friday-of-september', 'Vendredi des Quatre-Temps de septembre'),
+('ember-saturday-of-september', 'Samedi des Quatre-Temps de septembre'),
+
+-- Septuagésime
+('septuagesima-sunday', 'Dimanche de la Septuagésime'),
+('sexagesima-sunday', 'Dimanche de la Sexagésime'),
+('quinquagesima-sunday', 'Dimanche de la Quinquagésime'),
+
+-- Octave de Pentecôte
+('monday-in-the-octave-of-pentecost', 'Lundi dans l’octave de la Pentecôte'),
+('tuesday-in-the-octave-of-pentecost', 'Mardi dans l’octave de la Pentecôte'),
+('thursday-in-the-octave-of-pentecost', 'Jeudi dans l’octave de la Pentecôte'),
+('saturday-in-the-octave-of-pentecost', 'Samedi dans l’octave de la Pentecôte'),
+
+-- Vigiles
+('vigil-of-the-ascension', 'Vigile de l’Ascension'),
+('vigil-of-pentecost', 'Vigile de la Pentecôte'),
+
 -- January
-('octave-day-of-the-nativity', 'Octave de la Nativité du Seigneur'),
+('circumcision-and-octave-day-of-the-nativity', 'Circoncision de Notre-Seigneur et Octave de la Nativité'),
 ('saints-fabian-and-sebastian-martyrs', 'Saints Fabien et Sébastien, martyrs'),
 ('saints-vincent-and-anastasius-martyrs', 'Saints Vincent et Anastase, martyrs'),
 ('saint-timothy-bishop-and-martyr-1962', 'Saint Timothée, évêque et martyr'),
@@ -397,7 +515,6 @@ JOIN (VALUES
 ('commemoration-of-holy-four-crowned-martyrs', 'Commémoration des quatre saints couronnés, martyrs'),
 ('commemoration-of-saint-saturninus', 'Commémoration de saint Saturnin, martyr'),
 ('saint-bibiana-virgin-and-martyr', 'Sainte Bibiane, vierge et martyre'),
-('vigil-of-christmas', 'Vigile de la Nativité du Seigneur'),
 ('fifth-day-within-octave-of-christmas', 'Cinquième jour dans l''octave de Noël'),
 ('sixth-day-within-octave-of-christmas', 'Sixième jour dans l''octave de Noël'),
 ('seventh-day-within-octave-of-christmas', 'Septième jour dans l''octave de Noël, avec commémoration de saint Sylvestre Ier'),
@@ -417,8 +534,43 @@ JOIN (VALUES
 --extra
 ('saturday-of-the-virgin', 'Sabbato Sanctae Virginis Mariae'),
 
+-- Quattuor Tempora Adventus
+('ember-wednesday-of-advent', 'Feria quarta Quattuor Temporum Adventus'),
+('ember-friday-of-advent', 'Feria sexta Quattuor Temporum Adventus'),
+('ember-saturday-of-advent', 'Sabbatum Quattuor Temporum Adventus'),
+
+-- Quattuor Tempora Quadragesimae
+('ember-wednesday-of-lent', 'Feria quarta Quattuor Temporum Quadragesimae'),
+('ember-friday-of-lent', 'Feria sexta Quattuor Temporum Quadragesimae'),
+('ember-saturday-of-lent', 'Sabbatum Quattuor Temporum Quadragesimae'),
+
+-- Quattuor Tempora Pentecostes
+('ember-wednesday-after-pentecost', 'Feria quarta Quattuor Temporum Pentecostes'),
+('ember-friday-after-pentecost', 'Feria sexta Quattuor Temporum Pentecostes'),
+('ember-saturday-after-pentecost', 'Sabbatum Quattuor Temporum Pentecostes'),
+
+-- Quattuor Tempora Septembris
+('ember-wednesday-of-september', 'Feria quarta Quattuor Temporum Septembris'),
+('ember-friday-of-september', 'Feria sexta Quattuor Temporum Septembris'),
+('ember-saturday-of-september', 'Sabbatum Quattuor Temporum Septembris'),
+
+-- Septuagesima
+('septuagesima-sunday', 'Dominica Septuagesima'),
+('sexagesima-sunday', 'Dominica Sexagesima'),
+('quinquagesima-sunday', 'Dominica Quinquagesima'),
+
+-- Octava Pentecostes
+('monday-in-the-octave-of-pentecost', 'Feria II infra Octavam Pentecostes'),
+('tuesday-in-the-octave-of-pentecost', 'Feria III infra Octavam Pentecostes'),
+('thursday-in-the-octave-of-pentecost', 'Feria V infra Octavam Pentecostes'),
+('saturday-in-the-octave-of-pentecost', 'Sabbato infra Octavam Pentecostes'),
+
+-- Vigiliae
+('vigil-of-the-ascension', 'In Vigilia Ascensionis Domini'),
+('vigil-of-pentecost', 'In Vigilia Pentecostes'),
+
 --january
-('octave-day-of-the-nativity', 'In Octava Nativitatis Domini'),
+('circumcision-and-octave-day-of-the-nativity', 'Circumcisio Domini et Octava Nativitatis'),
 ('saints-fabian-and-sebastian-martyrs', 'Sancti Fabianus et Sebastianus, martyres'),
 ('saints-vincent-and-anastasius-martyrs', 'Sancti Vincentius et Anastasius, martyres'),
 ('saint-timothy-bishop-and-martyr-1962', 'Sanctus Timotheus, episcopus et martyr'),
@@ -528,7 +680,6 @@ JOIN (VALUES
 ('commemoration-of-holy-four-crowned-martyrs', 'Commemoratio Sanctorum Quatuor Coronatorum, martyrum'),
 ('commemoration-of-saint-saturninus', 'Commemoratio Sancti Saturnini, martyris'),
 ('saint-bibiana-virgin-and-martyr', 'Sancta Bibiana, virgo et martyr'),
-('vigil-of-christmas', 'Vigilia Nativitatis Domini'),
 ('fifth-day-within-octave-of-christmas', 'Dies V infra Octavam Nativitatis'),
 ('sixth-day-within-octave-of-christmas', 'Dies VI infra Octavam Nativitatis'),
 ('seventh-day-within-octave-of-christmas', 'Dies VII infra Octavam Nativitatis cum Commemoratione Sancti Silvestri I'),
@@ -538,7 +689,7 @@ ON f.slug = x.slug
 ON CONFLICT (feast_id, locale_code) DO NOTHING;
 
 -- =========================================================
--- SECTION 5a: CELEBRATIONS FOR NEW FEASTS (ROMAN_1960)
+-- SECTION 5a: CELEBRATIONS FOR NEW FIXED FEASTS (ROMAN_1960)
 -- =========================================================
 
 INSERT INTO celebrations (feast_id, calendar_id, rank_id, color_id, date_kind, month, day, observance_type, is_optional, notes)
@@ -546,6 +697,9 @@ SELECT f.id, tcal.id, r.id, lc.id, 'fixed', x.month, x.day, x.observance_type, x
 FROM feasts f
 JOIN calendars tcal ON tcal.code = 'ROMAN_1960'
 JOIN (VALUES
+-- Extra
+-- Saturday of the Virgin Mary is custom made by Api, check module
+
 -- JANUARY
 ('octave-day-of-the-nativity',                        1,  1, 'CLASS_I',   'WHITE', 'normal', FALSE, 'Wikipedia 1960'),
 ('commemoration-of-saint-telesphorus',                1,  5, 'COMM',      'RED',   'normal', FALSE, 'Wikipedia 1960'),
@@ -667,7 +821,6 @@ JOIN (VALUES
 -- DECEMBER
 ('saint-bibiana-virgin-and-martyr',                   12,  2, 'CLASS_III', 'RED',   'normal', FALSE, 'Wikipedia 1960'),
 ('commemoration-of-saint-sabbas-abbot',               12,  5, 'COMM',      'WHITE', 'normal', FALSE, 'Wikipedia 1960'),
-('vigil-of-christmas',                                12, 24, 'CLASS_I',   'PURPLE','normal', FALSE, 'Wikipedia 1960'),
 ('fifth-day-within-octave-of-christmas',              12, 29, 'CLASS_II',  'WHITE', 'octave', FALSE, 'Wikipedia 1960'),
 ('sixth-day-within-octave-of-christmas',              12, 30, 'CLASS_II',  'WHITE', 'octave', FALSE, 'Wikipedia 1960'),
 ('seventh-day-within-octave-of-christmas',            12, 31, 'CLASS_II',  'WHITE', 'octave', FALSE, 'Wikipedia 1960')
@@ -678,7 +831,7 @@ LEFT JOIN liturgical_colors lc ON lc.code = x.color_code
 ON CONFLICT (feast_id, calendar_id) DO NOTHING;
 
 -- =========================================================
--- SECTION 5b: CELEBRATIONS FOR EXISTING ROMAN_GENERAL FEASTS
+-- SECTION 5b: CELEBRATIONS FOR EXISTING ROMAN_GENERAL FIXED FEASTS
 --             (new celebration row for ROMAN_1960)
 -- =========================================================
 
@@ -857,6 +1010,7 @@ JOIN (VALUES
 ('saint-lucy-virgin-and-martyr',                          12, 13, 'CLASS_III', 'RED',   'normal', FALSE, 'Wikipedia 1960'),
 ('saint-eusebius-of-vercelli-bishop',                     12, 16, 'CLASS_III', 'WHITE', 'normal', FALSE, 'Wikipedia 1960'),
 ('saint-thomas-apostle',                                  12, 21, 'CLASS_II',  'RED',   'normal', FALSE, 'Wikipedia 1960'),
+('christmas-vigil',                                       12, 24, 'CLASS_I',   'VIOLET','normal', FALSE, 'Wikipedia 1960'),
 ('nativity-of-the-lord',                                  12, 25, 'CLASS_I',   'WHITE', 'octave', FALSE, 'Wikipedia 1960'),
 ('saint-stephen-the-first-martyr',                        12, 26, 'CLASS_II',  'RED',   'octave', FALSE, 'Wikipedia 1960'),
 ('saint-john-apostle-and-evangelist',                     12, 27, 'CLASS_II',  'WHITE', 'octave', FALSE, 'Wikipedia 1960'),
@@ -868,8 +1022,417 @@ LEFT JOIN liturgical_colors lc ON lc.code = x.color_code
 ON CONFLICT (feast_id, calendar_id) DO NOTHING;
 
 -- =========================================================
--- SECTION 6: MOVABLE FEASTS (ROMAN_1960)
+-- SECTION 5c: MOVABLE FEASTS (ROMAN_1960)
 -- =========================================================
+
+-- =========================================================
+-- MOVABLE OCTAVES - ROMAN 1960
+-- =========================================================
+
+-- =========================================================
+-- PENTECOST OCTAVE FERIAS
+-- CLASS I - RED
+-- =========================================================
+
+INSERT INTO celebrations (
+    feast_id,
+    calendar_id,
+    rank_id,
+    color_id,
+    date_kind,
+    movable_base,
+    movable_offset_days,
+    observance_type,
+    is_optional,
+    notes
+)
+SELECT
+    f.id,
+    cal.id,
+    r.id,
+    lc.id,
+    'movable',
+    'PENTECOST',
+    x.movable_offset_days,
+    'octave',
+    FALSE,
+    'Wikipedia 1960'
+FROM feasts f
+JOIN calendars cal
+    ON cal.code = 'ROMAN_1960'
+JOIN (
+    VALUES
+    ('monday-in-the-octave-of-pentecost', 1),
+    ('tuesday-in-the-octave-of-pentecost', 2),
+    ('thursday-in-the-octave-of-pentecost', 4),
+    ('saturday-in-the-octave-of-pentecost', 6)
+) AS x(slug, movable_offset_days)
+    ON f.slug = x.slug
+JOIN liturgical_ranks r
+    ON r.calendar_id = cal.id
+    AND r.code = 'CLASS_I'
+JOIN liturgical_colors lc
+    ON lc.code = 'RED'
+
+ON CONFLICT (feast_id, calendar_id) DO NOTHING;
+
+-- =====================================================
+-- EASTER OCTAVE
+-- CLASS I - WHITE
+-- =====================================================
+
+INSERT INTO celebrations (
+    feast_id,
+    calendar_id,
+    rank_id,
+    color_id,
+    date_kind,
+    month,
+    day,
+    movable_base,
+    movable_offset_days,
+    observance_type,
+    is_optional,
+    notes
+)
+SELECT
+    f.id,
+    cal.id,
+    r.id,
+    lc.id,
+    x.date_kind,
+    x.month,
+    x.day,
+    x.movable_base,
+    x.movable_offset_days,
+    x.observance_type,
+    FALSE,
+    x.notes
+FROM feasts f
+JOIN calendars cal
+    ON cal.code = 'ROMAN_1960'
+JOIN (
+    VALUES
+    ('monday-in-the-octave-of-easter',
+        'movable', NULL, NULL, 'EASTER_SUNDAY', 1,
+        'CLASS_I', 'WHITE', 'octave',
+        'Wikipedia 1960'),
+
+    ('tuesday-in-the-octave-of-easter',
+        'movable', NULL, NULL, 'EASTER_SUNDAY', 2,
+        'CLASS_I', 'WHITE', 'octave',
+        'Wikipedia 1960'),
+
+    ('wednesday-in-the-octave-of-easter',
+        'movable', NULL, NULL, 'EASTER_SUNDAY', 3,
+        'CLASS_I', 'WHITE', 'octave',
+        'Wikipedia 1960'),
+
+    ('thursday-in-the-octave-of-easter',
+        'movable', NULL, NULL, 'EASTER_SUNDAY', 4,
+        'CLASS_I', 'WHITE', 'octave',
+        'Wikipedia 1960'),
+
+    ('friday-in-the-octave-of-easter',
+        'movable', NULL, NULL, 'EASTER_SUNDAY', 5,
+        'CLASS_I', 'WHITE', 'octave',
+        'Wikipedia 1960'),
+
+    ('saturday-in-the-octave-of-easter',
+        'movable', NULL, NULL, 'EASTER_SUNDAY', 6,
+        'CLASS_I', 'WHITE', 'octave',
+        'Wikipedia 1960'),
+
+) AS x(
+    slug,
+    date_kind,
+    month,
+    day,
+    movable_base,
+    movable_offset_days,
+    rank_code,
+    color_code,
+    observance_type,
+    notes
+)
+    ON f.slug = x.slug
+
+JOIN liturgical_ranks r
+    ON r.calendar_id = cal.id
+    AND r.code = x.rank_code
+
+JOIN liturgical_colors lc
+    ON lc.code = x.color_code
+
+ON CONFLICT (feast_id, calendar_id) DO NOTHING;
+
+-- =========================================================
+-- MOVABLE VIGILS - ROMAN 1960
+-- =========================================================
+
+INSERT INTO celebrations (
+    feast_id,
+    calendar_id,
+    rank_id,
+    color_id,
+    date_kind,
+    month,
+    day,
+    movable_base,
+    movable_offset_days,
+    observance_type,
+    is_optional,
+    notes
+)
+SELECT
+    f.id,
+    cal.id,
+    r.id,
+    lc.id,
+    x.date_kind,
+    x.month,
+    x.day,
+    x.movable_base,
+    x.movable_offset_days,
+    'vigil',
+    FALSE,
+    x.notes
+FROM feasts f
+JOIN calendars cal
+    ON cal.code = 'ROMAN_1960'
+JOIN (
+    VALUES
+
+    ('vigil-of-the-ascension',
+        'movable', NULL, NULL, 'ASCENSION_SUNDAY', -1,
+        'CLASS_II', 'VIOLET',
+        'Wikipedia 1960'),
+
+    ('vigil-of-pentecost',
+        'movable', NULL, NULL, 'PENTECOST', -1,
+        'CLASS_I', 'RED',
+        'Wikipedia 1960'),
+) AS x(
+    slug,
+    date_kind,
+    month,
+    day,
+    movable_base,
+    movable_offset_days,
+    rank_code,
+    color_code,
+    notes
+)
+    ON f.slug = x.slug
+
+JOIN liturgical_ranks r
+    ON r.calendar_id = cal.id
+    AND r.code = x.rank_code
+
+JOIN liturgical_colors lc
+    ON lc.code = x.color_code
+
+ON CONFLICT (feast_id, calendar_id) DO NOTHING;
+
+-- Ember Days: Wednesday, Friday, Saturday of Advent, Lent, Pentecost, and September
+INSERT INTO celebrations (
+    feast_id,
+    calendar_id,
+    rank_id,
+    color_id,
+    date_kind,
+    movable_base,
+    movable_offset_days,
+    observance_type,
+    is_optional,
+    notes
+)
+
+SELECT
+    f.id,
+    cal.id,
+    r.id,
+    lc.id,
+    'movable',
+    x.movable_base,
+    x.movable_offset_days,
+    x.observance_type,
+    FALSE,
+    x.notes
+
+FROM feasts f
+
+JOIN calendars cal
+    ON cal.code = 'ROMAN_1960'
+
+JOIN (
+    VALUES
+
+    -- -----------------------------------------------------
+    -- EMBER DAYS OF ADVENT
+    -- CLASS II - VIOLET
+    -- -----------------------------------------------------
+
+    ('ember-wednesday-of-advent',
+        'THIRD_ADVENT_SUNDAY', 3,
+        'CLASS_II', 'VIOLET', 'normal',
+        '1960 General Rubrics 24'),
+
+    ('ember-friday-of-advent',
+        'THIRD_ADVENT_SUNDAY', 5,
+        'CLASS_II', 'VIOLET', 'normal',
+        '1960 General Rubrics 24'),
+
+    ('ember-saturday-of-advent',
+        'THIRD_ADVENT_SUNDAY', 6,
+        'CLASS_II', 'VIOLET', 'normal',
+        '1960 General Rubrics 24'),
+
+
+    -- -----------------------------------------------------
+    -- LENTEN EMBER DAYS
+    -- CLASS II - VIOLET
+    -- -----------------------------------------------------
+
+    ('ember-wednesday-of-lent',
+        'FIRST_SUNDAY_OF_LENT', 3,
+        'CLASS_II', 'VIOLET', 'normal',
+        '1960 General Rubrics 24'),
+
+    ('ember-friday-of-lent',
+        'FIRST_SUNDAY_OF_LENT', 5,
+        'CLASS_II', 'VIOLET', 'normal',
+        '1960 General Rubrics 24'),
+
+    ('ember-saturday-of-lent',
+        'FIRST_SUNDAY_OF_LENT', 6,
+        'CLASS_II', 'VIOLET', 'normal',
+        '1960 General Rubrics 24'),
+
+
+    -- -----------------------------------------------------
+    -- EMBER DAYS OF PENTECOST
+    -- CLASS I - RED
+    -- OCTAVE OF PENTECOST
+    -- -----------------------------------------------------
+
+    ('ember-wednesday-after-pentecost',
+        'PENTECOST', 3,
+        'CLASS_I', 'RED', 'octave',
+        '1960 General Rubrics 66'),
+
+    ('ember-friday-after-pentecost',
+        'PENTECOST', 5,
+        'CLASS_I', 'RED', 'octave',
+        '1960 General Rubrics 66'),
+
+    ('ember-saturday-after-pentecost',
+        'PENTECOST', 6,
+        'CLASS_I', 'RED', 'octave',
+        '1960 General Rubrics 66'),
+
+
+    -- -----------------------------------------------------
+    -- SEPTEMBER EMBER DAYS
+    -- CLASS II - VIOLET
+    -- -----------------------------------------------------
+
+    ('ember-wednesday-of-september',
+        'THIRD_SUNDAY_OF_SEPTEMBER', 3,
+        'CLASS_II', 'VIOLET', 'normal',
+        '1960 General Rubrics 24'),
+
+    ('ember-friday-of-september',
+        'THIRD_SUNDAY_OF_SEPTEMBER', 5,
+        'CLASS_II', 'VIOLET', 'normal',
+        '1960 General Rubrics 24'),
+
+    ('ember-saturday-of-september',
+        'THIRD_SUNDAY_OF_SEPTEMBER', 6,
+        'CLASS_II', 'VIOLET', 'normal',
+        '1960 General Rubrics 24')
+
+) AS x(
+    slug,
+    movable_base,
+    movable_offset_days,
+    rank_code,
+    color_code,
+    observance_type,
+    notes
+)
+
+    ON f.slug = x.slug
+
+JOIN liturgical_ranks r
+    ON r.calendar_id = cal.id
+    AND r.code = x.rank_code
+
+JOIN liturgical_colors lc
+    ON lc.code = x.color_code
+ON CONFLICT (feast_id, calendar_id) DO NOTHING;
+
+INSERT INTO celebrations (
+    feast_id,
+    calendar_id,
+    rank_id,
+    color_id,
+    date_kind,
+    movable_base,
+    movable_offset_days,
+    observance_type,
+    is_optional,
+    notes
+)
+SELECT
+    f.id,
+    cal.id,
+    r.id,
+    lc.id,
+    'movable',
+    x.movable_base,
+    x.movable_offset_days,
+    'normal',
+    FALSE,
+    x.notes
+FROM feasts f
+JOIN calendars cal
+    ON cal.code = 'ROMAN_1960'
+JOIN (
+    VALUES
+    -- Septuagesima
+    ('septuagesima-sunday',
+        'SEPTUAGESIMA_SUNDAY', 0,
+        'CLASS_II', 'VIOLET',
+        '1960 General Rubrics 10-12'),
+
+    -- Sexagesima
+    ('sexagesima-sunday',
+        'SEPTUAGESIMA_SUNDAY', 7,
+        'CLASS_II', 'VIOLET',
+        '1960 General Rubrics 10-12'),
+
+    -- Quinquagesima
+    ('quinquagesima-sunday',
+        'SEPTUAGESIMA_SUNDAY', 14,
+        'CLASS_II', 'VIOLET',
+        '1960 General Rubrics 10-12')
+
+) AS x(
+    slug,
+    movable_base,
+    movable_offset_days,
+    rank_code,
+    color_code,
+    notes
+)
+    ON f.slug = x.slug
+JOIN liturgical_ranks r
+    ON r.calendar_id = cal.id
+    AND r.code = x.rank_code
+JOIN liturgical_colors lc
+    ON lc.code = x.color_code
+ON CONFLICT (feast_id, calendar_id) DO NOTHING;
 
 -- Most Holy Name of Jesus: Sunday between octave of Christmas and Epiphany (or Jan 2 if no Sunday)
 INSERT INTO celebrations (feast_id, calendar_id, rank_id, color_id, date_kind, movable_base, movable_offset_days, observance_type, is_optional, notes)

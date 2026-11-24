@@ -23,10 +23,12 @@ pub enum MovableBase {
     TrinitySunday,
     SecondSundayAfterPentecost,
     FirstAdventSunday,
+    ThirdAdventSunday,
     SundayAfterEpiphany,
     SundayWithinChristmasOctaveOrDec30,
     BaptismOfTheLord,
     AshWednesday,
+    FirstSundayOfLent,
     HolyThursday,
     AscensionSunday,
     Epiphany,
@@ -39,6 +41,7 @@ pub enum MovableBase {
     SundayBetweenChristmasOctaveAndEpiphany,
     ChristTheKing,
     CorpusChristi,
+    ThirdSundayOfSeptember,
 }
 
 impl TryFrom<&str> for MovableBase {
@@ -53,12 +56,14 @@ impl TryFrom<&str> for MovableBase {
             "TRINITY_SUNDAY" => Ok(Self::TrinitySunday),
             "SECOND_SUNDAY_AFTER_PENTECOST" => Ok(Self::SecondSundayAfterPentecost),
             "FIRST_ADVENT_SUNDAY" => Ok(Self::FirstAdventSunday),
+            "THIRD_ADVENT_SUNDAY" => Ok(Self::ThirdAdventSunday),
             "SUNDAY_AFTER_EPIPHANY" => Ok(Self::SundayAfterEpiphany),
             "SUNDAY_WITHIN_CHRISTMAS_OCTAVE_OR_DEC30" => {
                 Ok(Self::SundayWithinChristmasOctaveOrDec30)
             }
             "BAPTISM_OF_THE_LORD" => Ok(Self::BaptismOfTheLord),
             "ASH_WEDNESDAY" => Ok(Self::AshWednesday),
+            "FIRST_SUNDAY_OF_LENT" => Ok(Self::FirstSundayOfLent),
             "HOLY_THURSDAY" => Ok(Self::HolyThursday),
             "ASCENSION_SUNDAY" => Ok(Self::AscensionSunday),
             "EPIPHANY" => Ok(Self::Epiphany),
@@ -71,6 +76,7 @@ impl TryFrom<&str> for MovableBase {
                 Ok(Self::SundayBetweenChristmasOctaveAndEpiphany)
             }
             "CHRIST_THE_KING" => Ok(Self::ChristTheKing),
+            "ThirdSundayOfSeptember" => Ok(Self::ThirdSundayOfSeptember),
             _ => Err(()),
         }
     }
@@ -248,6 +254,11 @@ pub fn first_advent_sunday(year: i32) -> NaiveDate {
 
     date
 }
+/// Returns the date of the Third Sunday of Advent.
+pub fn third_advent_sunday(year: i32) -> NaiveDate {
+    let first_advent = first_advent_sunday(year);
+    first_advent + Duration::days(14)
+}
 
 pub fn epiphany(year: i32, config: LiturgicalConfig) -> NaiveDate {
     match config.epiphany_mode {
@@ -327,6 +338,11 @@ pub fn baptism_of_the_lord(year: i32, config: LiturgicalConfig) -> NaiveDate {
 /// Ash Wednesday is 46 days before Easter Sunday (40 days of Lent + 6 Sundays).
 pub fn ash_wednesday(year: i32, config: LiturgicalConfig) -> NaiveDate {
     offset(easter_sunday(year, config), -46)
+}
+/// Returns the date of the First Sunday of Lent for the given year.
+/// The First Sunday of Lent is 42 days before Easter Sunday (6 weeks).
+pub fn first_sunday_of_lent(year: i32, config: LiturgicalConfig) -> NaiveDate {
+    offset(easter_sunday(year, config), -42)
 }
 
 /// Returns the date of Holy Thursday for the given year.
@@ -427,6 +443,16 @@ pub fn septuagesima_sunday(year: i32, config: LiturgicalConfig) -> NaiveDate {
 /// Passion Sunday is the second Sunday before Easter.
 pub fn passion_sunday(year: i32, config: LiturgicalConfig) -> NaiveDate {
     offset(easter_sunday(year, config), -14)
+}
+/// Returns the Third Sunday of September.
+pub fn third_sunday_of_september(year: i32) -> NaiveDate {
+    let mut date = NaiveDate::from_ymd_opt(year, 9, 15).unwrap();
+
+    while date.weekday() != Weekday::Sun {
+        date += Duration::days(1);
+    }
+
+    date
 }
 /// Returns the Sunday between the Christmas Octave and Epiphany.
 /// Used by the traditional Roman Calendar (1960 rubrics / 1962 Missal)
@@ -739,6 +765,7 @@ pub fn resolve_movable_date(
     match base {
         MovableBase::EasterSunday => offset(easter_sunday(year, config), offset_days),
         MovableBase::FirstAdventSunday => offset(first_advent_sunday(year), offset_days),
+        MovableBase::ThirdAdventSunday => offset(third_advent_sunday(year), offset_days),
         MovableBase::SundayAfterEpiphany => {
             offset(sunday_after_epiphany(year, config), offset_days)
         }
@@ -754,6 +781,7 @@ pub fn resolve_movable_date(
         }
         MovableBase::BaptismOfTheLord => offset(baptism_of_the_lord(year, config), offset_days),
         MovableBase::AshWednesday => offset(ash_wednesday(year, config), offset_days),
+        MovableBase::FirstSundayOfLent => offset(first_sunday_of_lent(year, config), offset_days),
         MovableBase::HolyThursday => offset(holy_thursday(year, config), offset_days),
         MovableBase::AscensionSunday => offset(ascension_sunday(year, config), offset_days),
         MovableBase::Epiphany => offset(epiphany(year, config), offset_days),
@@ -768,5 +796,6 @@ pub fn resolve_movable_date(
         ),
         MovableBase::ChristTheKing => offset(christ_the_king(year, config), offset_days),
         MovableBase::CorpusChristi => offset(corpus_christi(year, config), offset_days),
+        MovableBase::ThirdSundayOfSeptember => offset(third_sunday_of_september(year), offset_days),
     }
 }
