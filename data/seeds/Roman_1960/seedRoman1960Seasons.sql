@@ -203,7 +203,7 @@ INSERT INTO liturgical_season_intervals (
 )
 SELECT
     c.id,
-    'THROUGHOUT_THE_YEAR',
+    'AFTER_EPIPHANY',
     0,
     'fixed', 1, 14, NULL, 0,
     'movable', NULL, NULL, 'SEPTUAGESIMA_SUNDAY', -1,
@@ -297,33 +297,33 @@ WHERE c.code = 'ROMAN_1960';
 -- §74a
 -- =========================================================
 
-INSERT INTO liturgical_season_intervals (
-    calendar_id,
-    season_code,
-    segment_index,
-    start_kind,
-    start_month,
-    start_day,
-    start_movable_base,
-    start_offset_days,
-    end_kind,
-    end_month,
-    end_day,
-    end_movable_base,
-    end_offset_days,
-    inclusive,
-    notes
-)
-SELECT
-    c.id,
-    'LENT',
-    1,
-    'movable', NULL, NULL, 'ASH_WEDNESDAY', 0,
-    'movable', NULL, NULL, 'PASSION_SUNDAY', -1,
-    TRUE,
-    'Lent proper — 1960 rubrics §74a'
-FROM calendars c
-WHERE c.code = 'ROMAN_1960';
+-- INSERT INTO liturgical_season_intervals (
+--     calendar_id,
+--     season_code,
+--     segment_index,
+--     start_kind,
+--     start_month,
+--     start_day,
+--     start_movable_base,
+--     start_offset_days,
+--     end_kind,
+--     end_month,
+--     end_day,
+--     end_movable_base,
+--     end_offset_days,
+--     inclusive,
+--     notes
+-- )
+-- SELECT
+--     c.id,
+--     'LENT',
+--     1,
+--     'movable', NULL, NULL, 'ASH_WEDNESDAY', 0,
+--     'movable', NULL, NULL, 'PASSION_SUNDAY', -1,
+--     TRUE,
+--     'Lent proper — 1960 rubrics §74a'
+-- FROM calendars c
+-- WHERE c.code = 'ROMAN_1960';
 
 
 -- =========================================================
@@ -622,8 +622,8 @@ INSERT INTO liturgical_season_intervals (
 )
 SELECT
     c.id,
-    'THROUGHOUT_THE_YEAR',
-    1,
+    'AFTER_PENTECOST',
+    0,
     'movable', NULL, NULL, 'TRINITY_SUNDAY', 0,
     'movable', NULL, NULL, 'FIRST_ADVENT_SUNDAY', -1,
     TRUE,
@@ -658,7 +658,7 @@ JOIN (
         ('CHRISTMASTIDE',       'WHITE'),
         ('CHRISTMAS',           'WHITE'),
         ('EPIPHANY',             'WHITE'),
-        ('THROUGHOUT_THE_YEAR', 'GREEN'),
+        ('AFTER_EPIPHANY', 		'GREEN'),
         ('SEPTUAGESIMA',        'PURPLE'),
         ('LENT',                'PURPLE'),
         ('PASSIONTIDE',         'PURPLE'),
@@ -667,7 +667,8 @@ JOIN (
         ('PASCHALTIDE',         'WHITE'),
         ('EASTERTIDE',           'WHITE'),
         ('ASCENSIONTIDE',        'WHITE'),
-        ('PENTECOST_OCTAVE',     'RED')
+        ('PENTECOST_OCTAVE',     'RED'),
+        ('AFTER_PENTECOST',      'GREEN')
 ) AS x(season_code, color_code)
     ON c.code = 'ROMAN_1960'
 JOIN liturgical_colors lc

@@ -132,6 +132,8 @@ CREATE TABLE liturgical_seasons (
         'EASTERTIDE',
         -- Traditionnal extra :
         'THROUGHOUT_THE_YEAR',
+        'AFTER_EPIPHANY',
+        'AFTER_PENTECOST',
         'CHRISTMAS',
         'EPIPHANY',
         'SEPTUAGESIMA',
@@ -139,8 +141,7 @@ CREATE TABLE liturgical_seasons (
         'HOLY_WEEK',
         'PASCHALTIDE',
         'ASCENSIONTIDE',
-        'PENTECOST_OCTAVE',
-        'POST_PENTECOST'
+        'PENTECOST_OCTAVE'
     )),
     default_name TEXT NOT NULL
 );
